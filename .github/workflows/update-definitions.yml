@@ -1,0 +1,113 @@
+name: Update Definitions from EXDSchema
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-exdschema-definitions-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  EXDSCHEMA_REPO: https://github.com/xivdev/EXDSchema.git
+  EXDSCHEMA_BRANCH: latest
+  CONVERTER: scripts/exdschema_to_saintcoinach.py
+  DEFINITIONS_DIR: Definitions
+
+jobs:
+  update:
+    name: Convert and commit definitions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Ensure workflow was started from a branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${GITHUB_REF_TYPE}" != "branch" ]]; then
+            echo "This workflow must be dispatched from a branch."
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install converter dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check PyYAML
+
+      - name: Checkout latest EXDSchema
+        id: exdschema
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          EXD_DIR="${RUNNER_TEMP}/EXDSchema"
+          rm -rf "${EXD_DIR}"
+
+          git clone \
+            --depth 1 \
+            --branch "${EXDSCHEMA_BRANCH}" \
+            "${EXDSCHEMA_REPO}" \
+            "${EXD_DIR}"
+
+          EXD_SHA="$(git -C "${EXD_DIR}" rev-parse HEAD)"
+
+          echo "dir=${EXD_DIR}" >> "${GITHUB_OUTPUT}"
+          echo "sha=${EXD_SHA}" >> "${GITHUB_OUTPUT}"
+
+          echo "EXDSchema commit: ${EXD_SHA}"
+          echo "EXDSchema commit: \`${EXD_SHA}\`" >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Convert definitions
+        shell: bash
+        env:
+          EXD_DIR: ${{ steps.exdschema.outputs.dir }}
+        run: |
+          set -euo pipefail
+
+          if [[ ! -f "${CONVERTER}" ]]; then
+            echo "Converter not found: ${CONVERTER}"
+            exit 1
+          fi
+
+          rm -rf "${DEFINITIONS_DIR}"
+          mkdir -p "${DEFINITIONS_DIR}"
+
+          python "${CONVERTER}" \
+            "${EXD_DIR}" \
+            "${DEFINITIONS_DIR}" \
+            --warning-report "${RUNNER_TEMP}/conversion_warnings.json"
+
+          echo "Generated definition files: $(find "${DEFINITIONS_DIR}" -maxdepth 1 -type f -name '*.json' | wc -l)"
+
+      - name: Commit generated definitions
+        shell: bash
+        env:
+          EXD_SHA: ${{ steps.exdschema.outputs.sha }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A -- "${DEFINITIONS_DIR}"
+
+          git commit --allow-empty -m "${EXD_SHA}"
+
+      - name: Push commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git push origin "HEAD:${GITHUB_REF_NAME}"
