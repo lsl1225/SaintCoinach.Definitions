@@ -19,7 +19,7 @@
             }
           },
           {
-            "name": "Name",
+            "name": "Name{Stages}",
             "converter": {
               "type": "link",
               "target": "WKSCosmoToolName"
@@ -42,7 +42,7 @@
             }
           },
           {
-            "name": "Name",
+            "name": "Name{Types}",
             "converter": {
               "type": "link",
               "target": "WKSCosmoToolName"
