@@ -1,0 +1,8 @@
+{
+  "sheet": "ContentRewardCondition",
+  "definitions": [
+    {
+      "name": "MaxLevelCondition"
+    }
+  ]
+}

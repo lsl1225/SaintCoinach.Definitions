@@ -1,0 +1,23 @@
+{
+  "sheet": "QuestDefineClient",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "DefineVaue",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "Item",
+          "Quest",
+          "ENpcBase",
+          "EObjName",
+          "Level"
+        ]
+      }
+    }
+  ]
+}

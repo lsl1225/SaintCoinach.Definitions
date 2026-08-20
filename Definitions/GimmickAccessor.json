@@ -1,0 +1,109 @@
+{
+  "sheet": "GimmickAccessor",
+  "definitions": [
+    {
+      "name": "Param1",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "GimmickYesNo",
+            "when": {
+              "key": "Param0",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "GimmickYesNo",
+            "when": {
+              "key": "Param0",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "GimmickYesNo",
+            "when": {
+              "key": "Param0",
+              "value": 5
+            }
+          },
+          {
+            "sheet": "GimmickYesNo",
+            "when": {
+              "key": "Param0",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "GimmickYesNo",
+            "when": {
+              "key": "Param0",
+              "value": 10
+            }
+          },
+          {
+            "sheet": "GimmickYesNo",
+            "when": {
+              "key": "Param0",
+              "value": 14
+            }
+          },
+          {
+            "sheet": "GimmickTalk",
+            "when": {
+              "key": "Param0",
+              "value": 17
+            }
+          },
+          {
+            "sheet": "GimmickYesNo",
+            "when": {
+              "key": "Param0",
+              "value": 22
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "Param2"
+    },
+    {
+      "index": 2,
+      "name": "Type"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
+      "name": "Unknown2"
+    },
+    {
+      "index": 6,
+      "name": "Param0"
+    },
+    {
+      "index": 7,
+      "name": "Unknown6"
+    },
+    {
+      "index": 8,
+      "name": "Unknown3"
+    },
+    {
+      "index": 9,
+      "name": "Unknown4"
+    },
+    {
+      "index": 10,
+      "name": "Unknown5"
+    }
+  ]
+}

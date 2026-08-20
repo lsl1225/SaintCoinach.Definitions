@@ -1,0 +1,52 @@
+{
+  "sheet": "GeneralAction",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 4,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    },
+    {
+      "index": 6,
+      "name": "Recast"
+    },
+    {
+      "index": 7,
+      "name": "UIPriority"
+    },
+    {
+      "index": 8,
+      "name": "Unknown2"
+    },
+    {
+      "index": 9,
+      "name": "Unknown1"
+    }
+  ]
+}

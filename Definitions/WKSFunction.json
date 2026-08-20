@@ -1,0 +1,60 @@
+{
+  "sheet": "WKSFunction",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RequiredQuests0",
+        "converter": {
+          "type": "link",
+          "target": "Quest"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RequiredQuests1",
+        "converter": {
+          "type": "link",
+          "target": "Quest"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RequiredQuests2",
+        "converter": {
+          "type": "link",
+          "target": "Quest"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RequiredDevGrade",
+        "converter": {
+          "type": "link",
+          "target": "WKSDevGrade"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Unknown12"
+      }
+    }
+  ]
+}

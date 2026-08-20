@@ -1,0 +1,90 @@
+{
+  "sheet": "GcArmyExpedition",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "RewardItem",
+            "converter": {
+              "type": "link",
+              "target": "Item"
+            }
+          },
+          {
+            "name": "RequiredPhysical"
+          },
+          {
+            "name": "RequiredMental"
+          },
+          {
+            "name": "RequiredTactical"
+          },
+          {
+            "name": "RewardQuantity"
+          },
+          {
+            "name": "PercentPhysicalMet"
+          },
+          {
+            "name": "PercentMentalMet"
+          },
+          {
+            "name": "PercentTacticalMet"
+          },
+          {
+            "name": "PercentAllMet"
+          }
+        ]
+      }
+    },
+    {
+      "index": 56,
+      "name": "RewardExperience"
+    },
+    {
+      "index": 57,
+      "name": "RequiredSeals"
+    },
+    {
+      "index": 58,
+      "name": "RequiredFlag"
+    },
+    {
+      "index": 59,
+      "name": "UnlockFlag"
+    },
+    {
+      "index": 60,
+      "name": "RequiredLevel"
+    },
+    {
+      "index": 61,
+      "name": "PercentBase"
+    },
+    {
+      "index": 62,
+      "name": "Unknown0"
+    },
+    {
+      "index": 63,
+      "name": "GcArmyExpeditionType",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyExpeditionType"
+      }
+    }
+  ]
+}

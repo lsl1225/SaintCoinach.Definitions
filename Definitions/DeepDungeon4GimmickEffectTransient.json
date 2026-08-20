@@ -1,0 +1,13 @@
+{
+  "sheet": "DeepDungeon4GimmickEffectTransient",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    }
+  ]
+}

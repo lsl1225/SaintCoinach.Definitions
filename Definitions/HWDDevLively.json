@@ -1,0 +1,21 @@
+{
+  "sheet": "HWDDevLively",
+  "defaultColumn": "ENPC",
+  "definitions": [
+    {
+      "name": "ENPC",
+      "converter": {
+        "type": "link",
+        "target": "ENpcBase"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sheet": "MJIGatheringItem",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Radius"
+    },
+    {
+      "index": 1,
+      "name": "X"
+    },
+    {
+      "index": 2,
+      "name": "Y"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Sort"
+    }
+  ]
+}

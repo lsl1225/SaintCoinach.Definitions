@@ -1,0 +1,31 @@
+{
+  "sheet": "FieldMarker",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "VFX",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
+    },
+    {
+      "index": 2,
+      "name": "UiIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "MapIcon",
+      "converter": {
+        "type": "icon"
+      }
+    }
+  ]
+}

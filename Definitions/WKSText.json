@@ -1,0 +1,9 @@
+{
+  "sheet": "WKSText",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    }
+  ]
+}

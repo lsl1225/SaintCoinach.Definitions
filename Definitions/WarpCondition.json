@@ -1,0 +1,52 @@
+{
+  "sheet": "WarpCondition",
+  "definitions": [
+    {
+      "name": "RequiredQuest1",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "RequiredQuest2",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 2,
+      "name": "RequiredQuest3",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RequiredQuest4",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Gil"
+    },
+    {
+      "index": 5,
+      "name": "QuestReward"
+    },
+    {
+      "index": 6,
+      "name": "ClassLevel"
+    },
+    {
+      "index": 7,
+      "name": "CompleteParam"
+    }
+  ]
+}

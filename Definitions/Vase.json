@@ -1,0 +1,12 @@
+{
+  "sheet": "Vase",
+  "definitions": [
+    {
+      "name": "VaseFlowerStart"
+    },
+    {
+      "index": 1,
+      "name": "VaseFlowerEnd"
+    }
+  ]
+}

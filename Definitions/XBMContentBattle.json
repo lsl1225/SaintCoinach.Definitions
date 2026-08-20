@@ -1,0 +1,12 @@
+{
+  "sheet": "XBMContentBattle",
+  "definitions": [
+    {
+      "name": "BattleDetail",
+      "converter": {
+        "type": "link",
+        "target": "XBMBattleDetail"
+      }
+    }
+  ]
+}

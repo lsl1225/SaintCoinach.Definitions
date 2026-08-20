@@ -1,0 +1,36 @@
+{
+  "sheet": "MotionTimeline",
+  "definitions": [
+    {
+      "name": "Filename"
+    },
+    {
+      "index": 1,
+      "name": "BlendGroup"
+    },
+    {
+      "index": 2,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 3,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 4,
+      "name": "IsLoop"
+    },
+    {
+      "index": 5,
+      "name": "IsBlinkEnable"
+    },
+    {
+      "index": 6,
+      "name": "IsLipEnable"
+    },
+    {
+      "index": 7,
+      "name": "Unknown0"
+    }
+  ]
+}

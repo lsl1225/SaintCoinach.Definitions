@@ -1,0 +1,37 @@
+{
+  "sheet": "WKSEmergencyInfo",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "EmergencyProblem",
+        "converter": {
+          "type": "link",
+          "target": "WKSEmergencyProblem"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "WKSEmergencyMissionRowId"
+    },
+    {
+      "index": 3,
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "WKSEmergencyInfoText"
+      }
+    },
+    {
+      "index": 4,
+      "name": "WKSEmergencyWarningText",
+      "converter": {
+        "type": "link",
+        "target": "WKSEmergencyInfoText"
+      }
+    }
+  ]
+}

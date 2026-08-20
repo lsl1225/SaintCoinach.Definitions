@@ -1,0 +1,13 @@
+{
+  "sheet": "FCProfile",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Priority"
+    }
+  ]
+}

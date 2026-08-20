@@ -1,0 +1,92 @@
+{
+  "sheet": "RideShooting",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Unknown0"
+          },
+          {
+            "name": "PopRange"
+          },
+          {
+            "name": "ENpc",
+            "converter": {
+              "type": "link",
+              "target": "ENpcBase"
+            }
+          },
+          {
+            "name": "Unknown1"
+          },
+          {
+            "name": "Unknown2"
+          },
+          {
+            "name": "Unknown3"
+          },
+          {
+            "name": "Unknown4"
+          },
+          {
+            "name": "Unknown5"
+          },
+          {
+            "name": "ENpcScale"
+          },
+          {
+            "name": "Unknown6"
+          },
+          {
+            "name": "Unknown7"
+          },
+          {
+            "name": "Unknown8"
+          },
+          {
+            "name": "Unknown9"
+          },
+          {
+            "name": "Unknown10"
+          }
+        ]
+      }
+    },
+    {
+      "index": 112,
+      "name": "GFateRideShooting",
+      "converter": {
+        "type": "link",
+        "target": "GFateRideShooting"
+      }
+    },
+    {
+      "index": 113,
+      "name": "Unknown0"
+    },
+    {
+      "index": 114,
+      "name": "Unknown1"
+    },
+    {
+      "index": 115,
+      "name": "StartText",
+      "converter": {
+        "type": "link",
+        "target": "RideShootingTextData"
+      }
+    },
+    {
+      "index": 116,
+      "name": "Unknown2"
+    },
+    {
+      "index": 117,
+      "name": "Unknown3"
+    }
+  ]
+}

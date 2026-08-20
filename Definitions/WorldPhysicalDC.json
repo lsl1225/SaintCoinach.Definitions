@@ -1,0 +1,9 @@
+{
+  "sheet": "WorldPhysicalDC",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    }
+  ]
+}

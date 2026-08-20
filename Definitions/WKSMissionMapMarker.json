@@ -1,0 +1,23 @@
+{
+  "sheet": "WKSMissionMapMarker",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "X"
+    },
+    {
+      "index": 2,
+      "name": "Y"
+    },
+    {
+      "index": 3,
+      "name": "Radius"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "sheet": "WKSAchievementRewardItem",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ToolClass",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolClass"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    }
+  ]
+}

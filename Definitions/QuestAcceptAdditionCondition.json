@@ -1,0 +1,32 @@
+{
+  "sheet": "QuestAcceptAdditionCondition",
+  "definitions": [
+    {
+      "name": "Requirement0",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Requirement1",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
+      "name": "Unknown2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    }
+  ]
+}

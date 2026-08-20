@@ -1,0 +1,24 @@
+{
+  "sheet": "FittingShopCategoryItem",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "FittingShopItemSet",
+          "Item"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "DisplayId"
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    }
+  ]
+}

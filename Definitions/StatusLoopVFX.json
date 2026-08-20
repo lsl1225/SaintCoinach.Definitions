@@ -1,0 +1,45 @@
+{
+  "sheet": "StatusLoopVFX",
+  "defaultColumn": "VFX",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "VFX",
+        "converter": {
+          "type": "link",
+          "target": "VFX"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
+      "name": "Unknown2"
+    },
+    {
+      "index": 7,
+      "name": "Unknown3"
+    },
+    {
+      "index": 8,
+      "name": "Unknown4"
+    },
+    {
+      "index": 9,
+      "name": "Unknown5"
+    },
+    {
+      "index": 10,
+      "name": "Unknown6"
+    }
+  ]
+}

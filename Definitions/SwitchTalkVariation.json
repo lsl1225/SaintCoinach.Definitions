@@ -1,0 +1,33 @@
+{
+  "sheet": "SwitchTalkVariation",
+  "defaultColumn": "Quest0",
+  "definitions": [
+    {
+      "name": "Quest0",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Quest1",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DefaultTalk",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    }
+  ]
+}

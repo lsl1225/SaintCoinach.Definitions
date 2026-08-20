@@ -1,0 +1,44 @@
+{
+  "sheet": "MobHuntTarget",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 2,
+      "name": "FATE",
+      "converter": {
+        "type": "link",
+        "target": "Fate"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Map",
+      "converter": {
+        "type": "link",
+        "target": "Map"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    }
+  ]
+}

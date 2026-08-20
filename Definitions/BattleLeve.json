@@ -1,0 +1,112 @@
+{
+  "sheet": "BattleLeve",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Time"
+      }
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "BNpcName",
+            "converter": {
+              "type": "link",
+              "target": "BNpcName"
+            }
+          },
+          {
+            "name": "ToDoNumberInvolved"
+          },
+          {
+            "type": "repeat",
+            "count": 5,
+            "definition": {
+              "name": "ToDoParam"
+            }
+          },
+          {
+            "name": "BaseID",
+            "converter": {
+              "type": "multiref",
+              "targets": [
+                "EventItem",
+                "BNpcBase"
+              ]
+            }
+          },
+          {
+            "name": "ItemsInvolved",
+            "converter": {
+              "type": "link",
+              "target": "EventItem"
+            }
+          },
+          {
+            "name": "EnemyLevel"
+          },
+          {
+            "name": "ItemsInvolvedQty"
+          },
+          {
+            "name": "ItemDropRate"
+          },
+          {
+            "type": "repeat",
+            "count": 8,
+            "definition": {
+              "name": "NumOfAppearance"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 168,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "ToDoSequence"
+      }
+    },
+    {
+      "index": 176,
+      "name": "Rule",
+      "converter": {
+        "type": "link",
+        "target": "BattleLeveRule"
+      }
+    },
+    {
+      "index": 177,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "Objectives",
+        "converter": {
+          "type": "link",
+          "target": "LeveString"
+        }
+      }
+    },
+    {
+      "index": 180,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Help"
+      }
+    },
+    {
+      "index": 182,
+      "name": "Variant"
+    }
+  ]
+}

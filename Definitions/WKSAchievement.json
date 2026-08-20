@@ -1,0 +1,33 @@
+{
+  "sheet": "WKSAchievement",
+  "defaultColumn": "Description",
+  "definitions": [
+    {
+      "name": "Description"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "RewardItem",
+      "converter": {
+        "type": "link",
+        "target": "WKSAchievementRewardItem"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RewardAmount"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "Category"
+    }
+  ]
+}

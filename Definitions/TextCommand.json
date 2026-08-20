@@ -1,0 +1,57 @@
+{
+  "sheet": "TextCommand",
+  "defaultColumn": "Command",
+  "definitions": [
+    {
+      "name": "Description"
+    },
+    {
+      "index": 1,
+      "name": "Alias"
+    },
+    {
+      "index": 2,
+      "name": "ShortAlias"
+    },
+    {
+      "index": 3,
+      "name": "Command"
+    },
+    {
+      "index": 4,
+      "name": "ShortCommand"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    },
+    {
+      "index": 6,
+      "name": "Param",
+      "converter": {
+        "type": "link",
+        "target": "TextCommandParam"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown1"
+    },
+    {
+      "index": 8,
+      "name": "Unknown2"
+    },
+    {
+      "index": 9,
+      "name": "Unknown3"
+    },
+    {
+      "index": 10,
+      "name": "Unknown4"
+    },
+    {
+      "index": 11,
+      "name": "Unknown5"
+    }
+  ]
+}

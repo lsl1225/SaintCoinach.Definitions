@@ -1,0 +1,84 @@
+{
+  "sheet": "FishParameter",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 2,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 3,
+      "name": "Unknown_70_3"
+    },
+    {
+      "index": 4,
+      "name": "AchievementCredit"
+    },
+    {
+      "index": 5,
+      "name": "Item",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "Item"
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "name": "GatheringItemLevel",
+      "converter": {
+        "type": "link",
+        "target": "GatheringItemLevelConvertTable"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown1"
+    },
+    {
+      "index": 8,
+      "name": "FishingSpot",
+      "converter": {
+        "type": "link",
+        "target": "FishingSpot"
+      }
+    },
+    {
+      "index": 9,
+      "name": "GatheringSubCategory",
+      "converter": {
+        "type": "link",
+        "target": "GatheringSubCategory"
+      }
+    },
+    {
+      "index": 10,
+      "name": "OceanStars"
+    },
+    {
+      "index": 11,
+      "name": "FishingRecordType",
+      "converter": {
+        "type": "link",
+        "target": "FishingRecordType"
+      }
+    },
+    {
+      "index": 12,
+      "name": "IsHidden"
+    },
+    {
+      "index": 13,
+      "name": "IsInLog"
+    }
+  ]
+}

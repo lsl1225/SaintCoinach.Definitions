@@ -1,0 +1,9 @@
+{
+  "sheet": "WKSEmergencyInfoText",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    }
+  ]
+}

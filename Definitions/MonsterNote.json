@@ -1,0 +1,33 @@
+{
+  "sheet": "MonsterNote",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Reward"
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "MonsterNoteTarget",
+        "converter": {
+          "type": "link",
+          "target": "MonsterNoteTarget"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Count"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "sheet": "GatheringPoint",
+  "definitions": [
+    {
+      "name": "GatheringPointBase",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPointBase"
+      }
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "GatheringPointBonus",
+        "converter": {
+          "type": "link",
+          "target": "GatheringPointBonus"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 5,
+      "name": "GatheringSubCategory",
+      "converter": {
+        "type": "link",
+        "target": "GatheringSubCategory"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Type"
+    },
+    {
+      "index": 7,
+      "name": "Unknown0"
+    },
+    {
+      "index": 8,
+      "name": "Count"
+    },
+    {
+      "index": 9,
+      "name": "Unknown1"
+    }
+  ]
+}

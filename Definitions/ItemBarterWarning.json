@@ -1,0 +1,12 @@
+{
+  "sheet": "ItemBarterWarning",
+  "definitions": [
+    {
+      "name": "Achievement",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    }
+  ]
+}

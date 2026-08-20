@@ -1,0 +1,392 @@
+{
+  "sheet": "Action",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "UnlockLink",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "ChocoboTaxiStand",
+          "CraftLeve",
+          "CustomTalk",
+          "DefaultTalk",
+          "FccShop",
+          "GCShop",
+          "GilShop",
+          "GuildleveAssignment",
+          "GuildOrderGuide",
+          "GuildOrderOfficer",
+          "Quest",
+          "SpecialShop",
+          "Story",
+          "SwitchTalk",
+          "TopicSelect",
+          "TripleTriad",
+          "Warp"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "VFX",
+      "converter": {
+        "type": "link",
+        "target": "ActionCastVFX"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ActionTimelineHit",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 5,
+      "name": "PrimaryCostValue"
+    },
+    {
+      "index": 6,
+      "name": "SecondaryCostValue",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "SecondaryCostType",
+              "value": 32
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "SecondaryCostType",
+              "value": 35
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "SecondaryCostType",
+              "value": 46
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "ActionCombo",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Cast100ms"
+    },
+    {
+      "index": 9,
+      "name": "Recast100ms"
+    },
+    {
+      "index": 10,
+      "name": "ActionProcStatus",
+      "converter": {
+        "type": "link",
+        "target": "ActionProcStatus"
+      }
+    },
+    {
+      "index": 11,
+      "name": "StatusGainSelf",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Omen",
+      "converter": {
+        "type": "link",
+        "target": "Omen"
+      }
+    },
+    {
+      "index": 13,
+      "name": "OmenAlt",
+      "converter": {
+        "type": "link",
+        "target": "Omen"
+      }
+    },
+    {
+      "index": 14,
+      "name": "AnimationEnd",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ActionCategory",
+      "converter": {
+        "type": "link",
+        "target": "ActionCategory"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Unknown1"
+    },
+    {
+      "index": 17,
+      "name": "AnimationStart",
+      "converter": {
+        "type": "link",
+        "target": "ActionCastTimeline"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Unknown2"
+    },
+    {
+      "index": 19,
+      "name": "BehaviourType"
+    },
+    {
+      "index": 20,
+      "name": "ClassJobLevel"
+    },
+    {
+      "index": 21,
+      "name": "CastType"
+    },
+    {
+      "index": 22,
+      "name": "EffectRange"
+    },
+    {
+      "index": 23,
+      "name": "XAxisModifier"
+    },
+    {
+      "index": 24,
+      "name": "PrimaryCostType"
+    },
+    {
+      "index": 25,
+      "name": "SecondaryCostType"
+    },
+    {
+      "index": 26,
+      "name": "ExtraCastTime100ms"
+    },
+    {
+      "index": 27,
+      "name": "CooldownGroup"
+    },
+    {
+      "index": 28,
+      "name": "AdditionalCooldownGroup"
+    },
+    {
+      "index": 29,
+      "name": "MaxCharges"
+    },
+    {
+      "index": 30,
+      "name": "Aspect"
+    },
+    {
+      "index": 31,
+      "name": "Unknown4"
+    },
+    {
+      "index": 32,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 33,
+      "name": "AutoAttackBehaviour"
+    },
+    {
+      "index": 34,
+      "name": "EquivalenceGroup"
+    },
+    {
+      "index": 35,
+      "name": "Unknown_70"
+    },
+    {
+      "index": 36,
+      "name": "ClassJob",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
+      }
+    },
+    {
+      "index": 37,
+      "name": "Range"
+    },
+    {
+      "index": 38,
+      "name": "DeadTargetBehaviour"
+    },
+    {
+      "index": 39,
+      "name": "AttackType",
+      "converter": {
+        "type": "link",
+        "target": "AttackType"
+      }
+    },
+    {
+      "index": 40,
+      "name": "Unknown8"
+    },
+    {
+      "index": 41,
+      "name": "IsRoleAction"
+    },
+    {
+      "index": 42,
+      "name": "Unknown28"
+    },
+    {
+      "index": 43,
+      "name": "CanTargetSelf"
+    },
+    {
+      "index": 44,
+      "name": "CanTargetParty"
+    },
+    {
+      "index": 45,
+      "name": "CanTargetAlliance"
+    },
+    {
+      "index": 46,
+      "name": "CanTargetHostile"
+    },
+    {
+      "index": 47,
+      "name": "CanTargetAlly"
+    },
+    {
+      "index": 48,
+      "name": "Unknown10"
+    },
+    {
+      "index": 49,
+      "name": "TargetArea"
+    },
+    {
+      "index": 50,
+      "name": "CanTargetOwnPet"
+    },
+    {
+      "index": 51,
+      "name": "CanTargetPartyPet"
+    },
+    {
+      "index": 52,
+      "name": "RequiresLineOfSight"
+    },
+    {
+      "index": 53,
+      "name": "NeedToFaceTarget"
+    },
+    {
+      "index": 54,
+      "name": "Unknown14"
+    },
+    {
+      "index": 55,
+      "name": "PreservesCombo"
+    },
+    {
+      "index": 56,
+      "name": "Unknown15"
+    },
+    {
+      "index": 57,
+      "name": "AffectsPosition"
+    },
+    {
+      "index": 58,
+      "name": "IsPvP"
+    },
+    {
+      "index": 59,
+      "name": "Unknown16"
+    },
+    {
+      "index": 60,
+      "name": "LogCastMessage"
+    },
+    {
+      "index": 61,
+      "name": "Unknown18"
+    },
+    {
+      "index": 62,
+      "name": "LogMissMessage"
+    },
+    {
+      "index": 63,
+      "name": "LogActionMessage"
+    },
+    {
+      "index": 64,
+      "name": "Unknown21"
+    },
+    {
+      "index": 65,
+      "name": "Unknown22"
+    },
+    {
+      "index": 66,
+      "name": "Unknown23"
+    },
+    {
+      "index": 67,
+      "name": "CanUseWhileMounted"
+    },
+    {
+      "index": 68,
+      "name": "Unknown25"
+    },
+    {
+      "index": 69,
+      "name": "IsPlayerAction"
+    },
+    {
+      "index": 70,
+      "name": "Unknown27"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "sheet": "SpearfishingNotebook",
+  "defaultColumn": "PlaceName",
+  "definitions": [
+    {
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Radius"
+    },
+    {
+      "index": 2,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 3,
+      "name": "GatheringPointBase",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPointBase"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
+      "name": "X"
+    },
+    {
+      "index": 7,
+      "name": "Y"
+    },
+    {
+      "index": 8,
+      "name": "GatheringLevel"
+    },
+    {
+      "index": 9,
+      "name": "Unknown2"
+    },
+    {
+      "index": 10,
+      "name": "Unknown3"
+    },
+    {
+      "index": 11,
+      "name": "IsShadowNode"
+    }
+  ]
+}

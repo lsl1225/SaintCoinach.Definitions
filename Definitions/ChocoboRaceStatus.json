@@ -1,0 +1,21 @@
+{
+  "sheet": "ChocoboRaceStatus",
+  "defaultColumn": "Status",
+  "definitions": [
+    {
+      "name": "Status",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 1,
+      "name": "VFX",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "sheet": "WKSMissionReward",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "ExpModifier"
+      }
+    },
+    {
+      "index": 4,
+      "name": "CosmoCredits"
+    },
+    {
+      "index": 5,
+      "name": "PlanetCredits"
+    },
+    {
+      "index": 6,
+      "name": "BaseDronebits"
+    },
+    {
+      "index": 7,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "ResearchReward"
+      }
+    },
+    {
+      "index": 10,
+      "name": "ItemCount"
+    },
+    {
+      "index": 11,
+      "name": "Unknown19"
+    },
+    {
+      "index": 12,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "Tool",
+        "converter": {
+          "type": "link",
+          "target": "WKSCosmoToolClass"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "TypeIndex"
+      }
+    }
+  ]
+}

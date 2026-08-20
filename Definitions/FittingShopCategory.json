@@ -1,0 +1,13 @@
+{
+  "sheet": "FittingShopCategory",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "sheet": "GFateRideShooting",
+  "defaultColumn": "ContentEntry",
+  "definitions": [
+    {
+      "name": "ContentEntry",
+      "converter": {
+        "type": "link",
+        "target": "ContentEntry"
+      }
+    }
+  ]
+}

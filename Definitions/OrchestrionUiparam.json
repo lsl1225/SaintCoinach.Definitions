@@ -1,0 +1,16 @@
+{
+  "sheet": "OrchestrionUiparam",
+  "definitions": [
+    {
+      "name": "Order"
+    },
+    {
+      "index": 1,
+      "name": "OrchestrionCategory",
+      "converter": {
+        "type": "link",
+        "target": "OrchestrionCategory"
+      }
+    }
+  ]
+}

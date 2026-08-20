@@ -1,0 +1,125 @@
+{
+  "sheet": "HairMakeType",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Menu",
+            "converter": {
+              "type": "link",
+              "target": "Lobby"
+            }
+          },
+          {
+            "name": "SubMenuMask"
+          },
+          {
+            "name": "Customize"
+          },
+          {
+            "type": "repeat",
+            "count": 106,
+            "definition": {
+              "name": "SubMenuParam"
+            }
+          },
+          {
+            "name": "InitVal"
+          },
+          {
+            "name": "SubMenuType"
+          },
+          {
+            "name": "SubMenuNum"
+          },
+          {
+            "name": "LookAt"
+          },
+          {
+            "type": "repeat",
+            "count": 10,
+            "definition": {
+              "name": "SubMenuGraphic"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 1107,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Option1",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option2",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option3",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option4",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option5",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option6",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option7",
+            "converter": {
+              "type": "icon"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 1163,
+      "name": "Race",
+      "converter": {
+        "type": "link",
+        "target": "Race"
+      }
+    },
+    {
+      "index": 1164,
+      "name": "Tribe",
+      "converter": {
+        "type": "link",
+        "target": "Tribe"
+      }
+    },
+    {
+      "index": 1165,
+      "name": "Gender"
+    }
+  ]
+}

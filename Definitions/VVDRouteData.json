@@ -1,0 +1,13 @@
+{
+  "sheet": "VVDRouteData",
+  "defaultColumn": "NotebookEntry",
+  "definitions": [
+    {
+      "name": "NotebookEntry",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    }
+  ]
+}

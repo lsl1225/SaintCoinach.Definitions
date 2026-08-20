@@ -1,0 +1,16 @@
+{
+  "sheet": "TutorialGimmick",
+  "definitions": [
+    {
+      "name": "Image"
+    },
+    {
+      "index": 1,
+      "name": "Objective",
+      "converter": {
+        "type": "link",
+        "target": "Tutorial"
+      }
+    }
+  ]
+}

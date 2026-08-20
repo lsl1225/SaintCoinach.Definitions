@@ -1,0 +1,56 @@
+{
+  "sheet": "HWDGathererInspection",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 79,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "RequiredItem",
+            "converter": {
+              "type": "link",
+              "target": "GatheringItem"
+            }
+          },
+          {
+            "name": "FishParameter",
+            "converter": {
+              "type": "link",
+              "target": "FishParameter"
+            }
+          },
+          {
+            "name": "ItemReceived",
+            "converter": {
+              "type": "link",
+              "target": "Item"
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "Reward",
+              "converter": {
+                "type": "link",
+                "target": "HWDGathererInspectionReward"
+              }
+            }
+          },
+          {
+            "name": "AmountRequired"
+          },
+          {
+            "name": "Phase",
+            "converter": {
+              "type": "link",
+              "target": "HWDGathereInspectTerm"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

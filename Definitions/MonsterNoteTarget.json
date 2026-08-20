@@ -1,0 +1,52 @@
+{
+  "sheet": "MonsterNoteTarget",
+  "defaultColumn": "BNpcName",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "BNpcName",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "PlaceNameZone",
+        "converter": {
+          "type": "link",
+          "target": "PlaceName"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "PlaceNameLocation",
+        "converter": {
+          "type": "link",
+          "target": "PlaceName"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": "Town",
+      "converter": {
+        "type": "link",
+        "target": "Town"
+      }
+    }
+  ]
+}

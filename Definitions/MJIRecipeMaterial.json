@@ -1,0 +1,17 @@
+{
+  "sheet": "MJIRecipeMaterial",
+  "defaultColumn": "ItemPouch",
+  "definitions": [
+    {
+      "name": "ItemPouch",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    }
+  ]
+}

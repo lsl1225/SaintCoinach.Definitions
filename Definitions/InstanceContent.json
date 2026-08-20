@@ -1,0 +1,358 @@
+{
+  "sheet": "InstanceContent",
+  "defaultColumn": "ContentFinderCondition",
+  "definitions": [
+    {
+      "name": "NewPlayerBonusGil"
+    },
+    {
+      "index": 1,
+      "name": "NewPlayerBonusExp"
+    },
+    {
+      "index": 2,
+      "name": "FinalBossExp"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "BossExp"
+      }
+    },
+    {
+      "index": 9,
+      "name": "InstanceClearExp"
+    },
+    {
+      "index": 10,
+      "name": "InstanceClearGil"
+    },
+    {
+      "index": 11,
+      "name": "InstanceContentRewardItem",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentRewardItem"
+      }
+    },
+    {
+      "index": 12,
+      "name": "NewPlayerBonusA"
+    },
+    {
+      "index": 13,
+      "name": "NewPlayerBonusB"
+    },
+    {
+      "index": 14,
+      "name": "FinalBossCurrencyA"
+    },
+    {
+      "index": 15,
+      "name": "FinalBossCurrencyB"
+    },
+    {
+      "index": 16,
+      "name": "FinalBossCurrencyC"
+    },
+    {
+      "index": 17,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "BossCurrencyA"
+      }
+    },
+    {
+      "index": 22,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "BossCurrencyB"
+      }
+    },
+    {
+      "index": 27,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "BossCurrencyC"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Unknown1"
+    },
+    {
+      "index": 33,
+      "name": "Unknown8"
+    },
+    {
+      "index": 34,
+      "name": "LimitedTimeBonus"
+    },
+    {
+      "index": 35,
+      "name": "Cutscene",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 36,
+      "name": "LGBEventRange"
+    },
+    {
+      "index": 37,
+      "name": "InstanceContentTextDataBossStart",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 38,
+      "name": "InstanceContentTextDataBossEnd",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 39,
+      "name": "BNpcBaseBoss",
+      "converter": {
+        "type": "link",
+        "target": "BNpcBase"
+      }
+    },
+    {
+      "index": 40,
+      "name": "InstanceContentTextDataObjectiveStart",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 41,
+      "name": "InstanceContentTextDataObjectiveEnd",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 42,
+      "name": "Unknown2"
+    },
+    {
+      "index": 43,
+      "name": "ReqInstance",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
+      }
+    },
+    {
+      "index": 44,
+      "name": "InstanceContentBuff",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentBuff"
+      }
+    },
+    {
+      "index": 45,
+      "name": "TimeLimitmin"
+    },
+    {
+      "index": 46,
+      "name": "BGM",
+      "converter": {
+        "type": "link",
+        "target": "BGM"
+      }
+    },
+    {
+      "index": 47,
+      "name": "WinBGM",
+      "converter": {
+        "type": "link",
+        "target": "BGM"
+      }
+    },
+    {
+      "index": 48,
+      "name": "ContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 49,
+      "name": "SortKey"
+    },
+    {
+      "index": 50,
+      "name": "ContentRoute",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Tutorial",
+            "when": {
+              "key": "InstanceContentType",
+              "value": 8
+            }
+          },
+          {
+            "sheet": "IKDRoute",
+            "when": {
+              "key": "InstanceContentType",
+              "value": 16
+            }
+          },
+          {
+            "sheet": "VVDData",
+            "when": {
+              "key": "InstanceContentType",
+              "value": 19
+            }
+          },
+          {
+            "sheet": "VVDData",
+            "when": {
+              "key": "InstanceContentType",
+              "value": 20
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 51,
+      "name": "ContentDirectorManagedSG",
+      "converter": {
+        "type": "link",
+        "target": "ContentDirectorManagedSG"
+      }
+    },
+    {
+      "index": 52,
+      "name": "ContentTodo",
+      "converter": {
+        "type": "link",
+        "target": "ContentTodo"
+      }
+    },
+    {
+      "index": 53,
+      "name": "Unknown6"
+    },
+    {
+      "index": 54,
+      "name": "LookupIndex"
+    },
+    {
+      "index": 55,
+      "name": "ContentEventItem",
+      "converter": {
+        "type": "link",
+        "target": "ContentEventItem"
+      }
+    },
+    {
+      "index": 56,
+      "name": "ContentDirectorBattleTalk",
+      "converter": {
+        "type": "link",
+        "target": "ContentDirectorBattleTalk"
+      }
+    },
+    {
+      "index": 57,
+      "name": "PartyCondition"
+    },
+    {
+      "index": 58,
+      "name": "InstanceContentType",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentType"
+      }
+    },
+    {
+      "index": 59,
+      "name": "WeekRestriction"
+    },
+    {
+      "index": 60,
+      "name": "Unknown9"
+    },
+    {
+      "index": 61,
+      "name": "QTE1",
+      "converter": {
+        "type": "link",
+        "target": "QTE"
+      }
+    },
+    {
+      "index": 62,
+      "name": "QTE2",
+      "converter": {
+        "type": "link",
+        "target": "QTE"
+      }
+    },
+    {
+      "index": 63,
+      "name": "Unknown12"
+    },
+    {
+      "index": 64,
+      "name": "ContentAttributeRect",
+      "converter": {
+        "type": "link",
+        "target": "ContentAttributeRect"
+      }
+    },
+    {
+      "index": 65,
+      "name": "Unknown13"
+    },
+    {
+      "index": 66,
+      "name": "Unknown14"
+    },
+    {
+      "index": 67,
+      "name": "Unknown15"
+    },
+    {
+      "index": 68,
+      "name": "Unknown16"
+    },
+    {
+      "index": 69,
+      "name": "Unknown17"
+    },
+    {
+      "index": 70,
+      "name": "Unknown18"
+    },
+    {
+      "index": 71,
+      "name": "AllowPhoenixDown"
+    }
+  ]
+}

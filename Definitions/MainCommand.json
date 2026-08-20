@@ -1,0 +1,40 @@
+{
+  "sheet": "MainCommand",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Category"
+    },
+    {
+      "index": 4,
+      "name": "MainCommandCategory",
+      "converter": {
+        "type": "link",
+        "target": "MainCommandCategory"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    },
+    {
+      "index": 6,
+      "name": "SortID"
+    }
+  ]
+}

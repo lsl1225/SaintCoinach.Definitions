@@ -1,0 +1,39 @@
+{
+  "sheet": "PvPSeries",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 32,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "LevelRewardItem",
+              "converter": {
+                "type": "link",
+                "target": "Item"
+              }
+            }
+          },
+          {
+            "name": "Unknown0"
+          },
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "LevelRewardCount"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 160,
+      "name": "Unknown0"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "sheet": "MoveControl",
+  "definitions": [
+    {
+      "name": "Acceleration"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "GroundSpeed"
+    },
+    {
+      "index": 3,
+      "name": "RpWalkTurnSpeed"
+    },
+    {
+      "index": 4,
+      "name": "RpWalkSpeed"
+    },
+    {
+      "index": 5,
+      "name": "RpWalkStrafeSpeed"
+    },
+    {
+      "index": 6,
+      "name": "BackpedalSpeed"
+    },
+    {
+      "index": 7,
+      "name": "RotationStep"
+    },
+    {
+      "index": 8,
+      "name": "Unknown8"
+    },
+    {
+      "index": 9,
+      "name": "Unknown9"
+    }
+  ]
+}

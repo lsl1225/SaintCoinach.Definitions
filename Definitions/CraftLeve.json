@@ -1,0 +1,45 @@
+{
+  "sheet": "CraftLeve",
+  "defaultColumn": "Leve",
+  "definitions": [
+    {
+      "name": "Leve",
+      "converter": {
+        "type": "link",
+        "target": "Leve"
+      }
+    },
+    {
+      "index": 1,
+      "name": "CraftLeveTalk",
+      "converter": {
+        "type": "link",
+        "target": "CraftLeveTalk"
+      }
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "ItemCount"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Repeats"
+    }
+  ]
+}

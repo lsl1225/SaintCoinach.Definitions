@@ -1,0 +1,82 @@
+{
+  "sheet": "MKDRelicGrowth2ContentList",
+  "definitions": [
+    {
+      "name": "Description"
+    },
+    {
+      "index": 1,
+      "name": "Content",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "ContentRoulette",
+            "when": {
+              "key": "Category",
+              "value": 0
+            }
+          },
+          {
+            "sheet": "TerritoryType",
+            "when": {
+              "key": "Category",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "TerritoryType",
+            "when": {
+              "key": "Category",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "TerritoryType",
+            "when": {
+              "key": "Category",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "TerritoryType",
+            "when": {
+              "key": "Category",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "TerritoryType",
+            "when": {
+              "key": "Category",
+              "value": 5
+            }
+          },
+          {
+            "sheet": "TerritoryType",
+            "when": {
+              "key": "Category",
+              "value": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "MKDRelicGrowth2Category"
+      }
+    }
+  ]
+}

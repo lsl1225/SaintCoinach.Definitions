@@ -1,0 +1,76 @@
+{
+  "sheet": "WeeklyBingoMultipleOrder",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "Content",
+        "converter": {
+          "type": "link",
+          "target": "InstanceContent"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown5"
+    },
+    {
+      "index": 6,
+      "name": "Unknown6"
+    },
+    {
+      "index": 7,
+      "name": "Unknown7"
+    },
+    {
+      "index": 8,
+      "name": "Unknown8"
+    },
+    {
+      "index": 9,
+      "name": "Unknown9"
+    },
+    {
+      "index": 10,
+      "name": "Unknown10"
+    },
+    {
+      "index": 11,
+      "name": "Unknown11"
+    },
+    {
+      "index": 12,
+      "name": "Unknown12"
+    },
+    {
+      "index": 13,
+      "name": "Unknown13"
+    },
+    {
+      "index": 14,
+      "name": "Unknown14"
+    },
+    {
+      "index": 15,
+      "name": "Unknown15"
+    },
+    {
+      "index": 16,
+      "name": "Unknown16"
+    },
+    {
+      "index": 17,
+      "name": "Unknown17"
+    },
+    {
+      "index": 18,
+      "name": "Unknown18"
+    },
+    {
+      "index": 19,
+      "name": "Unknown19"
+    }
+  ]
+}

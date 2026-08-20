@@ -1,0 +1,86 @@
+{
+  "sheet": "BuddyEquip",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "Name"
+    },
+    {
+      "index": 3,
+      "name": "Adjective"
+    },
+    {
+      "index": 4,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 5,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 6,
+      "name": "Countability"
+    },
+    {
+      "index": 7,
+      "name": "Pronoun"
+    },
+    {
+      "index": 8,
+      "name": "Article"
+    },
+    {
+      "index": 9,
+      "name": "ModelTop"
+    },
+    {
+      "index": 10,
+      "name": "ModelBody"
+    },
+    {
+      "index": 11,
+      "name": "ModelLegs"
+    },
+    {
+      "index": 12,
+      "name": "IconHead",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 13,
+      "name": "IconBody",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 14,
+      "name": "IconLegs",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 15,
+      "name": "GrandCompany",
+      "converter": {
+        "type": "link",
+        "target": "GrandCompany"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Order"
+    }
+  ]
+}

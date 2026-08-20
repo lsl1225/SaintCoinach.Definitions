@@ -1,0 +1,12 @@
+{
+  "sheet": "BNpcResist",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 11,
+      "definition": {
+        "name": "Unknown0"
+      }
+    }
+  ]
+}

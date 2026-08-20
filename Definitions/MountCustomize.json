@@ -1,0 +1,24 @@
+{
+  "sheet": "MountCustomize",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 21,
+      "definition": {
+        "name": "Scale"
+      }
+    },
+    {
+      "index": 21,
+      "type": "repeat",
+      "count": 21,
+      "definition": {
+        "name": "CameraHeight"
+      }
+    },
+    {
+      "index": 42,
+      "name": "Unknown4"
+    }
+  ]
+}

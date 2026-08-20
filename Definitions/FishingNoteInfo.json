@@ -1,0 +1,44 @@
+{
+  "sheet": "FishingNoteInfo",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "Item"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "Size"
+    },
+    {
+      "index": 2,
+      "name": "AquariumWater",
+      "converter": {
+        "type": "link",
+        "target": "AquariumWater"
+      }
+    },
+    {
+      "index": 3,
+      "name": "WeatherRestriction"
+    },
+    {
+      "index": 4,
+      "name": "TimeRestriction"
+    },
+    {
+      "index": 5,
+      "name": "SpecialConditions"
+    },
+    {
+      "index": 6,
+      "name": "IsCollectable"
+    }
+  ]
+}

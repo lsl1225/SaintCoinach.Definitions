@@ -1,0 +1,9 @@
+{
+  "sheet": "PartyContentTransient",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    }
+  ]
+}

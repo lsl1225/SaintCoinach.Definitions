@@ -1,0 +1,36 @@
+{
+  "sheet": "ExVersion",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "MenuScreen"
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "AcceptJingle",
+      "converter": {
+        "type": "link",
+        "target": "ScreenImage"
+      }
+    },
+    {
+      "index": 4,
+      "name": "CompleteJingle",
+      "converter": {
+        "type": "link",
+        "target": "ScreenImage"
+      }
+    }
+  ]
+}

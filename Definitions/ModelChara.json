@@ -1,0 +1,96 @@
+{
+  "sheet": "ModelChara",
+  "definitions": [
+    {
+      "name": "Radius"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "Unknown15"
+    },
+    {
+      "index": 3,
+      "name": "Model"
+    },
+    {
+      "index": 4,
+      "name": "SEPack"
+    },
+    {
+      "index": 5,
+      "name": "Type"
+    },
+    {
+      "index": 6,
+      "name": "Base"
+    },
+    {
+      "index": 7,
+      "name": "Variant"
+    },
+    {
+      "index": 8,
+      "name": "AnimationVariant"
+    },
+    {
+      "index": 9,
+      "name": "Unknown3"
+    },
+    {
+      "index": 10,
+      "name": "Unknown4"
+    },
+    {
+      "index": 11,
+      "name": "Unknown5"
+    },
+    {
+      "index": 12,
+      "name": "Unknown14"
+    },
+    {
+      "index": 13,
+      "name": "Unknown_70"
+    },
+    {
+      "index": 14,
+      "name": "Unknown6"
+    },
+    {
+      "index": 15,
+      "name": "Unknown7"
+    },
+    {
+      "index": 16,
+      "name": "PapVariation"
+    },
+    {
+      "index": 17,
+      "name": "Unknown8"
+    },
+    {
+      "index": 18,
+      "name": "Unknown9"
+    },
+    {
+      "index": 19,
+      "name": "Unknown10"
+    },
+    {
+      "index": 20,
+      "name": "Unknown11"
+    },
+    {
+      "index": 21,
+      "name": "Unknown12"
+    },
+    {
+      "index": 22,
+      "name": "Unknown13"
+    }
+  ]
+}

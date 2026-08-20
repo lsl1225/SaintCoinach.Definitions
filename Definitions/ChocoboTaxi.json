@@ -1,0 +1,29 @@
+{
+  "sheet": "ChocoboTaxi",
+  "defaultColumn": "Location",
+  "definitions": [
+    {
+      "name": "Location",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxiStand"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Fare"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
+      "name": "TimeRequired"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    }
+  ]
+}

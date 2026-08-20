@@ -1,0 +1,252 @@
+{
+  "sheet": "ReplaceAction",
+  "definitions": [
+    {
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "ReplaceActions",
+        "converter": {
+          "type": "link",
+          "target": "Action"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "Param1",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type1",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Trait",
+            "when": {
+              "key": "Type1",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type1",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type1",
+              "value": 7
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type1",
+              "value": 12
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type1",
+              "value": 13
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "name": "Param2",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type2",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Trait",
+            "when": {
+              "key": "Type2",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type2",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type2",
+              "value": 7
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type2",
+              "value": 12
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type2",
+              "value": 13
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "Param3",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type3",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Trait",
+            "when": {
+              "key": "Type3",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type3",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type3",
+              "value": 7
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type3",
+              "value": 12
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type3",
+              "value": 13
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "name": "Param4",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type4",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Trait",
+            "when": {
+              "key": "Type4",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type4",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type4",
+              "value": 7
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type4",
+              "value": 12
+            }
+          },
+          {
+            "sheet": "Status",
+            "when": {
+              "key": "Type4",
+              "value": 13
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "name": "Type1"
+    },
+    {
+      "index": 10,
+      "name": "Type2"
+    },
+    {
+      "index": 11,
+      "name": "Type3"
+    },
+    {
+      "index": 12,
+      "name": "Type4"
+    },
+    {
+      "index": 13,
+      "name": "ReplaceSettable"
+    },
+    {
+      "index": 14,
+      "name": "Unknown_70"
+    }
+  ]
+}

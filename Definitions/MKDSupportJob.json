@@ -1,0 +1,53 @@
+{
+  "sheet": "MKDSupportJob",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "NameShort"
+    },
+    {
+      "index": 2,
+      "name": "NameFemale"
+    },
+    {
+      "index": 3,
+      "name": "Description"
+    },
+    {
+      "index": 4,
+      "name": "NameEnglish"
+    },
+    {
+      "index": 5,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "Action",
+        "converter": {
+          "type": "link",
+          "target": "Action"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "name": "LevelMax"
+    },
+    {
+      "index": 11,
+      "name": "JobIndex"
+    },
+    {
+      "index": 12,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "LevelUnlock"
+      }
+    }
+  ]
+}

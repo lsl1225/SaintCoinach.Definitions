@@ -1,0 +1,20 @@
+{
+  "sheet": "GatheringPointTransient",
+  "definitions": [
+    {
+      "name": "GatheringRarePopTimeTable",
+      "converter": {
+        "type": "link",
+        "target": "GatheringRarePopTimeTable"
+      }
+    },
+    {
+      "index": 1,
+      "name": "EphemeralStartTime"
+    },
+    {
+      "index": 2,
+      "name": "EphemeralEndTime"
+    }
+  ]
+}

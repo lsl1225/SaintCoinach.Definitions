@@ -1,0 +1,12 @@
+{
+  "sheet": "MapType",
+  "definitions": [
+    {
+      "name": "ParentMapOverride",
+      "converter": {
+        "type": "link",
+        "target": "Map"
+      }
+    }
+  ]
+}

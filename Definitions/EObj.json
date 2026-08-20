@@ -1,0 +1,100 @@
+{
+  "sheet": "EObj",
+  "definitions": [
+    {
+      "name": "Data",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "Quest",
+          "CustomTalk",
+          "Warp"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "SgbPath",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 2,
+      "name": "PopType"
+    },
+    {
+      "index": 3,
+      "name": "Invisibility"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "AdditionalInteractRangeX"
+    },
+    {
+      "index": 6,
+      "name": "AdditionalInteractRangeY"
+    },
+    {
+      "index": 7,
+      "name": "Unknown1"
+    },
+    {
+      "index": 8,
+      "name": "Unknown2"
+    },
+    {
+      "index": 9,
+      "name": "Unknown3"
+    },
+    {
+      "index": 10,
+      "name": "Unknown4"
+    },
+    {
+      "index": 11,
+      "name": "Unknown5"
+    },
+    {
+      "index": 12,
+      "name": "Unknown6"
+    },
+    {
+      "index": 13,
+      "name": "Unknown7"
+    },
+    {
+      "index": 14,
+      "name": "Unknown8"
+    },
+    {
+      "index": 15,
+      "name": "Targetable"
+    },
+    {
+      "index": 16,
+      "name": "Unknown9"
+    },
+    {
+      "index": 17,
+      "name": "Unknown10"
+    },
+    {
+      "index": 18,
+      "name": "Unknown11"
+    },
+    {
+      "index": 19,
+      "name": "LuaSetup"
+    },
+    {
+      "index": 20,
+      "name": "SharedTimelineStateUnknown"
+    }
+  ]
+}

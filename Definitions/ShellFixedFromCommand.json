@@ -1,0 +1,100 @@
+{
+  "sheet": "ShellFixedFromCommand",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "Unknown5"
+    },
+    {
+      "index": 6,
+      "name": "Unknown6"
+    },
+    {
+      "index": 7,
+      "name": "Unknown7"
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 16,
+      "definition": {
+        "name": "Unknown22"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Unknown8"
+    },
+    {
+      "index": 25,
+      "name": "Unknown9"
+    },
+    {
+      "index": 26,
+      "name": "Unknown10"
+    },
+    {
+      "index": 27,
+      "name": "Unknown11"
+    },
+    {
+      "index": 28,
+      "name": "Unknown12"
+    },
+    {
+      "index": 29,
+      "name": "Unknown13"
+    },
+    {
+      "index": 30,
+      "name": "Unknown14"
+    },
+    {
+      "index": 31,
+      "name": "Unknown15"
+    },
+    {
+      "index": 32,
+      "name": "Unknown16"
+    },
+    {
+      "index": 33,
+      "name": "Unknown17"
+    },
+    {
+      "index": 34,
+      "name": "Unknown18"
+    },
+    {
+      "index": 35,
+      "name": "Unknown19"
+    },
+    {
+      "index": 36,
+      "name": "Unknown20"
+    },
+    {
+      "index": 37,
+      "name": "Unknown21"
+    }
+  ]
+}

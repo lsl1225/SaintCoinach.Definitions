@@ -1,0 +1,64 @@
+{
+  "sheet": "CSBonusContentType",
+  "defaultColumn": "ContentType",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Dialogue",
+        "converter": {
+          "type": "link",
+          "target": "Addon"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 6,
+      "name": "UnlockQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 7,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 8,
+      "name": "ContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ContentType",
+      "converter": {
+        "type": "link",
+        "target": "ContentType"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Unknown6"
+    }
+  ]
+}

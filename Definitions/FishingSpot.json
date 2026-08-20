@@ -1,0 +1,93 @@
+{
+  "sheet": "FishingSpot",
+  "defaultColumn": "PlaceName",
+  "definitions": [
+    {
+      "name": "BigFishOnReach"
+    },
+    {
+      "index": 1,
+      "name": "BigFishOnEnd"
+    },
+    {
+      "index": 2,
+      "name": "BigFishOnRefresh"
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 10,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 14,
+      "name": "PlaceNameMain",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 15,
+      "name": "PlaceNameSub",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Radius"
+    },
+    {
+      "index": 17,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Order"
+    },
+    {
+      "index": 19,
+      "name": "X"
+    },
+    {
+      "index": 20,
+      "name": "Z"
+    },
+    {
+      "index": 21,
+      "name": "GatheringLevel"
+    },
+    {
+      "index": 22,
+      "name": "FishingSpotCategory"
+    },
+    {
+      "index": 23,
+      "name": "Unknown0"
+    },
+    {
+      "index": 24,
+      "name": "Rare"
+    }
+  ]
+}

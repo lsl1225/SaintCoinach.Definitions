@@ -1,0 +1,15 @@
+{
+  "sheet": "AOZContentBriefingObject",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    }
+  ]
+}

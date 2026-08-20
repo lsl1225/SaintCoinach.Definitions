@@ -1,0 +1,13 @@
+{
+  "sheet": "WKSMissionToDoEvalutionItem",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "WKSItemInfo"
+      }
+    }
+  ]
+}

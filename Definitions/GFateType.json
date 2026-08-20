@@ -1,0 +1,13 @@
+{
+  "sheet": "GFateType",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTextData"
+      }
+    }
+  ]
+}

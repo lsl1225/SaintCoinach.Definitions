@@ -1,0 +1,25 @@
+{
+  "sheet": "MJIStockyardManagementArea",
+  "defaultColumn": "Area",
+  "definitions": [
+    {
+      "name": "Area",
+      "converter": {
+        "type": "link",
+        "target": "MJIText"
+      }
+    },
+    {
+      "index": 1,
+      "name": "RareMaterial",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    }
+  ]
+}

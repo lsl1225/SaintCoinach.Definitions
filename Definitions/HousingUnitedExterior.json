@@ -1,0 +1,72 @@
+{
+  "sheet": "HousingUnitedExterior",
+  "definitions": [
+    {
+      "name": "Roof",
+      "converter": {
+        "type": "link",
+        "target": "HousingExterior"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Walls",
+      "converter": {
+        "type": "link",
+        "target": "HousingExterior"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Windows",
+      "converter": {
+        "type": "link",
+        "target": "HousingExterior"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Door",
+      "converter": {
+        "type": "link",
+        "target": "HousingExterior"
+      }
+    },
+    {
+      "index": 4,
+      "name": "OptionalRoof",
+      "converter": {
+        "type": "link",
+        "target": "HousingExterior"
+      }
+    },
+    {
+      "index": 5,
+      "name": "OptionalWall",
+      "converter": {
+        "type": "link",
+        "target": "HousingExterior"
+      }
+    },
+    {
+      "index": 6,
+      "name": "OptionalSignboard",
+      "converter": {
+        "type": "link",
+        "target": "HousingExterior"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Fence",
+      "converter": {
+        "type": "link",
+        "target": "HousingExterior"
+      }
+    },
+    {
+      "index": 8,
+      "name": "PlotSize"
+    }
+  ]
+}

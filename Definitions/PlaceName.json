@@ -1,0 +1,57 @@
+{
+  "sheet": "PlaceName",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "NameNoArticle"
+    },
+    {
+      "index": 2,
+      "name": "NamePrepositional"
+    },
+    {
+      "index": 3,
+      "name": "Adjective"
+    },
+    {
+      "index": 4,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 5,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 6,
+      "name": "Countability"
+    },
+    {
+      "index": 7,
+      "name": "Pronoun"
+    },
+    {
+      "index": 8,
+      "name": "Article"
+    },
+    {
+      "index": 9,
+      "name": "Order"
+    },
+    {
+      "index": 10,
+      "name": "Unknown8"
+    },
+    {
+      "index": 11,
+      "name": "MapCondition",
+      "converter": {
+        "type": "link",
+        "target": "MapCondition"
+      }
+    }
+  ]
+}

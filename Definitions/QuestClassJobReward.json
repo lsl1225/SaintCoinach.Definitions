@@ -1,0 +1,116 @@
+{
+  "sheet": "QuestClassJobReward",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RewardItem",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RequiredItem",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": "Unknown8"
+    },
+    {
+      "index": 9,
+      "name": "Unknown9"
+    },
+    {
+      "index": 10,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 11,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RewardAmount"
+      }
+    },
+    {
+      "index": 15,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RequiredAmount"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Unknown10"
+    },
+    {
+      "index": 20,
+      "name": "Unknown11"
+    },
+    {
+      "index": 21,
+      "name": "Unknown0"
+    },
+    {
+      "index": 22,
+      "name": "Unknown1"
+    },
+    {
+      "index": 23,
+      "name": "Unknown2"
+    },
+    {
+      "index": 24,
+      "name": "Unknown3"
+    },
+    {
+      "index": 25,
+      "name": "Unknown4"
+    },
+    {
+      "index": 26,
+      "name": "Unknown5"
+    },
+    {
+      "index": 27,
+      "name": "Unknown6"
+    },
+    {
+      "index": 28,
+      "name": "Unknown7"
+    },
+    {
+      "index": 29,
+      "name": "Unknown12"
+    },
+    {
+      "index": 30,
+      "name": "Unknown13"
+    },
+    {
+      "index": 31,
+      "name": "Unknown14"
+    },
+    {
+      "index": 32,
+      "name": "Unknown15"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "sheet": "ExtendedQuestCounter",
+  "definitions": [
+    {
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "CounterValue"
+    },
+    {
+      "index": 2,
+      "name": "Mode"
+    },
+    {
+      "index": 3,
+      "name": "QuestCustomTodoIndex"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    }
+  ]
+}

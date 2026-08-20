@@ -1,0 +1,24 @@
+{
+  "sheet": "WKSMissionSupplyItem",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "WKSItemInfo"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "ItemCount"
+      }
+    }
+  ]
+}

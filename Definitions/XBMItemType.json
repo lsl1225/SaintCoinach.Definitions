@@ -1,0 +1,9 @@
+{
+  "sheet": "XBMItemType",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    }
+  ]
+}

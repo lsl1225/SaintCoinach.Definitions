@@ -1,0 +1,36 @@
+{
+  "sheet": "BannerFacial",
+  "definitions": [
+    {
+      "name": "Emote",
+      "converter": {
+        "type": "link",
+        "target": "Emote"
+      }
+    },
+    {
+      "index": 1,
+      "name": "UnlockCondition",
+      "converter": {
+        "type": "link",
+        "target": "BannerCondition"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 3,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "SortKey"
+    }
+  ]
+}

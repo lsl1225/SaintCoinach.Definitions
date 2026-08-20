@@ -1,0 +1,117 @@
+{
+  "sheet": "Story",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 40,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Instruction"
+          },
+          {
+            "name": "Argument"
+          }
+        ]
+      }
+    },
+    {
+      "index": 80,
+      "type": "repeat",
+      "count": 110,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "CompletedQuest",
+              "converter": {
+                "type": "link",
+                "target": "Quest"
+              }
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "AcceptedQuest",
+              "converter": {
+                "type": "link",
+                "target": "Quest"
+              }
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "LayerSet"
+            }
+          },
+          {
+            "name": "Sequence"
+          },
+          {
+            "name": "CompletedQuestOperator"
+          },
+          {
+            "name": "AcceptedQuestOperator"
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "AcceptedQuestSequence"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 1620,
+      "type": "repeat",
+      "count": 80,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Listener",
+            "converter": {
+              "type": "multiref",
+              "targets": [
+                "EObjName",
+                "ENpcResident"
+              ]
+            }
+          },
+          {
+            "name": "SequenceBegin"
+          },
+          {
+            "name": "SequenceEnd"
+          }
+        ]
+      }
+    },
+    {
+      "index": 1860,
+      "name": "Script"
+    },
+    {
+      "index": 1861,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "LayerSetTerritoryType",
+        "converter": {
+          "type": "link",
+          "target": "TerritoryType"
+        }
+      }
+    }
+  ]
+}

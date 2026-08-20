@@ -1,0 +1,140 @@
+{
+  "sheet": "WKSMissionUnit",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "SilverStarRequirement"
+    },
+    {
+      "index": 2,
+      "name": "GoldStarRequirement"
+    },
+    {
+      "index": 3,
+      "name": "WKSMissionText",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionText"
+      }
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "ClassJobCategory",
+        "converter": {
+          "type": "link",
+          "target": "ClassJobCategory"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "Unknown1"
+    },
+    {
+      "index": 7,
+      "name": "MissionTime"
+    },
+    {
+      "index": 8,
+      "name": "MissionReward",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionReward"
+      }
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "MissionToDo",
+        "converter": {
+          "type": "link",
+          "target": "WKSMissionToDo"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "name": "LockedBehind",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionUnit"
+      }
+    },
+    {
+      "index": 13,
+      "name": "WKSMissionSupplyItem",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionSupplyItem"
+      }
+    },
+    {
+      "index": 14,
+      "name": "WKSMissionRecipe",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionRecipe"
+      }
+    },
+    {
+      "index": 15,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 16,
+      "name": "SortKey"
+    },
+    {
+      "index": 17,
+      "name": "WKSFunction",
+      "converter": {
+        "type": "link",
+        "target": "WKSFunction"
+      }
+    },
+    {
+      "index": 18,
+      "name": "LevelGroup"
+    },
+    {
+      "index": 19,
+      "name": "MissionLotteryCond",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionLotteryCond"
+      }
+    },
+    {
+      "index": 20,
+      "name": "WKSMissionLotterySpecialCond",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionLotterySpecialCond"
+      }
+    },
+    {
+      "index": 21,
+      "name": "IsSynced"
+    },
+    {
+      "index": 22,
+      "name": "IsSpecialQuest"
+    },
+    {
+      "index": 23,
+      "name": "Unknown2"
+    }
+  ]
+}

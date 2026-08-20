@@ -1,0 +1,36 @@
+{
+  "sheet": "MKDLore",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 3,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "Unknown5"
+    },
+    {
+      "index": 6,
+      "name": "Unknown6"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "sheet": "GuideTitle",
+  "defaultColumn": "Title",
+  "definitions": [
+    {
+      "name": "Title"
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    }
+  ]
+}

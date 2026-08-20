@@ -1,0 +1,41 @@
+{
+  "sheet": "Description",
+  "defaultColumn": "TextLong",
+  "definitions": [
+    {
+      "name": "TextLong"
+    },
+    {
+      "index": 1,
+      "name": "TextShort"
+    },
+    {
+      "index": 2,
+      "name": "TextCommentary"
+    },
+    {
+      "index": 3,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Section",
+      "converter": {
+        "type": "link",
+        "target": "DescriptionSection"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    },
+    {
+      "index": 6,
+      "name": "Unknown1"
+    }
+  ]
+}

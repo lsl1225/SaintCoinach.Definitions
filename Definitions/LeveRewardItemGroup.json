@@ -1,0 +1,32 @@
+{
+  "sheet": "LeveRewardItemGroup",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "name": "Count"
+      }
+    },
+    {
+      "index": 18,
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "name": "IsHQ"
+      }
+    }
+  ]
+}

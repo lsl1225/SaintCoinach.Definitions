@@ -1,0 +1,53 @@
+{
+  "sheet": "GatheringSubCategory",
+  "defaultColumn": "FolkloreBook",
+  "definitions": [
+    {
+      "name": "FolkloreBook"
+    },
+    {
+      "index": 1,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Division",
+      "converter": {
+        "type": "link",
+        "target": "NotebookDivision"
+      }
+    },
+    {
+      "index": 4,
+      "name": "GatheringType",
+      "converter": {
+        "type": "link",
+        "target": "GatheringType"
+      }
+    },
+    {
+      "index": 5,
+      "name": "ClassJob",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Unknown0"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "sheet": "FCReputation",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "PointsToNext"
+    },
+    {
+      "index": 2,
+      "name": "RequiredPoints"
+    },
+    {
+      "index": 3,
+      "name": "Color",
+      "converter": {
+        "type": "link",
+        "target": "UIColor"
+      }
+    },
+    {
+      "index": 4,
+      "name": "DiscountRate"
+    }
+  ]
+}

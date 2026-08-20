@@ -1,0 +1,83 @@
+{
+  "sheet": "XBMPet",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "Pet",
+      "converter": {
+        "type": "link",
+        "target": "Pet"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Location",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "PlaceName",
+            "when": {
+              "key": "LocationKey",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "ContentFinderCondition",
+            "when": {
+              "key": "LocationKey",
+              "value": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown7"
+    },
+    {
+      "index": 8,
+      "name": "Unknown8"
+    },
+    {
+      "index": 9,
+      "name": "Unknown9"
+    },
+    {
+      "index": 10,
+      "name": "LocationKey"
+    },
+    {
+      "index": 11,
+      "type": "repeat",
+      "count": 11,
+      "definition": {
+        "name": "Unknown11"
+      }
+    }
+  ]
+}

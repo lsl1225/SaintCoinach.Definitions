@@ -1,0 +1,68 @@
+{
+  "sheet": "Ballista",
+  "definitions": [
+    {
+      "name": "BNPC",
+      "converter": {
+        "type": "link",
+        "target": "BNpcBase"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Angle"
+    },
+    {
+      "index": 2,
+      "name": "Action0",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Action1",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Action2",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Action3",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Bullet"
+    },
+    {
+      "index": 7,
+      "name": "Unknown0"
+    },
+    {
+      "index": 8,
+      "name": "Unknown1"
+    },
+    {
+      "index": 9,
+      "name": "Near"
+    },
+    {
+      "index": 10,
+      "name": "Far"
+    }
+  ]
+}

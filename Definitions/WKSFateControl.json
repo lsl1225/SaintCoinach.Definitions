@@ -1,0 +1,16 @@
+{
+  "sheet": "WKSFateControl",
+  "definitions": [
+    {
+      "name": "StartupText"
+    },
+    {
+      "index": 1,
+      "name": "RunningText"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "sheet": "HousingMapMarkerInfo",
+  "definitions": [
+    {
+      "name": "X"
+    },
+    {
+      "index": 1,
+      "name": "Y"
+    },
+    {
+      "index": 2,
+      "name": "Z"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Map",
+      "converter": {
+        "type": "link",
+        "target": "Map"
+      }
+    }
+  ]
+}

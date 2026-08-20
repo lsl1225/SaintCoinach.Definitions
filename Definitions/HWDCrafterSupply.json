@@ -1,0 +1,88 @@
+{
+  "sheet": "HWDCrafterSupply",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 23,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "ItemTradeIn",
+            "converter": {
+              "type": "link",
+              "target": "Item"
+            }
+          },
+          {
+            "name": "BaseCollectableRating"
+          },
+          {
+            "name": "MidCollectableRating"
+          },
+          {
+            "name": "HighCollectableRating"
+          },
+          {
+            "name": "BaseCollectableReward",
+            "converter": {
+              "type": "link",
+              "target": "HWDCrafterSupplyReward"
+            }
+          },
+          {
+            "name": "MidCollectableReward",
+            "converter": {
+              "type": "link",
+              "target": "HWDCrafterSupplyReward"
+            }
+          },
+          {
+            "name": "HighCollectableReward",
+            "converter": {
+              "type": "link",
+              "target": "HWDCrafterSupplyReward"
+            }
+          },
+          {
+            "name": "BaseCollectableRewardPostPhase",
+            "converter": {
+              "type": "link",
+              "target": "HWDCrafterSupplyReward"
+            }
+          },
+          {
+            "name": "MidCollectableRewardPostPhase",
+            "converter": {
+              "type": "link",
+              "target": "HWDCrafterSupplyReward"
+            }
+          },
+          {
+            "name": "HighCollectableRewardPostPhase",
+            "converter": {
+              "type": "link",
+              "target": "HWDCrafterSupplyReward"
+            }
+          },
+          {
+            "name": "Level"
+          },
+          {
+            "name": "LevelMax"
+          },
+          {
+            "name": "Unknown0"
+          },
+          {
+            "name": "TermName",
+            "converter": {
+              "type": "link",
+              "target": "HWDCrafterSupplyTerm"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

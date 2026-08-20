@@ -1,0 +1,168 @@
+{
+  "sheet": "Attributive",
+  "definitions": [
+    {
+      "name": "JapaneseDemonstrative"
+    },
+    {
+      "index": 1,
+      "name": "JapaneseDemonstrativePlural"
+    },
+    {
+      "index": 2,
+      "name": "EnglishConsonantSingular"
+    },
+    {
+      "index": 3,
+      "name": "EnglishConsonantGeneric"
+    },
+    {
+      "index": 4,
+      "name": "EnglishConsonantPlural"
+    },
+    {
+      "index": 5,
+      "name": "EnglishVowelSingular"
+    },
+    {
+      "index": 6,
+      "name": "EnglishVowelGeneric"
+    },
+    {
+      "index": 7,
+      "name": "EnglishVowelPlural"
+    },
+    {
+      "index": 8,
+      "name": "GermanNominativeMasculine"
+    },
+    {
+      "index": 9,
+      "name": "GermanNominativeFeminine"
+    },
+    {
+      "index": 10,
+      "name": "GermanNominativeNeutral"
+    },
+    {
+      "index": 11,
+      "name": "GermanNominativePlural"
+    },
+    {
+      "index": 12,
+      "name": "GermanGenitiveMasculine"
+    },
+    {
+      "index": 13,
+      "name": "GermanGenitiveFeminine"
+    },
+    {
+      "index": 14,
+      "name": "GermanGenitiveNeutral"
+    },
+    {
+      "index": 15,
+      "name": "GermanGenitivePlural"
+    },
+    {
+      "index": 16,
+      "name": "GermanDativeMasculine"
+    },
+    {
+      "index": 17,
+      "name": "GermanDativeFeminine"
+    },
+    {
+      "index": 18,
+      "name": "GermanDativeNeutral"
+    },
+    {
+      "index": 19,
+      "name": "GermanDativePlural"
+    },
+    {
+      "index": 20,
+      "name": "GermanAccusativeMasculine"
+    },
+    {
+      "index": 21,
+      "name": "GermanAccusativeFeminine"
+    },
+    {
+      "index": 22,
+      "name": "GermanAccusativeNeutral"
+    },
+    {
+      "index": 23,
+      "name": "GermanAccusativePlural"
+    },
+    {
+      "index": 24,
+      "name": "FrenchMasculineConsonantBase"
+    },
+    {
+      "index": 25,
+      "name": "FrenchMasculineConsonantSingular"
+    },
+    {
+      "index": 26,
+      "name": "FrenchMasculineConsonantPlural"
+    },
+    {
+      "index": 27,
+      "name": "FrenchMasculineConsonantMass"
+    },
+    {
+      "index": 28,
+      "name": "FrenchMasculineVowelBase"
+    },
+    {
+      "index": 29,
+      "name": "FrenchMasculineVowelSingular"
+    },
+    {
+      "index": 30,
+      "name": "FrenchMasculineVowelPlural"
+    },
+    {
+      "index": 31,
+      "name": "FrenchMasculineVowelMass"
+    },
+    {
+      "index": 32,
+      "name": "FrenchFeminineConsonantBase"
+    },
+    {
+      "index": 33,
+      "name": "FrenchFeminineConsonantSingular"
+    },
+    {
+      "index": 34,
+      "name": "FrenchFeminineConsonantPlural"
+    },
+    {
+      "index": 35,
+      "name": "FrenchFeminineConsonantMass"
+    },
+    {
+      "index": 36,
+      "name": "FrenchFeminineVowelBase"
+    },
+    {
+      "index": 37,
+      "name": "FrenchFeminineVowelSingular"
+    },
+    {
+      "index": 38,
+      "name": "FrenchFeminineVowelPlural"
+    },
+    {
+      "index": 39,
+      "name": "FrenchFeminineVowelMass"
+    },
+    {
+      "index": 40,
+      "name": "Unknown40"
+    }
+  ]
+}

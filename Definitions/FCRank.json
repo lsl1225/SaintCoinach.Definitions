@@ -1,0 +1,36 @@
+{
+  "sheet": "FCRank",
+  "definitions": [
+    {
+      "name": "NextPoint"
+    },
+    {
+      "index": 1,
+      "name": "CurrentPoint"
+    },
+    {
+      "index": 2,
+      "name": "Rights"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
+      "name": "FCActionActiveNum"
+    },
+    {
+      "index": 6,
+      "name": "FCActionStockNum"
+    },
+    {
+      "index": 7,
+      "name": "FCChestCompartments"
+    }
+  ]
+}

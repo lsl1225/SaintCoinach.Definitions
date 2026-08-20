@@ -1,0 +1,28 @@
+{
+  "sheet": "TiltParam",
+  "definitions": [
+    {
+      "name": "TiltSpeed"
+    },
+    {
+      "index": 1,
+      "name": "RotationOrigin"
+    },
+    {
+      "index": 2,
+      "name": "TiltAngle"
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "ReverseRotation"
+    }
+  ]
+}

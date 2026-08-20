@@ -1,0 +1,47 @@
+{
+  "sheet": "Frontline03",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "EmptyIcon",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "MaelstromIcon",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "TwinAdderIcon",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "ImmortalFlamesIcon",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Unknown0"
+          },
+          {
+            "name": "Unknown1"
+          },
+          {
+            "name": "Unknown2"
+          }
+        ]
+      }
+    }
+  ]
+}

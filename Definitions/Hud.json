@@ -1,0 +1,17 @@
+{
+  "sheet": "Hud",
+  "defaultColumn": "DisplayName",
+  "definitions": [
+    {
+      "name": "DisplayName"
+    },
+    {
+      "index": 1,
+      "name": "AddonName"
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    }
+  ]
+}

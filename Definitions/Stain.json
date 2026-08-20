@@ -1,0 +1,48 @@
+{
+  "sheet": "Stain",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "InlineName"
+    },
+    {
+      "index": 1,
+      "name": "Name"
+    },
+    {
+      "index": 2,
+      "name": "Color",
+      "converter": {
+        "type": "color"
+      }
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "Shade"
+    },
+    {
+      "index": 6,
+      "name": "SubOrder"
+    },
+    {
+      "index": 7,
+      "name": "IsMetallic"
+    },
+    {
+      "index": 8,
+      "name": "IsHousingApplicable"
+    }
+  ]
+}

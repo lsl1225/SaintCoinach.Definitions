@@ -1,0 +1,16 @@
+{
+  "sheet": "MountTransient",
+  "definitions": [
+    {
+      "name": "Description"
+    },
+    {
+      "index": 1,
+      "name": "DescriptionEnhanced"
+    },
+    {
+      "index": 2,
+      "name": "Tooltip"
+    }
+  ]
+}

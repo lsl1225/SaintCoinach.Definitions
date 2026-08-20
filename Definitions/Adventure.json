@@ -1,0 +1,98 @@
+{
+  "sheet": "Adventure",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Impression"
+    },
+    {
+      "index": 2,
+      "name": "Description"
+    },
+    {
+      "index": 3,
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 4,
+      "name": "MinLevel"
+    },
+    {
+      "index": 5,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 6,
+      "name": "IconList",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "IconDiscovered",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 8,
+      "name": "IconUndiscovered",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Emote",
+      "converter": {
+        "type": "link",
+        "target": "Emote"
+      }
+    },
+    {
+      "index": 10,
+      "name": "MinTime"
+    },
+    {
+      "index": 11,
+      "name": "MaxTime"
+    },
+    {
+      "index": 12,
+      "name": "MaxLevel"
+    },
+    {
+      "index": 13,
+      "name": "WeatherCategory",
+      "converter": {
+        "type": "link",
+        "target": "WeatherCategory"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Weather",
+      "converter": {
+        "type": "link",
+        "target": "Weather"
+      }
+    },
+    {
+      "index": 15,
+      "name": "IsInitial"
+    }
+  ]
+}

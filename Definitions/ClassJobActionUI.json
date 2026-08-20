@@ -1,0 +1,40 @@
+{
+  "sheet": "ClassJobActionUI",
+  "definitions": [
+    {
+      "name": "UpgradeAction",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 1,
+      "name": "BaseAction",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ComboTreeLayout"
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "Unknown5"
+    },
+    {
+      "index": 6,
+      "name": "GroupedCell"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "sheet": "MJILandmark",
+  "definitions": [
+    {
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "MJIText"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 7,
+      "definition": {
+        "name": "SGB",
+        "converter": {
+          "type": "link",
+          "target": "ExportedSG"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "Material",
+        "converter": {
+          "type": "link",
+          "target": "MJIItemPouch"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "name": "Unknown1"
+    },
+    {
+      "index": 16,
+      "name": "Unknown2"
+    },
+    {
+      "index": 17,
+      "name": "Unknown3"
+    },
+    {
+      "index": 18,
+      "name": "Unknown4"
+    },
+    {
+      "index": 19,
+      "name": "Unknown5"
+    },
+    {
+      "index": 20,
+      "name": "Unknown6"
+    },
+    {
+      "index": 21,
+      "name": "Unknown7"
+    },
+    {
+      "index": 22,
+      "name": "Unknown8"
+    },
+    {
+      "index": 23,
+      "name": "Unknown9"
+    },
+    {
+      "index": 24,
+      "name": "Unknown10"
+    },
+    {
+      "index": 25,
+      "name": "Unknown11"
+    },
+    {
+      "index": 26,
+      "name": "Unknown12"
+    },
+    {
+      "index": 27,
+      "name": "Unknown13"
+    },
+    {
+      "index": 28,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "Amount"
+      }
+    }
+  ]
+}

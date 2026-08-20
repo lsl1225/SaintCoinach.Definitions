@@ -1,0 +1,18 @@
+{
+  "sheet": "DynamicEventType",
+  "definitions": [
+    {
+      "name": "IconObjective0",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "IconObjective1",
+      "converter": {
+        "type": "icon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "sheet": "RaidFinderParam",
+  "definitions": [
+    {
+      "name": "SeparatedHealerRoles"
+    }
+  ]
+}

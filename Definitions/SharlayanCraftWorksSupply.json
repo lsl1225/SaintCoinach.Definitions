@@ -1,0 +1,51 @@
+{
+  "sheet": "SharlayanCraftWorksSupply",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "ItemId",
+            "converter": {
+              "type": "link",
+              "target": "Item"
+            }
+          },
+          {
+            "name": "XPReward"
+          },
+          {
+            "name": "CollectabilityMid"
+          },
+          {
+            "name": "CollectabilityHigh"
+          },
+          {
+            "name": "GilReward"
+          },
+          {
+            "name": "Level"
+          },
+          {
+            "name": "HighXPMultiplier"
+          },
+          {
+            "name": "HighGilMultiplier"
+          },
+          {
+            "name": "Unknown8"
+          },
+          {
+            "name": "ScripReward"
+          },
+          {
+            "name": "HighScripMultiplier"
+          }
+        ]
+      }
+    }
+  ]
+}

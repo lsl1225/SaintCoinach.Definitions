@@ -1,0 +1,49 @@
+{
+  "sheet": "HowTo",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "HowToPagePC",
+        "converter": {
+          "type": "link",
+          "target": "HowToPage"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "HowToPageController",
+        "converter": {
+          "type": "link",
+          "target": "HowToPage"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "name": "Sort"
+    },
+    {
+      "index": 12,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "HowToCategory"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Announce"
+    }
+  ]
+}

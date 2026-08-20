@@ -1,0 +1,78 @@
+{
+  "sheet": "WKSCosmoToolClass",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 20,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Unknown0"
+          },
+          {
+            "name": "Item",
+            "converter": {
+              "type": "link",
+              "target": "Item"
+            }
+          },
+          {
+            "name": "Name",
+            "converter": {
+              "type": "link",
+              "target": "WKSCosmoToolName"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 60,
+      "type": "repeat",
+      "count": 7,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Icon",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Name",
+            "converter": {
+              "type": "link",
+              "target": "WKSCosmoToolName"
+            }
+          },
+          {
+            "name": "CosmicName",
+            "converter": {
+              "type": "link",
+              "target": "WKSCosmoToolName"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 81,
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 82,
+      "name": "DataAmount",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolDataAmount"
+      }
+    }
+  ]
+}

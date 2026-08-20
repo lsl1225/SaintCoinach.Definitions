@@ -1,0 +1,123 @@
+{
+  "sheet": "SatisfactionNpc",
+  "defaultColumn": "Npc",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "SupplyIndex"
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "Item",
+              "converter": {
+                "type": "link",
+                "target": "Item"
+              }
+            }
+          },
+          {
+            "name": "SatisfactionRequired"
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "ItemCount"
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "IsHQ"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 66,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "ImageId",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Unknown1"
+          },
+          {
+            "name": "Quest",
+            "converter": {
+              "type": "link",
+              "target": "Quest"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 84,
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 85,
+      "name": "Npc",
+      "converter": {
+        "type": "link",
+        "target": "ENpcResident"
+      }
+    },
+    {
+      "index": 86,
+      "name": "QuestRequired",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 87,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 88,
+      "name": "LevelUnlock"
+    },
+    {
+      "index": 89,
+      "name": "DeliveriesPerWeek"
+    },
+    {
+      "index": 90,
+      "name": "GlamourIndex"
+    },
+    {
+      "index": 91,
+      "name": "Unknown19"
+    },
+    {
+      "index": 92,
+      "name": "Unknown20"
+    }
+  ]
+}

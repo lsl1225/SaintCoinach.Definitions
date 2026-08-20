@@ -1,0 +1,16 @@
+{
+  "sheet": "ENpcDressUp",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "ENpcDressUpDress",
+      "converter": {
+        "type": "link",
+        "target": "ENpcDressUpDress"
+      }
+    }
+  ]
+}

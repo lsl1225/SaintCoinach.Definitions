@@ -1,0 +1,20 @@
+{
+  "sheet": "QuestStatusParam",
+  "definitions": [
+    {
+      "name": "Status",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 1,
+      "name": "StatusParam1"
+    },
+    {
+      "index": 2,
+      "name": "StatusParam2"
+    }
+  ]
+}

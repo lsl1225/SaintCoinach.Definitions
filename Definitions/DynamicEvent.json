@@ -1,0 +1,107 @@
+{
+  "sheet": "DynamicEvent",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "LGBEventObject"
+    },
+    {
+      "index": 3,
+      "name": "LGBMapRange"
+    },
+    {
+      "index": 4,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Announce",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 6,
+      "name": "IconObjective0",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "IconObjective1",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Unknown6"
+    },
+    {
+      "index": 9,
+      "name": "Unknown7"
+    },
+    {
+      "index": 10,
+      "name": "Unknown2"
+    },
+    {
+      "index": 11,
+      "name": "EventType",
+      "converter": {
+        "type": "link",
+        "target": "DynamicEventType"
+      }
+    },
+    {
+      "index": 12,
+      "name": "EnemyType",
+      "converter": {
+        "type": "link",
+        "target": "DynamicEventEnemyType"
+      }
+    },
+    {
+      "index": 13,
+      "name": "MaxParticipants"
+    },
+    {
+      "index": 14,
+      "name": "Duration"
+    },
+    {
+      "index": 15,
+      "name": "Unknown5"
+    },
+    {
+      "index": 16,
+      "name": "SingleBattle",
+      "converter": {
+        "type": "link",
+        "target": "DynamicEventSingleBattle"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Unknown9"
+    },
+    {
+      "index": 18,
+      "name": "Unknown8"
+    }
+  ]
+}

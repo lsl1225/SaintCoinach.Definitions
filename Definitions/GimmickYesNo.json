@@ -1,0 +1,17 @@
+{
+  "sheet": "GimmickYesNo",
+  "defaultColumn": "Message",
+  "definitions": [
+    {
+      "name": "Message"
+    },
+    {
+      "index": 1,
+      "name": "YesButton"
+    },
+    {
+      "index": 2,
+      "name": "NoButton"
+    }
+  ]
+}

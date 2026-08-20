@@ -1,0 +1,136 @@
+{
+  "sheet": "SkyIsland2Mission",
+  "defaultColumn": "Item1",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "Item1",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Item2",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 7,
+      "name": "PopRange0"
+    },
+    {
+      "index": 8,
+      "name": "PopRange1"
+    },
+    {
+      "index": 9,
+      "name": "PopRange2"
+    },
+    {
+      "index": 10,
+      "name": "Unknown5"
+    },
+    {
+      "index": 11,
+      "name": "Unknown6"
+    },
+    {
+      "index": 12,
+      "name": "Unknown7"
+    },
+    {
+      "index": 13,
+      "name": "Unknown8"
+    },
+    {
+      "index": 14,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 15,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Unknown9"
+    },
+    {
+      "index": 17,
+      "name": "Objective1",
+      "converter": {
+        "type": "link",
+        "target": "SkyIsland2MissionDetail"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Objective2",
+      "converter": {
+        "type": "link",
+        "target": "SkyIsland2MissionDetail"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Objective3",
+      "converter": {
+        "type": "link",
+        "target": "SkyIsland2MissionDetail"
+      }
+    },
+    {
+      "index": 20,
+      "name": "RequiredAmount1"
+    },
+    {
+      "index": 21,
+      "name": "RequiredAmount2"
+    },
+    {
+      "index": 22,
+      "name": "Unknown10"
+    },
+    {
+      "index": 23,
+      "name": "Unknown11"
+    },
+    {
+      "index": 24,
+      "name": "Unknown12"
+    },
+    {
+      "index": 25,
+      "name": "Unknown13"
+    }
+  ]
+}

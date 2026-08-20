@@ -1,0 +1,21 @@
+{
+  "sheet": "WKSAetheryte",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ObjectGroup",
+      "converter": {
+        "type": "link",
+        "target": "WKSAetheryteObjectGroup"
+      }
+    }
+  ]
+}

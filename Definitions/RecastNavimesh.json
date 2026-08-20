@@ -1,0 +1,145 @@
+{
+  "sheet": "RecastNavimesh",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "TileSize"
+    },
+    {
+      "index": 2,
+      "name": "CellSize"
+    },
+    {
+      "index": 3,
+      "name": "CellHeight"
+    },
+    {
+      "index": 4,
+      "name": "AgentHeight"
+    },
+    {
+      "index": 5,
+      "name": "AgentRadius"
+    },
+    {
+      "index": 6,
+      "name": "AgentMaxClimb"
+    },
+    {
+      "index": 7,
+      "name": "AgentMaxSlope"
+    },
+    {
+      "index": 8,
+      "name": "RegionMinSize"
+    },
+    {
+      "index": 9,
+      "name": "RegionMergedSize"
+    },
+    {
+      "index": 10,
+      "name": "MaxEdgeLength"
+    },
+    {
+      "index": 11,
+      "name": "MaxEdgeError"
+    },
+    {
+      "index": 12,
+      "name": "VertsPerPoly"
+    },
+    {
+      "index": 13,
+      "name": "DetailMeshSampleDistance"
+    },
+    {
+      "index": 14,
+      "name": "DetailMeshMaxSampleError"
+    },
+    {
+      "index": 15,
+      "name": "Unknown1"
+    },
+    {
+      "index": 16,
+      "name": "Unknown2"
+    },
+    {
+      "index": 17,
+      "name": "Unknown3"
+    },
+    {
+      "index": 18,
+      "name": "Unknown4"
+    },
+    {
+      "index": 19,
+      "name": "Unknown5"
+    },
+    {
+      "index": 20,
+      "name": "Unknown6"
+    },
+    {
+      "index": 21,
+      "name": "Unknown7"
+    },
+    {
+      "index": 22,
+      "name": "Unknown8"
+    },
+    {
+      "index": 23,
+      "name": "Unknown9"
+    },
+    {
+      "index": 24,
+      "name": "Unknown10"
+    },
+    {
+      "index": 25,
+      "name": "Unknown11"
+    },
+    {
+      "index": 26,
+      "name": "Unknown12"
+    },
+    {
+      "index": 27,
+      "name": "Unknown13"
+    },
+    {
+      "index": 28,
+      "name": "Unknown14"
+    },
+    {
+      "index": 29,
+      "name": "Unknown15"
+    },
+    {
+      "index": 30,
+      "name": "Unknown16"
+    },
+    {
+      "index": 31,
+      "name": "Unknown17"
+    },
+    {
+      "index": 32,
+      "name": "Unknown18"
+    },
+    {
+      "index": 33,
+      "name": "Unknown19"
+    },
+    {
+      "index": 34,
+      "name": "Unknown20"
+    }
+  ]
+}

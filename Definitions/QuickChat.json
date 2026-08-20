@@ -1,0 +1,36 @@
+{
+  "sheet": "QuickChat",
+  "defaultColumn": "NameAction",
+  "definitions": [
+    {
+      "name": "NameAction"
+    },
+    {
+      "index": 1,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Addon",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "QuickChatTransient",
+      "converter": {
+        "type": "link",
+        "target": "QuickChatTransient"
+      }
+    }
+  ]
+}

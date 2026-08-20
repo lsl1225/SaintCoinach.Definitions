@@ -1,0 +1,458 @@
+{
+  "sheet": "Item",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "Description"
+    },
+    {
+      "index": 3,
+      "name": "Name"
+    },
+    {
+      "index": 4,
+      "name": "Adjective"
+    },
+    {
+      "index": 5,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 6,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 7,
+      "name": "Countability"
+    },
+    {
+      "index": 8,
+      "name": "Pronoun"
+    },
+    {
+      "index": 9,
+      "name": "Article"
+    },
+    {
+      "index": 10,
+      "name": "ModelMain"
+    },
+    {
+      "index": 11,
+      "name": "ModelSub"
+    },
+    {
+      "index": 12,
+      "name": "DamagePhys"
+    },
+    {
+      "index": 13,
+      "name": "DamageMag"
+    },
+    {
+      "index": 14,
+      "name": "Delayms"
+    },
+    {
+      "index": 15,
+      "name": "BlockRate"
+    },
+    {
+      "index": 16,
+      "name": "Block"
+    },
+    {
+      "index": 17,
+      "name": "DefensePhys"
+    },
+    {
+      "index": 18,
+      "name": "DefenseMag"
+    },
+    {
+      "index": 19,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "BaseParamValue"
+      }
+    },
+    {
+      "index": 25,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "BaseParamValueSpecial"
+      }
+    },
+    {
+      "index": 31,
+      "name": "LevelEquip"
+    },
+    {
+      "index": 32,
+      "name": "RequiredPvpRank"
+    },
+    {
+      "index": 33,
+      "name": "EquipRestriction",
+      "converter": {
+        "type": "link",
+        "target": "EquipRaceCategory"
+      }
+    },
+    {
+      "index": 34,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 35,
+      "name": "GrandCompany",
+      "converter": {
+        "type": "link",
+        "target": "GrandCompany"
+      }
+    },
+    {
+      "index": 36,
+      "name": "ItemSeries",
+      "converter": {
+        "type": "link",
+        "target": "ItemSeries"
+      }
+    },
+    {
+      "index": 37,
+      "name": "BaseParamModifier"
+    },
+    {
+      "index": 38,
+      "name": "ClassJobUse",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
+      }
+    },
+    {
+      "index": 39,
+      "name": "DamagePhysType"
+    },
+    {
+      "index": 40,
+      "name": "DefaultActionRange"
+    },
+    {
+      "index": 41,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "BaseParam",
+        "converter": {
+          "type": "link",
+          "target": "BaseParam"
+        }
+      }
+    },
+    {
+      "index": 47,
+      "name": "ItemSpecialBonus",
+      "converter": {
+        "type": "link",
+        "target": "ItemSpecialBonus"
+      }
+    },
+    {
+      "index": 48,
+      "name": "ItemSpecialBonusParam"
+    },
+    {
+      "index": 49,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "BaseParamSpecial",
+        "converter": {
+          "type": "link",
+          "target": "BaseParam"
+        }
+      }
+    },
+    {
+      "index": 55,
+      "name": "MaterializeType"
+    },
+    {
+      "index": 56,
+      "name": "MateriaSlotCount"
+    },
+    {
+      "index": 57,
+      "name": "SubStatCategory"
+    },
+    {
+      "index": 58,
+      "name": "IsAdvancedMeldingPermitted"
+    },
+    {
+      "index": 59,
+      "name": "IsPvP"
+    },
+    {
+      "index": 60,
+      "name": "IsGlamorous"
+    },
+    {
+      "index": 61,
+      "name": "AdditionalData",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheets": [
+              "HousingExterior",
+              "HousingInterior",
+              "HousingYardObject",
+              "HousingFurniture",
+              "HousingPreset",
+              "HousingUnitedExterior"
+            ],
+            "when": {
+              "key": "FilterGroup",
+              "value": 14
+            }
+          },
+          {
+            "sheet": "Stain",
+            "when": {
+              "key": "FilterGroup",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "TreasureHuntRank",
+            "when": {
+              "key": "FilterGroup",
+              "value": 18
+            }
+          },
+          {
+            "sheet": "GardeningSeed",
+            "when": {
+              "key": "FilterGroup",
+              "value": 20
+            }
+          },
+          {
+            "sheet": "AetherialWheel",
+            "when": {
+              "key": "FilterGroup",
+              "value": 25
+            }
+          },
+          {
+            "sheet": "CompanyAction",
+            "when": {
+              "key": "FilterGroup",
+              "value": 26
+            }
+          },
+          {
+            "sheet": "TripleTriadCard",
+            "when": {
+              "key": "FilterGroup",
+              "value": 27
+            }
+          },
+          {
+            "sheet": "AirshipExplorationPart",
+            "when": {
+              "key": "FilterGroup",
+              "value": 28
+            }
+          },
+          {
+            "sheet": "Orchestrion",
+            "when": {
+              "key": "FilterGroup",
+              "value": 32
+            }
+          },
+          {
+            "sheet": "SubmarinePart",
+            "when": {
+              "key": "FilterGroup",
+              "value": 36
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 62,
+      "name": "StackSize"
+    },
+    {
+      "index": 63,
+      "name": "PriceMid"
+    },
+    {
+      "index": 64,
+      "name": "PriceLow"
+    },
+    {
+      "index": 65,
+      "name": "ItemRepair",
+      "converter": {
+        "type": "link",
+        "target": "ItemRepairResource"
+      }
+    },
+    {
+      "index": 66,
+      "name": "ItemGlamour",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 67,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 68,
+      "name": "LevelItem",
+      "converter": {
+        "type": "link",
+        "target": "ItemLevel"
+      }
+    },
+    {
+      "index": 69,
+      "name": "SubcategorySort"
+    },
+    {
+      "index": 70,
+      "name": "ItemAction",
+      "converter": {
+        "type": "link",
+        "target": "ItemAction"
+      }
+    },
+    {
+      "index": 71,
+      "name": "Cooldowns"
+    },
+    {
+      "index": 72,
+      "name": "Desynth"
+    },
+    {
+      "index": 73,
+      "name": "AetherialReduce"
+    },
+    {
+      "index": 74,
+      "name": "Rarity"
+    },
+    {
+      "index": 75,
+      "name": "FilterGroup"
+    },
+    {
+      "index": 76,
+      "name": "ItemUICategory",
+      "converter": {
+        "type": "link",
+        "target": "ItemUICategory"
+      }
+    },
+    {
+      "index": 77,
+      "name": "ItemSearchCategory",
+      "converter": {
+        "type": "link",
+        "target": "ItemSearchCategory"
+      }
+    },
+    {
+      "index": 78,
+      "name": "EquipSlotCategory",
+      "converter": {
+        "type": "link",
+        "target": "EquipSlotCategory"
+      }
+    },
+    {
+      "index": 79,
+      "name": "ItemSortCategory",
+      "converter": {
+        "type": "link",
+        "target": "ItemSortCategory"
+      }
+    },
+    {
+      "index": 80,
+      "name": "DyeCount"
+    },
+    {
+      "index": 81,
+      "name": "CastTimeSeconds"
+    },
+    {
+      "index": 82,
+      "name": "ClassJobRepair",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
+      }
+    },
+    {
+      "index": 83,
+      "name": "IsUnique"
+    },
+    {
+      "index": 84,
+      "name": "IsUntradable"
+    },
+    {
+      "index": 85,
+      "name": "IsIndisposable"
+    },
+    {
+      "index": 86,
+      "name": "Lot"
+    },
+    {
+      "index": 87,
+      "name": "CanBeHq"
+    },
+    {
+      "index": 88,
+      "name": "IsCrestWorthy"
+    },
+    {
+      "index": 89,
+      "name": "IsCollectable"
+    },
+    {
+      "index": 90,
+      "name": "AlwaysCollectable"
+    }
+  ]
+}

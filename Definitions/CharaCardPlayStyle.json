@@ -1,0 +1,20 @@
+{
+  "sheet": "CharaCardPlayStyle",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SortKey"
+    }
+  ]
+}

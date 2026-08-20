@@ -1,0 +1,60 @@
+{
+  "sheet": "ItemFood",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "Max"
+      }
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "MaxHQ"
+      }
+    },
+    {
+      "index": 6,
+      "name": "EXPBonusPercent"
+    },
+    {
+      "index": 7,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "BaseParam",
+        "converter": {
+          "type": "link",
+          "target": "BaseParam"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "Value"
+      }
+    },
+    {
+      "index": 13,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "ValueHQ"
+      }
+    },
+    {
+      "index": 16,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "IsRelative"
+      }
+    }
+  ]
+}

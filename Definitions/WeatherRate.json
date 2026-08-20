@@ -1,0 +1,24 @@
+{
+  "sheet": "WeatherRate",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Weather",
+        "converter": {
+          "type": "link",
+          "target": "Weather"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Rate"
+      }
+    }
+  ]
+}

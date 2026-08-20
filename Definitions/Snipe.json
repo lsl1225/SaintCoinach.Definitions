@@ -1,0 +1,215 @@
+{
+  "sheet": "Snipe",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "DataEventNPC"
+          },
+          {
+            "name": "Unknown0"
+          },
+          {
+            "name": "Unknown1"
+          },
+          {
+            "name": "Unknown2"
+          },
+          {
+            "name": "Unknown3"
+          },
+          {
+            "name": "Unknown4"
+          },
+          {
+            "name": "Unknown5"
+          }
+        ]
+      }
+    },
+    {
+      "index": 56,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "EventNPC"
+      }
+    },
+    {
+      "index": 64,
+      "name": "Unknown0"
+    },
+    {
+      "index": 65,
+      "name": "Unknown1"
+    },
+    {
+      "index": 66,
+      "name": "Unknown2"
+    },
+    {
+      "index": 67,
+      "name": "Unknown3"
+    },
+    {
+      "index": 68,
+      "name": "Unknown4"
+    },
+    {
+      "index": 69,
+      "name": "Unknown5"
+    },
+    {
+      "index": 70,
+      "name": "Unknown6"
+    },
+    {
+      "index": 71,
+      "name": "Unknown7"
+    },
+    {
+      "index": 72,
+      "name": "Unknown8"
+    },
+    {
+      "index": 73,
+      "name": "Unknown9"
+    },
+    {
+      "index": 74,
+      "name": "Unknown10"
+    },
+    {
+      "index": 75,
+      "name": "Unknown11"
+    },
+    {
+      "index": 76,
+      "name": "Objective0"
+    },
+    {
+      "index": 77,
+      "name": "Hint0"
+    },
+    {
+      "index": 78,
+      "name": "Objective1"
+    },
+    {
+      "index": 79,
+      "name": "Hint1"
+    },
+    {
+      "index": 80,
+      "name": "Unknown12"
+    },
+    {
+      "index": 81,
+      "name": "Unknown13"
+    },
+    {
+      "index": 82,
+      "name": "Unknown14"
+    },
+    {
+      "index": 83,
+      "name": "Unknown15"
+    },
+    {
+      "index": 84,
+      "name": "Unknown16"
+    },
+    {
+      "index": 85,
+      "name": "Unknown17"
+    },
+    {
+      "index": 86,
+      "name": "Unknown18"
+    },
+    {
+      "index": 87,
+      "name": "ActionText"
+    },
+    {
+      "index": 88,
+      "name": "Unknown19"
+    },
+    {
+      "index": 89,
+      "name": "Unknown20"
+    },
+    {
+      "index": 90,
+      "name": "VFXFire"
+    },
+    {
+      "index": 91,
+      "name": "VFXHit"
+    },
+    {
+      "index": 92,
+      "name": "VFXMiss"
+    },
+    {
+      "index": 93,
+      "name": "VFXAdditional"
+    },
+    {
+      "index": 94,
+      "name": "LGBTargetMarker"
+    },
+    {
+      "index": 95,
+      "name": "Unknown21"
+    },
+    {
+      "index": 96,
+      "name": "Unknown22"
+    },
+    {
+      "index": 97,
+      "name": "Unknown23"
+    },
+    {
+      "index": 98,
+      "name": "Unknown24"
+    },
+    {
+      "index": 99,
+      "name": "Unknown25"
+    },
+    {
+      "index": 100,
+      "name": "Unknown26"
+    },
+    {
+      "index": 101,
+      "name": "Unknown27"
+    },
+    {
+      "index": 102,
+      "name": "Unknown28"
+    },
+    {
+      "index": 103,
+      "name": "Unknown29"
+    },
+    {
+      "index": 104,
+      "name": "Unknown30"
+    },
+    {
+      "index": 105,
+      "name": "Unknown31"
+    },
+    {
+      "index": 106,
+      "name": "Unknown32"
+    }
+  ]
+}

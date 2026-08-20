@@ -1,0 +1,12 @@
+{
+  "sheet": "GCShop",
+  "definitions": [
+    {
+      "name": "GrandCompany",
+      "converter": {
+        "type": "link",
+        "target": "GrandCompany"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "sheet": "NotoriousMonster",
+  "defaultColumn": "BNpcName",
+  "definitions": [
+    {
+      "name": "BNpcName",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 1,
+      "name": "BNpcBase",
+      "converter": {
+        "type": "link",
+        "target": "BNpcBase"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
+      "name": "Rank"
+    }
+  ]
+}

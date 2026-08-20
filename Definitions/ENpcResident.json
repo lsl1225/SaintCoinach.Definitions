@@ -1,0 +1,49 @@
+{
+  "sheet": "ENpcResident",
+  "defaultColumn": "Singular",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "Title"
+    },
+    {
+      "index": 3,
+      "name": "Adjective"
+    },
+    {
+      "index": 4,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 5,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 6,
+      "name": "Countability"
+    },
+    {
+      "index": 7,
+      "name": "Pronoun"
+    },
+    {
+      "index": 8,
+      "name": "Article"
+    },
+    {
+      "index": 9,
+      "name": "Map"
+    },
+    {
+      "index": 10,
+      "name": "Unknown1"
+    }
+  ]
+}

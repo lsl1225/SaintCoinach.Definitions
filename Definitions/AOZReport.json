@@ -1,0 +1,24 @@
+{
+  "sheet": "AOZReport",
+  "definitions": [
+    {
+      "name": "ContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Reward",
+      "converter": {
+        "type": "link",
+        "target": "AOZReportReward"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Order"
+    }
+  ]
+}

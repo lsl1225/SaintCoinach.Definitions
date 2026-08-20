@@ -1,0 +1,40 @@
+{
+  "sheet": "WKSAchievementDailyDefine",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RequiredQuest",
+        "converter": {
+          "type": "link",
+          "target": "Quest"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RewardItem",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "RewardQuantity"
+      }
+    },
+    {
+      "index": 12,
+      "name": "SuccessPointsRequired"
+    }
+  ]
+}

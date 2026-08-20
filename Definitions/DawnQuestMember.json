@@ -1,0 +1,43 @@
+{
+  "sheet": "DawnQuestMember",
+  "defaultColumn": "Member",
+  "definitions": [
+    {
+      "name": "Member",
+      "converter": {
+        "type": "link",
+        "target": "ENpcResident"
+      }
+    },
+    {
+      "index": 1,
+      "name": "BigImageOld",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "BigImageNew",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
+      "name": "Class",
+      "converter": {
+        "type": "link",
+        "target": "DawnMemberUIParam"
+      }
+    }
+  ]
+}

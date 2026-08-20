@@ -1,0 +1,16 @@
+{
+  "sheet": "WKSMissionToDoEvalutionRefin",
+  "definitions": [
+    {
+      "name": "LowPercent"
+    },
+    {
+      "index": 1,
+      "name": "MidPercent"
+    },
+    {
+      "index": 2,
+      "name": "HighPercent"
+    }
+  ]
+}

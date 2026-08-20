@@ -1,0 +1,68 @@
+{
+  "sheet": "PhysicsOffGroup",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 3,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown_70_3"
+    },
+    {
+      "index": 5,
+      "name": "Unknown_70_4"
+    },
+    {
+      "index": 6,
+      "name": "Unknown_70_5"
+    },
+    {
+      "index": 7,
+      "name": "Unknown_70_6"
+    },
+    {
+      "index": 8,
+      "name": "Unknown_70_7"
+    },
+    {
+      "index": 9,
+      "name": "Unknown_70_8"
+    },
+    {
+      "index": 10,
+      "name": "Unknown_70_9"
+    },
+    {
+      "index": 11,
+      "name": "Unknown_70_10"
+    },
+    {
+      "index": 12,
+      "name": "Unknown_70_11"
+    },
+    {
+      "index": 13,
+      "name": "Unknown_70_12"
+    },
+    {
+      "index": 14,
+      "name": "Unknown_70_13"
+    },
+    {
+      "index": 15,
+      "name": "Unknown_70_14"
+    }
+  ]
+}

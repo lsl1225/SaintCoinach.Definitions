@@ -1,0 +1,192 @@
+{
+  "sheet": "TripleTriadCardResident",
+  "definitions": [
+    {
+      "name": "Acquisition",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "ContentFinderCondition",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "ContentFinderCondition",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "Fate",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "Fate",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 5
+            }
+          },
+          {
+            "sheet": "ENpcResident",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Item",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 8
+            }
+          },
+          {
+            "sheet": "Item",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "ENpcResident",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 10
+            }
+          },
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 11
+            }
+          },
+          {
+            "sheet": "ContentFinderCondition",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 12
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "Location",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "TerritoryType",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "TerritoryType",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 5
+            }
+          },
+          {
+            "sheet": "Level",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Level",
+            "when": {
+              "key": "AcquisitionType",
+              "value": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "SaleValue"
+    },
+    {
+      "index": 5,
+      "name": "Order"
+    },
+    {
+      "index": 6,
+      "name": "Top"
+    },
+    {
+      "index": 7,
+      "name": "Bottom"
+    },
+    {
+      "index": 8,
+      "name": "Left"
+    },
+    {
+      "index": 9,
+      "name": "Right"
+    },
+    {
+      "index": 10,
+      "name": "TripleTriadCardRarity",
+      "converter": {
+        "type": "link",
+        "target": "TripleTriadCardRarity"
+      }
+    },
+    {
+      "index": 11,
+      "name": "TripleTriadCardType",
+      "converter": {
+        "type": "link",
+        "target": "TripleTriadCardType"
+      }
+    },
+    {
+      "index": 12,
+      "name": "SortKey"
+    },
+    {
+      "index": 13,
+      "name": "UIPriority"
+    },
+    {
+      "index": 14,
+      "name": "AcquisitionType",
+      "converter": {
+        "type": "link",
+        "target": "TripleTriadCardObtain"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Unknown1"
+    }
+  ]
+}

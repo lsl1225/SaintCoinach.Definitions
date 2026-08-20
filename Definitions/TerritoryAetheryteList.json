@@ -1,0 +1,40 @@
+{
+  "sheet": "TerritoryAetheryteList",
+  "defaultColumn": "PlaceName",
+  "definitions": [
+    {
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 1,
+      "name": "AetheryteObject",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EObjName",
+          "EObj"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "UnlockIndex"
+    },
+    {
+      "index": 3,
+      "name": "DisplayIndex"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "Unknown5"
+    }
+  ]
+}

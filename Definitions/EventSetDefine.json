@@ -1,0 +1,16 @@
+{
+  "sheet": "EventSetDefine",
+  "definitions": [
+    {
+      "name": "Unknown0",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    }
+  ]
+}

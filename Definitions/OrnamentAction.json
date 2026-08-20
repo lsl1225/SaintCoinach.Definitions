@@ -1,0 +1,16 @@
+{
+  "sheet": "OrnamentAction",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "Actions",
+        "converter": {
+          "type": "link",
+          "target": "Action"
+        }
+      }
+    }
+  ]
+}

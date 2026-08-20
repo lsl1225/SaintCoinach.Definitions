@@ -1,0 +1,106 @@
+{
+  "sheet": "GroupPoseFrame",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "GridText"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
+      "name": "UnlockCriteria",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "UnlockType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "InstanceContent",
+            "when": {
+              "key": "UnlockType",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "InstanceContent",
+            "when": {
+              "key": "UnlockType",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "Emote",
+            "when": {
+              "key": "UnlockType",
+              "value": 5
+            }
+          },
+          {
+            "sheet": "Companion",
+            "when": {
+              "key": "UnlockType",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Mount",
+            "when": {
+              "key": "UnlockType",
+              "value": 7
+            }
+          },
+          {
+            "sheet": "Ornament",
+            "when": {
+              "key": "UnlockType",
+              "value": 8
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Unknown2"
+    },
+    {
+      "index": 7,
+      "name": "Festival",
+      "converter": {
+        "type": "link",
+        "target": "Festival"
+      }
+    },
+    {
+      "index": 8,
+      "name": "SortKey"
+    },
+    {
+      "index": 9,
+      "name": "UnlockType"
+    }
+  ]
+}

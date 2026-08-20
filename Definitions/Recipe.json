@@ -1,0 +1,232 @@
+{
+  "sheet": "Recipe",
+  "defaultColumn": "ItemResult",
+  "definitions": [
+    {
+      "name": "RequiredQuality"
+    },
+    {
+      "index": 1,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Number"
+    },
+    {
+      "index": 3,
+      "name": "CraftType",
+      "converter": {
+        "type": "link",
+        "target": "CraftType"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ItemResult",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Ingredient",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "name": "StatusRequired",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 14,
+      "name": "ItemRequired",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 15,
+      "name": "RecipeLevelTable",
+      "converter": {
+        "type": "link",
+        "target": "RecipeLevelTable"
+      }
+    },
+    {
+      "index": 16,
+      "name": "MaxAdjustableJobLevel",
+      "converter": {
+        "type": "link",
+        "target": "GathererCrafterLvAdjustTable"
+      }
+    },
+    {
+      "index": 17,
+      "name": "RecipeNotebookList",
+      "converter": {
+        "type": "link",
+        "target": "RecipeNotebookList"
+      }
+    },
+    {
+      "index": 18,
+      "name": "DisplayPriority"
+    },
+    {
+      "index": 19,
+      "name": "DifficultyFactor"
+    },
+    {
+      "index": 20,
+      "name": "QualityFactor"
+    },
+    {
+      "index": 21,
+      "name": "DurabilityFactor"
+    },
+    {
+      "index": 22,
+      "name": "RequiredCraftsmanship"
+    },
+    {
+      "index": 23,
+      "name": "RequiredControl"
+    },
+    {
+      "index": 24,
+      "name": "QuickSynthCraftsmanship"
+    },
+    {
+      "index": 25,
+      "name": "QuickSynthControl"
+    },
+    {
+      "index": 26,
+      "name": "SecretRecipeBook",
+      "converter": {
+        "type": "link",
+        "target": "SecretRecipeBook"
+      }
+    },
+    {
+      "index": 27,
+      "name": "CollectableMetadata",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "CollectablesShopRefine",
+            "when": {
+              "key": "CollectableMetadataKey",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "HWDCrafterSupply",
+            "when": {
+              "key": "CollectableMetadataKey",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "SatisfactionSupply",
+            "when": {
+              "key": "CollectableMetadataKey",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "SharlayanCraftWorksSupply",
+            "when": {
+              "key": "CollectableMetadataKey",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "CollectablesRefine",
+            "when": {
+              "key": "CollectableMetadataKey",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "WKSMissionToDoEvalutionRefin",
+            "when": {
+              "key": "CollectableMetadataKey",
+              "value": 7
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 28,
+      "name": "PatchNumber"
+    },
+    {
+      "index": 29,
+      "name": "AmountResult"
+    },
+    {
+      "index": 30,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "AmountIngredient"
+      }
+    },
+    {
+      "index": 38,
+      "name": "MaterialQualityFactor"
+    },
+    {
+      "index": 39,
+      "name": "CollectableMetadataKey"
+    },
+    {
+      "index": 40,
+      "name": "IsSecondary"
+    },
+    {
+      "index": 41,
+      "name": "CanQuickSynth"
+    },
+    {
+      "index": 42,
+      "name": "CanHq"
+    },
+    {
+      "index": 43,
+      "name": "ExpRewarded"
+    },
+    {
+      "index": 44,
+      "name": "Unknown1"
+    },
+    {
+      "index": 45,
+      "name": "IsSpecializationRequired"
+    },
+    {
+      "index": 46,
+      "name": "IsExpert"
+    }
+  ]
+}

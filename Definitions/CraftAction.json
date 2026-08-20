@@ -1,0 +1,144 @@
+{
+  "sheet": "CraftAction",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "QuestRequirement",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 3,
+      "name": "CRP",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 4,
+      "name": "BSM",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 5,
+      "name": "ARM",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 6,
+      "name": "GSM",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 7,
+      "name": "LTW",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 8,
+      "name": "WVR",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ALC",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 10,
+      "name": "CUL",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 11,
+      "name": "AnimationStart",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 12,
+      "name": "AnimationEnd",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 14,
+      "name": "RequiredStatus",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 16,
+      "name": "ClassJobLevel"
+    },
+    {
+      "index": 17,
+      "name": "Cost"
+    },
+    {
+      "index": 18,
+      "name": "ClassJob",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Specialist"
+    }
+  ]
+}

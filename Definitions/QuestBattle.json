@@ -1,0 +1,43 @@
+{
+  "sheet": "QuestBattle",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 220,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "ScriptInstruction"
+          },
+          {
+            "name": "ScriptValue"
+          }
+        ]
+      }
+    },
+    {
+      "index": 440,
+      "name": "Quest",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "ArrayEventHandler",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 441,
+      "name": "TimeLimit"
+    },
+    {
+      "index": 442,
+      "name": "LevelSync"
+    },
+    {
+      "index": 443,
+      "name": "QuestBattleScene"
+    }
+  ]
+}

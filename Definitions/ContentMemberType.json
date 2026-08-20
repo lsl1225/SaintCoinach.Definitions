@@ -1,0 +1,88 @@
+{
+  "sheet": "ContentMemberType",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "AllianceRegistrationMinPlayers"
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "MembersPerParty"
+    },
+    {
+      "index": 5,
+      "name": "PartyCount"
+    },
+    {
+      "index": 6,
+      "name": "AlliancePartyCount"
+    },
+    {
+      "index": 7,
+      "name": "Unknown6"
+    },
+    {
+      "index": 8,
+      "name": "TanksPerParty"
+    },
+    {
+      "index": 9,
+      "name": "HealersPerParty"
+    },
+    {
+      "index": 10,
+      "name": "MeleesPerParty"
+    },
+    {
+      "index": 11,
+      "name": "RangedPerParty"
+    },
+    {
+      "index": 12,
+      "name": "Unknown16"
+    },
+    {
+      "index": 13,
+      "name": "Unknown7"
+    },
+    {
+      "index": 14,
+      "name": "AllowAllianceRegistration"
+    },
+    {
+      "index": 15,
+      "name": "Unknown10"
+    },
+    {
+      "index": 16,
+      "name": "SeparatedDpsRoles"
+    },
+    {
+      "index": 17,
+      "name": "RoleIndependent"
+    },
+    {
+      "index": 18,
+      "name": "Unknown12"
+    },
+    {
+      "index": 19,
+      "name": "OnlyPvPTeamMembers"
+    },
+    {
+      "index": 20,
+      "name": "AllowLimitedJobs"
+    }
+  ]
+}

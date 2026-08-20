@@ -1,0 +1,45 @@
+{
+  "sheet": "ScenarioTree",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Addon",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "QuestChapter",
+      "converter": {
+        "type": "link",
+        "target": "QuestChapter"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
+      "name": "Unknown2"
+    },
+    {
+      "index": 6,
+      "name": "Type",
+      "converter": {
+        "type": "link",
+        "target": "ScenarioType"
+      }
+    }
+  ]
+}

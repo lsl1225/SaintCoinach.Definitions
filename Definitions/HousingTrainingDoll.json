@@ -1,0 +1,13 @@
+{
+  "sheet": "HousingTrainingDoll",
+  "defaultColumn": "Base",
+  "definitions": [
+    {
+      "name": "Base",
+      "converter": {
+        "type": "link",
+        "target": "BNpcBase"
+      }
+    }
+  ]
+}

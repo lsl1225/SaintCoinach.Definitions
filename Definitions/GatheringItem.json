@@ -1,0 +1,64 @@
+{
+  "sheet": "GatheringItem",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "RequiredQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SublimeVariant",
+      "converter": {
+        "type": "link",
+        "target": "GatheringItem"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Item",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "Item",
+          "EventItem"
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "name": "GatheringItemLevel",
+      "converter": {
+        "type": "link",
+        "target": "GatheringItemLevelConvertTable"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PerceptionReq"
+    },
+    {
+      "index": 5,
+      "name": "Unknown2"
+    },
+    {
+      "index": 6,
+      "name": "Unknown3"
+    },
+    {
+      "index": 7,
+      "name": "Unknown4"
+    },
+    {
+      "index": 8,
+      "name": "Unknown5"
+    },
+    {
+      "index": 9,
+      "name": "IsHidden"
+    }
+  ]
+}

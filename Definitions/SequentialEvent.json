@@ -1,0 +1,41 @@
+{
+  "sheet": "SequentialEvent",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 64,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Unknown1"
+          },
+          {
+            "name": "Unknown2"
+          },
+          {
+            "name": "Unknown3"
+          },
+          {
+            "name": "Unknown4"
+          },
+          {
+            "name": "Unknown5"
+          }
+        ]
+      }
+    },
+    {
+      "index": 320,
+      "name": "Unknown320"
+    },
+    {
+      "index": 321,
+      "name": "Unknown_70"
+    },
+    {
+      "index": 322,
+      "name": "Unknown321"
+    }
+  ]
+}

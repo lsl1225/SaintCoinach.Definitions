@@ -1,0 +1,44 @@
+{
+  "sheet": "ItemAction",
+  "definitions": [
+    {
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "name": "Data"
+      }
+    },
+    {
+      "index": 10,
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "name": "DataHQ"
+      }
+    },
+    {
+      "index": 19,
+      "name": "CondLv"
+    },
+    {
+      "index": 20,
+      "name": "CondBattle"
+    },
+    {
+      "index": 21,
+      "name": "CondPVP"
+    },
+    {
+      "index": 22,
+      "name": "CondPVPOnly"
+    }
+  ]
+}

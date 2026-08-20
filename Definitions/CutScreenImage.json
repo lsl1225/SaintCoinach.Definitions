@@ -1,0 +1,20 @@
+{
+  "sheet": "CutScreenImage",
+  "definitions": [
+    {
+      "name": "Image"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "Type"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    }
+  ]
+}

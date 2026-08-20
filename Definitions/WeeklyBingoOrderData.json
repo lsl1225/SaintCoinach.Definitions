@@ -1,0 +1,58 @@
+{
+  "sheet": "WeeklyBingoOrderData",
+  "definitions": [
+    {
+      "name": "Type"
+    },
+    {
+      "index": 1,
+      "name": "Data",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "InstanceContent",
+            "when": {
+              "key": "Type",
+              "value": 0
+            }
+          },
+          {
+            "sheet": "WeeklyBingoMultipleOrder",
+            "when": {
+              "key": "Type",
+              "value": 4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "Text",
+      "converter": {
+        "type": "link",
+        "target": "WeeklyBingoText"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ContentCategory"
+    }
+  ]
+}

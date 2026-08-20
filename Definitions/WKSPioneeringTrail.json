@@ -1,0 +1,31 @@
+{
+  "sheet": "WKSPioneeringTrail",
+  "definitions": [
+    {
+      "name": "Thumbnail",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ActivationStage",
+      "converter": {
+        "type": "link",
+        "target": "WKSDevGrade"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
+      "name": "LogEntry",
+      "converter": {
+        "type": "link",
+        "target": "WKSPioneeringTrailString"
+      }
+    }
+  ]
+}

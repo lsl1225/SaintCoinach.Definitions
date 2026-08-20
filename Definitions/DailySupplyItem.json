@@ -1,0 +1,32 @@
+{
+  "sheet": "DailySupplyItem",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Quantity"
+      }
+    },
+    {
+      "index": 16,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "RecipeLevel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sheet": "EObjName",
+  "defaultColumn": "Singular",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "Adjective"
+    },
+    {
+      "index": 3,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 4,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 5,
+      "name": "Countability"
+    },
+    {
+      "index": 6,
+      "name": "Pronoun"
+    },
+    {
+      "index": 7,
+      "name": "Article"
+    }
+  ]
+}

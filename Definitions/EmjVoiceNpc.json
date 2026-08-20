@@ -1,0 +1,32 @@
+{
+  "sheet": "EmjVoiceNpc",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 25,
+      "definition": {
+        "name": "VoLines"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Name"
+    },
+    {
+      "index": 26,
+      "name": "NameJapanese"
+    },
+    {
+      "index": 27,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 28,
+      "name": "EmjCostume"
+    },
+    {
+      "index": 29,
+      "name": "Unknown0"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "sheet": "QuestAdditionalToolIcon",
+  "defaultColumn": "Icon",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    }
+  ]
+}

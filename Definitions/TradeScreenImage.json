@@ -1,0 +1,39 @@
+{
+  "sheet": "TradeScreenImage",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Items",
+        "converter": {
+          "type": "link",
+          "target": "EventItem"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "ItemIcons",
+        "converter": {
+          "type": "icon"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "ItemValues"
+      }
+    },
+    {
+      "index": 6,
+      "name": "BannerType"
+    }
+  ]
+}

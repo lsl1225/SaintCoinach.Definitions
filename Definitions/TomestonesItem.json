@@ -1,0 +1,25 @@
+{
+  "sheet": "TomestonesItem",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Tomestones",
+      "converter": {
+        "type": "link",
+        "target": "Tomestones"
+      }
+    },
+    {
+      "index": 2,
+      "name": "CurrencyInventorySlot"
+    }
+  ]
+}

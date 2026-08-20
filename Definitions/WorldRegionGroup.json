@@ -1,0 +1,9 @@
+{
+  "sheet": "WorldRegionGroup",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    }
+  ]
+}

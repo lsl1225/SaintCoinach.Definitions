@@ -1,0 +1,24 @@
+{
+  "sheet": "MJIRank",
+  "definitions": [
+    {
+      "name": "ExpToNext"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "LogMessage",
+        "converter": {
+          "type": "link",
+          "target": "LogMessage"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    }
+  ]
+}

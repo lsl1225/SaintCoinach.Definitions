@@ -1,0 +1,33 @@
+{
+  "sheet": "FateProgressUI",
+  "defaultColumn": "Location",
+  "definitions": [
+    {
+      "name": "Location",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ReqFatesToRank2"
+    },
+    {
+      "index": 2,
+      "name": "ReqFatesToRank3"
+    },
+    {
+      "index": 3,
+      "name": "ReqFatesToRank4"
+    },
+    {
+      "index": 4,
+      "name": "DisplayOrder"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    }
+  ]
+}

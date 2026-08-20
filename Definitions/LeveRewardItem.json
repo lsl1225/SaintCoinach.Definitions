@@ -1,0 +1,24 @@
+{
+  "sheet": "LeveRewardItem",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "LeveRewardItemGroup",
+        "converter": {
+          "type": "link",
+          "target": "LeveRewardItemGroup"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "ProbabilityPercent"
+      }
+    }
+  ]
+}

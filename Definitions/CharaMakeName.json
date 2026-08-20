@@ -1,0 +1,204 @@
+{
+  "sheet": "CharaMakeName",
+  "definitions": [
+    {
+      "name": "HyurMidlanderMale"
+    },
+    {
+      "index": 1,
+      "name": "HyurMidlanderFemale"
+    },
+    {
+      "index": 2,
+      "name": "HyurMidlanderLastName"
+    },
+    {
+      "index": 3,
+      "name": "HyurHighlanderMale"
+    },
+    {
+      "index": 4,
+      "name": "HyurHighlanderFemale"
+    },
+    {
+      "index": 5,
+      "name": "HyurHighlanderLastName"
+    },
+    {
+      "index": 6,
+      "name": "ElezenMale"
+    },
+    {
+      "index": 7,
+      "name": "ElezenFemale"
+    },
+    {
+      "index": 8,
+      "name": "ElezenWildwoodLastName"
+    },
+    {
+      "index": 9,
+      "name": "ElezenDuskwightLastName"
+    },
+    {
+      "index": 10,
+      "name": "MiqoteSunMale"
+    },
+    {
+      "index": 11,
+      "name": "MiqoteSunFemale"
+    },
+    {
+      "index": 12,
+      "name": "MiqoteSunMaleLastName"
+    },
+    {
+      "index": 13,
+      "name": "MiqoteSunFemaleLastName"
+    },
+    {
+      "index": 14,
+      "name": "MiqoteMoonMale"
+    },
+    {
+      "index": 15,
+      "name": "MiqoteMoonFemale"
+    },
+    {
+      "index": 16,
+      "name": "MiqoteMoonLastname"
+    },
+    {
+      "index": 17,
+      "name": "LalafellPlainsfolkFirstNameStart"
+    },
+    {
+      "index": 18,
+      "name": "LalafellPlainsfolkLastNameStart"
+    },
+    {
+      "index": 19,
+      "name": "LalafellPlainsfolkEndOfNames"
+    },
+    {
+      "index": 20,
+      "name": "LalafellDunesfolkMale"
+    },
+    {
+      "index": 21,
+      "name": "LalafellDunesfolkMaleLastName"
+    },
+    {
+      "index": 22,
+      "name": "LalafellDunesfolkFemale"
+    },
+    {
+      "index": 23,
+      "name": "LalafellDunesfolkFemaleLastName"
+    },
+    {
+      "index": 24,
+      "name": "RoegadynSeaWolfMale"
+    },
+    {
+      "index": 25,
+      "name": "RoegadynSeaWolfMaleLastName"
+    },
+    {
+      "index": 26,
+      "name": "RoegadynSeaWolfFemale"
+    },
+    {
+      "index": 27,
+      "name": "RoegadynSeaWolfFemaleLastName"
+    },
+    {
+      "index": 28,
+      "name": "RoegadynHellsguardFirstName"
+    },
+    {
+      "index": 29,
+      "name": "RoegadynHellsguardMaleLastName"
+    },
+    {
+      "index": 30,
+      "name": "RoegadynHellsguardFemaleLastName"
+    },
+    {
+      "index": 31,
+      "name": "AuRaRaenMale"
+    },
+    {
+      "index": 32,
+      "name": "AuRaRaenFemale"
+    },
+    {
+      "index": 33,
+      "name": "AuRaRaenLastName"
+    },
+    {
+      "index": 34,
+      "name": "AuRaXaelaMale"
+    },
+    {
+      "index": 35,
+      "name": "AuRaXaelaFemale"
+    },
+    {
+      "index": 36,
+      "name": "AuRaXaelaLastName"
+    },
+    {
+      "index": 37,
+      "name": "HrothgarHellionsFirstName"
+    },
+    {
+      "index": 38,
+      "name": "HrothgarHellionsLastName"
+    },
+    {
+      "index": 39,
+      "name": "HrothgarLostFirstName"
+    },
+    {
+      "index": 40,
+      "name": "HrothgarLostLastName"
+    },
+    {
+      "index": 41,
+      "name": "Unknown0"
+    },
+    {
+      "index": 42,
+      "name": "Unknown1"
+    },
+    {
+      "index": 43,
+      "name": "Unknown2"
+    },
+    {
+      "index": 44,
+      "name": "VieraFirstName"
+    },
+    {
+      "index": 45,
+      "name": "VieraRavaLastName"
+    },
+    {
+      "index": 46,
+      "name": "VieraVeenaLastName"
+    },
+    {
+      "index": 47,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 48,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 49,
+      "name": "Unknown_70_3"
+    }
+  ]
+}

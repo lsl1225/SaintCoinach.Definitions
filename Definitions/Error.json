@@ -1,0 +1,9 @@
+{
+  "sheet": "Error",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    }
+  ]
+}

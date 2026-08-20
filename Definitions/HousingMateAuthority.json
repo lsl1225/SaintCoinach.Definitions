@@ -1,0 +1,9 @@
+{
+  "sheet": "HousingMateAuthority",
+  "defaultColumn": "Permission",
+  "definitions": [
+    {
+      "name": "Permission"
+    }
+  ]
+}

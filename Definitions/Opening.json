@@ -1,0 +1,33 @@
+{
+  "sheet": "Opening",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 40,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Name"
+          },
+          {
+            "name": "Value"
+          }
+        ]
+      }
+    },
+    {
+      "index": 80,
+      "name": "Name"
+    },
+    {
+      "index": 81,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    }
+  ]
+}

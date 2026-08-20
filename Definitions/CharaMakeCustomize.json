@@ -1,0 +1,44 @@
+{
+  "sheet": "CharaMakeCustomize",
+  "defaultColumn": "Icon",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Hint",
+      "converter": {
+        "type": "link",
+        "target": "Lobby"
+      }
+    },
+    {
+      "index": 2,
+      "name": "HintItem",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 4,
+      "name": "FeatureID"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    },
+    {
+      "index": 6,
+      "name": "IsPurchasable"
+    }
+  ]
+}

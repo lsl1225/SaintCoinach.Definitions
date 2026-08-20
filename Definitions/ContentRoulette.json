@@ -1,0 +1,244 @@
+{
+  "sheet": "ContentRoulette",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Category"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
+      "name": "Description"
+    },
+    {
+      "index": 4,
+      "name": "DutyType"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "RewardPvPExp"
+    },
+    {
+      "index": 8,
+      "name": "RewardSeriesExp"
+    },
+    {
+      "index": 9,
+      "name": "Region",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderConditionRegion"
+      }
+    },
+    {
+      "index": 10,
+      "name": "ItemLevelRequired"
+    },
+    {
+      "index": 11,
+      "name": "ItemLevelSync"
+    },
+    {
+      "index": 12,
+      "name": "RewardTomeA"
+    },
+    {
+      "index": 13,
+      "name": "RewardTomeB"
+    },
+    {
+      "index": 14,
+      "name": "RewardTomeC"
+    },
+    {
+      "index": 15,
+      "name": "RewardWolfMarks"
+    },
+    {
+      "index": 16,
+      "name": "InstanceContent",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
+      }
+    },
+    {
+      "index": 17,
+      "name": "RequiredExVersion",
+      "converter": {
+        "type": "link",
+        "target": "ExVersion"
+      }
+    },
+    {
+      "index": 18,
+      "name": "OpenRule",
+      "converter": {
+        "type": "link",
+        "target": "ContentRouletteOpenRule"
+      }
+    },
+    {
+      "index": 19,
+      "name": "RequiredLevel"
+    },
+    {
+      "index": 20,
+      "name": "SyncedFromLevel"
+    },
+    {
+      "index": 21,
+      "name": "ContentRouletteRoleBonus",
+      "converter": {
+        "type": "link",
+        "target": "ContentRouletteRoleBonus"
+      }
+    },
+    {
+      "index": 22,
+      "name": "SortKey"
+    },
+    {
+      "index": 23,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 24,
+      "name": "ContentMemberType",
+      "converter": {
+        "type": "link",
+        "target": "ContentMemberType"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Unknown9"
+    },
+    {
+      "index": 26,
+      "name": "QueueMaxPlayers"
+    },
+    {
+      "index": 27,
+      "name": "ContentType",
+      "converter": {
+        "type": "link",
+        "target": "ContentType"
+      }
+    },
+    {
+      "index": 28,
+      "name": "UICategory",
+      "converter": {
+        "type": "link",
+        "target": "ContentUICategory"
+      }
+    },
+    {
+      "index": 29,
+      "name": "TimeLimit"
+    },
+    {
+      "index": 30,
+      "name": "TimeLimitMax"
+    },
+    {
+      "index": 31,
+      "name": "LootModeType",
+      "converter": {
+        "type": "link",
+        "target": "LootModeType"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Unknown15"
+    },
+    {
+      "index": 33,
+      "name": "PenaltyTimestampArrayIndex"
+    },
+    {
+      "index": 34,
+      "name": "CompletionArrayIndex"
+    },
+    {
+      "index": 35,
+      "name": "IsGoldSaucer"
+    },
+    {
+      "index": 36,
+      "name": "IsInDutyFinder"
+    },
+    {
+      "index": 37,
+      "name": "IsPvP"
+    },
+    {
+      "index": 38,
+      "name": "AppliesHighestAverageDutyItemLevel"
+    },
+    {
+      "index": 39,
+      "name": "Unknown18"
+    },
+    {
+      "index": 40,
+      "name": "AllowConsumableItems"
+    },
+    {
+      "index": 41,
+      "name": "AllowPhoenixDown"
+    },
+    {
+      "index": 42,
+      "name": "AllowReplacement"
+    },
+    {
+      "index": 43,
+      "name": "RatedMatch"
+    },
+    {
+      "index": 44,
+      "name": "Rated"
+    },
+    {
+      "index": 45,
+      "name": "Unknown22"
+    },
+    {
+      "index": 46,
+      "name": "Unknown23"
+    },
+    {
+      "index": 47,
+      "name": "Unknown24"
+    },
+    {
+      "index": 48,
+      "name": "IsRegistrationAllowedFromAnyDataCenter"
+    }
+  ]
+}

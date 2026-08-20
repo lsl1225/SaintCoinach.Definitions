@@ -1,0 +1,12 @@
+{
+  "sheet": "TerritoryAethernet",
+  "definitions": [
+    {
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    }
+  ]
+}

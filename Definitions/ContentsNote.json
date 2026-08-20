@@ -1,0 +1,75 @@
+{
+  "sheet": "ContentsNote",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "ReqUnlock",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "RequiredAmount"
+    },
+    {
+      "index": 5,
+      "name": "ExpMultiplier"
+    },
+    {
+      "index": 6,
+      "name": "GilRward"
+    },
+    {
+      "index": 7,
+      "name": "ExpCap"
+    },
+    {
+      "index": 8,
+      "name": "LevelUnlock"
+    },
+    {
+      "index": 9,
+      "name": "HowTo",
+      "converter": {
+        "type": "link",
+        "target": "HowTo"
+      }
+    },
+    {
+      "index": 10,
+      "name": "ContentType",
+      "converter": {
+        "type": "link",
+        "target": "ContentsNoteCategory"
+      }
+    },
+    {
+      "index": 11,
+      "name": "MenuOrder"
+    },
+    {
+      "index": 12,
+      "name": "Reward0"
+    },
+    {
+      "index": 13,
+      "name": "Reward1"
+    }
+  ]
+}

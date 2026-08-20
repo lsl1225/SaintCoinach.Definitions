@@ -1,0 +1,43 @@
+{
+  "sheet": "FateEvent",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Gesture"
+          },
+          {
+            "name": "LipSync"
+          },
+          {
+            "name": "Facial"
+          },
+          {
+            "name": "Shape"
+          },
+          {
+            "name": "Turn"
+          },
+          {
+            "name": "WidgetType"
+          },
+          {
+            "name": "IsAutoShake"
+          }
+        ]
+      }
+    },
+    {
+      "index": 56,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Text"
+      }
+    }
+  ]
+}

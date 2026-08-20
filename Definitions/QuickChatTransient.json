@@ -1,0 +1,9 @@
+{
+  "sheet": "QuickChatTransient",
+  "defaultColumn": "TextOutput",
+  "definitions": [
+    {
+      "name": "TextOutput"
+    }
+  ]
+}

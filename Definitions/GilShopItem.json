@@ -1,0 +1,57 @@
+{
+  "sheet": "GilShopItem",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "QuestRequired",
+        "converter": {
+          "type": "link",
+          "target": "Quest"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "AchievementRequired",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 4,
+      "name": "StateRequired"
+    },
+    {
+      "index": 5,
+      "name": "Patch"
+    },
+    {
+      "index": 6,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 7,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 8,
+      "name": "Unknown1"
+    },
+    {
+      "index": 9,
+      "name": "IsHQ"
+    }
+  ]
+}

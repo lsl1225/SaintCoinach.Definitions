@@ -1,0 +1,277 @@
+{
+  "sheet": "Fate",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "Objective"
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "StatusText"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ArrayEventHandler",
+      "converter": {
+        "type": "link",
+        "target": "ArrayEventHandler"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown1"
+    },
+    {
+      "index": 8,
+      "name": "Unknown14"
+    },
+    {
+      "index": 9,
+      "name": "ReqEventItem",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 10,
+      "name": "TurnInEventItem",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 11,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "Unknown2"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Unknown10"
+    },
+    {
+      "index": 15,
+      "name": "Unknown11"
+    },
+    {
+      "index": 16,
+      "name": "Unknown12"
+    },
+    {
+      "index": 17,
+      "type": "repeat",
+      "count": 32,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "LayoutId"
+          },
+          {
+            "name": "Icon",
+            "converter": {
+              "type": "icon"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 81,
+      "name": "Location"
+    },
+    {
+      "index": 82,
+      "name": "EventItem",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 83,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 84,
+      "name": "MapIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 85,
+      "name": "InactiveMapIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 86,
+      "name": "LGBGuardNPCLocation"
+    },
+    {
+      "index": 87,
+      "name": "RequiredQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 88,
+      "name": "FATEChain"
+    },
+    {
+      "index": 89,
+      "name": "RequiredQuest2",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 90,
+      "name": "FateRuleEx",
+      "converter": {
+        "type": "link",
+        "target": "FateRuleEx"
+      }
+    },
+    {
+      "index": 91,
+      "name": "Music",
+      "converter": {
+        "type": "link",
+        "target": "BGM"
+      }
+    },
+    {
+      "index": 92,
+      "name": "ScreenImageAccept",
+      "converter": {
+        "type": "link",
+        "target": "ScreenImage"
+      }
+    },
+    {
+      "index": 93,
+      "name": "ScreenImageComplete",
+      "converter": {
+        "type": "link",
+        "target": "ScreenImage"
+      }
+    },
+    {
+      "index": 94,
+      "name": "ScreenImageFailed",
+      "converter": {
+        "type": "link",
+        "target": "ScreenImage"
+      }
+    },
+    {
+      "index": 95,
+      "name": "GivenStatus",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 96,
+      "name": "Unknown4"
+    },
+    {
+      "index": 97,
+      "name": "OccupiedPermission",
+      "converter": {
+        "type": "link",
+        "target": "Permission"
+      }
+    },
+    {
+      "index": 98,
+      "name": "FateMode",
+      "converter": {
+        "type": "link",
+        "target": "FateMode"
+      }
+    },
+    {
+      "index": 99,
+      "name": "Rule"
+    },
+    {
+      "index": 100,
+      "name": "ClassJobLevel"
+    },
+    {
+      "index": 101,
+      "name": "ClassJobLevelMax"
+    },
+    {
+      "index": 102,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "StatusValue"
+      }
+    },
+    {
+      "index": 105,
+      "name": "Unknown6"
+    },
+    {
+      "index": 106,
+      "name": "RequiredClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 107,
+      "name": "SpecialFate"
+    },
+    {
+      "index": 108,
+      "name": "Unknown8"
+    },
+    {
+      "index": 109,
+      "name": "Unknown15"
+    },
+    {
+      "index": 110,
+      "name": "AdventEvent"
+    },
+    {
+      "index": 111,
+      "name": "MoonFaireEvent"
+    },
+    {
+      "index": 112,
+      "name": "Unknown9"
+    }
+  ]
+}

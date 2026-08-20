@@ -1,0 +1,40 @@
+{
+  "sheet": "ConfigKey",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "Label"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
+      "name": "Param"
+    },
+    {
+      "index": 4,
+      "name": "Platform"
+    },
+    {
+      "index": 5,
+      "name": "Category"
+    },
+    {
+      "index": 6,
+      "name": "BacklightColor",
+      "converter": {
+        "type": "link",
+        "target": "BacklightColor"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Required"
+    }
+  ]
+}

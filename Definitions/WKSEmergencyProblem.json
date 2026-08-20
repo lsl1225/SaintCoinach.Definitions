@@ -1,0 +1,32 @@
+{
+  "sheet": "WKSEmergencyProblem",
+  "definitions": [
+    {
+      "name": "EmergencyInfoTeleportText1",
+      "converter": {
+        "type": "link",
+        "target": "WKSEmergencyInfoText"
+      }
+    },
+    {
+      "index": 1,
+      "name": "EmergencyInfoTeleportText2",
+      "converter": {
+        "type": "link",
+        "target": "WKSEmergencyInfoText"
+      }
+    },
+    {
+      "index": 2,
+      "name": "EventLayout"
+    },
+    {
+      "index": 3,
+      "name": "RequiredProgress"
+    },
+    {
+      "index": 4,
+      "name": "Unknown2"
+    }
+  ]
+}

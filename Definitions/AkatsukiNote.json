@@ -1,0 +1,64 @@
+{
+  "sheet": "AkatsukiNote",
+  "defaultColumn": "ListName",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "ListName",
+      "converter": {
+        "type": "link",
+        "target": "AkatsukiNoteString"
+      }
+    },
+    {
+      "index": 3,
+      "name": "UnlockOnQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "Title",
+      "converter": {
+        "type": "link",
+        "target": "AkatsukiNoteString"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Subtitle",
+      "converter": {
+        "type": "link",
+        "target": "AkatsukiNoteString"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Text",
+      "converter": {
+        "type": "link",
+        "target": "AkatsukiNoteString"
+      }
+    }
+  ]
+}

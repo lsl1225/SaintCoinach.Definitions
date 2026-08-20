@@ -1,0 +1,12 @@
+{
+  "sheet": "WKSAetheryteList",
+  "definitions": [
+    {
+      "name": "Aetheryte",
+      "converter": {
+        "type": "link",
+        "target": "WKSAetheryte"
+      }
+    }
+  ]
+}

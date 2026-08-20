@@ -1,0 +1,9 @@
+{
+  "sheet": "ContentUICategory",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    }
+  ]
+}

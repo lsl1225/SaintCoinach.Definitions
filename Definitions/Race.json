@@ -1,0 +1,89 @@
+{
+  "sheet": "Race",
+  "defaultColumn": "Feminine",
+  "definitions": [
+    {
+      "name": "Masculine"
+    },
+    {
+      "index": 1,
+      "name": "Feminine"
+    },
+    {
+      "index": 2,
+      "name": "RSEMBody",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RSEFBody",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "RSEMHands",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "RSEFHands",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RSEMLegs",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "RSEFLegs",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 8,
+      "name": "RSEMFeet",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 9,
+      "name": "RSEFFeet",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Unknown0"
+    },
+    {
+      "index": 11,
+      "name": "ExPac",
+      "converter": {
+        "type": "link",
+        "target": "ExVersion"
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "sheet": "DeepDungeon",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 16,
+      "definition": {
+        "name": "PomanderSlot",
+        "converter": {
+          "type": "link",
+          "target": "DeepDungeonItem"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "name": "Unknown2"
+    },
+    {
+      "index": 17,
+      "name": "Unknown3"
+    },
+    {
+      "index": 18,
+      "name": "Unknown4"
+    },
+    {
+      "index": 19,
+      "name": "Unknown5"
+    },
+    {
+      "index": 20,
+      "name": "Unknown6"
+    },
+    {
+      "index": 21,
+      "name": "Unknown7"
+    },
+    {
+      "index": 22,
+      "name": "Unknown8"
+    },
+    {
+      "index": 23,
+      "name": "Unknown9"
+    },
+    {
+      "index": 24,
+      "name": "Unknown10"
+    },
+    {
+      "index": 25,
+      "name": "Unknown11"
+    },
+    {
+      "index": 26,
+      "name": "Unknown12"
+    },
+    {
+      "index": 27,
+      "name": "Unknown13"
+    },
+    {
+      "index": 28,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "MagiciteSlot",
+        "converter": {
+          "type": "complexlink",
+          "links": [
+            {
+              "sheet": "DeepDungeonMagicStone",
+              "when": {
+                "key": "DeepDungeonType",
+                "value": 1
+              }
+            },
+            {
+              "sheet": "DeepDungeonDemiclone",
+              "when": {
+                "key": "DeepDungeonType",
+                "value": 2
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 32,
+      "name": "Name"
+    },
+    {
+      "index": 33,
+      "name": "Unknown14"
+    },
+    {
+      "index": 34,
+      "name": "AetherpoolArm",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonEquipment"
+      }
+    },
+    {
+      "index": 35,
+      "name": "AetherpoolArmor",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonEquipment"
+      }
+    },
+    {
+      "index": 36,
+      "name": "DeepDungeonType"
+    }
+  ]
+}

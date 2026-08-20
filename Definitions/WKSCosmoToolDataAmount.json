@@ -1,0 +1,28 @@
+{
+  "sheet": "WKSCosmoToolDataAmount",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 20,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "type": "repeat",
+            "count": 7,
+            "definition": {
+              "name": "RequiredAmount"
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 7,
+            "definition": {
+              "name": "MaxAmount"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

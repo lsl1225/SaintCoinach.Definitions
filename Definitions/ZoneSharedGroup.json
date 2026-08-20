@@ -1,0 +1,81 @@
+{
+  "sheet": "ZoneSharedGroup",
+  "definitions": [
+    {
+      "name": "LGBSharedGroup"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "RequirementRow",
+        "converter": {
+          "type": "multiref",
+          "targets": [
+            "Quest",
+            "AetherCurrent",
+            "EurekaStoryProgress",
+            "DomaStoryProgress"
+          ]
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown0"
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "RequirementQuestSequence"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Unknown1"
+    },
+    {
+      "index": 15,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "RequirementType"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Unknown8"
+    },
+    {
+      "index": 22,
+      "name": "Unknown9"
+    },
+    {
+      "index": 23,
+      "name": "Unknown10"
+    },
+    {
+      "index": 24,
+      "name": "Unknown11"
+    },
+    {
+      "index": 25,
+      "name": "Unknown12"
+    },
+    {
+      "index": 26,
+      "name": "Unknown13"
+    },
+    {
+      "index": 27,
+      "name": "Unknown14"
+    },
+    {
+      "index": 28,
+      "name": "Unknown15"
+    }
+  ]
+}

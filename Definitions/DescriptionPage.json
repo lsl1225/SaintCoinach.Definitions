@@ -1,0 +1,47 @@
+{
+  "sheet": "DescriptionPage",
+  "definitions": [
+    {
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown2"
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 11,
+      "definition": {
+        "name": "Image",
+        "converter": {
+          "type": "icon"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "type": "repeat",
+      "count": 11,
+      "definition": {
+        "name": "Text",
+        "converter": {
+          "type": "link",
+          "target": "DescriptionString"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "name": "Unknown0"
+    },
+    {
+      "index": 25,
+      "name": "Unknown1"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "sheet": "LegacyQuest",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "String"
+    },
+    {
+      "index": 2,
+      "name": "Genre",
+      "converter": {
+        "type": "link",
+        "target": "JournalGenre"
+      }
+    },
+    {
+      "index": 3,
+      "name": "LegacyQuestID"
+    },
+    {
+      "index": 4,
+      "name": "SortKey"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "sheet": "CompanyCraftSequence",
+  "defaultColumn": "ResultItem",
+  "definitions": [
+    {
+      "name": "Order"
+    },
+    {
+      "index": 1,
+      "name": "ResultItem",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Category"
+    },
+    {
+      "index": 3,
+      "name": "CompanyCraftDraftCategory",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftDraftCategory"
+      }
+    },
+    {
+      "index": 4,
+      "name": "CompanyCraftType",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 5,
+      "name": "CompanyCraftDraft",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftDraft"
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "CompanyCraftPart",
+        "converter": {
+          "type": "link",
+          "target": "CompanyCraftPart"
+        }
+      }
+    }
+  ]
+}

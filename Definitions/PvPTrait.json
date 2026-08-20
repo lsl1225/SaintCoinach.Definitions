@@ -1,0 +1,28 @@
+{
+  "sheet": "PvPTrait",
+  "definitions": [
+    {
+      "name": "Trait1",
+      "converter": {
+        "type": "link",
+        "target": "Trait"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Trait2",
+      "converter": {
+        "type": "link",
+        "target": "Trait"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Trait3",
+      "converter": {
+        "type": "link",
+        "target": "Trait"
+      }
+    }
+  ]
+}

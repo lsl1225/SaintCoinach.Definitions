@@ -1,0 +1,9 @@
+{
+  "sheet": "UIConst",
+  "defaultColumn": "Value",
+  "definitions": [
+    {
+      "name": "Value"
+    }
+  ]
+}

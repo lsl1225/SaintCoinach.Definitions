@@ -1,0 +1,55 @@
+{
+  "sheet": "MandervilleWeaponEnhance",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Materia",
+        "converter": {
+          "type": "link",
+          "target": "Materia"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "UpgradeItem",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "UpgradeCost"
+    },
+    {
+      "index": 7,
+      "name": "Unknown7"
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "MateriaBigValueIndex"
+      }
+    },
+    {
+      "index": 12,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "MateriaSmallValueIndex"
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "sheet": "Map",
+  "defaultColumn": "PlaceName",
+  "definitions": [
+    {
+      "name": "Id"
+    },
+    {
+      "index": 1,
+      "name": "DiscoveryFlag"
+    },
+    {
+      "index": 2,
+      "name": "MapMarkerRange"
+    },
+    {
+      "index": 3,
+      "name": "SizeFactor"
+    },
+    {
+      "index": 4,
+      "name": "PlaceNameRegion",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 5,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 6,
+      "name": "PlaceNameSub",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 7,
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 8,
+      "name": "OffsetX"
+    },
+    {
+      "index": 9,
+      "name": "OffsetY"
+    },
+    {
+      "index": 10,
+      "name": "DiscoveryIndex"
+    },
+    {
+      "index": 11,
+      "name": "MapCondition",
+      "converter": {
+        "type": "link",
+        "target": "MapCondition"
+      }
+    },
+    {
+      "index": 12,
+      "name": "PriorityCategoryUI"
+    },
+    {
+      "index": 13,
+      "name": "PriorityUI"
+    },
+    {
+      "index": 14,
+      "name": "MapType",
+      "converter": {
+        "type": "link",
+        "target": "MapType"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Unknown2"
+    },
+    {
+      "index": 16,
+      "name": "MapReplace",
+      "converter": {
+        "type": "link",
+        "target": "MapReplace"
+      }
+    },
+    {
+      "index": 17,
+      "name": "MapIndex"
+    },
+    {
+      "index": 18,
+      "name": "DiscoveryArrayByte"
+    },
+    {
+      "index": 19,
+      "name": "IsEvent"
+    },
+    {
+      "index": 20,
+      "name": "Unknown1"
+    }
+  ]
+}

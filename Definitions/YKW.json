@@ -1,0 +1,36 @@
+{
+  "sheet": "YKW",
+  "definitions": [
+    {
+      "name": "Transient"
+    },
+    {
+      "index": 1,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Companion",
+      "converter": {
+        "type": "link",
+        "target": "Companion"
+      }
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "Location",
+        "converter": {
+          "type": "link",
+          "target": "TerritoryType"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "sheet": "PatchMark",
+  "definitions": [
+    {
+      "name": "Requirement",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "RequirementType",
+              "value": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "MarkID"
+    },
+    {
+      "index": 2,
+      "name": "SubCategory"
+    },
+    {
+      "index": 3,
+      "name": "Unknown1"
+    },
+    {
+      "index": 4,
+      "name": "SubCategoryType"
+    },
+    {
+      "index": 5,
+      "name": "RequirementType"
+    },
+    {
+      "index": 6,
+      "name": "Version"
+    },
+    {
+      "index": 7,
+      "name": "Category"
+    }
+  ]
+}

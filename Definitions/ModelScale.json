@@ -1,0 +1,9 @@
+{
+  "sheet": "ModelScale",
+  "defaultColumn": "Scale",
+  "definitions": [
+    {
+      "name": "Scale"
+    }
+  ]
+}

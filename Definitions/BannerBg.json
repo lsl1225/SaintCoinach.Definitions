@@ -1,0 +1,55 @@
+{
+  "sheet": "BannerBg",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "UnlockCondition",
+      "converter": {
+        "type": "link",
+        "target": "BannerCondition"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 5,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 6,
+      "name": "Unknown0"
+    },
+    {
+      "index": 7,
+      "name": "SortKey"
+    },
+    {
+      "index": 8,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "CharaCardDesignCategory"
+      }
+    }
+  ]
+}

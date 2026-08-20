@@ -1,0 +1,13 @@
+{
+  "sheet": "ContentEventItem",
+  "defaultColumn": "EventItem",
+  "definitions": [
+    {
+      "name": "EventItem",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    }
+  ]
+}

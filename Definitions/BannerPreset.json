@@ -1,0 +1,112 @@
+{
+  "sheet": "BannerPreset",
+  "definitions": [
+    {
+      "name": "CameraPositionX"
+    },
+    {
+      "index": 1,
+      "name": "CameraPositionY"
+    },
+    {
+      "index": 2,
+      "name": "CameraPositionZ"
+    },
+    {
+      "index": 3,
+      "name": "CameraTargetX"
+    },
+    {
+      "index": 4,
+      "name": "CameraTargetY"
+    },
+    {
+      "index": 5,
+      "name": "CameraTargetZ"
+    },
+    {
+      "index": 6,
+      "name": "AnimationProgress"
+    },
+    {
+      "index": 7,
+      "name": "HeadDirectionX"
+    },
+    {
+      "index": 8,
+      "name": "HeadDirectionY"
+    },
+    {
+      "index": 9,
+      "name": "EyeDirectionX"
+    },
+    {
+      "index": 10,
+      "name": "EyeDirectionY"
+    },
+    {
+      "index": 11,
+      "name": "Expression"
+    },
+    {
+      "index": 12,
+      "name": "BannerTimeline"
+    },
+    {
+      "index": 13,
+      "name": "ImageRotation"
+    },
+    {
+      "index": 14,
+      "name": "DirectionalLightingVerticalAngle"
+    },
+    {
+      "index": 15,
+      "name": "DirectionalLightingHorizontalAngle"
+    },
+    {
+      "index": 16,
+      "name": "CameraZoom"
+    },
+    {
+      "index": 17,
+      "name": "BannerDesignPreset",
+      "converter": {
+        "type": "link",
+        "target": "BannerDesignPreset"
+      }
+    },
+    {
+      "index": 18,
+      "name": "DirectionalLightingColorRed"
+    },
+    {
+      "index": 19,
+      "name": "DirectionalLightingColorGreen"
+    },
+    {
+      "index": 20,
+      "name": "DirectionalLightingColorBlue"
+    },
+    {
+      "index": 21,
+      "name": "DirectionalLightingBrightness"
+    },
+    {
+      "index": 22,
+      "name": "AmbientLightingColorRed"
+    },
+    {
+      "index": 23,
+      "name": "AmbientLightingColorGreen"
+    },
+    {
+      "index": 24,
+      "name": "AmbientLightingColorBlue"
+    },
+    {
+      "index": 25,
+      "name": "AmbientLightingBrightness"
+    }
+  ]
+}

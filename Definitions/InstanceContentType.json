@@ -1,0 +1,44 @@
+{
+  "sheet": "InstanceContentType",
+  "definitions": [
+    {
+      "name": "StartLogMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 1,
+      "name": "LookupIndex"
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    },
+    {
+      "index": 5,
+      "name": "Unknown5"
+    },
+    {
+      "index": 6,
+      "name": "Unknown6"
+    },
+    {
+      "index": 7,
+      "name": "SupportsPartyMemberPortraits"
+    },
+    {
+      "index": 8,
+      "name": "Unknown8"
+    }
+  ]
+}

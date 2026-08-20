@@ -1,0 +1,68 @@
+{
+  "sheet": "WKSTerritoryInfo",
+  "definitions": [
+    {
+      "name": "Unknown6"
+    },
+    {
+      "index": 1,
+      "name": "Unknown7"
+    },
+    {
+      "index": 2,
+      "name": "Unknown8"
+    },
+    {
+      "index": 3,
+      "name": "Unknown9"
+    },
+    {
+      "index": 4,
+      "name": "Unknown10"
+    },
+    {
+      "index": 5,
+      "name": "Unknown11"
+    },
+    {
+      "index": 6,
+      "name": "Unknown12"
+    },
+    {
+      "index": 7,
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 8,
+      "name": "MechaEventNpc",
+      "converter": {
+        "type": "link",
+        "target": "ENpcBase"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Unknown3"
+    },
+    {
+      "index": 11,
+      "name": "Unknown4"
+    },
+    {
+      "index": 12,
+      "name": "Unknown5"
+    }
+  ]
+}

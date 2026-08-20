@@ -1,0 +1,16 @@
+{
+  "sheet": "OmikujiGuidance",
+  "definitions": [
+    {
+      "name": "Type"
+    },
+    {
+      "index": 1,
+      "name": "Outcome"
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    }
+  ]
+}

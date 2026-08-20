@@ -1,0 +1,25 @@
+{
+  "sheet": "Completion",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "GroupTitle"
+    },
+    {
+      "index": 2,
+      "name": "LookupTable"
+    },
+    {
+      "index": 3,
+      "name": "Group"
+    },
+    {
+      "index": 4,
+      "name": "Key"
+    }
+  ]
+}

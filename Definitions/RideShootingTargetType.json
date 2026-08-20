@@ -1,0 +1,32 @@
+{
+  "sheet": "RideShootingTargetType",
+  "definitions": [
+    {
+      "name": "EObj",
+      "converter": {
+        "type": "link",
+        "target": "EObj"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Score"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
+      "name": "Unknown1"
+    },
+    {
+      "index": 4,
+      "name": "Unknown2"
+    },
+    {
+      "index": 5,
+      "name": "Unknown3"
+    }
+  ]
+}

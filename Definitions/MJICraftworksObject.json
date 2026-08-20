@@ -1,0 +1,61 @@
+{
+  "sheet": "MJICraftworksObject",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Theme",
+        "converter": {
+          "type": "link",
+          "target": "MJICraftworksObjectTheme"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Material",
+        "converter": {
+          "type": "link",
+          "target": "MJIItemPouch"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Amount"
+      }
+    },
+    {
+      "index": 12,
+      "name": "LevelReq"
+    },
+    {
+      "index": 13,
+      "name": "CraftingTime"
+    },
+    {
+      "index": 14,
+      "name": "Value"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sheet": "WKSItemInfo",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
+      "name": "WKSItemSubCategory",
+      "converter": {
+        "type": "link",
+        "target": "WKSItemSubCategory"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown3"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "sheet": "VVDVoteRoute",
+  "defaultColumn": "Title",
+  "definitions": [
+    {
+      "name": "Title",
+      "converter": {
+        "type": "link",
+        "target": "VVDVoteRouteLabel"
+      }
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Options",
+        "converter": {
+          "type": "link",
+          "target": "VVDVoteRouteLabel"
+        }
+      }
+    }
+  ]
+}

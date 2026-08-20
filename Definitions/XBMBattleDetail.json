@@ -1,0 +1,71 @@
+{
+  "sheet": "XBMBattleDetail",
+  "definitions": [
+    {
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown1",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown2",
+      "converter": {
+        "type": "link",
+        "target": "XBMBattleDetailAction"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown3",
+      "converter": {
+        "type": "link",
+        "target": "XBMBattleDetailAction"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Resist",
+      "converter": {
+        "type": "link",
+        "target": "BNpcResist"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown5"
+    },
+    {
+      "index": 6,
+      "name": "Unknown6"
+    },
+    {
+      "index": 7,
+      "name": "Unknown7"
+    },
+    {
+      "index": 8,
+      "name": "Unknown8"
+    },
+    {
+      "index": 9,
+      "name": "Unknown9"
+    },
+    {
+      "index": 10,
+      "name": "Element",
+      "converter": {
+        "type": "link",
+        "target": "XBMElement"
+      }
+    }
+  ]
+}

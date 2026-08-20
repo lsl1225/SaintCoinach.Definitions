@@ -1,0 +1,474 @@
+{
+  "sheet": "ENpcBase",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 32,
+      "definition": {
+        "name": "ENpcData",
+        "converter": {
+          "type": "multiref",
+          "targets": [
+            "ChocoboTaxiStand",
+            "CollectablesShop",
+            "ContentNpc",
+            "CraftLeve",
+            "CustomTalk",
+            "DefaultTalk",
+            "DisposalShop",
+            "DpsChallengeOfficer",
+            "EventPathMove",
+            "FccShop",
+            "GCShop",
+            "GilShop",
+            "GuildOrderGuide",
+            "GuildOrderOfficer",
+            "GuildleveAssignment",
+            "InclusionShop",
+            "LotteryExchangeShop",
+            "PreHandler",
+            "Quest",
+            "SpecialShop",
+            "Story",
+            "SwitchTalk",
+            "TopicSelect",
+            "TripleTriad",
+            "Warp"
+          ]
+        }
+      }
+    },
+    {
+      "index": 32,
+      "name": "ModelMainHand"
+    },
+    {
+      "index": 33,
+      "name": "ModelOffHand"
+    },
+    {
+      "index": 34,
+      "name": "Scale"
+    },
+    {
+      "index": 35,
+      "name": "ModelHead"
+    },
+    {
+      "index": 36,
+      "name": "ModelBody"
+    },
+    {
+      "index": 37,
+      "name": "ModelHands"
+    },
+    {
+      "index": 38,
+      "name": "ModelLegs"
+    },
+    {
+      "index": 39,
+      "name": "ModelFeet"
+    },
+    {
+      "index": 40,
+      "name": "ModelEars"
+    },
+    {
+      "index": 41,
+      "name": "ModelNeck"
+    },
+    {
+      "index": 42,
+      "name": "ModelWrists"
+    },
+    {
+      "index": 43,
+      "name": "ModelLeftRing"
+    },
+    {
+      "index": 44,
+      "name": "ModelRightRing"
+    },
+    {
+      "index": 45,
+      "name": "EventHandler"
+    },
+    {
+      "index": 46,
+      "name": "ModelChara",
+      "converter": {
+        "type": "link",
+        "target": "ModelChara"
+      }
+    },
+    {
+      "index": 47,
+      "name": "NpcEquip",
+      "converter": {
+        "type": "link",
+        "target": "NpcEquip"
+      }
+    },
+    {
+      "index": 48,
+      "name": "Behavior",
+      "converter": {
+        "type": "link",
+        "target": "Behavior"
+      }
+    },
+    {
+      "index": 49,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 50,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 51,
+      "name": "Balloon",
+      "converter": {
+        "type": "link",
+        "target": "Balloon"
+      }
+    },
+    {
+      "index": 52,
+      "name": "Race",
+      "converter": {
+        "type": "link",
+        "target": "Race"
+      }
+    },
+    {
+      "index": 53,
+      "name": "Gender"
+    },
+    {
+      "index": 54,
+      "name": "BodyType"
+    },
+    {
+      "index": 55,
+      "name": "Height"
+    },
+    {
+      "index": 56,
+      "name": "Tribe",
+      "converter": {
+        "type": "link",
+        "target": "Tribe"
+      }
+    },
+    {
+      "index": 57,
+      "name": "Face"
+    },
+    {
+      "index": 58,
+      "name": "HairStyle"
+    },
+    {
+      "index": 59,
+      "name": "HairHighlight"
+    },
+    {
+      "index": 60,
+      "name": "SkinColor"
+    },
+    {
+      "index": 61,
+      "name": "EyeHeterochromia"
+    },
+    {
+      "index": 62,
+      "name": "HairColor"
+    },
+    {
+      "index": 63,
+      "name": "HairHighlightColor"
+    },
+    {
+      "index": 64,
+      "name": "FacialFeature"
+    },
+    {
+      "index": 65,
+      "name": "FacialFeatureColor"
+    },
+    {
+      "index": 66,
+      "name": "Eyebrows"
+    },
+    {
+      "index": 67,
+      "name": "EyeColor"
+    },
+    {
+      "index": 68,
+      "name": "EyeShape"
+    },
+    {
+      "index": 69,
+      "name": "Nose"
+    },
+    {
+      "index": 70,
+      "name": "Jaw"
+    },
+    {
+      "index": 71,
+      "name": "Mouth"
+    },
+    {
+      "index": 72,
+      "name": "LipColor"
+    },
+    {
+      "index": 73,
+      "name": "BustOrTone1"
+    },
+    {
+      "index": 74,
+      "name": "ExtraFeature1"
+    },
+    {
+      "index": 75,
+      "name": "ExtraFeature2OrBust"
+    },
+    {
+      "index": 76,
+      "name": "FacePaint"
+    },
+    {
+      "index": 77,
+      "name": "FacePaintColor"
+    },
+    {
+      "index": 78,
+      "name": "Unknown0"
+    },
+    {
+      "index": 79,
+      "name": "DyeMainHand",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 80,
+      "name": "Dye2MainHand",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 81,
+      "name": "DyeOffHand",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 82,
+      "name": "Dye2OffHand",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 83,
+      "name": "DyeHead",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 84,
+      "name": "DyeBody",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 85,
+      "name": "DyeHands",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 86,
+      "name": "DyeLegs",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 87,
+      "name": "DyeFeet",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 88,
+      "name": "DyeEars",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 89,
+      "name": "DyeNeck",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 90,
+      "name": "DyeWrists",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 91,
+      "name": "DyeLeftRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 92,
+      "name": "DyeRightRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 93,
+      "name": "Dye2Head",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 94,
+      "name": "Dye2Body",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 95,
+      "name": "Dye2Hands",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 96,
+      "name": "Dye2Legs",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 97,
+      "name": "Dye2Feet",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 98,
+      "name": "Dye2Ears",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 99,
+      "name": "Dye2Neck",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 100,
+      "name": "Dye2Wrists",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 101,
+      "name": "Dye2LeftRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 102,
+      "name": "Dye2RightRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 103,
+      "name": "Invisibility"
+    },
+    {
+      "index": 104,
+      "name": "DefaultBalloon"
+    },
+    {
+      "index": 105,
+      "name": "Unknown1"
+    },
+    {
+      "index": 106,
+      "name": "Important"
+    },
+    {
+      "index": 107,
+      "name": "Visor"
+    },
+    {
+      "index": 108,
+      "name": "NotRewriteHeight"
+    },
+    {
+      "index": 109,
+      "name": "Unknown2"
+    }
+  ]
+}

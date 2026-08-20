@@ -1,0 +1,12 @@
+{
+  "sheet": "QuestBattleResident",
+  "definitions": [
+    {
+      "name": "SoloDuty",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    }
+  ]
+}

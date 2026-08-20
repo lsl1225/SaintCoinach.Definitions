@@ -1,0 +1,270 @@
+{
+  "sheet": "TerritoryType",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Bg"
+    },
+    {
+      "index": 2,
+      "name": "ArrayEventHandler",
+      "converter": {
+        "type": "link",
+        "target": "ArrayEventHandler"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PlaceNameRegionIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PlaceNameIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Aetheryte",
+      "converter": {
+        "type": "link",
+        "target": "Aetheryte"
+      }
+    },
+    {
+      "index": 6,
+      "name": "FixedTime"
+    },
+    {
+      "index": 7,
+      "name": "PlaceNameRegion",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 8,
+      "name": "PlaceNameZone",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 9,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Map",
+      "converter": {
+        "type": "link",
+        "target": "Map"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 12,
+      "name": "BGM",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "BGM",
+          "BGMSituation"
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "name": "QuestBattle",
+      "converter": {
+        "type": "link",
+        "target": "QuestBattle"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Resident"
+    },
+    {
+      "index": 15,
+      "name": "NotoriousMonsterTerritory",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonsterTerritory"
+      }
+    },
+    {
+      "index": 16,
+      "name": "BattalionMode"
+    },
+    {
+      "index": 17,
+      "name": "LoadingImage",
+      "converter": {
+        "type": "link",
+        "target": "LoadingImage"
+      }
+    },
+    {
+      "index": 18,
+      "name": "ExclusiveType"
+    },
+    {
+      "index": 19,
+      "name": "TerritoryIntendedUse",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryIntendedUse"
+      }
+    },
+    {
+      "index": 20,
+      "name": "WeatherRate",
+      "converter": {
+        "type": "link",
+        "target": "WeatherRate"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Unknown1"
+    },
+    {
+      "index": 22,
+      "name": "ExVersion",
+      "converter": {
+        "type": "link",
+        "target": "ExVersion"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Unknown2"
+    },
+    {
+      "index": 24,
+      "name": "ZoneSharedGroup",
+      "converter": {
+        "type": "link",
+        "target": "ZoneSharedGroup"
+      }
+    },
+    {
+      "index": 25,
+      "name": "AetherCurrentCompFlgSet",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrentCompFlgSet"
+      }
+    },
+    {
+      "index": 26,
+      "name": "MountSpeed",
+      "converter": {
+        "type": "link",
+        "target": "MountSpeed"
+      }
+    },
+    {
+      "index": 27,
+      "name": "IndividualWeather",
+      "converter": {
+        "type": "link",
+        "target": "IndividualWeather"
+      }
+    },
+    {
+      "index": 28,
+      "name": "AchievementIndex"
+    },
+    {
+      "index": 29,
+      "name": "Unknown6"
+    },
+    {
+      "index": 30,
+      "name": "Unknown7"
+    },
+    {
+      "index": 31,
+      "name": "PCSearch"
+    },
+    {
+      "index": 32,
+      "name": "Stealth"
+    },
+    {
+      "index": 33,
+      "name": "Mount"
+    },
+    {
+      "index": 34,
+      "name": "Unknown8"
+    },
+    {
+      "index": 35,
+      "name": "IsPvpZone"
+    },
+    {
+      "index": 36,
+      "name": "Unknown9"
+    },
+    {
+      "index": 37,
+      "name": "IsInUse"
+    },
+    {
+      "index": 38,
+      "name": "Unknown11"
+    },
+    {
+      "index": 39,
+      "name": "Unknown12"
+    },
+    {
+      "index": 40,
+      "name": "Unknown13"
+    },
+    {
+      "index": 41,
+      "name": "Unknown14"
+    },
+    {
+      "index": 42,
+      "name": "Unknown15"
+    },
+    {
+      "index": 43,
+      "name": "Unknown16"
+    },
+    {
+      "index": 44,
+      "name": "Unknown17"
+    },
+    {
+      "index": 45,
+      "name": "Unknown18"
+    }
+  ]
+}

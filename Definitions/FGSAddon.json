@@ -1,0 +1,9 @@
+{
+  "sheet": "FGSAddon",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    }
+  ]
+}

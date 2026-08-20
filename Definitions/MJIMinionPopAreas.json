@@ -1,0 +1,32 @@
+{
+  "sheet": "MJIMinionPopAreas",
+  "definitions": [
+    {
+      "name": "Text",
+      "converter": {
+        "type": "link",
+        "target": "MJIText"
+      }
+    },
+    {
+      "index": 1,
+      "name": "X"
+    },
+    {
+      "index": 2,
+      "name": "Y"
+    },
+    {
+      "index": 3,
+      "name": "RequiredFunction",
+      "converter": {
+        "type": "link",
+        "target": "MJIFunction"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    }
+  ]
+}

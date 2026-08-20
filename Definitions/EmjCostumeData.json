@@ -1,0 +1,9 @@
+{
+  "sheet": "EmjCostumeData",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    }
+  ]
+}

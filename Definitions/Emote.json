@@ -1,0 +1,112 @@
+{
+  "sheet": "Emote",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 3,
+      "name": "TextCommand",
+      "converter": {
+        "type": "link",
+        "target": "TextCommand"
+      }
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 7,
+      "definition": {
+        "name": "ActionTimeline",
+        "converter": {
+          "type": "link",
+          "target": "ActionTimeline"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "name": "Order"
+    },
+    {
+      "index": 12,
+      "name": "LogMessageTargeted",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 13,
+      "name": "LogMessageUntargeted",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Patch"
+    },
+    {
+      "index": 15,
+      "name": "EmoteCategory",
+      "converter": {
+        "type": "link",
+        "target": "EmoteCategory"
+      }
+    },
+    {
+      "index": 16,
+      "name": "EmoteMode",
+      "converter": {
+        "type": "link",
+        "target": "EmoteMode"
+      }
+    },
+    {
+      "index": 17,
+      "name": "HasMountedAnimation"
+    },
+    {
+      "index": 18,
+      "name": "HasSwimmingAnimation"
+    },
+    {
+      "index": 19,
+      "name": "HasDivingAnimation"
+    },
+    {
+      "index": 20,
+      "name": "DontSetEmoteMode"
+    },
+    {
+      "index": 21,
+      "name": "Unknown5"
+    },
+    {
+      "index": 22,
+      "name": "UsableWhenFishing"
+    },
+    {
+      "index": 23,
+      "name": "DrawsWeapon"
+    },
+    {
+      "index": 24,
+      "name": "SheathesWeapon"
+    }
+  ]
+}

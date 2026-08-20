@@ -1,0 +1,21 @@
+{
+  "sheet": "TreasureSpot",
+  "defaultColumn": "Location",
+  "definitions": [
+    {
+      "name": "MapOffsetX"
+    },
+    {
+      "index": 1,
+      "name": "MapOffsetY"
+    },
+    {
+      "index": 2,
+      "name": "Location",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    }
+  ]
+}

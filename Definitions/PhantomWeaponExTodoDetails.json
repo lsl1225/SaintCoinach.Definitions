@@ -1,0 +1,48 @@
+{
+  "sheet": "PhantomWeaponExTodoDetails",
+  "definitions": [
+    {
+      "name": "LogMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ExtendedQuestCounter",
+      "converter": {
+        "type": "link",
+        "target": "ExtendedQuestCounter"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DetailText",
+      "converter": {
+        "type": "link",
+        "target": "PhantomWeaponExTodoDetailTxt"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 4,
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown5"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "sheet": "ActionTimeline",
+  "defaultColumn": "Key",
+  "definitions": [
+    {
+      "name": "Key"
+    },
+    {
+      "index": 1,
+      "name": "WeaponTimeline",
+      "converter": {
+        "type": "link",
+        "target": "WeaponTimeline"
+      }
+    },
+    {
+      "index": 2,
+      "name": "KillUpper"
+    },
+    {
+      "index": 3,
+      "name": "Unknown_70"
+    },
+    {
+      "index": 4,
+      "name": "Type"
+    },
+    {
+      "index": 5,
+      "name": "Priority"
+    },
+    {
+      "index": 6,
+      "name": "Stance"
+    },
+    {
+      "index": 7,
+      "name": "Slot"
+    },
+    {
+      "index": 8,
+      "name": "LookAtMode"
+    },
+    {
+      "index": 9,
+      "name": "ActionTimelineIDMode"
+    },
+    {
+      "index": 10,
+      "name": "LoadType"
+    },
+    {
+      "index": 11,
+      "name": "StartAttach"
+    },
+    {
+      "index": 12,
+      "name": "ResidentPap"
+    },
+    {
+      "index": 13,
+      "name": "Unknown6"
+    },
+    {
+      "index": 14,
+      "name": "Unknown1"
+    },
+    {
+      "index": 15,
+      "name": "Pause"
+    },
+    {
+      "index": 16,
+      "name": "Resident"
+    },
+    {
+      "index": 17,
+      "name": "IsMotionCanceledByMoving"
+    },
+    {
+      "index": 18,
+      "name": "Unknown2"
+    },
+    {
+      "index": 19,
+      "name": "Unknown3"
+    },
+    {
+      "index": 20,
+      "name": "IsLoop"
+    },
+    {
+      "index": 21,
+      "name": "Unknown4"
+    }
+  ]
+}

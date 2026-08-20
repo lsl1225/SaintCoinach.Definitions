@@ -1,0 +1,13 @@
+{
+  "sheet": "Balloon",
+  "defaultColumn": "Dialogue",
+  "definitions": [
+    {
+      "name": "Dialogue"
+    },
+    {
+      "index": 1,
+      "name": "Slowly"
+    }
+  ]
+}

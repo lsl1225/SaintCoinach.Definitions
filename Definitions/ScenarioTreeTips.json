@@ -1,0 +1,31 @@
+{
+  "sheet": "ScenarioTreeTips",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Tips",
+        "converter": {
+          "type": "multiref",
+          "targets": [
+            "ScenarioTree",
+            "Quest"
+          ]
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "RequiredLevel"
+    },
+    {
+      "index": 3,
+      "name": "NextTip",
+      "converter": {
+        "type": "link",
+        "target": "ScenarioTreeTips"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sheet": "WorldDCGroupType",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "PvPRegion",
+      "converter": {
+        "type": "link",
+        "target": "WorldPhysicalDC"
+      }
+    },
+    {
+      "index": 2,
+      "name": "NeolobbyId"
+    },
+    {
+      "index": 3,
+      "name": "Region",
+      "converter": {
+        "type": "link",
+        "target": "WorldRegionGroup"
+      }
+    },
+    {
+      "index": 4,
+      "name": "IsCloud"
+    }
+  ]
+}

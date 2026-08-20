@@ -1,0 +1,31 @@
+{
+  "sheet": "ItemBarterCheck",
+  "definitions": [
+    {
+      "name": "Question",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "LogMessage",
+          "Addon"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "Confirm",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "AddonTransient"
+      }
+    }
+  ]
+}

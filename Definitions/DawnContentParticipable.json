@@ -1,0 +1,13 @@
+{
+  "sheet": "DawnContentParticipable",
+  "defaultColumn": "DawnQuestMember",
+  "definitions": [
+    {
+      "name": "DawnQuestMember",
+      "converter": {
+        "type": "link",
+        "target": "DawnQuestMember"
+      }
+    }
+  ]
+}

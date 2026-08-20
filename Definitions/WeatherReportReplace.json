@@ -1,0 +1,20 @@
+{
+  "sheet": "WeatherReportReplace",
+  "definitions": [
+    {
+      "name": "PlaceNameSub",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 1,
+      "name": "PlaceNameParent",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "sheet": "HugeCraftworksNpc",
+  "defaultColumn": "EventNpc",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "RequestedItem",
+            "converter": {
+              "type": "link",
+              "target": "Item"
+            }
+          },
+          {
+            "name": "Unknown0"
+          },
+          {
+            "name": "RequestedQuantity"
+          },
+          {
+            "name": "Unknown1"
+          },
+          {
+            "name": "Unknown2"
+          },
+          {
+            "name": "Unknown3"
+          },
+          {
+            "name": "Unknown4"
+          },
+          {
+            "name": "Unknown5"
+          },
+          {
+            "name": "Unknown6"
+          }
+        ]
+      }
+    },
+    {
+      "index": 54,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "RewardItem",
+              "converter": {
+                "type": "link",
+                "target": "Item"
+              }
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "RewardQuantity"
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "RewardHQ"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 90,
+      "name": "Transient"
+    },
+    {
+      "index": 91,
+      "name": "EventNpc",
+      "converter": {
+        "type": "link",
+        "target": "ENpcResident"
+      }
+    },
+    {
+      "index": 92,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    }
+  ]
+}

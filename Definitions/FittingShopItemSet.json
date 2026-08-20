@@ -1,0 +1,21 @@
+{
+  "sheet": "FittingShopItemSet",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "Name"
+    }
+  ]
+}

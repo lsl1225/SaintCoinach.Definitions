@@ -1,0 +1,16 @@
+{
+  "sheet": "SatisfactionSupplyRewardExp",
+  "definitions": [
+    {
+      "name": "PercentOfLevelLow"
+    },
+    {
+      "index": 1,
+      "name": "PercentOfLevelMid"
+    },
+    {
+      "index": 2,
+      "name": "PercentOfLevelHigh"
+    }
+  ]
+}

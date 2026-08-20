@@ -1,0 +1,25 @@
+{
+  "sheet": "TofuEditParam",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Default"
+    },
+    {
+      "index": 2,
+      "name": "Minimum"
+    },
+    {
+      "index": 3,
+      "name": "Maximum"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
+    }
+  ]
+}

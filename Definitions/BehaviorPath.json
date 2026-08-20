@@ -1,0 +1,28 @@
+{
+  "sheet": "BehaviorPath",
+  "definitions": [
+    {
+      "name": "Speed"
+    },
+    {
+      "index": 1,
+      "name": "IsTurnTransition"
+    },
+    {
+      "index": 2,
+      "name": "IsFadeOut"
+    },
+    {
+      "index": 3,
+      "name": "IsFadeIn"
+    },
+    {
+      "index": 4,
+      "name": "IsWalking"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    }
+  ]
+}

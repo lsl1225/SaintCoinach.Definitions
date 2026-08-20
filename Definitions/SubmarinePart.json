@@ -1,0 +1,45 @@
+{
+  "sheet": "SubmarinePart",
+  "defaultColumn": "Slot",
+  "definitions": [
+    {
+      "name": "Class"
+    },
+    {
+      "index": 1,
+      "name": "Surveillance"
+    },
+    {
+      "index": 2,
+      "name": "Retrieval"
+    },
+    {
+      "index": 3,
+      "name": "Speed"
+    },
+    {
+      "index": 4,
+      "name": "Range"
+    },
+    {
+      "index": 5,
+      "name": "Favor"
+    },
+    {
+      "index": 6,
+      "name": "Slot"
+    },
+    {
+      "index": 7,
+      "name": "Rank"
+    },
+    {
+      "index": 8,
+      "name": "Components"
+    },
+    {
+      "index": 9,
+      "name": "RepairMaterials"
+    }
+  ]
+}

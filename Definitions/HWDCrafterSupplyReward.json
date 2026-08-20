@@ -1,0 +1,16 @@
+{
+  "sheet": "HWDCrafterSupplyReward",
+  "definitions": [
+    {
+      "name": "ExpReward"
+    },
+    {
+      "index": 1,
+      "name": "ScriptRewardAmount"
+    },
+    {
+      "index": 2,
+      "name": "Points"
+    }
+  ]
+}

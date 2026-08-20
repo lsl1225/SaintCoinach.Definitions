@@ -1,0 +1,111 @@
+{
+  "sheet": "MJIBuilding",
+  "definitions": [
+    {
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "MJIText"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "Sgb",
+        "converter": {
+          "type": "link",
+          "target": "ExportedSG"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": "Unknown1"
+    },
+    {
+      "index": 9,
+      "name": "Unknown2"
+    },
+    {
+      "index": 10,
+      "name": "Unknown3"
+    },
+    {
+      "index": 11,
+      "name": "Unknown4"
+    },
+    {
+      "index": 12,
+      "name": "Unknown5"
+    },
+    {
+      "index": 13,
+      "name": "Unknown6"
+    },
+    {
+      "index": 14,
+      "name": "Unknown7"
+    },
+    {
+      "index": 15,
+      "name": "Unknown8"
+    },
+    {
+      "index": 16,
+      "name": "Unknown9"
+    },
+    {
+      "index": 17,
+      "name": "Unknown10"
+    },
+    {
+      "index": 18,
+      "name": "Unknown11"
+    },
+    {
+      "index": 19,
+      "name": "Unknown12"
+    },
+    {
+      "index": 20,
+      "name": "Unknown13"
+    },
+    {
+      "index": 21,
+      "name": "Unknown14"
+    },
+    {
+      "index": 22,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "Material",
+        "converter": {
+          "type": "link",
+          "target": "MJIItemPouch"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "Amount"
+      }
+    }
+  ]
+}

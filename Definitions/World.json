@@ -1,0 +1,44 @@
+{
+  "sheet": "World",
+  "definitions": [
+    {
+      "name": "InternalName"
+    },
+    {
+      "index": 1,
+      "name": "Name"
+    },
+    {
+      "index": 2,
+      "name": "DataCenter",
+      "converter": {
+        "type": "link",
+        "target": "WorldDCGroupType"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "UserType"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
+      "name": "Region"
+    },
+    {
+      "index": 7,
+      "name": "Unknown2"
+    },
+    {
+      "index": 8,
+      "name": "IsPublic"
+    }
+  ]
+}

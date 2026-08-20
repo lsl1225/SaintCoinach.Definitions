@@ -1,0 +1,192 @@
+{
+  "sheet": "SpecialShop",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 60,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "ReceiveCount"
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "CurrencyCost"
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "Item",
+              "converter": {
+                "type": "link",
+                "target": "Item"
+              }
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "Category",
+              "converter": {
+                "type": "link",
+                "target": "SpecialShopItemCategory"
+              }
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "ItemCost",
+              "converter": {
+                "type": "link",
+                "target": "Item"
+              }
+            }
+          },
+          {
+            "name": "Quest",
+            "converter": {
+              "type": "link",
+              "target": "Quest"
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 4,
+            "definition": {
+              "name": "Unknown0"
+            }
+          },
+          {
+            "name": "AchievementUnlock",
+            "converter": {
+              "type": "link",
+              "target": "Achievement"
+            }
+          },
+          {
+            "name": "Unknown2"
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "CollectabilityCost"
+            }
+          },
+          {
+            "name": "PatchNumber"
+          },
+          {
+            "type": "repeat",
+            "count": 3,
+            "definition": {
+              "name": "CostType"
+            }
+          },
+          {
+            "type": "repeat",
+            "count": 5,
+            "definition": {
+              "name": "Unknown1"
+            }
+          },
+          {
+            "name": "Order"
+          },
+          {
+            "type": "repeat",
+            "count": 2,
+            "definition": {
+              "name": "ReceiveHq"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 2041,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 2042,
+      "name": "CustomTalk",
+      "converter": {
+        "type": "link",
+        "target": "CustomTalk"
+      }
+    },
+    {
+      "index": 2043,
+      "name": "RequiredContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 2044,
+      "name": "CompleteText",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 2045,
+      "name": "NotCompleteText",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 2046,
+      "name": "RequiredFestival",
+      "converter": {
+        "type": "link",
+        "target": "Festival"
+      }
+    },
+    {
+      "index": 2047,
+      "name": "RequiredFestivalPhase"
+    },
+    {
+      "index": 2048,
+      "name": "UseCurrencyType"
+    },
+    {
+      "index": 2049,
+      "name": "Unknown3"
+    },
+    {
+      "index": 2050,
+      "name": "RequiredContentFinderConditionComplete"
+    },
+    {
+      "index": 2051,
+      "name": "Unknown4"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sheet": "WeatherGroup",
+  "defaultColumn": "WeatherRate",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "WeatherRate",
+      "converter": {
+        "type": "link",
+        "target": "WeatherRate"
+      }
+    }
+  ]
+}

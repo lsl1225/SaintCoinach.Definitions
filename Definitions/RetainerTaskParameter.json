@@ -1,0 +1,28 @@
+{
+  "sheet": "RetainerTaskParameter",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "ItemLevelDoW"
+      }
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "PerceptionDoL"
+      }
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "PerceptionFSH"
+      }
+    }
+  ]
+}

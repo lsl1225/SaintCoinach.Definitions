@@ -1,0 +1,16 @@
+{
+  "sheet": "CollectablesRefine",
+  "definitions": [
+    {
+      "name": "CollectabilityLow"
+    },
+    {
+      "index": 1,
+      "name": "CollectabilityMid"
+    },
+    {
+      "index": 2,
+      "name": "CollectabilityHigh"
+    }
+  ]
+}

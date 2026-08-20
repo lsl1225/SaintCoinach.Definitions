@@ -1,0 +1,20 @@
+{
+  "sheet": "SharlayanCraftWorks",
+  "definitions": [
+    {
+      "name": "Description"
+    },
+    {
+      "index": 1,
+      "name": "Questgiver",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    }
+  ]
+}

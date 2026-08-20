@@ -1,0 +1,33 @@
+{
+  "sheet": "LogMessage",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "LogKind",
+      "converter": {
+        "type": "link",
+        "target": "LogKind"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DisplayFlags"
+    },
+    {
+      "index": 3,
+      "name": "Unknown1"
+    },
+    {
+      "index": 4,
+      "name": "Duration"
+    },
+    {
+      "index": 5,
+      "name": "Unknown2"
+    }
+  ]
+}

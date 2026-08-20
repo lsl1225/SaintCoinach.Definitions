@@ -1,0 +1,24 @@
+{
+  "sheet": "ActivityFeedButtons",
+  "definitions": [
+    {
+      "name": "BannerURL"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "Language"
+    },
+    {
+      "index": 3,
+      "name": "PictureURL"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    }
+  ]
+}

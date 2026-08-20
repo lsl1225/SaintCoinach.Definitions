@@ -1,0 +1,12 @@
+{
+  "sheet": "HWDSharedGroupControlParam",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "ParamValue"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "sheet": "ModelAttribute",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    }
+  ]
+}

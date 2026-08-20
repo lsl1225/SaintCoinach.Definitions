@@ -1,0 +1,20 @@
+{
+  "sheet": "AddonHudSize",
+  "definitions": [
+    {
+      "name": "Width"
+    },
+    {
+      "index": 1,
+      "name": "Height"
+    },
+    {
+      "index": 2,
+      "name": "OffsetX"
+    },
+    {
+      "index": 3,
+      "name": "OffsetY"
+    }
+  ]
+}

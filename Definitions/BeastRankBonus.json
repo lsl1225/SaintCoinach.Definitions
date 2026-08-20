@@ -1,0 +1,52 @@
+{
+  "sheet": "BeastRankBonus",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Neutral"
+    },
+    {
+      "index": 2,
+      "name": "Recognized"
+    },
+    {
+      "index": 3,
+      "name": "Friendly"
+    },
+    {
+      "index": 4,
+      "name": "Trusted"
+    },
+    {
+      "index": 5,
+      "name": "Respected"
+    },
+    {
+      "index": 6,
+      "name": "Honored"
+    },
+    {
+      "index": 7,
+      "name": "Sworn"
+    },
+    {
+      "index": 8,
+      "name": "AlliedBloodsworn"
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "ItemQuantity"
+      }
+    }
+  ]
+}

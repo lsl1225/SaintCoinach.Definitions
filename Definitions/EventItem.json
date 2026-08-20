@@ -1,0 +1,96 @@
+{
+  "sheet": "EventItem",
+  "defaultColumn": "Singular",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "Name"
+    },
+    {
+      "index": 3,
+      "name": "Adjective"
+    },
+    {
+      "index": 4,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 5,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 6,
+      "name": "Countability"
+    },
+    {
+      "index": 7,
+      "name": "Pronoun"
+    },
+    {
+      "index": 8,
+      "name": "Article"
+    },
+    {
+      "index": 9,
+      "name": "Unknown1"
+    },
+    {
+      "index": 10,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 13,
+      "name": "StackSize"
+    },
+    {
+      "index": 14,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "EventItemCategory"
+      }
+    },
+    {
+      "index": 15,
+      "name": "CastTime"
+    },
+    {
+      "index": 16,
+      "name": "CastTimeline",
+      "converter": {
+        "type": "link",
+        "target": "EventItemCastTimeline"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Timeline"
+    }
+  ]
+}

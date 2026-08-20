@@ -1,0 +1,29 @@
+{
+  "sheet": "SatisfactionArbitration",
+  "defaultColumn": "Quest",
+  "definitions": [
+    {
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SatisfactionLevel"
+    },
+    {
+      "index": 2,
+      "name": "SatisfactionNpc",
+      "converter": {
+        "type": "link",
+        "target": "SatisfactionNpc"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    }
+  ]
+}

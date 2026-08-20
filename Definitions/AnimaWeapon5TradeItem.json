@@ -1,0 +1,56 @@
+{
+  "sheet": "AnimaWeapon5TradeItem",
+  "definitions": [
+    {
+      "name": "CrystalSand",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "name": "Order"
+    },
+    {
+      "index": 10,
+      "name": "ReceiveQuantity"
+    },
+    {
+      "index": 11,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Quantity"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "AnimaWeapon5PatternGroup"
+      }
+    },
+    {
+      "index": 20,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "IsHQ"
+      }
+    }
+  ]
+}

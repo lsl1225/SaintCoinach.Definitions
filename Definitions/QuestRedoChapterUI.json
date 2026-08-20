@@ -1,0 +1,74 @@
+{
+  "sheet": "QuestRedoChapterUI",
+  "defaultColumn": "Quest",
+  "definitions": [
+    {
+      "name": "ChapterName"
+    },
+    {
+      "index": 1,
+      "name": "ChapterPart"
+    },
+    {
+      "index": 2,
+      "name": "Transient"
+    },
+    {
+      "index": 3,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 5,
+      "name": "QuestRedoUISmall",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "QuestRedoUILarge",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "QuestRedoUIWide",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 8,
+      "name": "UITab",
+      "converter": {
+        "type": "link",
+        "target": "QuestRedoChapterUITab"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "QuestRedoChapterUICategory"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Unknown1"
+    }
+  ]
+}

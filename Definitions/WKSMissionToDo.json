@@ -1,0 +1,103 @@
+{
+  "sheet": "WKSMissionToDo",
+  "definitions": [
+    {
+      "name": "TemporaryAction",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "Action",
+          "ActionTransient"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "BronzeScore"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "RequiredItem",
+        "converter": {
+          "type": "link",
+          "target": "WKSItemInfo"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "RequiredItemQuantity"
+      }
+    },
+    {
+      "index": 9,
+      "name": "RequiredFishVariety"
+    },
+    {
+      "index": 10,
+      "name": "Unknown10"
+    },
+    {
+      "index": 11,
+      "name": "Unknown11"
+    },
+    {
+      "index": 12,
+      "name": "Unknown12"
+    },
+    {
+      "index": 13,
+      "name": "MapMarker",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionMapMarker"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Unknown18"
+    },
+    {
+      "index": 15,
+      "name": "Unknown19"
+    },
+    {
+      "index": 16,
+      "name": "WKSMissionText",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionText"
+      }
+    },
+    {
+      "index": 17,
+      "name": "TemporaryActionCount"
+    },
+    {
+      "index": 18,
+      "name": "Unknown15"
+    },
+    {
+      "index": 19,
+      "name": "Unknown16"
+    },
+    {
+      "index": 20,
+      "name": "RequiredFishQuantity"
+    },
+    {
+      "index": 21,
+      "name": "MissionType"
+    }
+  ]
+}

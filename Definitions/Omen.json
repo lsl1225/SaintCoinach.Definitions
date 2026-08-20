@@ -1,0 +1,29 @@
+{
+  "sheet": "Omen",
+  "defaultColumn": "Path",
+  "definitions": [
+    {
+      "name": "Path"
+    },
+    {
+      "index": 1,
+      "name": "PathAlly"
+    },
+    {
+      "index": 2,
+      "name": "Type"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "RestrictYScale"
+    },
+    {
+      "index": 5,
+      "name": "LargeScale"
+    }
+  ]
+}

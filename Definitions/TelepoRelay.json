@@ -1,0 +1,35 @@
+{
+  "sheet": "TelepoRelay",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "EnterTerritory",
+            "converter": {
+              "type": "link",
+              "target": "TerritoryType"
+            }
+          },
+          {
+            "name": "ExitTerritory",
+            "converter": {
+              "type": "link",
+              "target": "TerritoryType"
+            }
+          },
+          {
+            "name": "Cost"
+          }
+        ]
+      }
+    },
+    {
+      "index": 27,
+      "name": "Unknown_70"
+    }
+  ]
+}

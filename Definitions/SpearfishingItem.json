@@ -1,0 +1,61 @@
+{
+  "sheet": "SpearfishingItem",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Description"
+    },
+    {
+      "index": 1,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "GatheringItemLevel",
+      "converter": {
+        "type": "link",
+        "target": "GatheringItemLevelConvertTable"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown2"
+    },
+    {
+      "index": 4,
+      "name": "SpearfishingNotebook",
+      "converter": {
+        "type": "link",
+        "target": "SpearfishingNotebook"
+      }
+    },
+    {
+      "index": 5,
+      "name": "GatheringSubCategory",
+      "converter": {
+        "type": "link",
+        "target": "GatheringSubCategory"
+      }
+    },
+    {
+      "index": 6,
+      "name": "FishingRecordType",
+      "converter": {
+        "type": "link",
+        "target": "FishingRecordType"
+      }
+    },
+    {
+      "index": 7,
+      "name": "IsHidden"
+    },
+    {
+      "index": 8,
+      "name": "IsInLog"
+    }
+  ]
+}

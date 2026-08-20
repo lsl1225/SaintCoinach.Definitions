@@ -1,0 +1,12 @@
+{
+  "sheet": "AddonParam",
+  "definitions": [
+    {
+      "name": "AddonName"
+    },
+    {
+      "index": 1,
+      "name": "Param"
+    }
+  ]
+}

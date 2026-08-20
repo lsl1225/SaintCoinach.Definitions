@@ -1,0 +1,37 @@
+{
+  "sheet": "InclusionShop",
+  "defaultColumn": "InclusionShopWelcom",
+  "definitions": [
+    {
+      "name": "ShopName"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 30,
+      "definition": {
+        "name": "Category",
+        "converter": {
+          "type": "link",
+          "target": "InclusionShopCategory"
+        }
+      }
+    },
+    {
+      "index": 31,
+      "name": "UnlockQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 32,
+      "name": "InclusionShopWelcom",
+      "converter": {
+        "type": "link",
+        "target": "InclusionShopWelcom"
+      }
+    }
+  ]
+}

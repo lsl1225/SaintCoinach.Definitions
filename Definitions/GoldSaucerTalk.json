@@ -1,0 +1,65 @@
+{
+  "sheet": "GoldSaucerTalk",
+  "defaultColumn": "Message",
+  "definitions": [
+    {
+      "name": "Message"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 10,
+      "definition": {
+        "name": "ChoicesText"
+      }
+    },
+    {
+      "index": 11,
+      "name": "NextTalk",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 12,
+      "name": "ActionTimeline",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 13,
+      "type": "repeat",
+      "count": 10,
+      "definition": {
+        "name": "ChoicesTalk",
+        "converter": {
+          "type": "link",
+          "target": "GoldSaucerTalk"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "name": "Unknown23"
+    },
+    {
+      "index": 24,
+      "name": "Unknown24"
+    },
+    {
+      "index": 25,
+      "name": "Unknown25"
+    },
+    {
+      "index": 26,
+      "name": "Unknown26"
+    },
+    {
+      "index": 27,
+      "name": "Unknown27"
+    }
+  ]
+}

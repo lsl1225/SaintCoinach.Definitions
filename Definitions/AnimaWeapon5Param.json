@@ -1,0 +1,17 @@
+{
+  "sheet": "AnimaWeapon5Param",
+  "defaultColumn": "BaseParam",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "BaseParam",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "sheet": "DpsChallengeOfficer",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 26,
+      "definition": {
+        "name": "ChallengeName",
+        "converter": {
+          "type": "link",
+          "target": "DpsChallenge"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "name": "UnlockQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    }
+  ]
+}

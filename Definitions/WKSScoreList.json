@@ -1,0 +1,56 @@
+{
+  "sheet": "WKSScoreList",
+  "definitions": [
+    {
+      "name": "ScoreItemId",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Achievement50k",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Achievement150k",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Achievement500k",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 4,
+      "name": "MasteryAchievement",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown3"
+    },
+    {
+      "index": 6,
+      "name": "ClassJob",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
+      }
+    }
+  ]
+}

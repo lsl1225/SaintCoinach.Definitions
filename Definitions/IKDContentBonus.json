@@ -1,0 +1,28 @@
+{
+  "sheet": "IKDContentBonus",
+  "defaultColumn": "Objective",
+  "definitions": [
+    {
+      "name": "Objective"
+    },
+    {
+      "index": 1,
+      "name": "Requirement"
+    },
+    {
+      "index": 2,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "BonusMultiplier"
+    },
+    {
+      "index": 4,
+      "name": "Order"
+    }
+  ]
+}

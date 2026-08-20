@@ -1,0 +1,62 @@
+{
+  "sheet": "GcArmyMemberGrow",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 60,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "EquipPreset",
+            "converter": {
+              "type": "link",
+              "target": "GcArmyEquipPreset"
+            }
+          },
+          {
+            "name": "Physical"
+          },
+          {
+            "name": "Mental"
+          },
+          {
+            "name": "Tactical"
+          }
+        ]
+      }
+    },
+    {
+      "index": 240,
+      "name": "Unknown0"
+    },
+    {
+      "index": 241,
+      "name": "Unknown1"
+    },
+    {
+      "index": 242,
+      "name": "Unknown2"
+    },
+    {
+      "index": 243,
+      "name": "Unknown3"
+    },
+    {
+      "index": 244,
+      "name": "ClassBook",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 245,
+      "name": "ClassJob",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
+      }
+    }
+  ]
+}

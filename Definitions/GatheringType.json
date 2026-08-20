@@ -1,0 +1,23 @@
+{
+  "sheet": "GatheringType",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "IconMain",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "IconOff",
+      "converter": {
+        "type": "icon"
+      }
+    }
+  ]
+}

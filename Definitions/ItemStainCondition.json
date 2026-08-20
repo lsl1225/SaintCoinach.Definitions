@@ -1,0 +1,13 @@
+{
+  "sheet": "ItemStainCondition",
+  "defaultColumn": "UnlockQuest",
+  "definitions": [
+    {
+      "name": "UnlockQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    }
+  ]
+}

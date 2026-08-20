@@ -1,0 +1,40 @@
+{
+  "sheet": "GathererCrafterLvAdjustTable",
+  "definitions": [
+    {
+      "name": "RecipeLevel",
+      "converter": {
+        "type": "link",
+        "target": "RecipeLevelTable"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
+      "name": "CrafterLevel",
+      "converter": {
+        "type": "link",
+        "target": "ItemLevel"
+      }
+    },
+    {
+      "index": 3,
+      "name": "GathererLevel",
+      "converter": {
+        "type": "link",
+        "target": "ItemLevel"
+      }
+    },
+    {
+      "index": 4,
+      "name": "FisherLevel",
+      "converter": {
+        "type": "link",
+        "target": "ItemLevel"
+      }
+    }
+  ]
+}

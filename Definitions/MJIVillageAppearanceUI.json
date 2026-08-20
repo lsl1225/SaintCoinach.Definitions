@@ -1,0 +1,19 @@
+{
+  "sheet": "MJIVillageAppearanceUI",
+  "definitions": [
+    {
+      "name": "Floor",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    }
+  ]
+}

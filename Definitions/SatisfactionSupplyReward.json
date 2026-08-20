@@ -1,0 +1,58 @@
+{
+  "sheet": "SatisfactionSupplyReward",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "RewardCurrency"
+          },
+          {
+            "name": "QuantityLow"
+          },
+          {
+            "name": "QuantityMid"
+          },
+          {
+            "name": "QuantityHigh"
+          }
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "name": "SatisfactionLow"
+    },
+    {
+      "index": 9,
+      "name": "SatisfactionMid"
+    },
+    {
+      "index": 10,
+      "name": "SatisfactionHigh"
+    },
+    {
+      "index": 11,
+      "name": "GilLow"
+    },
+    {
+      "index": 12,
+      "name": "GilMid"
+    },
+    {
+      "index": 13,
+      "name": "GilHigh"
+    },
+    {
+      "index": 14,
+      "name": "BonusMultiplier"
+    },
+    {
+      "index": 15,
+      "name": "MinLevelForSecondReward"
+    }
+  ]
+}

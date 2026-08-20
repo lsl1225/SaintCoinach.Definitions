@@ -1,0 +1,525 @@
+{
+  "sheet": "ContentFinderCondition",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "NameShort"
+    },
+    {
+      "index": 2,
+      "name": "LevelingRoulette"
+    },
+    {
+      "index": 3,
+      "name": "HighLevelRoulette"
+    },
+    {
+      "index": 4,
+      "name": "MSQRoulette"
+    },
+    {
+      "index": 5,
+      "name": "GuildHestRoulette"
+    },
+    {
+      "index": 6,
+      "name": "ExpertRoulette"
+    },
+    {
+      "index": 7,
+      "name": "TrialRoulette"
+    },
+    {
+      "index": 8,
+      "name": "DailyFrontlineChallenge"
+    },
+    {
+      "index": 9,
+      "name": "LevelCapRoulette"
+    },
+    {
+      "index": 10,
+      "name": "MentorRoulette"
+    },
+    {
+      "index": 11,
+      "name": "Unknown0"
+    },
+    {
+      "index": 12,
+      "name": "Unknown1"
+    },
+    {
+      "index": 13,
+      "name": "Unknown2"
+    },
+    {
+      "index": 14,
+      "name": "Unknown3"
+    },
+    {
+      "index": 15,
+      "name": "Unknown4"
+    },
+    {
+      "index": 16,
+      "name": "AllianceRoulette"
+    },
+    {
+      "index": 17,
+      "name": "FeastTeamRoulette"
+    },
+    {
+      "index": 18,
+      "name": "NormalRaidRoulette"
+    },
+    {
+      "index": 19,
+      "name": "Unknown5"
+    },
+    {
+      "index": 20,
+      "name": "Unknown6"
+    },
+    {
+      "index": 21,
+      "name": "Unknown7"
+    },
+    {
+      "index": 22,
+      "name": "Unknown8"
+    },
+    {
+      "index": 23,
+      "name": "Unknown9"
+    },
+    {
+      "index": 24,
+      "name": "Unknown10"
+    },
+    {
+      "index": 25,
+      "name": "Unknown11"
+    },
+    {
+      "index": 26,
+      "name": "Unknown12"
+    },
+    {
+      "index": 27,
+      "name": "Unknown13"
+    },
+    {
+      "index": 28,
+      "name": "Unknown14"
+    },
+    {
+      "index": 29,
+      "name": "Unknown15"
+    },
+    {
+      "index": 30,
+      "name": "Unknown16"
+    },
+    {
+      "index": 31,
+      "name": "Unknown17"
+    },
+    {
+      "index": 32,
+      "name": "Unknown18"
+    },
+    {
+      "index": 33,
+      "name": "Unknown19"
+    },
+    {
+      "index": 34,
+      "name": "Unknown20"
+    },
+    {
+      "index": 35,
+      "name": "Unknown21"
+    },
+    {
+      "index": 36,
+      "name": "Unknown22"
+    },
+    {
+      "index": 37,
+      "name": "Unknown23"
+    },
+    {
+      "index": 38,
+      "name": "Unknown24"
+    },
+    {
+      "index": 39,
+      "name": "Unknown25"
+    },
+    {
+      "index": 40,
+      "name": "Unknown26"
+    },
+    {
+      "index": 41,
+      "name": "CrystallineConflictCasualRoulette"
+    },
+    {
+      "index": 42,
+      "name": "CrystallineConflictRankedRoulette"
+    },
+    {
+      "index": 43,
+      "name": "ShortCode"
+    },
+    {
+      "index": 44,
+      "name": "Unknown29"
+    },
+    {
+      "index": 45,
+      "name": "ContentCloseCycle",
+      "converter": {
+        "type": "link",
+        "target": "ContentCloseCycle"
+      }
+    },
+    {
+      "index": 46,
+      "name": "UnlockCriteria",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "UnlockType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "InstanceContent",
+            "when": {
+              "key": "UnlockType",
+              "value": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 47,
+      "name": "UnlockCriteria2",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "UnlockType2",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "InstanceContent",
+            "when": {
+              "key": "UnlockType2",
+              "value": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 48,
+      "name": "JournalGenre",
+      "converter": {
+        "type": "link",
+        "target": "JournalGenre"
+      }
+    },
+    {
+      "index": 49,
+      "name": "Unknown59"
+    },
+    {
+      "index": 50,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 51,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 52,
+      "name": "Unknown32"
+    },
+    {
+      "index": 53,
+      "name": "Unknown58"
+    },
+    {
+      "index": 54,
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 55,
+      "name": "Content",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "InstanceContent",
+            "when": {
+              "key": "ContentLinkType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "PartyContent",
+            "when": {
+              "key": "ContentLinkType",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "PublicContent",
+            "when": {
+              "key": "ContentLinkType",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "GoldSaucerContent",
+            "when": {
+              "key": "ContentLinkType",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "QuestBattle",
+            "when": {
+              "key": "ContentLinkType",
+              "value": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 56,
+      "name": "ItemLevelRequired"
+    },
+    {
+      "index": 57,
+      "name": "ItemLevelSync"
+    },
+    {
+      "index": 58,
+      "name": "SortKey"
+    },
+    {
+      "index": 59,
+      "name": "ContentLinkType"
+    },
+    {
+      "index": 60,
+      "name": "RequiredExVersion",
+      "converter": {
+        "type": "link",
+        "target": "ExVersion"
+      }
+    },
+    {
+      "index": 61,
+      "name": "AcceptClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 62,
+      "name": "ContentMemberType",
+      "converter": {
+        "type": "link",
+        "target": "ContentMemberType"
+      }
+    },
+    {
+      "index": 63,
+      "name": "Unknown34"
+    },
+    {
+      "index": 64,
+      "name": "QueueMaxPlayers"
+    },
+    {
+      "index": 65,
+      "name": "UnlockType"
+    },
+    {
+      "index": 66,
+      "name": "UnlockType2"
+    },
+    {
+      "index": 67,
+      "name": "ClassJobLevelRequired"
+    },
+    {
+      "index": 68,
+      "name": "ClassJobLevelSync"
+    },
+    {
+      "index": 69,
+      "name": "LootModeType",
+      "converter": {
+        "type": "link",
+        "target": "LootModeType"
+      }
+    },
+    {
+      "index": 70,
+      "name": "RaidFinderParam",
+      "converter": {
+        "type": "link",
+        "target": "RaidFinderParam"
+      }
+    },
+    {
+      "index": 71,
+      "name": "ContentType",
+      "converter": {
+        "type": "link",
+        "target": "ContentType"
+      }
+    },
+    {
+      "index": 72,
+      "name": "ContentUICategory",
+      "converter": {
+        "type": "link",
+        "target": "ContentUICategory"
+      }
+    },
+    {
+      "index": 73,
+      "name": "PenaltyTimestampArrayIndex"
+    },
+    {
+      "index": 74,
+      "name": "Unknown41"
+    },
+    {
+      "index": 75,
+      "name": "PvP"
+    },
+    {
+      "index": 76,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 77,
+      "name": "FixedItemLevelSync"
+    },
+    {
+      "index": 78,
+      "name": "AllowUndersized"
+    },
+    {
+      "index": 79,
+      "name": "NeedsMemberInEveryParty"
+    },
+    {
+      "index": 80,
+      "name": "Unknown57"
+    },
+    {
+      "index": 81,
+      "name": "AllowReplacement"
+    },
+    {
+      "index": 82,
+      "name": "AllowMinimumIL"
+    },
+    {
+      "index": 83,
+      "name": "AllowExplorerMode"
+    },
+    {
+      "index": 84,
+      "name": "RatedMatch"
+    },
+    {
+      "index": 85,
+      "name": "Rated"
+    },
+    {
+      "index": 86,
+      "name": "Unknown47"
+    },
+    {
+      "index": 87,
+      "name": "IsInDutyFinder"
+    },
+    {
+      "index": 88,
+      "name": "HighEndDuty"
+    },
+    {
+      "index": 89,
+      "name": "Unknown49"
+    },
+    {
+      "index": 90,
+      "name": "HasOnePlayerPerJobDetails"
+    },
+    {
+      "index": 91,
+      "name": "Unknown51"
+    },
+    {
+      "index": 92,
+      "name": "DutyRecorderAllowed"
+    },
+    {
+      "index": 93,
+      "name": "Unknown52"
+    },
+    {
+      "index": 94,
+      "name": "IsRegistrationHomeWorldLimited"
+    },
+    {
+      "index": 95,
+      "name": "Unknown54"
+    },
+    {
+      "index": 96,
+      "name": "Unknown55"
+    },
+    {
+      "index": 97,
+      "name": "Unknown56"
+    },
+    {
+      "index": 98,
+      "name": "IsRegistrationAllowedFromAnyDataCenter"
+    }
+  ]
+}

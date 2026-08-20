@@ -1,0 +1,52 @@
+{
+  "sheet": "BankaCraftWorksSupply",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "ItemId",
+            "converter": {
+              "type": "link",
+              "target": "Item"
+            }
+          },
+          {
+            "name": "XPReward"
+          },
+          {
+            "name": "Collectability",
+            "converter": {
+              "type": "link",
+              "target": "CollectablesRefine"
+            }
+          },
+          {
+            "name": "GilReward"
+          },
+          {
+            "name": "Level"
+          },
+          {
+            "name": "HighXPMultiplier"
+          },
+          {
+            "name": "HighGilMultiplier"
+          },
+          {
+            "name": "Unknown8"
+          },
+          {
+            "name": "ScripReward"
+          },
+          {
+            "name": "HighScripMultiplier"
+          }
+        ]
+      }
+    }
+  ]
+}

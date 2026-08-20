@@ -1,0 +1,68 @@
+{
+  "sheet": "BNpcState",
+  "definitions": [
+    {
+      "name": "Scale"
+    },
+    {
+      "index": 1,
+      "name": "LoopTimeline"
+    },
+    {
+      "index": 2,
+      "name": "Idle"
+    },
+    {
+      "index": 3,
+      "name": "Slot"
+    },
+    {
+      "index": 4,
+      "name": "ModelState"
+    },
+    {
+      "index": 5,
+      "name": "Attribute0"
+    },
+    {
+      "index": 6,
+      "name": "Attribute1"
+    },
+    {
+      "index": 7,
+      "name": "Attribute2"
+    },
+    {
+      "index": 8,
+      "name": "ModelScale",
+      "converter": {
+        "type": "link",
+        "target": "ModelScale"
+      }
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "AnimationStates"
+      }
+    },
+    {
+      "index": 11,
+      "name": "AttributeFlag0"
+    },
+    {
+      "index": 12,
+      "name": "AttributeFlag1"
+    },
+    {
+      "index": 13,
+      "name": "AttributeFlag2"
+    },
+    {
+      "index": 14,
+      "name": "Unknown3"
+    }
+  ]
+}

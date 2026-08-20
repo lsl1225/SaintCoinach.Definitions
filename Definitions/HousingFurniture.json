@@ -1,0 +1,85 @@
+{
+  "sheet": "HousingFurniture",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "UsageParameter"
+    },
+    {
+      "index": 1,
+      "name": "CustomTalk",
+      "converter": {
+        "type": "link",
+        "target": "CustomTalk"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ModelKey"
+    },
+    {
+      "index": 4,
+      "name": "HousingItemCategory"
+    },
+    {
+      "index": 5,
+      "name": "UsageType"
+    },
+    {
+      "index": 6,
+      "name": "PlaceLimitType"
+    },
+    {
+      "index": 7,
+      "name": "AquariumTier"
+    },
+    {
+      "index": 8,
+      "name": "Placement",
+      "converter": {
+        "type": "link",
+        "target": "HousingPlacement"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Unplacement",
+      "converter": {
+        "type": "link",
+        "target": "HousingUnplacement"
+      }
+    },
+    {
+      "index": 10,
+      "name": "UnplacementStorage",
+      "converter": {
+        "type": "link",
+        "target": "HousingUnplacement"
+      }
+    },
+    {
+      "index": 11,
+      "name": "DestroyOnRemoval"
+    },
+    {
+      "index": 12,
+      "name": "Unknown4"
+    },
+    {
+      "index": 13,
+      "name": "Unknown5"
+    },
+    {
+      "index": 14,
+      "name": "Unknown6"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sheet": "ContentRouletteRoleBonus",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "BaseExperience"
+    },
+    {
+      "index": 3,
+      "name": "GilMultiplier"
+    },
+    {
+      "index": 4,
+      "name": "GCSealsMultiplier"
+    },
+    {
+      "index": 5,
+      "name": "CurrencyA"
+    },
+    {
+      "index": 6,
+      "name": "CurrencyB"
+    },
+    {
+      "index": 7,
+      "name": "CurrencyC"
+    },
+    {
+      "index": 8,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "ItemQuantity"
+      }
+    },
+    {
+      "index": 10,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "ItemMaxLevelCondition"
+      }
+    }
+  ]
+}

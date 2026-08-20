@@ -1,0 +1,28 @@
+{
+  "sheet": "BuddyItem",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Status"
+    },
+    {
+      "index": 2,
+      "name": "UseField"
+    },
+    {
+      "index": 3,
+      "name": "UseTraining"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    }
+  ]
+}

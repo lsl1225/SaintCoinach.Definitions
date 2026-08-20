@@ -1,0 +1,48 @@
+{
+  "sheet": "EventCustomIconType",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 10,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "AnnounceQuest",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "AnnounceQuestLocked",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "MapAnnounceQuest1",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "MapAnnounceQuestLocked",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "MapAnnounceQuest2",
+            "converter": {
+              "type": "icon"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 50,
+      "name": "Unknown0"
+    }
+  ]
+}

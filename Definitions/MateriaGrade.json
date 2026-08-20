@@ -1,0 +1,28 @@
+{
+  "sheet": "MateriaGrade",
+  "definitions": [
+    {
+      "name": "MeldFee"
+    },
+    {
+      "index": 1,
+      "name": "ReturnRate"
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "OvermeldNQPercent"
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "OvermeldHQPercent"
+      }
+    }
+  ]
+}

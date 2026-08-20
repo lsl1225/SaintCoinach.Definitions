@@ -1,0 +1,44 @@
+{
+  "sheet": "Relic3",
+  "defaultColumn": "ItemNovus",
+  "definitions": [
+    {
+      "name": "ItemAnimus",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ItemScroll",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ItemNovus",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "MateriaLimit"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    }
+  ]
+}

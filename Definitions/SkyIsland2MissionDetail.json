@@ -1,0 +1,61 @@
+{
+  "sheet": "SkyIsland2MissionDetail",
+  "defaultColumn": "Objective",
+  "definitions": [
+    {
+      "name": "Objective"
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
+      "name": "Unknown2"
+    },
+    {
+      "index": 4,
+      "name": "EObj",
+      "converter": {
+        "type": "link",
+        "target": "EObjName"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown3"
+    },
+    {
+      "index": 6,
+      "name": "Unknown4"
+    },
+    {
+      "index": 7,
+      "name": "Type",
+      "converter": {
+        "type": "link",
+        "target": "SkyIsland2MissionType"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Unknown5"
+    },
+    {
+      "index": 9,
+      "name": "Range",
+      "converter": {
+        "type": "link",
+        "target": "SkyIsland2RangeType"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Unknown6"
+    }
+  ]
+}

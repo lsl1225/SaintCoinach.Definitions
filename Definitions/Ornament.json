@@ -1,0 +1,80 @@
+{
+  "sheet": "Ornament",
+  "defaultColumn": "Singular",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "Adjective"
+    },
+    {
+      "index": 3,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 4,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 5,
+      "name": "Countability"
+    },
+    {
+      "index": 6,
+      "name": "Pronoun"
+    },
+    {
+      "index": 7,
+      "name": "Article"
+    },
+    {
+      "index": 8,
+      "name": "Model"
+    },
+    {
+      "index": 9,
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentAction"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Transient"
+    },
+    {
+      "index": 12,
+      "name": "Order"
+    },
+    {
+      "index": 13,
+      "name": "CustomizeGroup",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomizeGroup"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Unknown3"
+    },
+    {
+      "index": 15,
+      "name": "Unknown4"
+    }
+  ]
+}

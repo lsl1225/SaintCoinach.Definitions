@@ -1,0 +1,132 @@
+{
+  "sheet": "Relic",
+  "defaultColumn": "ItemAnimus",
+  "definitions": [
+    {
+      "name": "ItemAtma",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ItemAnimus",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Materia0",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Materia1",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Materia2",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Materia3",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 7,
+      "name": "NoteMain0",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    },
+    {
+      "index": 8,
+      "name": "NoteSub0",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    },
+    {
+      "index": 9,
+      "name": "NoteSelection10",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    },
+    {
+      "index": 10,
+      "name": "NoteMain1",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    },
+    {
+      "index": 11,
+      "name": "NoteSub1",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    },
+    {
+      "index": 12,
+      "name": "NoteSelection1",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    },
+    {
+      "index": 13,
+      "name": "NoteMain2",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    },
+    {
+      "index": 14,
+      "name": "NoteSub2",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    },
+    {
+      "index": 15,
+      "name": "NoteSelection3",
+      "converter": {
+        "type": "link",
+        "target": "RelicNote"
+      }
+    }
+  ]
+}

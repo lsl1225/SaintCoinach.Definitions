@@ -1,0 +1,12 @@
+{
+  "sheet": "XBMContentRandomStageEvent",
+  "definitions": [
+    {
+      "name": "RandomStageEvent",
+      "converter": {
+        "type": "link",
+        "target": "XBMRandomStageEvent"
+      }
+    }
+  ]
+}

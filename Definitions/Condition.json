@@ -1,0 +1,28 @@
+{
+  "sheet": "Condition",
+  "definitions": [
+    {
+      "name": "LogMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Permission",
+      "converter": {
+        "type": "link",
+        "target": "Permission"
+      }
+    },
+    {
+      "index": 2,
+      "name": "LogMessagePriority"
+    },
+    {
+      "index": 3,
+      "name": "IsNetworked"
+    }
+  ]
+}

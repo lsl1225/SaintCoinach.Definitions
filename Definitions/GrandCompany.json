@@ -1,0 +1,49 @@
+{
+  "sheet": "GrandCompany",
+  "defaultColumn": "Singular",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "NamePrepositional"
+    },
+    {
+      "index": 3,
+      "name": "Adjective"
+    },
+    {
+      "index": 4,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 5,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 6,
+      "name": "Countability"
+    },
+    {
+      "index": 7,
+      "name": "Pronoun"
+    },
+    {
+      "index": 8,
+      "name": "Article"
+    },
+    {
+      "index": 9,
+      "name": "MonsterNote",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNote"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "sheet": "EventItemCategory",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "ReceiveLogMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DiscardLogMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sheet": "OrnamentCustomizeGroup",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 21,
+      "definition": {
+        "name": "Customize",
+        "converter": {
+          "type": "link",
+          "target": "OrnamentCustomize"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "name": "AttachmentPoint"
+    }
+  ]
+}

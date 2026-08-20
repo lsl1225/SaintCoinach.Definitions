@@ -1,0 +1,12 @@
+{
+  "sheet": "Battalion",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 15,
+      "definition": {
+        "name": "IsEnemyTo"
+      }
+    }
+  ]
+}

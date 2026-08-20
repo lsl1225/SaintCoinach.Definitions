@@ -1,0 +1,45 @@
+{
+  "sheet": "GCRankLimsaMaleText",
+  "defaultColumn": "Singular",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "NameRank"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Adjective"
+    },
+    {
+      "index": 5,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 6,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 7,
+      "name": "Countability"
+    },
+    {
+      "index": 8,
+      "name": "Pronoun"
+    },
+    {
+      "index": 9,
+      "name": "Article"
+    }
+  ]
+}

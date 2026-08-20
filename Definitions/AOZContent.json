@@ -1,0 +1,162 @@
+{
+  "sheet": "AOZContent",
+  "definitions": [
+    {
+      "name": "GilReward"
+    },
+    {
+      "index": 1,
+      "name": "AlliedSealsReward"
+    },
+    {
+      "index": 2,
+      "name": "TomestonesReward"
+    },
+    {
+      "index": 3,
+      "name": "ContentEntry",
+      "converter": {
+        "type": "link",
+        "target": "ContentEntry"
+      }
+    },
+    {
+      "index": 4,
+      "name": "StandardFinishTime"
+    },
+    {
+      "index": 5,
+      "name": "IdealFinishTime"
+    },
+    {
+      "index": 6,
+      "name": "Act1",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "AOZArrangement",
+            "when": {
+              "key": "Act1FightType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "AOZBoss",
+            "when": {
+              "key": "Act1FightType",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "AOZBoss",
+            "when": {
+              "key": "Act1FightType",
+              "value": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "Act2",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "AOZArrangement",
+            "when": {
+              "key": "Act2FightType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "AOZBoss",
+            "when": {
+              "key": "Act2FightType",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "AOZBoss",
+            "when": {
+              "key": "Act2FightType",
+              "value": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "name": "Act3",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "AOZArrangement",
+            "when": {
+              "key": "Act3FightType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "AOZBoss",
+            "when": {
+              "key": "Act3FightType",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "AOZBoss",
+            "when": {
+              "key": "Act3FightType",
+              "value": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "name": "Unknown0"
+    },
+    {
+      "index": 10,
+      "name": "Unknown1"
+    },
+    {
+      "index": 11,
+      "name": "Unknown2"
+    },
+    {
+      "index": 12,
+      "name": "Act1FightType"
+    },
+    {
+      "index": 13,
+      "name": "Act2FightType"
+    },
+    {
+      "index": 14,
+      "name": "Act3FightType"
+    },
+    {
+      "index": 15,
+      "name": "ArenaType1"
+    },
+    {
+      "index": 16,
+      "name": "ArenaType2"
+    },
+    {
+      "index": 17,
+      "name": "ArenaType3"
+    },
+    {
+      "index": 18,
+      "name": "Order"
+    }
+  ]
+}

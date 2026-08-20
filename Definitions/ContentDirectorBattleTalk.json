@@ -1,0 +1,32 @@
+{
+  "sheet": "ContentDirectorBattleTalk",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "VoLine"
+    },
+    {
+      "index": 2,
+      "name": "Text",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Duration"
+    },
+    {
+      "index": 4,
+      "name": "Style"
+    }
+  ]
+}

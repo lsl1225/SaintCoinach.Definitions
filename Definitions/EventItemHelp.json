@@ -1,0 +1,13 @@
+{
+  "sheet": "EventItemHelp",
+  "defaultColumn": "Description",
+  "definitions": [
+    {
+      "name": "Description"
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    }
+  ]
+}

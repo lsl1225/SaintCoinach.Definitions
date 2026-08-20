@@ -1,0 +1,45 @@
+{
+  "sheet": "TofuPreset",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetCategory"
+      }
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Objects",
+        "converter": {
+          "type": "link",
+          "target": "TofuPresetObject"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "name": "Unknown10"
+    },
+    {
+      "index": 11,
+      "name": "Unknown11"
+    },
+    {
+      "index": 12,
+      "name": "Unknown12"
+    },
+    {
+      "index": 13,
+      "name": "Unknown13"
+    }
+  ]
+}

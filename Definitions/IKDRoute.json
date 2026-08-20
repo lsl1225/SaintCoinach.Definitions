@@ -1,0 +1,67 @@
+{
+  "sheet": "IKDRoute",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "Spot",
+        "converter": {
+          "type": "link",
+          "target": "IKDSpot"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "AltImage",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Unknown1"
+    },
+    {
+      "index": 7,
+      "name": "Instance",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 8,
+      "name": "PrerequisiteQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "Time",
+        "converter": {
+          "type": "link",
+          "target": "IKDTimeDefine"
+        }
+      }
+    }
+  ]
+}

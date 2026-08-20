@@ -1,0 +1,75 @@
+{
+  "sheet": "ManeuversArmor",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "FalconName",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RavenName",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 4,
+      "name": "NeutralMapIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "FalconImage",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RavenImage",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "FalconMapImage",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 8,
+      "name": "RavenMapImage",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Unknown0"
+    },
+    {
+      "index": 10,
+      "name": "Unknown1"
+    },
+    {
+      "index": 11,
+      "name": "Unknown2"
+    }
+  ]
+}

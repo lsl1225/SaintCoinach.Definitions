@@ -1,0 +1,29 @@
+{
+  "sheet": "ValentionSweetsRecipe",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Material",
+        "converter": {
+          "type": "link",
+          "target": "ValentionSweetsMaterial"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Quantity"
+      }
+    }
+  ]
+}

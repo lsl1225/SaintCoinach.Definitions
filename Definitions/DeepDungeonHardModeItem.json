@@ -1,0 +1,20 @@
+{
+  "sheet": "DeepDungeonHardModeItem",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    }
+  ]
+}

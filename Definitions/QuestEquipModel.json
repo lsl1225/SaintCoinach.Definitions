@@ -1,0 +1,12 @@
+{
+  "sheet": "QuestEquipModel",
+  "definitions": [
+    {
+      "name": "Model"
+    },
+    {
+      "index": 1,
+      "name": "Slot"
+    }
+  ]
+}

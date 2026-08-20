@@ -1,0 +1,13 @@
+{
+  "sheet": "StorySystemDefine",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "DefineValue"
+    }
+  ]
+}

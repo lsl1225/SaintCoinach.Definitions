@@ -1,0 +1,121 @@
+{
+  "sheet": "Aetheryte",
+  "defaultColumn": "PlaceName",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "Adjective"
+    },
+    {
+      "index": 3,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 4,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 5,
+      "name": "Countability"
+    },
+    {
+      "index": 6,
+      "name": "Pronoun"
+    },
+    {
+      "index": 7,
+      "name": "Article"
+    },
+    {
+      "index": 8,
+      "name": "Unknown1"
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "Level",
+        "converter": {
+          "type": "link",
+          "target": "Level"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "name": "RequiredQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 14,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 15,
+      "name": "AethernetName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Territory",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Map",
+      "converter": {
+        "type": "link",
+        "target": "Map"
+      }
+    },
+    {
+      "index": 18,
+      "name": "AetherstreamX"
+    },
+    {
+      "index": 19,
+      "name": "AetherstreamY"
+    },
+    {
+      "index": 20,
+      "name": "Unknown2"
+    },
+    {
+      "index": 21,
+      "name": "AethernetGroup"
+    },
+    {
+      "index": 22,
+      "name": "Order"
+    },
+    {
+      "index": 23,
+      "name": "IsAetheryte"
+    },
+    {
+      "index": 24,
+      "name": "Invisible"
+    }
+  ]
+}

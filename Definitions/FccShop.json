@@ -1,0 +1,36 @@
+{
+  "sheet": "FccShop",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 10,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Item",
+            "converter": {
+              "type": "link",
+              "target": "Item"
+            }
+          },
+          {
+            "name": "Cost"
+          },
+          {
+            "name": "FCRankRequired",
+            "converter": {
+              "type": "link",
+              "target": "FCRank"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

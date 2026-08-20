@@ -1,0 +1,20 @@
+{
+  "sheet": "Carry",
+  "definitions": [
+    {
+      "name": "Model"
+    },
+    {
+      "index": 1,
+      "name": "Timeline"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
+      "name": "Unknown1"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "sheet": "ContentGaugeColor",
+  "definitions": [
+    {
+      "name": "AndroidColor1",
+      "converter": {
+        "type": "color"
+      }
+    },
+    {
+      "index": 1,
+      "name": "AndroidColor2",
+      "converter": {
+        "type": "color"
+      }
+    },
+    {
+      "index": 2,
+      "name": "AndroidColor3",
+      "converter": {
+        "type": "color"
+      }
+    }
+  ]
+}

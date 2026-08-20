@@ -1,0 +1,35 @@
+{
+  "sheet": "ResistanceWeaponAdjust",
+  "definitions": [
+    {
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "MaxTotalStats"
+    },
+    {
+      "index": 2,
+      "name": "MaxEachStat"
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "BaseParam",
+        "converter": {
+          "type": "link",
+          "target": "BaseParam"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown0"
+    }
+  ]
+}

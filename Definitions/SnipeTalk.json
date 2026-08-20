@@ -1,0 +1,32 @@
+{
+  "sheet": "SnipeTalk",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "SnipeTalkName"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown2"
+    },
+    {
+      "index": 5,
+      "name": "Unknown3"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sheet": "ContentTalk",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "ContentTalkParam",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalkParam"
+      }
+    }
+  ]
+}

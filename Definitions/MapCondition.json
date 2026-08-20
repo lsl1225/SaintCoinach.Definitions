@@ -1,0 +1,25 @@
+{
+  "sheet": "MapCondition",
+  "defaultColumn": "Quest",
+  "definitions": [
+    {
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "InstanceContent",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
+      }
+    },
+    {
+      "index": 2,
+      "name": "QuestSequence"
+    }
+  ]
+}

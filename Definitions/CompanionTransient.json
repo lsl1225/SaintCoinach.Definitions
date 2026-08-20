@@ -1,0 +1,65 @@
+{
+  "sheet": "CompanionTransient",
+  "defaultColumn": "Description",
+  "definitions": [
+    {
+      "name": "Description"
+    },
+    {
+      "index": 1,
+      "name": "DescriptionEnhanced"
+    },
+    {
+      "index": 2,
+      "name": "Tooltip"
+    },
+    {
+      "index": 3,
+      "name": "SpecialActionName"
+    },
+    {
+      "index": 4,
+      "name": "SpecialActionDescription"
+    },
+    {
+      "index": 5,
+      "name": "Attack"
+    },
+    {
+      "index": 6,
+      "name": "Defense"
+    },
+    {
+      "index": 7,
+      "name": "Speed"
+    },
+    {
+      "index": 8,
+      "name": "MinionSkillType",
+      "converter": {
+        "type": "link",
+        "target": "MinionSkillType"
+      }
+    },
+    {
+      "index": 9,
+      "name": "HasAreaAttack"
+    },
+    {
+      "index": 10,
+      "name": "StrengthGate"
+    },
+    {
+      "index": 11,
+      "name": "StrengthEye"
+    },
+    {
+      "index": 12,
+      "name": "StrengthShield"
+    },
+    {
+      "index": 13,
+      "name": "StrengthArcana"
+    }
+  ]
+}

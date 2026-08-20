@@ -1,0 +1,43 @@
+{
+  "sheet": "QuestEffect",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Param1"
+          },
+          {
+            "name": "Param2"
+          },
+          {
+            "name": "Type"
+          }
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "name": "OutOfRangeWarningMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 13,
+      "name": "OutOfRangeMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Unknown_70"
+    }
+  ]
+}

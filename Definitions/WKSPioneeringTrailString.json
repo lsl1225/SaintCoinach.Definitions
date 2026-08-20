@@ -1,0 +1,17 @@
+{
+  "sheet": "WKSPioneeringTrailString",
+  "defaultColumn": "DevelopmentLogName",
+  "definitions": [
+    {
+      "name": "DevelopmentLogText"
+    },
+    {
+      "index": 1,
+      "name": "DevelopmentLogName"
+    },
+    {
+      "index": 2,
+      "name": "DevelopmentLogDescription"
+    }
+  ]
+}

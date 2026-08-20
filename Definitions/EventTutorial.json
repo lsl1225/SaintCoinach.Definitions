@@ -1,0 +1,29 @@
+{
+  "sheet": "EventTutorial",
+  "defaultColumn": "Singular",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 3,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "Pages",
+        "converter": {
+          "type": "link",
+          "target": "EventTutorialPage"
+        }
+      }
+    }
+  ]
+}

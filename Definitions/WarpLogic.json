@@ -1,0 +1,56 @@
+{
+  "sheet": "WarpLogic",
+  "defaultColumn": "WarpName",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 10,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Function"
+          },
+          {
+            "name": "Argument",
+            "converter": {
+              "type": "multiref",
+              "targets": [
+                "HowTo",
+                "Item",
+                "Quest"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "name": "Question"
+    },
+    {
+      "index": 21,
+      "name": "ResponseYes"
+    },
+    {
+      "index": 22,
+      "name": "ResponseNo"
+    },
+    {
+      "index": 23,
+      "name": "WarpName"
+    },
+    {
+      "index": 24,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 25,
+      "name": "CanSkipCutscene"
+    }
+  ]
+}

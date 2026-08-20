@@ -1,0 +1,33 @@
+{
+  "sheet": "Omikuji",
+  "defaultColumn": "Fortune",
+  "definitions": [
+    {
+      "name": "Fortune"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "GuidanceAdventure"
+    },
+    {
+      "index": 3,
+      "name": "GuidanceRelationships"
+    },
+    {
+      "index": 4,
+      "name": "GuidanceProsperity"
+    },
+    {
+      "index": 5,
+      "name": "GuidanceConflict"
+    },
+    {
+      "index": 6,
+      "name": "GuidanceFavor"
+    }
+  ]
+}

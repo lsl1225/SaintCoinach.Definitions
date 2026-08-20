@@ -1,0 +1,9 @@
+{
+  "sheet": "InclusionShopWelcomText",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sheet": "MacroIconRedirectOld",
+  "definitions": [
+    {
+      "name": "IconOld",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "IconNew",
+      "converter": {
+        "type": "icon"
+      }
+    }
+  ]
+}

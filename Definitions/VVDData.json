@@ -1,0 +1,52 @@
+{
+  "sheet": "VVDData",
+  "definitions": [
+    {
+      "name": "ContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 1,
+      "name": "CurrencyItem",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ContentExAction",
+      "converter": {
+        "type": "link",
+        "target": "ContentExAction"
+      }
+    },
+    {
+      "index": 3,
+      "name": "UnlockQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Series"
+    },
+    {
+      "index": 5,
+      "name": "Sequence"
+    },
+    {
+      "index": 6,
+      "name": "RouteData",
+      "converter": {
+        "type": "link",
+        "target": "VVDVoteRoute"
+      }
+    }
+  ]
+}

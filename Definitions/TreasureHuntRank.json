@@ -1,0 +1,56 @@
+{
+  "sheet": "TreasureHuntRank",
+  "defaultColumn": "ItemName",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ItemName",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "KeyItemName",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 3,
+      "name": "InstanceMap",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
+      "name": "MaxPartySize"
+    },
+    {
+      "index": 7,
+      "name": "TreasureHuntTexture"
+    },
+    {
+      "index": 8,
+      "name": "Unknown2"
+    }
+  ]
+}

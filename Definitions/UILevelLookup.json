@@ -1,0 +1,12 @@
+{
+  "sheet": "UILevelLookup",
+  "definitions": [
+    {
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    }
+  ]
+}

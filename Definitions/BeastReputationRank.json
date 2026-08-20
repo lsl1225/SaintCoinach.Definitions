@@ -1,0 +1,25 @@
+{
+  "sheet": "BeastReputationRank",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "AlliedNames"
+    },
+    {
+      "index": 2,
+      "name": "Color",
+      "converter": {
+        "type": "link",
+        "target": "UIColor"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RequiredReputation"
+    }
+  ]
+}

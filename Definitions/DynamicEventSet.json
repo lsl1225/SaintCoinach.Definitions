@@ -1,0 +1,12 @@
+{
+  "sheet": "DynamicEventSet",
+  "definitions": [
+    {
+      "name": "DynamicEvent",
+      "converter": {
+        "type": "link",
+        "target": "DynamicEvent"
+      }
+    }
+  ]
+}

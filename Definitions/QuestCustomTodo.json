@@ -1,0 +1,24 @@
+{
+  "sheet": "QuestCustomTodo",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 7,
+      "definition": {
+        "name": "Index"
+      }
+    },
+    {
+      "index": 7,
+      "type": "repeat",
+      "count": 7,
+      "definition": {
+        "name": "MaxValue"
+      }
+    },
+    {
+      "index": 14,
+      "name": "DataType"
+    }
+  ]
+}

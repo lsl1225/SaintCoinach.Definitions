@@ -1,0 +1,29 @@
+{
+  "sheet": "Lobby",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
+      "name": "TYPE"
+    },
+    {
+      "index": 4,
+      "name": "PARAM"
+    },
+    {
+      "index": 5,
+      "name": "LINK"
+    }
+  ]
+}

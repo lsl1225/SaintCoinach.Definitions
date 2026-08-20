@@ -1,0 +1,168 @@
+{
+  "sheet": "Status",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Description"
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ParamModifier"
+    },
+    {
+      "index": 4,
+      "name": "VFX",
+      "converter": {
+        "type": "link",
+        "target": "StatusLoopVFX"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Log"
+    },
+    {
+      "index": 6,
+      "name": "ExclusionGroup"
+    },
+    {
+      "index": 7,
+      "name": "MaxStacks"
+    },
+    {
+      "index": 8,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 9,
+      "name": "StatusCategory"
+    },
+    {
+      "index": 10,
+      "name": "HitEffect",
+      "converter": {
+        "type": "link",
+        "target": "StatusHitEffect"
+      }
+    },
+    {
+      "index": 11,
+      "name": "PartyListPriority"
+    },
+    {
+      "index": 12,
+      "name": "CanIncreaseRewards"
+    },
+    {
+      "index": 13,
+      "name": "ParamEffect"
+    },
+    {
+      "index": 14,
+      "name": "TargetType"
+    },
+    {
+      "index": 15,
+      "name": "Flags"
+    },
+    {
+      "index": 16,
+      "name": "Flag2"
+    },
+    {
+      "index": 17,
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 18,
+      "name": "Unknown2"
+    },
+    {
+      "index": 19,
+      "name": "LockMovement"
+    },
+    {
+      "index": 20,
+      "name": "Unknown3"
+    },
+    {
+      "index": 21,
+      "name": "LockActions"
+    },
+    {
+      "index": 22,
+      "name": "LockControl"
+    },
+    {
+      "index": 23,
+      "name": "Transfiguration"
+    },
+    {
+      "index": 24,
+      "name": "IsGaze"
+    },
+    {
+      "index": 25,
+      "name": "CanDispel"
+    },
+    {
+      "index": 26,
+      "name": "Unknown8"
+    },
+    {
+      "index": 27,
+      "name": "InflictedByActor"
+    },
+    {
+      "index": 28,
+      "name": "IsPermanent"
+    },
+    {
+      "index": 29,
+      "name": "NoLogVfx"
+    },
+    {
+      "index": 30,
+      "name": "Unknown5"
+    },
+    {
+      "index": 31,
+      "name": "CanStatusOff"
+    },
+    {
+      "index": 32,
+      "name": "IsFcBuff"
+    },
+    {
+      "index": 33,
+      "name": "Invisibility"
+    },
+    {
+      "index": 34,
+      "name": "Unknown6"
+    },
+    {
+      "index": 35,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 36,
+      "name": "Unknown7"
+    }
+  ]
+}

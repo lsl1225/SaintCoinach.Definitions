@@ -1,0 +1,28 @@
+{
+  "sheet": "GatheringLeveRoute",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 12,
+      "definition": {
+        "name": "GatheringPoint",
+        "converter": {
+          "type": "link",
+          "target": "GatheringPoint"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "type": "repeat",
+      "count": 12,
+      "definition": {
+        "name": "PopRange",
+        "converter": {
+          "type": "link",
+          "target": "Level"
+        }
+      }
+    }
+  ]
+}

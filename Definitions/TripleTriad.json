@@ -1,0 +1,128 @@
+{
+  "sheet": "TripleTriad",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 4,
+      "definition": {
+        "name": "ItemPossibleReward",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "PreviousQuest",
+        "converter": {
+          "type": "link",
+          "target": "Quest"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "DefaultTalkChallenge",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 8,
+      "name": "DefaultTalkUnavailable",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 9,
+      "name": "DefaultTalkNPCWin",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 10,
+      "name": "DefaultTalkDraw",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 11,
+      "name": "DefaultTalkPCWin",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 12,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "TripleTriadCardFixed",
+        "converter": {
+          "type": "link",
+          "target": "TripleTriadCard"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "TripleTriadCardVariable",
+        "converter": {
+          "type": "link",
+          "target": "TripleTriadCard"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "name": "Fee"
+    },
+    {
+      "index": 23,
+      "name": "StartTime"
+    },
+    {
+      "index": 24,
+      "name": "EndTime"
+    },
+    {
+      "index": 25,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "TripleTriadRule",
+        "converter": {
+          "type": "link",
+          "target": "TripleTriadRule"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "name": "PreviousQuestJoin"
+    },
+    {
+      "index": 28,
+      "name": "UsesRegionalRules"
+    },
+    {
+      "index": 29,
+      "name": "Unknown0"
+    }
+  ]
+}

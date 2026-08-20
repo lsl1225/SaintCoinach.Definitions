@@ -1,0 +1,65 @@
+{
+  "sheet": "NotebookDivision",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "QuestUnlock",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 2,
+      "name": "NotebookDivisionCategory",
+      "converter": {
+        "type": "link",
+        "target": "NotebookDivisionCategory"
+      }
+    },
+    {
+      "index": 3,
+      "name": "CraftOpeningLevel"
+    },
+    {
+      "index": 4,
+      "name": "GatheringOpeningLevel"
+    },
+    {
+      "index": 5,
+      "name": "MinimumQuestSequence"
+    },
+    {
+      "index": 6,
+      "name": "Unknown0"
+    },
+    {
+      "index": 7,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "SecretRecipeBookGroups",
+        "converter": {
+          "type": "link",
+          "target": "SecretRecipeBookGroup"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "AllowedCraftTypes"
+      }
+    },
+    {
+      "index": 17,
+      "name": "RequiresSecretRecipeBookGroupUnlock"
+    }
+  ]
+}

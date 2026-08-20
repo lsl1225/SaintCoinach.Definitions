@@ -1,0 +1,114 @@
+{
+  "sheet": "GroupPoseStamp",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "UnlockCriteria",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "UnlockType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "InstanceContent",
+            "when": {
+              "key": "UnlockType",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "InstanceContent",
+            "when": {
+              "key": "UnlockType",
+              "value": 4
+            }
+          },
+          {
+            "sheet": "Emote",
+            "when": {
+              "key": "UnlockType",
+              "value": 5
+            }
+          },
+          {
+            "sheet": "Companion",
+            "when": {
+              "key": "UnlockType",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Mount",
+            "when": {
+              "key": "UnlockType",
+              "value": 7
+            }
+          },
+          {
+            "sheet": "Ornament",
+            "when": {
+              "key": "UnlockType",
+              "value": 8
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "StampIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown1"
+    },
+    {
+      "index": 4,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "GroupPoseStampCategory"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Festival",
+      "converter": {
+        "type": "link",
+        "target": "Festival"
+      }
+    },
+    {
+      "index": 6,
+      "name": "SortKey"
+    },
+    {
+      "index": 7,
+      "name": "UnlockType"
+    },
+    {
+      "index": 8,
+      "name": "Unknown5"
+    },
+    {
+      "index": 9,
+      "name": "Unknown6"
+    },
+    {
+      "index": 10,
+      "name": "Unknown7"
+    }
+  ]
+}

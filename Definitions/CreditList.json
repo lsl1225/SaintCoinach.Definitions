@@ -1,0 +1,39 @@
+{
+  "sheet": "CreditList",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Font",
+      "converter": {
+        "type": "link",
+        "target": "CreditFont"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Cast",
+      "converter": {
+        "type": "link",
+        "target": "CreditListText"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Scale"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    }
+  ]
+}

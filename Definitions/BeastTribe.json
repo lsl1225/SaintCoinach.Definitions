@@ -1,0 +1,111 @@
+{
+  "sheet": "BeastTribe",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "NameRelation"
+    },
+    {
+      "index": 3,
+      "name": "Adjective"
+    },
+    {
+      "index": 4,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 5,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 6,
+      "name": "Pronoun"
+    },
+    {
+      "index": 7,
+      "name": "Article"
+    },
+    {
+      "index": 8,
+      "name": "DEF"
+    },
+    {
+      "index": 9,
+      "name": "IconReputation",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 11,
+      "name": "IntersocietalQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 13,
+      "name": "CurrencyItem",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 14,
+      "name": "MinLevel"
+    },
+    {
+      "index": 15,
+      "name": "BeastRankBonus",
+      "converter": {
+        "type": "link",
+        "target": "BeastRankBonus"
+      }
+    },
+    {
+      "index": 16,
+      "name": "MaxRank"
+    },
+    {
+      "index": 17,
+      "name": "Expansion",
+      "converter": {
+        "type": "link",
+        "target": "ExVersion"
+      }
+    },
+    {
+      "index": 18,
+      "name": "DisplayOrder"
+    },
+    {
+      "index": 19,
+      "name": "Unknown0"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "sheet": "InclusionShopWelcom",
+  "defaultColumn": "ShopName",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "ShopName",
+      "converter": {
+        "type": "link",
+        "target": "InclusionShopWelcomText"
+      }
+    },
+    {
+      "index": 2,
+      "name": "WelcomeText",
+      "converter": {
+        "type": "link",
+        "target": "InclusionShopWelcomText"
+      }
+    }
+  ]
+}

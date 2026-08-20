@@ -1,0 +1,21 @@
+{
+  "sheet": "Festival",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "IsAllSaintsWake"
+    },
+    {
+      "index": 2,
+      "name": "WeatherRate",
+      "converter": {
+        "type": "link",
+        "target": "WeatherRate"
+      }
+    }
+  ]
+}

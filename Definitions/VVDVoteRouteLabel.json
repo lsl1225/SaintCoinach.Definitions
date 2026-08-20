@@ -1,0 +1,9 @@
+{
+  "sheet": "VVDVoteRouteLabel",
+  "defaultColumn": "Text",
+  "definitions": [
+    {
+      "name": "Text"
+    }
+  ]
+}

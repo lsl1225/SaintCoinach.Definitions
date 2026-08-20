@@ -1,0 +1,12 @@
+{
+  "sheet": "WKSMissionLotteryCond",
+  "definitions": [
+    {
+      "name": "RequiredFunction",
+      "converter": {
+        "type": "link",
+        "target": "WKSFunction"
+      }
+    }
+  ]
+}

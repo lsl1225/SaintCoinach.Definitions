@@ -1,0 +1,64 @@
+{
+  "sheet": "QuestClassJobSupply",
+  "definitions": [
+    {
+      "name": "Unknown_70_1"
+    },
+    {
+      "index": 1,
+      "name": "ENpcResident",
+      "converter": {
+        "type": "link",
+        "target": "ENpcResident"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown_70_2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown_70_3"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
+      "name": "Unknown2"
+    },
+    {
+      "index": 7,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Unknown0"
+    },
+    {
+      "index": 9,
+      "name": "AmountRequired"
+    },
+    {
+      "index": 10,
+      "name": "Unknown3"
+    },
+    {
+      "index": 11,
+      "name": "ItemHQ"
+    }
+  ]
+}

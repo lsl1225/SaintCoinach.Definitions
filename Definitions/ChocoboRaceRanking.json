@@ -1,0 +1,12 @@
+{
+  "sheet": "ChocoboRaceRanking",
+  "definitions": [
+    {
+      "name": "BGM",
+      "converter": {
+        "type": "link",
+        "target": "BGM"
+      }
+    }
+  ]
+}

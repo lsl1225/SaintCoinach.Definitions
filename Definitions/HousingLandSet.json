@@ -1,0 +1,37 @@
+{
+  "sheet": "HousingLandSet",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 60,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "MapRange"
+          },
+          {
+            "name": "PlacardId"
+          },
+          {
+            "name": "RoomExit"
+          },
+          {
+            "name": "InitialPrice"
+          },
+          {
+            "name": "PlotSize"
+          }
+        ]
+      }
+    },
+    {
+      "index": 300,
+      "name": "MainApartment"
+    },
+    {
+      "index": 301,
+      "name": "SubdivisionApartment"
+    }
+  ]
+}

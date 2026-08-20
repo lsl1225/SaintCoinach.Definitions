@@ -1,0 +1,53 @@
+{
+  "sheet": "SatisfactionSupply",
+  "defaultColumn": "Item",
+  "definitions": [
+    {
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "CollectabilityLow"
+    },
+    {
+      "index": 2,
+      "name": "CollectabilityMid"
+    },
+    {
+      "index": 3,
+      "name": "CollectabilityHigh"
+    },
+    {
+      "index": 4,
+      "name": "Reward",
+      "converter": {
+        "type": "link",
+        "target": "SatisfactionSupplyReward"
+      }
+    },
+    {
+      "index": 5,
+      "name": "FishingSpotId"
+    },
+    {
+      "index": 6,
+      "name": "SpearFishingSpotId"
+    },
+    {
+      "index": 7,
+      "name": "Slot"
+    },
+    {
+      "index": 8,
+      "name": "ProbabilityPercent"
+    },
+    {
+      "index": 9,
+      "name": "IsBonus"
+    }
+  ]
+}

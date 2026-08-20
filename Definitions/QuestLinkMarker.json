@@ -1,0 +1,36 @@
+{
+  "sheet": "QuestLinkMarker",
+  "definitions": [
+    {
+      "name": "SourceMap",
+      "converter": {
+        "type": "link",
+        "target": "Map"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 2,
+      "name": "TargetMap",
+      "converter": {
+        "type": "link",
+        "target": "Map"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    }
+  ]
+}

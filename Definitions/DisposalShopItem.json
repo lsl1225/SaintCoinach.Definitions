@@ -1,0 +1,37 @@
+{
+  "sheet": "DisposalShopItem",
+  "defaultColumn": "ItemDisposed",
+  "definitions": [
+    {
+      "name": "QuantityReceived"
+    },
+    {
+      "index": 1,
+      "name": "ItemDisposed",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ItemReceived",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "DisposedHq"
+    },
+    {
+      "index": 5,
+      "name": "Unknown2"
+    }
+  ]
+}

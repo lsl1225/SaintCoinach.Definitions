@@ -1,0 +1,20 @@
+{
+  "sheet": "GatheringNotebookList",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 100,
+      "definition": {
+        "name": "GatheringItem",
+        "converter": {
+          "type": "link",
+          "target": "GatheringItem"
+        }
+      }
+    },
+    {
+      "index": 100,
+      "name": "Unknown0"
+    }
+  ]
+}

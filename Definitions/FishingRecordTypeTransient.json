@@ -1,0 +1,12 @@
+{
+  "sheet": "FishingRecordTypeTransient",
+  "defaultColumn": "Image",
+  "definitions": [
+    {
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "sheet": "JobHudManual",
+  "defaultColumn": "Action",
+  "definitions": [
+    {
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Guide",
+      "converter": {
+        "type": "link",
+        "target": "Guide"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown1"
+    },
+    {
+      "index": 4,
+      "name": "Unknown_70"
+    },
+    {
+      "index": 5,
+      "name": "Unknown2"
+    },
+    {
+      "index": 6,
+      "name": "Unknown3"
+    }
+  ]
+}

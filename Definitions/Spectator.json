@@ -1,0 +1,33 @@
+{
+  "sheet": "Spectator",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "X"
+          },
+          {
+            "name": "Y"
+          },
+          {
+            "name": "Z"
+          },
+          {
+            "name": "DirH"
+          },
+          {
+            "name": "DirV"
+          }
+        ]
+      }
+    },
+    {
+      "index": 40,
+      "name": "Unknown40"
+    }
+  ]
+}

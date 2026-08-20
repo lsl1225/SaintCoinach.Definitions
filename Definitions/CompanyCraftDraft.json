@@ -1,0 +1,41 @@
+{
+  "sheet": "CompanyCraftDraft",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Order"
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "RequiredItem",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "CompanyCraftDraftCategory",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftDraftCategory"
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "RequiredItemCount"
+      }
+    }
+  ]
+}

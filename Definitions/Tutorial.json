@@ -1,0 +1,69 @@
+{
+  "sheet": "Tutorial",
+  "defaultColumn": "Objective",
+  "definitions": [
+    {
+      "name": "Exp"
+    },
+    {
+      "index": 1,
+      "name": "Gil"
+    },
+    {
+      "index": 2,
+      "name": "RewardTank",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RewardMelee",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "RewardRanged",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown4"
+    },
+    {
+      "index": 6,
+      "name": "Objective",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown5"
+    },
+    {
+      "index": 8,
+      "name": "Unknown0"
+    },
+    {
+      "index": 9,
+      "name": "Unknown1"
+    },
+    {
+      "index": 10,
+      "name": "Unknown2"
+    },
+    {
+      "index": 11,
+      "name": "Unknown3"
+    }
+  ]
+}

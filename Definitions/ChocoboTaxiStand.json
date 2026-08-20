@@ -1,0 +1,21 @@
+{
+  "sheet": "ChocoboTaxiStand",
+  "defaultColumn": "PlaceName",
+  "definitions": [
+    {
+      "name": "PlaceName"
+    },
+    {
+      "index": 1,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "name": "TargetLocations",
+        "converter": {
+          "type": "link",
+          "target": "ChocoboTaxi"
+        }
+      }
+    }
+  ]
+}

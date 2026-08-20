@@ -1,0 +1,24 @@
+{
+  "sheet": "ContentExAction",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Name",
+        "converter": {
+          "type": "link",
+          "target": "Action"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Charges"
+      }
+    }
+  ]
+}

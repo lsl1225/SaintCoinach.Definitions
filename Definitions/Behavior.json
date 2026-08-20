@@ -1,0 +1,76 @@
+{
+  "sheet": "Behavior",
+  "definitions": [
+    {
+      "name": "ContentArgument0"
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
+      "name": "Unknown2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown3"
+    },
+    {
+      "index": 5,
+      "name": "Balloon",
+      "converter": {
+        "type": "link",
+        "target": "Balloon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Unknown4"
+    },
+    {
+      "index": 7,
+      "name": "Unknown5"
+    },
+    {
+      "index": 8,
+      "name": "Unknown6"
+    },
+    {
+      "index": 9,
+      "name": "Unknown7"
+    },
+    {
+      "index": 10,
+      "name": "Condition0Target"
+    },
+    {
+      "index": 11,
+      "name": "Condition0Type"
+    },
+    {
+      "index": 12,
+      "name": "Condition1Target"
+    },
+    {
+      "index": 13,
+      "name": "Condition1Type"
+    },
+    {
+      "index": 14,
+      "name": "ContentArgument1"
+    },
+    {
+      "index": 15,
+      "name": "Unknown8"
+    },
+    {
+      "index": 16,
+      "name": "Unknown9"
+    }
+  ]
+}

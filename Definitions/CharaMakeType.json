@@ -1,0 +1,164 @@
+{
+  "sheet": "CharaMakeType",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 28,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Menu",
+            "converter": {
+              "type": "link",
+              "target": "Lobby"
+            }
+          },
+          {
+            "name": "SubMenuMask"
+          },
+          {
+            "name": "Customize"
+          },
+          {
+            "type": "repeat",
+            "count": 106,
+            "definition": {
+              "name": "SubMenuParam"
+            }
+          },
+          {
+            "name": "InitVal"
+          },
+          {
+            "name": "SubMenuType"
+          },
+          {
+            "name": "SubMenuNum"
+          },
+          {
+            "name": "LookAt"
+          },
+          {
+            "type": "repeat",
+            "count": 10,
+            "definition": {
+              "name": "SubMenuGraphic"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 3444,
+      "type": "repeat",
+      "count": 12,
+      "definition": {
+        "name": "VoiceStruct"
+      }
+    },
+    {
+      "index": 3456,
+      "type": "repeat",
+      "count": 8,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Option1",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option2",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option3",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option4",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option5",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option6",
+            "converter": {
+              "type": "icon"
+            }
+          },
+          {
+            "name": "Option7",
+            "converter": {
+              "type": "icon"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 3512,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Helmet"
+          },
+          {
+            "name": "Top"
+          },
+          {
+            "name": "Gloves"
+          },
+          {
+            "name": "Legs"
+          },
+          {
+            "name": "Shoes"
+          },
+          {
+            "name": "Weapon"
+          },
+          {
+            "name": "SubWeapon"
+          }
+        ]
+      }
+    },
+    {
+      "index": 3533,
+      "name": "Race",
+      "converter": {
+        "type": "link",
+        "target": "Race"
+      }
+    },
+    {
+      "index": 3534,
+      "name": "Tribe",
+      "converter": {
+        "type": "link",
+        "target": "Tribe"
+      }
+    },
+    {
+      "index": 3535,
+      "name": "Gender"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sheet": "EventTutorialPage",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Text"
+    },
+    {
+      "index": 2,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    }
+  ]
+}

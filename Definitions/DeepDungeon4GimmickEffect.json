@@ -1,0 +1,15 @@
+{
+  "sheet": "DeepDungeon4GimmickEffect",
+  "definitions": [
+    {
+      "name": "StatusIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    }
+  ]
+}

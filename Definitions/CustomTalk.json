@@ -1,0 +1,112 @@
+{
+  "sheet": "CustomTalk",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 30,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "ScriptInstruction"
+          },
+          {
+            "name": "ScriptArg"
+          }
+        ]
+      }
+    },
+    {
+      "index": 60,
+      "name": "MainOption"
+    },
+    {
+      "index": 61,
+      "name": "SubOption"
+    },
+    {
+      "index": 62,
+      "name": "Name"
+    },
+    {
+      "index": 63,
+      "name": "IconActor",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 64,
+      "name": "IconMap",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 65,
+      "name": "SpecialLinks",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "CollectablesShop",
+          "ContentEntry",
+          "SpecialShop",
+          "CustomTalkNestHandlers"
+        ]
+      }
+    },
+    {
+      "index": 66,
+      "name": "Unknown0"
+    },
+    {
+      "index": 67,
+      "name": "Unknown1"
+    },
+    {
+      "index": 68,
+      "name": "Unknown2"
+    },
+    {
+      "index": 69,
+      "name": "Unknown3"
+    },
+    {
+      "index": 70,
+      "name": "Unknown4"
+    },
+    {
+      "index": 71,
+      "name": "Unknown5"
+    },
+    {
+      "index": 72,
+      "name": "Unknown6"
+    },
+    {
+      "index": 73,
+      "name": "Unknown7"
+    },
+    {
+      "index": 74,
+      "name": "Unknown8"
+    },
+    {
+      "index": 75,
+      "name": "Unknown9"
+    },
+    {
+      "index": 76,
+      "name": "Unknown10"
+    },
+    {
+      "index": 77,
+      "name": "Unknown11"
+    },
+    {
+      "index": 78,
+      "name": "Unknown12"
+    }
+  ]
+}

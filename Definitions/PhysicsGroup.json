@@ -1,0 +1,44 @@
+{
+  "sheet": "PhysicsGroup",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "SimulationTime"
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 6,
+      "definition": {
+        "name": "PS3SimulationTime"
+      }
+    },
+    {
+      "index": 12,
+      "name": "RootFollowingGame"
+    },
+    {
+      "index": 13,
+      "name": "RootFollowingCutScene"
+    },
+    {
+      "index": 14,
+      "type": "repeat",
+      "count": 3,
+      "definition": {
+        "name": "ConfigSwitch"
+      }
+    },
+    {
+      "index": 17,
+      "name": "ResetByLookAt"
+    },
+    {
+      "index": 18,
+      "name": "ForceAttractByPhysicsOff"
+    }
+  ]
+}

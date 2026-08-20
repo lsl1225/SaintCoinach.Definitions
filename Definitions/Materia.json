@@ -1,0 +1,32 @@
+{
+  "sheet": "Materia",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 16,
+      "definition": {
+        "name": "Item",
+        "converter": {
+          "type": "link",
+          "target": "Item"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "type": "repeat",
+      "count": 16,
+      "definition": {
+        "name": "Value"
+      }
+    },
+    {
+      "index": 32,
+      "name": "BaseParam",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "sheet": "GoldSaucerArcadeMachine",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Poor",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
+      "name": "Unknown2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown3"
+    },
+    {
+      "index": 5,
+      "name": "Unknown4"
+    },
+    {
+      "index": 6,
+      "name": "Unknown5"
+    },
+    {
+      "index": 7,
+      "name": "Good",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Unknown6"
+    },
+    {
+      "index": 9,
+      "name": "Unknown7"
+    },
+    {
+      "index": 10,
+      "name": "Unknown8"
+    },
+    {
+      "index": 11,
+      "name": "Unknown9"
+    },
+    {
+      "index": 12,
+      "name": "Unknown10"
+    },
+    {
+      "index": 13,
+      "name": "Great",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Unknown11"
+    },
+    {
+      "index": 15,
+      "name": "Unknown12"
+    },
+    {
+      "index": 16,
+      "name": "Unknown13"
+    },
+    {
+      "index": 17,
+      "name": "Unknown14"
+    },
+    {
+      "index": 18,
+      "name": "Unknown15"
+    },
+    {
+      "index": 19,
+      "name": "Excellent",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Unknown16"
+    },
+    {
+      "index": 21,
+      "name": "Unknown17"
+    },
+    {
+      "index": 22,
+      "name": "Unknown18"
+    },
+    {
+      "index": 23,
+      "name": "Unknown19"
+    },
+    {
+      "index": 24,
+      "name": "Name"
+    },
+    {
+      "index": 25,
+      "name": "PayoutExplanation"
+    },
+    {
+      "index": 26,
+      "name": "Description"
+    },
+    {
+      "index": 27,
+      "name": "TotalPayoutText"
+    },
+    {
+      "index": 28,
+      "name": "FailImage",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Unknown24"
+    },
+    {
+      "index": 30,
+      "name": "Unknown25"
+    },
+    {
+      "index": 31,
+      "name": "Unknown26"
+    },
+    {
+      "index": 32,
+      "name": "Timeout"
+    },
+    {
+      "index": 33,
+      "name": "Unknown28"
+    },
+    {
+      "index": 34,
+      "name": "Unknown29"
+    },
+    {
+      "index": 35,
+      "name": "Unknown30"
+    },
+    {
+      "index": 36,
+      "name": "Unknown31"
+    },
+    {
+      "index": 37,
+      "name": "Unknown32"
+    },
+    {
+      "index": 38,
+      "name": "Unknown33"
+    },
+    {
+      "index": 39,
+      "name": "Unknown34"
+    },
+    {
+      "index": 40,
+      "name": "Unknown35"
+    },
+    {
+      "index": 41,
+      "name": "Unknown36"
+    },
+    {
+      "index": 42,
+      "name": "Unknown37"
+    }
+  ]
+}

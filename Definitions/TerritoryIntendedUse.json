@@ -1,0 +1,180 @@
+{
+  "sheet": "TerritoryIntendedUse",
+  "definitions": [
+    {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "GayaSoundId"
+    },
+    {
+      "index": 2,
+      "name": "ChatRule",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryChatRule"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "EnableCrafting"
+    },
+    {
+      "index": 5,
+      "name": "EnableGathering"
+    },
+    {
+      "index": 6,
+      "name": "EnableRepairs"
+    },
+    {
+      "index": 7,
+      "name": "EnableClassJobChange"
+    },
+    {
+      "index": 8,
+      "name": "EnableClassJobChangeCombatJobCheck"
+    },
+    {
+      "index": 9,
+      "name": "EnableJobChangeToLimitedJob"
+    },
+    {
+      "index": 10,
+      "name": "EnableCompanion"
+    },
+    {
+      "index": 11,
+      "name": "EnablePets"
+    },
+    {
+      "index": 12,
+      "name": "EnableRidePillion"
+    },
+    {
+      "index": 13,
+      "name": "DisableLogoutTimer"
+    },
+    {
+      "index": 14,
+      "name": "EnableTeleport"
+    },
+    {
+      "index": 15,
+      "name": "EnableReturn"
+    },
+    {
+      "index": 16,
+      "name": "Unknown16"
+    },
+    {
+      "index": 17,
+      "name": "Unknown17"
+    },
+    {
+      "index": 18,
+      "name": "EnableRecommendList"
+    },
+    {
+      "index": 19,
+      "name": "Unknown19"
+    },
+    {
+      "index": 20,
+      "name": "Unknown20"
+    },
+    {
+      "index": 21,
+      "name": "DisableMapDiscovery"
+    },
+    {
+      "index": 22,
+      "name": "DisableFieldMarkers"
+    },
+    {
+      "index": 23,
+      "name": "Unknown23"
+    },
+    {
+      "index": 24,
+      "name": "EnableActions"
+    },
+    {
+      "index": 25,
+      "name": "EnableConsumableItems"
+    },
+    {
+      "index": 26,
+      "name": "Unknown26"
+    },
+    {
+      "index": 27,
+      "name": "EnableTripleTriadMatches"
+    },
+    {
+      "index": 28,
+      "name": "EnableTripleTriadMatchesAnywhere"
+    },
+    {
+      "index": 29,
+      "name": "Unknown29"
+    },
+    {
+      "index": 30,
+      "name": "Unknown30"
+    },
+    {
+      "index": 31,
+      "name": "Unknown31"
+    },
+    {
+      "index": 32,
+      "name": "CanPauseTimeWeather"
+    },
+    {
+      "index": 33,
+      "name": "Unknown33"
+    },
+    {
+      "index": 34,
+      "name": "EnablePvPQuickChat"
+    },
+    {
+      "index": 35,
+      "name": "Unknown35"
+    },
+    {
+      "index": 36,
+      "name": "Unknown36"
+    },
+    {
+      "index": 37,
+      "name": "CanApplyGlamourPlatesAnywhere"
+    },
+    {
+      "index": 38,
+      "name": "Unknown38"
+    },
+    {
+      "index": 39,
+      "name": "EnableFieldMarkerPresets"
+    },
+    {
+      "index": 40,
+      "name": "IgnoreCombatFlagForMarkers"
+    },
+    {
+      "index": 41,
+      "name": "Unknown41"
+    },
+    {
+      "index": 42,
+      "name": "Unknown42"
+    }
+  ]
+}

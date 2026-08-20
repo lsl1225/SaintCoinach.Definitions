@@ -1,0 +1,21 @@
+{
+  "sheet": "IKDRouteTable",
+  "defaultColumn": "IndigoRoute",
+  "definitions": [
+    {
+      "name": "IndigoRoute",
+      "converter": {
+        "type": "link",
+        "target": "IKDRoute"
+      }
+    },
+    {
+      "index": 1,
+      "name": "RubyRoute",
+      "converter": {
+        "type": "link",
+        "target": "IKDRoute"
+      }
+    }
+  ]
+}

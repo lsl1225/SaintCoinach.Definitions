@@ -1,0 +1,16 @@
+{
+  "sheet": "WeatherCategory",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 5,
+      "definition": {
+        "name": "Weather",
+        "converter": {
+          "type": "link",
+          "target": "Weather"
+        }
+      }
+    }
+  ]
+}

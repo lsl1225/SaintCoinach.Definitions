@@ -1,0 +1,37 @@
+{
+  "sheet": "LogFilter",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    },
+    {
+      "index": 1,
+      "name": "Example"
+    },
+    {
+      "index": 2,
+      "name": "Caster"
+    },
+    {
+      "index": 3,
+      "name": "Target"
+    },
+    {
+      "index": 4,
+      "name": "LogKind"
+    },
+    {
+      "index": 5,
+      "name": "Category"
+    },
+    {
+      "index": 6,
+      "name": "DisplayOrder"
+    },
+    {
+      "index": 7,
+      "name": "Preset"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "sheet": "QuestEventAreaEntranceInfo",
+  "definitions": [
+    {
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Location",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    }
+  ]
+}

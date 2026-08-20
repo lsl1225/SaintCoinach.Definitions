@@ -1,0 +1,180 @@
+{
+  "sheet": "Companion",
+  "defaultColumn": "Singular",
+  "definitions": [
+    {
+      "name": "Singular"
+    },
+    {
+      "index": 1,
+      "name": "Plural"
+    },
+    {
+      "index": 2,
+      "name": "Adjective"
+    },
+    {
+      "index": 3,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 4,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 5,
+      "name": "Countability"
+    },
+    {
+      "index": 6,
+      "name": "Pronoun"
+    },
+    {
+      "index": 7,
+      "name": "Article"
+    },
+    {
+      "index": 8,
+      "name": "Model",
+      "converter": {
+        "type": "link",
+        "target": "ModelChara"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Priority"
+    },
+    {
+      "index": 10,
+      "name": "Enemy"
+    },
+    {
+      "index": 11,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Order"
+    },
+    {
+      "index": 13,
+      "name": "HP"
+    },
+    {
+      "index": 14,
+      "name": "SkillAngle"
+    },
+    {
+      "index": 15,
+      "name": "Unknown1"
+    },
+    {
+      "index": 16,
+      "name": "Scale"
+    },
+    {
+      "index": 17,
+      "name": "InactiveIdle0"
+    },
+    {
+      "index": 18,
+      "name": "InactiveIdle1"
+    },
+    {
+      "index": 19,
+      "name": "InactiveBattle"
+    },
+    {
+      "index": 20,
+      "name": "InactiveWandering"
+    },
+    {
+      "index": 21,
+      "name": "Behavior",
+      "converter": {
+        "type": "link",
+        "target": "CompanionMove"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Special"
+    },
+    {
+      "index": 23,
+      "name": "Unknown10"
+    },
+    {
+      "index": 24,
+      "name": "Unknown11"
+    },
+    {
+      "index": 25,
+      "name": "WanderingWait"
+    },
+    {
+      "index": 26,
+      "name": "Unknown2"
+    },
+    {
+      "index": 27,
+      "name": "Cost"
+    },
+    {
+      "index": 28,
+      "name": "Unknown3"
+    },
+    {
+      "index": 29,
+      "name": "SkillCost"
+    },
+    {
+      "index": 30,
+      "name": "Unknown4"
+    },
+    {
+      "index": 31,
+      "name": "MinionRace",
+      "converter": {
+        "type": "link",
+        "target": "MinionRace"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Unknown5"
+    },
+    {
+      "index": 33,
+      "name": "Unknown6"
+    },
+    {
+      "index": 34,
+      "name": "Unknown7"
+    },
+    {
+      "index": 35,
+      "name": "Unknown8"
+    },
+    {
+      "index": 36,
+      "name": "Unknown9"
+    },
+    {
+      "index": 37,
+      "name": "Battle"
+    },
+    {
+      "index": 38,
+      "name": "Roulette"
+    },
+    {
+      "index": 39,
+      "name": "IdleAnimation"
+    }
+  ]
+}

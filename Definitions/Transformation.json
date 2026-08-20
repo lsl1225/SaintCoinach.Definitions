@@ -1,0 +1,168 @@
+{
+  "sheet": "Transformation",
+  "definitions": [
+    {
+      "name": "Speed"
+    },
+    {
+      "index": 1,
+      "name": "Scale"
+    },
+    {
+      "index": 2,
+      "name": "Action6",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 3,
+      "name": "BNpcCustomize",
+      "converter": {
+        "type": "link",
+        "target": "BNpcCustomize"
+      }
+    },
+    {
+      "index": 4,
+      "name": "NpcEquip",
+      "converter": {
+        "type": "link",
+        "target": "NpcEquip"
+      }
+    },
+    {
+      "index": 5,
+      "name": "BNpcName",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 6,
+      "type": "repeat",
+      "count": 7,
+      "definition": {
+        "name": "Action",
+        "converter": {
+          "type": "link",
+          "target": "Action"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "name": "RemoveAction",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 14,
+      "name": "StartVFX",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
+    },
+    {
+      "index": 15,
+      "name": "EndVFX",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Action7",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Model",
+      "converter": {
+        "type": "link",
+        "target": "ModelChara"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Unknown0"
+    },
+    {
+      "index": 19,
+      "name": "Unknown1"
+    },
+    {
+      "index": 20,
+      "name": "RPParameter",
+      "converter": {
+        "type": "link",
+        "target": "RPParameter"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Unknown3"
+    },
+    {
+      "index": 22,
+      "name": "Unknown4"
+    },
+    {
+      "index": 23,
+      "type": "repeat",
+      "count": 7,
+      "definition": {
+        "name": "ExHotbarEnableConfig"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Unknown11"
+    },
+    {
+      "index": 31,
+      "name": "Unknown12"
+    },
+    {
+      "index": 32,
+      "name": "Unknown13"
+    },
+    {
+      "index": 33,
+      "name": "IsPvP"
+    },
+    {
+      "index": 34,
+      "name": "IsEvent"
+    },
+    {
+      "index": 35,
+      "name": "PlayerCamera"
+    },
+    {
+      "index": 36,
+      "name": "Unknown14"
+    },
+    {
+      "index": 37,
+      "name": "Unknown15"
+    },
+    {
+      "index": 38,
+      "name": "Unknown16"
+    },
+    {
+      "index": 39,
+      "name": "Unknown17"
+    }
+  ]
+}

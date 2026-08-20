@@ -1,0 +1,36 @@
+{
+  "sheet": "EventIconType",
+  "definitions": [
+    {
+      "name": "NpcIconAvailable",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "MapIconAvailable",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "NpcIconInvalid",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "MapIconInvalid",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "IconRange"
+    }
+  ]
+}

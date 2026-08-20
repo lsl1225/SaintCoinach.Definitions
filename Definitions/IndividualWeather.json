@@ -1,0 +1,34 @@
+{
+  "sheet": "IndividualWeather",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 7,
+      "definition": {
+        "type": "group",
+        "members": [
+          {
+            "name": "Quest",
+            "converter": {
+              "type": "link",
+              "target": "Quest"
+            }
+          },
+          {
+            "name": "Unknown0"
+          },
+          {
+            "name": "Weather",
+            "converter": {
+              "type": "link",
+              "target": "Weather"
+            }
+          },
+          {
+            "name": "Unknown1"
+          }
+        ]
+      }
+    }
+  ]
+}

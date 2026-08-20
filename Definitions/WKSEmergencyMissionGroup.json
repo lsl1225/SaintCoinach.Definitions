@@ -1,0 +1,12 @@
+{
+  "sheet": "WKSEmergencyMissionGroup",
+  "definitions": [
+    {
+      "name": "WKSMissionUnit",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionUnit"
+      }
+    }
+  ]
+}

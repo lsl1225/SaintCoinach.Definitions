@@ -1,0 +1,80 @@
+{
+  "sheet": "PartyContent",
+  "defaultColumn": "ContentFinderCondition",
+  "definitions": [
+    {
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "name": "LGBEventObject"
+      }
+    },
+    {
+      "index": 9,
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "name": "LGBEventRange"
+      }
+    },
+    {
+      "index": 18,
+      "type": "repeat",
+      "count": 9,
+      "definition": {
+        "name": "LGBEventObject2"
+      }
+    },
+    {
+      "index": 27,
+      "name": "TextDataStart",
+      "converter": {
+        "type": "link",
+        "target": "PartyContentTextData"
+      }
+    },
+    {
+      "index": 28,
+      "name": "TextDataEnd",
+      "converter": {
+        "type": "link",
+        "target": "PartyContentTextData"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 30,
+      "name": "TimeLimit"
+    },
+    {
+      "index": 31,
+      "name": "Unknown0"
+    },
+    {
+      "index": 32,
+      "name": "ContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Key"
+    },
+    {
+      "index": 34,
+      "name": "Unknown1"
+    },
+    {
+      "index": 35,
+      "name": "Name"
+    }
+  ]
+}

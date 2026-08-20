@@ -1,0 +1,9 @@
+{
+  "sheet": "ValentionSweetsMaterial",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "Name"
+    }
+  ]
+}

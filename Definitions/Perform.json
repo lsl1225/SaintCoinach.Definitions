@@ -1,0 +1,88 @@
+{
+  "sheet": "Perform",
+  "defaultColumn": "Name",
+  "definitions": [
+    {
+      "name": "AnimationPlay01",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 1,
+      "name": "AnimationPlay02",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Instrument"
+    },
+    {
+      "index": 3,
+      "name": "ModelKey"
+    },
+    {
+      "index": 4,
+      "name": "Name"
+    },
+    {
+      "index": 5,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 6,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "AnimationStart",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 8,
+      "name": "AnimationEnd",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 9,
+      "name": "AnimationIdle",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Transient",
+      "converter": {
+        "type": "link",
+        "target": "PerformTransient"
+      }
+    },
+    {
+      "index": 11,
+      "name": "PerformGroup",
+      "converter": {
+        "type": "link",
+        "target": "PerformGroup"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Unknown1"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "sheet": "EmjCostume",
+  "definitions": [
+    {
+      "name": "Scale"
+    },
+    {
+      "index": 1,
+      "name": "OffsetX"
+    },
+    {
+      "index": 2,
+      "name": "OffsetY"
+    },
+    {
+      "index": 3,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "UnlockQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    },
+    {
+      "index": 6,
+      "name": "UnlockText",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Data",
+      "converter": {
+        "type": "link",
+        "target": "EmjCostumeData"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Sort"
+    }
+  ]
+}

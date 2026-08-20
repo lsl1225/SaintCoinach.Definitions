@@ -1,0 +1,56 @@
+{
+  "sheet": "GuildleveAssignment",
+  "definitions": [
+    {
+      "name": "Type"
+    },
+    {
+      "index": 1,
+      "name": "AssignmentTalk",
+      "converter": {
+        "type": "link",
+        "target": "GuildleveAssignmentTalk"
+      }
+    },
+    {
+      "index": 2,
+      "type": "repeat",
+      "count": 2,
+      "definition": {
+        "name": "Quest",
+        "converter": {
+          "type": "link",
+          "target": "Quest"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
+      "name": "Unknown2"
+    },
+    {
+      "index": 7,
+      "name": "Unknown3"
+    },
+    {
+      "index": 8,
+      "name": "Unknown4"
+    },
+    {
+      "index": 9,
+      "name": "Unknown5"
+    },
+    {
+      "index": 10,
+      "name": "Unknown6"
+    }
+  ]
+}

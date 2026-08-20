@@ -1,0 +1,92 @@
+{
+  "sheet": "MapMarker",
+  "definitions": [
+    {
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "PlaceNameSubtext",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DataKey",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Map",
+            "when": {
+              "key": "DataType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "Map",
+            "when": {
+              "key": "DataType",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Aetheryte",
+            "when": {
+              "key": "DataType",
+              "value": 3
+            }
+          },
+          {
+            "sheet": "PlaceName",
+            "when": {
+              "key": "DataType",
+              "value": 4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "name": "MapMarkerUnlockedBit"
+    },
+    {
+      "index": 4,
+      "name": "X"
+    },
+    {
+      "index": 5,
+      "name": "Y"
+    },
+    {
+      "index": 6,
+      "name": "SubtextOrientation"
+    },
+    {
+      "index": 7,
+      "name": "MapMarkerRegion",
+      "converter": {
+        "type": "link",
+        "target": "MapMarkerRegion"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Type"
+    },
+    {
+      "index": 9,
+      "name": "DataType"
+    },
+    {
+      "index": 10,
+      "name": "Unknown0"
+    }
+  ]
+}
