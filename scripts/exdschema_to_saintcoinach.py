@@ -45,6 +45,14 @@ class ConversionWarning:
     message: str
 
 
+@dataclass(frozen=True)
+class LeafNaming:
+    path: str
+    base_name: str
+    array_scopes: tuple[str, ...]
+    repeat_depth: int
+
+
 class ConversionError(RuntimeError):
     pass
 
@@ -61,6 +69,7 @@ class Converter:
         self.warnings: list[ConversionWarning] = []
         self._sheet = ""
         self._conditional_switches: list[tuple[str, str]] = []
+        self._name_overrides: dict[str, str] = {}
 
     def warn(self, path: str, code: str, message: str, *, lossy: bool = True) -> None:
         warning = ConversionWarning(
@@ -88,6 +97,7 @@ class Converter:
 
         self._sheet = sheet
         self._conditional_switches = []
+        self._name_overrides = self.build_name_overrides(fields)
 
         result: Json = {"sheet": sheet}
 
@@ -121,6 +131,7 @@ class Converter:
             column_index += length
 
         result["definitions"] = definitions
+        validate_unique_column_names(result)
 
         # SaintCoinach ComplexLinkConverter resolves a "when.key" by searching
         # top-level positioned definitions and comparing InnerDefinition.GetName(0).
@@ -190,7 +201,7 @@ class Converter:
                 f"{self._sheet}: {path}: unnamed non-array field has no array name to inherit"
             )
 
-        definition: Json = {"name": effective_name}
+        definition: Json = {"name": self.output_name(path, effective_name)}
 
         converter = self.convert_value_converter(field, path=path)
         if converter is not None:
@@ -223,7 +234,7 @@ class Converter:
                 raise ConversionError(
                     f"{self._sheet}: {path}: unnamed array without fields has no name to inherit"
                 )
-            repeated: Json = {"name": effective_name}
+            repeated: Json = {"name": self.output_name(path, effective_name)}
 
         else:
             if not isinstance(children, list) or not children:
@@ -255,6 +266,155 @@ class Converter:
             "count": count,
             "definition": repeated,
         }
+
+    def output_name(self, path: str, base_name: str) -> str:
+        return self._name_overrides.get(path, base_name)
+
+    def build_name_overrides(self, fields: list[Json]) -> dict[str, str]:
+        """
+        SaintCoinach RepeatDataDefinition only appends [index] to the repeated
+        leaf name. It does not preserve the EXDSchema array/container name.
+
+        Two different arrays containing the same member name therefore collide,
+        e.g. Stages.Name and Types.Name both become Name[0]. SheetDefinition.Compile
+        stores names in a Dictionary and throws on the second occurrence.
+
+        Find leaf fields that would have the same SaintCoinach name shape and
+        qualify only those ambiguous leaves with their EXDSchema array path:
+
+            Name under Stages -> Name{Stages}
+            Name under Types  -> Name{Types}
+
+        RepeatDataDefinition then produces Name{Stages}[0] and Name{Types}[0].
+        Unambiguous names are left unchanged for compatibility with existing
+        SaintCoinach definitions.
+        """
+        leaves: list[LeafNaming] = []
+        for i, field in enumerate(fields):
+            self.collect_leaf_namings(
+                field,
+                inherited_name=None,
+                path=f"$.fields[{i}]",
+                array_scopes=(),
+                out=leaves,
+            )
+
+        by_shape: dict[tuple[str, int], list[LeafNaming]] = {}
+        for leaf in leaves:
+            by_shape.setdefault((leaf.base_name, leaf.repeat_depth), []).append(leaf)
+
+        overrides: dict[str, str] = {}
+        for (base_name, _repeat_depth), group in by_shape.items():
+            if len(group) <= 1:
+                continue
+
+            used: set[str] = set()
+            for leaf in group:
+                if leaf.array_scopes:
+                    qualifier = ".".join(leaf.array_scopes)
+                else:
+                    # A repeated-name collision at top level should not normally
+                    # exist in EXDSchema. Keep conversion deterministic if it does.
+                    qualifier = leaf.path.removeprefix("$.fields[").replace("]", "")
+                    qualifier = f"Field{qualifier}"
+
+                candidate = f"{base_name}{{{qualifier}}}"
+                if candidate in used:
+                    # Full array scopes are normally unique. Include a stable path
+                    # fallback for malformed or unusual schemas.
+                    stable = (
+                        leaf.path.replace("$.fields", "F")
+                        .replace(".fields", "F")
+                        .replace("[", "")
+                        .replace("]", "")
+                    )
+                    candidate = f"{base_name}{{{qualifier}.{stable}}}"
+
+                used.add(candidate)
+                overrides[leaf.path] = candidate
+                self.warn(
+                    leaf.path,
+                    "column-name-disambiguated",
+                    f"SaintCoinach would generate a duplicate column name from "
+                    f"'{base_name}'. Emitting '{candidate}' to keep column names unique.",
+                    lossy=False,
+                )
+
+        return overrides
+
+    def collect_leaf_namings(
+        self,
+        field: Json,
+        *,
+        inherited_name: str | None,
+        path: str,
+        array_scopes: tuple[str, ...],
+        out: list[LeafNaming],
+    ) -> None:
+        if not isinstance(field, dict):
+            raise ConversionError(f"{self._sheet}: {path}: field must be an object")
+
+        own_name = field.get("name")
+        if own_name is not None and not isinstance(own_name, str):
+            raise ConversionError(f"{self._sheet}: {path}: invalid field name")
+
+        effective_name = own_name or inherited_name
+        field_type = field.get("type", "scalar")
+
+        if field_type != "array":
+            if effective_name is None:
+                raise ConversionError(
+                    f"{self._sheet}: {path}: unnamed non-array field has no array name to inherit"
+                )
+            out.append(
+                LeafNaming(
+                    path=path,
+                    base_name=effective_name,
+                    array_scopes=array_scopes,
+                    repeat_depth=len(array_scopes),
+                )
+            )
+            return
+
+        if effective_name is None:
+            raise ConversionError(
+                f"{self._sheet}: {path}: unnamed array has no name to use as its scope"
+            )
+
+        scopes = (*array_scopes, effective_name)
+        children = field.get("fields")
+        if children is None:
+            out.append(
+                LeafNaming(
+                    path=path,
+                    base_name=effective_name,
+                    array_scopes=scopes,
+                    repeat_depth=len(scopes),
+                )
+            )
+            return
+
+        if not isinstance(children, list) or not children:
+            raise ConversionError(f"{self._sheet}: {path}.fields: must be a non-empty list")
+
+        if len(children) == 1:
+            self.collect_leaf_namings(
+                children[0],
+                inherited_name=effective_name,
+                path=f"{path}.fields[0]",
+                array_scopes=scopes,
+                out=out,
+            )
+            return
+
+        for i, child in enumerate(children):
+            self.collect_leaf_namings(
+                child,
+                inherited_name=None,
+                path=f"{path}.fields[{i}]",
+                array_scopes=scopes,
+                out=out,
+            )
 
     def convert_value_converter(self, field: Json, *, path: str) -> Json | None:
         field_type = field.get("type", "scalar")
@@ -341,6 +501,66 @@ class Converter:
         )
 
         return {"type": "complexlink", "links": links}
+
+
+def definition_column_names(definition: Json) -> list[str]:
+    """Emulate SaintCoinach IDataDefinition.GetName for every inner column."""
+    kind = definition.get("type")
+
+    if kind == "repeat":
+        count = definition.get("count")
+        child = definition.get("definition")
+        if not isinstance(count, int) or not isinstance(child, dict):
+            raise ConversionError("invalid generated repeat definition")
+        child_names = definition_column_names(child)
+        names: list[str] = []
+        for repeat_nr in range(count):
+            names.extend(f"{name}[{repeat_nr}]" for name in child_names)
+        return names
+
+    if kind == "group":
+        members = definition.get("members")
+        if not isinstance(members, list):
+            raise ConversionError("invalid generated group definition")
+        names: list[str] = []
+        for member in members:
+            if not isinstance(member, dict):
+                raise ConversionError("invalid generated group member")
+            names.extend(definition_column_names(member))
+        return names
+
+    name = definition.get("name")
+    if not isinstance(name, str) or not name:
+        raise ConversionError(f"invalid generated single definition: {definition!r}")
+    return [name]
+
+
+def validate_unique_column_names(sheet: Json) -> None:
+    """
+    Fail during conversion instead of letting SaintCoinach SheetDefinition.Compile
+    fail later with Dictionary.Add duplicate-key exceptions.
+    """
+    sheet_name = sheet.get("sheet", "<unknown>")
+    definitions = sheet.get("definitions")
+    if not isinstance(definitions, list):
+        raise ConversionError(f"{sheet_name}: invalid generated definitions")
+
+    seen: dict[str, int] = {}
+    for definition in definitions:
+        if not isinstance(definition, dict):
+            raise ConversionError(f"{sheet_name}: invalid generated definition")
+        start = definition.get("index", 0)
+        if not isinstance(start, int):
+            raise ConversionError(f"{sheet_name}: invalid generated definition index")
+        for relative, name in enumerate(definition_column_names(definition)):
+            offset = start + relative
+            previous = seen.get(name)
+            if previous is not None:
+                raise ConversionError(
+                    f"{sheet_name}: generated duplicate SaintCoinach column name {name!r} "
+                    f"at offsets {previous} and {offset}"
+                )
+            seen[name] = offset
 
 
 def normalize_targets(value: Any, sheet: str, path: str) -> list[str]:
