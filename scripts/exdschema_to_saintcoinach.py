@@ -315,11 +315,11 @@ class Converter:
                     f"case key {raw_case!r} is not an integer"
                 ) from exc
 
-            if case_value <= 0:
-                raise ConversionError(
-                    f"{self._sheet}: {path}.condition.cases: "
-                    f"case value must be positive, got {case_value}"
-                )
+            # EXDSchema's live `latest` definitions may use 0 as a
+            # conditional discriminator (for example MKDRelicGrowth2ContentList).
+            # SaintCoinach's ComplexLinkConverter compares when.value directly
+            # and imposes no positive-integer restriction, so preserve any
+            # integer case value verbatim.
 
             targets = normalize_targets(
                 raw_targets,
