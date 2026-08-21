@@ -3,15 +3,15 @@
   "defaultColumn": "BaseParam",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "BaseParam",
       "converter": {
         "type": "link",
         "target": "BaseParam"
       }
+    },
+    {
+      "index": 1,
+      "name": "Name"
     }
   ]
 }

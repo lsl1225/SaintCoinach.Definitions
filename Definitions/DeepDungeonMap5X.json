@@ -2,14 +2,42 @@
   "sheet": "DeepDungeonMap5X",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "DeepDungeonRoom",
-        "converter": {
-          "type": "link",
-          "target": "DeepDungeonRoom"
-        }
+      "name": "DeepDungeonRoom[0]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonRoom"
+      }
+    },
+    {
+      "index": 1,
+      "name": "DeepDungeonRoom[1]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonRoom"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DeepDungeonRoom[2]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonRoom"
+      }
+    },
+    {
+      "index": 3,
+      "name": "DeepDungeonRoom[3]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonRoom"
+      }
+    },
+    {
+      "index": 4,
+      "name": "DeepDungeonRoom[4]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonRoom"
       }
     }
   ]

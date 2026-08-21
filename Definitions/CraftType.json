@@ -3,15 +3,15 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "MainPhysical"
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "SubPhysical"
+    },
+    {
+      "index": 2,
+      "name": "Name"
     }
   ]
 }

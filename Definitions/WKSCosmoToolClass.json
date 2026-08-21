@@ -3,75 +3,579 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 20,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Unknown0"
-          },
-          {
-            "name": "Item",
-            "converter": {
-              "type": "link",
-              "target": "Item"
-            }
-          },
-          {
-            "name": "Name{Stages}",
-            "converter": {
-              "type": "link",
-              "target": "WKSCosmoToolName"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "index": 60,
-      "type": "repeat",
-      "count": 7,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Icon",
-            "converter": {
-              "type": "icon"
-            }
-          },
-          {
-            "name": "Name{Types}",
-            "converter": {
-              "type": "link",
-              "target": "WKSCosmoToolName"
-            }
-          },
-          {
-            "name": "CosmicName",
-            "converter": {
-              "type": "link",
-              "target": "WKSCosmoToolName"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "index": 81,
-      "name": "Name",
+      "name": "Name{Stages}[0]",
       "converter": {
         "type": "link",
         "target": "WKSCosmoToolName"
       }
     },
     {
-      "index": 82,
+      "index": 1,
+      "name": "Name{Stages}[1]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Name{Stages}[2]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Name{Stages}[3]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Name{Stages}[4]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Name{Stages}[5]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Name{Stages}[6]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Name{Stages}[7]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Name{Stages}[8]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Name{Stages}[9]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Name{Stages}[10]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Name{Stages}[11]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Name{Stages}[12]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Name{Stages}[13]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Name{Stages}[14]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Name{Stages}[15]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Name{Stages}[16]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Name{Stages}[17]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Name{Stages}[18]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Name{Stages}[19]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Item[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Item[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Item[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Item[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Item[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 27,
+      "name": "Item[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 28,
+      "name": "Item[8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Item[9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Item[10]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 31,
+      "name": "Item[11]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Item[12]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Item[13]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 34,
+      "name": "Item[14]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 35,
+      "name": "Item[15]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 36,
+      "name": "Item[16]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 37,
+      "name": "Item[17]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 38,
+      "name": "Item[18]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 39,
+      "name": "Item[19]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 40,
+      "name": "Unknown0[0]"
+    },
+    {
+      "index": 41,
+      "name": "Unknown0[1]"
+    },
+    {
+      "index": 42,
+      "name": "Unknown0[2]"
+    },
+    {
+      "index": 43,
+      "name": "Unknown0[3]"
+    },
+    {
+      "index": 44,
+      "name": "Unknown0[4]"
+    },
+    {
+      "index": 45,
+      "name": "Unknown0[5]"
+    },
+    {
+      "index": 46,
+      "name": "Unknown0[6]"
+    },
+    {
+      "index": 47,
+      "name": "Unknown0[7]"
+    },
+    {
+      "index": 48,
+      "name": "Unknown0[8]"
+    },
+    {
+      "index": 49,
+      "name": "Unknown0[9]"
+    },
+    {
+      "index": 50,
+      "name": "Unknown0[10]"
+    },
+    {
+      "index": 51,
+      "name": "Unknown0[11]"
+    },
+    {
+      "index": 52,
+      "name": "Unknown0[12]"
+    },
+    {
+      "index": 53,
+      "name": "Unknown0[13]"
+    },
+    {
+      "index": 54,
+      "name": "Unknown0[14]"
+    },
+    {
+      "index": 55,
+      "name": "Unknown0[15]"
+    },
+    {
+      "index": 56,
+      "name": "Unknown0[16]"
+    },
+    {
+      "index": 57,
+      "name": "Unknown0[17]"
+    },
+    {
+      "index": 58,
+      "name": "Unknown0[18]"
+    },
+    {
+      "index": 59,
+      "name": "Unknown0[19]"
+    },
+    {
+      "index": 60,
+      "name": "Name{Types}[0]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 61,
+      "name": "Name{Types}[1]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 62,
+      "name": "Name{Types}[2]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 63,
+      "name": "Name{Types}[3]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 64,
+      "name": "Name{Types}[4]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 65,
+      "name": "Name{Types}[5]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 66,
+      "name": "Name{Types}[6]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 67,
+      "name": "CosmicName[0]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 68,
+      "name": "CosmicName[1]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 69,
+      "name": "CosmicName[2]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 70,
+      "name": "CosmicName[3]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 71,
+      "name": "CosmicName[4]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 72,
+      "name": "CosmicName[5]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 73,
+      "name": "CosmicName[6]",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
+      }
+    },
+    {
+      "index": 74,
+      "name": "Icon[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 75,
+      "name": "Icon[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 76,
+      "name": "Icon[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 77,
+      "name": "Icon[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 78,
+      "name": "Icon[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 79,
+      "name": "Icon[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 80,
+      "name": "Icon[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 81,
       "name": "DataAmount",
       "converter": {
         "type": "link",
         "target": "WKSCosmoToolDataAmount"
+      }
+    },
+    {
+      "index": 82,
+      "name": "Name",
+      "converter": {
+        "type": "link",
+        "target": "WKSCosmoToolName"
       }
     }
   ]

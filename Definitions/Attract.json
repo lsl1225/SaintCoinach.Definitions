@@ -14,11 +14,11 @@
     },
     {
       "index": 3,
-      "name": "Direction"
+      "name": "UseDistanceBetweenHitboxes"
     },
     {
       "index": 4,
-      "name": "UseDistanceBetweenHitboxes"
+      "name": "Direction"
     }
   ]
 }

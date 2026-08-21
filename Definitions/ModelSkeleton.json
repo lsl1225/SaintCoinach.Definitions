@@ -14,43 +14,43 @@
     },
     {
       "index": 3,
-      "name": "FloatHeight"
-    },
-    {
-      "index": 4,
-      "name": "FloatDown"
-    },
-    {
-      "index": 5,
       "name": "Unknown0"
     },
     {
-      "index": 6,
+      "index": 4,
       "name": "Unknown1"
     },
     {
-      "index": 7,
+      "index": 5,
       "name": "Unknown2"
     },
     {
-      "index": 8,
+      "index": 6,
       "name": "Unknown3"
     },
     {
-      "index": 9,
+      "index": 7,
       "name": "Unknown4"
     },
     {
-      "index": 10,
+      "index": 8,
       "name": "Unknown5"
     },
     {
-      "index": 11,
+      "index": 9,
       "name": "Unknown6"
     },
     {
-      "index": 12,
+      "index": 10,
       "name": "Unknown7"
+    },
+    {
+      "index": 11,
+      "name": "FloatHeight"
+    },
+    {
+      "index": 12,
+      "name": "FloatDown"
     },
     {
       "index": 13,
@@ -62,11 +62,11 @@
     },
     {
       "index": 15,
-      "name": "LoopFlySE"
+      "name": "MotionBlendType"
     },
     {
       "index": 16,
-      "name": "MotionBlendType"
+      "name": "LoopFlySE"
     }
   ]
 }

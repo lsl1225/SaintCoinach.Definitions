@@ -13,50 +13,86 @@
     },
     {
       "index": 1,
-      "name": "BronzeScore"
+      "name": "TemporaryActionCount"
     },
     {
       "index": 2,
-      "name": "Unknown1"
+      "name": "Unknown15"
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "RequiredItem",
-        "converter": {
-          "type": "link",
-          "target": "WKSItemInfo"
-        }
+      "name": "BronzeScore"
+    },
+    {
+      "index": 4,
+      "name": "RequiredItem[0]",
+      "converter": {
+        "type": "link",
+        "target": "WKSItemInfo"
       }
     },
     {
+      "index": 5,
+      "name": "RequiredItemQuantity[0]"
+    },
+    {
       "index": 6,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "RequiredItemQuantity"
+      "name": "RequiredItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "WKSItemInfo"
+      }
+    },
+    {
+      "index": 7,
+      "name": "RequiredItemQuantity[1]"
+    },
+    {
+      "index": 8,
+      "name": "RequiredItem[2]",
+      "converter": {
+        "type": "link",
+        "target": "WKSItemInfo"
       }
     },
     {
       "index": 9,
-      "name": "RequiredFishVariety"
+      "name": "RequiredItemQuantity[2]"
     },
     {
       "index": 10,
-      "name": "Unknown10"
+      "name": "Unknown16"
     },
     {
       "index": 11,
-      "name": "Unknown11"
+      "name": "RequiredFishVariety"
     },
     {
       "index": 12,
-      "name": "Unknown12"
+      "name": "RequiredFishQuantity"
     },
     {
       "index": 13,
+      "name": "Unknown1"
+    },
+    {
+      "index": 14,
+      "name": "MissionType"
+    },
+    {
+      "index": 15,
+      "name": "Unknown10"
+    },
+    {
+      "index": 16,
+      "name": "Unknown11"
+    },
+    {
+      "index": 17,
+      "name": "Unknown12"
+    },
+    {
+      "index": 18,
       "name": "MapMarker",
       "converter": {
         "type": "link",
@@ -64,40 +100,20 @@
       }
     },
     {
-      "index": 14,
+      "index": 19,
       "name": "Unknown18"
     },
     {
-      "index": 15,
+      "index": 20,
       "name": "Unknown19"
     },
     {
-      "index": 16,
+      "index": 21,
       "name": "WKSMissionText",
       "converter": {
         "type": "link",
         "target": "WKSMissionText"
       }
-    },
-    {
-      "index": 17,
-      "name": "TemporaryActionCount"
-    },
-    {
-      "index": 18,
-      "name": "Unknown15"
-    },
-    {
-      "index": 19,
-      "name": "Unknown16"
-    },
-    {
-      "index": 20,
-      "name": "RequiredFishQuantity"
-    },
-    {
-      "index": 21,
-      "name": "MissionType"
     }
   ]
 }

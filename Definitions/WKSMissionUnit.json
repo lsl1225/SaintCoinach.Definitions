@@ -6,14 +6,6 @@
     },
     {
       "index": 1,
-      "name": "SilverStarRequirement"
-    },
-    {
-      "index": 2,
-      "name": "GoldStarRequirement"
-    },
-    {
-      "index": 3,
       "name": "WKSMissionText",
       "converter": {
         "type": "link",
@@ -21,83 +13,23 @@
       }
     },
     {
+      "index": 2,
+      "name": "ClassJobCategory[0]",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ClassJobCategory[1]",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
       "index": 4,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "ClassJobCategory",
-        "converter": {
-          "type": "link",
-          "target": "ClassJobCategory"
-        }
-      }
-    },
-    {
-      "index": 6,
-      "name": "Unknown1"
-    },
-    {
-      "index": 7,
-      "name": "MissionTime"
-    },
-    {
-      "index": 8,
-      "name": "MissionReward",
-      "converter": {
-        "type": "link",
-        "target": "WKSMissionReward"
-      }
-    },
-    {
-      "index": 9,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "MissionToDo",
-        "converter": {
-          "type": "link",
-          "target": "WKSMissionToDo"
-        }
-      }
-    },
-    {
-      "index": 12,
-      "name": "LockedBehind",
-      "converter": {
-        "type": "link",
-        "target": "WKSMissionUnit"
-      }
-    },
-    {
-      "index": 13,
-      "name": "WKSMissionSupplyItem",
-      "converter": {
-        "type": "link",
-        "target": "WKSMissionSupplyItem"
-      }
-    },
-    {
-      "index": 14,
-      "name": "WKSMissionRecipe",
-      "converter": {
-        "type": "link",
-        "target": "WKSMissionRecipe"
-      }
-    },
-    {
-      "index": 15,
-      "name": "PlaceName",
-      "converter": {
-        "type": "link",
-        "target": "PlaceName"
-      }
-    },
-    {
-      "index": 16,
-      "name": "SortKey"
-    },
-    {
-      "index": 17,
       "name": "WKSFunction",
       "converter": {
         "type": "link",
@@ -105,11 +37,67 @@
       }
     },
     {
-      "index": 18,
+      "index": 5,
+      "name": "IsSpecialQuest"
+    },
+    {
+      "index": 6,
+      "name": "Unknown2"
+    },
+    {
+      "index": 7,
+      "name": "Unknown1"
+    },
+    {
+      "index": 8,
       "name": "LevelGroup"
     },
     {
-      "index": 19,
+      "index": 9,
+      "name": "MissionTime"
+    },
+    {
+      "index": 10,
+      "name": "MissionReward",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionReward"
+      }
+    },
+    {
+      "index": 11,
+      "name": "SilverStarRequirement"
+    },
+    {
+      "index": 12,
+      "name": "GoldStarRequirement"
+    },
+    {
+      "index": 13,
+      "name": "MissionToDo[0]",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionToDo"
+      }
+    },
+    {
+      "index": 14,
+      "name": "MissionToDo[1]",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionToDo"
+      }
+    },
+    {
+      "index": 15,
+      "name": "MissionToDo[2]",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionToDo"
+      }
+    },
+    {
+      "index": 16,
       "name": "MissionLotteryCond",
       "converter": {
         "type": "link",
@@ -117,7 +105,7 @@
       }
     },
     {
-      "index": 20,
+      "index": 17,
       "name": "WKSMissionLotterySpecialCond",
       "converter": {
         "type": "link",
@@ -125,16 +113,44 @@
       }
     },
     {
-      "index": 21,
+      "index": 18,
+      "name": "LockedBehind",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionUnit"
+      }
+    },
+    {
+      "index": 19,
+      "name": "WKSMissionSupplyItem",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionSupplyItem"
+      }
+    },
+    {
+      "index": 20,
       "name": "IsSynced"
     },
     {
+      "index": 21,
+      "name": "WKSMissionRecipe",
+      "converter": {
+        "type": "link",
+        "target": "WKSMissionRecipe"
+      }
+    },
+    {
       "index": 22,
-      "name": "IsSpecialQuest"
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
     },
     {
       "index": 23,
-      "name": "Unknown2"
+      "name": "SortKey"
     }
   ]
 }

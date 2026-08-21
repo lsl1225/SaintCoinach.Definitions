@@ -7,14 +7,34 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Abilities",
-        "converter": {
-          "type": "link",
-          "target": "Action"
-        }
+      "name": "Abilities[0]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Abilities[1]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Abilities[2]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Abilities[3]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
       }
     },
     {
@@ -27,47 +47,83 @@
     },
     {
       "index": 6,
-      "name": "SmallScalePercentage"
+      "name": "AutoDespawn"
     },
     {
       "index": 7,
-      "name": "MediumScalePercentage"
+      "name": "NonCombatSummon"
     },
     {
       "index": 8,
-      "name": "LargeScalePercentage"
+      "name": "ShowPetActionBar"
     },
     {
       "index": 9,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "AllowedPetMirage",
-        "converter": {
-          "type": "link",
-          "target": "PetMirage"
-        }
+      "name": "SmallScalePercentage"
+    },
+    {
+      "index": 10,
+      "name": "MediumScalePercentage"
+    },
+    {
+      "index": 11,
+      "name": "LargeScalePercentage"
+    },
+    {
+      "index": 12,
+      "name": "Unknown14"
+    },
+    {
+      "index": 13,
+      "name": "AllowedPetMirage[0]",
+      "converter": {
+        "type": "link",
+        "target": "PetMirage"
+      }
+    },
+    {
+      "index": 14,
+      "name": "AllowedPetMirage[1]",
+      "converter": {
+        "type": "link",
+        "target": "PetMirage"
       }
     },
     {
       "index": 15,
-      "name": "Unknown18"
+      "name": "AllowedPetMirage[2]",
+      "converter": {
+        "type": "link",
+        "target": "PetMirage"
+      }
     },
     {
       "index": 16,
-      "name": "Unknown14"
+      "name": "AllowedPetMirage[3]",
+      "converter": {
+        "type": "link",
+        "target": "PetMirage"
+      }
     },
     {
       "index": 17,
-      "name": "AutoDespawn"
+      "name": "AllowedPetMirage[4]",
+      "converter": {
+        "type": "link",
+        "target": "PetMirage"
+      }
     },
     {
       "index": 18,
-      "name": "NonCombatSummon"
+      "name": "AllowedPetMirage[5]",
+      "converter": {
+        "type": "link",
+        "target": "PetMirage"
+      }
     },
     {
       "index": 19,
-      "name": "ShowPetActionBar"
+      "name": "Unknown18"
     }
   ]
 }

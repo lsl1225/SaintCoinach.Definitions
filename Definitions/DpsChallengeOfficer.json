@@ -2,22 +2,218 @@
   "sheet": "DpsChallengeOfficer",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 26,
-      "definition": {
-        "name": "ChallengeName",
-        "converter": {
-          "type": "link",
-          "target": "DpsChallenge"
-        }
-      }
-    },
-    {
-      "index": 26,
       "name": "UnlockQuest",
       "converter": {
         "type": "link",
         "target": "Quest"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ChallengeName[0]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ChallengeName[1]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ChallengeName[2]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ChallengeName[3]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 5,
+      "name": "ChallengeName[4]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ChallengeName[5]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ChallengeName[6]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 8,
+      "name": "ChallengeName[7]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ChallengeName[8]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 10,
+      "name": "ChallengeName[9]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ChallengeName[10]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 12,
+      "name": "ChallengeName[11]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 13,
+      "name": "ChallengeName[12]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 14,
+      "name": "ChallengeName[13]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ChallengeName[14]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 16,
+      "name": "ChallengeName[15]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 17,
+      "name": "ChallengeName[16]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 18,
+      "name": "ChallengeName[17]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 19,
+      "name": "ChallengeName[18]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 20,
+      "name": "ChallengeName[19]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 21,
+      "name": "ChallengeName[20]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 22,
+      "name": "ChallengeName[21]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 23,
+      "name": "ChallengeName[22]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 24,
+      "name": "ChallengeName[23]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 25,
+      "name": "ChallengeName[24]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
+      }
+    },
+    {
+      "index": 26,
+      "name": "ChallengeName[25]",
+      "converter": {
+        "type": "link",
+        "target": "DpsChallenge"
       }
     }
   ]

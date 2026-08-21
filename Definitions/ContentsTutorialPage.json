@@ -3,14 +3,14 @@
   "defaultColumn": "Description",
   "definitions": [
     {
-      "name": "Description"
-    },
-    {
-      "index": 1,
       "name": "Image",
       "converter": {
         "type": "icon"
       }
+    },
+    {
+      "index": 1,
+      "name": "Description"
     }
   ]
 }

@@ -3,18 +3,18 @@
   "defaultColumn": "Text",
   "definitions": [
     {
-      "name": "Text"
-    },
-    {
-      "index": 1,
-      "name": "NpcName"
-    },
-    {
-      "index": 2,
       "name": "Image",
       "converter": {
         "type": "icon"
       }
+    },
+    {
+      "index": 1,
+      "name": "Text"
+    },
+    {
+      "index": 2,
+      "name": "NpcName"
     }
   ]
 }

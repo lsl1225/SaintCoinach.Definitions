@@ -2,27 +2,27 @@
   "sheet": "SatisfactionBonusGuarantee",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "BonusDoH"
-      }
+      "name": "BonusDoH[0]"
+    },
+    {
+      "index": 1,
+      "name": "BonusDoH[1]"
     },
     {
       "index": 2,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "BonusDoL"
-      }
+      "name": "BonusDoL[0]"
+    },
+    {
+      "index": 3,
+      "name": "BonusDoL[1]"
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "BonusFisher"
-      }
+      "name": "BonusFisher[0]"
+    },
+    {
+      "index": 5,
+      "name": "BonusFisher[1]"
     }
   ]
 }

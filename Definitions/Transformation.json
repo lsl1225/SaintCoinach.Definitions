@@ -2,18 +2,22 @@
   "sheet": "Transformation",
   "definitions": [
     {
-      "name": "Speed"
+      "name": "Unknown0"
     },
     {
       "index": 1,
-      "name": "Scale"
+      "name": "Model",
+      "converter": {
+        "type": "link",
+        "target": "ModelChara"
+      }
     },
     {
       "index": 2,
-      "name": "Action6",
+      "name": "BNpcName",
       "converter": {
         "type": "link",
-        "target": "Action"
+        "target": "BNpcName"
       }
     },
     {
@@ -34,51 +38,71 @@
     },
     {
       "index": 5,
-      "name": "BNpcName",
-      "converter": {
-        "type": "link",
-        "target": "BNpcName"
-      }
+      "name": "ExHotbarEnableConfig[0]"
     },
     {
       "index": 6,
-      "type": "repeat",
-      "count": 7,
-      "definition": {
-        "name": "Action",
-        "converter": {
-          "type": "link",
-          "target": "Action"
-        }
-      }
-    },
-    {
-      "index": 13,
-      "name": "RemoveAction",
+      "name": "Action[0]",
       "converter": {
         "type": "link",
         "target": "Action"
       }
     },
     {
-      "index": 14,
-      "name": "StartVFX",
+      "index": 7,
+      "name": "ExHotbarEnableConfig[1]"
+    },
+    {
+      "index": 8,
+      "name": "Action[1]",
       "converter": {
         "type": "link",
-        "target": "VFX"
+        "target": "Action"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ExHotbarEnableConfig[2]"
+    },
+    {
+      "index": 10,
+      "name": "Action[2]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ExHotbarEnableConfig[3]"
+    },
+    {
+      "index": 12,
+      "name": "Action[3]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 13,
+      "name": "ExHotbarEnableConfig[4]"
+    },
+    {
+      "index": 14,
+      "name": "Action[4]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
       }
     },
     {
       "index": 15,
-      "name": "EndVFX",
-      "converter": {
-        "type": "link",
-        "target": "VFX"
-      }
+      "name": "ExHotbarEnableConfig[5]"
     },
     {
       "index": 16,
-      "name": "Action7",
+      "name": "Action[5]",
       "converter": {
         "type": "link",
         "target": "Action"
@@ -86,75 +110,115 @@
     },
     {
       "index": 17,
-      "name": "Model",
-      "converter": {
-        "type": "link",
-        "target": "ModelChara"
-      }
+      "name": "ExHotbarEnableConfig[6]"
     },
     {
       "index": 18,
-      "name": "Unknown0"
+      "name": "Action[6]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
     },
     {
       "index": 19,
-      "name": "Unknown1"
+      "name": "RemoveAction",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
     },
     {
       "index": 20,
+      "name": "Unknown11"
+    },
+    {
+      "index": 21,
+      "name": "Unknown12"
+    },
+    {
+      "index": 22,
+      "name": "Unknown1"
+    },
+    {
+      "index": 23,
+      "name": "Unknown13"
+    },
+    {
+      "index": 24,
+      "name": "Speed"
+    },
+    {
+      "index": 25,
+      "name": "Scale"
+    },
+    {
+      "index": 26,
+      "name": "IsPvP"
+    },
+    {
+      "index": 27,
+      "name": "IsEvent"
+    },
+    {
+      "index": 28,
+      "name": "PlayerCamera"
+    },
+    {
+      "index": 29,
+      "name": "Unknown14"
+    },
+    {
+      "index": 30,
+      "name": "Unknown15"
+    },
+    {
+      "index": 31,
+      "name": "StartVFX",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
+    },
+    {
+      "index": 32,
+      "name": "EndVFX",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Action6",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 34,
+      "name": "Unknown3"
+    },
+    {
+      "index": 35,
+      "name": "Unknown4"
+    },
+    {
+      "index": 36,
+      "name": "Action7",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 37,
       "name": "RPParameter",
       "converter": {
         "type": "link",
         "target": "RPParameter"
       }
-    },
-    {
-      "index": 21,
-      "name": "Unknown3"
-    },
-    {
-      "index": 22,
-      "name": "Unknown4"
-    },
-    {
-      "index": 23,
-      "type": "repeat",
-      "count": 7,
-      "definition": {
-        "name": "ExHotbarEnableConfig"
-      }
-    },
-    {
-      "index": 30,
-      "name": "Unknown11"
-    },
-    {
-      "index": 31,
-      "name": "Unknown12"
-    },
-    {
-      "index": 32,
-      "name": "Unknown13"
-    },
-    {
-      "index": 33,
-      "name": "IsPvP"
-    },
-    {
-      "index": 34,
-      "name": "IsEvent"
-    },
-    {
-      "index": 35,
-      "name": "PlayerCamera"
-    },
-    {
-      "index": 36,
-      "name": "Unknown14"
-    },
-    {
-      "index": 37,
-      "name": "Unknown15"
     },
     {
       "index": 38,

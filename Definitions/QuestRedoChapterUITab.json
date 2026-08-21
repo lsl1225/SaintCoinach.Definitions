@@ -3,7 +3,7 @@
   "defaultColumn": "Text",
   "definitions": [
     {
-      "name": "Text"
+      "name": "Unknown0"
     },
     {
       "index": 1,
@@ -21,7 +21,7 @@
     },
     {
       "index": 3,
-      "name": "Unknown0"
+      "name": "Text"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "sheet": "DeepDungeon4GimmickEffect",
   "definitions": [
     {
+      "name": "Unknown1"
+    },
+    {
+      "index": 1,
       "name": "StatusIcon",
       "converter": {
         "type": "icon"
       }
-    },
-    {
-      "index": 1,
-      "name": "Unknown1"
     }
   ]
 }

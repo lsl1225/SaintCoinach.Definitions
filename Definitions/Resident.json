@@ -2,10 +2,14 @@
   "sheet": "Resident",
   "definitions": [
     {
-      "name": "Model"
+      "name": "Unknown1"
     },
     {
       "index": 1,
+      "name": "Model"
+    },
+    {
+      "index": 2,
       "name": "NpcYell",
       "converter": {
         "type": "link",
@@ -13,12 +17,8 @@
       }
     },
     {
-      "index": 2,
-      "name": "Unknown0"
-    },
-    {
       "index": 3,
-      "name": "Unknown1"
+      "name": "Unknown0"
     },
     {
       "index": 4,

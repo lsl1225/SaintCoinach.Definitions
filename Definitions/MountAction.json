@@ -2,14 +2,50 @@
   "sheet": "MountAction",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "Action",
-        "converter": {
-          "type": "link",
-          "target": "Action"
-        }
+      "name": "Action[0]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Action[1]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Action[2]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Action[3]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Action[4]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Action[5]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
       }
     }
   ]

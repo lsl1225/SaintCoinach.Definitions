@@ -3,13 +3,6 @@
   "defaultColumn": "BNpcName",
   "definitions": [
     {
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 1,
       "name": "BNpcName",
       "converter": {
         "type": "link",
@@ -17,35 +10,66 @@
       }
     },
     {
+      "index": 1,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
       "index": 2,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "PlaceNameZone",
-        "converter": {
-          "type": "link",
-          "target": "PlaceName"
-        }
-      }
-    },
-    {
-      "index": 5,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "PlaceNameLocation",
-        "converter": {
-          "type": "link",
-          "target": "PlaceName"
-        }
-      }
-    },
-    {
-      "index": 8,
       "name": "Town",
       "converter": {
         "type": "link",
         "target": "Town"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PlaceNameZone[0]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PlaceNameLocation[0]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 5,
+      "name": "PlaceNameZone[1]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 6,
+      "name": "PlaceNameLocation[1]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 7,
+      "name": "PlaceNameZone[2]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 8,
+      "name": "PlaceNameLocation[2]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
       }
     }
   ]

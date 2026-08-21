@@ -3,18 +3,6 @@
   "defaultColumn": "Quest",
   "definitions": [
     {
-      "name": "ChapterName"
-    },
-    {
-      "index": 1,
-      "name": "ChapterPart"
-    },
-    {
-      "index": 2,
-      "name": "Transient"
-    },
-    {
-      "index": 3,
       "name": "Quest",
       "converter": {
         "type": "link",
@@ -22,12 +10,32 @@
       }
     },
     {
-      "index": 4,
+      "index": 1,
       "name": "Unknown0",
       "converter": {
         "type": "link",
         "target": "Quest"
       }
+    },
+    {
+      "index": 2,
+      "name": "UITab",
+      "converter": {
+        "type": "link",
+        "target": "QuestRedoChapterUITab"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "QuestRedoChapterUICategory"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
     },
     {
       "index": 5,
@@ -52,23 +60,15 @@
     },
     {
       "index": 8,
-      "name": "UITab",
-      "converter": {
-        "type": "link",
-        "target": "QuestRedoChapterUITab"
-      }
+      "name": "ChapterName"
     },
     {
       "index": 9,
-      "name": "Category",
-      "converter": {
-        "type": "link",
-        "target": "QuestRedoChapterUICategory"
-      }
+      "name": "ChapterPart"
     },
     {
       "index": 10,
-      "name": "Unknown1"
+      "name": "Transient"
     }
   ]
 }

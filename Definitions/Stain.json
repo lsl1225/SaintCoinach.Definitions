@@ -3,38 +3,42 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "InlineName"
-    },
-    {
-      "index": 1,
-      "name": "Name"
-    },
-    {
-      "index": 2,
       "name": "Color",
       "converter": {
         "type": "color"
       }
     },
     {
+      "index": 1,
+      "name": "Shade"
+    },
+    {
+      "index": 2,
+      "name": "SubOrder"
+    },
+    {
       "index": 3,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Item",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
       "index": 5,
-      "name": "Shade"
+      "name": "InlineName"
     },
     {
       "index": 6,
-      "name": "SubOrder"
+      "name": "Name"
     },
     {
       "index": 7,

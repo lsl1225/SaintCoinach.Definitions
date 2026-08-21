@@ -3,26 +3,26 @@
   "defaultColumn": "Category",
   "definitions": [
     {
+      "name": "MenuOrder"
+    },
+    {
+      "index": 1,
+      "name": "HideOrder"
+    },
+    {
+      "index": 2,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 1,
+      "index": 3,
       "name": "Category",
       "converter": {
         "type": "link",
         "target": "Addon"
       }
-    },
-    {
-      "index": 2,
-      "name": "MenuOrder"
-    },
-    {
-      "index": 3,
-      "name": "HideOrder"
     }
   ]
 }

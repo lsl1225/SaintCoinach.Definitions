@@ -7,23 +7,99 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Material",
-        "converter": {
-          "type": "link",
-          "target": "ValentionSweetsMaterial"
-        }
+      "name": "Material[0]",
+      "converter": {
+        "type": "link",
+        "target": "ValentionSweetsMaterial"
       }
     },
     {
-      "index": 9,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Quantity"
+      "index": 2,
+      "name": "Quantity[0]"
+    },
+    {
+      "index": 3,
+      "name": "Material[1]",
+      "converter": {
+        "type": "link",
+        "target": "ValentionSweetsMaterial"
       }
+    },
+    {
+      "index": 4,
+      "name": "Quantity[1]"
+    },
+    {
+      "index": 5,
+      "name": "Material[2]",
+      "converter": {
+        "type": "link",
+        "target": "ValentionSweetsMaterial"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Quantity[2]"
+    },
+    {
+      "index": 7,
+      "name": "Material[3]",
+      "converter": {
+        "type": "link",
+        "target": "ValentionSweetsMaterial"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Quantity[3]"
+    },
+    {
+      "index": 9,
+      "name": "Material[4]",
+      "converter": {
+        "type": "link",
+        "target": "ValentionSweetsMaterial"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Quantity[4]"
+    },
+    {
+      "index": 11,
+      "name": "Material[5]",
+      "converter": {
+        "type": "link",
+        "target": "ValentionSweetsMaterial"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Quantity[5]"
+    },
+    {
+      "index": 13,
+      "name": "Material[6]",
+      "converter": {
+        "type": "link",
+        "target": "ValentionSweetsMaterial"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Quantity[6]"
+    },
+    {
+      "index": 15,
+      "name": "Material[7]",
+      "converter": {
+        "type": "link",
+        "target": "ValentionSweetsMaterial"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Quantity[7]"
     }
   ]
 }

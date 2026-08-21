@@ -2,14 +2,66 @@
   "sheet": "ChocoboRaceTutorial",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "NpcYell",
-        "converter": {
-          "type": "link",
-          "target": "NpcYell"
-        }
+      "name": "NpcYell[0]",
+      "converter": {
+        "type": "link",
+        "target": "NpcYell"
+      }
+    },
+    {
+      "index": 1,
+      "name": "NpcYell[1]",
+      "converter": {
+        "type": "link",
+        "target": "NpcYell"
+      }
+    },
+    {
+      "index": 2,
+      "name": "NpcYell[2]",
+      "converter": {
+        "type": "link",
+        "target": "NpcYell"
+      }
+    },
+    {
+      "index": 3,
+      "name": "NpcYell[3]",
+      "converter": {
+        "type": "link",
+        "target": "NpcYell"
+      }
+    },
+    {
+      "index": 4,
+      "name": "NpcYell[4]",
+      "converter": {
+        "type": "link",
+        "target": "NpcYell"
+      }
+    },
+    {
+      "index": 5,
+      "name": "NpcYell[5]",
+      "converter": {
+        "type": "link",
+        "target": "NpcYell"
+      }
+    },
+    {
+      "index": 6,
+      "name": "NpcYell[6]",
+      "converter": {
+        "type": "link",
+        "target": "NpcYell"
+      }
+    },
+    {
+      "index": 7,
+      "name": "NpcYell[7]",
+      "converter": {
+        "type": "link",
+        "target": "NpcYell"
       }
     },
     {

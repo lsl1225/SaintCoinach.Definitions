@@ -2,19 +2,19 @@
   "sheet": "WKSMissionLotterySpecialCond",
   "definitions": [
     {
+      "name": "StartTimeHour"
+    },
+    {
+      "index": 1,
+      "name": "EndTimeHour"
+    },
+    {
+      "index": 2,
       "name": "WeatherRequired",
       "converter": {
         "type": "link",
         "target": "Weather"
       }
-    },
-    {
-      "index": 1,
-      "name": "StartTimeHour"
-    },
-    {
-      "index": 2,
-      "name": "EndTimeHour"
     }
   ]
 }

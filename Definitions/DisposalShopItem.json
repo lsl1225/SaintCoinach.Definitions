@@ -3,15 +3,15 @@
   "defaultColumn": "ItemDisposed",
   "definitions": [
     {
-      "name": "QuantityReceived"
-    },
-    {
-      "index": 1,
       "name": "ItemDisposed",
       "converter": {
         "type": "link",
         "target": "Item"
       }
+    },
+    {
+      "index": 1,
+      "name": "DisposedHq"
     },
     {
       "index": 2,
@@ -23,15 +23,15 @@
     },
     {
       "index": 3,
-      "name": "Unknown0"
+      "name": "Unknown2"
     },
     {
       "index": 4,
-      "name": "DisposedHq"
+      "name": "QuantityReceived"
     },
     {
       "index": 5,
-      "name": "Unknown2"
+      "name": "Unknown0"
     }
   ]
 }

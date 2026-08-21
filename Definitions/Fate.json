@@ -15,202 +15,18 @@
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "StatusText"
-      }
+      "name": "StatusText[0]"
+    },
+    {
+      "index": 4,
+      "name": "StatusText[1]"
+    },
+    {
+      "index": 5,
+      "name": "StatusText[2]"
     },
     {
       "index": 6,
-      "name": "ArrayEventHandler",
-      "converter": {
-        "type": "link",
-        "target": "ArrayEventHandler"
-      }
-    },
-    {
-      "index": 7,
-      "name": "Unknown1"
-    },
-    {
-      "index": 8,
-      "name": "Unknown14"
-    },
-    {
-      "index": 9,
-      "name": "ReqEventItem",
-      "converter": {
-        "type": "link",
-        "target": "EventItem"
-      }
-    },
-    {
-      "index": 10,
-      "name": "TurnInEventItem",
-      "converter": {
-        "type": "link",
-        "target": "EventItem"
-      }
-    },
-    {
-      "index": 11,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "Unknown2"
-      }
-    },
-    {
-      "index": 14,
-      "name": "Unknown10"
-    },
-    {
-      "index": 15,
-      "name": "Unknown11"
-    },
-    {
-      "index": 16,
-      "name": "Unknown12"
-    },
-    {
-      "index": 17,
-      "type": "repeat",
-      "count": 32,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "LayoutId"
-          },
-          {
-            "name": "Icon",
-            "converter": {
-              "type": "icon"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "index": 81,
-      "name": "Location"
-    },
-    {
-      "index": 82,
-      "name": "EventItem",
-      "converter": {
-        "type": "link",
-        "target": "EventItem"
-      }
-    },
-    {
-      "index": 83,
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 84,
-      "name": "MapIcon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 85,
-      "name": "InactiveMapIcon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 86,
-      "name": "LGBGuardNPCLocation"
-    },
-    {
-      "index": 87,
-      "name": "RequiredQuest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 88,
-      "name": "FATEChain"
-    },
-    {
-      "index": 89,
-      "name": "RequiredQuest2",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 90,
-      "name": "FateRuleEx",
-      "converter": {
-        "type": "link",
-        "target": "FateRuleEx"
-      }
-    },
-    {
-      "index": 91,
-      "name": "Music",
-      "converter": {
-        "type": "link",
-        "target": "BGM"
-      }
-    },
-    {
-      "index": 92,
-      "name": "ScreenImageAccept",
-      "converter": {
-        "type": "link",
-        "target": "ScreenImage"
-      }
-    },
-    {
-      "index": 93,
-      "name": "ScreenImageComplete",
-      "converter": {
-        "type": "link",
-        "target": "ScreenImage"
-      }
-    },
-    {
-      "index": 94,
-      "name": "ScreenImageFailed",
-      "converter": {
-        "type": "link",
-        "target": "ScreenImage"
-      }
-    },
-    {
-      "index": 95,
-      "name": "GivenStatus",
-      "converter": {
-        "type": "link",
-        "target": "Status"
-      }
-    },
-    {
-      "index": 96,
-      "name": "Unknown4"
-    },
-    {
-      "index": 97,
-      "name": "OccupiedPermission",
-      "converter": {
-        "type": "link",
-        "target": "Permission"
-      }
-    },
-    {
-      "index": 98,
       "name": "FateMode",
       "converter": {
         "type": "link",
@@ -218,31 +34,160 @@
       }
     },
     {
-      "index": 99,
+      "index": 7,
       "name": "Rule"
     },
     {
-      "index": 100,
-      "name": "ClassJobLevel"
-    },
-    {
-      "index": 101,
-      "name": "ClassJobLevelMax"
-    },
-    {
-      "index": 102,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "StatusValue"
+      "index": 8,
+      "name": "FateRuleEx",
+      "converter": {
+        "type": "link",
+        "target": "FateRuleEx"
       }
     },
     {
-      "index": 105,
+      "index": 9,
+      "name": "Location"
+    },
+    {
+      "index": 10,
+      "name": "ClassJobLevel"
+    },
+    {
+      "index": 11,
+      "name": "ClassJobLevelMax"
+    },
+    {
+      "index": 12,
+      "name": "EventItem",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 13,
+      "name": "StatusValue[0]"
+    },
+    {
+      "index": 14,
+      "name": "StatusValue[1]"
+    },
+    {
+      "index": 15,
+      "name": "StatusValue[2]"
+    },
+    {
+      "index": 16,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 17,
+      "name": "MapIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 18,
+      "name": "InactiveMapIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Music",
+      "converter": {
+        "type": "link",
+        "target": "BGM"
+      }
+    },
+    {
+      "index": 20,
+      "name": "LGBGuardNPCLocation"
+    },
+    {
+      "index": 21,
+      "name": "ScreenImageAccept",
+      "converter": {
+        "type": "link",
+        "target": "ScreenImage"
+      }
+    },
+    {
+      "index": 22,
+      "name": "ScreenImageComplete",
+      "converter": {
+        "type": "link",
+        "target": "ScreenImage"
+      }
+    },
+    {
+      "index": 23,
+      "name": "ScreenImageFailed",
+      "converter": {
+        "type": "link",
+        "target": "ScreenImage"
+      }
+    },
+    {
+      "index": 24,
       "name": "Unknown6"
     },
     {
-      "index": 106,
+      "index": 25,
+      "name": "RequiredQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 26,
+      "name": "SpecialFate"
+    },
+    {
+      "index": 27,
+      "name": "Unknown8"
+    },
+    {
+      "index": 28,
+      "name": "GivenStatus",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Unknown15"
+    },
+    {
+      "index": 30,
+      "name": "Unknown4"
+    },
+    {
+      "index": 31,
+      "name": "AdventEvent"
+    },
+    {
+      "index": 32,
+      "name": "MoonFaireEvent"
+    },
+    {
+      "index": 33,
+      "name": "Unknown9"
+    },
+    {
+      "index": 34,
+      "name": "FATEChain"
+    },
+    {
+      "index": 35,
       "name": "RequiredClassJobCategory",
       "converter": {
         "type": "link",
@@ -250,28 +195,428 @@
       }
     },
     {
+      "index": 36,
+      "name": "RequiredQuest2",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 37,
+      "name": "OccupiedPermission",
+      "converter": {
+        "type": "link",
+        "target": "Permission"
+      }
+    },
+    {
+      "index": 38,
+      "name": "ArrayEventHandler",
+      "converter": {
+        "type": "link",
+        "target": "ArrayEventHandler"
+      }
+    },
+    {
+      "index": 39,
+      "name": "Unknown1"
+    },
+    {
+      "index": 40,
+      "name": "Unknown14"
+    },
+    {
+      "index": 41,
+      "name": "ReqEventItem",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 42,
+      "name": "TurnInEventItem",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 43,
+      "name": "Unknown2[0]"
+    },
+    {
+      "index": 44,
+      "name": "Unknown2[1]"
+    },
+    {
+      "index": 45,
+      "name": "Unknown2[2]"
+    },
+    {
+      "index": 46,
+      "name": "Unknown10"
+    },
+    {
+      "index": 47,
+      "name": "Unknown11"
+    },
+    {
+      "index": 48,
+      "name": "Unknown12"
+    },
+    {
+      "index": 49,
+      "name": "LayoutId[0]"
+    },
+    {
+      "index": 50,
+      "name": "LayoutId[1]"
+    },
+    {
+      "index": 51,
+      "name": "LayoutId[2]"
+    },
+    {
+      "index": 52,
+      "name": "LayoutId[3]"
+    },
+    {
+      "index": 53,
+      "name": "LayoutId[4]"
+    },
+    {
+      "index": 54,
+      "name": "LayoutId[5]"
+    },
+    {
+      "index": 55,
+      "name": "LayoutId[6]"
+    },
+    {
+      "index": 56,
+      "name": "LayoutId[7]"
+    },
+    {
+      "index": 57,
+      "name": "LayoutId[8]"
+    },
+    {
+      "index": 58,
+      "name": "LayoutId[9]"
+    },
+    {
+      "index": 59,
+      "name": "LayoutId[10]"
+    },
+    {
+      "index": 60,
+      "name": "LayoutId[11]"
+    },
+    {
+      "index": 61,
+      "name": "LayoutId[12]"
+    },
+    {
+      "index": 62,
+      "name": "LayoutId[13]"
+    },
+    {
+      "index": 63,
+      "name": "LayoutId[14]"
+    },
+    {
+      "index": 64,
+      "name": "LayoutId[15]"
+    },
+    {
+      "index": 65,
+      "name": "LayoutId[16]"
+    },
+    {
+      "index": 66,
+      "name": "LayoutId[17]"
+    },
+    {
+      "index": 67,
+      "name": "LayoutId[18]"
+    },
+    {
+      "index": 68,
+      "name": "LayoutId[19]"
+    },
+    {
+      "index": 69,
+      "name": "LayoutId[20]"
+    },
+    {
+      "index": 70,
+      "name": "LayoutId[21]"
+    },
+    {
+      "index": 71,
+      "name": "LayoutId[22]"
+    },
+    {
+      "index": 72,
+      "name": "LayoutId[23]"
+    },
+    {
+      "index": 73,
+      "name": "LayoutId[24]"
+    },
+    {
+      "index": 74,
+      "name": "LayoutId[25]"
+    },
+    {
+      "index": 75,
+      "name": "LayoutId[26]"
+    },
+    {
+      "index": 76,
+      "name": "LayoutId[27]"
+    },
+    {
+      "index": 77,
+      "name": "LayoutId[28]"
+    },
+    {
+      "index": 78,
+      "name": "LayoutId[29]"
+    },
+    {
+      "index": 79,
+      "name": "LayoutId[30]"
+    },
+    {
+      "index": 80,
+      "name": "LayoutId[31]"
+    },
+    {
+      "index": 81,
+      "name": "Icon[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 82,
+      "name": "Icon[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 83,
+      "name": "Icon[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 84,
+      "name": "Icon[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 85,
+      "name": "Icon[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 86,
+      "name": "Icon[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 87,
+      "name": "Icon[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 88,
+      "name": "Icon[7]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 89,
+      "name": "Icon[8]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 90,
+      "name": "Icon[9]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 91,
+      "name": "Icon[10]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 92,
+      "name": "Icon[11]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 93,
+      "name": "Icon[12]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 94,
+      "name": "Icon[13]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 95,
+      "name": "Icon[14]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 96,
+      "name": "Icon[15]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 97,
+      "name": "Icon[16]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 98,
+      "name": "Icon[17]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 99,
+      "name": "Icon[18]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 100,
+      "name": "Icon[19]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 101,
+      "name": "Icon[20]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 102,
+      "name": "Icon[21]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 103,
+      "name": "Icon[22]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 104,
+      "name": "Icon[23]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 105,
+      "name": "Icon[24]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 106,
+      "name": "Icon[25]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
       "index": 107,
-      "name": "SpecialFate"
+      "name": "Icon[26]",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 108,
-      "name": "Unknown8"
+      "name": "Icon[27]",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 109,
-      "name": "Unknown15"
+      "name": "Icon[28]",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 110,
-      "name": "AdventEvent"
+      "name": "Icon[29]",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 111,
-      "name": "MoonFaireEvent"
+      "name": "Icon[30]",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 112,
-      "name": "Unknown9"
+      "name": "Icon[31]",
+      "converter": {
+        "type": "icon"
+      }
     }
   ]
 }

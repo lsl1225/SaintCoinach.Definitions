@@ -3,30 +3,34 @@
   "defaultColumn": "Image",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "Text"
-      }
+      "name": "Type"
     },
     {
-      "index": 3,
+      "index": 1,
+      "name": "IconType"
+    },
+    {
+      "index": 2,
       "name": "Image",
       "converter": {
         "type": "icon"
       }
     },
     {
+      "index": 3,
+      "name": "TextType"
+    },
+    {
       "index": 4,
-      "name": "Type"
+      "name": "Text[0]"
     },
     {
       "index": 5,
-      "name": "IconType"
+      "name": "Text[1]"
     },
     {
       "index": 6,
-      "name": "TextType"
+      "name": "Text[2]"
     }
   ]
 }

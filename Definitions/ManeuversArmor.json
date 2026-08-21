@@ -2,14 +2,10 @@
   "sheet": "ManeuversArmor",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Unknown0"
     },
     {
       "index": 1,
-      "name": "Description"
-    },
-    {
-      "index": 2,
       "name": "FalconName",
       "converter": {
         "type": "link",
@@ -17,7 +13,7 @@
       }
     },
     {
-      "index": 3,
+      "index": 2,
       "name": "RavenName",
       "converter": {
         "type": "link",
@@ -25,51 +21,55 @@
       }
     },
     {
+      "index": 3,
+      "name": "Unknown1"
+    },
+    {
       "index": 4,
+      "name": "Unknown2"
+    },
+    {
+      "index": 5,
       "name": "NeutralMapIcon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 5,
+      "index": 6,
       "name": "FalconImage",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 6,
+      "index": 7,
       "name": "RavenImage",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 7,
+      "index": 8,
       "name": "FalconMapImage",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 8,
+      "index": 9,
       "name": "RavenMapImage",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 9,
-      "name": "Unknown0"
-    },
-    {
       "index": 10,
-      "name": "Unknown1"
+      "name": "Name"
     },
     {
       "index": 11,
-      "name": "Unknown2"
+      "name": "Description"
     }
   ]
 }

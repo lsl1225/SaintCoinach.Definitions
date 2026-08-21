@@ -2,6 +2,10 @@
   "sheet": "Credit",
   "definitions": [
     {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
       "name": "Roles1",
       "converter": {
         "type": "link",
@@ -9,7 +13,7 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "name": "JapaneseCast1",
       "converter": {
         "type": "link",
@@ -17,7 +21,7 @@
       }
     },
     {
-      "index": 2,
+      "index": 3,
       "name": "EnglishCast1",
       "converter": {
         "type": "link",
@@ -25,7 +29,7 @@
       }
     },
     {
-      "index": 3,
+      "index": 4,
       "name": "FrenchCast1",
       "converter": {
         "type": "link",
@@ -33,7 +37,7 @@
       }
     },
     {
-      "index": 4,
+      "index": 5,
       "name": "GermanCast1",
       "converter": {
         "type": "link",
@@ -41,7 +45,7 @@
       }
     },
     {
-      "index": 5,
+      "index": 6,
       "name": "Roles2",
       "converter": {
         "type": "link",
@@ -49,7 +53,7 @@
       }
     },
     {
-      "index": 6,
+      "index": 7,
       "name": "JapaneseCast2",
       "converter": {
         "type": "link",
@@ -57,7 +61,7 @@
       }
     },
     {
-      "index": 7,
+      "index": 8,
       "name": "EnglishCast2",
       "converter": {
         "type": "link",
@@ -65,7 +69,7 @@
       }
     },
     {
-      "index": 8,
+      "index": 9,
       "name": "FrenchCast2",
       "converter": {
         "type": "link",
@@ -73,16 +77,12 @@
       }
     },
     {
-      "index": 9,
+      "index": 10,
       "name": "GermanCast2",
       "converter": {
         "type": "link",
         "target": "CreditCast"
       }
-    },
-    {
-      "index": 10,
-      "name": "Unknown0"
     }
   ]
 }

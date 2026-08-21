@@ -3,7 +3,7 @@
   "defaultColumn": "Action",
   "definitions": [
     {
-      "name": "Unknown0"
+      "name": "ActionType"
     },
     {
       "index": 1,
@@ -30,15 +30,15 @@
     },
     {
       "index": 2,
-      "name": "ActionType"
-    },
-    {
-      "index": 3,
       "name": "Unknown1"
     },
     {
-      "index": 4,
+      "index": 3,
       "name": "Unknown2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
     }
   ]
 }

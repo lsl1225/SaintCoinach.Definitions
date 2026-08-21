@@ -3,15 +3,15 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "Unknown0"
     },
     {
+      "index": 1,
+      "name": "RequiredLevel"
+    },
+    {
       "index": 2,
-      "name": "Unknown1"
+      "name": "Unknown2"
     },
     {
       "index": 3,
@@ -22,23 +22,203 @@
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 24,
-      "definition": {
-        "name": "Cutscene",
-        "converter": {
-          "type": "link",
-          "target": "Cutscene"
-        }
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
+      "name": "Name"
+    },
+    {
+      "index": 6,
+      "name": "Cutscene[0]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Cutscene[1]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Cutscene[2]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Cutscene[3]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Cutscene[4]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Cutscene[5]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Cutscene[6]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Cutscene[7]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Cutscene[8]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Cutscene[9]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Cutscene[10]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Cutscene[11]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Cutscene[12]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Cutscene[13]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Cutscene[14]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Cutscene[15]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Cutscene[16]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Cutscene[17]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Cutscene[18]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Cutscene[19]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Cutscene[20]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 27,
+      "name": "Cutscene[21]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
       }
     },
     {
       "index": 28,
-      "name": "RequiredLevel"
+      "name": "Cutscene[22]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
     },
     {
       "index": 29,
-      "name": "Unknown2"
+      "name": "Cutscene[23]",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
     }
   ]
 }

@@ -2,27 +2,51 @@
   "sheet": "RetainerTaskParameter",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "ItemLevelDoW"
-      }
+      "name": "ItemLevelDoW[0]"
+    },
+    {
+      "index": 1,
+      "name": "ItemLevelDoW[1]"
+    },
+    {
+      "index": 2,
+      "name": "ItemLevelDoW[2]"
+    },
+    {
+      "index": 3,
+      "name": "ItemLevelDoW[3]"
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "PerceptionDoL"
-      }
+      "name": "PerceptionDoL[0]"
+    },
+    {
+      "index": 5,
+      "name": "PerceptionDoL[1]"
+    },
+    {
+      "index": 6,
+      "name": "PerceptionDoL[2]"
+    },
+    {
+      "index": 7,
+      "name": "PerceptionDoL[3]"
     },
     {
       "index": 8,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "PerceptionFSH"
-      }
+      "name": "PerceptionFSH[0]"
+    },
+    {
+      "index": 9,
+      "name": "PerceptionFSH[1]"
+    },
+    {
+      "index": 10,
+      "name": "PerceptionFSH[2]"
+    },
+    {
+      "index": 11,
+      "name": "PerceptionFSH[3]"
     }
   ]
 }

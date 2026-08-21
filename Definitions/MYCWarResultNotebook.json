@@ -3,15 +3,15 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Number"
     },
     {
       "index": 1,
-      "name": "Description"
+      "name": "Unknown1"
     },
     {
       "index": 2,
-      "name": "NameJP"
+      "name": "Link"
     },
     {
       "index": 3,
@@ -41,19 +41,19 @@
     },
     {
       "index": 7,
-      "name": "Number"
+      "name": "Rarity"
     },
     {
       "index": 8,
-      "name": "Unknown1"
+      "name": "NameJP"
     },
     {
       "index": 9,
-      "name": "Link"
+      "name": "Name"
     },
     {
       "index": 10,
-      "name": "Rarity"
+      "name": "Description"
     }
   ]
 }

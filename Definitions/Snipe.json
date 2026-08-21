@@ -2,214 +2,431 @@
   "sheet": "Snipe",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "DataEventNPC"
-          },
-          {
-            "name": "Unknown0"
-          },
-          {
-            "name": "Unknown1"
-          },
-          {
-            "name": "Unknown2"
-          },
-          {
-            "name": "Unknown3"
-          },
-          {
-            "name": "Unknown4"
-          },
-          {
-            "name": "Unknown5"
-          }
-        ]
-      }
-    },
-    {
-      "index": 56,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "EventNPC"
-      }
-    },
-    {
-      "index": 64,
-      "name": "Unknown0"
-    },
-    {
-      "index": 65,
-      "name": "Unknown1"
-    },
-    {
-      "index": 66,
-      "name": "Unknown2"
-    },
-    {
-      "index": 67,
-      "name": "Unknown3"
-    },
-    {
-      "index": 68,
-      "name": "Unknown4"
-    },
-    {
-      "index": 69,
-      "name": "Unknown5"
-    },
-    {
-      "index": 70,
-      "name": "Unknown6"
-    },
-    {
-      "index": 71,
-      "name": "Unknown7"
-    },
-    {
-      "index": 72,
-      "name": "Unknown8"
-    },
-    {
-      "index": 73,
-      "name": "Unknown9"
-    },
-    {
-      "index": 74,
-      "name": "Unknown10"
-    },
-    {
-      "index": 75,
-      "name": "Unknown11"
-    },
-    {
-      "index": 76,
-      "name": "Objective0"
-    },
-    {
-      "index": 77,
-      "name": "Hint0"
-    },
-    {
-      "index": 78,
-      "name": "Objective1"
-    },
-    {
-      "index": 79,
-      "name": "Hint1"
-    },
-    {
-      "index": 80,
-      "name": "Unknown12"
-    },
-    {
-      "index": 81,
-      "name": "Unknown13"
-    },
-    {
-      "index": 82,
-      "name": "Unknown14"
-    },
-    {
-      "index": 83,
-      "name": "Unknown15"
-    },
-    {
-      "index": 84,
-      "name": "Unknown16"
-    },
-    {
-      "index": 85,
-      "name": "Unknown17"
-    },
-    {
-      "index": 86,
-      "name": "Unknown18"
-    },
-    {
-      "index": 87,
-      "name": "ActionText"
-    },
-    {
-      "index": 88,
-      "name": "Unknown19"
-    },
-    {
-      "index": 89,
-      "name": "Unknown20"
-    },
-    {
-      "index": 90,
-      "name": "VFXFire"
-    },
-    {
-      "index": 91,
-      "name": "VFXHit"
-    },
-    {
-      "index": 92,
-      "name": "VFXMiss"
-    },
-    {
-      "index": 93,
-      "name": "VFXAdditional"
-    },
-    {
-      "index": 94,
       "name": "LGBTargetMarker"
     },
     {
-      "index": 95,
+      "index": 1,
       "name": "Unknown21"
     },
     {
-      "index": 96,
-      "name": "Unknown22"
-    },
-    {
-      "index": 97,
-      "name": "Unknown23"
-    },
-    {
-      "index": 98,
-      "name": "Unknown24"
-    },
-    {
-      "index": 99,
-      "name": "Unknown25"
-    },
-    {
-      "index": 100,
-      "name": "Unknown26"
-    },
-    {
-      "index": 101,
-      "name": "Unknown27"
-    },
-    {
-      "index": 102,
-      "name": "Unknown28"
-    },
-    {
-      "index": 103,
-      "name": "Unknown29"
-    },
-    {
-      "index": 104,
-      "name": "Unknown30"
-    },
-    {
-      "index": 105,
+      "index": 2,
       "name": "Unknown31"
     },
     {
-      "index": 106,
+      "index": 3,
+      "name": "Unknown24"
+    },
+    {
+      "index": 4,
+      "name": "Unknown25"
+    },
+    {
+      "index": 5,
+      "name": "Unknown26"
+    },
+    {
+      "index": 6,
+      "name": "Unknown27"
+    },
+    {
+      "index": 7,
+      "name": "Unknown28"
+    },
+    {
+      "index": 8,
+      "name": "Unknown22"
+    },
+    {
+      "index": 9,
+      "name": "Unknown29"
+    },
+    {
+      "index": 10,
+      "name": "Unknown30"
+    },
+    {
+      "index": 11,
+      "name": "VFXFire"
+    },
+    {
+      "index": 12,
+      "name": "VFXHit"
+    },
+    {
+      "index": 13,
+      "name": "VFXMiss"
+    },
+    {
+      "index": 14,
+      "name": "VFXAdditional"
+    },
+    {
+      "index": 15,
+      "name": "Unknown23"
+    },
+    {
+      "index": 16,
       "name": "Unknown32"
+    },
+    {
+      "index": 17,
+      "name": "DataEventNPC[0]"
+    },
+    {
+      "index": 18,
+      "name": "DataEventNPC[1]"
+    },
+    {
+      "index": 19,
+      "name": "DataEventNPC[2]"
+    },
+    {
+      "index": 20,
+      "name": "DataEventNPC[3]"
+    },
+    {
+      "index": 21,
+      "name": "DataEventNPC[4]"
+    },
+    {
+      "index": 22,
+      "name": "DataEventNPC[5]"
+    },
+    {
+      "index": 23,
+      "name": "DataEventNPC[6]"
+    },
+    {
+      "index": 24,
+      "name": "DataEventNPC[7]"
+    },
+    {
+      "index": 25,
+      "name": "Unknown0[0]"
+    },
+    {
+      "index": 26,
+      "name": "Unknown0[1]"
+    },
+    {
+      "index": 27,
+      "name": "Unknown0[2]"
+    },
+    {
+      "index": 28,
+      "name": "Unknown0[3]"
+    },
+    {
+      "index": 29,
+      "name": "Unknown0[4]"
+    },
+    {
+      "index": 30,
+      "name": "Unknown0[5]"
+    },
+    {
+      "index": 31,
+      "name": "Unknown0[6]"
+    },
+    {
+      "index": 32,
+      "name": "Unknown0[7]"
+    },
+    {
+      "index": 33,
+      "name": "Unknown1[0]"
+    },
+    {
+      "index": 34,
+      "name": "Unknown1[1]"
+    },
+    {
+      "index": 35,
+      "name": "Unknown1[2]"
+    },
+    {
+      "index": 36,
+      "name": "Unknown1[3]"
+    },
+    {
+      "index": 37,
+      "name": "Unknown1[4]"
+    },
+    {
+      "index": 38,
+      "name": "Unknown1[5]"
+    },
+    {
+      "index": 39,
+      "name": "Unknown1[6]"
+    },
+    {
+      "index": 40,
+      "name": "Unknown1[7]"
+    },
+    {
+      "index": 41,
+      "name": "Unknown4[0]"
+    },
+    {
+      "index": 42,
+      "name": "Unknown4[1]"
+    },
+    {
+      "index": 43,
+      "name": "Unknown4[2]"
+    },
+    {
+      "index": 44,
+      "name": "Unknown4[3]"
+    },
+    {
+      "index": 45,
+      "name": "Unknown4[4]"
+    },
+    {
+      "index": 46,
+      "name": "Unknown4[5]"
+    },
+    {
+      "index": 47,
+      "name": "Unknown4[6]"
+    },
+    {
+      "index": 48,
+      "name": "Unknown4[7]"
+    },
+    {
+      "index": 49,
+      "name": "Unknown2[0]"
+    },
+    {
+      "index": 50,
+      "name": "Unknown2[1]"
+    },
+    {
+      "index": 51,
+      "name": "Unknown2[2]"
+    },
+    {
+      "index": 52,
+      "name": "Unknown2[3]"
+    },
+    {
+      "index": 53,
+      "name": "Unknown2[4]"
+    },
+    {
+      "index": 54,
+      "name": "Unknown2[5]"
+    },
+    {
+      "index": 55,
+      "name": "Unknown2[6]"
+    },
+    {
+      "index": 56,
+      "name": "Unknown2[7]"
+    },
+    {
+      "index": 57,
+      "name": "Unknown3[0]"
+    },
+    {
+      "index": 58,
+      "name": "Unknown3[1]"
+    },
+    {
+      "index": 59,
+      "name": "Unknown3[2]"
+    },
+    {
+      "index": 60,
+      "name": "Unknown3[3]"
+    },
+    {
+      "index": 61,
+      "name": "Unknown3[4]"
+    },
+    {
+      "index": 62,
+      "name": "Unknown3[5]"
+    },
+    {
+      "index": 63,
+      "name": "Unknown3[6]"
+    },
+    {
+      "index": 64,
+      "name": "Unknown3[7]"
+    },
+    {
+      "index": 65,
+      "name": "Unknown5[0]"
+    },
+    {
+      "index": 66,
+      "name": "Unknown5[1]"
+    },
+    {
+      "index": 67,
+      "name": "Unknown5[2]"
+    },
+    {
+      "index": 68,
+      "name": "Unknown5[3]"
+    },
+    {
+      "index": 69,
+      "name": "Unknown5[4]"
+    },
+    {
+      "index": 70,
+      "name": "Unknown5[5]"
+    },
+    {
+      "index": 71,
+      "name": "Unknown5[6]"
+    },
+    {
+      "index": 72,
+      "name": "Unknown5[7]"
+    },
+    {
+      "index": 73,
+      "name": "EventNPC[0]"
+    },
+    {
+      "index": 74,
+      "name": "EventNPC[1]"
+    },
+    {
+      "index": 75,
+      "name": "EventNPC[2]"
+    },
+    {
+      "index": 76,
+      "name": "EventNPC[3]"
+    },
+    {
+      "index": 77,
+      "name": "EventNPC[4]"
+    },
+    {
+      "index": 78,
+      "name": "EventNPC[5]"
+    },
+    {
+      "index": 79,
+      "name": "EventNPC[6]"
+    },
+    {
+      "index": 80,
+      "name": "EventNPC[7]"
+    },
+    {
+      "index": 81,
+      "name": "Unknown1"
+    },
+    {
+      "index": 82,
+      "name": "Unknown4"
+    },
+    {
+      "index": 83,
+      "name": "Unknown7"
+    },
+    {
+      "index": 84,
+      "name": "Unknown10"
+    },
+    {
+      "index": 85,
+      "name": "Unknown2"
+    },
+    {
+      "index": 86,
+      "name": "Unknown5"
+    },
+    {
+      "index": 87,
+      "name": "Unknown8"
+    },
+    {
+      "index": 88,
+      "name": "Unknown11"
+    },
+    {
+      "index": 89,
+      "name": "Unknown0"
+    },
+    {
+      "index": 90,
+      "name": "Unknown3"
+    },
+    {
+      "index": 91,
+      "name": "Unknown6"
+    },
+    {
+      "index": 92,
+      "name": "Unknown9"
+    },
+    {
+      "index": 93,
+      "name": "Objective0"
+    },
+    {
+      "index": 94,
+      "name": "Hint0"
+    },
+    {
+      "index": 95,
+      "name": "Objective1"
+    },
+    {
+      "index": 96,
+      "name": "Hint1"
+    },
+    {
+      "index": 97,
+      "name": "Unknown12"
+    },
+    {
+      "index": 98,
+      "name": "Unknown13"
+    },
+    {
+      "index": 99,
+      "name": "Unknown14"
+    },
+    {
+      "index": 100,
+      "name": "Unknown15"
+    },
+    {
+      "index": 101,
+      "name": "Unknown16"
+    },
+    {
+      "index": 102,
+      "name": "Unknown17"
+    },
+    {
+      "index": 103,
+      "name": "Unknown18"
+    },
+    {
+      "index": 104,
+      "name": "ActionText"
+    },
+    {
+      "index": 105,
+      "name": "Unknown19"
+    },
+    {
+      "index": 106,
+      "name": "Unknown20"
     }
   ]
 }

@@ -3,6 +3,14 @@
   "defaultColumn": "Item",
   "definitions": [
     {
+      "name": "Slot"
+    },
+    {
+      "index": 1,
+      "name": "ProbabilityPercent"
+    },
+    {
+      "index": 2,
       "name": "Item",
       "converter": {
         "type": "link",
@@ -10,19 +18,19 @@
       }
     },
     {
-      "index": 1,
+      "index": 3,
       "name": "CollectabilityLow"
     },
     {
-      "index": 2,
+      "index": 4,
       "name": "CollectabilityMid"
     },
     {
-      "index": 3,
+      "index": 5,
       "name": "CollectabilityHigh"
     },
     {
-      "index": 4,
+      "index": 6,
       "name": "Reward",
       "converter": {
         "type": "link",
@@ -30,24 +38,16 @@
       }
     },
     {
-      "index": 5,
-      "name": "FishingSpotId"
-    },
-    {
-      "index": 6,
-      "name": "SpearFishingSpotId"
-    },
-    {
       "index": 7,
-      "name": "Slot"
+      "name": "IsBonus"
     },
     {
       "index": 8,
-      "name": "ProbabilityPercent"
+      "name": "FishingSpotId"
     },
     {
       "index": 9,
-      "name": "IsBonus"
+      "name": "SpearFishingSpotId"
     }
   ]
 }

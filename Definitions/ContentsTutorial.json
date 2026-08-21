@@ -3,27 +3,79 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Page[0]",
+      "converter": {
+        "type": "link",
+        "target": "ContentsTutorialPage"
+      }
     },
     {
       "index": 1,
-      "name": "Description"
+      "name": "Page[1]",
+      "converter": {
+        "type": "link",
+        "target": "ContentsTutorialPage"
+      }
     },
     {
       "index": 2,
-      "name": "Unknown1"
+      "name": "Page[2]",
+      "converter": {
+        "type": "link",
+        "target": "ContentsTutorialPage"
+      }
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Page",
-        "converter": {
-          "type": "link",
-          "target": "ContentsTutorialPage"
-        }
+      "name": "Page[3]",
+      "converter": {
+        "type": "link",
+        "target": "ContentsTutorialPage"
       }
+    },
+    {
+      "index": 4,
+      "name": "Page[4]",
+      "converter": {
+        "type": "link",
+        "target": "ContentsTutorialPage"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Page[5]",
+      "converter": {
+        "type": "link",
+        "target": "ContentsTutorialPage"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Page[6]",
+      "converter": {
+        "type": "link",
+        "target": "ContentsTutorialPage"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Page[7]",
+      "converter": {
+        "type": "link",
+        "target": "ContentsTutorialPage"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Unknown1"
+    },
+    {
+      "index": 9,
+      "name": "Name"
+    },
+    {
+      "index": 10,
+      "name": "Description"
     }
   ]
 }

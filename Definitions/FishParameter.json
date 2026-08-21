@@ -19,10 +19,6 @@
     },
     {
       "index": 4,
-      "name": "AchievementCredit"
-    },
-    {
-      "index": 5,
       "name": "Item",
       "converter": {
         "type": "multiref",
@@ -33,7 +29,7 @@
       }
     },
     {
-      "index": 6,
+      "index": 5,
       "name": "GatheringItemLevel",
       "converter": {
         "type": "link",
@@ -41,31 +37,19 @@
       }
     },
     {
+      "index": 6,
+      "name": "OceanStars"
+    },
+    {
       "index": 7,
       "name": "Unknown1"
     },
     {
       "index": 8,
-      "name": "FishingSpot",
-      "converter": {
-        "type": "link",
-        "target": "FishingSpot"
-      }
+      "name": "IsHidden"
     },
     {
       "index": 9,
-      "name": "GatheringSubCategory",
-      "converter": {
-        "type": "link",
-        "target": "GatheringSubCategory"
-      }
-    },
-    {
-      "index": 10,
-      "name": "OceanStars"
-    },
-    {
-      "index": 11,
       "name": "FishingRecordType",
       "converter": {
         "type": "link",
@@ -73,12 +57,28 @@
       }
     },
     {
+      "index": 10,
+      "name": "FishingSpot",
+      "converter": {
+        "type": "link",
+        "target": "FishingSpot"
+      }
+    },
+    {
+      "index": 11,
+      "name": "GatheringSubCategory",
+      "converter": {
+        "type": "link",
+        "target": "GatheringSubCategory"
+      }
+    },
+    {
       "index": 12,
-      "name": "IsHidden"
+      "name": "IsInLog"
     },
     {
       "index": 13,
-      "name": "IsInLog"
+      "name": "AchievementCredit"
     }
   ]
 }

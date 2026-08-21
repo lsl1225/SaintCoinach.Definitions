@@ -11,26 +11,18 @@
     },
     {
       "index": 2,
-      "name": "ExpReward"
-    },
-    {
-      "index": 3,
-      "name": "SurveyDurationmin"
-    },
-    {
-      "index": 4,
       "name": "X"
     },
     {
-      "index": 5,
+      "index": 3,
       "name": "Y"
     },
     {
-      "index": 6,
+      "index": 4,
       "name": "Z"
     },
     {
-      "index": 7,
+      "index": 5,
       "name": "Map",
       "converter": {
         "type": "link",
@@ -38,16 +30,24 @@
       }
     },
     {
-      "index": 8,
+      "index": 6,
+      "name": "StartingPoint"
+    },
+    {
+      "index": 7,
       "name": "Stars"
     },
     {
-      "index": 9,
+      "index": 8,
       "name": "RankReq"
     },
     {
-      "index": 10,
+      "index": 9,
       "name": "CeruleumTankReq"
+    },
+    {
+      "index": 10,
+      "name": "SurveyDurationmin"
     },
     {
       "index": 11,
@@ -55,7 +55,7 @@
     },
     {
       "index": 12,
-      "name": "StartingPoint"
+      "name": "ExpReward"
     }
   ]
 }

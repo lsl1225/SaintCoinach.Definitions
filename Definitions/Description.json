@@ -3,18 +3,10 @@
   "defaultColumn": "TextLong",
   "definitions": [
     {
-      "name": "TextLong"
+      "name": "Unknown0"
     },
     {
       "index": 1,
-      "name": "TextShort"
-    },
-    {
-      "index": 2,
-      "name": "TextCommentary"
-    },
-    {
-      "index": 3,
       "name": "Quest",
       "converter": {
         "type": "link",
@@ -22,20 +14,28 @@
       }
     },
     {
+      "index": 2,
+      "name": "TextLong"
+    },
+    {
+      "index": 3,
+      "name": "TextShort"
+    },
+    {
       "index": 4,
+      "name": "TextCommentary"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
       "name": "Section",
       "converter": {
         "type": "link",
         "target": "DescriptionSection"
       }
-    },
-    {
-      "index": 5,
-      "name": "Unknown0"
-    },
-    {
-      "index": 6,
-      "name": "Unknown1"
     }
   ]
 }

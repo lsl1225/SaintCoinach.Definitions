@@ -11,14 +11,34 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Options",
-        "converter": {
-          "type": "link",
-          "target": "VVDVoteRouteLabel"
-        }
+      "name": "Options[0]",
+      "converter": {
+        "type": "link",
+        "target": "VVDVoteRouteLabel"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Options[1]",
+      "converter": {
+        "type": "link",
+        "target": "VVDVoteRouteLabel"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Options[2]",
+      "converter": {
+        "type": "link",
+        "target": "VVDVoteRouteLabel"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Options[3]",
+      "converter": {
+        "type": "link",
+        "target": "VVDVoteRouteLabel"
       }
     }
   ]

@@ -3,53 +3,6 @@
   "defaultColumn": "ContentType",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Dialogue",
-        "converter": {
-          "type": "link",
-          "target": "Addon"
-        }
-      }
-    },
-    {
-      "index": 4,
-      "name": "Image",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 5,
-      "name": "Level",
-      "converter": {
-        "type": "link",
-        "target": "Level"
-      }
-    },
-    {
-      "index": 6,
-      "name": "UnlockQuest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 7,
-      "name": "UnlockLink"
-    },
-    {
-      "index": 8,
-      "name": "ContentFinderCondition",
-      "converter": {
-        "type": "link",
-        "target": "ContentFinderCondition"
-      }
-    },
-    {
-      "index": 9,
       "name": "ContentType",
       "converter": {
         "type": "link",
@@ -57,8 +10,75 @@
       }
     },
     {
-      "index": 10,
+      "index": 1,
+      "name": "Dialogue[0]",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Dialogue[1]",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Dialogue[2]",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Dialogue[3]",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 7,
       "name": "Unknown6"
+    },
+    {
+      "index": 8,
+      "name": "UnlockQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 9,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 10,
+      "name": "ContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
     }
   ]
 }

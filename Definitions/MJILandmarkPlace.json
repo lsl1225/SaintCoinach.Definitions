@@ -14,27 +14,31 @@
     },
     {
       "index": 2,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "SGB",
-        "converter": {
-          "type": "link",
-          "target": "ExportedSG"
-        }
+      "name": "SGB[0]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 3,
+      "name": "SGB[1]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
       }
     },
     {
       "index": 4,
-      "name": "Unknown1"
+      "name": "Unknown3"
     },
     {
       "index": 5,
-      "name": "Unknown2"
+      "name": "Unknown1"
     },
     {
       "index": 6,
-      "name": "Unknown3"
+      "name": "Unknown2"
     }
   ]
 }

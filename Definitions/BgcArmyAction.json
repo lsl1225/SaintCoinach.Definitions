@@ -2,18 +2,18 @@
   "sheet": "BgcArmyAction",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Unknown2"
     },
     {
       "index": 1,
+      "name": "Name"
+    },
+    {
+      "index": 2,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
-    },
-    {
-      "index": 2,
-      "name": "Unknown2"
     },
     {
       "index": 3,

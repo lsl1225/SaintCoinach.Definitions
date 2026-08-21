@@ -2,28 +2,1203 @@
   "sheet": "HousingLandSet",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 60,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "MapRange"
-          },
-          {
-            "name": "PlacardId"
-          },
-          {
-            "name": "RoomExit"
-          },
-          {
-            "name": "InitialPrice"
-          },
-          {
-            "name": "PlotSize"
-          }
-        ]
-      }
+      "name": "PlotSize[0]"
+    },
+    {
+      "index": 1,
+      "name": "PlotSize[1]"
+    },
+    {
+      "index": 2,
+      "name": "PlotSize[2]"
+    },
+    {
+      "index": 3,
+      "name": "PlotSize[3]"
+    },
+    {
+      "index": 4,
+      "name": "PlotSize[4]"
+    },
+    {
+      "index": 5,
+      "name": "PlotSize[5]"
+    },
+    {
+      "index": 6,
+      "name": "PlotSize[6]"
+    },
+    {
+      "index": 7,
+      "name": "PlotSize[7]"
+    },
+    {
+      "index": 8,
+      "name": "PlotSize[8]"
+    },
+    {
+      "index": 9,
+      "name": "PlotSize[9]"
+    },
+    {
+      "index": 10,
+      "name": "PlotSize[10]"
+    },
+    {
+      "index": 11,
+      "name": "PlotSize[11]"
+    },
+    {
+      "index": 12,
+      "name": "PlotSize[12]"
+    },
+    {
+      "index": 13,
+      "name": "PlotSize[13]"
+    },
+    {
+      "index": 14,
+      "name": "PlotSize[14]"
+    },
+    {
+      "index": 15,
+      "name": "PlotSize[15]"
+    },
+    {
+      "index": 16,
+      "name": "PlotSize[16]"
+    },
+    {
+      "index": 17,
+      "name": "PlotSize[17]"
+    },
+    {
+      "index": 18,
+      "name": "PlotSize[18]"
+    },
+    {
+      "index": 19,
+      "name": "PlotSize[19]"
+    },
+    {
+      "index": 20,
+      "name": "PlotSize[20]"
+    },
+    {
+      "index": 21,
+      "name": "PlotSize[21]"
+    },
+    {
+      "index": 22,
+      "name": "PlotSize[22]"
+    },
+    {
+      "index": 23,
+      "name": "PlotSize[23]"
+    },
+    {
+      "index": 24,
+      "name": "PlotSize[24]"
+    },
+    {
+      "index": 25,
+      "name": "PlotSize[25]"
+    },
+    {
+      "index": 26,
+      "name": "PlotSize[26]"
+    },
+    {
+      "index": 27,
+      "name": "PlotSize[27]"
+    },
+    {
+      "index": 28,
+      "name": "PlotSize[28]"
+    },
+    {
+      "index": 29,
+      "name": "PlotSize[29]"
+    },
+    {
+      "index": 30,
+      "name": "PlotSize[30]"
+    },
+    {
+      "index": 31,
+      "name": "PlotSize[31]"
+    },
+    {
+      "index": 32,
+      "name": "PlotSize[32]"
+    },
+    {
+      "index": 33,
+      "name": "PlotSize[33]"
+    },
+    {
+      "index": 34,
+      "name": "PlotSize[34]"
+    },
+    {
+      "index": 35,
+      "name": "PlotSize[35]"
+    },
+    {
+      "index": 36,
+      "name": "PlotSize[36]"
+    },
+    {
+      "index": 37,
+      "name": "PlotSize[37]"
+    },
+    {
+      "index": 38,
+      "name": "PlotSize[38]"
+    },
+    {
+      "index": 39,
+      "name": "PlotSize[39]"
+    },
+    {
+      "index": 40,
+      "name": "PlotSize[40]"
+    },
+    {
+      "index": 41,
+      "name": "PlotSize[41]"
+    },
+    {
+      "index": 42,
+      "name": "PlotSize[42]"
+    },
+    {
+      "index": 43,
+      "name": "PlotSize[43]"
+    },
+    {
+      "index": 44,
+      "name": "PlotSize[44]"
+    },
+    {
+      "index": 45,
+      "name": "PlotSize[45]"
+    },
+    {
+      "index": 46,
+      "name": "PlotSize[46]"
+    },
+    {
+      "index": 47,
+      "name": "PlotSize[47]"
+    },
+    {
+      "index": 48,
+      "name": "PlotSize[48]"
+    },
+    {
+      "index": 49,
+      "name": "PlotSize[49]"
+    },
+    {
+      "index": 50,
+      "name": "PlotSize[50]"
+    },
+    {
+      "index": 51,
+      "name": "PlotSize[51]"
+    },
+    {
+      "index": 52,
+      "name": "PlotSize[52]"
+    },
+    {
+      "index": 53,
+      "name": "PlotSize[53]"
+    },
+    {
+      "index": 54,
+      "name": "PlotSize[54]"
+    },
+    {
+      "index": 55,
+      "name": "PlotSize[55]"
+    },
+    {
+      "index": 56,
+      "name": "PlotSize[56]"
+    },
+    {
+      "index": 57,
+      "name": "PlotSize[57]"
+    },
+    {
+      "index": 58,
+      "name": "PlotSize[58]"
+    },
+    {
+      "index": 59,
+      "name": "PlotSize[59]"
+    },
+    {
+      "index": 60,
+      "name": "MapRange[0]"
+    },
+    {
+      "index": 61,
+      "name": "MapRange[1]"
+    },
+    {
+      "index": 62,
+      "name": "MapRange[2]"
+    },
+    {
+      "index": 63,
+      "name": "MapRange[3]"
+    },
+    {
+      "index": 64,
+      "name": "MapRange[4]"
+    },
+    {
+      "index": 65,
+      "name": "MapRange[5]"
+    },
+    {
+      "index": 66,
+      "name": "MapRange[6]"
+    },
+    {
+      "index": 67,
+      "name": "MapRange[7]"
+    },
+    {
+      "index": 68,
+      "name": "MapRange[8]"
+    },
+    {
+      "index": 69,
+      "name": "MapRange[9]"
+    },
+    {
+      "index": 70,
+      "name": "MapRange[10]"
+    },
+    {
+      "index": 71,
+      "name": "MapRange[11]"
+    },
+    {
+      "index": 72,
+      "name": "MapRange[12]"
+    },
+    {
+      "index": 73,
+      "name": "MapRange[13]"
+    },
+    {
+      "index": 74,
+      "name": "MapRange[14]"
+    },
+    {
+      "index": 75,
+      "name": "MapRange[15]"
+    },
+    {
+      "index": 76,
+      "name": "MapRange[16]"
+    },
+    {
+      "index": 77,
+      "name": "MapRange[17]"
+    },
+    {
+      "index": 78,
+      "name": "MapRange[18]"
+    },
+    {
+      "index": 79,
+      "name": "MapRange[19]"
+    },
+    {
+      "index": 80,
+      "name": "MapRange[20]"
+    },
+    {
+      "index": 81,
+      "name": "MapRange[21]"
+    },
+    {
+      "index": 82,
+      "name": "MapRange[22]"
+    },
+    {
+      "index": 83,
+      "name": "MapRange[23]"
+    },
+    {
+      "index": 84,
+      "name": "MapRange[24]"
+    },
+    {
+      "index": 85,
+      "name": "MapRange[25]"
+    },
+    {
+      "index": 86,
+      "name": "MapRange[26]"
+    },
+    {
+      "index": 87,
+      "name": "MapRange[27]"
+    },
+    {
+      "index": 88,
+      "name": "MapRange[28]"
+    },
+    {
+      "index": 89,
+      "name": "MapRange[29]"
+    },
+    {
+      "index": 90,
+      "name": "MapRange[30]"
+    },
+    {
+      "index": 91,
+      "name": "MapRange[31]"
+    },
+    {
+      "index": 92,
+      "name": "MapRange[32]"
+    },
+    {
+      "index": 93,
+      "name": "MapRange[33]"
+    },
+    {
+      "index": 94,
+      "name": "MapRange[34]"
+    },
+    {
+      "index": 95,
+      "name": "MapRange[35]"
+    },
+    {
+      "index": 96,
+      "name": "MapRange[36]"
+    },
+    {
+      "index": 97,
+      "name": "MapRange[37]"
+    },
+    {
+      "index": 98,
+      "name": "MapRange[38]"
+    },
+    {
+      "index": 99,
+      "name": "MapRange[39]"
+    },
+    {
+      "index": 100,
+      "name": "MapRange[40]"
+    },
+    {
+      "index": 101,
+      "name": "MapRange[41]"
+    },
+    {
+      "index": 102,
+      "name": "MapRange[42]"
+    },
+    {
+      "index": 103,
+      "name": "MapRange[43]"
+    },
+    {
+      "index": 104,
+      "name": "MapRange[44]"
+    },
+    {
+      "index": 105,
+      "name": "MapRange[45]"
+    },
+    {
+      "index": 106,
+      "name": "MapRange[46]"
+    },
+    {
+      "index": 107,
+      "name": "MapRange[47]"
+    },
+    {
+      "index": 108,
+      "name": "MapRange[48]"
+    },
+    {
+      "index": 109,
+      "name": "MapRange[49]"
+    },
+    {
+      "index": 110,
+      "name": "MapRange[50]"
+    },
+    {
+      "index": 111,
+      "name": "MapRange[51]"
+    },
+    {
+      "index": 112,
+      "name": "MapRange[52]"
+    },
+    {
+      "index": 113,
+      "name": "MapRange[53]"
+    },
+    {
+      "index": 114,
+      "name": "MapRange[54]"
+    },
+    {
+      "index": 115,
+      "name": "MapRange[55]"
+    },
+    {
+      "index": 116,
+      "name": "MapRange[56]"
+    },
+    {
+      "index": 117,
+      "name": "MapRange[57]"
+    },
+    {
+      "index": 118,
+      "name": "MapRange[58]"
+    },
+    {
+      "index": 119,
+      "name": "MapRange[59]"
+    },
+    {
+      "index": 120,
+      "name": "PlacardId[0]"
+    },
+    {
+      "index": 121,
+      "name": "PlacardId[1]"
+    },
+    {
+      "index": 122,
+      "name": "PlacardId[2]"
+    },
+    {
+      "index": 123,
+      "name": "PlacardId[3]"
+    },
+    {
+      "index": 124,
+      "name": "PlacardId[4]"
+    },
+    {
+      "index": 125,
+      "name": "PlacardId[5]"
+    },
+    {
+      "index": 126,
+      "name": "PlacardId[6]"
+    },
+    {
+      "index": 127,
+      "name": "PlacardId[7]"
+    },
+    {
+      "index": 128,
+      "name": "PlacardId[8]"
+    },
+    {
+      "index": 129,
+      "name": "PlacardId[9]"
+    },
+    {
+      "index": 130,
+      "name": "PlacardId[10]"
+    },
+    {
+      "index": 131,
+      "name": "PlacardId[11]"
+    },
+    {
+      "index": 132,
+      "name": "PlacardId[12]"
+    },
+    {
+      "index": 133,
+      "name": "PlacardId[13]"
+    },
+    {
+      "index": 134,
+      "name": "PlacardId[14]"
+    },
+    {
+      "index": 135,
+      "name": "PlacardId[15]"
+    },
+    {
+      "index": 136,
+      "name": "PlacardId[16]"
+    },
+    {
+      "index": 137,
+      "name": "PlacardId[17]"
+    },
+    {
+      "index": 138,
+      "name": "PlacardId[18]"
+    },
+    {
+      "index": 139,
+      "name": "PlacardId[19]"
+    },
+    {
+      "index": 140,
+      "name": "PlacardId[20]"
+    },
+    {
+      "index": 141,
+      "name": "PlacardId[21]"
+    },
+    {
+      "index": 142,
+      "name": "PlacardId[22]"
+    },
+    {
+      "index": 143,
+      "name": "PlacardId[23]"
+    },
+    {
+      "index": 144,
+      "name": "PlacardId[24]"
+    },
+    {
+      "index": 145,
+      "name": "PlacardId[25]"
+    },
+    {
+      "index": 146,
+      "name": "PlacardId[26]"
+    },
+    {
+      "index": 147,
+      "name": "PlacardId[27]"
+    },
+    {
+      "index": 148,
+      "name": "PlacardId[28]"
+    },
+    {
+      "index": 149,
+      "name": "PlacardId[29]"
+    },
+    {
+      "index": 150,
+      "name": "PlacardId[30]"
+    },
+    {
+      "index": 151,
+      "name": "PlacardId[31]"
+    },
+    {
+      "index": 152,
+      "name": "PlacardId[32]"
+    },
+    {
+      "index": 153,
+      "name": "PlacardId[33]"
+    },
+    {
+      "index": 154,
+      "name": "PlacardId[34]"
+    },
+    {
+      "index": 155,
+      "name": "PlacardId[35]"
+    },
+    {
+      "index": 156,
+      "name": "PlacardId[36]"
+    },
+    {
+      "index": 157,
+      "name": "PlacardId[37]"
+    },
+    {
+      "index": 158,
+      "name": "PlacardId[38]"
+    },
+    {
+      "index": 159,
+      "name": "PlacardId[39]"
+    },
+    {
+      "index": 160,
+      "name": "PlacardId[40]"
+    },
+    {
+      "index": 161,
+      "name": "PlacardId[41]"
+    },
+    {
+      "index": 162,
+      "name": "PlacardId[42]"
+    },
+    {
+      "index": 163,
+      "name": "PlacardId[43]"
+    },
+    {
+      "index": 164,
+      "name": "PlacardId[44]"
+    },
+    {
+      "index": 165,
+      "name": "PlacardId[45]"
+    },
+    {
+      "index": 166,
+      "name": "PlacardId[46]"
+    },
+    {
+      "index": 167,
+      "name": "PlacardId[47]"
+    },
+    {
+      "index": 168,
+      "name": "PlacardId[48]"
+    },
+    {
+      "index": 169,
+      "name": "PlacardId[49]"
+    },
+    {
+      "index": 170,
+      "name": "PlacardId[50]"
+    },
+    {
+      "index": 171,
+      "name": "PlacardId[51]"
+    },
+    {
+      "index": 172,
+      "name": "PlacardId[52]"
+    },
+    {
+      "index": 173,
+      "name": "PlacardId[53]"
+    },
+    {
+      "index": 174,
+      "name": "PlacardId[54]"
+    },
+    {
+      "index": 175,
+      "name": "PlacardId[55]"
+    },
+    {
+      "index": 176,
+      "name": "PlacardId[56]"
+    },
+    {
+      "index": 177,
+      "name": "PlacardId[57]"
+    },
+    {
+      "index": 178,
+      "name": "PlacardId[58]"
+    },
+    {
+      "index": 179,
+      "name": "PlacardId[59]"
+    },
+    {
+      "index": 180,
+      "name": "RoomExit[0]"
+    },
+    {
+      "index": 181,
+      "name": "RoomExit[1]"
+    },
+    {
+      "index": 182,
+      "name": "RoomExit[2]"
+    },
+    {
+      "index": 183,
+      "name": "RoomExit[3]"
+    },
+    {
+      "index": 184,
+      "name": "RoomExit[4]"
+    },
+    {
+      "index": 185,
+      "name": "RoomExit[5]"
+    },
+    {
+      "index": 186,
+      "name": "RoomExit[6]"
+    },
+    {
+      "index": 187,
+      "name": "RoomExit[7]"
+    },
+    {
+      "index": 188,
+      "name": "RoomExit[8]"
+    },
+    {
+      "index": 189,
+      "name": "RoomExit[9]"
+    },
+    {
+      "index": 190,
+      "name": "RoomExit[10]"
+    },
+    {
+      "index": 191,
+      "name": "RoomExit[11]"
+    },
+    {
+      "index": 192,
+      "name": "RoomExit[12]"
+    },
+    {
+      "index": 193,
+      "name": "RoomExit[13]"
+    },
+    {
+      "index": 194,
+      "name": "RoomExit[14]"
+    },
+    {
+      "index": 195,
+      "name": "RoomExit[15]"
+    },
+    {
+      "index": 196,
+      "name": "RoomExit[16]"
+    },
+    {
+      "index": 197,
+      "name": "RoomExit[17]"
+    },
+    {
+      "index": 198,
+      "name": "RoomExit[18]"
+    },
+    {
+      "index": 199,
+      "name": "RoomExit[19]"
+    },
+    {
+      "index": 200,
+      "name": "RoomExit[20]"
+    },
+    {
+      "index": 201,
+      "name": "RoomExit[21]"
+    },
+    {
+      "index": 202,
+      "name": "RoomExit[22]"
+    },
+    {
+      "index": 203,
+      "name": "RoomExit[23]"
+    },
+    {
+      "index": 204,
+      "name": "RoomExit[24]"
+    },
+    {
+      "index": 205,
+      "name": "RoomExit[25]"
+    },
+    {
+      "index": 206,
+      "name": "RoomExit[26]"
+    },
+    {
+      "index": 207,
+      "name": "RoomExit[27]"
+    },
+    {
+      "index": 208,
+      "name": "RoomExit[28]"
+    },
+    {
+      "index": 209,
+      "name": "RoomExit[29]"
+    },
+    {
+      "index": 210,
+      "name": "RoomExit[30]"
+    },
+    {
+      "index": 211,
+      "name": "RoomExit[31]"
+    },
+    {
+      "index": 212,
+      "name": "RoomExit[32]"
+    },
+    {
+      "index": 213,
+      "name": "RoomExit[33]"
+    },
+    {
+      "index": 214,
+      "name": "RoomExit[34]"
+    },
+    {
+      "index": 215,
+      "name": "RoomExit[35]"
+    },
+    {
+      "index": 216,
+      "name": "RoomExit[36]"
+    },
+    {
+      "index": 217,
+      "name": "RoomExit[37]"
+    },
+    {
+      "index": 218,
+      "name": "RoomExit[38]"
+    },
+    {
+      "index": 219,
+      "name": "RoomExit[39]"
+    },
+    {
+      "index": 220,
+      "name": "RoomExit[40]"
+    },
+    {
+      "index": 221,
+      "name": "RoomExit[41]"
+    },
+    {
+      "index": 222,
+      "name": "RoomExit[42]"
+    },
+    {
+      "index": 223,
+      "name": "RoomExit[43]"
+    },
+    {
+      "index": 224,
+      "name": "RoomExit[44]"
+    },
+    {
+      "index": 225,
+      "name": "RoomExit[45]"
+    },
+    {
+      "index": 226,
+      "name": "RoomExit[46]"
+    },
+    {
+      "index": 227,
+      "name": "RoomExit[47]"
+    },
+    {
+      "index": 228,
+      "name": "RoomExit[48]"
+    },
+    {
+      "index": 229,
+      "name": "RoomExit[49]"
+    },
+    {
+      "index": 230,
+      "name": "RoomExit[50]"
+    },
+    {
+      "index": 231,
+      "name": "RoomExit[51]"
+    },
+    {
+      "index": 232,
+      "name": "RoomExit[52]"
+    },
+    {
+      "index": 233,
+      "name": "RoomExit[53]"
+    },
+    {
+      "index": 234,
+      "name": "RoomExit[54]"
+    },
+    {
+      "index": 235,
+      "name": "RoomExit[55]"
+    },
+    {
+      "index": 236,
+      "name": "RoomExit[56]"
+    },
+    {
+      "index": 237,
+      "name": "RoomExit[57]"
+    },
+    {
+      "index": 238,
+      "name": "RoomExit[58]"
+    },
+    {
+      "index": 239,
+      "name": "RoomExit[59]"
+    },
+    {
+      "index": 240,
+      "name": "InitialPrice[0]"
+    },
+    {
+      "index": 241,
+      "name": "InitialPrice[1]"
+    },
+    {
+      "index": 242,
+      "name": "InitialPrice[2]"
+    },
+    {
+      "index": 243,
+      "name": "InitialPrice[3]"
+    },
+    {
+      "index": 244,
+      "name": "InitialPrice[4]"
+    },
+    {
+      "index": 245,
+      "name": "InitialPrice[5]"
+    },
+    {
+      "index": 246,
+      "name": "InitialPrice[6]"
+    },
+    {
+      "index": 247,
+      "name": "InitialPrice[7]"
+    },
+    {
+      "index": 248,
+      "name": "InitialPrice[8]"
+    },
+    {
+      "index": 249,
+      "name": "InitialPrice[9]"
+    },
+    {
+      "index": 250,
+      "name": "InitialPrice[10]"
+    },
+    {
+      "index": 251,
+      "name": "InitialPrice[11]"
+    },
+    {
+      "index": 252,
+      "name": "InitialPrice[12]"
+    },
+    {
+      "index": 253,
+      "name": "InitialPrice[13]"
+    },
+    {
+      "index": 254,
+      "name": "InitialPrice[14]"
+    },
+    {
+      "index": 255,
+      "name": "InitialPrice[15]"
+    },
+    {
+      "index": 256,
+      "name": "InitialPrice[16]"
+    },
+    {
+      "index": 257,
+      "name": "InitialPrice[17]"
+    },
+    {
+      "index": 258,
+      "name": "InitialPrice[18]"
+    },
+    {
+      "index": 259,
+      "name": "InitialPrice[19]"
+    },
+    {
+      "index": 260,
+      "name": "InitialPrice[20]"
+    },
+    {
+      "index": 261,
+      "name": "InitialPrice[21]"
+    },
+    {
+      "index": 262,
+      "name": "InitialPrice[22]"
+    },
+    {
+      "index": 263,
+      "name": "InitialPrice[23]"
+    },
+    {
+      "index": 264,
+      "name": "InitialPrice[24]"
+    },
+    {
+      "index": 265,
+      "name": "InitialPrice[25]"
+    },
+    {
+      "index": 266,
+      "name": "InitialPrice[26]"
+    },
+    {
+      "index": 267,
+      "name": "InitialPrice[27]"
+    },
+    {
+      "index": 268,
+      "name": "InitialPrice[28]"
+    },
+    {
+      "index": 269,
+      "name": "InitialPrice[29]"
+    },
+    {
+      "index": 270,
+      "name": "InitialPrice[30]"
+    },
+    {
+      "index": 271,
+      "name": "InitialPrice[31]"
+    },
+    {
+      "index": 272,
+      "name": "InitialPrice[32]"
+    },
+    {
+      "index": 273,
+      "name": "InitialPrice[33]"
+    },
+    {
+      "index": 274,
+      "name": "InitialPrice[34]"
+    },
+    {
+      "index": 275,
+      "name": "InitialPrice[35]"
+    },
+    {
+      "index": 276,
+      "name": "InitialPrice[36]"
+    },
+    {
+      "index": 277,
+      "name": "InitialPrice[37]"
+    },
+    {
+      "index": 278,
+      "name": "InitialPrice[38]"
+    },
+    {
+      "index": 279,
+      "name": "InitialPrice[39]"
+    },
+    {
+      "index": 280,
+      "name": "InitialPrice[40]"
+    },
+    {
+      "index": 281,
+      "name": "InitialPrice[41]"
+    },
+    {
+      "index": 282,
+      "name": "InitialPrice[42]"
+    },
+    {
+      "index": 283,
+      "name": "InitialPrice[43]"
+    },
+    {
+      "index": 284,
+      "name": "InitialPrice[44]"
+    },
+    {
+      "index": 285,
+      "name": "InitialPrice[45]"
+    },
+    {
+      "index": 286,
+      "name": "InitialPrice[46]"
+    },
+    {
+      "index": 287,
+      "name": "InitialPrice[47]"
+    },
+    {
+      "index": 288,
+      "name": "InitialPrice[48]"
+    },
+    {
+      "index": 289,
+      "name": "InitialPrice[49]"
+    },
+    {
+      "index": 290,
+      "name": "InitialPrice[50]"
+    },
+    {
+      "index": 291,
+      "name": "InitialPrice[51]"
+    },
+    {
+      "index": 292,
+      "name": "InitialPrice[52]"
+    },
+    {
+      "index": 293,
+      "name": "InitialPrice[53]"
+    },
+    {
+      "index": 294,
+      "name": "InitialPrice[54]"
+    },
+    {
+      "index": 295,
+      "name": "InitialPrice[55]"
+    },
+    {
+      "index": 296,
+      "name": "InitialPrice[56]"
+    },
+    {
+      "index": 297,
+      "name": "InitialPrice[57]"
+    },
+    {
+      "index": 298,
+      "name": "InitialPrice[58]"
+    },
+    {
+      "index": 299,
+      "name": "InitialPrice[59]"
     },
     {
       "index": 300,

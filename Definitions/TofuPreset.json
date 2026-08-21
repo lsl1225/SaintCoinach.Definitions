@@ -3,7 +3,7 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Unknown13"
     },
     {
       "index": 1,
@@ -15,31 +15,83 @@
     },
     {
       "index": 2,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Objects",
-        "converter": {
-          "type": "link",
-          "target": "TofuPresetObject"
-        }
+      "name": "Unknown12"
+    },
+    {
+      "index": 3,
+      "name": "Name"
+    },
+    {
+      "index": 4,
+      "name": "Objects[0]",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetObject"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Objects[1]",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetObject"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Objects[2]",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetObject"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Objects[3]",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetObject"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Objects[4]",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetObject"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Objects[5]",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetObject"
       }
     },
     {
       "index": 10,
-      "name": "Unknown10"
+      "name": "Objects[6]",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetObject"
+      }
     },
     {
       "index": 11,
-      "name": "Unknown11"
+      "name": "Objects[7]",
+      "converter": {
+        "type": "link",
+        "target": "TofuPresetObject"
+      }
     },
     {
       "index": 12,
-      "name": "Unknown12"
+      "name": "Unknown10"
     },
     {
       "index": 13,
-      "name": "Unknown13"
+      "name": "Unknown11"
     }
   ]
 }

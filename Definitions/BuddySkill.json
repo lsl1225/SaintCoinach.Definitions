@@ -2,6 +2,14 @@
   "sheet": "BuddySkill",
   "definitions": [
     {
+      "name": "BuddyLevel"
+    },
+    {
+      "index": 1,
+      "name": "IsActive"
+    },
+    {
+      "index": 2,
       "name": "Defender",
       "converter": {
         "type": "multiref",
@@ -12,7 +20,7 @@
       }
     },
     {
-      "index": 1,
+      "index": 3,
       "name": "Attacker",
       "converter": {
         "type": "multiref",
@@ -23,7 +31,7 @@
       }
     },
     {
-      "index": 2,
+      "index": 4,
       "name": "Healer",
       "converter": {
         "type": "multiref",
@@ -32,14 +40,6 @@
           "Action"
         ]
       }
-    },
-    {
-      "index": 3,
-      "name": "BuddyLevel"
-    },
-    {
-      "index": 4,
-      "name": "IsActive"
     }
   ]
 }

@@ -2,11 +2,11 @@
   "sheet": "ContentRouletteOpenRule",
   "definitions": [
     {
-      "name": "Type"
+      "name": "HasDutyRequirements"
     },
     {
       "index": 1,
-      "name": "HasDutyRequirements"
+      "name": "Type"
     }
   ]
 }

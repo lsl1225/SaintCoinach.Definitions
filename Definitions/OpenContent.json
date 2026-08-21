@@ -2,26 +2,258 @@
   "sheet": "OpenContent",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 16,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "CandidateName",
-            "converter": {
-              "type": "link",
-              "target": "OpenContentCandidateName"
-            }
-          },
-          {
-            "name": "Content",
-            "converter": {
-              "type": "link",
-              "target": "ContentFinderCondition"
-            }
-          }
-        ]
+      "name": "Content[0]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Content[1]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Content[2]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Content[3]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Content[4]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Content[5]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Content[6]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Content[7]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Content[8]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Content[9]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Content[10]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Content[11]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Content[12]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Content[13]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Content[14]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Content[15]",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
+    },
+    {
+      "index": 16,
+      "name": "CandidateName[0]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 17,
+      "name": "CandidateName[1]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 18,
+      "name": "CandidateName[2]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 19,
+      "name": "CandidateName[3]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 20,
+      "name": "CandidateName[4]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 21,
+      "name": "CandidateName[5]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 22,
+      "name": "CandidateName[6]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 23,
+      "name": "CandidateName[7]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 24,
+      "name": "CandidateName[8]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 25,
+      "name": "CandidateName[9]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 26,
+      "name": "CandidateName[10]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 27,
+      "name": "CandidateName[11]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 28,
+      "name": "CandidateName[12]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 29,
+      "name": "CandidateName[13]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 30,
+      "name": "CandidateName[14]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
+      }
+    },
+    {
+      "index": 31,
+      "name": "CandidateName[15]",
+      "converter": {
+        "type": "link",
+        "target": "OpenContentCandidateName"
       }
     }
   ]

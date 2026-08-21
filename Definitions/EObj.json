@@ -2,6 +2,42 @@
   "sheet": "EObj",
   "definitions": [
     {
+      "name": "Unknown1"
+    },
+    {
+      "index": 1,
+      "name": "Unknown2"
+    },
+    {
+      "index": 2,
+      "name": "Unknown3"
+    },
+    {
+      "index": 3,
+      "name": "Unknown4"
+    },
+    {
+      "index": 4,
+      "name": "Unknown5"
+    },
+    {
+      "index": 5,
+      "name": "Unknown6"
+    },
+    {
+      "index": 6,
+      "name": "Unknown7"
+    },
+    {
+      "index": 7,
+      "name": "Unknown8"
+    },
+    {
+      "index": 8,
+      "name": "PopType"
+    },
+    {
+      "index": 9,
       "name": "Data",
       "converter": {
         "type": "multiref",
@@ -13,7 +49,11 @@
       }
     },
     {
-      "index": 1,
+      "index": 10,
+      "name": "Invisibility"
+    },
+    {
+      "index": 11,
       "name": "SgbPath",
       "converter": {
         "type": "link",
@@ -21,72 +61,32 @@
       }
     },
     {
-      "index": 2,
-      "name": "PopType"
-    },
-    {
-      "index": 3,
-      "name": "Invisibility"
-    },
-    {
-      "index": 4,
-      "name": "Unknown0"
-    },
-    {
-      "index": 5,
-      "name": "AdditionalInteractRangeX"
-    },
-    {
-      "index": 6,
-      "name": "AdditionalInteractRangeY"
-    },
-    {
-      "index": 7,
-      "name": "Unknown1"
-    },
-    {
-      "index": 8,
-      "name": "Unknown2"
-    },
-    {
-      "index": 9,
-      "name": "Unknown3"
-    },
-    {
-      "index": 10,
-      "name": "Unknown4"
-    },
-    {
-      "index": 11,
-      "name": "Unknown5"
-    },
-    {
       "index": 12,
-      "name": "Unknown6"
-    },
-    {
-      "index": 13,
-      "name": "Unknown7"
-    },
-    {
-      "index": 14,
-      "name": "Unknown8"
-    },
-    {
-      "index": 15,
       "name": "Targetable"
     },
     {
-      "index": 16,
+      "index": 13,
       "name": "Unknown9"
     },
     {
-      "index": 17,
+      "index": 14,
       "name": "Unknown10"
     },
     {
-      "index": 18,
+      "index": 15,
+      "name": "AdditionalInteractRangeX"
+    },
+    {
+      "index": 16,
+      "name": "AdditionalInteractRangeY"
+    },
+    {
+      "index": 17,
       "name": "Unknown11"
+    },
+    {
+      "index": 18,
+      "name": "Unknown0"
     },
     {
       "index": 19,

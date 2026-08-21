@@ -2,18 +2,34 @@
   "sheet": "ENpcDressUpDress",
   "definitions": [
     {
-      "name": "ModelMainHand"
-    },
-    {
-      "index": 1,
-      "name": "ModelOffHand"
-    },
-    {
-      "index": 2,
       "name": "Unknown0"
     },
     {
+      "index": 1,
+      "name": "Unknown40"
+    },
+    {
+      "index": 2,
+      "name": "Unknown41"
+    },
+    {
       "index": 3,
+      "name": "Unknown42"
+    },
+    {
+      "index": 4,
+      "name": "Unknown43"
+    },
+    {
+      "index": 5,
+      "name": "Unknown44"
+    },
+    {
+      "index": 6,
+      "name": "Unknown8"
+    },
+    {
+      "index": 7,
       "name": "ENpc",
       "converter": {
         "type": "link",
@@ -21,51 +37,11 @@
       }
     },
     {
-      "index": 4,
-      "name": "ModelHead"
-    },
-    {
-      "index": 5,
-      "name": "ModelBody"
-    },
-    {
-      "index": 6,
-      "name": "ModelHands"
-    },
-    {
-      "index": 7,
-      "name": "ModelLegs"
-    },
-    {
       "index": 8,
-      "name": "ModelFeet"
-    },
-    {
-      "index": 9,
-      "name": "Unknown1"
-    },
-    {
-      "index": 10,
-      "name": "Unknown2"
-    },
-    {
-      "index": 11,
-      "name": "Unknown3"
-    },
-    {
-      "index": 12,
-      "name": "Unknown4"
-    },
-    {
-      "index": 13,
-      "name": "Unknown5"
-    },
-    {
-      "index": 14,
       "name": "Unknown6"
     },
     {
-      "index": 15,
+      "index": 9,
       "name": "Behavior",
       "converter": {
         "type": "link",
@@ -73,119 +49,119 @@
       }
     },
     {
-      "index": 16,
+      "index": 10,
       "name": "Unknown7"
     },
     {
-      "index": 17,
-      "name": "Unknown8"
-    },
-    {
-      "index": 18,
+      "index": 11,
       "name": "Unknown9"
     },
     {
-      "index": 19,
+      "index": 12,
       "name": "Unknown10"
     },
     {
-      "index": 20,
+      "index": 13,
       "name": "Unknown11"
     },
     {
-      "index": 21,
+      "index": 14,
       "name": "Unknown12"
     },
     {
-      "index": 22,
+      "index": 15,
       "name": "Unknown13"
     },
     {
-      "index": 23,
+      "index": 16,
       "name": "Unknown14"
     },
     {
-      "index": 24,
+      "index": 17,
       "name": "Unknown15"
     },
     {
-      "index": 25,
+      "index": 18,
       "name": "Unknown16"
     },
     {
-      "index": 26,
+      "index": 19,
       "name": "Unknown17"
     },
     {
-      "index": 27,
+      "index": 20,
       "name": "Unknown18"
     },
     {
-      "index": 28,
+      "index": 21,
       "name": "Unknown19"
     },
     {
-      "index": 29,
+      "index": 22,
       "name": "Unknown20"
     },
     {
-      "index": 30,
+      "index": 23,
       "name": "Unknown21"
     },
     {
-      "index": 31,
+      "index": 24,
       "name": "Unknown22"
     },
     {
-      "index": 32,
+      "index": 25,
       "name": "Unknown23"
     },
     {
-      "index": 33,
+      "index": 26,
       "name": "Unknown24"
     },
     {
-      "index": 34,
+      "index": 27,
       "name": "Unknown25"
     },
     {
-      "index": 35,
+      "index": 28,
       "name": "Unknown26"
     },
     {
-      "index": 36,
+      "index": 29,
       "name": "Unknown27"
     },
     {
-      "index": 37,
+      "index": 30,
       "name": "Unknown28"
     },
     {
-      "index": 38,
+      "index": 31,
       "name": "Unknown29"
     },
     {
-      "index": 39,
+      "index": 32,
       "name": "Unknown30"
     },
     {
-      "index": 40,
+      "index": 33,
       "name": "Unknown31"
     },
     {
-      "index": 41,
+      "index": 34,
       "name": "Unknown32"
     },
     {
-      "index": 42,
+      "index": 35,
       "name": "Unknown33"
     },
     {
-      "index": 43,
+      "index": 36,
       "name": "Unknown34"
     },
     {
-      "index": 44,
+      "index": 37,
+      "name": "ModelMainHand"
+    },
+    {
+      "index": 38,
       "name": "DyeMainHand",
       "converter": {
         "type": "link",
@@ -193,7 +169,7 @@
       }
     },
     {
-      "index": 45,
+      "index": 39,
       "name": "Dye2MainHand",
       "converter": {
         "type": "link",
@@ -201,7 +177,11 @@
       }
     },
     {
-      "index": 46,
+      "index": 40,
+      "name": "ModelOffHand"
+    },
+    {
+      "index": 41,
       "name": "DyeOffHand",
       "converter": {
         "type": "link",
@@ -209,7 +189,7 @@
       }
     },
     {
-      "index": 47,
+      "index": 42,
       "name": "Dye2OffHand",
       "converter": {
         "type": "link",
@@ -217,7 +197,11 @@
       }
     },
     {
-      "index": 48,
+      "index": 43,
+      "name": "ModelHead"
+    },
+    {
+      "index": 44,
       "name": "DyeHead",
       "converter": {
         "type": "link",
@@ -225,12 +209,36 @@
       }
     },
     {
-      "index": 49,
+      "index": 45,
+      "name": "Dye2Head",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 46,
+      "name": "ModelBody"
+    },
+    {
+      "index": 47,
       "name": "DyeBody",
       "converter": {
         "type": "link",
         "target": "Stain"
       }
+    },
+    {
+      "index": 48,
+      "name": "Dye2Body",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 49,
+      "name": "ModelHands"
     },
     {
       "index": 50,
@@ -242,78 +250,6 @@
     },
     {
       "index": 51,
-      "name": "DyeLegs",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 52,
-      "name": "DyeFeet",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 53,
-      "name": "DyeEars",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 54,
-      "name": "DyeNeck",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 55,
-      "name": "DyeWrists",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 56,
-      "name": "DyeLeftRing",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 57,
-      "name": "DyeRightRing",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 58,
-      "name": "Dye2Head",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 59,
-      "name": "Dye2Body",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 60,
       "name": "Dye2Hands",
       "converter": {
         "type": "link",
@@ -321,7 +257,19 @@
       }
     },
     {
-      "index": 61,
+      "index": 52,
+      "name": "ModelLegs"
+    },
+    {
+      "index": 53,
+      "name": "DyeLegs",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 54,
       "name": "Dye2Legs",
       "converter": {
         "type": "link",
@@ -329,7 +277,19 @@
       }
     },
     {
-      "index": 62,
+      "index": 55,
+      "name": "ModelFeet"
+    },
+    {
+      "index": 56,
+      "name": "DyeFeet",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 57,
       "name": "Dye2Feet",
       "converter": {
         "type": "link",
@@ -337,7 +297,19 @@
       }
     },
     {
-      "index": 63,
+      "index": 58,
+      "name": "Unknown1"
+    },
+    {
+      "index": 59,
+      "name": "DyeEars",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 60,
       "name": "Dye2Ears",
       "converter": {
         "type": "link",
@@ -345,7 +317,19 @@
       }
     },
     {
-      "index": 64,
+      "index": 61,
+      "name": "Unknown2"
+    },
+    {
+      "index": 62,
+      "name": "DyeNeck",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 63,
       "name": "Dye2Neck",
       "converter": {
         "type": "link",
@@ -353,8 +337,12 @@
       }
     },
     {
+      "index": 64,
+      "name": "Unknown3"
+    },
+    {
       "index": 65,
-      "name": "Dye2Wrists",
+      "name": "DyeWrists",
       "converter": {
         "type": "link",
         "target": "Stain"
@@ -362,7 +350,7 @@
     },
     {
       "index": 66,
-      "name": "Dye2LeftRing",
+      "name": "Dye2Wrists",
       "converter": {
         "type": "link",
         "target": "Stain"
@@ -370,31 +358,43 @@
     },
     {
       "index": 67,
-      "name": "Dye2RightRing",
+      "name": "Unknown4"
+    },
+    {
+      "index": 68,
+      "name": "DyeLeftRing",
       "converter": {
         "type": "link",
         "target": "Stain"
       }
     },
     {
-      "index": 68,
-      "name": "Unknown40"
-    },
-    {
       "index": 69,
-      "name": "Unknown41"
+      "name": "Dye2LeftRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
     },
     {
       "index": 70,
-      "name": "Unknown42"
+      "name": "Unknown5"
     },
     {
       "index": 71,
-      "name": "Unknown43"
+      "name": "DyeRightRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
     },
     {
       "index": 72,
-      "name": "Unknown44"
+      "name": "Dye2RightRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
     }
   ]
 }

@@ -2,27 +2,43 @@
   "sheet": "MateriaGrade",
   "definitions": [
     {
-      "name": "MeldFee"
-    },
-    {
-      "index": 1,
       "name": "ReturnRate"
     },
     {
+      "index": 1,
+      "name": "MeldFee"
+    },
+    {
       "index": 2,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "OvermeldNQPercent"
-      }
+      "name": "OvermeldNQPercent[0]"
+    },
+    {
+      "index": 3,
+      "name": "OvermeldNQPercent[1]"
+    },
+    {
+      "index": 4,
+      "name": "OvermeldNQPercent[2]"
+    },
+    {
+      "index": 5,
+      "name": "OvermeldNQPercent[3]"
     },
     {
       "index": 6,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "OvermeldHQPercent"
-      }
+      "name": "OvermeldHQPercent[0]"
+    },
+    {
+      "index": 7,
+      "name": "OvermeldHQPercent[1]"
+    },
+    {
+      "index": 8,
+      "name": "OvermeldHQPercent[2]"
+    },
+    {
+      "index": 9,
+      "name": "OvermeldHQPercent[3]"
     }
   ]
 }

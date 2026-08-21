@@ -2,19 +2,19 @@
   "sheet": "LogKind",
   "definitions": [
     {
-      "name": "Format"
-    },
-    {
-      "index": 1,
       "name": "Unknown0"
     },
     {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
       "index": 2,
-      "name": "Unknown2"
+      "name": "Format"
     },
     {
       "index": 3,
-      "name": "Unknown1"
+      "name": "Unknown2"
     }
   ]
 }

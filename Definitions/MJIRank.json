@@ -6,19 +6,31 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "LogMessage",
-        "converter": {
-          "type": "link",
-          "target": "LogMessage"
-        }
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "LogMessage[0]",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
+    },
+    {
+      "index": 3,
+      "name": "LogMessage[1]",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
       }
     },
     {
       "index": 4,
-      "name": "Unknown0"
+      "name": "LogMessage[2]",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
     }
   ]
 }

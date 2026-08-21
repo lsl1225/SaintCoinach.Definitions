@@ -6,59 +6,59 @@
     },
     {
       "index": 1,
-      "name": "MpModifier"
-    },
-    {
-      "index": 2,
-      "name": "BaseSpeed"
-    },
-    {
-      "index": 3,
-      "name": "LevelModifier"
-    },
-    {
-      "index": 4,
-      "name": "HuntingLogExpReward"
-    },
-    {
-      "index": 5,
-      "name": "MonsterNoteSeals"
-    },
-    {
-      "index": 6,
-      "name": "ScaledQuestXP"
-    },
-    {
-      "index": 7,
-      "name": "HpModifier"
-    },
-    {
-      "index": 8,
-      "name": "ItemLevelSync"
-    },
-    {
-      "index": 9,
-      "name": "ProperDungeon"
-    },
-    {
-      "index": 10,
-      "name": "ProperGuildOrder"
-    },
-    {
-      "index": 11,
-      "name": "CraftingLevel"
-    },
-    {
-      "index": 12,
       "name": "AdditionalActions"
     },
     {
-      "index": 13,
+      "index": 2,
       "name": "ApplyAction"
     },
     {
-      "index": 14,
+      "index": 3,
+      "name": "ScaledQuestXP"
+    },
+    {
+      "index": 4,
+      "name": "MpModifier"
+    },
+    {
+      "index": 5,
+      "name": "BaseSpeed"
+    },
+    {
+      "index": 6,
+      "name": "LevelModifier"
+    },
+    {
+      "index": 7,
       "name": "QuestExpModifier"
+    },
+    {
+      "index": 8,
+      "name": "HpModifier"
+    },
+    {
+      "index": 9,
+      "name": "HuntingLogExpReward"
+    },
+    {
+      "index": 10,
+      "name": "MonsterNoteSeals"
+    },
+    {
+      "index": 11,
+      "name": "ItemLevelSync"
+    },
+    {
+      "index": 12,
+      "name": "ProperDungeon"
+    },
+    {
+      "index": 13,
+      "name": "ProperGuildOrder"
+    },
+    {
+      "index": 14,
+      "name": "CraftingLevel"
     }
   ]
 }

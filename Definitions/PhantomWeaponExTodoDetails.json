@@ -34,15 +34,15 @@
     },
     {
       "index": 4,
+      "name": "Unknown5"
+    },
+    {
+      "index": 5,
       "name": "TerritoryType",
       "converter": {
         "type": "link",
         "target": "TerritoryType"
       }
-    },
-    {
-      "index": 5,
-      "name": "Unknown5"
     }
   ]
 }

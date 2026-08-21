@@ -3,15 +3,15 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "PointsToNext"
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "RequiredPoints"
+    },
+    {
+      "index": 2,
+      "name": "DiscountRate"
     },
     {
       "index": 3,
@@ -23,7 +23,7 @@
     },
     {
       "index": 4,
-      "name": "DiscountRate"
+      "name": "Name"
     }
   ]
 }

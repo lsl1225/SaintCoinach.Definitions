@@ -3,6 +3,10 @@
   "defaultColumn": "Content",
   "definitions": [
     {
+      "name": "ContentLinkType"
+    },
+    {
+      "index": 1,
       "name": "Content",
       "converter": {
         "type": "complexlink",
@@ -81,7 +85,11 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
       "name": "UnlockQuest0",
       "converter": {
         "type": "link",
@@ -89,7 +97,7 @@
       }
     },
     {
-      "index": 2,
+      "index": 4,
       "name": "UnlockQuest1",
       "converter": {
         "type": "link",
@@ -97,7 +105,7 @@
       }
     },
     {
-      "index": 3,
+      "index": 5,
       "name": "UnlockQuest2",
       "converter": {
         "type": "link",
@@ -105,11 +113,11 @@
       }
     },
     {
-      "index": 4,
+      "index": 6,
       "name": "Unknown6"
     },
     {
-      "index": 5,
+      "index": 7,
       "name": "Map",
       "converter": {
         "type": "complexlink",
@@ -174,19 +182,11 @@
       }
     },
     {
-      "index": 6,
+      "index": 8,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
-    },
-    {
-      "index": 7,
-      "name": "ContentLinkType"
-    },
-    {
-      "index": 8,
-      "name": "Unknown2"
     }
   ]
 }

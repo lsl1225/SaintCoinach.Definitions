@@ -2,31 +2,131 @@
   "sheet": "DailySupplyItem",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Item",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
+      "index": 1,
+      "name": "Quantity[0]"
+    },
+    {
+      "index": 2,
+      "name": "RecipeLevel[0]"
+    },
+    {
+      "index": 3,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Quantity[1]"
+    },
+    {
+      "index": 5,
+      "name": "RecipeLevel[1]"
+    },
+    {
+      "index": 6,
+      "name": "Item[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Quantity[2]"
+    },
+    {
       "index": 8,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Quantity"
+      "name": "RecipeLevel[2]"
+    },
+    {
+      "index": 9,
+      "name": "Item[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Quantity[3]"
+    },
+    {
+      "index": 11,
+      "name": "RecipeLevel[3]"
+    },
+    {
+      "index": 12,
+      "name": "Item[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Quantity[4]"
+    },
+    {
+      "index": 14,
+      "name": "RecipeLevel[4]"
+    },
+    {
+      "index": 15,
+      "name": "Item[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
       "index": 16,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "RecipeLevel"
+      "name": "Quantity[5]"
+    },
+    {
+      "index": 17,
+      "name": "RecipeLevel[5]"
+    },
+    {
+      "index": 18,
+      "name": "Item[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
+    },
+    {
+      "index": 19,
+      "name": "Quantity[6]"
+    },
+    {
+      "index": 20,
+      "name": "RecipeLevel[6]"
+    },
+    {
+      "index": 21,
+      "name": "Item[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Quantity[7]"
+    },
+    {
+      "index": 23,
+      "name": "RecipeLevel[7]"
     }
   ]
 }

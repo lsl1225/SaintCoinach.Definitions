@@ -2,14 +2,42 @@
   "sheet": "PerformGroup",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "Perform",
-        "converter": {
-          "type": "link",
-          "target": "Perform"
-        }
+      "name": "Perform[0]",
+      "converter": {
+        "type": "link",
+        "target": "Perform"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Perform[1]",
+      "converter": {
+        "type": "link",
+        "target": "Perform"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Perform[2]",
+      "converter": {
+        "type": "link",
+        "target": "Perform"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Perform[3]",
+      "converter": {
+        "type": "link",
+        "target": "Perform"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Perform[4]",
+      "converter": {
+        "type": "link",
+        "target": "Perform"
       }
     }
   ]

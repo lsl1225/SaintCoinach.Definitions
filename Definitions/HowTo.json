@@ -7,31 +7,87 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "HowToPagePC",
-        "converter": {
-          "type": "link",
-          "target": "HowToPage"
-        }
+      "name": "Announce"
+    },
+    {
+      "index": 2,
+      "name": "HowToPagePC[0]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
+      }
+    },
+    {
+      "index": 3,
+      "name": "HowToPagePC[1]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
+      }
+    },
+    {
+      "index": 4,
+      "name": "HowToPagePC[2]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
+      }
+    },
+    {
+      "index": 5,
+      "name": "HowToPagePC[3]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
       }
     },
     {
       "index": 6,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "HowToPageController",
-        "converter": {
-          "type": "link",
-          "target": "HowToPage"
-        }
+      "name": "HowToPagePC[4]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
+      }
+    },
+    {
+      "index": 7,
+      "name": "HowToPageController[0]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
+      }
+    },
+    {
+      "index": 8,
+      "name": "HowToPageController[1]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
+      }
+    },
+    {
+      "index": 9,
+      "name": "HowToPageController[2]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
+      }
+    },
+    {
+      "index": 10,
+      "name": "HowToPageController[3]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
       }
     },
     {
       "index": 11,
-      "name": "Sort"
+      "name": "HowToPageController[4]",
+      "converter": {
+        "type": "link",
+        "target": "HowToPage"
+      }
     },
     {
       "index": 12,
@@ -43,7 +99,7 @@
     },
     {
       "index": 13,
-      "name": "Announce"
+      "name": "Sort"
     }
   ]
 }

@@ -7,214 +7,65 @@
     },
     {
       "index": 1,
-      "name": "Plural"
-    },
-    {
-      "index": 2,
-      "name": "Description"
-    },
-    {
-      "index": 3,
-      "name": "Name"
-    },
-    {
-      "index": 4,
       "name": "Adjective"
     },
     {
-      "index": 5,
+      "index": 2,
+      "name": "Plural"
+    },
+    {
+      "index": 3,
       "name": "PossessivePronoun"
     },
     {
-      "index": 6,
+      "index": 4,
       "name": "StartsWithVowel"
     },
     {
-      "index": 7,
+      "index": 5,
       "name": "Countability"
     },
     {
-      "index": 8,
+      "index": 6,
       "name": "Pronoun"
     },
     {
-      "index": 9,
+      "index": 7,
       "name": "Article"
     },
     {
+      "index": 8,
+      "name": "Description"
+    },
+    {
+      "index": 9,
+      "name": "Name"
+    },
+    {
       "index": 10,
-      "name": "ModelMain"
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 11,
-      "name": "ModelSub"
+      "name": "LevelItem",
+      "converter": {
+        "type": "link",
+        "target": "ItemLevel"
+      }
     },
     {
       "index": 12,
-      "name": "DamagePhys"
+      "name": "Rarity"
     },
     {
       "index": 13,
-      "name": "DamageMag"
+      "name": "FilterGroup"
     },
     {
       "index": 14,
-      "name": "Delayms"
-    },
-    {
-      "index": 15,
-      "name": "BlockRate"
-    },
-    {
-      "index": 16,
-      "name": "Block"
-    },
-    {
-      "index": 17,
-      "name": "DefensePhys"
-    },
-    {
-      "index": 18,
-      "name": "DefenseMag"
-    },
-    {
-      "index": 19,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "BaseParamValue"
-      }
-    },
-    {
-      "index": 25,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "BaseParamValueSpecial"
-      }
-    },
-    {
-      "index": 31,
-      "name": "LevelEquip"
-    },
-    {
-      "index": 32,
-      "name": "RequiredPvpRank"
-    },
-    {
-      "index": 33,
-      "name": "EquipRestriction",
-      "converter": {
-        "type": "link",
-        "target": "EquipRaceCategory"
-      }
-    },
-    {
-      "index": 34,
-      "name": "ClassJobCategory",
-      "converter": {
-        "type": "link",
-        "target": "ClassJobCategory"
-      }
-    },
-    {
-      "index": 35,
-      "name": "GrandCompany",
-      "converter": {
-        "type": "link",
-        "target": "GrandCompany"
-      }
-    },
-    {
-      "index": 36,
-      "name": "ItemSeries",
-      "converter": {
-        "type": "link",
-        "target": "ItemSeries"
-      }
-    },
-    {
-      "index": 37,
-      "name": "BaseParamModifier"
-    },
-    {
-      "index": 38,
-      "name": "ClassJobUse",
-      "converter": {
-        "type": "link",
-        "target": "ClassJob"
-      }
-    },
-    {
-      "index": 39,
-      "name": "DamagePhysType"
-    },
-    {
-      "index": 40,
-      "name": "DefaultActionRange"
-    },
-    {
-      "index": 41,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "BaseParam",
-        "converter": {
-          "type": "link",
-          "target": "BaseParam"
-        }
-      }
-    },
-    {
-      "index": 47,
-      "name": "ItemSpecialBonus",
-      "converter": {
-        "type": "link",
-        "target": "ItemSpecialBonus"
-      }
-    },
-    {
-      "index": 48,
-      "name": "ItemSpecialBonusParam"
-    },
-    {
-      "index": 49,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "BaseParamSpecial",
-        "converter": {
-          "type": "link",
-          "target": "BaseParam"
-        }
-      }
-    },
-    {
-      "index": 55,
-      "name": "MaterializeType"
-    },
-    {
-      "index": 56,
-      "name": "MateriaSlotCount"
-    },
-    {
-      "index": 57,
-      "name": "SubStatCategory"
-    },
-    {
-      "index": 58,
-      "name": "IsAdvancedMeldingPermitted"
-    },
-    {
-      "index": 59,
-      "name": "IsPvP"
-    },
-    {
-      "index": 60,
-      "name": "IsGlamorous"
-    },
-    {
-      "index": 61,
       "name": "AdditionalData",
       "converter": {
         "type": "complexlink",
@@ -300,82 +151,7 @@
       }
     },
     {
-      "index": 62,
-      "name": "StackSize"
-    },
-    {
-      "index": 63,
-      "name": "PriceMid"
-    },
-    {
-      "index": 64,
-      "name": "PriceLow"
-    },
-    {
-      "index": 65,
-      "name": "ItemRepair",
-      "converter": {
-        "type": "link",
-        "target": "ItemRepairResource"
-      }
-    },
-    {
-      "index": 66,
-      "name": "ItemGlamour",
-      "converter": {
-        "type": "link",
-        "target": "Item"
-      }
-    },
-    {
-      "index": 67,
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 68,
-      "name": "LevelItem",
-      "converter": {
-        "type": "link",
-        "target": "ItemLevel"
-      }
-    },
-    {
-      "index": 69,
-      "name": "SubcategorySort"
-    },
-    {
-      "index": 70,
-      "name": "ItemAction",
-      "converter": {
-        "type": "link",
-        "target": "ItemAction"
-      }
-    },
-    {
-      "index": 71,
-      "name": "Cooldowns"
-    },
-    {
-      "index": 72,
-      "name": "Desynth"
-    },
-    {
-      "index": 73,
-      "name": "AetherialReduce"
-    },
-    {
-      "index": 74,
-      "name": "Rarity"
-    },
-    {
-      "index": 75,
-      "name": "FilterGroup"
-    },
-    {
-      "index": 76,
+      "index": 15,
       "name": "ItemUICategory",
       "converter": {
         "type": "link",
@@ -383,7 +159,7 @@
       }
     },
     {
-      "index": 77,
+      "index": 16,
       "name": "ItemSearchCategory",
       "converter": {
         "type": "link",
@@ -391,7 +167,7 @@
       }
     },
     {
-      "index": 78,
+      "index": 17,
       "name": "EquipSlotCategory",
       "converter": {
         "type": "link",
@@ -399,7 +175,7 @@
       }
     },
     {
-      "index": 79,
+      "index": 18,
       "name": "ItemSortCategory",
       "converter": {
         "type": "link",
@@ -407,15 +183,67 @@
       }
     },
     {
-      "index": 80,
+      "index": 19,
+      "name": "SubcategorySort"
+    },
+    {
+      "index": 20,
+      "name": "StackSize"
+    },
+    {
+      "index": 21,
+      "name": "IsUnique"
+    },
+    {
+      "index": 22,
+      "name": "IsUntradable"
+    },
+    {
+      "index": 23,
+      "name": "IsIndisposable"
+    },
+    {
+      "index": 24,
+      "name": "Lot"
+    },
+    {
+      "index": 25,
+      "name": "PriceMid"
+    },
+    {
+      "index": 26,
+      "name": "PriceLow"
+    },
+    {
+      "index": 27,
+      "name": "CanBeHq"
+    },
+    {
+      "index": 28,
       "name": "DyeCount"
     },
     {
-      "index": 81,
+      "index": 29,
+      "name": "IsCrestWorthy"
+    },
+    {
+      "index": 30,
+      "name": "ItemAction",
+      "converter": {
+        "type": "link",
+        "target": "ItemAction"
+      }
+    },
+    {
+      "index": 31,
       "name": "CastTimeSeconds"
     },
     {
-      "index": 82,
+      "index": 32,
+      "name": "Cooldowns"
+    },
+    {
+      "index": 33,
       "name": "ClassJobRepair",
       "converter": {
         "type": "link",
@@ -423,36 +251,312 @@
       }
     },
     {
-      "index": 83,
-      "name": "IsUnique"
+      "index": 34,
+      "name": "ItemRepair",
+      "converter": {
+        "type": "link",
+        "target": "ItemRepairResource"
+      }
     },
     {
-      "index": 84,
-      "name": "IsUntradable"
+      "index": 35,
+      "name": "ItemGlamour",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
     },
     {
-      "index": 85,
-      "name": "IsIndisposable"
+      "index": 36,
+      "name": "Desynth"
     },
     {
-      "index": 86,
-      "name": "Lot"
-    },
-    {
-      "index": 87,
-      "name": "CanBeHq"
-    },
-    {
-      "index": 88,
-      "name": "IsCrestWorthy"
-    },
-    {
-      "index": 89,
+      "index": 37,
       "name": "IsCollectable"
     },
     {
-      "index": 90,
+      "index": 38,
       "name": "AlwaysCollectable"
+    },
+    {
+      "index": 39,
+      "name": "AetherialReduce"
+    },
+    {
+      "index": 40,
+      "name": "LevelEquip"
+    },
+    {
+      "index": 41,
+      "name": "RequiredPvpRank"
+    },
+    {
+      "index": 42,
+      "name": "EquipRestriction",
+      "converter": {
+        "type": "link",
+        "target": "EquipRaceCategory"
+      }
+    },
+    {
+      "index": 43,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 44,
+      "name": "GrandCompany",
+      "converter": {
+        "type": "link",
+        "target": "GrandCompany"
+      }
+    },
+    {
+      "index": 45,
+      "name": "ItemSeries",
+      "converter": {
+        "type": "link",
+        "target": "ItemSeries"
+      }
+    },
+    {
+      "index": 46,
+      "name": "BaseParamModifier"
+    },
+    {
+      "index": 47,
+      "name": "ModelMain"
+    },
+    {
+      "index": 48,
+      "name": "ModelSub"
+    },
+    {
+      "index": 49,
+      "name": "ClassJobUse",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
+      }
+    },
+    {
+      "index": 50,
+      "name": "DamagePhysType"
+    },
+    {
+      "index": 51,
+      "name": "DamagePhys"
+    },
+    {
+      "index": 52,
+      "name": "DamageMag"
+    },
+    {
+      "index": 53,
+      "name": "Delayms"
+    },
+    {
+      "index": 54,
+      "name": "DefaultActionRange"
+    },
+    {
+      "index": 55,
+      "name": "BlockRate"
+    },
+    {
+      "index": 56,
+      "name": "Block"
+    },
+    {
+      "index": 57,
+      "name": "DefensePhys"
+    },
+    {
+      "index": 58,
+      "name": "DefenseMag"
+    },
+    {
+      "index": 59,
+      "name": "BaseParam[0]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 60,
+      "name": "BaseParamValue[0]"
+    },
+    {
+      "index": 61,
+      "name": "BaseParam[1]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 62,
+      "name": "BaseParamValue[1]"
+    },
+    {
+      "index": 63,
+      "name": "BaseParam[2]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 64,
+      "name": "BaseParamValue[2]"
+    },
+    {
+      "index": 65,
+      "name": "BaseParam[3]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 66,
+      "name": "BaseParamValue[3]"
+    },
+    {
+      "index": 67,
+      "name": "BaseParam[4]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 68,
+      "name": "BaseParamValue[4]"
+    },
+    {
+      "index": 69,
+      "name": "BaseParam[5]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 70,
+      "name": "BaseParamValue[5]"
+    },
+    {
+      "index": 71,
+      "name": "ItemSpecialBonus",
+      "converter": {
+        "type": "link",
+        "target": "ItemSpecialBonus"
+      }
+    },
+    {
+      "index": 72,
+      "name": "ItemSpecialBonusParam"
+    },
+    {
+      "index": 73,
+      "name": "BaseParamSpecial[0]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 74,
+      "name": "BaseParamValueSpecial[0]"
+    },
+    {
+      "index": 75,
+      "name": "BaseParamSpecial[1]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 76,
+      "name": "BaseParamValueSpecial[1]"
+    },
+    {
+      "index": 77,
+      "name": "BaseParamSpecial[2]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 78,
+      "name": "BaseParamValueSpecial[2]"
+    },
+    {
+      "index": 79,
+      "name": "BaseParamSpecial[3]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 80,
+      "name": "BaseParamValueSpecial[3]"
+    },
+    {
+      "index": 81,
+      "name": "BaseParamSpecial[4]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 82,
+      "name": "BaseParamValueSpecial[4]"
+    },
+    {
+      "index": 83,
+      "name": "BaseParamSpecial[5]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 84,
+      "name": "BaseParamValueSpecial[5]"
+    },
+    {
+      "index": 85,
+      "name": "MaterializeType"
+    },
+    {
+      "index": 86,
+      "name": "MateriaSlotCount"
+    },
+    {
+      "index": 87,
+      "name": "IsAdvancedMeldingPermitted"
+    },
+    {
+      "index": 88,
+      "name": "IsPvP"
+    },
+    {
+      "index": 89,
+      "name": "SubStatCategory"
+    },
+    {
+      "index": 90,
+      "name": "IsGlamorous"
     }
   ]
 }

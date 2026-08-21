@@ -2,31 +2,195 @@
   "sheet": "CompanyCraftProcess",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 12,
-      "definition": {
-        "name": "SupplyItem",
-        "converter": {
-          "type": "link",
-          "target": "CompanyCraftSupplyItem"
-        }
+      "name": "SupplyItem[0]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
       }
+    },
+    {
+      "index": 1,
+      "name": "SetQuantity[0]"
+    },
+    {
+      "index": 2,
+      "name": "SetsRequired[0]"
+    },
+    {
+      "index": 3,
+      "name": "SupplyItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 4,
+      "name": "SetQuantity[1]"
+    },
+    {
+      "index": 5,
+      "name": "SetsRequired[1]"
+    },
+    {
+      "index": 6,
+      "name": "SupplyItem[2]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 7,
+      "name": "SetQuantity[2]"
+    },
+    {
+      "index": 8,
+      "name": "SetsRequired[2]"
+    },
+    {
+      "index": 9,
+      "name": "SupplyItem[3]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 10,
+      "name": "SetQuantity[3]"
+    },
+    {
+      "index": 11,
+      "name": "SetsRequired[3]"
     },
     {
       "index": 12,
-      "type": "repeat",
-      "count": 12,
-      "definition": {
-        "name": "SetQuantity"
+      "name": "SupplyItem[4]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
       }
     },
     {
-      "index": 24,
-      "type": "repeat",
-      "count": 12,
-      "definition": {
-        "name": "SetsRequired"
+      "index": 13,
+      "name": "SetQuantity[4]"
+    },
+    {
+      "index": 14,
+      "name": "SetsRequired[4]"
+    },
+    {
+      "index": 15,
+      "name": "SupplyItem[5]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
       }
+    },
+    {
+      "index": 16,
+      "name": "SetQuantity[5]"
+    },
+    {
+      "index": 17,
+      "name": "SetsRequired[5]"
+    },
+    {
+      "index": 18,
+      "name": "SupplyItem[6]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 19,
+      "name": "SetQuantity[6]"
+    },
+    {
+      "index": 20,
+      "name": "SetsRequired[6]"
+    },
+    {
+      "index": 21,
+      "name": "SupplyItem[7]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 22,
+      "name": "SetQuantity[7]"
+    },
+    {
+      "index": 23,
+      "name": "SetsRequired[7]"
+    },
+    {
+      "index": 24,
+      "name": "SupplyItem[8]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 25,
+      "name": "SetQuantity[8]"
+    },
+    {
+      "index": 26,
+      "name": "SetsRequired[8]"
+    },
+    {
+      "index": 27,
+      "name": "SupplyItem[9]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 28,
+      "name": "SetQuantity[9]"
+    },
+    {
+      "index": 29,
+      "name": "SetsRequired[9]"
+    },
+    {
+      "index": 30,
+      "name": "SupplyItem[10]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 31,
+      "name": "SetQuantity[10]"
+    },
+    {
+      "index": 32,
+      "name": "SetsRequired[10]"
+    },
+    {
+      "index": 33,
+      "name": "SupplyItem[11]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftSupplyItem"
+      }
+    },
+    {
+      "index": 34,
+      "name": "SetQuantity[11]"
+    },
+    {
+      "index": 35,
+      "name": "SetsRequired[11]"
     }
   ]
 }

@@ -7,14 +7,82 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "name": "CompanyCraftType",
-        "converter": {
-          "type": "link",
-          "target": "CompanyCraftType"
-        }
+      "name": "CompanyCraftType[0]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "CompanyCraftType[1]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 3,
+      "name": "CompanyCraftType[2]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 4,
+      "name": "CompanyCraftType[3]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 5,
+      "name": "CompanyCraftType[4]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "CompanyCraftType[5]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 7,
+      "name": "CompanyCraftType[6]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 8,
+      "name": "CompanyCraftType[7]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 9,
+      "name": "CompanyCraftType[8]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
+      }
+    },
+    {
+      "index": 10,
+      "name": "CompanyCraftType[9]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftType"
       }
     }
   ]

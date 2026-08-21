@@ -3,26 +3,6 @@
   "defaultColumn": "FinalQuest",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 32,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Quest",
-            "converter": {
-              "type": "link",
-              "target": "Quest"
-            }
-          },
-          {
-            "name": "UnknownParam"
-          }
-        ]
-      }
-    },
-    {
-      "index": 64,
       "name": "FinalQuest",
       "converter": {
         "type": "link",
@@ -30,11 +10,15 @@
       }
     },
     {
-      "index": 65,
+      "index": 1,
       "name": "Unknown0"
     },
     {
-      "index": 66,
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
       "name": "Chapter",
       "converter": {
         "type": "link",
@@ -42,8 +26,388 @@
       }
     },
     {
+      "index": 4,
+      "name": "Quest[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Quest[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Quest[2]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Quest[3]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Quest[4]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Quest[5]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Quest[6]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Quest[7]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Quest[8]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Quest[9]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Quest[10]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Quest[11]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Quest[12]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Quest[13]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Quest[14]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Quest[15]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Quest[16]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Quest[17]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Quest[18]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Quest[19]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Quest[20]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Quest[21]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Quest[22]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 27,
+      "name": "Quest[23]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 28,
+      "name": "Quest[24]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Quest[25]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Quest[26]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 31,
+      "name": "Quest[27]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Quest[28]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Quest[29]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 34,
+      "name": "Quest[30]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 35,
+      "name": "Quest[31]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 36,
+      "name": "UnknownParam[0]"
+    },
+    {
+      "index": 37,
+      "name": "UnknownParam[1]"
+    },
+    {
+      "index": 38,
+      "name": "UnknownParam[2]"
+    },
+    {
+      "index": 39,
+      "name": "UnknownParam[3]"
+    },
+    {
+      "index": 40,
+      "name": "UnknownParam[4]"
+    },
+    {
+      "index": 41,
+      "name": "UnknownParam[5]"
+    },
+    {
+      "index": 42,
+      "name": "UnknownParam[6]"
+    },
+    {
+      "index": 43,
+      "name": "UnknownParam[7]"
+    },
+    {
+      "index": 44,
+      "name": "UnknownParam[8]"
+    },
+    {
+      "index": 45,
+      "name": "UnknownParam[9]"
+    },
+    {
+      "index": 46,
+      "name": "UnknownParam[10]"
+    },
+    {
+      "index": 47,
+      "name": "UnknownParam[11]"
+    },
+    {
+      "index": 48,
+      "name": "UnknownParam[12]"
+    },
+    {
+      "index": 49,
+      "name": "UnknownParam[13]"
+    },
+    {
+      "index": 50,
+      "name": "UnknownParam[14]"
+    },
+    {
+      "index": 51,
+      "name": "UnknownParam[15]"
+    },
+    {
+      "index": 52,
+      "name": "UnknownParam[16]"
+    },
+    {
+      "index": 53,
+      "name": "UnknownParam[17]"
+    },
+    {
+      "index": 54,
+      "name": "UnknownParam[18]"
+    },
+    {
+      "index": 55,
+      "name": "UnknownParam[19]"
+    },
+    {
+      "index": 56,
+      "name": "UnknownParam[20]"
+    },
+    {
+      "index": 57,
+      "name": "UnknownParam[21]"
+    },
+    {
+      "index": 58,
+      "name": "UnknownParam[22]"
+    },
+    {
+      "index": 59,
+      "name": "UnknownParam[23]"
+    },
+    {
+      "index": 60,
+      "name": "UnknownParam[24]"
+    },
+    {
+      "index": 61,
+      "name": "UnknownParam[25]"
+    },
+    {
+      "index": 62,
+      "name": "UnknownParam[26]"
+    },
+    {
+      "index": 63,
+      "name": "UnknownParam[27]"
+    },
+    {
+      "index": 64,
+      "name": "UnknownParam[28]"
+    },
+    {
+      "index": 65,
+      "name": "UnknownParam[29]"
+    },
+    {
+      "index": 66,
+      "name": "UnknownParam[30]"
+    },
+    {
       "index": 67,
-      "name": "Unknown1"
+      "name": "UnknownParam[31]"
     }
   ]
 }

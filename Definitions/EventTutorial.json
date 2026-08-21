@@ -15,14 +15,66 @@
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Pages",
-        "converter": {
-          "type": "link",
-          "target": "EventTutorialPage"
-        }
+      "name": "Pages[0]",
+      "converter": {
+        "type": "link",
+        "target": "EventTutorialPage"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Pages[1]",
+      "converter": {
+        "type": "link",
+        "target": "EventTutorialPage"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Pages[2]",
+      "converter": {
+        "type": "link",
+        "target": "EventTutorialPage"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Pages[3]",
+      "converter": {
+        "type": "link",
+        "target": "EventTutorialPage"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Pages[4]",
+      "converter": {
+        "type": "link",
+        "target": "EventTutorialPage"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Pages[5]",
+      "converter": {
+        "type": "link",
+        "target": "EventTutorialPage"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Pages[6]",
+      "converter": {
+        "type": "link",
+        "target": "EventTutorialPage"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Pages[7]",
+      "converter": {
+        "type": "link",
+        "target": "EventTutorialPage"
       }
     }
   ]

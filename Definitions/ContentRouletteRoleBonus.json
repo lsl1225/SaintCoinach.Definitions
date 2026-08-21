@@ -2,55 +2,59 @@
   "sheet": "ContentRouletteRoleBonus",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Item",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
-      }
-    },
-    {
-      "index": 2,
       "name": "BaseExperience"
     },
     {
-      "index": 3,
+      "index": 1,
       "name": "GilMultiplier"
     },
     {
-      "index": 4,
+      "index": 2,
       "name": "GCSealsMultiplier"
     },
     {
-      "index": 5,
+      "index": 3,
       "name": "CurrencyA"
     },
     {
-      "index": 6,
+      "index": 4,
       "name": "CurrencyB"
     },
     {
-      "index": 7,
+      "index": 5,
       "name": "CurrencyC"
     },
     {
+      "index": 6,
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ItemQuantity[0]"
+    },
+    {
       "index": 8,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "ItemQuantity"
+      "name": "ItemMaxLevelCondition[0]"
+    },
+    {
+      "index": 9,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
       "index": 10,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "ItemMaxLevelCondition"
-      }
+      "name": "ItemQuantity[1]"
+    },
+    {
+      "index": 11,
+      "name": "ItemMaxLevelCondition[1]"
     }
   ]
 }

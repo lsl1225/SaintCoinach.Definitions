@@ -10,6 +10,14 @@
     },
     {
       "index": 1,
+      "name": "Unknown3"
+    },
+    {
+      "index": 2,
+      "name": "Unknown4"
+    },
+    {
+      "index": 3,
       "name": "BaseAction",
       "converter": {
         "type": "link",
@@ -17,24 +25,16 @@
       }
     },
     {
-      "index": 2,
+      "index": 4,
       "name": "ComboTreeLayout"
     },
     {
-      "index": 3,
-      "name": "Unknown3"
-    },
-    {
-      "index": 4,
-      "name": "Unknown4"
-    },
-    {
       "index": 5,
-      "name": "Unknown5"
+      "name": "GroupedCell"
     },
     {
       "index": 6,
-      "name": "GroupedCell"
+      "name": "Unknown5"
     }
   ]
 }

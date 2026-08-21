@@ -3,6 +3,18 @@
   "defaultColumn": "Item",
   "definitions": [
     {
+      "name": "ModelKey"
+    },
+    {
+      "index": 1,
+      "name": "HousingItemCategory"
+    },
+    {
+      "index": 2,
+      "name": "UsageType"
+    },
+    {
+      "index": 3,
       "name": "UsageParameter",
       "converter": {
         "type": "complexlink",
@@ -18,7 +30,11 @@
       }
     },
     {
-      "index": 1,
+      "index": 4,
+      "name": "PlaceLimitType"
+    },
+    {
+      "index": 5,
       "name": "CustomTalk",
       "converter": {
         "type": "link",
@@ -26,7 +42,7 @@
       }
     },
     {
-      "index": 2,
+      "index": 6,
       "name": "Item",
       "converter": {
         "type": "link",
@@ -34,23 +50,19 @@
       }
     },
     {
-      "index": 3,
-      "name": "ModelKey"
-    },
-    {
-      "index": 4,
-      "name": "HousingItemCategory"
-    },
-    {
-      "index": 5,
-      "name": "UsageType"
-    },
-    {
-      "index": 6,
-      "name": "PlaceLimitType"
-    },
-    {
       "index": 7,
+      "name": "DestroyOnRemoval"
+    },
+    {
+      "index": 8,
+      "name": "Unknown4"
+    },
+    {
+      "index": 9,
+      "name": "Unknown5"
+    },
+    {
+      "index": 10,
       "name": "Placement",
       "converter": {
         "type": "link",
@@ -58,7 +70,7 @@
       }
     },
     {
-      "index": 8,
+      "index": 11,
       "name": "Unplacement",
       "converter": {
         "type": "link",
@@ -66,24 +78,12 @@
       }
     },
     {
-      "index": 9,
+      "index": 12,
       "name": "UnplacementStorage",
       "converter": {
         "type": "link",
         "target": "HousingUnplacement"
       }
-    },
-    {
-      "index": 10,
-      "name": "DestroyOnRemoval"
-    },
-    {
-      "index": 11,
-      "name": "Unknown4"
-    },
-    {
-      "index": 12,
-      "name": "Unknown5"
     },
     {
       "index": 13,

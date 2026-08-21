@@ -2,14 +2,42 @@
   "sheet": "DeepDungeonRoom",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "Level",
-        "converter": {
-          "type": "link",
-          "target": "Level"
-        }
+      "name": "Level[0]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Level[1]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Level[2]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Level[3]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Level[4]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
       }
     }
   ]

@@ -3,80 +3,10 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Unknown13"
     },
     {
       "index": 1,
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 2,
-      "name": "AltIcon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 3,
-      "name": "Unknown3"
-    },
-    {
-      "index": 4,
-      "name": "Unknown4"
-    },
-    {
-      "index": 5,
-      "name": "Unknown5"
-    },
-    {
-      "index": 6,
-      "name": "Unknown6"
-    },
-    {
-      "index": 7,
-      "name": "Unknown7"
-    },
-    {
-      "index": 8,
-      "name": "Unknown8"
-    },
-    {
-      "index": 9,
-      "name": "Unknown9"
-    },
-    {
-      "index": 10,
-      "name": "Unknown16"
-    },
-    {
-      "index": 11,
-      "name": "Unknown17"
-    },
-    {
-      "index": 12,
-      "name": "Unknown18"
-    },
-    {
-      "index": 13,
-      "name": "Unknown19"
-    },
-    {
-      "index": 14,
-      "name": "Unknown20"
-    },
-    {
-      "index": 15,
-      "name": "Unknown21"
-    },
-    {
-      "index": 16,
-      "name": "Unknown10"
-    },
-    {
-      "index": 17,
       "name": "Category",
       "converter": {
         "type": "link",
@@ -84,20 +14,90 @@
       }
     },
     {
+      "index": 2,
+      "name": "Unknown3"
+    },
+    {
+      "index": 3,
+      "name": "Unknown9"
+    },
+    {
+      "index": 4,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "AltIcon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Unknown16"
+    },
+    {
+      "index": 7,
+      "name": "Unknown17"
+    },
+    {
+      "index": 8,
+      "name": "Name"
+    },
+    {
+      "index": 9,
+      "name": "Unknown4"
+    },
+    {
+      "index": 10,
+      "name": "Unknown5"
+    },
+    {
+      "index": 11,
+      "name": "Unknown6"
+    },
+    {
+      "index": 12,
+      "name": "Unknown7"
+    },
+    {
+      "index": 13,
+      "name": "Unknown8"
+    },
+    {
+      "index": 14,
+      "name": "Unknown18"
+    },
+    {
+      "index": 15,
+      "name": "Unknown19"
+    },
+    {
+      "index": 16,
+      "name": "Unknown20"
+    },
+    {
+      "index": 17,
+      "name": "Unknown21"
+    },
+    {
       "index": 18,
-      "name": "Unknown12"
+      "name": "Unknown10"
     },
     {
       "index": 19,
-      "name": "Unknown13"
-    },
-    {
-      "index": 20,
       "name": "Unknown14"
     },
     {
-      "index": 21,
+      "index": 20,
       "name": "Unknown15"
+    },
+    {
+      "index": 21,
+      "name": "Unknown12"
     }
   ]
 }

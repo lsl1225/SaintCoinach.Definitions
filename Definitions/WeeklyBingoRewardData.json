@@ -3,10 +3,30 @@
   "defaultColumn": "RewardItem1",
   "definitions": [
     {
-      "name": "RewardItem1"
+      "name": "RewardType1"
     },
     {
       "index": 1,
+      "name": "RewardItem1"
+    },
+    {
+      "index": 2,
+      "name": "RewardHq1"
+    },
+    {
+      "index": 3,
+      "name": "RewardQuantity1"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "RewardType2"
+    },
+    {
+      "index": 6,
       "name": "RewardItem2",
       "converter": {
         "type": "complexlink",
@@ -29,7 +49,19 @@
       }
     },
     {
-      "index": 2,
+      "index": 7,
+      "name": "RewardHq2"
+    },
+    {
+      "index": 8,
+      "name": "RewardQuantity2"
+    },
+    {
+      "index": 9,
+      "name": "RewardType3"
+    },
+    {
+      "index": 10,
       "name": "RewardItem3",
       "converter": {
         "type": "complexlink",
@@ -52,44 +84,12 @@
       }
     },
     {
-      "index": 3,
-      "name": "RewardQuantity1"
-    },
-    {
-      "index": 4,
-      "name": "RewardQuantity2"
-    },
-    {
-      "index": 5,
-      "name": "RewardQuantity3"
-    },
-    {
-      "index": 6,
-      "name": "RewardType1"
-    },
-    {
-      "index": 7,
-      "name": "Unknown0"
-    },
-    {
-      "index": 8,
-      "name": "RewardType2"
-    },
-    {
-      "index": 9,
-      "name": "RewardType3"
-    },
-    {
-      "index": 10,
-      "name": "RewardHq2"
-    },
-    {
       "index": 11,
       "name": "RewardHq3"
     },
     {
       "index": 12,
-      "name": "RewardHq1"
+      "name": "RewardQuantity3"
     }
   ]
 }

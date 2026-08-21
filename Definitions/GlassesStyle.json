@@ -3,66 +3,150 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Singular"
+      "name": "GlassesSlot"
     },
     {
       "index": 1,
-      "name": "Plural"
-    },
-    {
-      "index": 2,
-      "name": "Name"
-    },
-    {
-      "index": 3,
-      "name": "Adjective"
-    },
-    {
-      "index": 4,
-      "name": "PossessivePronoun"
-    },
-    {
-      "index": 5,
-      "name": "StartsWithVowel"
-    },
-    {
-      "index": 6,
-      "name": "Countability"
-    },
-    {
-      "index": 7,
-      "name": "Pronoun"
-    },
-    {
-      "index": 8,
-      "name": "Article"
-    },
-    {
-      "index": 9,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 10,
+      "index": 2,
       "name": "Order"
     },
     {
-      "index": 11,
-      "type": "repeat",
-      "count": 12,
-      "definition": {
-        "name": "Glasses",
-        "converter": {
-          "type": "link",
-          "target": "Glasses"
-        }
+      "index": 3,
+      "name": "Glasses[0]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
       }
     },
     {
+      "index": 4,
+      "name": "Glasses[1]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Glasses[2]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Glasses[3]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Glasses[4]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Glasses[5]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Glasses[6]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Glasses[7]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Glasses[8]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Glasses[9]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Glasses[10]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Glasses[11]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Singular"
+    },
+    {
+      "index": 16,
+      "name": "Adjective"
+    },
+    {
+      "index": 17,
+      "name": "Plural"
+    },
+    {
+      "index": 18,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 19,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 20,
+      "name": "Countability"
+    },
+    {
+      "index": 21,
+      "name": "Pronoun"
+    },
+    {
+      "index": 22,
+      "name": "Article"
+    },
+    {
       "index": 23,
-      "name": "GlassesSlot"
+      "name": "Name"
     }
   ]
 }

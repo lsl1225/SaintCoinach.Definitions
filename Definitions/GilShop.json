@@ -38,15 +38,15 @@
     },
     {
       "index": 5,
-      "name": "FestivalId"
+      "name": "Unknown2"
     },
     {
       "index": 6,
-      "name": "FestivalPhase"
+      "name": "FestivalId"
     },
     {
       "index": 7,
-      "name": "Unknown2"
+      "name": "FestivalPhase"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "sheet": "LoadingTips",
   "definitions": [
     {
-      "name": "Unknown0"
+      "name": "Unknown2"
     },
     {
       "index": 1,
@@ -10,7 +10,7 @@
     },
     {
       "index": 2,
-      "name": "Unknown2"
+      "name": "Unknown0"
     }
   ]
 }

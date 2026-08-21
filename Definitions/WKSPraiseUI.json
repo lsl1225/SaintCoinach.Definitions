@@ -2,14 +2,14 @@
   "sheet": "WKSPraiseUI",
   "definitions": [
     {
-      "name": "Message"
-    },
-    {
-      "index": 1,
       "name": "Backdrop",
       "converter": {
         "type": "icon"
       }
+    },
+    {
+      "index": 1,
+      "name": "Message"
     }
   ]
 }

@@ -2,14 +2,6 @@
   "sheet": "Warp",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
-      "name": "Question"
-    },
-    {
-      "index": 2,
       "name": "PopRange",
       "converter": {
         "type": "link",
@@ -17,31 +9,7 @@
       }
     },
     {
-      "index": 3,
-      "name": "ConditionSuccessEvent",
-      "converter": {
-        "type": "link",
-        "target": "DefaultTalk"
-      }
-    },
-    {
-      "index": 4,
-      "name": "ConditionFailEvent",
-      "converter": {
-        "type": "link",
-        "target": "DefaultTalk"
-      }
-    },
-    {
-      "index": 5,
-      "name": "ConfirmEvent",
-      "converter": {
-        "type": "link",
-        "target": "DefaultTalk"
-      }
-    },
-    {
-      "index": 6,
+      "index": 1,
       "name": "TerritoryType",
       "converter": {
         "type": "link",
@@ -49,7 +17,31 @@
       }
     },
     {
-      "index": 7,
+      "index": 2,
+      "name": "ConditionSuccessEvent",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ConditionFailEvent",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ConfirmEvent",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 5,
       "name": "WarpCondition",
       "converter": {
         "type": "link",
@@ -57,7 +49,7 @@
       }
     },
     {
-      "index": 8,
+      "index": 6,
       "name": "WarpLogic",
       "converter": {
         "type": "link",
@@ -65,7 +57,7 @@
       }
     },
     {
-      "index": 9,
+      "index": 7,
       "name": "StartCutscene",
       "converter": {
         "type": "link",
@@ -73,7 +65,7 @@
       }
     },
     {
-      "index": 10,
+      "index": 8,
       "name": "EndCutscene",
       "converter": {
         "type": "link",
@@ -81,8 +73,16 @@
       }
     },
     {
-      "index": 11,
+      "index": 9,
       "name": "CanSkipCutscene"
+    },
+    {
+      "index": 10,
+      "name": "Name"
+    },
+    {
+      "index": 11,
+      "name": "Question"
     }
   ]
 }

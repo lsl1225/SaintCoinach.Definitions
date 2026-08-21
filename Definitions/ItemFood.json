@@ -2,59 +2,91 @@
   "sheet": "ItemFood",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "Max"
-      }
-    },
-    {
-      "index": 3,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "MaxHQ"
-      }
-    },
-    {
-      "index": 6,
       "name": "EXPBonusPercent"
     },
     {
-      "index": 7,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "BaseParam",
-        "converter": {
-          "type": "link",
-          "target": "BaseParam"
-        }
+      "index": 1,
+      "name": "BaseParam[0]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
       }
+    },
+    {
+      "index": 2,
+      "name": "IsRelative[0]"
+    },
+    {
+      "index": 3,
+      "name": "Value[0]"
+    },
+    {
+      "index": 4,
+      "name": "Max[0]"
+    },
+    {
+      "index": 5,
+      "name": "ValueHQ[0]"
+    },
+    {
+      "index": 6,
+      "name": "MaxHQ[0]"
+    },
+    {
+      "index": 7,
+      "name": "BaseParam[1]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 8,
+      "name": "IsRelative[1]"
+    },
+    {
+      "index": 9,
+      "name": "Value[1]"
     },
     {
       "index": 10,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "Value"
-      }
+      "name": "Max[1]"
+    },
+    {
+      "index": 11,
+      "name": "ValueHQ[1]"
+    },
+    {
+      "index": 12,
+      "name": "MaxHQ[1]"
     },
     {
       "index": 13,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "ValueHQ"
+      "name": "BaseParam[2]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
       }
     },
     {
+      "index": 14,
+      "name": "IsRelative[2]"
+    },
+    {
+      "index": 15,
+      "name": "Value[2]"
+    },
+    {
       "index": 16,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "IsRelative"
-      }
+      "name": "Max[2]"
+    },
+    {
+      "index": 17,
+      "name": "ValueHQ[2]"
+    },
+    {
+      "index": 18,
+      "name": "MaxHQ[2]"
     }
   ]
 }

@@ -15,162 +15,6 @@
     },
     {
       "index": 3,
-      "name": "CanQueueForDuty"
-    },
-    {
-      "index": 4,
-      "name": "NameEnglish"
-    },
-    {
-      "index": 5,
-      "name": "ItemSoulCrystal",
-      "converter": {
-        "type": "link",
-        "target": "Item"
-      }
-    },
-    {
-      "index": 6,
-      "name": "UnlockQuest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 7,
-      "name": "RelicQuest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 8,
-      "name": "Prerequisite",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 9,
-      "name": "ReplaceAction",
-      "converter": {
-        "type": "link",
-        "target": "ReplaceAction"
-      }
-    },
-    {
-      "index": 10,
-      "name": "ReplaceActionPvP",
-      "converter": {
-        "type": "link",
-        "target": "ReplaceAction"
-      }
-    },
-    {
-      "index": 11,
-      "name": "Unknown9"
-    },
-    {
-      "index": 12,
-      "name": "ItemStartingWeaponMainHand",
-      "converter": {
-        "type": "link",
-        "target": "Item"
-      }
-    },
-    {
-      "index": 13,
-      "name": "ItemStartingWeaponOffHand",
-      "converter": {
-        "type": "link",
-        "target": "Item"
-      }
-    },
-    {
-      "index": 14,
-      "name": "ModifierHitPoints"
-    },
-    {
-      "index": 15,
-      "name": "ModifierManaPoints"
-    },
-    {
-      "index": 16,
-      "name": "ModifierStrength"
-    },
-    {
-      "index": 17,
-      "name": "ModifierVitality"
-    },
-    {
-      "index": 18,
-      "name": "ModifierDexterity"
-    },
-    {
-      "index": 19,
-      "name": "ModifierIntelligence"
-    },
-    {
-      "index": 20,
-      "name": "ModifierMind"
-    },
-    {
-      "index": 21,
-      "name": "ModifierPiety"
-    },
-    {
-      "index": 22,
-      "name": "Unknown2"
-    },
-    {
-      "index": 23,
-      "name": "Unknown3"
-    },
-    {
-      "index": 24,
-      "name": "Unknown4"
-    },
-    {
-      "index": 25,
-      "name": "Unknown5"
-    },
-    {
-      "index": 26,
-      "name": "Unknown6"
-    },
-    {
-      "index": 27,
-      "name": "Unknown7"
-    },
-    {
-      "index": 28,
-      "name": "LimitBreak1",
-      "converter": {
-        "type": "link",
-        "target": "Action"
-      }
-    },
-    {
-      "index": 29,
-      "name": "LimitBreak2",
-      "converter": {
-        "type": "link",
-        "target": "Action"
-      }
-    },
-    {
-      "index": 30,
-      "name": "LimitBreak3",
-      "converter": {
-        "type": "link",
-        "target": "Action"
-      }
-    },
-    {
-      "index": 31,
       "name": "ClassJobCategory",
       "converter": {
         "type": "link",
@@ -178,15 +22,103 @@
       }
     },
     {
-      "index": 32,
+      "index": 4,
+      "name": "ExpArrayIndex"
+    },
+    {
+      "index": 5,
+      "name": "BattleClassIndex"
+    },
+    {
+      "index": 6,
       "name": "Unknown8"
     },
     {
-      "index": 33,
+      "index": 7,
       "name": "JobIndex"
     },
     {
-      "index": 34,
+      "index": 8,
+      "name": "DohDolJobIndex"
+    },
+    {
+      "index": 9,
+      "name": "ModifierHitPoints"
+    },
+    {
+      "index": 10,
+      "name": "ModifierManaPoints"
+    },
+    {
+      "index": 11,
+      "name": "ModifierStrength"
+    },
+    {
+      "index": 12,
+      "name": "ModifierVitality"
+    },
+    {
+      "index": 13,
+      "name": "ModifierDexterity"
+    },
+    {
+      "index": 14,
+      "name": "ModifierIntelligence"
+    },
+    {
+      "index": 15,
+      "name": "ModifierMind"
+    },
+    {
+      "index": 16,
+      "name": "ModifierPiety"
+    },
+    {
+      "index": 17,
+      "name": "Unknown2"
+    },
+    {
+      "index": 18,
+      "name": "Unknown3"
+    },
+    {
+      "index": 19,
+      "name": "Unknown4"
+    },
+    {
+      "index": 20,
+      "name": "Unknown5"
+    },
+    {
+      "index": 21,
+      "name": "Unknown6"
+    },
+    {
+      "index": 22,
+      "name": "Unknown7"
+    },
+    {
+      "index": 23,
+      "name": "ReplaceAction",
+      "converter": {
+        "type": "link",
+        "target": "ReplaceAction"
+      }
+    },
+    {
+      "index": 24,
+      "name": "ReplaceActionPvP",
+      "converter": {
+        "type": "link",
+        "target": "ReplaceAction"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Unknown9"
+    },
+    {
+      "index": 26,
       "name": "PvPBaseParamValue",
       "converter": {
         "type": "link",
@@ -194,11 +126,11 @@
       }
     },
     {
-      "index": 35,
+      "index": 27,
       "name": "PvPActionSortRow"
     },
     {
-      "index": 36,
+      "index": 28,
       "name": "PvPInitialSelectActionTrait",
       "converter": {
         "type": "link",
@@ -206,7 +138,7 @@
       }
     },
     {
-      "index": 37,
+      "index": 29,
       "name": "ClassJobParent",
       "converter": {
         "type": "link",
@@ -214,11 +146,31 @@
       }
     },
     {
-      "index": 38,
+      "index": 30,
+      "name": "NameEnglish"
+    },
+    {
+      "index": 31,
+      "name": "ItemStartingWeaponMainHand",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 32,
+      "name": "ItemStartingWeaponOffHand",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 33,
       "name": "Role"
     },
     {
-      "index": 39,
+      "index": 34,
       "name": "StartingTown",
       "converter": {
         "type": "link",
@@ -226,39 +178,7 @@
       }
     },
     {
-      "index": 40,
-      "name": "PrimaryStat"
-    },
-    {
-      "index": 41,
-      "name": "UIPriority"
-    },
-    {
-      "index": 42,
-      "name": "StartingLevel"
-    },
-    {
-      "index": 43,
-      "name": "PartyBonus"
-    },
-    {
-      "index": 44,
-      "name": "JobType"
-    },
-    {
-      "index": 45,
-      "name": "ExpArrayIndex"
-    },
-    {
-      "index": 46,
-      "name": "BattleClassIndex"
-    },
-    {
-      "index": 47,
-      "name": "DohDolJobIndex"
-    },
-    {
-      "index": 48,
+      "index": 35,
       "name": "MonsterNote",
       "converter": {
         "type": "link",
@@ -266,12 +186,92 @@
       }
     },
     {
-      "index": 49,
+      "index": 36,
+      "name": "PrimaryStat"
+    },
+    {
+      "index": 37,
+      "name": "LimitBreak1",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 38,
+      "name": "LimitBreak2",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 39,
+      "name": "LimitBreak3",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 40,
+      "name": "UIPriority"
+    },
+    {
+      "index": 41,
+      "name": "ItemSoulCrystal",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 42,
+      "name": "UnlockQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 43,
+      "name": "RelicQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 44,
+      "name": "Prerequisite",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 45,
+      "name": "StartingLevel"
+    },
+    {
+      "index": 46,
+      "name": "PartyBonus"
+    },
+    {
+      "index": 47,
+      "name": "JobType"
+    },
+    {
+      "index": 48,
       "name": "IsLimitedJob"
     },
     {
-      "index": 50,
+      "index": 49,
       "name": "CanWearShield"
+    },
+    {
+      "index": 50,
+      "name": "CanQueueForDuty"
     }
   ]
 }

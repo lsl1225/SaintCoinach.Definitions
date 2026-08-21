@@ -2,6 +2,14 @@
   "sheet": "MKDData",
   "definitions": [
     {
+      "name": "Unknown14"
+    },
+    {
+      "index": 1,
+      "name": "Unknown9"
+    },
+    {
+      "index": 2,
       "name": "ZoneName",
       "converter": {
         "type": "link",
@@ -9,20 +17,8 @@
       }
     },
     {
-      "index": 1,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "CurrencyItem",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
-      }
-    },
-    {
       "index": 3,
-      "name": "CipherItem",
+      "name": "CurrencyItem[0]",
       "converter": {
         "type": "link",
         "target": "Item"
@@ -30,23 +26,27 @@
     },
     {
       "index": 4,
-      "name": "Unknown10"
+      "name": "CurrencyName[0]",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
     },
     {
       "index": 5,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "CurrencyName",
-        "converter": {
-          "type": "link",
-          "target": "Addon"
-        }
+      "name": "Unknown11"
+    },
+    {
+      "index": 6,
+      "name": "CurrencyItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
       "index": 7,
-      "name": "CipherName",
+      "name": "CurrencyName[1]",
       "converter": {
         "type": "link",
         "target": "Addon"
@@ -54,15 +54,23 @@
     },
     {
       "index": 8,
-      "name": "Unknown8"
+      "name": "Unknown12"
     },
     {
       "index": 9,
-      "name": "Unknown11"
+      "name": "CipherItem",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
     },
     {
       "index": 10,
-      "name": "Unknown12"
+      "name": "CipherName",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
     },
     {
       "index": 11,
@@ -74,15 +82,15 @@
     },
     {
       "index": 12,
-      "name": "Unknown13"
+      "name": "Unknown10"
     },
     {
       "index": 13,
-      "name": "Unknown14"
+      "name": "Unknown8"
     },
     {
       "index": 14,
-      "name": "Unknown9"
+      "name": "Unknown13"
     }
   ]
 }

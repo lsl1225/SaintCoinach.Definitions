@@ -3,18 +3,18 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
-      "name": "Description"
-    },
-    {
-      "index": 2,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
+    },
+    {
+      "index": 1,
+      "name": "Name"
+    },
+    {
+      "index": 2,
+      "name": "Description"
     }
   ]
 }

@@ -2,22 +2,6 @@
   "sheet": "BNpcBase",
   "definitions": [
     {
-      "name": "Scale"
-    },
-    {
-      "index": 1,
-      "name": "Unknown11"
-    },
-    {
-      "index": 2,
-      "name": "ArrayEventHandler",
-      "converter": {
-        "type": "link",
-        "target": "ArrayEventHandler"
-      }
-    },
-    {
-      "index": 3,
       "name": "Behavior",
       "converter": {
         "type": "link",
@@ -25,39 +9,7 @@
       }
     },
     {
-      "index": 4,
-      "name": "ModelChara",
-      "converter": {
-        "type": "link",
-        "target": "ModelChara"
-      }
-    },
-    {
-      "index": 5,
-      "name": "BNpcCustomize",
-      "converter": {
-        "type": "link",
-        "target": "BNpcCustomize"
-      }
-    },
-    {
-      "index": 6,
-      "name": "NpcEquip",
-      "converter": {
-        "type": "link",
-        "target": "NpcEquip"
-      }
-    },
-    {
-      "index": 7,
-      "name": "Special"
-    },
-    {
-      "index": 8,
-      "name": "Unknown9"
-    },
-    {
-      "index": 9,
+      "index": 1,
       "name": "Battalion",
       "converter": {
         "type": "link",
@@ -65,7 +17,7 @@
       }
     },
     {
-      "index": 10,
+      "index": 2,
       "name": "LinkRace",
       "converter": {
         "type": "link",
@@ -73,19 +25,63 @@
       }
     },
     {
-      "index": 11,
+      "index": 3,
       "name": "Rank"
     },
     {
-      "index": 12,
+      "index": 4,
+      "name": "Scale"
+    },
+    {
+      "index": 5,
+      "name": "ModelChara",
+      "converter": {
+        "type": "link",
+        "target": "ModelChara"
+      }
+    },
+    {
+      "index": 6,
+      "name": "BNpcCustomize",
+      "converter": {
+        "type": "link",
+        "target": "BNpcCustomize"
+      }
+    },
+    {
+      "index": 7,
+      "name": "NpcEquip",
+      "converter": {
+        "type": "link",
+        "target": "NpcEquip"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Special"
+    },
+    {
+      "index": 9,
       "name": "SEPack"
     },
     {
-      "index": 13,
+      "index": 10,
+      "name": "IsOmnidirectional"
+    },
+    {
+      "index": 11,
+      "name": "ArrayEventHandler",
+      "converter": {
+        "type": "link",
+        "target": "ArrayEventHandler"
+      }
+    },
+    {
+      "index": 12,
       "name": "Unknown0"
     },
     {
-      "index": 14,
+      "index": 13,
       "name": "BNpcParts",
       "converter": {
         "type": "link",
@@ -93,52 +89,56 @@
       }
     },
     {
-      "index": 15,
+      "index": 14,
       "name": "Unknown1"
     },
     {
-      "index": 16,
-      "name": "Unknown2"
-    },
-    {
-      "index": 17,
-      "name": "Unknown3"
-    },
-    {
-      "index": 18,
-      "name": "Unknown10"
-    },
-    {
-      "index": 19,
-      "name": "Unknown4"
-    },
-    {
-      "index": 20,
-      "name": "IsOmnidirectional"
-    },
-    {
-      "index": 21,
+      "index": 15,
       "name": "Unknown6"
     },
     {
-      "index": 22,
+      "index": 16,
       "name": "IsTargetLine"
     },
     {
-      "index": 23,
+      "index": 17,
       "name": "IsDisplayLevel"
     },
     {
-      "index": 24,
+      "index": 18,
       "name": "Unknown7"
     },
     {
-      "index": 25,
+      "index": 19,
+      "name": "Unknown2"
+    },
+    {
+      "index": 20,
+      "name": "Unknown3"
+    },
+    {
+      "index": 21,
+      "name": "Unknown10"
+    },
+    {
+      "index": 22,
+      "name": "Unknown9"
+    },
+    {
+      "index": 23,
+      "name": "Unknown4"
+    },
+    {
+      "index": 24,
       "name": "Unknown_70"
     },
     {
-      "index": 26,
+      "index": 25,
       "name": "Unknown8"
+    },
+    {
+      "index": 26,
+      "name": "Unknown11"
     }
   ]
 }

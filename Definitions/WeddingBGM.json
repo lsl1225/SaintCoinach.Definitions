@@ -3,15 +3,15 @@
   "defaultColumn": "Song",
   "definitions": [
     {
-      "name": "SongName"
-    },
-    {
-      "index": 1,
       "name": "Song",
       "converter": {
         "type": "link",
         "target": "BGM"
       }
+    },
+    {
+      "index": 1,
+      "name": "SongName"
     }
   ]
 }

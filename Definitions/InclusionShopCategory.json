@@ -7,18 +7,18 @@
     },
     {
       "index": 1,
-      "name": "InclusionShopSeries",
-      "converter": {
-        "type": "link",
-        "target": "InclusionShopSeries"
-      }
-    },
-    {
-      "index": 2,
       "name": "ClassJobCategory",
       "converter": {
         "type": "link",
         "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 2,
+      "name": "InclusionShopSeries",
+      "converter": {
+        "type": "link",
+        "target": "InclusionShopSeries"
       }
     }
   ]

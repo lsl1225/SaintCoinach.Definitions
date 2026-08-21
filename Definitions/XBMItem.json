@@ -2,27 +2,31 @@
   "sheet": "XBMItem",
   "definitions": [
     {
-      "name": "Unknown0"
+      "name": "Type",
+      "converter": {
+        "type": "link",
+        "target": "XBMItemType"
+      }
     },
     {
       "index": 1,
-      "name": "Unknown1"
+      "name": "Unknown11"
     },
     {
       "index": 2,
-      "name": "Unknown2"
+      "name": "Unknown12"
     },
     {
       "index": 3,
-      "name": "Unknown3"
+      "name": "Unknown0"
     },
     {
       "index": 4,
-      "name": "Unknown4"
+      "name": "Unknown5"
     },
     {
       "index": 5,
-      "name": "Unknown5"
+      "name": "Unknown1"
     },
     {
       "index": 6,
@@ -46,19 +50,15 @@
     },
     {
       "index": 11,
-      "name": "Unknown11"
+      "name": "Unknown2"
     },
     {
       "index": 12,
-      "name": "Unknown12"
+      "name": "Unknown3"
     },
     {
       "index": 13,
-      "name": "Type",
-      "converter": {
-        "type": "link",
-        "target": "XBMItemType"
-      }
+      "name": "Unknown4"
     }
   ]
 }

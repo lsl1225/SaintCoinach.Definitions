@@ -2,18 +2,18 @@
   "sheet": "Marker",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "SortOrder"
+    },
+    {
+      "index": 2,
+      "name": "Name"
     }
   ]
 }

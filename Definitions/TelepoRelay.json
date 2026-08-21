@@ -2,30 +2,183 @@
   "sheet": "TelepoRelay",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "EnterTerritory",
-            "converter": {
-              "type": "link",
-              "target": "TerritoryType"
-            }
-          },
-          {
-            "name": "ExitTerritory",
-            "converter": {
-              "type": "link",
-              "target": "TerritoryType"
-            }
-          },
-          {
-            "name": "Cost"
-          }
-        ]
+      "name": "EnterTerritory[0]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
       }
+    },
+    {
+      "index": 1,
+      "name": "EnterTerritory[1]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "EnterTerritory[2]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 3,
+      "name": "EnterTerritory[3]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 4,
+      "name": "EnterTerritory[4]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 5,
+      "name": "EnterTerritory[5]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "EnterTerritory[6]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 7,
+      "name": "EnterTerritory[7]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 8,
+      "name": "EnterTerritory[8]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ExitTerritory[0]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 10,
+      "name": "ExitTerritory[1]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ExitTerritory[2]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 12,
+      "name": "ExitTerritory[3]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 13,
+      "name": "ExitTerritory[4]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 14,
+      "name": "ExitTerritory[5]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ExitTerritory[6]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 16,
+      "name": "ExitTerritory[7]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 17,
+      "name": "ExitTerritory[8]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Cost[0]"
+    },
+    {
+      "index": 19,
+      "name": "Cost[1]"
+    },
+    {
+      "index": 20,
+      "name": "Cost[2]"
+    },
+    {
+      "index": 21,
+      "name": "Cost[3]"
+    },
+    {
+      "index": 22,
+      "name": "Cost[4]"
+    },
+    {
+      "index": 23,
+      "name": "Cost[5]"
+    },
+    {
+      "index": 24,
+      "name": "Cost[6]"
+    },
+    {
+      "index": 25,
+      "name": "Cost[7]"
+    },
+    {
+      "index": 26,
+      "name": "Cost[8]"
     },
     {
       "index": 27,

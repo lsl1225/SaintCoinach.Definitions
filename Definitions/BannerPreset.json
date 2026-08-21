@@ -26,50 +26,42 @@
     },
     {
       "index": 6,
-      "name": "AnimationProgress"
-    },
-    {
-      "index": 7,
-      "name": "HeadDirectionX"
-    },
-    {
-      "index": 8,
-      "name": "HeadDirectionY"
-    },
-    {
-      "index": 9,
-      "name": "EyeDirectionX"
-    },
-    {
-      "index": 10,
-      "name": "EyeDirectionY"
-    },
-    {
-      "index": 11,
-      "name": "Expression"
-    },
-    {
-      "index": 12,
-      "name": "BannerTimeline"
-    },
-    {
-      "index": 13,
       "name": "ImageRotation"
     },
     {
-      "index": 14,
-      "name": "DirectionalLightingVerticalAngle"
-    },
-    {
-      "index": 15,
-      "name": "DirectionalLightingHorizontalAngle"
-    },
-    {
-      "index": 16,
+      "index": 7,
       "name": "CameraZoom"
     },
     {
-      "index": 17,
+      "index": 8,
+      "name": "BannerTimeline"
+    },
+    {
+      "index": 9,
+      "name": "AnimationProgress"
+    },
+    {
+      "index": 10,
+      "name": "Expression"
+    },
+    {
+      "index": 11,
+      "name": "HeadDirectionX"
+    },
+    {
+      "index": 12,
+      "name": "HeadDirectionY"
+    },
+    {
+      "index": 13,
+      "name": "EyeDirectionX"
+    },
+    {
+      "index": 14,
+      "name": "EyeDirectionY"
+    },
+    {
+      "index": 15,
       "name": "BannerDesignPreset",
       "converter": {
         "type": "link",
@@ -77,20 +69,28 @@
       }
     },
     {
-      "index": 18,
+      "index": 16,
       "name": "DirectionalLightingColorRed"
     },
     {
-      "index": 19,
+      "index": 17,
       "name": "DirectionalLightingColorGreen"
     },
     {
-      "index": 20,
+      "index": 18,
       "name": "DirectionalLightingColorBlue"
     },
     {
-      "index": 21,
+      "index": 19,
       "name": "DirectionalLightingBrightness"
+    },
+    {
+      "index": 20,
+      "name": "DirectionalLightingVerticalAngle"
+    },
+    {
+      "index": 21,
+      "name": "DirectionalLightingHorizontalAngle"
     },
     {
       "index": 22,

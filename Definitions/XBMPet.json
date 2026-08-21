@@ -2,27 +2,27 @@
   "sheet": "XBMPet",
   "definitions": [
     {
-      "name": "Unknown0"
-    },
-    {
-      "index": 1,
-      "name": "Unknown1"
-    },
-    {
-      "index": 2,
-      "name": "Unknown2"
-    },
-    {
-      "index": 3,
-      "name": "Unknown3"
-    },
-    {
-      "index": 4,
       "name": "Pet",
       "converter": {
         "type": "link",
         "target": "Pet"
       }
+    },
+    {
+      "index": 1,
+      "name": "Unknown7"
+    },
+    {
+      "index": 2,
+      "name": "Unknown8"
+    },
+    {
+      "index": 3,
+      "name": "Unknown9"
+    },
+    {
+      "index": 4,
+      "name": "Unknown3"
     },
     {
       "index": 5,
@@ -34,6 +34,10 @@
     },
     {
       "index": 6,
+      "name": "LocationKey"
+    },
+    {
+      "index": 7,
       "name": "Location",
       "converter": {
         "type": "complexlink",
@@ -56,28 +60,60 @@
       }
     },
     {
-      "index": 7,
-      "name": "Unknown7"
-    },
-    {
       "index": 8,
-      "name": "Unknown8"
+      "name": "Unknown0"
     },
     {
       "index": 9,
-      "name": "Unknown9"
+      "name": "Unknown1"
     },
     {
       "index": 10,
-      "name": "LocationKey"
+      "name": "Unknown2"
     },
     {
       "index": 11,
-      "type": "repeat",
-      "count": 11,
-      "definition": {
-        "name": "Unknown11"
-      }
+      "name": "Unknown11[0]"
+    },
+    {
+      "index": 12,
+      "name": "Unknown11[1]"
+    },
+    {
+      "index": 13,
+      "name": "Unknown11[2]"
+    },
+    {
+      "index": 14,
+      "name": "Unknown11[3]"
+    },
+    {
+      "index": 15,
+      "name": "Unknown11[4]"
+    },
+    {
+      "index": 16,
+      "name": "Unknown11[5]"
+    },
+    {
+      "index": 17,
+      "name": "Unknown11[6]"
+    },
+    {
+      "index": 18,
+      "name": "Unknown11[7]"
+    },
+    {
+      "index": 19,
+      "name": "Unknown11[8]"
+    },
+    {
+      "index": 20,
+      "name": "Unknown11[9]"
+    },
+    {
+      "index": 21,
+      "name": "Unknown11[10]"
     }
   ]
 }

@@ -3,17 +3,29 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Type",
+      "converter": {
+        "type": "link",
+        "target": "PublicContentType"
+      }
     },
     {
       "index": 1,
+      "name": "TimeLimit"
+    },
+    {
+      "index": 2,
       "name": "MapIcon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 2,
+      "index": 3,
+      "name": "Name"
+    },
+    {
+      "index": 4,
       "name": "TextDataStart",
       "converter": {
         "type": "link",
@@ -21,7 +33,7 @@
       }
     },
     {
-      "index": 3,
+      "index": 5,
       "name": "TextDataEnd",
       "converter": {
         "type": "link",
@@ -29,7 +41,7 @@
       }
     },
     {
-      "index": 4,
+      "index": 6,
       "name": "StartCutscene",
       "converter": {
         "type": "link",
@@ -37,24 +49,12 @@
       }
     },
     {
-      "index": 5,
+      "index": 7,
       "name": "LGBEventRange"
     },
     {
-      "index": 6,
-      "name": "LGBPopRange"
-    },
-    {
-      "index": 7,
-      "name": "EndCutscene",
-      "converter": {
-        "type": "link",
-        "target": "PublicContentCutscene"
-      }
-    },
-    {
       "index": 8,
-      "name": "TimeLimit"
+      "name": "LGBPopRange"
     },
     {
       "index": 9,
@@ -89,35 +89,35 @@
     },
     {
       "index": 11,
-      "name": "Unknown0"
+      "name": "Unknown4"
     },
     {
       "index": 12,
-      "name": "Unknown1"
+      "name": "Unknown0"
     },
     {
       "index": 13,
-      "name": "Unknown2"
+      "name": "Unknown1"
     },
     {
       "index": 14,
-      "name": "Unknown3"
+      "name": "Unknown2"
     },
     {
       "index": 15,
-      "name": "Unknown5"
+      "name": "Unknown3"
     },
     {
       "index": 16,
-      "name": "Type",
+      "name": "EndCutscene",
       "converter": {
         "type": "link",
-        "target": "PublicContentType"
+        "target": "PublicContentCutscene"
       }
     },
     {
       "index": 17,
-      "name": "Unknown4"
+      "name": "Unknown5"
     }
   ]
 }

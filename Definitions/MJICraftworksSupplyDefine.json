@@ -2,11 +2,11 @@
   "sheet": "MJICraftworksSupplyDefine",
   "definitions": [
     {
-      "name": "Ratio"
+      "name": "Supply"
     },
     {
       "index": 1,
-      "name": "Supply"
+      "name": "Ratio"
     }
   ]
 }

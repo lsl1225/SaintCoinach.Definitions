@@ -10,19 +10,19 @@
     },
     {
       "index": 1,
-      "name": "Status"
-    },
-    {
-      "index": 2,
       "name": "UseField"
     },
     {
-      "index": 3,
+      "index": 2,
       "name": "UseTraining"
     },
     {
-      "index": 4,
+      "index": 3,
       "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Status"
     }
   ]
 }

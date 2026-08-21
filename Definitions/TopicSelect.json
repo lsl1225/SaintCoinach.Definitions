@@ -7,31 +7,135 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "name": "Shop",
-        "converter": {
-          "type": "multiref",
-          "targets": [
-            "SpecialShop",
-            "GilShop",
-            "PreHandler"
-          ]
-        }
+      "name": "Unknown2"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Shop[0]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "name": "Shop[1]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "name": "Shop[2]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "Shop[3]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "name": "Shop[4]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "name": "Shop[5]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "name": "Shop[6]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
       }
     },
     {
       "index": 11,
-      "name": "Unknown0"
+      "name": "Shop[7]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
     },
     {
       "index": 12,
-      "name": "Unknown1"
+      "name": "Shop[8]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
     },
     {
       "index": 13,
-      "name": "Unknown2"
+      "name": "Shop[9]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "SpecialShop",
+          "GilShop",
+          "PreHandler"
+        ]
+      }
     }
   ]
 }

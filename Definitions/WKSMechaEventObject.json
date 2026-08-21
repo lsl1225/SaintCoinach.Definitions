@@ -2,7 +2,7 @@
   "sheet": "WKSMechaEventObject",
   "definitions": [
     {
-      "name": "Unknown0"
+      "name": "Unknown3"
     },
     {
       "index": 1,
@@ -10,19 +10,19 @@
     },
     {
       "index": 2,
-      "name": "Unknown2"
+      "name": "Unknown0"
     },
     {
       "index": 3,
-      "name": "Unknown5"
+      "name": "Unknown2"
     },
     {
       "index": 4,
-      "name": "Unknown6"
+      "name": "Unknown5"
     },
     {
       "index": 5,
-      "name": "Unknown3"
+      "name": "Unknown6"
     },
     {
       "index": 6,

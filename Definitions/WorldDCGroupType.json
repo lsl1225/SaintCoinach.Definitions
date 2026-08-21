@@ -7,15 +7,15 @@
     },
     {
       "index": 1,
+      "name": "NeolobbyId"
+    },
+    {
+      "index": 2,
       "name": "PvPRegion",
       "converter": {
         "type": "link",
         "target": "WorldPhysicalDC"
       }
-    },
-    {
-      "index": 2,
-      "name": "NeolobbyId"
     },
     {
       "index": 3,

@@ -11,78 +11,6 @@
     },
     {
       "index": 2,
-      "name": "QuestRequirement",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 3,
-      "name": "CRP",
-      "converter": {
-        "type": "link",
-        "target": "CraftAction"
-      }
-    },
-    {
-      "index": 4,
-      "name": "BSM",
-      "converter": {
-        "type": "link",
-        "target": "CraftAction"
-      }
-    },
-    {
-      "index": 5,
-      "name": "ARM",
-      "converter": {
-        "type": "link",
-        "target": "CraftAction"
-      }
-    },
-    {
-      "index": 6,
-      "name": "GSM",
-      "converter": {
-        "type": "link",
-        "target": "CraftAction"
-      }
-    },
-    {
-      "index": 7,
-      "name": "LTW",
-      "converter": {
-        "type": "link",
-        "target": "CraftAction"
-      }
-    },
-    {
-      "index": 8,
-      "name": "WVR",
-      "converter": {
-        "type": "link",
-        "target": "CraftAction"
-      }
-    },
-    {
-      "index": 9,
-      "name": "ALC",
-      "converter": {
-        "type": "link",
-        "target": "CraftAction"
-      }
-    },
-    {
-      "index": 10,
-      "name": "CUL",
-      "converter": {
-        "type": "link",
-        "target": "CraftAction"
-      }
-    },
-    {
-      "index": 11,
       "name": "AnimationStart",
       "converter": {
         "type": "link",
@@ -90,7 +18,7 @@
       }
     },
     {
-      "index": 12,
+      "index": 3,
       "name": "AnimationEnd",
       "converter": {
         "type": "link",
@@ -98,38 +26,14 @@
       }
     },
     {
-      "index": 13,
+      "index": 4,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 14,
-      "name": "RequiredStatus",
-      "converter": {
-        "type": "link",
-        "target": "Status"
-      }
-    },
-    {
-      "index": 15,
-      "name": "ClassJobCategory",
-      "converter": {
-        "type": "link",
-        "target": "ClassJobCategory"
-      }
-    },
-    {
-      "index": 16,
-      "name": "ClassJobLevel"
-    },
-    {
-      "index": 17,
-      "name": "Cost"
-    },
-    {
-      "index": 18,
+      "index": 5,
       "name": "ClassJob",
       "converter": {
         "type": "link",
@@ -137,8 +41,104 @@
       }
     },
     {
-      "index": 19,
+      "index": 6,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ClassJobLevel"
+    },
+    {
+      "index": 8,
+      "name": "QuestRequirement",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 9,
       "name": "Specialist"
+    },
+    {
+      "index": 10,
+      "name": "RequiredStatus",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Cost"
+    },
+    {
+      "index": 12,
+      "name": "CRP",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 13,
+      "name": "BSM",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 14,
+      "name": "ARM",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 15,
+      "name": "GSM",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 16,
+      "name": "LTW",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 17,
+      "name": "WVR",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 18,
+      "name": "ALC",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
+    },
+    {
+      "index": 19,
+      "name": "CUL",
+      "converter": {
+        "type": "link",
+        "target": "CraftAction"
+      }
     }
   ]
 }

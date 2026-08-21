@@ -2,13 +2,65 @@
   "sheet": "PlantPotFlowerSeed",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "name": "SeedIcon",
-        "converter": {
-          "type": "icon"
-        }
+      "name": "SeedIcon[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SeedIcon[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SeedIcon[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "SeedIcon[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "SeedIcon[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "SeedIcon[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "SeedIcon[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "SeedIcon[7]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 8,
+      "name": "SeedIcon[8]",
+      "converter": {
+        "type": "icon"
       }
     }
   ]

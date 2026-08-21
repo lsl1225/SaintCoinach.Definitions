@@ -3,22 +3,6 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "EmergencyProblem",
-        "converter": {
-          "type": "link",
-          "target": "WKSEmergencyProblem"
-        }
-      }
-    },
-    {
-      "index": 2,
-      "name": "WKSEmergencyMissionRowId"
-    },
-    {
-      "index": 3,
       "name": "Name",
       "converter": {
         "type": "link",
@@ -26,12 +10,32 @@
       }
     },
     {
-      "index": 4,
+      "index": 1,
       "name": "WKSEmergencyWarningText",
       "converter": {
         "type": "link",
         "target": "WKSEmergencyInfoText"
       }
+    },
+    {
+      "index": 2,
+      "name": "EmergencyProblem[0]",
+      "converter": {
+        "type": "link",
+        "target": "WKSEmergencyProblem"
+      }
+    },
+    {
+      "index": 3,
+      "name": "EmergencyProblem[1]",
+      "converter": {
+        "type": "link",
+        "target": "WKSEmergencyProblem"
+      }
+    },
+    {
+      "index": 4,
+      "name": "WKSEmergencyMissionRowId"
     }
   ]
 }

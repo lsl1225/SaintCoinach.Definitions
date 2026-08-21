@@ -6,15 +6,15 @@
     },
     {
       "index": 1,
-      "name": "GeneralGilReward"
-    },
-    {
-      "index": 2,
       "name": "FirstAlliedSealsReward"
     },
     {
-      "index": 3,
+      "index": 2,
       "name": "FirstTomestonesReward"
+    },
+    {
+      "index": 3,
+      "name": "GeneralGilReward"
     },
     {
       "index": 4,

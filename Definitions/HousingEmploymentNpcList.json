@@ -3,6 +3,14 @@
   "defaultColumn": "Race",
   "definitions": [
     {
+      "name": "Race",
+      "converter": {
+        "type": "link",
+        "target": "HousingEmploymentNpcRace"
+      }
+    },
+    {
+      "index": 1,
       "name": "MaleENpcBase",
       "converter": {
         "type": "link",
@@ -10,19 +18,11 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "name": "FemaleENpcBase",
       "converter": {
         "type": "link",
         "target": "ENpcBase"
-      }
-    },
-    {
-      "index": 2,
-      "name": "Race",
-      "converter": {
-        "type": "link",
-        "target": "HousingEmploymentNpcRace"
       }
     }
   ]

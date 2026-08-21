@@ -2,57 +2,67 @@
   "sheet": "SatisfactionSupplyReward",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "RewardCurrency"
-          },
-          {
-            "name": "QuantityLow"
-          },
-          {
-            "name": "QuantityMid"
-          },
-          {
-            "name": "QuantityHigh"
-          }
-        ]
-      }
-    },
-    {
-      "index": 8,
-      "name": "SatisfactionLow"
-    },
-    {
-      "index": 9,
-      "name": "SatisfactionMid"
-    },
-    {
-      "index": 10,
-      "name": "SatisfactionHigh"
-    },
-    {
-      "index": 11,
-      "name": "GilLow"
-    },
-    {
-      "index": 12,
-      "name": "GilMid"
-    },
-    {
-      "index": 13,
-      "name": "GilHigh"
-    },
-    {
-      "index": 14,
       "name": "BonusMultiplier"
     },
     {
-      "index": 15,
+      "index": 1,
+      "name": "RewardCurrency[0]"
+    },
+    {
+      "index": 2,
+      "name": "QuantityLow[0]"
+    },
+    {
+      "index": 3,
+      "name": "QuantityMid[0]"
+    },
+    {
+      "index": 4,
+      "name": "QuantityHigh[0]"
+    },
+    {
+      "index": 5,
+      "name": "RewardCurrency[1]"
+    },
+    {
+      "index": 6,
+      "name": "QuantityLow[1]"
+    },
+    {
+      "index": 7,
+      "name": "QuantityMid[1]"
+    },
+    {
+      "index": 8,
+      "name": "QuantityHigh[1]"
+    },
+    {
+      "index": 9,
       "name": "MinLevelForSecondReward"
+    },
+    {
+      "index": 10,
+      "name": "SatisfactionLow"
+    },
+    {
+      "index": 11,
+      "name": "SatisfactionMid"
+    },
+    {
+      "index": 12,
+      "name": "SatisfactionHigh"
+    },
+    {
+      "index": 13,
+      "name": "GilLow"
+    },
+    {
+      "index": 14,
+      "name": "GilMid"
+    },
+    {
+      "index": 15,
+      "name": "GilHigh"
     }
   ]
 }

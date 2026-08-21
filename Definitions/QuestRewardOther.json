@@ -3,14 +3,14 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
+    },
+    {
+      "index": 1,
+      "name": "Name"
     }
   ]
 }

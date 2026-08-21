@@ -2,10 +2,14 @@
   "sheet": "HousingExterior",
   "definitions": [
     {
-      "name": "Model"
+      "name": "Unknown0"
     },
     {
       "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
       "name": "PlaceName",
       "converter": {
         "type": "link",
@@ -13,16 +17,12 @@
       }
     },
     {
-      "index": 2,
-      "name": "Unknown0"
-    },
-    {
       "index": 3,
-      "name": "Unknown1"
+      "name": "HousingSize"
     },
     {
       "index": 4,
-      "name": "HousingSize"
+      "name": "Model"
     }
   ]
 }

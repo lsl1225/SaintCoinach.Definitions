@@ -3,22 +3,15 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Unknown1"
     },
     {
       "index": 1,
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
+      "name": "List"
     },
     {
       "index": 2,
-      "name": "TextIcon",
-      "converter": {
-        "type": "link",
-        "target": "Addon"
-      }
+      "name": "Unknown2"
     },
     {
       "index": 3,
@@ -26,15 +19,22 @@
     },
     {
       "index": 4,
-      "name": "Unknown1"
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 5,
-      "name": "List"
+      "name": "TextIcon",
+      "converter": {
+        "type": "link",
+        "target": "Addon"
+      }
     },
     {
       "index": 6,
-      "name": "Unknown2"
+      "name": "Name"
     }
   ]
 }

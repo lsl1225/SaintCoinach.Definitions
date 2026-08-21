@@ -2,18 +2,74 @@
   "sheet": "MandervilleWeaponEnhance",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Materia",
-        "converter": {
-          "type": "link",
-          "target": "Materia"
-        }
+      "name": "Unknown7"
+    },
+    {
+      "index": 1,
+      "name": "Materia[0]",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
       }
     },
     {
+      "index": 2,
+      "name": "MateriaBigValueIndex[0]"
+    },
+    {
+      "index": 3,
+      "name": "MateriaSmallValueIndex[0]"
+    },
+    {
       "index": 4,
+      "name": "Materia[1]",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 5,
+      "name": "MateriaBigValueIndex[1]"
+    },
+    {
+      "index": 6,
+      "name": "MateriaSmallValueIndex[1]"
+    },
+    {
+      "index": 7,
+      "name": "Materia[2]",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 8,
+      "name": "MateriaBigValueIndex[2]"
+    },
+    {
+      "index": 9,
+      "name": "MateriaSmallValueIndex[2]"
+    },
+    {
+      "index": 10,
+      "name": "Materia[3]",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 11,
+      "name": "MateriaBigValueIndex[3]"
+    },
+    {
+      "index": 12,
+      "name": "MateriaSmallValueIndex[3]"
+    },
+    {
+      "index": 13,
       "name": "UpgradeItem",
       "converter": {
         "type": "link",
@@ -21,34 +77,14 @@
       }
     },
     {
-      "index": 5,
-      "name": "Image",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 6,
+      "index": 14,
       "name": "UpgradeCost"
     },
     {
-      "index": 7,
-      "name": "Unknown7"
-    },
-    {
-      "index": 8,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "MateriaBigValueIndex"
-      }
-    },
-    {
-      "index": 12,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "MateriaSmallValueIndex"
+      "index": 15,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
       }
     }
   ]

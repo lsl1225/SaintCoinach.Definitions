@@ -2,7 +2,7 @@
   "sheet": "WKSPlanetSelect",
   "definitions": [
     {
-      "name": "Blurb"
+      "name": "Unknown4"
     },
     {
       "index": 1,
@@ -28,7 +28,7 @@
     },
     {
       "index": 4,
-      "name": "Unknown4"
+      "name": "Blurb"
     }
   ]
 }

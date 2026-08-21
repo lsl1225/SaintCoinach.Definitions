@@ -3,11 +3,11 @@
   "defaultColumn": "Value",
   "definitions": [
     {
-      "name": "Value"
+      "name": "Type"
     },
     {
       "index": 1,
-      "name": "Type"
+      "name": "Value"
     }
   ]
 }

@@ -2,11 +2,11 @@
   "sheet": "SubmarineRank",
   "definitions": [
     {
-      "name": "ExpToNext"
+      "name": "Capacity"
     },
     {
       "index": 1,
-      "name": "Capacity"
+      "name": "ExpToNext"
     },
     {
       "index": 2,

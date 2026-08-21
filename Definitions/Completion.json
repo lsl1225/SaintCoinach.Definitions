@@ -3,11 +3,11 @@
   "defaultColumn": "Text",
   "definitions": [
     {
-      "name": "Text"
+      "name": "Group"
     },
     {
       "index": 1,
-      "name": "GroupTitle"
+      "name": "Key"
     },
     {
       "index": 2,
@@ -15,11 +15,11 @@
     },
     {
       "index": 3,
-      "name": "Group"
+      "name": "Text"
     },
     {
       "index": 4,
-      "name": "Key"
+      "name": "GroupTitle"
     }
   ]
 }

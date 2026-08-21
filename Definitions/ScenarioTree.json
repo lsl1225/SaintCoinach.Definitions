@@ -3,10 +3,18 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Type",
+      "converter": {
+        "type": "link",
+        "target": "ScenarioType"
+      }
     },
     {
       "index": 1,
+      "name": "Unknown2"
+    },
+    {
+      "index": 2,
       "name": "Addon",
       "converter": {
         "type": "link",
@@ -14,7 +22,7 @@
       }
     },
     {
-      "index": 2,
+      "index": 3,
       "name": "QuestChapter",
       "converter": {
         "type": "link",
@@ -22,24 +30,16 @@
       }
     },
     {
-      "index": 3,
-      "name": "Unknown0"
-    },
-    {
       "index": 4,
-      "name": "Unknown1"
+      "name": "Name"
     },
     {
       "index": 5,
-      "name": "Unknown2"
+      "name": "Unknown1"
     },
     {
       "index": 6,
-      "name": "Type",
-      "converter": {
-        "type": "link",
-        "target": "ScenarioType"
-      }
+      "name": "Unknown0"
     }
   ]
 }

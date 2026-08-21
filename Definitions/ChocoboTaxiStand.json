@@ -3,19 +3,71 @@
   "defaultColumn": "PlaceName",
   "definitions": [
     {
-      "name": "PlaceName"
+      "name": "TargetLocations[0]",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxi"
+      }
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "TargetLocations",
-        "converter": {
-          "type": "link",
-          "target": "ChocoboTaxi"
-        }
+      "name": "TargetLocations[1]",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxi"
       }
+    },
+    {
+      "index": 2,
+      "name": "TargetLocations[2]",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxi"
+      }
+    },
+    {
+      "index": 3,
+      "name": "TargetLocations[3]",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxi"
+      }
+    },
+    {
+      "index": 4,
+      "name": "TargetLocations[4]",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxi"
+      }
+    },
+    {
+      "index": 5,
+      "name": "TargetLocations[5]",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxi"
+      }
+    },
+    {
+      "index": 6,
+      "name": "TargetLocations[6]",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxi"
+      }
+    },
+    {
+      "index": 7,
+      "name": "TargetLocations[7]",
+      "converter": {
+        "type": "link",
+        "target": "ChocoboTaxi"
+      }
+    },
+    {
+      "index": 8,
+      "name": "PlaceName"
     }
   ]
 }

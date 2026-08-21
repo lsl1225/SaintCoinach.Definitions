@@ -2,34 +2,6 @@
   "sheet": "WKSTerritoryInfo",
   "definitions": [
     {
-      "name": "Unknown6"
-    },
-    {
-      "index": 1,
-      "name": "Unknown7"
-    },
-    {
-      "index": 2,
-      "name": "Unknown8"
-    },
-    {
-      "index": 3,
-      "name": "Unknown9"
-    },
-    {
-      "index": 4,
-      "name": "Unknown10"
-    },
-    {
-      "index": 5,
-      "name": "Unknown11"
-    },
-    {
-      "index": 6,
-      "name": "Unknown12"
-    },
-    {
-      "index": 7,
       "name": "TerritoryType",
       "converter": {
         "type": "link",
@@ -37,7 +9,11 @@
       }
     },
     {
-      "index": 8,
+      "index": 1,
+      "name": "Unknown5"
+    },
+    {
+      "index": 2,
       "name": "MechaEventNpc",
       "converter": {
         "type": "link",
@@ -45,7 +21,7 @@
       }
     },
     {
-      "index": 9,
+      "index": 3,
       "name": "Item",
       "converter": {
         "type": "link",
@@ -53,16 +29,40 @@
       }
     },
     {
-      "index": 10,
-      "name": "Unknown3"
-    },
-    {
-      "index": 11,
+      "index": 4,
       "name": "Unknown4"
     },
     {
+      "index": 5,
+      "name": "Unknown3"
+    },
+    {
+      "index": 6,
+      "name": "Unknown6"
+    },
+    {
+      "index": 7,
+      "name": "Unknown7"
+    },
+    {
+      "index": 8,
+      "name": "Unknown8"
+    },
+    {
+      "index": 9,
+      "name": "Unknown9"
+    },
+    {
+      "index": 10,
+      "name": "Unknown10"
+    },
+    {
+      "index": 11,
+      "name": "Unknown11"
+    },
+    {
       "index": 12,
-      "name": "Unknown5"
+      "name": "Unknown12"
     }
   ]
 }

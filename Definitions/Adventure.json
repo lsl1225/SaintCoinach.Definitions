@@ -3,18 +3,6 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
-      "name": "Impression"
-    },
-    {
-      "index": 2,
-      "name": "Description"
-    },
-    {
-      "index": 3,
       "name": "Level",
       "converter": {
         "type": "link",
@@ -22,40 +10,15 @@
       }
     },
     {
-      "index": 4,
+      "index": 1,
       "name": "MinLevel"
     },
     {
-      "index": 5,
-      "name": "PlaceName",
-      "converter": {
-        "type": "link",
-        "target": "PlaceName"
-      }
+      "index": 2,
+      "name": "MaxLevel"
     },
     {
-      "index": 6,
-      "name": "IconList",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 7,
-      "name": "IconDiscovered",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 8,
-      "name": "IconUndiscovered",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 9,
+      "index": 3,
       "name": "Emote",
       "converter": {
         "type": "link",
@@ -63,19 +26,7 @@
       }
     },
     {
-      "index": 10,
-      "name": "MinTime"
-    },
-    {
-      "index": 11,
-      "name": "MaxTime"
-    },
-    {
-      "index": 12,
-      "name": "MaxLevel"
-    },
-    {
-      "index": 13,
+      "index": 4,
       "name": "WeatherCategory",
       "converter": {
         "type": "link",
@@ -83,7 +34,7 @@
       }
     },
     {
-      "index": 14,
+      "index": 5,
       "name": "Weather",
       "converter": {
         "type": "link",
@@ -91,8 +42,57 @@
       }
     },
     {
-      "index": 15,
+      "index": 6,
+      "name": "MinTime"
+    },
+    {
+      "index": 7,
+      "name": "MaxTime"
+    },
+    {
+      "index": 8,
+      "name": "PlaceName",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 9,
+      "name": "IconList",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 10,
+      "name": "IconDiscovered",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 11,
+      "name": "IconUndiscovered",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 12,
       "name": "IsInitial"
+    },
+    {
+      "index": 13,
+      "name": "Name"
+    },
+    {
+      "index": 14,
+      "name": "Impression"
+    },
+    {
+      "index": 15,
+      "name": "Description"
     }
   ]
 }

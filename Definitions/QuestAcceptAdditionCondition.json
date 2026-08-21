@@ -2,6 +2,10 @@
   "sheet": "QuestAcceptAdditionCondition",
   "definitions": [
     {
+      "name": "Unknown2"
+    },
+    {
+      "index": 1,
       "name": "Requirement0",
       "converter": {
         "type": "link",
@@ -9,7 +13,7 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "name": "Requirement1",
       "converter": {
         "type": "link",
@@ -17,12 +21,8 @@
       }
     },
     {
-      "index": 2,
-      "name": "Unknown0"
-    },
-    {
       "index": 3,
-      "name": "Unknown2"
+      "name": "Unknown0"
     },
     {
       "index": 4,

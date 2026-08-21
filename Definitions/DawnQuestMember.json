@@ -3,6 +3,14 @@
   "defaultColumn": "Member",
   "definitions": [
     {
+      "name": "Unknown0"
+    },
+    {
+      "index": 1,
+      "name": "Unknown1"
+    },
+    {
+      "index": 2,
       "name": "Member",
       "converter": {
         "type": "link",
@@ -10,26 +18,18 @@
       }
     },
     {
-      "index": 1,
+      "index": 3,
       "name": "BigImageOld",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 2,
+      "index": 4,
       "name": "BigImageNew",
       "converter": {
         "type": "icon"
       }
-    },
-    {
-      "index": 3,
-      "name": "Unknown0"
-    },
-    {
-      "index": 4,
-      "name": "Unknown1"
     },
     {
       "index": 5,

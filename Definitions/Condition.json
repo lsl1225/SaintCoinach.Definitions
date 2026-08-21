@@ -2,11 +2,7 @@
   "sheet": "Condition",
   "definitions": [
     {
-      "name": "LogMessage",
-      "converter": {
-        "type": "link",
-        "target": "LogMessage"
-      }
+      "name": "IsNetworked"
     },
     {
       "index": 1,
@@ -18,11 +14,15 @@
     },
     {
       "index": 2,
-      "name": "LogMessagePriority"
+      "name": "LogMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
     },
     {
       "index": 3,
-      "name": "IsNetworked"
+      "name": "LogMessagePriority"
     }
   ]
 }

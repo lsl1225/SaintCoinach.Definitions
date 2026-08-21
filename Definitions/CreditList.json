@@ -2,13 +2,17 @@
   "sheet": "CreditList",
   "definitions": [
     {
+      "name": "Scale"
+    },
+    {
+      "index": 1,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "name": "Font",
       "converter": {
         "type": "link",
@@ -16,24 +20,20 @@
       }
     },
     {
-      "index": 2,
+      "index": 3,
+      "name": "Unknown0"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
       "name": "Cast",
       "converter": {
         "type": "link",
         "target": "CreditListText"
       }
-    },
-    {
-      "index": 3,
-      "name": "Scale"
-    },
-    {
-      "index": 4,
-      "name": "Unknown0"
-    },
-    {
-      "index": 5,
-      "name": "Unknown1"
     }
   ]
 }

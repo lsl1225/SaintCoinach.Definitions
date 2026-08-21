@@ -2,10 +2,6 @@
   "sheet": "SharlayanCraftWorks",
   "definitions": [
     {
-      "name": "Description"
-    },
-    {
-      "index": 1,
       "name": "Questgiver",
       "converter": {
         "type": "link",
@@ -13,8 +9,12 @@
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "Unknown2"
+    },
+    {
+      "index": 2,
+      "name": "Description"
     }
   ]
 }

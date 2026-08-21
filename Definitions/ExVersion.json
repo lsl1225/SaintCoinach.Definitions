@@ -7,17 +7,6 @@
     },
     {
       "index": 1,
-      "name": "MenuScreen"
-    },
-    {
-      "index": 2,
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 3,
       "name": "AcceptJingle",
       "converter": {
         "type": "link",
@@ -25,11 +14,22 @@
       }
     },
     {
-      "index": 4,
+      "index": 2,
       "name": "CompleteJingle",
       "converter": {
         "type": "link",
         "target": "ScreenImage"
+      }
+    },
+    {
+      "index": 3,
+      "name": "MenuScreen"
+    },
+    {
+      "index": 4,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
       }
     }
   ]

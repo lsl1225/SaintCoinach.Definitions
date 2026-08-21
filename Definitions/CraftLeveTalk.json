@@ -2,87 +2,87 @@
   "sheet": "CraftLeveTalk",
   "definitions": [
     {
-      "name": "Unknown0"
-    },
-    {
-      "index": 1,
-      "name": "Unknown1"
-    },
-    {
-      "index": 2,
-      "name": "Unknown2"
-    },
-    {
-      "index": 3,
-      "name": "Unknown3"
-    },
-    {
-      "index": 4,
-      "name": "Unknown4"
-    },
-    {
-      "index": 5,
       "name": "Unknown5"
     },
     {
-      "index": 6,
-      "name": "Unknown6"
-    },
-    {
-      "index": 7,
-      "name": "Unknown7"
-    },
-    {
-      "index": 8,
-      "name": "Unknown8"
-    },
-    {
-      "index": 9,
-      "name": "Unknown9"
-    },
-    {
-      "index": 10,
-      "name": "Unknown10"
-    },
-    {
-      "index": 11,
+      "index": 1,
       "name": "Unknown11"
     },
     {
-      "index": 12,
-      "name": "Unknown12"
-    },
-    {
-      "index": 13,
-      "name": "Unknown13"
-    },
-    {
-      "index": 14,
-      "name": "Unknown14"
-    },
-    {
-      "index": 15,
-      "name": "Unknown15"
-    },
-    {
-      "index": 16,
-      "name": "Unknown16"
-    },
-    {
-      "index": 17,
+      "index": 2,
       "name": "Unknown17"
     },
     {
-      "index": 18,
+      "index": 3,
+      "name": "Unknown23"
+    },
+    {
+      "index": 4,
+      "name": "Unknown29"
+    },
+    {
+      "index": 5,
+      "name": "Unknown35"
+    },
+    {
+      "index": 6,
+      "name": "Unknown2"
+    },
+    {
+      "index": 7,
+      "name": "Unknown8"
+    },
+    {
+      "index": 8,
+      "name": "Unknown14"
+    },
+    {
+      "index": 9,
+      "name": "Unknown20"
+    },
+    {
+      "index": 10,
+      "name": "Unknown26"
+    },
+    {
+      "index": 11,
+      "name": "Unknown32"
+    },
+    {
+      "index": 12,
+      "name": "Unknown0"
+    },
+    {
+      "index": 13,
+      "name": "Unknown6"
+    },
+    {
+      "index": 14,
+      "name": "Unknown12"
+    },
+    {
+      "index": 15,
       "name": "Unknown18"
     },
     {
+      "index": 16,
+      "name": "Unknown24"
+    },
+    {
+      "index": 17,
+      "name": "Unknown30"
+    },
+    {
+      "index": 18,
+      "name": "Unknown3"
+    },
+    {
       "index": 19,
-      "name": "Unknown19"
+      "name": "Unknown9"
     },
     {
       "index": 20,
-      "name": "Unknown20"
+      "name": "Unknown15"
     },
     {
       "index": 21,
@@ -90,27 +90,27 @@
     },
     {
       "index": 22,
-      "name": "Unknown22"
+      "name": "Unknown27"
     },
     {
       "index": 23,
-      "name": "Unknown23"
+      "name": "Unknown33"
     },
     {
       "index": 24,
-      "name": "Unknown24"
+      "name": "Unknown4"
     },
     {
       "index": 25,
-      "name": "Unknown25"
+      "name": "Unknown10"
     },
     {
       "index": 26,
-      "name": "Unknown26"
+      "name": "Unknown16"
     },
     {
       "index": 27,
-      "name": "Unknown27"
+      "name": "Unknown22"
     },
     {
       "index": 28,
@@ -118,39 +118,55 @@
     },
     {
       "index": 29,
-      "name": "Unknown29"
-    },
-    {
-      "index": 30,
-      "name": "Unknown30"
-    },
-    {
-      "index": 31,
-      "name": "Unknown31"
-    },
-    {
-      "index": 32,
-      "name": "Unknown32"
-    },
-    {
-      "index": 33,
-      "name": "Unknown33"
-    },
-    {
-      "index": 34,
       "name": "Unknown34"
     },
     {
+      "index": 30,
+      "name": "Unknown1"
+    },
+    {
+      "index": 31,
+      "name": "Unknown7"
+    },
+    {
+      "index": 32,
+      "name": "Unknown13"
+    },
+    {
+      "index": 33,
+      "name": "Unknown19"
+    },
+    {
+      "index": 34,
+      "name": "Unknown25"
+    },
+    {
       "index": 35,
-      "name": "Unknown35"
+      "name": "Unknown31"
     },
     {
       "index": 36,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "Talk"
-      }
+      "name": "Talk[0]"
+    },
+    {
+      "index": 37,
+      "name": "Talk[1]"
+    },
+    {
+      "index": 38,
+      "name": "Talk[2]"
+    },
+    {
+      "index": 39,
+      "name": "Talk[3]"
+    },
+    {
+      "index": 40,
+      "name": "Talk[4]"
+    },
+    {
+      "index": 41,
+      "name": "Talk[5]"
     }
   ]
 }

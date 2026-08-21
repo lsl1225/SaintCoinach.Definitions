@@ -3,19 +3,19 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "IsVisible"
     },
     {
       "index": 1,
-      "name": "Description"
-    },
-    {
-      "index": 2,
       "name": "Score"
     },
     {
+      "index": 2,
+      "name": "Name"
+    },
+    {
       "index": 3,
-      "name": "IsVisible"
+      "name": "Description"
     }
   ]
 }

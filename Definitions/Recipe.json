@@ -3,26 +3,30 @@
   "defaultColumn": "ItemResult",
   "definitions": [
     {
-      "name": "RequiredQuality"
-    },
-    {
-      "index": 1,
-      "name": "Quest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 2,
       "name": "Number"
     },
     {
-      "index": 3,
+      "index": 1,
       "name": "CraftType",
       "converter": {
         "type": "link",
         "target": "CraftType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "RecipeLevelTable",
+      "converter": {
+        "type": "link",
+        "target": "RecipeLevelTable"
+      }
+    },
+    {
+      "index": 3,
+      "name": "MaxAdjustableJobLevel",
+      "converter": {
+        "type": "link",
+        "target": "GathererCrafterLvAdjustTable"
       }
     },
     {
@@ -35,27 +39,59 @@
     },
     {
       "index": 5,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Ingredient",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
+      "name": "AmountResult"
+    },
+    {
+      "index": 6,
+      "name": "Ingredient[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "AmountIngredient[0]"
+    },
+    {
+      "index": 8,
+      "name": "Ingredient[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 9,
+      "name": "AmountIngredient[1]"
+    },
+    {
+      "index": 10,
+      "name": "Ingredient[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 11,
+      "name": "AmountIngredient[2]"
+    },
+    {
+      "index": 12,
+      "name": "Ingredient[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
       "index": 13,
-      "name": "StatusRequired",
-      "converter": {
-        "type": "link",
-        "target": "Status"
-      }
+      "name": "AmountIngredient[3]"
     },
     {
       "index": 14,
-      "name": "ItemRequired",
+      "name": "Ingredient[4]",
       "converter": {
         "type": "link",
         "target": "Item"
@@ -63,22 +99,46 @@
     },
     {
       "index": 15,
-      "name": "RecipeLevelTable",
-      "converter": {
-        "type": "link",
-        "target": "RecipeLevelTable"
-      }
+      "name": "AmountIngredient[4]"
     },
     {
       "index": 16,
-      "name": "MaxAdjustableJobLevel",
+      "name": "Ingredient[5]",
       "converter": {
         "type": "link",
-        "target": "GathererCrafterLvAdjustTable"
+        "target": "Item"
       }
     },
     {
       "index": 17,
+      "name": "AmountIngredient[5]"
+    },
+    {
+      "index": 18,
+      "name": "Ingredient[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 19,
+      "name": "AmountIngredient[6]"
+    },
+    {
+      "index": 20,
+      "name": "Ingredient[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 21,
+      "name": "AmountIngredient[7]"
+    },
+    {
+      "index": 22,
       "name": "RecipeNotebookList",
       "converter": {
         "type": "link",
@@ -86,39 +146,51 @@
       }
     },
     {
-      "index": 18,
+      "index": 23,
       "name": "DisplayPriority"
     },
     {
-      "index": 19,
-      "name": "DifficultyFactor"
-    },
-    {
-      "index": 20,
-      "name": "QualityFactor"
-    },
-    {
-      "index": 21,
-      "name": "DurabilityFactor"
-    },
-    {
-      "index": 22,
-      "name": "RequiredCraftsmanship"
-    },
-    {
-      "index": 23,
-      "name": "RequiredControl"
-    },
-    {
       "index": 24,
-      "name": "QuickSynthCraftsmanship"
+      "name": "IsSecondary"
     },
     {
       "index": 25,
-      "name": "QuickSynthControl"
+      "name": "MaterialQualityFactor"
     },
     {
       "index": 26,
+      "name": "DifficultyFactor"
+    },
+    {
+      "index": 27,
+      "name": "QualityFactor"
+    },
+    {
+      "index": 28,
+      "name": "DurabilityFactor"
+    },
+    {
+      "index": 29,
+      "name": "RequiredQuality"
+    },
+    {
+      "index": 30,
+      "name": "RequiredCraftsmanship"
+    },
+    {
+      "index": 31,
+      "name": "RequiredControl"
+    },
+    {
+      "index": 32,
+      "name": "QuickSynthCraftsmanship"
+    },
+    {
+      "index": 33,
+      "name": "QuickSynthControl"
+    },
+    {
+      "index": 34,
       "name": "SecretRecipeBook",
       "converter": {
         "type": "link",
@@ -126,7 +198,59 @@
       }
     },
     {
-      "index": 27,
+      "index": 35,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 36,
+      "name": "CanQuickSynth"
+    },
+    {
+      "index": 37,
+      "name": "CanHq"
+    },
+    {
+      "index": 38,
+      "name": "ExpRewarded"
+    },
+    {
+      "index": 39,
+      "name": "Unknown1"
+    },
+    {
+      "index": 40,
+      "name": "StatusRequired",
+      "converter": {
+        "type": "link",
+        "target": "Status"
+      }
+    },
+    {
+      "index": 41,
+      "name": "ItemRequired",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 42,
+      "name": "IsSpecializationRequired"
+    },
+    {
+      "index": 43,
+      "name": "IsExpert"
+    },
+    {
+      "index": 44,
+      "name": "CollectableMetadataKey"
+    },
+    {
+      "index": 45,
       "name": "CollectableMetadata",
       "converter": {
         "type": "complexlink",
@@ -177,56 +301,8 @@
       }
     },
     {
-      "index": 28,
-      "name": "PatchNumber"
-    },
-    {
-      "index": 29,
-      "name": "AmountResult"
-    },
-    {
-      "index": 30,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "AmountIngredient"
-      }
-    },
-    {
-      "index": 38,
-      "name": "MaterialQualityFactor"
-    },
-    {
-      "index": 39,
-      "name": "CollectableMetadataKey"
-    },
-    {
-      "index": 40,
-      "name": "IsSecondary"
-    },
-    {
-      "index": 41,
-      "name": "CanQuickSynth"
-    },
-    {
-      "index": 42,
-      "name": "CanHq"
-    },
-    {
-      "index": 43,
-      "name": "ExpRewarded"
-    },
-    {
-      "index": 44,
-      "name": "Unknown1"
-    },
-    {
-      "index": 45,
-      "name": "IsSpecializationRequired"
-    },
-    {
       "index": 46,
-      "name": "IsExpert"
+      "name": "PatchNumber"
     }
   ]
 }

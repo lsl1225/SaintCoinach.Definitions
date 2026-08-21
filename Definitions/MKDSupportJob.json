@@ -23,30 +23,70 @@
     },
     {
       "index": 5,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "Action",
-        "converter": {
-          "type": "link",
-          "target": "Action"
-        }
-      }
-    },
-    {
-      "index": 10,
       "name": "LevelMax"
     },
     {
-      "index": 11,
+      "index": 6,
       "name": "JobIndex"
     },
     {
+      "index": 7,
+      "name": "LevelUnlock[0]"
+    },
+    {
+      "index": 8,
+      "name": "Action[0]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 9,
+      "name": "LevelUnlock[1]"
+    },
+    {
+      "index": 10,
+      "name": "Action[1]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 11,
+      "name": "LevelUnlock[2]"
+    },
+    {
       "index": 12,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "LevelUnlock"
+      "name": "Action[2]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 13,
+      "name": "LevelUnlock[3]"
+    },
+    {
+      "index": 14,
+      "name": "Action[3]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 15,
+      "name": "LevelUnlock[4]"
+    },
+    {
+      "index": 16,
+      "name": "Action[4]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
       }
     }
   ]

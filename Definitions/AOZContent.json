@@ -2,34 +2,18 @@
   "sheet": "AOZContent",
   "definitions": [
     {
-      "name": "GilReward"
-    },
-    {
-      "index": 1,
-      "name": "AlliedSealsReward"
-    },
-    {
-      "index": 2,
-      "name": "TomestonesReward"
-    },
-    {
-      "index": 3,
-      "name": "ContentEntry",
-      "converter": {
-        "type": "link",
-        "target": "ContentEntry"
-      }
-    },
-    {
-      "index": 4,
       "name": "StandardFinishTime"
     },
     {
-      "index": 5,
+      "index": 1,
       "name": "IdealFinishTime"
     },
     {
-      "index": 6,
+      "index": 2,
+      "name": "Act1FightType"
+    },
+    {
+      "index": 3,
       "name": "Act1",
       "converter": {
         "type": "complexlink",
@@ -57,6 +41,18 @@
           }
         ]
       }
+    },
+    {
+      "index": 4,
+      "name": "ArenaType1"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    },
+    {
+      "index": 6,
+      "name": "Act2FightType"
     },
     {
       "index": 7,
@@ -90,6 +86,18 @@
     },
     {
       "index": 8,
+      "name": "ArenaType2"
+    },
+    {
+      "index": 9,
+      "name": "Unknown1"
+    },
+    {
+      "index": 10,
+      "name": "Act3FightType"
+    },
+    {
+      "index": 11,
       "name": "Act3",
       "converter": {
         "type": "complexlink",
@@ -119,44 +127,36 @@
       }
     },
     {
-      "index": 9,
-      "name": "Unknown0"
-    },
-    {
-      "index": 10,
-      "name": "Unknown1"
-    },
-    {
-      "index": 11,
-      "name": "Unknown2"
-    },
-    {
       "index": 12,
-      "name": "Act1FightType"
-    },
-    {
-      "index": 13,
-      "name": "Act2FightType"
-    },
-    {
-      "index": 14,
-      "name": "Act3FightType"
-    },
-    {
-      "index": 15,
-      "name": "ArenaType1"
-    },
-    {
-      "index": 16,
-      "name": "ArenaType2"
-    },
-    {
-      "index": 17,
       "name": "ArenaType3"
     },
     {
-      "index": 18,
+      "index": 13,
+      "name": "Unknown2"
+    },
+    {
+      "index": 14,
+      "name": "ContentEntry",
+      "converter": {
+        "type": "link",
+        "target": "ContentEntry"
+      }
+    },
+    {
+      "index": 15,
       "name": "Order"
+    },
+    {
+      "index": 16,
+      "name": "GilReward"
+    },
+    {
+      "index": 17,
+      "name": "AlliedSealsReward"
+    },
+    {
+      "index": 18,
+      "name": "TomestonesReward"
     }
   ]
 }

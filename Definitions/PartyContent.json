@@ -3,30 +3,18 @@
   "defaultColumn": "ContentFinderCondition",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "name": "LGBEventObject"
-      }
+      "name": "Key"
     },
     {
-      "index": 9,
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "name": "LGBEventRange"
-      }
+      "index": 1,
+      "name": "TimeLimit"
     },
     {
-      "index": 18,
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "name": "LGBEventObject2"
-      }
+      "index": 2,
+      "name": "Name"
     },
     {
-      "index": 27,
+      "index": 3,
       "name": "TextDataStart",
       "converter": {
         "type": "link",
@@ -34,7 +22,7 @@
       }
     },
     {
-      "index": 28,
+      "index": 4,
       "name": "TextDataEnd",
       "converter": {
         "type": "link",
@@ -42,22 +30,119 @@
       }
     },
     {
+      "index": 5,
+      "name": "LGBEventObject[0]"
+    },
+    {
+      "index": 6,
+      "name": "LGBEventObject[1]"
+    },
+    {
+      "index": 7,
+      "name": "LGBEventObject[2]"
+    },
+    {
+      "index": 8,
+      "name": "LGBEventObject[3]"
+    },
+    {
+      "index": 9,
+      "name": "LGBEventObject[4]"
+    },
+    {
+      "index": 10,
+      "name": "LGBEventObject[5]"
+    },
+    {
+      "index": 11,
+      "name": "LGBEventObject[6]"
+    },
+    {
+      "index": 12,
+      "name": "LGBEventObject[7]"
+    },
+    {
+      "index": 13,
+      "name": "LGBEventObject[8]"
+    },
+    {
+      "index": 14,
+      "name": "LGBEventRange[0]"
+    },
+    {
+      "index": 15,
+      "name": "LGBEventRange[1]"
+    },
+    {
+      "index": 16,
+      "name": "LGBEventRange[2]"
+    },
+    {
+      "index": 17,
+      "name": "LGBEventRange[3]"
+    },
+    {
+      "index": 18,
+      "name": "LGBEventRange[4]"
+    },
+    {
+      "index": 19,
+      "name": "LGBEventRange[5]"
+    },
+    {
+      "index": 20,
+      "name": "LGBEventRange[6]"
+    },
+    {
+      "index": 21,
+      "name": "LGBEventRange[7]"
+    },
+    {
+      "index": 22,
+      "name": "LGBEventRange[8]"
+    },
+    {
+      "index": 23,
+      "name": "LGBEventObject2[0]"
+    },
+    {
+      "index": 24,
+      "name": "LGBEventObject2[1]"
+    },
+    {
+      "index": 25,
+      "name": "LGBEventObject2[2]"
+    },
+    {
+      "index": 26,
+      "name": "LGBEventObject2[3]"
+    },
+    {
+      "index": 27,
+      "name": "LGBEventObject2[4]"
+    },
+    {
+      "index": 28,
+      "name": "LGBEventObject2[5]"
+    },
+    {
       "index": 29,
-      "name": "Image",
-      "converter": {
-        "type": "icon"
-      }
+      "name": "LGBEventObject2[6]"
     },
     {
       "index": 30,
-      "name": "TimeLimit"
+      "name": "LGBEventObject2[7]"
     },
     {
       "index": 31,
-      "name": "Unknown0"
+      "name": "LGBEventObject2[8]"
     },
     {
       "index": 32,
+      "name": "Unknown0"
+    },
+    {
+      "index": 33,
       "name": "ContentFinderCondition",
       "converter": {
         "type": "link",
@@ -65,16 +150,15 @@
       }
     },
     {
-      "index": 33,
-      "name": "Key"
-    },
-    {
       "index": 34,
-      "name": "Unknown1"
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 35,
-      "name": "Name"
+      "name": "Unknown1"
     }
   ]
 }

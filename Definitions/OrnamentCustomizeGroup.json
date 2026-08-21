@@ -2,19 +2,175 @@
   "sheet": "OrnamentCustomizeGroup",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 21,
-      "definition": {
-        "name": "Customize",
-        "converter": {
-          "type": "link",
-          "target": "OrnamentCustomize"
-        }
+      "name": "AttachmentPoint"
+    },
+    {
+      "index": 1,
+      "name": "Customize[0]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Customize[1]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Customize[2]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Customize[3]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Customize[4]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Customize[5]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Customize[6]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Customize[7]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Customize[8]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Customize[9]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Customize[10]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Customize[11]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Customize[12]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Customize[13]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Customize[14]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Customize[15]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Customize[16]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Customize[17]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Customize[18]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Customize[19]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
       }
     },
     {
       "index": 21,
-      "name": "AttachmentPoint"
+      "name": "Customize[20]",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentCustomize"
+      }
     }
   ]
 }

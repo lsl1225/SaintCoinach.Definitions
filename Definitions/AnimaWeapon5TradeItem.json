@@ -2,6 +2,10 @@
   "sheet": "AnimaWeapon5TradeItem",
   "definitions": [
     {
+      "name": "Order"
+    },
+    {
+      "index": 1,
       "name": "CrystalSand",
       "converter": {
         "type": "link",
@@ -9,47 +13,143 @@
       }
     },
     {
-      "index": 1,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Item",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
-      }
-    },
-    {
-      "index": 9,
-      "name": "Order"
-    },
-    {
-      "index": 10,
+      "index": 2,
       "name": "ReceiveQuantity"
     },
     {
+      "index": 3,
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "IsHQ[0]"
+    },
+    {
+      "index": 5,
+      "name": "Quantity[0]"
+    },
+    {
+      "index": 6,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "IsHQ[1]"
+    },
+    {
+      "index": 8,
+      "name": "Quantity[1]"
+    },
+    {
+      "index": 9,
+      "name": "Item[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "IsHQ[2]"
+    },
+    {
       "index": 11,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Quantity"
+      "name": "Quantity[2]"
+    },
+    {
+      "index": 12,
+      "name": "Item[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 13,
+      "name": "IsHQ[3]"
+    },
+    {
+      "index": 14,
+      "name": "Quantity[3]"
+    },
+    {
+      "index": 15,
+      "name": "Item[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 16,
+      "name": "IsHQ[4]"
+    },
+    {
+      "index": 17,
+      "name": "Quantity[4]"
+    },
+    {
+      "index": 18,
+      "name": "Item[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
       "index": 19,
+      "name": "IsHQ[5]"
+    },
+    {
+      "index": 20,
+      "name": "Quantity[5]"
+    },
+    {
+      "index": 21,
+      "name": "Item[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 22,
+      "name": "IsHQ[6]"
+    },
+    {
+      "index": 23,
+      "name": "Quantity[6]"
+    },
+    {
+      "index": 24,
+      "name": "Item[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 25,
+      "name": "IsHQ[7]"
+    },
+    {
+      "index": 26,
+      "name": "Quantity[7]"
+    },
+    {
+      "index": 27,
       "name": "Category",
       "converter": {
         "type": "link",
         "target": "AnimaWeapon5PatternGroup"
-      }
-    },
-    {
-      "index": 20,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "IsHQ"
       }
     }
   ]

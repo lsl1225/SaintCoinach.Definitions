@@ -2,14 +2,6 @@
   "sheet": "EurekaMagiciteItem",
   "definitions": [
     {
-      "name": "Item",
-      "converter": {
-        "type": "link",
-        "target": "Item"
-      }
-    },
-    {
-      "index": 1,
       "name": "EurekaMagiciteItemType",
       "converter": {
         "type": "link",
@@ -17,11 +9,19 @@
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "ClassJobCategory",
       "converter": {
         "type": "link",
         "target": "ClassJobCategory"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Item",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     }
   ]

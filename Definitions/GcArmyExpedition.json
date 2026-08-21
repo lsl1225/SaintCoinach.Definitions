@@ -3,88 +3,287 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
-      "name": "Description"
-    },
-    {
-      "index": 2,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "RewardItem",
-            "converter": {
-              "type": "link",
-              "target": "Item"
-            }
-          },
-          {
-            "name": "RequiredPhysical"
-          },
-          {
-            "name": "RequiredMental"
-          },
-          {
-            "name": "RequiredTactical"
-          },
-          {
-            "name": "RewardQuantity"
-          },
-          {
-            "name": "PercentPhysicalMet"
-          },
-          {
-            "name": "PercentMentalMet"
-          },
-          {
-            "name": "PercentTacticalMet"
-          },
-          {
-            "name": "PercentAllMet"
-          }
-        ]
-      }
-    },
-    {
-      "index": 56,
-      "name": "RewardExperience"
-    },
-    {
-      "index": 57,
-      "name": "RequiredSeals"
-    },
-    {
-      "index": 58,
       "name": "RequiredFlag"
     },
     {
-      "index": 59,
+      "index": 1,
       "name": "UnlockFlag"
     },
     {
-      "index": 60,
+      "index": 2,
       "name": "RequiredLevel"
     },
     {
-      "index": 61,
+      "index": 3,
+      "name": "RequiredSeals"
+    },
+    {
+      "index": 4,
+      "name": "RewardExperience"
+    },
+    {
+      "index": 5,
       "name": "PercentBase"
     },
     {
-      "index": 62,
+      "index": 6,
       "name": "Unknown0"
     },
     {
-      "index": 63,
+      "index": 7,
       "name": "GcArmyExpeditionType",
       "converter": {
         "type": "link",
         "target": "GcArmyExpeditionType"
       }
+    },
+    {
+      "index": 8,
+      "name": "Name"
+    },
+    {
+      "index": 9,
+      "name": "Description"
+    },
+    {
+      "index": 10,
+      "name": "RewardItem[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 11,
+      "name": "RewardItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 12,
+      "name": "RewardItem[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 13,
+      "name": "RewardItem[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 14,
+      "name": "RewardItem[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 15,
+      "name": "RewardItem[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 16,
+      "name": "RewardQuantity[0]"
+    },
+    {
+      "index": 17,
+      "name": "RewardQuantity[1]"
+    },
+    {
+      "index": 18,
+      "name": "RewardQuantity[2]"
+    },
+    {
+      "index": 19,
+      "name": "RewardQuantity[3]"
+    },
+    {
+      "index": 20,
+      "name": "RewardQuantity[4]"
+    },
+    {
+      "index": 21,
+      "name": "RewardQuantity[5]"
+    },
+    {
+      "index": 22,
+      "name": "RequiredPhysical[0]"
+    },
+    {
+      "index": 23,
+      "name": "RequiredPhysical[1]"
+    },
+    {
+      "index": 24,
+      "name": "RequiredPhysical[2]"
+    },
+    {
+      "index": 25,
+      "name": "RequiredPhysical[3]"
+    },
+    {
+      "index": 26,
+      "name": "RequiredPhysical[4]"
+    },
+    {
+      "index": 27,
+      "name": "RequiredPhysical[5]"
+    },
+    {
+      "index": 28,
+      "name": "PercentPhysicalMet[0]"
+    },
+    {
+      "index": 29,
+      "name": "PercentPhysicalMet[1]"
+    },
+    {
+      "index": 30,
+      "name": "PercentPhysicalMet[2]"
+    },
+    {
+      "index": 31,
+      "name": "PercentPhysicalMet[3]"
+    },
+    {
+      "index": 32,
+      "name": "PercentPhysicalMet[4]"
+    },
+    {
+      "index": 33,
+      "name": "PercentPhysicalMet[5]"
+    },
+    {
+      "index": 34,
+      "name": "RequiredMental[0]"
+    },
+    {
+      "index": 35,
+      "name": "RequiredMental[1]"
+    },
+    {
+      "index": 36,
+      "name": "RequiredMental[2]"
+    },
+    {
+      "index": 37,
+      "name": "RequiredMental[3]"
+    },
+    {
+      "index": 38,
+      "name": "RequiredMental[4]"
+    },
+    {
+      "index": 39,
+      "name": "RequiredMental[5]"
+    },
+    {
+      "index": 40,
+      "name": "PercentMentalMet[0]"
+    },
+    {
+      "index": 41,
+      "name": "PercentMentalMet[1]"
+    },
+    {
+      "index": 42,
+      "name": "PercentMentalMet[2]"
+    },
+    {
+      "index": 43,
+      "name": "PercentMentalMet[3]"
+    },
+    {
+      "index": 44,
+      "name": "PercentMentalMet[4]"
+    },
+    {
+      "index": 45,
+      "name": "PercentMentalMet[5]"
+    },
+    {
+      "index": 46,
+      "name": "RequiredTactical[0]"
+    },
+    {
+      "index": 47,
+      "name": "RequiredTactical[1]"
+    },
+    {
+      "index": 48,
+      "name": "RequiredTactical[2]"
+    },
+    {
+      "index": 49,
+      "name": "RequiredTactical[3]"
+    },
+    {
+      "index": 50,
+      "name": "RequiredTactical[4]"
+    },
+    {
+      "index": 51,
+      "name": "RequiredTactical[5]"
+    },
+    {
+      "index": 52,
+      "name": "PercentTacticalMet[0]"
+    },
+    {
+      "index": 53,
+      "name": "PercentTacticalMet[1]"
+    },
+    {
+      "index": 54,
+      "name": "PercentTacticalMet[2]"
+    },
+    {
+      "index": 55,
+      "name": "PercentTacticalMet[3]"
+    },
+    {
+      "index": 56,
+      "name": "PercentTacticalMet[4]"
+    },
+    {
+      "index": 57,
+      "name": "PercentTacticalMet[5]"
+    },
+    {
+      "index": 58,
+      "name": "PercentAllMet[0]"
+    },
+    {
+      "index": 59,
+      "name": "PercentAllMet[1]"
+    },
+    {
+      "index": 60,
+      "name": "PercentAllMet[2]"
+    },
+    {
+      "index": 61,
+      "name": "PercentAllMet[3]"
+    },
+    {
+      "index": 62,
+      "name": "PercentAllMet[4]"
+    },
+    {
+      "index": 63,
+      "name": "PercentAllMet[5]"
     }
   ]
 }

@@ -35,31 +35,31 @@
     },
     {
       "index": 8,
+      "name": "HasAreaAttack"
+    },
+    {
+      "index": 9,
+      "name": "StrengthGate"
+    },
+    {
+      "index": 10,
+      "name": "StrengthEye"
+    },
+    {
+      "index": 11,
+      "name": "StrengthShield"
+    },
+    {
+      "index": 12,
+      "name": "StrengthArcana"
+    },
+    {
+      "index": 13,
       "name": "MinionSkillType",
       "converter": {
         "type": "link",
         "target": "MinionSkillType"
       }
-    },
-    {
-      "index": 9,
-      "name": "HasAreaAttack"
-    },
-    {
-      "index": 10,
-      "name": "StrengthGate"
-    },
-    {
-      "index": 11,
-      "name": "StrengthEye"
-    },
-    {
-      "index": 12,
-      "name": "StrengthShield"
-    },
-    {
-      "index": 13,
-      "name": "StrengthArcana"
     }
   ]
 }

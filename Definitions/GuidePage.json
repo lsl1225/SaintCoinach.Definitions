@@ -2,6 +2,14 @@
   "sheet": "GuidePage",
   "definitions": [
     {
+      "name": "Key"
+    },
+    {
+      "index": 1,
+      "name": "Unknown_70"
+    },
+    {
+      "index": 2,
       "name": "Output",
       "converter": {
         "type": "complexlink",
@@ -43,14 +51,6 @@
           }
         ]
       }
-    },
-    {
-      "index": 1,
-      "name": "Key"
-    },
-    {
-      "index": 2,
-      "name": "Unknown_70"
     }
   ]
 }

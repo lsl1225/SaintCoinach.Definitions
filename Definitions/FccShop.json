@@ -7,29 +7,202 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Item",
-            "converter": {
-              "type": "link",
-              "target": "Item"
-            }
-          },
-          {
-            "name": "Cost"
-          },
-          {
-            "name": "FCRankRequired",
-            "converter": {
-              "type": "link",
-              "target": "FCRank"
-            }
-          }
-        ]
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Item[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Item[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Item[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Item[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Item[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Item[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Item[8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Item[9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Cost[0]"
+    },
+    {
+      "index": 12,
+      "name": "Cost[1]"
+    },
+    {
+      "index": 13,
+      "name": "Cost[2]"
+    },
+    {
+      "index": 14,
+      "name": "Cost[3]"
+    },
+    {
+      "index": 15,
+      "name": "Cost[4]"
+    },
+    {
+      "index": 16,
+      "name": "Cost[5]"
+    },
+    {
+      "index": 17,
+      "name": "Cost[6]"
+    },
+    {
+      "index": 18,
+      "name": "Cost[7]"
+    },
+    {
+      "index": 19,
+      "name": "Cost[8]"
+    },
+    {
+      "index": 20,
+      "name": "Cost[9]"
+    },
+    {
+      "index": 21,
+      "name": "FCRankRequired[0]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 22,
+      "name": "FCRankRequired[1]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 23,
+      "name": "FCRankRequired[2]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 24,
+      "name": "FCRankRequired[3]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 25,
+      "name": "FCRankRequired[4]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 26,
+      "name": "FCRankRequired[5]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 27,
+      "name": "FCRankRequired[6]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 28,
+      "name": "FCRankRequired[7]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 29,
+      "name": "FCRankRequired[8]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
+      }
+    },
+    {
+      "index": 30,
+      "name": "FCRankRequired[9]",
+      "converter": {
+        "type": "link",
+        "target": "FCRank"
       }
     }
   ]

@@ -3,31 +3,59 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "MonsterNoteTarget[0]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
     },
     {
       "index": 1,
-      "name": "Reward"
+      "name": "MonsterNoteTarget[1]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
     },
     {
       "index": 2,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "MonsterNoteTarget",
-        "converter": {
-          "type": "link",
-          "target": "MonsterNoteTarget"
-        }
+      "name": "MonsterNoteTarget[2]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
       }
     },
     {
-      "index": 6,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Count"
+      "index": 3,
+      "name": "MonsterNoteTarget[3]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
       }
+    },
+    {
+      "index": 4,
+      "name": "Count[0]"
+    },
+    {
+      "index": 5,
+      "name": "Count[1]"
+    },
+    {
+      "index": 6,
+      "name": "Count[2]"
+    },
+    {
+      "index": 7,
+      "name": "Count[3]"
+    },
+    {
+      "index": 8,
+      "name": "Reward"
+    },
+    {
+      "index": 9,
+      "name": "Name"
     }
   ]
 }

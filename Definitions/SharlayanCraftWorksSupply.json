@@ -2,50 +2,195 @@
   "sheet": "SharlayanCraftWorksSupply",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "ItemId",
-            "converter": {
-              "type": "link",
-              "target": "Item"
-            }
-          },
-          {
-            "name": "XPReward"
-          },
-          {
-            "name": "CollectabilityMid"
-          },
-          {
-            "name": "CollectabilityHigh"
-          },
-          {
-            "name": "GilReward"
-          },
-          {
-            "name": "Level"
-          },
-          {
-            "name": "HighXPMultiplier"
-          },
-          {
-            "name": "HighGilMultiplier"
-          },
-          {
-            "name": "Unknown8"
-          },
-          {
-            "name": "ScripReward"
-          },
-          {
-            "name": "HighScripMultiplier"
-          }
-        ]
+      "name": "Level[0]"
+    },
+    {
+      "index": 1,
+      "name": "Level[1]"
+    },
+    {
+      "index": 2,
+      "name": "Level[2]"
+    },
+    {
+      "index": 3,
+      "name": "Level[3]"
+    },
+    {
+      "index": 4,
+      "name": "ItemId[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
+    },
+    {
+      "index": 5,
+      "name": "ItemId[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ItemId[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ItemId[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 8,
+      "name": "CollectabilityMid[0]"
+    },
+    {
+      "index": 9,
+      "name": "CollectabilityMid[1]"
+    },
+    {
+      "index": 10,
+      "name": "CollectabilityMid[2]"
+    },
+    {
+      "index": 11,
+      "name": "CollectabilityMid[3]"
+    },
+    {
+      "index": 12,
+      "name": "CollectabilityHigh[0]"
+    },
+    {
+      "index": 13,
+      "name": "CollectabilityHigh[1]"
+    },
+    {
+      "index": 14,
+      "name": "CollectabilityHigh[2]"
+    },
+    {
+      "index": 15,
+      "name": "CollectabilityHigh[3]"
+    },
+    {
+      "index": 16,
+      "name": "XPReward[0]"
+    },
+    {
+      "index": 17,
+      "name": "XPReward[1]"
+    },
+    {
+      "index": 18,
+      "name": "XPReward[2]"
+    },
+    {
+      "index": 19,
+      "name": "XPReward[3]"
+    },
+    {
+      "index": 20,
+      "name": "HighXPMultiplier[0]"
+    },
+    {
+      "index": 21,
+      "name": "HighXPMultiplier[1]"
+    },
+    {
+      "index": 22,
+      "name": "HighXPMultiplier[2]"
+    },
+    {
+      "index": 23,
+      "name": "HighXPMultiplier[3]"
+    },
+    {
+      "index": 24,
+      "name": "GilReward[0]"
+    },
+    {
+      "index": 25,
+      "name": "GilReward[1]"
+    },
+    {
+      "index": 26,
+      "name": "GilReward[2]"
+    },
+    {
+      "index": 27,
+      "name": "GilReward[3]"
+    },
+    {
+      "index": 28,
+      "name": "HighGilMultiplier[0]"
+    },
+    {
+      "index": 29,
+      "name": "HighGilMultiplier[1]"
+    },
+    {
+      "index": 30,
+      "name": "HighGilMultiplier[2]"
+    },
+    {
+      "index": 31,
+      "name": "HighGilMultiplier[3]"
+    },
+    {
+      "index": 32,
+      "name": "Unknown8[0]"
+    },
+    {
+      "index": 33,
+      "name": "Unknown8[1]"
+    },
+    {
+      "index": 34,
+      "name": "Unknown8[2]"
+    },
+    {
+      "index": 35,
+      "name": "Unknown8[3]"
+    },
+    {
+      "index": 36,
+      "name": "ScripReward[0]"
+    },
+    {
+      "index": 37,
+      "name": "ScripReward[1]"
+    },
+    {
+      "index": 38,
+      "name": "ScripReward[2]"
+    },
+    {
+      "index": 39,
+      "name": "ScripReward[3]"
+    },
+    {
+      "index": 40,
+      "name": "HighScripMultiplier[0]"
+    },
+    {
+      "index": 41,
+      "name": "HighScripMultiplier[1]"
+    },
+    {
+      "index": 42,
+      "name": "HighScripMultiplier[2]"
+    },
+    {
+      "index": 43,
+      "name": "HighScripMultiplier[3]"
     }
   ]
 }

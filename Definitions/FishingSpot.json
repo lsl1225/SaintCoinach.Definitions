@@ -3,30 +3,30 @@
   "defaultColumn": "PlaceName",
   "definitions": [
     {
-      "name": "BigFishOnReach"
+      "name": "GatheringLevel"
     },
     {
       "index": 1,
-      "name": "BigFishOnEnd"
+      "name": "BigFishOnReach"
     },
     {
       "index": 2,
-      "name": "BigFishOnRefresh"
+      "name": "BigFishOnEnd"
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "name": "Item",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
-      }
+      "name": "BigFishOnRefresh"
     },
     {
-      "index": 13,
+      "index": 4,
+      "name": "FishingSpotCategory"
+    },
+    {
+      "index": 5,
+      "name": "Rare"
+    },
+    {
+      "index": 6,
       "name": "TerritoryType",
       "converter": {
         "type": "link",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "index": 14,
+      "index": 7,
       "name": "PlaceNameMain",
       "converter": {
         "type": "link",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "index": 15,
+      "index": 8,
       "name": "PlaceNameSub",
       "converter": {
         "type": "link",
@@ -50,11 +50,103 @@
       }
     },
     {
-      "index": 16,
+      "index": 9,
+      "name": "X"
+    },
+    {
+      "index": 10,
+      "name": "Z"
+    },
+    {
+      "index": 11,
       "name": "Radius"
     },
     {
+      "index": 12,
+      "name": "Unknown0"
+    },
+    {
+      "index": 13,
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Item[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Item[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
       "index": 17,
+      "name": "Item[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Item[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Item[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Item[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Item[8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Item[9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 23,
       "name": "PlaceName",
       "converter": {
         "type": "link",
@@ -62,32 +154,8 @@
       }
     },
     {
-      "index": 18,
-      "name": "Order"
-    },
-    {
-      "index": 19,
-      "name": "X"
-    },
-    {
-      "index": 20,
-      "name": "Z"
-    },
-    {
-      "index": 21,
-      "name": "GatheringLevel"
-    },
-    {
-      "index": 22,
-      "name": "FishingSpotCategory"
-    },
-    {
-      "index": 23,
-      "name": "Unknown0"
-    },
-    {
       "index": 24,
-      "name": "Rare"
+      "name": "Order"
     }
   ]
 }

@@ -19,15 +19,15 @@
     },
     {
       "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
       "name": "DefaultTalk",
       "converter": {
         "type": "link",
         "target": "DefaultTalk"
       }
-    },
-    {
-      "index": 3,
-      "name": "Unknown0"
     }
   ]
 }

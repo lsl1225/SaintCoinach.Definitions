@@ -2,39 +2,87 @@
   "sheet": "WKSAchievementDailyDefine",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredQuest",
-        "converter": {
-          "type": "link",
-          "target": "Quest"
-        }
+      "name": "SuccessPointsRequired"
+    },
+    {
+      "index": 1,
+      "name": "RequiredQuest[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
       }
     },
     {
+      "index": 2,
+      "name": "RewardItem[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RewardQuantity[0]"
+    },
+    {
       "index": 4,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RewardItem",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
+      "name": "RequiredQuest[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 5,
+      "name": "RewardItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RewardQuantity[1]"
+    },
+    {
+      "index": 7,
+      "name": "RequiredQuest[2]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
       }
     },
     {
       "index": 8,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RewardQuantity"
+      "name": "RewardItem[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 9,
+      "name": "RewardQuantity[2]"
+    },
+    {
+      "index": 10,
+      "name": "RequiredQuest[3]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 11,
+      "name": "RewardItem[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
       "index": 12,
-      "name": "SuccessPointsRequired"
+      "name": "RewardQuantity[3]"
     }
   ]
 }

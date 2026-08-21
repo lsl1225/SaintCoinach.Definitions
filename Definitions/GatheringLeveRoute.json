@@ -2,26 +2,194 @@
   "sheet": "GatheringLeveRoute",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 12,
-      "definition": {
-        "name": "GatheringPoint",
-        "converter": {
-          "type": "link",
-          "target": "GatheringPoint"
-        }
+      "name": "GatheringPoint[0]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 1,
+      "name": "PopRange[0]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 2,
+      "name": "GatheringPoint[1]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PopRange[1]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 4,
+      "name": "GatheringPoint[2]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 5,
+      "name": "PopRange[2]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 6,
+      "name": "GatheringPoint[3]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 7,
+      "name": "PopRange[3]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 8,
+      "name": "GatheringPoint[4]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 9,
+      "name": "PopRange[4]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 10,
+      "name": "GatheringPoint[5]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 11,
+      "name": "PopRange[5]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
       }
     },
     {
       "index": 12,
-      "type": "repeat",
-      "count": 12,
-      "definition": {
-        "name": "PopRange",
-        "converter": {
-          "type": "link",
-          "target": "Level"
-        }
+      "name": "GatheringPoint[6]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 13,
+      "name": "PopRange[6]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 14,
+      "name": "GatheringPoint[7]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 15,
+      "name": "PopRange[7]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 16,
+      "name": "GatheringPoint[8]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 17,
+      "name": "PopRange[8]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 18,
+      "name": "GatheringPoint[9]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 19,
+      "name": "PopRange[9]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 20,
+      "name": "GatheringPoint[10]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 21,
+      "name": "PopRange[10]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 22,
+      "name": "GatheringPoint[11]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPoint"
+      }
+    },
+    {
+      "index": 23,
+      "name": "PopRange[11]",
+      "converter": {
+        "type": "link",
+        "target": "Level"
       }
     }
   ]

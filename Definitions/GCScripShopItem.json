@@ -3,10 +3,6 @@
   "defaultColumn": "Item",
   "definitions": [
     {
-      "name": "CostGCSeals"
-    },
-    {
-      "index": 1,
       "name": "Item",
       "converter": {
         "type": "link",
@@ -14,12 +10,16 @@
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "RequiredGrandCompanyRank",
       "converter": {
         "type": "link",
         "target": "GrandCompanyRank"
       }
+    },
+    {
+      "index": 2,
+      "name": "CostGCSeals"
     },
     {
       "index": 3,

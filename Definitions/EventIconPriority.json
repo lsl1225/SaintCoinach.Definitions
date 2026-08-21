@@ -2,13 +2,205 @@
   "sheet": "EventIconPriority",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 29,
-      "definition": {
-        "name": "Icon",
-        "converter": {
-          "type": "icon"
-        }
+      "name": "Icon[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Icon[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Icon[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Icon[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Icon[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Icon[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Icon[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Icon[7]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Icon[8]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Icon[9]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Icon[10]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Icon[11]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Icon[12]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Icon[13]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Icon[14]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Icon[15]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Icon[16]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Icon[17]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Icon[18]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Icon[19]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Icon[20]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Icon[21]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Icon[22]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Icon[23]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Icon[24]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Icon[25]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Icon[26]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 27,
+      "name": "Icon[27]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 28,
+      "name": "Icon[28]",
+      "converter": {
+        "type": "icon"
       }
     }
   ]

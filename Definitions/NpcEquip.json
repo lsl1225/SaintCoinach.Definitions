@@ -6,62 +6,6 @@
     },
     {
       "index": 1,
-      "name": "ModelOffHand"
-    },
-    {
-      "index": 2,
-      "name": "ModelHead"
-    },
-    {
-      "index": 3,
-      "name": "ModelBody"
-    },
-    {
-      "index": 4,
-      "name": "ModelHands"
-    },
-    {
-      "index": 5,
-      "name": "ModelLegs"
-    },
-    {
-      "index": 6,
-      "name": "ModelFeet"
-    },
-    {
-      "index": 7,
-      "name": "ModelEars"
-    },
-    {
-      "index": 8,
-      "name": "ModelNeck"
-    },
-    {
-      "index": 9,
-      "name": "ModelWrists"
-    },
-    {
-      "index": 10,
-      "name": "ModelLeftRing"
-    },
-    {
-      "index": 11,
-      "name": "ModelRightRing"
-    },
-    {
-      "index": 12,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Glasses",
-        "converter": {
-          "type": "link",
-          "target": "Glasses"
-        }
-      }
-    },
-    {
-      "index": 14,
       "name": "DyeMainHand",
       "converter": {
         "type": "link",
@@ -69,7 +13,7 @@
       }
     },
     {
-      "index": 15,
+      "index": 2,
       "name": "Dye2MainHand",
       "converter": {
         "type": "link",
@@ -77,7 +21,11 @@
       }
     },
     {
-      "index": 16,
+      "index": 3,
+      "name": "ModelOffHand"
+    },
+    {
+      "index": 4,
       "name": "DyeOffHand",
       "converter": {
         "type": "link",
@@ -85,7 +33,7 @@
       }
     },
     {
-      "index": 17,
+      "index": 5,
       "name": "Dye2OffHand",
       "converter": {
         "type": "link",
@@ -93,7 +41,11 @@
       }
     },
     {
-      "index": 18,
+      "index": 6,
+      "name": "ModelHead"
+    },
+    {
+      "index": 7,
       "name": "DyeHead",
       "converter": {
         "type": "link",
@@ -101,79 +53,7 @@
       }
     },
     {
-      "index": 19,
-      "name": "DyeBody",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 20,
-      "name": "DyeHands",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 21,
-      "name": "DyeLegs",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 22,
-      "name": "DyeFeet",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 23,
-      "name": "DyeEars",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 24,
-      "name": "DyeNeck",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 25,
-      "name": "DyeWrists",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 26,
-      "name": "DyeLeftRing",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 27,
-      "name": "DyeRightRing",
-      "converter": {
-        "type": "link",
-        "target": "Stain"
-      }
-    },
-    {
-      "index": 28,
+      "index": 8,
       "name": "Dye2Head",
       "converter": {
         "type": "link",
@@ -181,7 +61,27 @@
       }
     },
     {
-      "index": 29,
+      "index": 9,
+      "name": "Visor"
+    },
+    {
+      "index": 10,
+      "name": "VisorToggled"
+    },
+    {
+      "index": 11,
+      "name": "ModelBody"
+    },
+    {
+      "index": 12,
+      "name": "DyeBody",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 13,
       "name": "Dye2Body",
       "converter": {
         "type": "link",
@@ -189,7 +89,19 @@
       }
     },
     {
-      "index": 30,
+      "index": 14,
+      "name": "ModelHands"
+    },
+    {
+      "index": 15,
+      "name": "DyeHands",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 16,
       "name": "Dye2Hands",
       "converter": {
         "type": "link",
@@ -197,7 +109,19 @@
       }
     },
     {
-      "index": 31,
+      "index": 17,
+      "name": "ModelLegs"
+    },
+    {
+      "index": 18,
+      "name": "DyeLegs",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 19,
       "name": "Dye2Legs",
       "converter": {
         "type": "link",
@@ -205,7 +129,19 @@
       }
     },
     {
-      "index": 32,
+      "index": 20,
+      "name": "ModelFeet"
+    },
+    {
+      "index": 21,
+      "name": "DyeFeet",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 22,
       "name": "Dye2Feet",
       "converter": {
         "type": "link",
@@ -213,7 +149,19 @@
       }
     },
     {
-      "index": 33,
+      "index": 23,
+      "name": "ModelEars"
+    },
+    {
+      "index": 24,
+      "name": "DyeEars",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 25,
       "name": "Dye2Ears",
       "converter": {
         "type": "link",
@@ -221,7 +169,19 @@
       }
     },
     {
-      "index": 34,
+      "index": 26,
+      "name": "ModelNeck"
+    },
+    {
+      "index": 27,
+      "name": "DyeNeck",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 28,
       "name": "Dye2Neck",
       "converter": {
         "type": "link",
@@ -229,7 +189,19 @@
       }
     },
     {
-      "index": 35,
+      "index": 29,
+      "name": "ModelWrists"
+    },
+    {
+      "index": 30,
+      "name": "DyeWrists",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 31,
       "name": "Dye2Wrists",
       "converter": {
         "type": "link",
@@ -237,8 +209,32 @@
       }
     },
     {
-      "index": 36,
+      "index": 32,
+      "name": "ModelLeftRing"
+    },
+    {
+      "index": 33,
+      "name": "DyeLeftRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 34,
       "name": "Dye2LeftRing",
+      "converter": {
+        "type": "link",
+        "target": "Stain"
+      }
+    },
+    {
+      "index": 35,
+      "name": "ModelRightRing"
+    },
+    {
+      "index": 36,
+      "name": "DyeRightRing",
       "converter": {
         "type": "link",
         "target": "Stain"
@@ -254,11 +250,19 @@
     },
     {
       "index": 38,
-      "name": "Visor"
+      "name": "Glasses[0]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
     },
     {
       "index": 39,
-      "name": "VisorToggled"
+      "name": "Glasses[1]",
+      "converter": {
+        "type": "link",
+        "target": "Glasses"
+      }
     }
   ]
 }

@@ -11,50 +11,6 @@
     },
     {
       "index": 2,
-      "name": "ExpFactor"
-    },
-    {
-      "index": 3,
-      "name": "ExpReward"
-    },
-    {
-      "index": 4,
-      "name": "GilReward"
-    },
-    {
-      "index": 5,
-      "name": "LeveRewardItem",
-      "converter": {
-        "type": "link",
-        "target": "LeveRewardItem"
-      }
-    },
-    {
-      "index": 6,
-      "name": "JournalGenre",
-      "converter": {
-        "type": "link",
-        "target": "JournalGenre"
-      }
-    },
-    {
-      "index": 7,
-      "name": "LevelLevemete",
-      "converter": {
-        "type": "link",
-        "target": "Level"
-      }
-    },
-    {
-      "index": 8,
-      "name": "LevelStart",
-      "converter": {
-        "type": "link",
-        "target": "Level"
-      }
-    },
-    {
-      "index": 9,
       "name": "LeveClient",
       "converter": {
         "type": "link",
@@ -62,7 +18,11 @@
       }
     },
     {
-      "index": 10,
+      "index": 3,
+      "name": "Unknown1"
+    },
+    {
+      "index": 4,
       "name": "LeveAssignmentType",
       "converter": {
         "type": "link",
@@ -70,7 +30,7 @@
       }
     },
     {
-      "index": 11,
+      "index": 5,
       "name": "Town",
       "converter": {
         "type": "link",
@@ -78,7 +38,19 @@
       }
     },
     {
-      "index": 12,
+      "index": 6,
+      "name": "ClassJobLevel"
+    },
+    {
+      "index": 7,
+      "name": "TimeLimit"
+    },
+    {
+      "index": 8,
+      "name": "AllowanceCost"
+    },
+    {
+      "index": 9,
       "name": "PlaceNameStart",
       "converter": {
         "type": "link",
@@ -86,7 +58,7 @@
       }
     },
     {
-      "index": 13,
+      "index": 10,
       "name": "PlaceNameIssued",
       "converter": {
         "type": "link",
@@ -94,7 +66,39 @@
       }
     },
     {
+      "index": 11,
+      "name": "FishingSpot",
+      "converter": {
+        "type": "link",
+        "target": "FishingSpot"
+      }
+    },
+    {
+      "index": 12,
+      "name": "SpearfishingNotebook",
+      "converter": {
+        "type": "link",
+        "target": "SpearfishingNotebook"
+      }
+    },
+    {
+      "index": 13,
+      "name": "ClassJobCategory",
+      "converter": {
+        "type": "link",
+        "target": "ClassJobCategory"
+      }
+    },
+    {
       "index": 14,
+      "name": "JournalGenre",
+      "converter": {
+        "type": "link",
+        "target": "JournalGenre"
+      }
+    },
+    {
+      "index": 15,
       "name": "PlaceNameStartZone",
       "converter": {
         "type": "link",
@@ -102,14 +106,14 @@
       }
     },
     {
-      "index": 15,
+      "index": 16,
       "name": "IconCityState",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 16,
+      "index": 17,
       "name": "DataId",
       "converter": {
         "type": "multiref",
@@ -122,66 +126,35 @@
       }
     },
     {
-      "index": 17,
-      "name": "IconIssuer",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
       "index": 18,
-      "name": "ClassJobLevel"
+      "name": "CanCancel"
     },
     {
       "index": 19,
-      "name": "FishingSpot",
-      "converter": {
-        "type": "link",
-        "target": "FishingSpot"
-      }
-    },
-    {
-      "index": 20,
-      "name": "BGM",
-      "converter": {
-        "type": "link",
-        "target": "BGM"
-      }
-    },
-    {
-      "index": 21,
-      "name": "Unknown1"
-    },
-    {
-      "index": 22,
-      "name": "TimeLimit"
-    },
-    {
-      "index": 23,
-      "name": "AllowanceCost"
-    },
-    {
-      "index": 24,
-      "name": "SpearfishingNotebook",
-      "converter": {
-        "type": "link",
-        "target": "SpearfishingNotebook"
-      }
-    },
-    {
-      "index": 25,
-      "name": "ClassJobCategory",
-      "converter": {
-        "type": "link",
-        "target": "ClassJobCategory"
-      }
-    },
-    {
-      "index": 26,
       "name": "MaxDifficulty"
     },
     {
-      "index": 27,
+      "index": 20,
+      "name": "ExpFactor"
+    },
+    {
+      "index": 21,
+      "name": "ExpReward"
+    },
+    {
+      "index": 22,
+      "name": "GilReward"
+    },
+    {
+      "index": 23,
+      "name": "LeveRewardItem",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItem"
+      }
+    },
+    {
+      "index": 24,
       "name": "LeveVfx",
       "converter": {
         "type": "link",
@@ -189,7 +162,7 @@
       }
     },
     {
-      "index": 28,
+      "index": 25,
       "name": "LeveVfxFrame",
       "converter": {
         "type": "link",
@@ -197,12 +170,39 @@
       }
     },
     {
+      "index": 26,
+      "name": "LevelLevemete",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
+    },
+    {
+      "index": 27,
+      "name": "IconIssuer",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 28,
+      "name": "LockedLeve"
+    },
+    {
       "index": 29,
-      "name": "CanCancel"
+      "name": "LevelStart",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
     },
     {
       "index": 30,
-      "name": "LockedLeve"
+      "name": "BGM",
+      "converter": {
+        "type": "link",
+        "target": "BGM"
+      }
     }
   ]
 }

@@ -33,21 +33,21 @@
     },
     {
       "index": 3,
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 4,
       "name": "Unknown0"
     },
     {
-      "index": 5,
+      "index": 4,
       "name": "Text",
       "converter": {
         "type": "link",
         "target": "WeeklyBingoText"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
       }
     },
     {

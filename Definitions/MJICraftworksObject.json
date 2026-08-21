@@ -11,14 +11,18 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Theme",
-        "converter": {
-          "type": "link",
-          "target": "MJICraftworksObjectTheme"
-        }
+      "name": "Theme[0]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksObjectTheme"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Theme[1]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksObjectTheme"
       }
     },
     {
@@ -27,23 +31,51 @@
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Material",
-        "converter": {
-          "type": "link",
-          "target": "MJIItemPouch"
-        }
+      "name": "Material[0]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
       }
     },
     {
-      "index": 8,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Amount"
+      "index": 5,
+      "name": "Amount[0]"
+    },
+    {
+      "index": 6,
+      "name": "Material[1]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
       }
+    },
+    {
+      "index": 7,
+      "name": "Amount[1]"
+    },
+    {
+      "index": 8,
+      "name": "Material[2]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Amount[2]"
+    },
+    {
+      "index": 10,
+      "name": "Material[3]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Amount[3]"
     },
     {
       "index": 12,

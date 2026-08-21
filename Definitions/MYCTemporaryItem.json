@@ -3,14 +3,6 @@
   "defaultColumn": "Action",
   "definitions": [
     {
-      "name": "Action",
-      "converter": {
-        "type": "link",
-        "target": "Action"
-      }
-    },
-    {
-      "index": 1,
       "name": "Category",
       "converter": {
         "type": "link",
@@ -18,8 +10,16 @@
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "Type"
+    },
+    {
+      "index": 2,
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
     },
     {
       "index": 3,

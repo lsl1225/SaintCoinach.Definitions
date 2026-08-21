@@ -3,43 +3,43 @@
   "defaultColumn": "Key",
   "definitions": [
     {
-      "name": "Key"
+      "name": "Unknown_70"
     },
     {
       "index": 1,
+      "name": "Type"
+    },
+    {
+      "index": 2,
+      "name": "Pause"
+    },
+    {
+      "index": 3,
+      "name": "Priority"
+    },
+    {
+      "index": 4,
+      "name": "Stance"
+    },
+    {
+      "index": 5,
+      "name": "Slot"
+    },
+    {
+      "index": 6,
+      "name": "Key"
+    },
+    {
+      "index": 7,
+      "name": "LookAtMode"
+    },
+    {
+      "index": 8,
       "name": "WeaponTimeline",
       "converter": {
         "type": "link",
         "target": "WeaponTimeline"
       }
-    },
-    {
-      "index": 2,
-      "name": "KillUpper"
-    },
-    {
-      "index": 3,
-      "name": "Unknown_70"
-    },
-    {
-      "index": 4,
-      "name": "Type"
-    },
-    {
-      "index": 5,
-      "name": "Priority"
-    },
-    {
-      "index": 6,
-      "name": "Stance"
-    },
-    {
-      "index": 7,
-      "name": "Slot"
-    },
-    {
-      "index": 8,
-      "name": "LookAtMode"
     },
     {
       "index": 9,
@@ -55,39 +55,39 @@
     },
     {
       "index": 12,
-      "name": "ResidentPap"
+      "name": "KillUpper"
     },
     {
       "index": 13,
-      "name": "Unknown6"
-    },
-    {
-      "index": 14,
-      "name": "Unknown1"
-    },
-    {
-      "index": 15,
-      "name": "Pause"
-    },
-    {
-      "index": 16,
       "name": "Resident"
     },
     {
-      "index": 17,
+      "index": 14,
       "name": "IsMotionCanceledByMoving"
     },
     {
-      "index": 18,
+      "index": 15,
+      "name": "ResidentPap"
+    },
+    {
+      "index": 16,
       "name": "Unknown2"
     },
     {
-      "index": 19,
+      "index": 17,
       "name": "Unknown3"
     },
     {
-      "index": 20,
+      "index": 18,
       "name": "IsLoop"
+    },
+    {
+      "index": 19,
+      "name": "Unknown6"
+    },
+    {
+      "index": 20,
+      "name": "Unknown1"
     },
     {
       "index": 21,

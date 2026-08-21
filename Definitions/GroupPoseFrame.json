@@ -3,18 +3,37 @@
   "defaultColumn": "Text",
   "definitions": [
     {
-      "name": "Text"
+      "name": "Unknown1"
     },
     {
       "index": 1,
-      "name": "GridText"
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 2,
-      "name": "Unknown0"
+      "name": "GridText"
     },
     {
       "index": 3,
+      "name": "Unknown2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "SortKey"
+    },
+    {
+      "index": 6,
+      "name": "UnlockType"
+    },
+    {
+      "index": 7,
       "name": "UnlockCriteria",
       "converter": {
         "type": "complexlink",
@@ -72,22 +91,7 @@
       }
     },
     {
-      "index": 4,
-      "name": "Unknown1"
-    },
-    {
-      "index": 5,
-      "name": "Image",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 6,
-      "name": "Unknown2"
-    },
-    {
-      "index": 7,
+      "index": 8,
       "name": "Festival",
       "converter": {
         "type": "link",
@@ -95,12 +99,8 @@
       }
     },
     {
-      "index": 8,
-      "name": "SortKey"
-    },
-    {
       "index": 9,
-      "name": "UnlockType"
+      "name": "Text"
     }
   ]
 }

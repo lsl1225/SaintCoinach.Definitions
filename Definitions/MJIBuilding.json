@@ -2,6 +2,162 @@
   "sheet": "MJIBuilding",
   "definitions": [
     {
+      "name": "Unknown1"
+    },
+    {
+      "index": 1,
+      "name": "Sgb[0]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown2"
+    },
+    {
+      "index": 3,
+      "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "Sgb[1]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown4"
+    },
+    {
+      "index": 6,
+      "name": "Sgb[2]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown5"
+    },
+    {
+      "index": 8,
+      "name": "Sgb[3]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Unknown6"
+    },
+    {
+      "index": 10,
+      "name": "Sgb[4]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Unknown7"
+    },
+    {
+      "index": 12,
+      "name": "Unknown8"
+    },
+    {
+      "index": 13,
+      "name": "Unknown9"
+    },
+    {
+      "index": 14,
+      "name": "Unknown10"
+    },
+    {
+      "index": 15,
+      "name": "Unknown11"
+    },
+    {
+      "index": 16,
+      "name": "Unknown12"
+    },
+    {
+      "index": 17,
+      "name": "Unknown13"
+    },
+    {
+      "index": 18,
+      "name": "Unknown14"
+    },
+    {
+      "index": 19,
+      "name": "Material[0]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Material[1]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Material[2]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Material[3]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Material[4]",
+      "converter": {
+        "type": "link",
+        "target": "MJIItemPouch"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Amount[0]"
+    },
+    {
+      "index": 25,
+      "name": "Amount[1]"
+    },
+    {
+      "index": 26,
+      "name": "Amount[2]"
+    },
+    {
+      "index": 27,
+      "name": "Amount[3]"
+    },
+    {
+      "index": 28,
+      "name": "Amount[4]"
+    },
+    {
+      "index": 29,
       "name": "Name",
       "converter": {
         "type": "link",
@@ -9,102 +165,14 @@
       }
     },
     {
-      "index": 1,
+      "index": 30,
       "name": "Unknown0"
     },
     {
-      "index": 2,
+      "index": 31,
       "name": "Icon",
       "converter": {
         "type": "icon"
-      }
-    },
-    {
-      "index": 3,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "Sgb",
-        "converter": {
-          "type": "link",
-          "target": "ExportedSG"
-        }
-      }
-    },
-    {
-      "index": 8,
-      "name": "Unknown1"
-    },
-    {
-      "index": 9,
-      "name": "Unknown2"
-    },
-    {
-      "index": 10,
-      "name": "Unknown3"
-    },
-    {
-      "index": 11,
-      "name": "Unknown4"
-    },
-    {
-      "index": 12,
-      "name": "Unknown5"
-    },
-    {
-      "index": 13,
-      "name": "Unknown6"
-    },
-    {
-      "index": 14,
-      "name": "Unknown7"
-    },
-    {
-      "index": 15,
-      "name": "Unknown8"
-    },
-    {
-      "index": 16,
-      "name": "Unknown9"
-    },
-    {
-      "index": 17,
-      "name": "Unknown10"
-    },
-    {
-      "index": 18,
-      "name": "Unknown11"
-    },
-    {
-      "index": 19,
-      "name": "Unknown12"
-    },
-    {
-      "index": 20,
-      "name": "Unknown13"
-    },
-    {
-      "index": 21,
-      "name": "Unknown14"
-    },
-    {
-      "index": 22,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "Material",
-        "converter": {
-          "type": "link",
-          "target": "MJIItemPouch"
-        }
-      }
-    },
-    {
-      "index": 27,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "Amount"
       }
     }
   ]

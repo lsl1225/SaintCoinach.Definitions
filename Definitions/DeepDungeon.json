@@ -3,101 +3,6 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 16,
-      "definition": {
-        "name": "PomanderSlot",
-        "converter": {
-          "type": "link",
-          "target": "DeepDungeonItem"
-        }
-      }
-    },
-    {
-      "index": 16,
-      "name": "Unknown2"
-    },
-    {
-      "index": 17,
-      "name": "Unknown3"
-    },
-    {
-      "index": 18,
-      "name": "Unknown4"
-    },
-    {
-      "index": 19,
-      "name": "Unknown5"
-    },
-    {
-      "index": 20,
-      "name": "Unknown6"
-    },
-    {
-      "index": 21,
-      "name": "Unknown7"
-    },
-    {
-      "index": 22,
-      "name": "Unknown8"
-    },
-    {
-      "index": 23,
-      "name": "Unknown9"
-    },
-    {
-      "index": 24,
-      "name": "Unknown10"
-    },
-    {
-      "index": 25,
-      "name": "Unknown11"
-    },
-    {
-      "index": 26,
-      "name": "Unknown12"
-    },
-    {
-      "index": 27,
-      "name": "Unknown13"
-    },
-    {
-      "index": 28,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "MagiciteSlot",
-        "converter": {
-          "type": "complexlink",
-          "links": [
-            {
-              "sheet": "DeepDungeonMagicStone",
-              "when": {
-                "key": "DeepDungeonType",
-                "value": 1
-              }
-            },
-            {
-              "sheet": "DeepDungeonDemiclone",
-              "when": {
-                "key": "DeepDungeonType",
-                "value": 2
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "index": 32,
-      "name": "Name"
-    },
-    {
-      "index": 33,
-      "name": "Unknown14"
-    },
-    {
-      "index": 34,
       "name": "AetherpoolArm",
       "converter": {
         "type": "link",
@@ -105,7 +10,7 @@
       }
     },
     {
-      "index": 35,
+      "index": 1,
       "name": "AetherpoolArmor",
       "converter": {
         "type": "link",
@@ -113,8 +18,284 @@
       }
     },
     {
-      "index": 36,
+      "index": 2,
+      "name": "PomanderSlot[0]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PomanderSlot[1]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PomanderSlot[2]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 5,
+      "name": "PomanderSlot[3]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 6,
+      "name": "PomanderSlot[4]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 7,
+      "name": "PomanderSlot[5]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 8,
+      "name": "PomanderSlot[6]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 9,
+      "name": "PomanderSlot[7]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 10,
+      "name": "PomanderSlot[8]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 11,
+      "name": "PomanderSlot[9]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 12,
+      "name": "PomanderSlot[10]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 13,
+      "name": "PomanderSlot[11]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 14,
+      "name": "PomanderSlot[12]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 15,
+      "name": "PomanderSlot[13]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 16,
+      "name": "PomanderSlot[14]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 17,
+      "name": "PomanderSlot[15]",
+      "converter": {
+        "type": "link",
+        "target": "DeepDungeonItem"
+      }
+    },
+    {
+      "index": 18,
       "name": "DeepDungeonType"
+    },
+    {
+      "index": 19,
+      "name": "Unknown10"
+    },
+    {
+      "index": 20,
+      "name": "MagiciteSlot[0]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "DeepDungeonMagicStone",
+            "when": {
+              "key": "DeepDungeonType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "DeepDungeonDemiclone",
+            "when": {
+              "key": "DeepDungeonType",
+              "value": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 21,
+      "name": "Unknown2"
+    },
+    {
+      "index": 22,
+      "name": "Unknown6"
+    },
+    {
+      "index": 23,
+      "name": "Unknown11"
+    },
+    {
+      "index": 24,
+      "name": "MagiciteSlot[1]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "DeepDungeonMagicStone",
+            "when": {
+              "key": "DeepDungeonType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "DeepDungeonDemiclone",
+            "when": {
+              "key": "DeepDungeonType",
+              "value": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 25,
+      "name": "Unknown3"
+    },
+    {
+      "index": 26,
+      "name": "Unknown7"
+    },
+    {
+      "index": 27,
+      "name": "Unknown12"
+    },
+    {
+      "index": 28,
+      "name": "MagiciteSlot[2]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "DeepDungeonMagicStone",
+            "when": {
+              "key": "DeepDungeonType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "DeepDungeonDemiclone",
+            "when": {
+              "key": "DeepDungeonType",
+              "value": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 29,
+      "name": "Unknown4"
+    },
+    {
+      "index": 30,
+      "name": "Unknown8"
+    },
+    {
+      "index": 31,
+      "name": "Unknown13"
+    },
+    {
+      "index": 32,
+      "name": "MagiciteSlot[3]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "DeepDungeonMagicStone",
+            "when": {
+              "key": "DeepDungeonType",
+              "value": 1
+            }
+          },
+          {
+            "sheet": "DeepDungeonDemiclone",
+            "when": {
+              "key": "DeepDungeonType",
+              "value": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 33,
+      "name": "Unknown5"
+    },
+    {
+      "index": 34,
+      "name": "Unknown9"
+    },
+    {
+      "index": 35,
+      "name": "Name"
+    },
+    {
+      "index": 36,
+      "name": "Unknown14"
     }
   ]
 }

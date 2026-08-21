@@ -3,11 +3,11 @@
   "defaultColumn": "ClassSingular",
   "definitions": [
     {
-      "name": "Name"
+      "name": "ClassSingular"
     },
     {
       "index": 1,
-      "name": "ClassPlural"
+      "name": "Name"
     },
     {
       "index": 2,
@@ -15,7 +15,7 @@
     },
     {
       "index": 3,
-      "name": "ClassSingular"
+      "name": "ClassPlural"
     }
   ]
 }

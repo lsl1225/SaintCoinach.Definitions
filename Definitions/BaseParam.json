@@ -3,119 +3,163 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "PacketIndex"
     },
     {
       "index": 1,
-      "name": "Description"
+      "name": "Name"
     },
     {
       "index": 2,
-      "name": "OneHandWeaponPercent"
+      "name": "Description"
     },
     {
       "index": 3,
-      "name": "OffHandPercent"
-    },
-    {
-      "index": 4,
-      "name": "HeadPercent"
-    },
-    {
-      "index": 5,
-      "name": "ChestPercent"
-    },
-    {
-      "index": 6,
-      "name": "HandsPercent"
-    },
-    {
-      "index": 7,
-      "name": "WaistPercent"
-    },
-    {
-      "index": 8,
-      "name": "LegsPercent"
-    },
-    {
-      "index": 9,
-      "name": "FeetPercent"
-    },
-    {
-      "index": 10,
-      "name": "EarringPercent"
-    },
-    {
-      "index": 11,
-      "name": "NecklacePercent"
-    },
-    {
-      "index": 12,
-      "name": "BraceletPercent"
-    },
-    {
-      "index": 13,
-      "name": "RingPercent"
-    },
-    {
-      "index": 14,
-      "name": "TwoHandWeaponPercent"
-    },
-    {
-      "index": 15,
-      "name": "UnderArmorPercent"
-    },
-    {
-      "index": 16,
-      "name": "ChestHeadPercent"
-    },
-    {
-      "index": 17,
-      "name": "ChestHeadLegsFeetPercent"
-    },
-    {
-      "index": 18,
-      "name": "Unknown0"
-    },
-    {
-      "index": 19,
-      "name": "LegsFeetPercent"
-    },
-    {
-      "index": 20,
-      "name": "HeadChestHandsLegsFeetPercent"
-    },
-    {
-      "index": 21,
-      "name": "ChestLegsGlovesPercent"
-    },
-    {
-      "index": 22,
-      "name": "ChestLegsFeetPercent"
-    },
-    {
-      "index": 23,
-      "name": "Unknown1"
-    },
-    {
-      "index": 24,
-      "name": "Unknown3"
-    },
-    {
-      "index": 25,
       "name": "OrderPriority"
     },
     {
+      "index": 4,
+      "name": "OneHandWeaponPercent"
+    },
+    {
+      "index": 5,
+      "name": "OffHandPercent"
+    },
+    {
+      "index": 6,
+      "name": "HeadPercent"
+    },
+    {
+      "index": 7,
+      "name": "ChestPercent"
+    },
+    {
+      "index": 8,
+      "name": "HandsPercent"
+    },
+    {
+      "index": 9,
+      "name": "WaistPercent"
+    },
+    {
+      "index": 10,
+      "name": "LegsPercent"
+    },
+    {
+      "index": 11,
+      "name": "FeetPercent"
+    },
+    {
+      "index": 12,
+      "name": "EarringPercent"
+    },
+    {
+      "index": 13,
+      "name": "NecklacePercent"
+    },
+    {
+      "index": 14,
+      "name": "BraceletPercent"
+    },
+    {
+      "index": 15,
+      "name": "RingPercent"
+    },
+    {
+      "index": 16,
+      "name": "TwoHandWeaponPercent"
+    },
+    {
+      "index": 17,
+      "name": "UnderArmorPercent"
+    },
+    {
+      "index": 18,
+      "name": "ChestHeadPercent"
+    },
+    {
+      "index": 19,
+      "name": "ChestHeadLegsFeetPercent"
+    },
+    {
+      "index": 20,
+      "name": "Unknown0"
+    },
+    {
+      "index": 21,
+      "name": "LegsFeetPercent"
+    },
+    {
+      "index": 22,
+      "name": "HeadChestHandsLegsFeetPercent"
+    },
+    {
+      "index": 23,
+      "name": "ChestLegsGlovesPercent"
+    },
+    {
+      "index": 24,
+      "name": "ChestLegsFeetPercent"
+    },
+    {
+      "index": 25,
+      "name": "Unknown1"
+    },
+    {
       "index": 26,
-      "type": "repeat",
-      "count": 13,
-      "definition": {
-        "name": "MeldParam"
-      }
+      "name": "Unknown3"
+    },
+    {
+      "index": 27,
+      "name": "MeldParam[0]"
+    },
+    {
+      "index": 28,
+      "name": "MeldParam[1]"
+    },
+    {
+      "index": 29,
+      "name": "MeldParam[2]"
+    },
+    {
+      "index": 30,
+      "name": "MeldParam[3]"
+    },
+    {
+      "index": 31,
+      "name": "MeldParam[4]"
+    },
+    {
+      "index": 32,
+      "name": "MeldParam[5]"
+    },
+    {
+      "index": 33,
+      "name": "MeldParam[6]"
+    },
+    {
+      "index": 34,
+      "name": "MeldParam[7]"
+    },
+    {
+      "index": 35,
+      "name": "MeldParam[8]"
+    },
+    {
+      "index": 36,
+      "name": "MeldParam[9]"
+    },
+    {
+      "index": 37,
+      "name": "MeldParam[10]"
+    },
+    {
+      "index": 38,
+      "name": "MeldParam[11]"
     },
     {
       "index": 39,
-      "name": "PacketIndex"
+      "name": "MeldParam[12]"
     },
     {
       "index": 40,

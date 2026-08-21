@@ -2,6 +2,18 @@
   "sheet": "GatheringPoint",
   "definitions": [
     {
+      "name": "Type"
+    },
+    {
+      "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
       "name": "GatheringPointBase",
       "converter": {
         "type": "link",
@@ -9,19 +21,27 @@
       }
     },
     {
-      "index": 1,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "GatheringPointBonus",
-        "converter": {
-          "type": "link",
-          "target": "GatheringPointBonus"
-        }
+      "index": 4,
+      "name": "Count"
+    },
+    {
+      "index": 5,
+      "name": "GatheringPointBonus[0]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPointBonus"
       }
     },
     {
-      "index": 3,
+      "index": 6,
+      "name": "GatheringPointBonus[1]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringPointBonus"
+      }
+    },
+    {
+      "index": 7,
       "name": "TerritoryType",
       "converter": {
         "type": "link",
@@ -29,7 +49,7 @@
       }
     },
     {
-      "index": 4,
+      "index": 8,
       "name": "PlaceName",
       "converter": {
         "type": "link",
@@ -37,28 +57,12 @@
       }
     },
     {
-      "index": 5,
+      "index": 9,
       "name": "GatheringSubCategory",
       "converter": {
         "type": "link",
         "target": "GatheringSubCategory"
       }
-    },
-    {
-      "index": 6,
-      "name": "Type"
-    },
-    {
-      "index": 7,
-      "name": "Unknown0"
-    },
-    {
-      "index": 8,
-      "name": "Count"
-    },
-    {
-      "index": 9,
-      "name": "Unknown1"
     }
   ]
 }

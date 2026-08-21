@@ -3,23 +3,23 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "RequiredReputation"
     },
     {
       "index": 1,
-      "name": "AlliedNames"
+      "name": "Name"
     },
     {
       "index": 2,
+      "name": "AlliedNames"
+    },
+    {
+      "index": 3,
       "name": "Color",
       "converter": {
         "type": "link",
         "target": "UIColor"
       }
-    },
-    {
-      "index": 3,
-      "name": "RequiredReputation"
     }
   ]
 }

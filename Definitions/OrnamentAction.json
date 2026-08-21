@@ -2,14 +2,50 @@
   "sheet": "OrnamentAction",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "Actions",
-        "converter": {
-          "type": "link",
-          "target": "Action"
-        }
+      "name": "Actions[0]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Actions[1]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Actions[2]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Actions[3]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Actions[4]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Actions[5]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
       }
     }
   ]

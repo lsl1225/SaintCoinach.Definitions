@@ -22,15 +22,15 @@
     },
     {
       "index": 3,
-      "name": "Unknown0"
-    },
-    {
-      "index": 4,
       "name": "QuickChatTransient",
       "converter": {
         "type": "link",
         "target": "QuickChatTransient"
       }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
     }
   ]
 }

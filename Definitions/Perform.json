@@ -3,45 +3,18 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "AnimationPlay01",
-      "converter": {
-        "type": "link",
-        "target": "ActionTimeline"
-      }
-    },
-    {
-      "index": 1,
-      "name": "AnimationPlay02",
-      "converter": {
-        "type": "link",
-        "target": "ActionTimeline"
-      }
-    },
-    {
-      "index": 2,
-      "name": "Instrument"
-    },
-    {
-      "index": 3,
-      "name": "ModelKey"
-    },
-    {
-      "index": 4,
       "name": "Name"
     },
     {
-      "index": 5,
-      "name": "UnlockLink"
+      "index": 1,
+      "name": "Unknown1"
     },
     {
-      "index": 6,
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
+      "index": 2,
+      "name": "ModelKey"
     },
     {
-      "index": 7,
+      "index": 3,
       "name": "AnimationStart",
       "converter": {
         "type": "link",
@@ -49,7 +22,7 @@
       }
     },
     {
-      "index": 8,
+      "index": 4,
       "name": "AnimationEnd",
       "converter": {
         "type": "link",
@@ -57,7 +30,7 @@
       }
     },
     {
-      "index": 9,
+      "index": 5,
       "name": "AnimationIdle",
       "converter": {
         "type": "link",
@@ -65,7 +38,38 @@
       }
     },
     {
+      "index": 6,
+      "name": "AnimationPlay01",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 7,
+      "name": "AnimationPlay02",
+      "converter": {
+        "type": "link",
+        "target": "ActionTimeline"
+      }
+    },
+    {
+      "index": 8,
+      "name": "UnlockLink"
+    },
+    {
+      "index": 9,
+      "name": "Instrument"
+    },
+    {
       "index": 10,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 11,
       "name": "Transient",
       "converter": {
         "type": "link",
@@ -73,16 +77,12 @@
       }
     },
     {
-      "index": 11,
+      "index": 12,
       "name": "PerformGroup",
       "converter": {
         "type": "link",
         "target": "PerformGroup"
       }
-    },
-    {
-      "index": 12,
-      "name": "Unknown1"
     }
   ]
 }

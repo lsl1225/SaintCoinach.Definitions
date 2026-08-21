@@ -3,22 +3,26 @@
   "defaultColumn": "FolkloreBook",
   "definitions": [
     {
-      "name": "FolkloreBook"
+      "name": "GatheringType",
+      "converter": {
+        "type": "link",
+        "target": "GatheringType"
+      }
     },
     {
       "index": 1,
-      "name": "Quest",
+      "name": "ClassJob",
       "converter": {
         "type": "link",
-        "target": "Quest"
+        "target": "ClassJob"
       }
     },
     {
       "index": 2,
-      "name": "Item",
+      "name": "Quest",
       "converter": {
         "type": "link",
-        "target": "Item"
+        "target": "Quest"
       }
     },
     {
@@ -31,19 +35,15 @@
     },
     {
       "index": 4,
-      "name": "GatheringType",
+      "name": "Item",
       "converter": {
         "type": "link",
-        "target": "GatheringType"
+        "target": "Item"
       }
     },
     {
       "index": 5,
-      "name": "ClassJob",
-      "converter": {
-        "type": "link",
-        "target": "ClassJob"
-      }
+      "name": "FolkloreBook"
     },
     {
       "index": 6,

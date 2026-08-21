@@ -3,54 +3,190 @@
   "defaultColumn": "WarpName",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Function"
-          },
-          {
-            "name": "Argument",
-            "converter": {
-              "type": "multiref",
-              "targets": [
-                "HowTo",
-                "Item",
-                "Quest"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "index": 20,
-      "name": "Question"
-    },
-    {
-      "index": 21,
-      "name": "ResponseYes"
-    },
-    {
-      "index": 22,
-      "name": "ResponseNo"
-    },
-    {
-      "index": 23,
-      "name": "WarpName"
-    },
-    {
-      "index": 24,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 25,
+      "index": 1,
+      "name": "WarpName"
+    },
+    {
+      "index": 2,
       "name": "CanSkipCutscene"
+    },
+    {
+      "index": 3,
+      "name": "Function[0]"
+    },
+    {
+      "index": 4,
+      "name": "Function[1]"
+    },
+    {
+      "index": 5,
+      "name": "Function[2]"
+    },
+    {
+      "index": 6,
+      "name": "Function[3]"
+    },
+    {
+      "index": 7,
+      "name": "Function[4]"
+    },
+    {
+      "index": 8,
+      "name": "Function[5]"
+    },
+    {
+      "index": 9,
+      "name": "Function[6]"
+    },
+    {
+      "index": 10,
+      "name": "Function[7]"
+    },
+    {
+      "index": 11,
+      "name": "Function[8]"
+    },
+    {
+      "index": 12,
+      "name": "Function[9]"
+    },
+    {
+      "index": 13,
+      "name": "Argument[0]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "name": "Argument[1]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "name": "Argument[2]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "name": "Argument[3]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "name": "Argument[4]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 18,
+      "name": "Argument[5]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 19,
+      "name": "Argument[6]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "name": "Argument[7]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 21,
+      "name": "Argument[8]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 22,
+      "name": "Argument[9]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "HowTo",
+          "Item",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 23,
+      "name": "Question"
+    },
+    {
+      "index": 24,
+      "name": "ResponseYes"
+    },
+    {
+      "index": 25,
+      "name": "ResponseNo"
     }
   ]
 }

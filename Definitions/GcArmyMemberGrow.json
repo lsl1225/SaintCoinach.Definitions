@@ -2,48 +2,14 @@
   "sheet": "GcArmyMemberGrow",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 60,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "EquipPreset",
-            "converter": {
-              "type": "link",
-              "target": "GcArmyEquipPreset"
-            }
-          },
-          {
-            "name": "Physical"
-          },
-          {
-            "name": "Mental"
-          },
-          {
-            "name": "Tactical"
-          }
-        ]
+      "name": "ClassJob",
+      "converter": {
+        "type": "link",
+        "target": "ClassJob"
       }
     },
     {
-      "index": 240,
-      "name": "Unknown0"
-    },
-    {
-      "index": 241,
-      "name": "Unknown1"
-    },
-    {
-      "index": 242,
-      "name": "Unknown2"
-    },
-    {
-      "index": 243,
-      "name": "Unknown3"
-    },
-    {
-      "index": 244,
+      "index": 1,
       "name": "ClassBook",
       "converter": {
         "type": "link",
@@ -51,12 +17,1220 @@
       }
     },
     {
-      "index": 245,
-      "name": "ClassJob",
+      "index": 2,
+      "name": "EquipPreset[0]",
       "converter": {
         "type": "link",
-        "target": "ClassJob"
+        "target": "GcArmyEquipPreset"
       }
+    },
+    {
+      "index": 3,
+      "name": "EquipPreset[1]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 4,
+      "name": "EquipPreset[2]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 5,
+      "name": "EquipPreset[3]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 6,
+      "name": "EquipPreset[4]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 7,
+      "name": "EquipPreset[5]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 8,
+      "name": "EquipPreset[6]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 9,
+      "name": "EquipPreset[7]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 10,
+      "name": "EquipPreset[8]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 11,
+      "name": "EquipPreset[9]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 12,
+      "name": "EquipPreset[10]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 13,
+      "name": "EquipPreset[11]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 14,
+      "name": "EquipPreset[12]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 15,
+      "name": "EquipPreset[13]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 16,
+      "name": "EquipPreset[14]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 17,
+      "name": "EquipPreset[15]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 18,
+      "name": "EquipPreset[16]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 19,
+      "name": "EquipPreset[17]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 20,
+      "name": "EquipPreset[18]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 21,
+      "name": "EquipPreset[19]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 22,
+      "name": "EquipPreset[20]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 23,
+      "name": "EquipPreset[21]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 24,
+      "name": "EquipPreset[22]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 25,
+      "name": "EquipPreset[23]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 26,
+      "name": "EquipPreset[24]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 27,
+      "name": "EquipPreset[25]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 28,
+      "name": "EquipPreset[26]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 29,
+      "name": "EquipPreset[27]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 30,
+      "name": "EquipPreset[28]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 31,
+      "name": "EquipPreset[29]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 32,
+      "name": "EquipPreset[30]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 33,
+      "name": "EquipPreset[31]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 34,
+      "name": "EquipPreset[32]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 35,
+      "name": "EquipPreset[33]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 36,
+      "name": "EquipPreset[34]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 37,
+      "name": "EquipPreset[35]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 38,
+      "name": "EquipPreset[36]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 39,
+      "name": "EquipPreset[37]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 40,
+      "name": "EquipPreset[38]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 41,
+      "name": "EquipPreset[39]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 42,
+      "name": "EquipPreset[40]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 43,
+      "name": "EquipPreset[41]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 44,
+      "name": "EquipPreset[42]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 45,
+      "name": "EquipPreset[43]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 46,
+      "name": "EquipPreset[44]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 47,
+      "name": "EquipPreset[45]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 48,
+      "name": "EquipPreset[46]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 49,
+      "name": "EquipPreset[47]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 50,
+      "name": "EquipPreset[48]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 51,
+      "name": "EquipPreset[49]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 52,
+      "name": "EquipPreset[50]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 53,
+      "name": "EquipPreset[51]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 54,
+      "name": "EquipPreset[52]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 55,
+      "name": "EquipPreset[53]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 56,
+      "name": "EquipPreset[54]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 57,
+      "name": "EquipPreset[55]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 58,
+      "name": "EquipPreset[56]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 59,
+      "name": "EquipPreset[57]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 60,
+      "name": "EquipPreset[58]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 61,
+      "name": "EquipPreset[59]",
+      "converter": {
+        "type": "link",
+        "target": "GcArmyEquipPreset"
+      }
+    },
+    {
+      "index": 62,
+      "name": "Unknown0"
+    },
+    {
+      "index": 63,
+      "name": "Physical[0]"
+    },
+    {
+      "index": 64,
+      "name": "Physical[1]"
+    },
+    {
+      "index": 65,
+      "name": "Physical[2]"
+    },
+    {
+      "index": 66,
+      "name": "Physical[3]"
+    },
+    {
+      "index": 67,
+      "name": "Physical[4]"
+    },
+    {
+      "index": 68,
+      "name": "Physical[5]"
+    },
+    {
+      "index": 69,
+      "name": "Physical[6]"
+    },
+    {
+      "index": 70,
+      "name": "Physical[7]"
+    },
+    {
+      "index": 71,
+      "name": "Physical[8]"
+    },
+    {
+      "index": 72,
+      "name": "Physical[9]"
+    },
+    {
+      "index": 73,
+      "name": "Physical[10]"
+    },
+    {
+      "index": 74,
+      "name": "Physical[11]"
+    },
+    {
+      "index": 75,
+      "name": "Physical[12]"
+    },
+    {
+      "index": 76,
+      "name": "Physical[13]"
+    },
+    {
+      "index": 77,
+      "name": "Physical[14]"
+    },
+    {
+      "index": 78,
+      "name": "Physical[15]"
+    },
+    {
+      "index": 79,
+      "name": "Physical[16]"
+    },
+    {
+      "index": 80,
+      "name": "Physical[17]"
+    },
+    {
+      "index": 81,
+      "name": "Physical[18]"
+    },
+    {
+      "index": 82,
+      "name": "Physical[19]"
+    },
+    {
+      "index": 83,
+      "name": "Physical[20]"
+    },
+    {
+      "index": 84,
+      "name": "Physical[21]"
+    },
+    {
+      "index": 85,
+      "name": "Physical[22]"
+    },
+    {
+      "index": 86,
+      "name": "Physical[23]"
+    },
+    {
+      "index": 87,
+      "name": "Physical[24]"
+    },
+    {
+      "index": 88,
+      "name": "Physical[25]"
+    },
+    {
+      "index": 89,
+      "name": "Physical[26]"
+    },
+    {
+      "index": 90,
+      "name": "Physical[27]"
+    },
+    {
+      "index": 91,
+      "name": "Physical[28]"
+    },
+    {
+      "index": 92,
+      "name": "Physical[29]"
+    },
+    {
+      "index": 93,
+      "name": "Physical[30]"
+    },
+    {
+      "index": 94,
+      "name": "Physical[31]"
+    },
+    {
+      "index": 95,
+      "name": "Physical[32]"
+    },
+    {
+      "index": 96,
+      "name": "Physical[33]"
+    },
+    {
+      "index": 97,
+      "name": "Physical[34]"
+    },
+    {
+      "index": 98,
+      "name": "Physical[35]"
+    },
+    {
+      "index": 99,
+      "name": "Physical[36]"
+    },
+    {
+      "index": 100,
+      "name": "Physical[37]"
+    },
+    {
+      "index": 101,
+      "name": "Physical[38]"
+    },
+    {
+      "index": 102,
+      "name": "Physical[39]"
+    },
+    {
+      "index": 103,
+      "name": "Physical[40]"
+    },
+    {
+      "index": 104,
+      "name": "Physical[41]"
+    },
+    {
+      "index": 105,
+      "name": "Physical[42]"
+    },
+    {
+      "index": 106,
+      "name": "Physical[43]"
+    },
+    {
+      "index": 107,
+      "name": "Physical[44]"
+    },
+    {
+      "index": 108,
+      "name": "Physical[45]"
+    },
+    {
+      "index": 109,
+      "name": "Physical[46]"
+    },
+    {
+      "index": 110,
+      "name": "Physical[47]"
+    },
+    {
+      "index": 111,
+      "name": "Physical[48]"
+    },
+    {
+      "index": 112,
+      "name": "Physical[49]"
+    },
+    {
+      "index": 113,
+      "name": "Physical[50]"
+    },
+    {
+      "index": 114,
+      "name": "Physical[51]"
+    },
+    {
+      "index": 115,
+      "name": "Physical[52]"
+    },
+    {
+      "index": 116,
+      "name": "Physical[53]"
+    },
+    {
+      "index": 117,
+      "name": "Physical[54]"
+    },
+    {
+      "index": 118,
+      "name": "Physical[55]"
+    },
+    {
+      "index": 119,
+      "name": "Physical[56]"
+    },
+    {
+      "index": 120,
+      "name": "Physical[57]"
+    },
+    {
+      "index": 121,
+      "name": "Physical[58]"
+    },
+    {
+      "index": 122,
+      "name": "Physical[59]"
+    },
+    {
+      "index": 123,
+      "name": "Unknown1"
+    },
+    {
+      "index": 124,
+      "name": "Mental[0]"
+    },
+    {
+      "index": 125,
+      "name": "Mental[1]"
+    },
+    {
+      "index": 126,
+      "name": "Mental[2]"
+    },
+    {
+      "index": 127,
+      "name": "Mental[3]"
+    },
+    {
+      "index": 128,
+      "name": "Mental[4]"
+    },
+    {
+      "index": 129,
+      "name": "Mental[5]"
+    },
+    {
+      "index": 130,
+      "name": "Mental[6]"
+    },
+    {
+      "index": 131,
+      "name": "Mental[7]"
+    },
+    {
+      "index": 132,
+      "name": "Mental[8]"
+    },
+    {
+      "index": 133,
+      "name": "Mental[9]"
+    },
+    {
+      "index": 134,
+      "name": "Mental[10]"
+    },
+    {
+      "index": 135,
+      "name": "Mental[11]"
+    },
+    {
+      "index": 136,
+      "name": "Mental[12]"
+    },
+    {
+      "index": 137,
+      "name": "Mental[13]"
+    },
+    {
+      "index": 138,
+      "name": "Mental[14]"
+    },
+    {
+      "index": 139,
+      "name": "Mental[15]"
+    },
+    {
+      "index": 140,
+      "name": "Mental[16]"
+    },
+    {
+      "index": 141,
+      "name": "Mental[17]"
+    },
+    {
+      "index": 142,
+      "name": "Mental[18]"
+    },
+    {
+      "index": 143,
+      "name": "Mental[19]"
+    },
+    {
+      "index": 144,
+      "name": "Mental[20]"
+    },
+    {
+      "index": 145,
+      "name": "Mental[21]"
+    },
+    {
+      "index": 146,
+      "name": "Mental[22]"
+    },
+    {
+      "index": 147,
+      "name": "Mental[23]"
+    },
+    {
+      "index": 148,
+      "name": "Mental[24]"
+    },
+    {
+      "index": 149,
+      "name": "Mental[25]"
+    },
+    {
+      "index": 150,
+      "name": "Mental[26]"
+    },
+    {
+      "index": 151,
+      "name": "Mental[27]"
+    },
+    {
+      "index": 152,
+      "name": "Mental[28]"
+    },
+    {
+      "index": 153,
+      "name": "Mental[29]"
+    },
+    {
+      "index": 154,
+      "name": "Mental[30]"
+    },
+    {
+      "index": 155,
+      "name": "Mental[31]"
+    },
+    {
+      "index": 156,
+      "name": "Mental[32]"
+    },
+    {
+      "index": 157,
+      "name": "Mental[33]"
+    },
+    {
+      "index": 158,
+      "name": "Mental[34]"
+    },
+    {
+      "index": 159,
+      "name": "Mental[35]"
+    },
+    {
+      "index": 160,
+      "name": "Mental[36]"
+    },
+    {
+      "index": 161,
+      "name": "Mental[37]"
+    },
+    {
+      "index": 162,
+      "name": "Mental[38]"
+    },
+    {
+      "index": 163,
+      "name": "Mental[39]"
+    },
+    {
+      "index": 164,
+      "name": "Mental[40]"
+    },
+    {
+      "index": 165,
+      "name": "Mental[41]"
+    },
+    {
+      "index": 166,
+      "name": "Mental[42]"
+    },
+    {
+      "index": 167,
+      "name": "Mental[43]"
+    },
+    {
+      "index": 168,
+      "name": "Mental[44]"
+    },
+    {
+      "index": 169,
+      "name": "Mental[45]"
+    },
+    {
+      "index": 170,
+      "name": "Mental[46]"
+    },
+    {
+      "index": 171,
+      "name": "Mental[47]"
+    },
+    {
+      "index": 172,
+      "name": "Mental[48]"
+    },
+    {
+      "index": 173,
+      "name": "Mental[49]"
+    },
+    {
+      "index": 174,
+      "name": "Mental[50]"
+    },
+    {
+      "index": 175,
+      "name": "Mental[51]"
+    },
+    {
+      "index": 176,
+      "name": "Mental[52]"
+    },
+    {
+      "index": 177,
+      "name": "Mental[53]"
+    },
+    {
+      "index": 178,
+      "name": "Mental[54]"
+    },
+    {
+      "index": 179,
+      "name": "Mental[55]"
+    },
+    {
+      "index": 180,
+      "name": "Mental[56]"
+    },
+    {
+      "index": 181,
+      "name": "Mental[57]"
+    },
+    {
+      "index": 182,
+      "name": "Mental[58]"
+    },
+    {
+      "index": 183,
+      "name": "Mental[59]"
+    },
+    {
+      "index": 184,
+      "name": "Unknown2"
+    },
+    {
+      "index": 185,
+      "name": "Tactical[0]"
+    },
+    {
+      "index": 186,
+      "name": "Tactical[1]"
+    },
+    {
+      "index": 187,
+      "name": "Tactical[2]"
+    },
+    {
+      "index": 188,
+      "name": "Tactical[3]"
+    },
+    {
+      "index": 189,
+      "name": "Tactical[4]"
+    },
+    {
+      "index": 190,
+      "name": "Tactical[5]"
+    },
+    {
+      "index": 191,
+      "name": "Tactical[6]"
+    },
+    {
+      "index": 192,
+      "name": "Tactical[7]"
+    },
+    {
+      "index": 193,
+      "name": "Tactical[8]"
+    },
+    {
+      "index": 194,
+      "name": "Tactical[9]"
+    },
+    {
+      "index": 195,
+      "name": "Tactical[10]"
+    },
+    {
+      "index": 196,
+      "name": "Tactical[11]"
+    },
+    {
+      "index": 197,
+      "name": "Tactical[12]"
+    },
+    {
+      "index": 198,
+      "name": "Tactical[13]"
+    },
+    {
+      "index": 199,
+      "name": "Tactical[14]"
+    },
+    {
+      "index": 200,
+      "name": "Tactical[15]"
+    },
+    {
+      "index": 201,
+      "name": "Tactical[16]"
+    },
+    {
+      "index": 202,
+      "name": "Tactical[17]"
+    },
+    {
+      "index": 203,
+      "name": "Tactical[18]"
+    },
+    {
+      "index": 204,
+      "name": "Tactical[19]"
+    },
+    {
+      "index": 205,
+      "name": "Tactical[20]"
+    },
+    {
+      "index": 206,
+      "name": "Tactical[21]"
+    },
+    {
+      "index": 207,
+      "name": "Tactical[22]"
+    },
+    {
+      "index": 208,
+      "name": "Tactical[23]"
+    },
+    {
+      "index": 209,
+      "name": "Tactical[24]"
+    },
+    {
+      "index": 210,
+      "name": "Tactical[25]"
+    },
+    {
+      "index": 211,
+      "name": "Tactical[26]"
+    },
+    {
+      "index": 212,
+      "name": "Tactical[27]"
+    },
+    {
+      "index": 213,
+      "name": "Tactical[28]"
+    },
+    {
+      "index": 214,
+      "name": "Tactical[29]"
+    },
+    {
+      "index": 215,
+      "name": "Tactical[30]"
+    },
+    {
+      "index": 216,
+      "name": "Tactical[31]"
+    },
+    {
+      "index": 217,
+      "name": "Tactical[32]"
+    },
+    {
+      "index": 218,
+      "name": "Tactical[33]"
+    },
+    {
+      "index": 219,
+      "name": "Tactical[34]"
+    },
+    {
+      "index": 220,
+      "name": "Tactical[35]"
+    },
+    {
+      "index": 221,
+      "name": "Tactical[36]"
+    },
+    {
+      "index": 222,
+      "name": "Tactical[37]"
+    },
+    {
+      "index": 223,
+      "name": "Tactical[38]"
+    },
+    {
+      "index": 224,
+      "name": "Tactical[39]"
+    },
+    {
+      "index": 225,
+      "name": "Tactical[40]"
+    },
+    {
+      "index": 226,
+      "name": "Tactical[41]"
+    },
+    {
+      "index": 227,
+      "name": "Tactical[42]"
+    },
+    {
+      "index": 228,
+      "name": "Tactical[43]"
+    },
+    {
+      "index": 229,
+      "name": "Tactical[44]"
+    },
+    {
+      "index": 230,
+      "name": "Tactical[45]"
+    },
+    {
+      "index": 231,
+      "name": "Tactical[46]"
+    },
+    {
+      "index": 232,
+      "name": "Tactical[47]"
+    },
+    {
+      "index": 233,
+      "name": "Tactical[48]"
+    },
+    {
+      "index": 234,
+      "name": "Tactical[49]"
+    },
+    {
+      "index": 235,
+      "name": "Tactical[50]"
+    },
+    {
+      "index": 236,
+      "name": "Tactical[51]"
+    },
+    {
+      "index": 237,
+      "name": "Tactical[52]"
+    },
+    {
+      "index": 238,
+      "name": "Tactical[53]"
+    },
+    {
+      "index": 239,
+      "name": "Tactical[54]"
+    },
+    {
+      "index": 240,
+      "name": "Tactical[55]"
+    },
+    {
+      "index": 241,
+      "name": "Tactical[56]"
+    },
+    {
+      "index": 242,
+      "name": "Tactical[57]"
+    },
+    {
+      "index": 243,
+      "name": "Tactical[58]"
+    },
+    {
+      "index": 244,
+      "name": "Tactical[59]"
+    },
+    {
+      "index": 245,
+      "name": "Unknown3"
     }
   ]
 }

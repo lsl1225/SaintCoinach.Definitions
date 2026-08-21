@@ -2,23 +2,23 @@
   "sheet": "GoldSaucerContent",
   "definitions": [
     {
-      "name": "Unknown0"
+      "name": "Unknown2"
     },
     {
       "index": 1,
+      "name": "TimeLimit"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
       "name": "ContentFinderCondition",
       "converter": {
         "type": "link",
         "target": "ContentFinderCondition"
       }
-    },
-    {
-      "index": 2,
-      "name": "Unknown2"
-    },
-    {
-      "index": 3,
-      "name": "TimeLimit"
     }
   ]
 }

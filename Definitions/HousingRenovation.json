@@ -3,26 +3,26 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "Territory",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
     },
     {
       "index": 1,
-      "name": "Description"
-    },
-    {
-      "index": 2,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
+      "index": 2,
+      "name": "Name"
+    },
+    {
       "index": 3,
-      "name": "Territory",
-      "converter": {
-        "type": "link",
-        "target": "TerritoryType"
-      }
+      "name": "Description"
     }
   ]
 }

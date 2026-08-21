@@ -2,14 +2,66 @@
   "sheet": "JobHudManualPriority",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "JobHudManual",
-        "converter": {
-          "type": "link",
-          "target": "JobHudManual"
-        }
+      "name": "JobHudManual[0]",
+      "converter": {
+        "type": "link",
+        "target": "JobHudManual"
+      }
+    },
+    {
+      "index": 1,
+      "name": "JobHudManual[1]",
+      "converter": {
+        "type": "link",
+        "target": "JobHudManual"
+      }
+    },
+    {
+      "index": 2,
+      "name": "JobHudManual[2]",
+      "converter": {
+        "type": "link",
+        "target": "JobHudManual"
+      }
+    },
+    {
+      "index": 3,
+      "name": "JobHudManual[3]",
+      "converter": {
+        "type": "link",
+        "target": "JobHudManual"
+      }
+    },
+    {
+      "index": 4,
+      "name": "JobHudManual[4]",
+      "converter": {
+        "type": "link",
+        "target": "JobHudManual"
+      }
+    },
+    {
+      "index": 5,
+      "name": "JobHudManual[5]",
+      "converter": {
+        "type": "link",
+        "target": "JobHudManual"
+      }
+    },
+    {
+      "index": 6,
+      "name": "JobHudManual[6]",
+      "converter": {
+        "type": "link",
+        "target": "JobHudManual"
+      }
+    },
+    {
+      "index": 7,
+      "name": "JobHudManual[7]",
+      "converter": {
+        "type": "link",
+        "target": "JobHudManual"
       }
     }
   ]

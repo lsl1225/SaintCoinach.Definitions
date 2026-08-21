@@ -2,11 +2,11 @@
   "sheet": "HWDCrafterSupplyReward",
   "definitions": [
     {
-      "name": "ExpReward"
+      "name": "ScriptRewardAmount"
     },
     {
       "index": 1,
-      "name": "ScriptRewardAmount"
+      "name": "ExpReward"
     },
     {
       "index": 2,

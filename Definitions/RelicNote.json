@@ -11,74 +11,222 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "name": "MonsterNoteTargetCommon",
-        "converter": {
-          "type": "link",
-          "target": "MonsterNoteTarget"
-        }
+      "name": "MonsterNoteTargetCommon[0]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
       }
     },
     {
+      "index": 2,
+      "name": "MonsterCount[0]"
+    },
+    {
+      "index": 3,
+      "name": "MonsterNoteTargetCommon[1]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
+    },
+    {
+      "index": 4,
+      "name": "MonsterCount[1]"
+    },
+    {
+      "index": 5,
+      "name": "MonsterNoteTargetCommon[2]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
+    },
+    {
+      "index": 6,
+      "name": "MonsterCount[2]"
+    },
+    {
+      "index": 7,
+      "name": "MonsterNoteTargetCommon[3]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
+    },
+    {
+      "index": 8,
+      "name": "MonsterCount[3]"
+    },
+    {
+      "index": 9,
+      "name": "MonsterNoteTargetCommon[4]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
+    },
+    {
+      "index": 10,
+      "name": "MonsterCount[4]"
+    },
+    {
       "index": 11,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "MonsterNoteTargetNM",
-        "converter": {
-          "type": "link",
-          "target": "MonsterNoteTarget"
-        }
+      "name": "MonsterNoteTargetCommon[5]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
+    },
+    {
+      "index": 12,
+      "name": "MonsterCount[5]"
+    },
+    {
+      "index": 13,
+      "name": "MonsterNoteTargetCommon[6]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
       }
     },
     {
       "index": 14,
-      "name": "Unknown0"
+      "name": "MonsterCount[6]"
     },
     {
       "index": 15,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "Fate",
-        "converter": {
-          "type": "link",
-          "target": "Fate"
-        }
+      "name": "MonsterNoteTargetCommon[7]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
+    },
+    {
+      "index": 16,
+      "name": "MonsterCount[7]"
+    },
+    {
+      "index": 17,
+      "name": "MonsterNoteTargetCommon[8]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
       }
     },
     {
       "index": 18,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "PlaceNameFate",
-        "converter": {
-          "type": "link",
-          "target": "PlaceName"
-        }
+      "name": "MonsterCount[8]"
+    },
+    {
+      "index": 19,
+      "name": "MonsterNoteTargetCommon[9]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
       }
     },
     {
+      "index": 20,
+      "name": "MonsterCount[9]"
+    },
+    {
       "index": 21,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "Leve",
-        "converter": {
-          "type": "link",
-          "target": "Leve"
-        }
+      "name": "MonsterNoteTargetNM[0]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
+    },
+    {
+      "index": 22,
+      "name": "MonsterNoteTargetNM[1]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
+      }
+    },
+    {
+      "index": 23,
+      "name": "MonsterNoteTargetNM[2]",
+      "converter": {
+        "type": "link",
+        "target": "MonsterNoteTarget"
       }
     },
     {
       "index": 24,
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "name": "MonsterCount"
+      "name": "Unknown0"
+    },
+    {
+      "index": 25,
+      "name": "Fate[0]",
+      "converter": {
+        "type": "link",
+        "target": "Fate"
+      }
+    },
+    {
+      "index": 26,
+      "name": "PlaceNameFate[0]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 27,
+      "name": "Fate[1]",
+      "converter": {
+        "type": "link",
+        "target": "Fate"
+      }
+    },
+    {
+      "index": 28,
+      "name": "PlaceNameFate[1]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Fate[2]",
+      "converter": {
+        "type": "link",
+        "target": "Fate"
+      }
+    },
+    {
+      "index": 30,
+      "name": "PlaceNameFate[2]",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
+    },
+    {
+      "index": 31,
+      "name": "Leve[0]",
+      "converter": {
+        "type": "link",
+        "target": "Leve"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Leve[1]",
+      "converter": {
+        "type": "link",
+        "target": "Leve"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Leve[2]",
+      "converter": {
+        "type": "link",
+        "target": "Leve"
       }
     }
   ]

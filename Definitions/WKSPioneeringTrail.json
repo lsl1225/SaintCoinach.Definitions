@@ -2,17 +2,17 @@
   "sheet": "WKSPioneeringTrail",
   "definitions": [
     {
-      "name": "Thumbnail",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 1,
       "name": "ActivationStage",
       "converter": {
         "type": "link",
         "target": "WKSDevGrade"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Thumbnail",
+      "converter": {
+        "type": "icon"
       }
     },
     {

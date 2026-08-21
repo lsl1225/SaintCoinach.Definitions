@@ -18,14 +18,42 @@
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "Parameter",
-        "converter": {
-          "type": "link",
-          "target": "AnimaWeapon5Param"
-        }
+      "name": "Parameter[0]",
+      "converter": {
+        "type": "link",
+        "target": "AnimaWeapon5Param"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Parameter[1]",
+      "converter": {
+        "type": "link",
+        "target": "AnimaWeapon5Param"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Parameter[2]",
+      "converter": {
+        "type": "link",
+        "target": "AnimaWeapon5Param"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Parameter[3]",
+      "converter": {
+        "type": "link",
+        "target": "AnimaWeapon5Param"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Parameter[4]",
+      "converter": {
+        "type": "link",
+        "target": "AnimaWeapon5Param"
       }
     }
   ]

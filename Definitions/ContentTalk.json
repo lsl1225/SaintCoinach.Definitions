@@ -3,15 +3,15 @@
   "defaultColumn": "Text",
   "definitions": [
     {
-      "name": "Text"
-    },
-    {
-      "index": 1,
       "name": "ContentTalkParam",
       "converter": {
         "type": "link",
         "target": "ContentTalkParam"
       }
+    },
+    {
+      "index": 1,
+      "name": "Text"
     }
   ]
 }

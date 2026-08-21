@@ -34,30 +34,6 @@
     },
     {
       "index": 4,
-      "name": "Materia1",
-      "converter": {
-        "type": "link",
-        "target": "Materia"
-      }
-    },
-    {
-      "index": 5,
-      "name": "Materia2",
-      "converter": {
-        "type": "link",
-        "target": "Materia"
-      }
-    },
-    {
-      "index": 6,
-      "name": "Materia3",
-      "converter": {
-        "type": "link",
-        "target": "Materia"
-      }
-    },
-    {
-      "index": 7,
       "name": "NoteMain0",
       "converter": {
         "type": "link",
@@ -65,7 +41,7 @@
       }
     },
     {
-      "index": 8,
+      "index": 5,
       "name": "NoteSub0",
       "converter": {
         "type": "link",
@@ -73,7 +49,7 @@
       }
     },
     {
-      "index": 9,
+      "index": 6,
       "name": "NoteSelection10",
       "converter": {
         "type": "link",
@@ -81,7 +57,15 @@
       }
     },
     {
-      "index": 10,
+      "index": 7,
+      "name": "Materia1",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 8,
       "name": "NoteMain1",
       "converter": {
         "type": "link",
@@ -89,7 +73,7 @@
       }
     },
     {
-      "index": 11,
+      "index": 9,
       "name": "NoteSub1",
       "converter": {
         "type": "link",
@@ -97,7 +81,7 @@
       }
     },
     {
-      "index": 12,
+      "index": 10,
       "name": "NoteSelection1",
       "converter": {
         "type": "link",
@@ -105,7 +89,15 @@
       }
     },
     {
-      "index": 13,
+      "index": 11,
+      "name": "Materia2",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
+      }
+    },
+    {
+      "index": 12,
       "name": "NoteMain2",
       "converter": {
         "type": "link",
@@ -113,11 +105,19 @@
       }
     },
     {
-      "index": 14,
+      "index": 13,
       "name": "NoteSub2",
       "converter": {
         "type": "link",
         "target": "RelicNote"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Materia3",
+      "converter": {
+        "type": "link",
+        "target": "Materia"
       }
     },
     {

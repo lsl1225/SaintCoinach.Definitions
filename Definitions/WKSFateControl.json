@@ -2,15 +2,15 @@
   "sheet": "WKSFateControl",
   "definitions": [
     {
-      "name": "StartupText"
+      "name": "Unknown0"
     },
     {
       "index": 1,
-      "name": "RunningText"
+      "name": "StartupText"
     },
     {
       "index": 2,
-      "name": "Unknown0"
+      "name": "RunningText"
     }
   ]
 }

@@ -2,6 +2,10 @@
   "sheet": "HousingUnitedExterior",
   "definitions": [
     {
+      "name": "PlotSize"
+    },
+    {
+      "index": 1,
       "name": "Roof",
       "converter": {
         "type": "link",
@@ -9,7 +13,7 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "name": "Walls",
       "converter": {
         "type": "link",
@@ -17,7 +21,7 @@
       }
     },
     {
-      "index": 2,
+      "index": 3,
       "name": "Windows",
       "converter": {
         "type": "link",
@@ -25,7 +29,7 @@
       }
     },
     {
-      "index": 3,
+      "index": 4,
       "name": "Door",
       "converter": {
         "type": "link",
@@ -33,7 +37,7 @@
       }
     },
     {
-      "index": 4,
+      "index": 5,
       "name": "OptionalRoof",
       "converter": {
         "type": "link",
@@ -41,7 +45,7 @@
       }
     },
     {
-      "index": 5,
+      "index": 6,
       "name": "OptionalWall",
       "converter": {
         "type": "link",
@@ -49,7 +53,7 @@
       }
     },
     {
-      "index": 6,
+      "index": 7,
       "name": "OptionalSignboard",
       "converter": {
         "type": "link",
@@ -57,16 +61,12 @@
       }
     },
     {
-      "index": 7,
+      "index": 8,
       "name": "Fence",
       "converter": {
         "type": "link",
         "target": "HousingExterior"
       }
-    },
-    {
-      "index": 8,
-      "name": "PlotSize"
     }
   ]
 }

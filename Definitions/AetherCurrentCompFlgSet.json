@@ -10,14 +10,122 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 15,
-      "definition": {
-        "name": "AetherCurrents",
-        "converter": {
-          "type": "link",
-          "target": "AetherCurrent"
-        }
+      "name": "AetherCurrents[0]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 2,
+      "name": "AetherCurrents[1]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 3,
+      "name": "AetherCurrents[2]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 4,
+      "name": "AetherCurrents[3]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 5,
+      "name": "AetherCurrents[4]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 6,
+      "name": "AetherCurrents[5]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 7,
+      "name": "AetherCurrents[6]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 8,
+      "name": "AetherCurrents[7]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 9,
+      "name": "AetherCurrents[8]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 10,
+      "name": "AetherCurrents[9]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 11,
+      "name": "AetherCurrents[10]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 12,
+      "name": "AetherCurrents[11]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 13,
+      "name": "AetherCurrents[12]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 14,
+      "name": "AetherCurrents[13]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
+      }
+    },
+    {
+      "index": 15,
+      "name": "AetherCurrents[14]",
+      "converter": {
+        "type": "link",
+        "target": "AetherCurrent"
       }
     }
   ]

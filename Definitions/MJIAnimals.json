@@ -10,34 +10,38 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Reward",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
-      }
+      "name": "Size"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
     },
     {
       "index": 3,
+      "name": "Unknown1"
+    },
+    {
+      "index": 4,
+      "name": "Reward[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Reward[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
-    },
-    {
-      "index": 4,
-      "name": "Size"
-    },
-    {
-      "index": 5,
-      "name": "Unknown0"
-    },
-    {
-      "index": 6,
-      "name": "Unknown1"
     }
   ]
 }

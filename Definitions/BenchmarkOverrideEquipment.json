@@ -2,70 +2,26 @@
   "sheet": "BenchmarkOverrideEquipment",
   "definitions": [
     {
-      "name": "ModelMainHand"
-    },
-    {
-      "index": 1,
-      "name": "ModelOffHand"
-    },
-    {
-      "index": 2,
-      "name": "Unknown0"
-    },
-    {
-      "index": 3,
       "name": "Unknown1"
     },
     {
-      "index": 4,
+      "index": 1,
       "name": "Unknown2"
     },
     {
-      "index": 5,
-      "name": "ModelHead"
-    },
-    {
-      "index": 6,
-      "name": "ModelBody"
-    },
-    {
-      "index": 7,
-      "name": "ModelHands"
-    },
-    {
-      "index": 8,
-      "name": "ModelLegs"
-    },
-    {
-      "index": 9,
-      "name": "ModelFeet"
-    },
-    {
-      "index": 10,
-      "name": "ModelEars"
-    },
-    {
-      "index": 11,
-      "name": "ModelNeck"
-    },
-    {
-      "index": 12,
-      "name": "ModelWrists"
-    },
-    {
-      "index": 13,
-      "name": "ModelLeftRing"
-    },
-    {
-      "index": 14,
-      "name": "ModelRightRing"
-    },
-    {
-      "index": 15,
+      "index": 2,
       "name": "Unknown3"
     },
     {
-      "index": 16,
+      "index": 3,
+      "name": "Unknown5"
+    },
+    {
+      "index": 4,
+      "name": "ModelMainHand"
+    },
+    {
+      "index": 5,
       "name": "DyeMainHand",
       "converter": {
         "type": "link",
@@ -73,7 +29,11 @@
       }
     },
     {
-      "index": 17,
+      "index": 6,
+      "name": "ModelOffHand"
+    },
+    {
+      "index": 7,
       "name": "DyeOffHand",
       "converter": {
         "type": "link",
@@ -81,11 +41,19 @@
       }
     },
     {
-      "index": 18,
+      "index": 8,
+      "name": "Unknown0"
+    },
+    {
+      "index": 9,
       "name": "Unknown4"
     },
     {
-      "index": 19,
+      "index": 10,
+      "name": "ModelHead"
+    },
+    {
+      "index": 11,
       "name": "DyeHead",
       "converter": {
         "type": "link",
@@ -93,7 +61,11 @@
       }
     },
     {
-      "index": 20,
+      "index": 12,
+      "name": "ModelBody"
+    },
+    {
+      "index": 13,
       "name": "DyeBody",
       "converter": {
         "type": "link",
@@ -101,7 +73,11 @@
       }
     },
     {
-      "index": 21,
+      "index": 14,
+      "name": "ModelHands"
+    },
+    {
+      "index": 15,
       "name": "DyeHands",
       "converter": {
         "type": "link",
@@ -109,7 +85,11 @@
       }
     },
     {
-      "index": 22,
+      "index": 16,
+      "name": "ModelLegs"
+    },
+    {
+      "index": 17,
       "name": "DyeLegs",
       "converter": {
         "type": "link",
@@ -117,7 +97,11 @@
       }
     },
     {
-      "index": 23,
+      "index": 18,
+      "name": "ModelFeet"
+    },
+    {
+      "index": 19,
       "name": "DyeFeet",
       "converter": {
         "type": "link",
@@ -125,7 +109,11 @@
       }
     },
     {
-      "index": 24,
+      "index": 20,
+      "name": "ModelEars"
+    },
+    {
+      "index": 21,
       "name": "DyeEars",
       "converter": {
         "type": "link",
@@ -133,7 +121,11 @@
       }
     },
     {
-      "index": 25,
+      "index": 22,
+      "name": "ModelNeck"
+    },
+    {
+      "index": 23,
       "name": "DyeNeck",
       "converter": {
         "type": "link",
@@ -141,12 +133,20 @@
       }
     },
     {
-      "index": 26,
+      "index": 24,
+      "name": "ModelWrists"
+    },
+    {
+      "index": 25,
       "name": "DyeWrists",
       "converter": {
         "type": "link",
         "target": "Stain"
       }
+    },
+    {
+      "index": 26,
+      "name": "ModelLeftRing"
     },
     {
       "index": 27,
@@ -158,15 +158,15 @@
     },
     {
       "index": 28,
+      "name": "ModelRightRing"
+    },
+    {
+      "index": 29,
       "name": "DyeRightRing",
       "converter": {
         "type": "link",
         "target": "Stain"
       }
-    },
-    {
-      "index": 29,
-      "name": "Unknown5"
     }
   ]
 }

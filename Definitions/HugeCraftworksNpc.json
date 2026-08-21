@@ -3,86 +3,6 @@
   "defaultColumn": "EventNpc",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "RequestedItem",
-            "converter": {
-              "type": "link",
-              "target": "Item"
-            }
-          },
-          {
-            "name": "Unknown0"
-          },
-          {
-            "name": "RequestedQuantity"
-          },
-          {
-            "name": "Unknown1"
-          },
-          {
-            "name": "Unknown2"
-          },
-          {
-            "name": "Unknown3"
-          },
-          {
-            "name": "Unknown4"
-          },
-          {
-            "name": "Unknown5"
-          },
-          {
-            "name": "Unknown6"
-          }
-        ]
-      }
-    },
-    {
-      "index": 54,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "type": "repeat",
-            "count": 2,
-            "definition": {
-              "name": "RewardItem",
-              "converter": {
-                "type": "link",
-                "target": "Item"
-              }
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 2,
-            "definition": {
-              "name": "RewardQuantity"
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 2,
-            "definition": {
-              "name": "RewardHQ"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "index": 90,
-      "name": "Transient"
-    },
-    {
-      "index": 91,
       "name": "EventNpc",
       "converter": {
         "type": "link",
@@ -90,12 +10,448 @@
       }
     },
     {
-      "index": 92,
+      "index": 1,
       "name": "ClassJobCategory",
       "converter": {
         "type": "link",
         "target": "ClassJobCategory"
       }
+    },
+    {
+      "index": 2,
+      "name": "RequestedItem[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RequestedItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "RequestedItem[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "RequestedItem[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RequestedItem[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "RequestedItem[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 8,
+      "name": "RequestedQuantity[0]"
+    },
+    {
+      "index": 9,
+      "name": "RequestedQuantity[1]"
+    },
+    {
+      "index": 10,
+      "name": "RequestedQuantity[2]"
+    },
+    {
+      "index": 11,
+      "name": "RequestedQuantity[3]"
+    },
+    {
+      "index": 12,
+      "name": "RequestedQuantity[4]"
+    },
+    {
+      "index": 13,
+      "name": "RequestedQuantity[5]"
+    },
+    {
+      "index": 14,
+      "name": "Unknown6[0]"
+    },
+    {
+      "index": 15,
+      "name": "Unknown6[1]"
+    },
+    {
+      "index": 16,
+      "name": "Unknown6[2]"
+    },
+    {
+      "index": 17,
+      "name": "Unknown6[3]"
+    },
+    {
+      "index": 18,
+      "name": "Unknown6[4]"
+    },
+    {
+      "index": 19,
+      "name": "Unknown6[5]"
+    },
+    {
+      "index": 20,
+      "name": "Unknown1[0]"
+    },
+    {
+      "index": 21,
+      "name": "Unknown1[1]"
+    },
+    {
+      "index": 22,
+      "name": "Unknown1[2]"
+    },
+    {
+      "index": 23,
+      "name": "Unknown1[3]"
+    },
+    {
+      "index": 24,
+      "name": "Unknown1[4]"
+    },
+    {
+      "index": 25,
+      "name": "Unknown1[5]"
+    },
+    {
+      "index": 26,
+      "name": "Unknown2[0]"
+    },
+    {
+      "index": 27,
+      "name": "Unknown2[1]"
+    },
+    {
+      "index": 28,
+      "name": "Unknown2[2]"
+    },
+    {
+      "index": 29,
+      "name": "Unknown2[3]"
+    },
+    {
+      "index": 30,
+      "name": "Unknown2[4]"
+    },
+    {
+      "index": 31,
+      "name": "Unknown2[5]"
+    },
+    {
+      "index": 32,
+      "name": "Unknown3[0]"
+    },
+    {
+      "index": 33,
+      "name": "Unknown3[1]"
+    },
+    {
+      "index": 34,
+      "name": "Unknown3[2]"
+    },
+    {
+      "index": 35,
+      "name": "Unknown3[3]"
+    },
+    {
+      "index": 36,
+      "name": "Unknown3[4]"
+    },
+    {
+      "index": 37,
+      "name": "Unknown3[5]"
+    },
+    {
+      "index": 38,
+      "name": "Unknown0[0]"
+    },
+    {
+      "index": 39,
+      "name": "Unknown0[1]"
+    },
+    {
+      "index": 40,
+      "name": "Unknown0[2]"
+    },
+    {
+      "index": 41,
+      "name": "Unknown0[3]"
+    },
+    {
+      "index": 42,
+      "name": "Unknown0[4]"
+    },
+    {
+      "index": 43,
+      "name": "Unknown0[5]"
+    },
+    {
+      "index": 44,
+      "name": "Unknown4[0]"
+    },
+    {
+      "index": 45,
+      "name": "Unknown4[1]"
+    },
+    {
+      "index": 46,
+      "name": "Unknown4[2]"
+    },
+    {
+      "index": 47,
+      "name": "Unknown4[3]"
+    },
+    {
+      "index": 48,
+      "name": "Unknown4[4]"
+    },
+    {
+      "index": 49,
+      "name": "Unknown4[5]"
+    },
+    {
+      "index": 50,
+      "name": "Unknown5[0]"
+    },
+    {
+      "index": 51,
+      "name": "Unknown5[1]"
+    },
+    {
+      "index": 52,
+      "name": "Unknown5[2]"
+    },
+    {
+      "index": 53,
+      "name": "Unknown5[3]"
+    },
+    {
+      "index": 54,
+      "name": "Unknown5[4]"
+    },
+    {
+      "index": 55,
+      "name": "Unknown5[5]"
+    },
+    {
+      "index": 56,
+      "name": "RewardItem[0][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 57,
+      "name": "RewardItem[0][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 58,
+      "name": "RewardItem[0][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 59,
+      "name": "RewardItem[0][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 60,
+      "name": "RewardItem[0][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 61,
+      "name": "RewardItem[0][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 62,
+      "name": "RewardHQ[0][0]"
+    },
+    {
+      "index": 63,
+      "name": "RewardHQ[0][1]"
+    },
+    {
+      "index": 64,
+      "name": "RewardHQ[0][2]"
+    },
+    {
+      "index": 65,
+      "name": "RewardHQ[0][3]"
+    },
+    {
+      "index": 66,
+      "name": "RewardHQ[0][4]"
+    },
+    {
+      "index": 67,
+      "name": "RewardHQ[0][5]"
+    },
+    {
+      "index": 68,
+      "name": "RewardQuantity[0][0]"
+    },
+    {
+      "index": 69,
+      "name": "RewardQuantity[0][1]"
+    },
+    {
+      "index": 70,
+      "name": "RewardQuantity[0][2]"
+    },
+    {
+      "index": 71,
+      "name": "RewardQuantity[0][3]"
+    },
+    {
+      "index": 72,
+      "name": "RewardQuantity[0][4]"
+    },
+    {
+      "index": 73,
+      "name": "RewardQuantity[0][5]"
+    },
+    {
+      "index": 74,
+      "name": "RewardItem[1][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 75,
+      "name": "RewardItem[1][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 76,
+      "name": "RewardItem[1][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 77,
+      "name": "RewardItem[1][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 78,
+      "name": "RewardItem[1][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 79,
+      "name": "RewardItem[1][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 80,
+      "name": "RewardHQ[1][0]"
+    },
+    {
+      "index": 81,
+      "name": "RewardHQ[1][1]"
+    },
+    {
+      "index": 82,
+      "name": "RewardHQ[1][2]"
+    },
+    {
+      "index": 83,
+      "name": "RewardHQ[1][3]"
+    },
+    {
+      "index": 84,
+      "name": "RewardHQ[1][4]"
+    },
+    {
+      "index": 85,
+      "name": "RewardHQ[1][5]"
+    },
+    {
+      "index": 86,
+      "name": "RewardQuantity[1][0]"
+    },
+    {
+      "index": 87,
+      "name": "RewardQuantity[1][1]"
+    },
+    {
+      "index": 88,
+      "name": "RewardQuantity[1][2]"
+    },
+    {
+      "index": 89,
+      "name": "RewardQuantity[1][3]"
+    },
+    {
+      "index": 90,
+      "name": "RewardQuantity[1][4]"
+    },
+    {
+      "index": 91,
+      "name": "RewardQuantity[1][5]"
+    },
+    {
+      "index": 92,
+      "name": "Transient"
     }
   ]
 }

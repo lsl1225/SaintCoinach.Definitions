@@ -2,28 +2,163 @@
   "sheet": "Spectator",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "X"
-          },
-          {
-            "name": "Y"
-          },
-          {
-            "name": "Z"
-          },
-          {
-            "name": "DirH"
-          },
-          {
-            "name": "DirV"
-          }
-        ]
-      }
+      "name": "X[0]"
+    },
+    {
+      "index": 1,
+      "name": "X[1]"
+    },
+    {
+      "index": 2,
+      "name": "X[2]"
+    },
+    {
+      "index": 3,
+      "name": "X[3]"
+    },
+    {
+      "index": 4,
+      "name": "X[4]"
+    },
+    {
+      "index": 5,
+      "name": "X[5]"
+    },
+    {
+      "index": 6,
+      "name": "X[6]"
+    },
+    {
+      "index": 7,
+      "name": "X[7]"
+    },
+    {
+      "index": 8,
+      "name": "Y[0]"
+    },
+    {
+      "index": 9,
+      "name": "Y[1]"
+    },
+    {
+      "index": 10,
+      "name": "Y[2]"
+    },
+    {
+      "index": 11,
+      "name": "Y[3]"
+    },
+    {
+      "index": 12,
+      "name": "Y[4]"
+    },
+    {
+      "index": 13,
+      "name": "Y[5]"
+    },
+    {
+      "index": 14,
+      "name": "Y[6]"
+    },
+    {
+      "index": 15,
+      "name": "Y[7]"
+    },
+    {
+      "index": 16,
+      "name": "Z[0]"
+    },
+    {
+      "index": 17,
+      "name": "Z[1]"
+    },
+    {
+      "index": 18,
+      "name": "Z[2]"
+    },
+    {
+      "index": 19,
+      "name": "Z[3]"
+    },
+    {
+      "index": 20,
+      "name": "Z[4]"
+    },
+    {
+      "index": 21,
+      "name": "Z[5]"
+    },
+    {
+      "index": 22,
+      "name": "Z[6]"
+    },
+    {
+      "index": 23,
+      "name": "Z[7]"
+    },
+    {
+      "index": 24,
+      "name": "DirH[0]"
+    },
+    {
+      "index": 25,
+      "name": "DirH[1]"
+    },
+    {
+      "index": 26,
+      "name": "DirH[2]"
+    },
+    {
+      "index": 27,
+      "name": "DirH[3]"
+    },
+    {
+      "index": 28,
+      "name": "DirH[4]"
+    },
+    {
+      "index": 29,
+      "name": "DirH[5]"
+    },
+    {
+      "index": 30,
+      "name": "DirH[6]"
+    },
+    {
+      "index": 31,
+      "name": "DirH[7]"
+    },
+    {
+      "index": 32,
+      "name": "DirV[0]"
+    },
+    {
+      "index": 33,
+      "name": "DirV[1]"
+    },
+    {
+      "index": 34,
+      "name": "DirV[2]"
+    },
+    {
+      "index": 35,
+      "name": "DirV[3]"
+    },
+    {
+      "index": 36,
+      "name": "DirV[4]"
+    },
+    {
+      "index": 37,
+      "name": "DirV[5]"
+    },
+    {
+      "index": 38,
+      "name": "DirV[6]"
+    },
+    {
+      "index": 39,
+      "name": "DirV[7]"
     },
     {
       "index": 40,

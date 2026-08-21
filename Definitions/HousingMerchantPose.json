@@ -3,15 +3,15 @@
   "defaultColumn": "Pose",
   "definitions": [
     {
-      "name": "Pose"
-    },
-    {
-      "index": 1,
       "name": "ActionTimeline",
       "converter": {
         "type": "link",
         "target": "ActionTimeline"
       }
+    },
+    {
+      "index": 1,
+      "name": "Pose"
     }
   ]
 }

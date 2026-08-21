@@ -11,79 +11,79 @@
     },
     {
       "index": 1,
-      "name": "ExpBelowExMaxLvl"
-    },
-    {
-      "index": 2,
-      "name": "ExpAboveExMaxLvl"
-    },
-    {
-      "index": 3,
-      "name": "Unknown0"
-    },
-    {
-      "index": 4,
-      "name": "Unknown1"
-    },
-    {
-      "index": 5,
-      "name": "Unknown2"
-    },
-    {
-      "index": 6,
-      "name": "Unknown3"
-    },
-    {
-      "index": 7,
-      "name": "Unknown4"
-    },
-    {
-      "index": 8,
-      "name": "Unknown5"
-    },
-    {
-      "index": 9,
-      "name": "Unknown6"
-    },
-    {
-      "index": 10,
-      "name": "Unknown7"
-    },
-    {
-      "index": 11,
-      "name": "Unknown8"
-    },
-    {
-      "index": 12,
-      "name": "Unknown9"
-    },
-    {
-      "index": 13,
-      "name": "Unknown10"
-    },
-    {
-      "index": 14,
-      "name": "Unknown15"
-    },
-    {
-      "index": 15,
-      "name": "Unknown11"
-    },
-    {
-      "index": 16,
       "name": "Unknown12"
     },
     {
-      "index": 17,
+      "index": 2,
+      "name": "Unknown15"
+    },
+    {
+      "index": 3,
       "name": "Unknown16"
     },
     {
-      "index": 18,
+      "index": 4,
       "name": "Unknown13"
     },
     {
-      "index": 19,
+      "index": 5,
       "name": "Unknown14"
+    },
+    {
+      "index": 6,
+      "name": "ExpBelowExMaxLvl"
+    },
+    {
+      "index": 7,
+      "name": "ExpAboveExMaxLvl"
+    },
+    {
+      "index": 8,
+      "name": "Unknown0"
+    },
+    {
+      "index": 9,
+      "name": "Unknown11"
+    },
+    {
+      "index": 10,
+      "name": "Unknown1"
+    },
+    {
+      "index": 11,
+      "name": "Unknown2"
+    },
+    {
+      "index": 12,
+      "name": "Unknown3"
+    },
+    {
+      "index": 13,
+      "name": "Unknown4"
+    },
+    {
+      "index": 14,
+      "name": "Unknown5"
+    },
+    {
+      "index": 15,
+      "name": "Unknown6"
+    },
+    {
+      "index": 16,
+      "name": "Unknown7"
+    },
+    {
+      "index": 17,
+      "name": "Unknown8"
+    },
+    {
+      "index": 18,
+      "name": "Unknown9"
+    },
+    {
+      "index": 19,
+      "name": "Unknown10"
     }
   ]
 }

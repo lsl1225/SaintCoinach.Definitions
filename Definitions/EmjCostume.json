@@ -2,25 +2,13 @@
   "sheet": "EmjCostume",
   "definitions": [
     {
-      "name": "Scale"
-    },
-    {
-      "index": 1,
-      "name": "OffsetX"
-    },
-    {
-      "index": 2,
-      "name": "OffsetY"
-    },
-    {
-      "index": 3,
       "name": "Image",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 4,
+      "index": 1,
       "name": "UnlockQuest",
       "converter": {
         "type": "link",
@@ -28,11 +16,11 @@
       }
     },
     {
-      "index": 5,
+      "index": 2,
       "name": "Unknown0"
     },
     {
-      "index": 6,
+      "index": 3,
       "name": "UnlockText",
       "converter": {
         "type": "link",
@@ -40,7 +28,7 @@
       }
     },
     {
-      "index": 7,
+      "index": 4,
       "name": "Data",
       "converter": {
         "type": "link",
@@ -48,8 +36,20 @@
       }
     },
     {
-      "index": 8,
+      "index": 5,
       "name": "Sort"
+    },
+    {
+      "index": 6,
+      "name": "Scale"
+    },
+    {
+      "index": 7,
+      "name": "OffsetX"
+    },
+    {
+      "index": 8,
+      "name": "OffsetY"
     }
   ]
 }

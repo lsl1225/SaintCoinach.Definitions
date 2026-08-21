@@ -2,29 +2,49 @@
   "sheet": "ResistanceWeaponAdjust",
   "definitions": [
     {
-      "name": "Image",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 1,
       "name": "MaxTotalStats"
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "MaxEachStat"
     },
     {
+      "index": 2,
+      "name": "BaseParam[0]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
       "index": 3,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "BaseParam",
-        "converter": {
-          "type": "link",
-          "target": "BaseParam"
-        }
+      "name": "BaseParam[1]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 4,
+      "name": "BaseParam[2]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 5,
+      "name": "BaseParam[3]",
+      "converter": {
+        "type": "link",
+        "target": "BaseParam"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
       }
     },
     {

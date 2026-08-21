@@ -3,22 +3,22 @@
   "defaultColumn": "Quest",
   "definitions": [
     {
-      "name": "Quest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 1,
       "name": "SatisfactionLevel"
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "SatisfactionNpc",
       "converter": {
         "type": "link",
         "target": "SatisfactionNpc"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
       }
     },
     {

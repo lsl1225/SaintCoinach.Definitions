@@ -3,15 +3,15 @@
   "defaultColumn": "Objective",
   "definitions": [
     {
+      "name": "Unknown1"
+    },
+    {
+      "index": 1,
       "name": "Objective",
       "converter": {
         "type": "link",
         "target": "InstanceContentTextData"
       }
-    },
-    {
-      "index": 1,
-      "name": "Unknown1"
     },
     {
       "index": 2,

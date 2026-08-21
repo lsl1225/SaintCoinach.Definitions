@@ -2,19 +2,35 @@
   "sheet": "MateriaJoinRateGatherCraft",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "NQOvermeldPercentSlot"
-      }
+      "name": "NQOvermeldPercentSlot[0]"
+    },
+    {
+      "index": 1,
+      "name": "NQOvermeldPercentSlot[1]"
+    },
+    {
+      "index": 2,
+      "name": "NQOvermeldPercentSlot[2]"
+    },
+    {
+      "index": 3,
+      "name": "NQOvermeldPercentSlot[3]"
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "HQOvermeldPercentSlot"
-      }
+      "name": "HQOvermeldPercentSlot[0]"
+    },
+    {
+      "index": 5,
+      "name": "HQOvermeldPercentSlot[1]"
+    },
+    {
+      "index": 6,
+      "name": "HQOvermeldPercentSlot[2]"
+    },
+    {
+      "index": 7,
+      "name": "HQOvermeldPercentSlot[3]"
     }
   ]
 }

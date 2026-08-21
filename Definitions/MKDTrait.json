@@ -3,11 +3,15 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "MKDSupportJob",
+      "converter": {
+        "type": "link",
+        "target": "MKDSupportJob"
+      }
     },
     {
       "index": 1,
-      "name": "Description"
+      "name": "LevelUnlock"
     },
     {
       "index": 2,
@@ -18,15 +22,11 @@
     },
     {
       "index": 3,
-      "name": "MKDSupportJob",
-      "converter": {
-        "type": "link",
-        "target": "MKDSupportJob"
-      }
+      "name": "Name"
     },
     {
       "index": 4,
-      "name": "LevelUnlock"
+      "name": "Description"
     }
   ]
 }

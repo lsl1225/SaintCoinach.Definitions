@@ -3,11 +3,11 @@
   "defaultColumn": "MissionText",
   "definitions": [
     {
-      "name": "MissionText"
+      "name": "Count"
     },
     {
       "index": 1,
-      "name": "Count"
+      "name": "MissionText"
     }
   ]
 }

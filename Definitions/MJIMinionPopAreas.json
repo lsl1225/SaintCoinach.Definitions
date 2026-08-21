@@ -2,10 +2,10 @@
   "sheet": "MJIMinionPopAreas",
   "definitions": [
     {
-      "name": "Text",
+      "name": "RequiredFunction",
       "converter": {
         "type": "link",
-        "target": "MJIText"
+        "target": "MJIFunction"
       }
     },
     {
@@ -18,10 +18,10 @@
     },
     {
       "index": 3,
-      "name": "RequiredFunction",
+      "name": "Text",
       "converter": {
         "type": "link",
-        "target": "MJIFunction"
+        "target": "MJIText"
       }
     },
     {

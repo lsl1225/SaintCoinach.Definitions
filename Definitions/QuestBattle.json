@@ -2,22 +2,6 @@
   "sheet": "QuestBattle",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 220,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "ScriptInstruction"
-          },
-          {
-            "name": "ScriptValue"
-          }
-        ]
-      }
-    },
-    {
-      "index": 440,
       "name": "Quest",
       "converter": {
         "type": "multiref",
@@ -28,16 +12,1776 @@
       }
     },
     {
-      "index": 441,
+      "index": 1,
+      "name": "QuestBattleScene"
+    },
+    {
+      "index": 2,
       "name": "TimeLimit"
     },
     {
-      "index": 442,
+      "index": 3,
       "name": "LevelSync"
     },
     {
+      "index": 4,
+      "name": "ScriptInstruction[0]"
+    },
+    {
+      "index": 5,
+      "name": "ScriptInstruction[1]"
+    },
+    {
+      "index": 6,
+      "name": "ScriptInstruction[2]"
+    },
+    {
+      "index": 7,
+      "name": "ScriptInstruction[3]"
+    },
+    {
+      "index": 8,
+      "name": "ScriptInstruction[4]"
+    },
+    {
+      "index": 9,
+      "name": "ScriptInstruction[5]"
+    },
+    {
+      "index": 10,
+      "name": "ScriptInstruction[6]"
+    },
+    {
+      "index": 11,
+      "name": "ScriptInstruction[7]"
+    },
+    {
+      "index": 12,
+      "name": "ScriptInstruction[8]"
+    },
+    {
+      "index": 13,
+      "name": "ScriptInstruction[9]"
+    },
+    {
+      "index": 14,
+      "name": "ScriptInstruction[10]"
+    },
+    {
+      "index": 15,
+      "name": "ScriptInstruction[11]"
+    },
+    {
+      "index": 16,
+      "name": "ScriptInstruction[12]"
+    },
+    {
+      "index": 17,
+      "name": "ScriptInstruction[13]"
+    },
+    {
+      "index": 18,
+      "name": "ScriptInstruction[14]"
+    },
+    {
+      "index": 19,
+      "name": "ScriptInstruction[15]"
+    },
+    {
+      "index": 20,
+      "name": "ScriptInstruction[16]"
+    },
+    {
+      "index": 21,
+      "name": "ScriptInstruction[17]"
+    },
+    {
+      "index": 22,
+      "name": "ScriptInstruction[18]"
+    },
+    {
+      "index": 23,
+      "name": "ScriptInstruction[19]"
+    },
+    {
+      "index": 24,
+      "name": "ScriptInstruction[20]"
+    },
+    {
+      "index": 25,
+      "name": "ScriptInstruction[21]"
+    },
+    {
+      "index": 26,
+      "name": "ScriptInstruction[22]"
+    },
+    {
+      "index": 27,
+      "name": "ScriptInstruction[23]"
+    },
+    {
+      "index": 28,
+      "name": "ScriptInstruction[24]"
+    },
+    {
+      "index": 29,
+      "name": "ScriptInstruction[25]"
+    },
+    {
+      "index": 30,
+      "name": "ScriptInstruction[26]"
+    },
+    {
+      "index": 31,
+      "name": "ScriptInstruction[27]"
+    },
+    {
+      "index": 32,
+      "name": "ScriptInstruction[28]"
+    },
+    {
+      "index": 33,
+      "name": "ScriptInstruction[29]"
+    },
+    {
+      "index": 34,
+      "name": "ScriptInstruction[30]"
+    },
+    {
+      "index": 35,
+      "name": "ScriptInstruction[31]"
+    },
+    {
+      "index": 36,
+      "name": "ScriptInstruction[32]"
+    },
+    {
+      "index": 37,
+      "name": "ScriptInstruction[33]"
+    },
+    {
+      "index": 38,
+      "name": "ScriptInstruction[34]"
+    },
+    {
+      "index": 39,
+      "name": "ScriptInstruction[35]"
+    },
+    {
+      "index": 40,
+      "name": "ScriptInstruction[36]"
+    },
+    {
+      "index": 41,
+      "name": "ScriptInstruction[37]"
+    },
+    {
+      "index": 42,
+      "name": "ScriptInstruction[38]"
+    },
+    {
+      "index": 43,
+      "name": "ScriptInstruction[39]"
+    },
+    {
+      "index": 44,
+      "name": "ScriptInstruction[40]"
+    },
+    {
+      "index": 45,
+      "name": "ScriptInstruction[41]"
+    },
+    {
+      "index": 46,
+      "name": "ScriptInstruction[42]"
+    },
+    {
+      "index": 47,
+      "name": "ScriptInstruction[43]"
+    },
+    {
+      "index": 48,
+      "name": "ScriptInstruction[44]"
+    },
+    {
+      "index": 49,
+      "name": "ScriptInstruction[45]"
+    },
+    {
+      "index": 50,
+      "name": "ScriptInstruction[46]"
+    },
+    {
+      "index": 51,
+      "name": "ScriptInstruction[47]"
+    },
+    {
+      "index": 52,
+      "name": "ScriptInstruction[48]"
+    },
+    {
+      "index": 53,
+      "name": "ScriptInstruction[49]"
+    },
+    {
+      "index": 54,
+      "name": "ScriptInstruction[50]"
+    },
+    {
+      "index": 55,
+      "name": "ScriptInstruction[51]"
+    },
+    {
+      "index": 56,
+      "name": "ScriptInstruction[52]"
+    },
+    {
+      "index": 57,
+      "name": "ScriptInstruction[53]"
+    },
+    {
+      "index": 58,
+      "name": "ScriptInstruction[54]"
+    },
+    {
+      "index": 59,
+      "name": "ScriptInstruction[55]"
+    },
+    {
+      "index": 60,
+      "name": "ScriptInstruction[56]"
+    },
+    {
+      "index": 61,
+      "name": "ScriptInstruction[57]"
+    },
+    {
+      "index": 62,
+      "name": "ScriptInstruction[58]"
+    },
+    {
+      "index": 63,
+      "name": "ScriptInstruction[59]"
+    },
+    {
+      "index": 64,
+      "name": "ScriptInstruction[60]"
+    },
+    {
+      "index": 65,
+      "name": "ScriptInstruction[61]"
+    },
+    {
+      "index": 66,
+      "name": "ScriptInstruction[62]"
+    },
+    {
+      "index": 67,
+      "name": "ScriptInstruction[63]"
+    },
+    {
+      "index": 68,
+      "name": "ScriptInstruction[64]"
+    },
+    {
+      "index": 69,
+      "name": "ScriptInstruction[65]"
+    },
+    {
+      "index": 70,
+      "name": "ScriptInstruction[66]"
+    },
+    {
+      "index": 71,
+      "name": "ScriptInstruction[67]"
+    },
+    {
+      "index": 72,
+      "name": "ScriptInstruction[68]"
+    },
+    {
+      "index": 73,
+      "name": "ScriptInstruction[69]"
+    },
+    {
+      "index": 74,
+      "name": "ScriptInstruction[70]"
+    },
+    {
+      "index": 75,
+      "name": "ScriptInstruction[71]"
+    },
+    {
+      "index": 76,
+      "name": "ScriptInstruction[72]"
+    },
+    {
+      "index": 77,
+      "name": "ScriptInstruction[73]"
+    },
+    {
+      "index": 78,
+      "name": "ScriptInstruction[74]"
+    },
+    {
+      "index": 79,
+      "name": "ScriptInstruction[75]"
+    },
+    {
+      "index": 80,
+      "name": "ScriptInstruction[76]"
+    },
+    {
+      "index": 81,
+      "name": "ScriptInstruction[77]"
+    },
+    {
+      "index": 82,
+      "name": "ScriptInstruction[78]"
+    },
+    {
+      "index": 83,
+      "name": "ScriptInstruction[79]"
+    },
+    {
+      "index": 84,
+      "name": "ScriptInstruction[80]"
+    },
+    {
+      "index": 85,
+      "name": "ScriptInstruction[81]"
+    },
+    {
+      "index": 86,
+      "name": "ScriptInstruction[82]"
+    },
+    {
+      "index": 87,
+      "name": "ScriptInstruction[83]"
+    },
+    {
+      "index": 88,
+      "name": "ScriptInstruction[84]"
+    },
+    {
+      "index": 89,
+      "name": "ScriptInstruction[85]"
+    },
+    {
+      "index": 90,
+      "name": "ScriptInstruction[86]"
+    },
+    {
+      "index": 91,
+      "name": "ScriptInstruction[87]"
+    },
+    {
+      "index": 92,
+      "name": "ScriptInstruction[88]"
+    },
+    {
+      "index": 93,
+      "name": "ScriptInstruction[89]"
+    },
+    {
+      "index": 94,
+      "name": "ScriptInstruction[90]"
+    },
+    {
+      "index": 95,
+      "name": "ScriptInstruction[91]"
+    },
+    {
+      "index": 96,
+      "name": "ScriptInstruction[92]"
+    },
+    {
+      "index": 97,
+      "name": "ScriptInstruction[93]"
+    },
+    {
+      "index": 98,
+      "name": "ScriptInstruction[94]"
+    },
+    {
+      "index": 99,
+      "name": "ScriptInstruction[95]"
+    },
+    {
+      "index": 100,
+      "name": "ScriptInstruction[96]"
+    },
+    {
+      "index": 101,
+      "name": "ScriptInstruction[97]"
+    },
+    {
+      "index": 102,
+      "name": "ScriptInstruction[98]"
+    },
+    {
+      "index": 103,
+      "name": "ScriptInstruction[99]"
+    },
+    {
+      "index": 104,
+      "name": "ScriptInstruction[100]"
+    },
+    {
+      "index": 105,
+      "name": "ScriptInstruction[101]"
+    },
+    {
+      "index": 106,
+      "name": "ScriptInstruction[102]"
+    },
+    {
+      "index": 107,
+      "name": "ScriptInstruction[103]"
+    },
+    {
+      "index": 108,
+      "name": "ScriptInstruction[104]"
+    },
+    {
+      "index": 109,
+      "name": "ScriptInstruction[105]"
+    },
+    {
+      "index": 110,
+      "name": "ScriptInstruction[106]"
+    },
+    {
+      "index": 111,
+      "name": "ScriptInstruction[107]"
+    },
+    {
+      "index": 112,
+      "name": "ScriptInstruction[108]"
+    },
+    {
+      "index": 113,
+      "name": "ScriptInstruction[109]"
+    },
+    {
+      "index": 114,
+      "name": "ScriptInstruction[110]"
+    },
+    {
+      "index": 115,
+      "name": "ScriptInstruction[111]"
+    },
+    {
+      "index": 116,
+      "name": "ScriptInstruction[112]"
+    },
+    {
+      "index": 117,
+      "name": "ScriptInstruction[113]"
+    },
+    {
+      "index": 118,
+      "name": "ScriptInstruction[114]"
+    },
+    {
+      "index": 119,
+      "name": "ScriptInstruction[115]"
+    },
+    {
+      "index": 120,
+      "name": "ScriptInstruction[116]"
+    },
+    {
+      "index": 121,
+      "name": "ScriptInstruction[117]"
+    },
+    {
+      "index": 122,
+      "name": "ScriptInstruction[118]"
+    },
+    {
+      "index": 123,
+      "name": "ScriptInstruction[119]"
+    },
+    {
+      "index": 124,
+      "name": "ScriptInstruction[120]"
+    },
+    {
+      "index": 125,
+      "name": "ScriptInstruction[121]"
+    },
+    {
+      "index": 126,
+      "name": "ScriptInstruction[122]"
+    },
+    {
+      "index": 127,
+      "name": "ScriptInstruction[123]"
+    },
+    {
+      "index": 128,
+      "name": "ScriptInstruction[124]"
+    },
+    {
+      "index": 129,
+      "name": "ScriptInstruction[125]"
+    },
+    {
+      "index": 130,
+      "name": "ScriptInstruction[126]"
+    },
+    {
+      "index": 131,
+      "name": "ScriptInstruction[127]"
+    },
+    {
+      "index": 132,
+      "name": "ScriptInstruction[128]"
+    },
+    {
+      "index": 133,
+      "name": "ScriptInstruction[129]"
+    },
+    {
+      "index": 134,
+      "name": "ScriptInstruction[130]"
+    },
+    {
+      "index": 135,
+      "name": "ScriptInstruction[131]"
+    },
+    {
+      "index": 136,
+      "name": "ScriptInstruction[132]"
+    },
+    {
+      "index": 137,
+      "name": "ScriptInstruction[133]"
+    },
+    {
+      "index": 138,
+      "name": "ScriptInstruction[134]"
+    },
+    {
+      "index": 139,
+      "name": "ScriptInstruction[135]"
+    },
+    {
+      "index": 140,
+      "name": "ScriptInstruction[136]"
+    },
+    {
+      "index": 141,
+      "name": "ScriptInstruction[137]"
+    },
+    {
+      "index": 142,
+      "name": "ScriptInstruction[138]"
+    },
+    {
+      "index": 143,
+      "name": "ScriptInstruction[139]"
+    },
+    {
+      "index": 144,
+      "name": "ScriptInstruction[140]"
+    },
+    {
+      "index": 145,
+      "name": "ScriptInstruction[141]"
+    },
+    {
+      "index": 146,
+      "name": "ScriptInstruction[142]"
+    },
+    {
+      "index": 147,
+      "name": "ScriptInstruction[143]"
+    },
+    {
+      "index": 148,
+      "name": "ScriptInstruction[144]"
+    },
+    {
+      "index": 149,
+      "name": "ScriptInstruction[145]"
+    },
+    {
+      "index": 150,
+      "name": "ScriptInstruction[146]"
+    },
+    {
+      "index": 151,
+      "name": "ScriptInstruction[147]"
+    },
+    {
+      "index": 152,
+      "name": "ScriptInstruction[148]"
+    },
+    {
+      "index": 153,
+      "name": "ScriptInstruction[149]"
+    },
+    {
+      "index": 154,
+      "name": "ScriptInstruction[150]"
+    },
+    {
+      "index": 155,
+      "name": "ScriptInstruction[151]"
+    },
+    {
+      "index": 156,
+      "name": "ScriptInstruction[152]"
+    },
+    {
+      "index": 157,
+      "name": "ScriptInstruction[153]"
+    },
+    {
+      "index": 158,
+      "name": "ScriptInstruction[154]"
+    },
+    {
+      "index": 159,
+      "name": "ScriptInstruction[155]"
+    },
+    {
+      "index": 160,
+      "name": "ScriptInstruction[156]"
+    },
+    {
+      "index": 161,
+      "name": "ScriptInstruction[157]"
+    },
+    {
+      "index": 162,
+      "name": "ScriptInstruction[158]"
+    },
+    {
+      "index": 163,
+      "name": "ScriptInstruction[159]"
+    },
+    {
+      "index": 164,
+      "name": "ScriptInstruction[160]"
+    },
+    {
+      "index": 165,
+      "name": "ScriptInstruction[161]"
+    },
+    {
+      "index": 166,
+      "name": "ScriptInstruction[162]"
+    },
+    {
+      "index": 167,
+      "name": "ScriptInstruction[163]"
+    },
+    {
+      "index": 168,
+      "name": "ScriptInstruction[164]"
+    },
+    {
+      "index": 169,
+      "name": "ScriptInstruction[165]"
+    },
+    {
+      "index": 170,
+      "name": "ScriptInstruction[166]"
+    },
+    {
+      "index": 171,
+      "name": "ScriptInstruction[167]"
+    },
+    {
+      "index": 172,
+      "name": "ScriptInstruction[168]"
+    },
+    {
+      "index": 173,
+      "name": "ScriptInstruction[169]"
+    },
+    {
+      "index": 174,
+      "name": "ScriptInstruction[170]"
+    },
+    {
+      "index": 175,
+      "name": "ScriptInstruction[171]"
+    },
+    {
+      "index": 176,
+      "name": "ScriptInstruction[172]"
+    },
+    {
+      "index": 177,
+      "name": "ScriptInstruction[173]"
+    },
+    {
+      "index": 178,
+      "name": "ScriptInstruction[174]"
+    },
+    {
+      "index": 179,
+      "name": "ScriptInstruction[175]"
+    },
+    {
+      "index": 180,
+      "name": "ScriptInstruction[176]"
+    },
+    {
+      "index": 181,
+      "name": "ScriptInstruction[177]"
+    },
+    {
+      "index": 182,
+      "name": "ScriptInstruction[178]"
+    },
+    {
+      "index": 183,
+      "name": "ScriptInstruction[179]"
+    },
+    {
+      "index": 184,
+      "name": "ScriptInstruction[180]"
+    },
+    {
+      "index": 185,
+      "name": "ScriptInstruction[181]"
+    },
+    {
+      "index": 186,
+      "name": "ScriptInstruction[182]"
+    },
+    {
+      "index": 187,
+      "name": "ScriptInstruction[183]"
+    },
+    {
+      "index": 188,
+      "name": "ScriptInstruction[184]"
+    },
+    {
+      "index": 189,
+      "name": "ScriptInstruction[185]"
+    },
+    {
+      "index": 190,
+      "name": "ScriptInstruction[186]"
+    },
+    {
+      "index": 191,
+      "name": "ScriptInstruction[187]"
+    },
+    {
+      "index": 192,
+      "name": "ScriptInstruction[188]"
+    },
+    {
+      "index": 193,
+      "name": "ScriptInstruction[189]"
+    },
+    {
+      "index": 194,
+      "name": "ScriptInstruction[190]"
+    },
+    {
+      "index": 195,
+      "name": "ScriptInstruction[191]"
+    },
+    {
+      "index": 196,
+      "name": "ScriptInstruction[192]"
+    },
+    {
+      "index": 197,
+      "name": "ScriptInstruction[193]"
+    },
+    {
+      "index": 198,
+      "name": "ScriptInstruction[194]"
+    },
+    {
+      "index": 199,
+      "name": "ScriptInstruction[195]"
+    },
+    {
+      "index": 200,
+      "name": "ScriptInstruction[196]"
+    },
+    {
+      "index": 201,
+      "name": "ScriptInstruction[197]"
+    },
+    {
+      "index": 202,
+      "name": "ScriptInstruction[198]"
+    },
+    {
+      "index": 203,
+      "name": "ScriptInstruction[199]"
+    },
+    {
+      "index": 204,
+      "name": "ScriptInstruction[200]"
+    },
+    {
+      "index": 205,
+      "name": "ScriptInstruction[201]"
+    },
+    {
+      "index": 206,
+      "name": "ScriptInstruction[202]"
+    },
+    {
+      "index": 207,
+      "name": "ScriptInstruction[203]"
+    },
+    {
+      "index": 208,
+      "name": "ScriptInstruction[204]"
+    },
+    {
+      "index": 209,
+      "name": "ScriptInstruction[205]"
+    },
+    {
+      "index": 210,
+      "name": "ScriptInstruction[206]"
+    },
+    {
+      "index": 211,
+      "name": "ScriptInstruction[207]"
+    },
+    {
+      "index": 212,
+      "name": "ScriptInstruction[208]"
+    },
+    {
+      "index": 213,
+      "name": "ScriptInstruction[209]"
+    },
+    {
+      "index": 214,
+      "name": "ScriptInstruction[210]"
+    },
+    {
+      "index": 215,
+      "name": "ScriptInstruction[211]"
+    },
+    {
+      "index": 216,
+      "name": "ScriptInstruction[212]"
+    },
+    {
+      "index": 217,
+      "name": "ScriptInstruction[213]"
+    },
+    {
+      "index": 218,
+      "name": "ScriptInstruction[214]"
+    },
+    {
+      "index": 219,
+      "name": "ScriptInstruction[215]"
+    },
+    {
+      "index": 220,
+      "name": "ScriptInstruction[216]"
+    },
+    {
+      "index": 221,
+      "name": "ScriptInstruction[217]"
+    },
+    {
+      "index": 222,
+      "name": "ScriptInstruction[218]"
+    },
+    {
+      "index": 223,
+      "name": "ScriptInstruction[219]"
+    },
+    {
+      "index": 224,
+      "name": "ScriptValue[0]"
+    },
+    {
+      "index": 225,
+      "name": "ScriptValue[1]"
+    },
+    {
+      "index": 226,
+      "name": "ScriptValue[2]"
+    },
+    {
+      "index": 227,
+      "name": "ScriptValue[3]"
+    },
+    {
+      "index": 228,
+      "name": "ScriptValue[4]"
+    },
+    {
+      "index": 229,
+      "name": "ScriptValue[5]"
+    },
+    {
+      "index": 230,
+      "name": "ScriptValue[6]"
+    },
+    {
+      "index": 231,
+      "name": "ScriptValue[7]"
+    },
+    {
+      "index": 232,
+      "name": "ScriptValue[8]"
+    },
+    {
+      "index": 233,
+      "name": "ScriptValue[9]"
+    },
+    {
+      "index": 234,
+      "name": "ScriptValue[10]"
+    },
+    {
+      "index": 235,
+      "name": "ScriptValue[11]"
+    },
+    {
+      "index": 236,
+      "name": "ScriptValue[12]"
+    },
+    {
+      "index": 237,
+      "name": "ScriptValue[13]"
+    },
+    {
+      "index": 238,
+      "name": "ScriptValue[14]"
+    },
+    {
+      "index": 239,
+      "name": "ScriptValue[15]"
+    },
+    {
+      "index": 240,
+      "name": "ScriptValue[16]"
+    },
+    {
+      "index": 241,
+      "name": "ScriptValue[17]"
+    },
+    {
+      "index": 242,
+      "name": "ScriptValue[18]"
+    },
+    {
+      "index": 243,
+      "name": "ScriptValue[19]"
+    },
+    {
+      "index": 244,
+      "name": "ScriptValue[20]"
+    },
+    {
+      "index": 245,
+      "name": "ScriptValue[21]"
+    },
+    {
+      "index": 246,
+      "name": "ScriptValue[22]"
+    },
+    {
+      "index": 247,
+      "name": "ScriptValue[23]"
+    },
+    {
+      "index": 248,
+      "name": "ScriptValue[24]"
+    },
+    {
+      "index": 249,
+      "name": "ScriptValue[25]"
+    },
+    {
+      "index": 250,
+      "name": "ScriptValue[26]"
+    },
+    {
+      "index": 251,
+      "name": "ScriptValue[27]"
+    },
+    {
+      "index": 252,
+      "name": "ScriptValue[28]"
+    },
+    {
+      "index": 253,
+      "name": "ScriptValue[29]"
+    },
+    {
+      "index": 254,
+      "name": "ScriptValue[30]"
+    },
+    {
+      "index": 255,
+      "name": "ScriptValue[31]"
+    },
+    {
+      "index": 256,
+      "name": "ScriptValue[32]"
+    },
+    {
+      "index": 257,
+      "name": "ScriptValue[33]"
+    },
+    {
+      "index": 258,
+      "name": "ScriptValue[34]"
+    },
+    {
+      "index": 259,
+      "name": "ScriptValue[35]"
+    },
+    {
+      "index": 260,
+      "name": "ScriptValue[36]"
+    },
+    {
+      "index": 261,
+      "name": "ScriptValue[37]"
+    },
+    {
+      "index": 262,
+      "name": "ScriptValue[38]"
+    },
+    {
+      "index": 263,
+      "name": "ScriptValue[39]"
+    },
+    {
+      "index": 264,
+      "name": "ScriptValue[40]"
+    },
+    {
+      "index": 265,
+      "name": "ScriptValue[41]"
+    },
+    {
+      "index": 266,
+      "name": "ScriptValue[42]"
+    },
+    {
+      "index": 267,
+      "name": "ScriptValue[43]"
+    },
+    {
+      "index": 268,
+      "name": "ScriptValue[44]"
+    },
+    {
+      "index": 269,
+      "name": "ScriptValue[45]"
+    },
+    {
+      "index": 270,
+      "name": "ScriptValue[46]"
+    },
+    {
+      "index": 271,
+      "name": "ScriptValue[47]"
+    },
+    {
+      "index": 272,
+      "name": "ScriptValue[48]"
+    },
+    {
+      "index": 273,
+      "name": "ScriptValue[49]"
+    },
+    {
+      "index": 274,
+      "name": "ScriptValue[50]"
+    },
+    {
+      "index": 275,
+      "name": "ScriptValue[51]"
+    },
+    {
+      "index": 276,
+      "name": "ScriptValue[52]"
+    },
+    {
+      "index": 277,
+      "name": "ScriptValue[53]"
+    },
+    {
+      "index": 278,
+      "name": "ScriptValue[54]"
+    },
+    {
+      "index": 279,
+      "name": "ScriptValue[55]"
+    },
+    {
+      "index": 280,
+      "name": "ScriptValue[56]"
+    },
+    {
+      "index": 281,
+      "name": "ScriptValue[57]"
+    },
+    {
+      "index": 282,
+      "name": "ScriptValue[58]"
+    },
+    {
+      "index": 283,
+      "name": "ScriptValue[59]"
+    },
+    {
+      "index": 284,
+      "name": "ScriptValue[60]"
+    },
+    {
+      "index": 285,
+      "name": "ScriptValue[61]"
+    },
+    {
+      "index": 286,
+      "name": "ScriptValue[62]"
+    },
+    {
+      "index": 287,
+      "name": "ScriptValue[63]"
+    },
+    {
+      "index": 288,
+      "name": "ScriptValue[64]"
+    },
+    {
+      "index": 289,
+      "name": "ScriptValue[65]"
+    },
+    {
+      "index": 290,
+      "name": "ScriptValue[66]"
+    },
+    {
+      "index": 291,
+      "name": "ScriptValue[67]"
+    },
+    {
+      "index": 292,
+      "name": "ScriptValue[68]"
+    },
+    {
+      "index": 293,
+      "name": "ScriptValue[69]"
+    },
+    {
+      "index": 294,
+      "name": "ScriptValue[70]"
+    },
+    {
+      "index": 295,
+      "name": "ScriptValue[71]"
+    },
+    {
+      "index": 296,
+      "name": "ScriptValue[72]"
+    },
+    {
+      "index": 297,
+      "name": "ScriptValue[73]"
+    },
+    {
+      "index": 298,
+      "name": "ScriptValue[74]"
+    },
+    {
+      "index": 299,
+      "name": "ScriptValue[75]"
+    },
+    {
+      "index": 300,
+      "name": "ScriptValue[76]"
+    },
+    {
+      "index": 301,
+      "name": "ScriptValue[77]"
+    },
+    {
+      "index": 302,
+      "name": "ScriptValue[78]"
+    },
+    {
+      "index": 303,
+      "name": "ScriptValue[79]"
+    },
+    {
+      "index": 304,
+      "name": "ScriptValue[80]"
+    },
+    {
+      "index": 305,
+      "name": "ScriptValue[81]"
+    },
+    {
+      "index": 306,
+      "name": "ScriptValue[82]"
+    },
+    {
+      "index": 307,
+      "name": "ScriptValue[83]"
+    },
+    {
+      "index": 308,
+      "name": "ScriptValue[84]"
+    },
+    {
+      "index": 309,
+      "name": "ScriptValue[85]"
+    },
+    {
+      "index": 310,
+      "name": "ScriptValue[86]"
+    },
+    {
+      "index": 311,
+      "name": "ScriptValue[87]"
+    },
+    {
+      "index": 312,
+      "name": "ScriptValue[88]"
+    },
+    {
+      "index": 313,
+      "name": "ScriptValue[89]"
+    },
+    {
+      "index": 314,
+      "name": "ScriptValue[90]"
+    },
+    {
+      "index": 315,
+      "name": "ScriptValue[91]"
+    },
+    {
+      "index": 316,
+      "name": "ScriptValue[92]"
+    },
+    {
+      "index": 317,
+      "name": "ScriptValue[93]"
+    },
+    {
+      "index": 318,
+      "name": "ScriptValue[94]"
+    },
+    {
+      "index": 319,
+      "name": "ScriptValue[95]"
+    },
+    {
+      "index": 320,
+      "name": "ScriptValue[96]"
+    },
+    {
+      "index": 321,
+      "name": "ScriptValue[97]"
+    },
+    {
+      "index": 322,
+      "name": "ScriptValue[98]"
+    },
+    {
+      "index": 323,
+      "name": "ScriptValue[99]"
+    },
+    {
+      "index": 324,
+      "name": "ScriptValue[100]"
+    },
+    {
+      "index": 325,
+      "name": "ScriptValue[101]"
+    },
+    {
+      "index": 326,
+      "name": "ScriptValue[102]"
+    },
+    {
+      "index": 327,
+      "name": "ScriptValue[103]"
+    },
+    {
+      "index": 328,
+      "name": "ScriptValue[104]"
+    },
+    {
+      "index": 329,
+      "name": "ScriptValue[105]"
+    },
+    {
+      "index": 330,
+      "name": "ScriptValue[106]"
+    },
+    {
+      "index": 331,
+      "name": "ScriptValue[107]"
+    },
+    {
+      "index": 332,
+      "name": "ScriptValue[108]"
+    },
+    {
+      "index": 333,
+      "name": "ScriptValue[109]"
+    },
+    {
+      "index": 334,
+      "name": "ScriptValue[110]"
+    },
+    {
+      "index": 335,
+      "name": "ScriptValue[111]"
+    },
+    {
+      "index": 336,
+      "name": "ScriptValue[112]"
+    },
+    {
+      "index": 337,
+      "name": "ScriptValue[113]"
+    },
+    {
+      "index": 338,
+      "name": "ScriptValue[114]"
+    },
+    {
+      "index": 339,
+      "name": "ScriptValue[115]"
+    },
+    {
+      "index": 340,
+      "name": "ScriptValue[116]"
+    },
+    {
+      "index": 341,
+      "name": "ScriptValue[117]"
+    },
+    {
+      "index": 342,
+      "name": "ScriptValue[118]"
+    },
+    {
+      "index": 343,
+      "name": "ScriptValue[119]"
+    },
+    {
+      "index": 344,
+      "name": "ScriptValue[120]"
+    },
+    {
+      "index": 345,
+      "name": "ScriptValue[121]"
+    },
+    {
+      "index": 346,
+      "name": "ScriptValue[122]"
+    },
+    {
+      "index": 347,
+      "name": "ScriptValue[123]"
+    },
+    {
+      "index": 348,
+      "name": "ScriptValue[124]"
+    },
+    {
+      "index": 349,
+      "name": "ScriptValue[125]"
+    },
+    {
+      "index": 350,
+      "name": "ScriptValue[126]"
+    },
+    {
+      "index": 351,
+      "name": "ScriptValue[127]"
+    },
+    {
+      "index": 352,
+      "name": "ScriptValue[128]"
+    },
+    {
+      "index": 353,
+      "name": "ScriptValue[129]"
+    },
+    {
+      "index": 354,
+      "name": "ScriptValue[130]"
+    },
+    {
+      "index": 355,
+      "name": "ScriptValue[131]"
+    },
+    {
+      "index": 356,
+      "name": "ScriptValue[132]"
+    },
+    {
+      "index": 357,
+      "name": "ScriptValue[133]"
+    },
+    {
+      "index": 358,
+      "name": "ScriptValue[134]"
+    },
+    {
+      "index": 359,
+      "name": "ScriptValue[135]"
+    },
+    {
+      "index": 360,
+      "name": "ScriptValue[136]"
+    },
+    {
+      "index": 361,
+      "name": "ScriptValue[137]"
+    },
+    {
+      "index": 362,
+      "name": "ScriptValue[138]"
+    },
+    {
+      "index": 363,
+      "name": "ScriptValue[139]"
+    },
+    {
+      "index": 364,
+      "name": "ScriptValue[140]"
+    },
+    {
+      "index": 365,
+      "name": "ScriptValue[141]"
+    },
+    {
+      "index": 366,
+      "name": "ScriptValue[142]"
+    },
+    {
+      "index": 367,
+      "name": "ScriptValue[143]"
+    },
+    {
+      "index": 368,
+      "name": "ScriptValue[144]"
+    },
+    {
+      "index": 369,
+      "name": "ScriptValue[145]"
+    },
+    {
+      "index": 370,
+      "name": "ScriptValue[146]"
+    },
+    {
+      "index": 371,
+      "name": "ScriptValue[147]"
+    },
+    {
+      "index": 372,
+      "name": "ScriptValue[148]"
+    },
+    {
+      "index": 373,
+      "name": "ScriptValue[149]"
+    },
+    {
+      "index": 374,
+      "name": "ScriptValue[150]"
+    },
+    {
+      "index": 375,
+      "name": "ScriptValue[151]"
+    },
+    {
+      "index": 376,
+      "name": "ScriptValue[152]"
+    },
+    {
+      "index": 377,
+      "name": "ScriptValue[153]"
+    },
+    {
+      "index": 378,
+      "name": "ScriptValue[154]"
+    },
+    {
+      "index": 379,
+      "name": "ScriptValue[155]"
+    },
+    {
+      "index": 380,
+      "name": "ScriptValue[156]"
+    },
+    {
+      "index": 381,
+      "name": "ScriptValue[157]"
+    },
+    {
+      "index": 382,
+      "name": "ScriptValue[158]"
+    },
+    {
+      "index": 383,
+      "name": "ScriptValue[159]"
+    },
+    {
+      "index": 384,
+      "name": "ScriptValue[160]"
+    },
+    {
+      "index": 385,
+      "name": "ScriptValue[161]"
+    },
+    {
+      "index": 386,
+      "name": "ScriptValue[162]"
+    },
+    {
+      "index": 387,
+      "name": "ScriptValue[163]"
+    },
+    {
+      "index": 388,
+      "name": "ScriptValue[164]"
+    },
+    {
+      "index": 389,
+      "name": "ScriptValue[165]"
+    },
+    {
+      "index": 390,
+      "name": "ScriptValue[166]"
+    },
+    {
+      "index": 391,
+      "name": "ScriptValue[167]"
+    },
+    {
+      "index": 392,
+      "name": "ScriptValue[168]"
+    },
+    {
+      "index": 393,
+      "name": "ScriptValue[169]"
+    },
+    {
+      "index": 394,
+      "name": "ScriptValue[170]"
+    },
+    {
+      "index": 395,
+      "name": "ScriptValue[171]"
+    },
+    {
+      "index": 396,
+      "name": "ScriptValue[172]"
+    },
+    {
+      "index": 397,
+      "name": "ScriptValue[173]"
+    },
+    {
+      "index": 398,
+      "name": "ScriptValue[174]"
+    },
+    {
+      "index": 399,
+      "name": "ScriptValue[175]"
+    },
+    {
+      "index": 400,
+      "name": "ScriptValue[176]"
+    },
+    {
+      "index": 401,
+      "name": "ScriptValue[177]"
+    },
+    {
+      "index": 402,
+      "name": "ScriptValue[178]"
+    },
+    {
+      "index": 403,
+      "name": "ScriptValue[179]"
+    },
+    {
+      "index": 404,
+      "name": "ScriptValue[180]"
+    },
+    {
+      "index": 405,
+      "name": "ScriptValue[181]"
+    },
+    {
+      "index": 406,
+      "name": "ScriptValue[182]"
+    },
+    {
+      "index": 407,
+      "name": "ScriptValue[183]"
+    },
+    {
+      "index": 408,
+      "name": "ScriptValue[184]"
+    },
+    {
+      "index": 409,
+      "name": "ScriptValue[185]"
+    },
+    {
+      "index": 410,
+      "name": "ScriptValue[186]"
+    },
+    {
+      "index": 411,
+      "name": "ScriptValue[187]"
+    },
+    {
+      "index": 412,
+      "name": "ScriptValue[188]"
+    },
+    {
+      "index": 413,
+      "name": "ScriptValue[189]"
+    },
+    {
+      "index": 414,
+      "name": "ScriptValue[190]"
+    },
+    {
+      "index": 415,
+      "name": "ScriptValue[191]"
+    },
+    {
+      "index": 416,
+      "name": "ScriptValue[192]"
+    },
+    {
+      "index": 417,
+      "name": "ScriptValue[193]"
+    },
+    {
+      "index": 418,
+      "name": "ScriptValue[194]"
+    },
+    {
+      "index": 419,
+      "name": "ScriptValue[195]"
+    },
+    {
+      "index": 420,
+      "name": "ScriptValue[196]"
+    },
+    {
+      "index": 421,
+      "name": "ScriptValue[197]"
+    },
+    {
+      "index": 422,
+      "name": "ScriptValue[198]"
+    },
+    {
+      "index": 423,
+      "name": "ScriptValue[199]"
+    },
+    {
+      "index": 424,
+      "name": "ScriptValue[200]"
+    },
+    {
+      "index": 425,
+      "name": "ScriptValue[201]"
+    },
+    {
+      "index": 426,
+      "name": "ScriptValue[202]"
+    },
+    {
+      "index": 427,
+      "name": "ScriptValue[203]"
+    },
+    {
+      "index": 428,
+      "name": "ScriptValue[204]"
+    },
+    {
+      "index": 429,
+      "name": "ScriptValue[205]"
+    },
+    {
+      "index": 430,
+      "name": "ScriptValue[206]"
+    },
+    {
+      "index": 431,
+      "name": "ScriptValue[207]"
+    },
+    {
+      "index": 432,
+      "name": "ScriptValue[208]"
+    },
+    {
+      "index": 433,
+      "name": "ScriptValue[209]"
+    },
+    {
+      "index": 434,
+      "name": "ScriptValue[210]"
+    },
+    {
+      "index": 435,
+      "name": "ScriptValue[211]"
+    },
+    {
+      "index": 436,
+      "name": "ScriptValue[212]"
+    },
+    {
+      "index": 437,
+      "name": "ScriptValue[213]"
+    },
+    {
+      "index": 438,
+      "name": "ScriptValue[214]"
+    },
+    {
+      "index": 439,
+      "name": "ScriptValue[215]"
+    },
+    {
+      "index": 440,
+      "name": "ScriptValue[216]"
+    },
+    {
+      "index": 441,
+      "name": "ScriptValue[217]"
+    },
+    {
+      "index": 442,
+      "name": "ScriptValue[218]"
+    },
+    {
       "index": 443,
-      "name": "QuestBattleScene"
+      "name": "ScriptValue[219]"
     }
   ]
 }

@@ -2,31 +2,43 @@
   "sheet": "CompanyCraftPart",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "CompanyCraftProcess",
-        "converter": {
-          "type": "link",
-          "target": "CompanyCraftProcess"
-        }
-      }
-    },
-    {
-      "index": 3,
-      "name": "Unknown0"
-    },
-    {
-      "index": 4,
       "name": "Unknown1"
     },
     {
-      "index": 5,
+      "index": 1,
       "name": "CompanyCraftType",
       "converter": {
         "type": "link",
         "target": "CompanyCraftType"
       }
+    },
+    {
+      "index": 2,
+      "name": "CompanyCraftProcess[0]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftProcess"
+      }
+    },
+    {
+      "index": 3,
+      "name": "CompanyCraftProcess[1]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftProcess"
+      }
+    },
+    {
+      "index": 4,
+      "name": "CompanyCraftProcess[2]",
+      "converter": {
+        "type": "link",
+        "target": "CompanyCraftProcess"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
     }
   ]
 }

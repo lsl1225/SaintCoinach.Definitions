@@ -3,178 +3,26 @@
   "defaultColumn": "ContentFinderCondition",
   "definitions": [
     {
-      "name": "NewPlayerBonusGil"
+      "name": "InstanceContentType",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentType"
+      }
     },
     {
       "index": 1,
-      "name": "NewPlayerBonusExp"
+      "name": "WeekRestriction"
     },
     {
       "index": 2,
-      "name": "FinalBossExp"
-    },
-    {
-      "index": 3,
-      "name": "Unknown0"
-    },
-    {
-      "index": 4,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "BossExp"
-      }
-    },
-    {
-      "index": 9,
-      "name": "InstanceClearExp"
-    },
-    {
-      "index": 10,
-      "name": "InstanceClearGil"
-    },
-    {
-      "index": 11,
-      "name": "InstanceContentRewardItem",
-      "converter": {
-        "type": "link",
-        "target": "InstanceContentRewardItem"
-      }
-    },
-    {
-      "index": 12,
-      "name": "NewPlayerBonusA"
-    },
-    {
-      "index": 13,
-      "name": "NewPlayerBonusB"
-    },
-    {
-      "index": 14,
-      "name": "FinalBossCurrencyA"
-    },
-    {
-      "index": 15,
-      "name": "FinalBossCurrencyB"
-    },
-    {
-      "index": 16,
-      "name": "FinalBossCurrencyC"
-    },
-    {
-      "index": 17,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "BossCurrencyA"
-      }
-    },
-    {
-      "index": 22,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "BossCurrencyB"
-      }
-    },
-    {
-      "index": 27,
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "BossCurrencyC"
-      }
-    },
-    {
-      "index": 32,
-      "name": "Unknown1"
-    },
-    {
-      "index": 33,
-      "name": "Unknown8"
-    },
-    {
-      "index": 34,
-      "name": "LimitedTimeBonus"
-    },
-    {
-      "index": 35,
-      "name": "Cutscene",
-      "converter": {
-        "type": "link",
-        "target": "Cutscene"
-      }
-    },
-    {
-      "index": 36,
-      "name": "LGBEventRange"
-    },
-    {
-      "index": 37,
-      "name": "InstanceContentTextDataBossStart",
-      "converter": {
-        "type": "link",
-        "target": "InstanceContentTextData"
-      }
-    },
-    {
-      "index": 38,
-      "name": "InstanceContentTextDataBossEnd",
-      "converter": {
-        "type": "link",
-        "target": "InstanceContentTextData"
-      }
-    },
-    {
-      "index": 39,
-      "name": "BNpcBaseBoss",
-      "converter": {
-        "type": "link",
-        "target": "BNpcBase"
-      }
-    },
-    {
-      "index": 40,
-      "name": "InstanceContentTextDataObjectiveStart",
-      "converter": {
-        "type": "link",
-        "target": "InstanceContentTextData"
-      }
-    },
-    {
-      "index": 41,
-      "name": "InstanceContentTextDataObjectiveEnd",
-      "converter": {
-        "type": "link",
-        "target": "InstanceContentTextData"
-      }
-    },
-    {
-      "index": 42,
-      "name": "Unknown2"
-    },
-    {
-      "index": 43,
-      "name": "ReqInstance",
-      "converter": {
-        "type": "link",
-        "target": "InstanceContent"
-      }
-    },
-    {
-      "index": 44,
-      "name": "InstanceContentBuff",
-      "converter": {
-        "type": "link",
-        "target": "InstanceContentBuff"
-      }
-    },
-    {
-      "index": 45,
       "name": "TimeLimitmin"
     },
     {
-      "index": 46,
+      "index": 3,
+      "name": "Unknown14"
+    },
+    {
+      "index": 4,
       "name": "BGM",
       "converter": {
         "type": "link",
@@ -182,7 +30,7 @@
       }
     },
     {
-      "index": 47,
+      "index": 5,
       "name": "WinBGM",
       "converter": {
         "type": "link",
@@ -190,7 +38,19 @@
       }
     },
     {
-      "index": 48,
+      "index": 6,
+      "name": "Cutscene",
+      "converter": {
+        "type": "link",
+        "target": "Cutscene"
+      }
+    },
+    {
+      "index": 7,
+      "name": "LGBEventRange"
+    },
+    {
+      "index": 8,
       "name": "ContentFinderCondition",
       "converter": {
         "type": "link",
@@ -198,11 +58,263 @@
       }
     },
     {
-      "index": 49,
+      "index": 9,
+      "name": "Unknown15"
+    },
+    {
+      "index": 10,
+      "name": "InstanceContentTextDataBossStart",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 11,
+      "name": "InstanceContentTextDataBossEnd",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 12,
+      "name": "BNpcBaseBoss",
+      "converter": {
+        "type": "link",
+        "target": "BNpcBase"
+      }
+    },
+    {
+      "index": 13,
+      "name": "InstanceContentTextDataObjectiveStart",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 14,
+      "name": "InstanceContentTextDataObjectiveEnd",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentTextData"
+      }
+    },
+    {
+      "index": 15,
       "name": "SortKey"
     },
     {
+      "index": 16,
+      "name": "NewPlayerBonusGil"
+    },
+    {
+      "index": 17,
+      "name": "NewPlayerBonusExp"
+    },
+    {
+      "index": 18,
+      "name": "NewPlayerBonusA"
+    },
+    {
+      "index": 19,
+      "name": "NewPlayerBonusB"
+    },
+    {
+      "index": 20,
+      "name": "FinalBossExp"
+    },
+    {
+      "index": 21,
+      "name": "Unknown8"
+    },
+    {
+      "index": 22,
+      "name": "Unknown0"
+    },
+    {
+      "index": 23,
+      "name": "FinalBossCurrencyA"
+    },
+    {
+      "index": 24,
+      "name": "FinalBossCurrencyB"
+    },
+    {
+      "index": 25,
+      "name": "FinalBossCurrencyC"
+    },
+    {
+      "index": 26,
+      "name": "BossExp[0]"
+    },
+    {
+      "index": 27,
+      "name": "BossExp[1]"
+    },
+    {
+      "index": 28,
+      "name": "BossExp[2]"
+    },
+    {
+      "index": 29,
+      "name": "BossExp[3]"
+    },
+    {
+      "index": 30,
+      "name": "BossExp[4]"
+    },
+    {
+      "index": 31,
+      "name": "BossCurrencyA[0]"
+    },
+    {
+      "index": 32,
+      "name": "BossCurrencyA[1]"
+    },
+    {
+      "index": 33,
+      "name": "BossCurrencyA[2]"
+    },
+    {
+      "index": 34,
+      "name": "BossCurrencyA[3]"
+    },
+    {
+      "index": 35,
+      "name": "BossCurrencyA[4]"
+    },
+    {
+      "index": 36,
+      "name": "BossCurrencyB[0]"
+    },
+    {
+      "index": 37,
+      "name": "BossCurrencyB[1]"
+    },
+    {
+      "index": 38,
+      "name": "BossCurrencyB[2]"
+    },
+    {
+      "index": 39,
+      "name": "BossCurrencyB[3]"
+    },
+    {
+      "index": 40,
+      "name": "BossCurrencyB[4]"
+    },
+    {
+      "index": 41,
+      "name": "BossCurrencyC[0]"
+    },
+    {
+      "index": 42,
+      "name": "BossCurrencyC[1]"
+    },
+    {
+      "index": 43,
+      "name": "BossCurrencyC[2]"
+    },
+    {
+      "index": 44,
+      "name": "BossCurrencyC[3]"
+    },
+    {
+      "index": 45,
+      "name": "BossCurrencyC[4]"
+    },
+    {
+      "index": 46,
+      "name": "InstanceClearExp"
+    },
+    {
+      "index": 47,
+      "name": "InstanceClearGil"
+    },
+    {
+      "index": 48,
+      "name": "InstanceContentRewardItem",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentRewardItem"
+      }
+    },
+    {
+      "index": 49,
+      "name": "Unknown1"
+    },
+    {
       "index": 50,
+      "name": "LimitedTimeBonus"
+    },
+    {
+      "index": 51,
+      "name": "Unknown2"
+    },
+    {
+      "index": 52,
+      "name": "InstanceContentBuff",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContentBuff"
+      }
+    },
+    {
+      "index": 53,
+      "name": "Unknown16"
+    },
+    {
+      "index": 54,
+      "name": "ReqInstance",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
+      }
+    },
+    {
+      "index": 55,
+      "name": "PartyCondition"
+    },
+    {
+      "index": 56,
+      "name": "Unknown9"
+    },
+    {
+      "index": 57,
+      "name": "QTE1",
+      "converter": {
+        "type": "link",
+        "target": "QTE"
+      }
+    },
+    {
+      "index": 58,
+      "name": "QTE2",
+      "converter": {
+        "type": "link",
+        "target": "QTE"
+      }
+    },
+    {
+      "index": 59,
+      "name": "Unknown12"
+    },
+    {
+      "index": 60,
+      "name": "ContentAttributeRect",
+      "converter": {
+        "type": "link",
+        "target": "ContentAttributeRect"
+      }
+    },
+    {
+      "index": 61,
+      "name": "Unknown17"
+    },
+    {
+      "index": 62,
       "name": "ContentRoute",
       "converter": {
         "type": "complexlink",
@@ -239,7 +351,7 @@
       }
     },
     {
-      "index": 51,
+      "index": 63,
       "name": "ContentDirectorManagedSG",
       "converter": {
         "type": "link",
@@ -247,83 +359,11 @@
       }
     },
     {
-      "index": 52,
+      "index": 64,
       "name": "ContentTodo",
       "converter": {
         "type": "link",
         "target": "ContentTodo"
-      }
-    },
-    {
-      "index": 53,
-      "name": "Unknown6"
-    },
-    {
-      "index": 54,
-      "name": "LookupIndex"
-    },
-    {
-      "index": 55,
-      "name": "ContentEventItem",
-      "converter": {
-        "type": "link",
-        "target": "ContentEventItem"
-      }
-    },
-    {
-      "index": 56,
-      "name": "ContentDirectorBattleTalk",
-      "converter": {
-        "type": "link",
-        "target": "ContentDirectorBattleTalk"
-      }
-    },
-    {
-      "index": 57,
-      "name": "PartyCondition"
-    },
-    {
-      "index": 58,
-      "name": "InstanceContentType",
-      "converter": {
-        "type": "link",
-        "target": "InstanceContentType"
-      }
-    },
-    {
-      "index": 59,
-      "name": "WeekRestriction"
-    },
-    {
-      "index": 60,
-      "name": "Unknown9"
-    },
-    {
-      "index": 61,
-      "name": "QTE1",
-      "converter": {
-        "type": "link",
-        "target": "QTE"
-      }
-    },
-    {
-      "index": 62,
-      "name": "QTE2",
-      "converter": {
-        "type": "link",
-        "target": "QTE"
-      }
-    },
-    {
-      "index": 63,
-      "name": "Unknown12"
-    },
-    {
-      "index": 64,
-      "name": "ContentAttributeRect",
-      "converter": {
-        "type": "link",
-        "target": "ContentAttributeRect"
       }
     },
     {
@@ -332,23 +372,31 @@
     },
     {
       "index": 66,
-      "name": "Unknown14"
+      "name": "Unknown6"
     },
     {
       "index": 67,
-      "name": "Unknown15"
+      "name": "LookupIndex"
     },
     {
       "index": 68,
-      "name": "Unknown16"
+      "name": "Unknown18"
     },
     {
       "index": 69,
-      "name": "Unknown17"
+      "name": "ContentEventItem",
+      "converter": {
+        "type": "link",
+        "target": "ContentEventItem"
+      }
     },
     {
       "index": 70,
-      "name": "Unknown18"
+      "name": "ContentDirectorBattleTalk",
+      "converter": {
+        "type": "link",
+        "target": "ContentDirectorBattleTalk"
+      }
     },
     {
       "index": 71,

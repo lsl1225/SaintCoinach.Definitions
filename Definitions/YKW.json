@@ -2,7 +2,11 @@
   "sheet": "YKW",
   "definitions": [
     {
-      "name": "Transient"
+      "name": "Companion",
+      "converter": {
+        "type": "link",
+        "target": "Companion"
+      }
     },
     {
       "index": 1,
@@ -14,23 +18,55 @@
     },
     {
       "index": 2,
-      "name": "Companion",
+      "name": "Location[0]",
       "converter": {
         "type": "link",
-        "target": "Companion"
+        "target": "TerritoryType"
       }
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "Location",
-        "converter": {
-          "type": "link",
-          "target": "TerritoryType"
-        }
+      "name": "Location[1]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
       }
+    },
+    {
+      "index": 4,
+      "name": "Location[2]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Location[3]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Location[4]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Location[5]",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Transient"
     }
   ]
 }

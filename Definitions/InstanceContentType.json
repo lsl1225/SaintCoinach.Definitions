@@ -2,11 +2,7 @@
   "sheet": "InstanceContentType",
   "definitions": [
     {
-      "name": "StartLogMessage",
-      "converter": {
-        "type": "link",
-        "target": "LogMessage"
-      }
+      "name": "Unknown2"
     },
     {
       "index": 1,
@@ -14,11 +10,15 @@
     },
     {
       "index": 2,
-      "name": "Unknown2"
+      "name": "Unknown3"
     },
     {
       "index": 3,
-      "name": "Unknown3"
+      "name": "StartLogMessage",
+      "converter": {
+        "type": "link",
+        "target": "LogMessage"
+      }
     },
     {
       "index": 4,

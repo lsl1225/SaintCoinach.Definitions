@@ -3,24 +3,36 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "TopImage",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "BottomImage",
       "converter": {
         "type": "icon"
       }
     },
     {
+      "index": 2,
+      "name": "FontColor"
+    },
+    {
       "index": 3,
+      "name": "Unknown2"
+    },
+    {
+      "index": 4,
+      "name": "Unknown1"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
+    },
+    {
+      "index": 6,
       "name": "UnlockCondition",
       "converter": {
         "type": "link",
@@ -28,44 +40,32 @@
       }
     },
     {
-      "index": 4,
+      "index": 7,
       "name": "Unknown_70_1"
     },
     {
-      "index": 5,
+      "index": 8,
       "name": "Unknown_70_2"
     },
     {
-      "index": 6,
+      "index": 9,
       "name": "Unknown4"
     },
     {
-      "index": 7,
-      "name": "Unknown5"
-    },
-    {
-      "index": 8,
-      "name": "FontColor"
-    },
-    {
-      "index": 9,
-      "name": "Unknown2"
-    },
-    {
       "index": 10,
-      "name": "Unknown1"
-    },
-    {
-      "index": 11,
-      "name": "Unknown0"
-    },
-    {
-      "index": 12,
       "name": "Category",
       "converter": {
         "type": "link",
         "target": "CharaCardDesignCategory"
       }
+    },
+    {
+      "index": 11,
+      "name": "Unknown5"
+    },
+    {
+      "index": 12,
+      "name": "Name"
     }
   ]
 }

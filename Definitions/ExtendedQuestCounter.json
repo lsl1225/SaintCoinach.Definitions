@@ -2,11 +2,7 @@
   "sheet": "ExtendedQuestCounter",
   "definitions": [
     {
-      "name": "Quest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
+      "name": "Mode"
     },
     {
       "index": 1,
@@ -14,11 +10,15 @@
     },
     {
       "index": 2,
-      "name": "Mode"
+      "name": "QuestCustomTodoIndex"
     },
     {
       "index": 3,
-      "name": "QuestCustomTodoIndex"
+      "name": "Quest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
     },
     {
       "index": 4,

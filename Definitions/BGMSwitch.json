@@ -2,6 +2,14 @@
   "sheet": "BGMSwitch",
   "definitions": [
     {
+      "name": "BGMSystemDefine",
+      "converter": {
+        "type": "link",
+        "target": "BGMSystemDefine"
+      }
+    },
+    {
+      "index": 1,
       "name": "Quest",
       "converter": {
         "type": "link",
@@ -9,7 +17,11 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
       "name": "BGM",
       "converter": {
         "type": "multiref",
@@ -18,18 +30,6 @@
           "BGMSituation"
         ]
       }
-    },
-    {
-      "index": 2,
-      "name": "BGMSystemDefine",
-      "converter": {
-        "type": "link",
-        "target": "BGMSystemDefine"
-      }
-    },
-    {
-      "index": 3,
-      "name": "Unknown0"
     }
   ]
 }

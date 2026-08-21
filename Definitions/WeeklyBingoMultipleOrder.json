@@ -2,14 +2,42 @@
   "sheet": "WeeklyBingoMultipleOrder",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "name": "Content",
-        "converter": {
-          "type": "link",
-          "target": "InstanceContent"
-        }
+      "name": "Content[0]",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Content[1]",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Content[2]",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Content[3]",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Content[4]",
+      "converter": {
+        "type": "link",
+        "target": "InstanceContent"
       }
     },
     {

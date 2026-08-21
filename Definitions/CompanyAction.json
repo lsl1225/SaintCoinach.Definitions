@@ -11,22 +11,22 @@
     },
     {
       "index": 2,
-      "name": "Cost"
-    },
-    {
-      "index": 3,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 4,
+      "index": 3,
       "name": "FCRank",
       "converter": {
         "type": "link",
         "target": "FCRank"
       }
+    },
+    {
+      "index": 4,
+      "name": "Cost"
     },
     {
       "index": 5,

@@ -2,11 +2,11 @@
   "sheet": "MKDRelicGrowth2Monster",
   "definitions": [
     {
-      "name": "Description"
+      "name": "Unknown1"
     },
     {
       "index": 1,
-      "name": "Unknown1"
+      "name": "Unknown3"
     },
     {
       "index": 2,
@@ -14,7 +14,7 @@
     },
     {
       "index": 3,
-      "name": "Unknown3"
+      "name": "Description"
     }
   ]
 }

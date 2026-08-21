@@ -3,34 +3,26 @@
   "defaultColumn": "Icon",
   "definitions": [
     {
-      "name": "Stats"
+      "name": "Number"
     },
     {
       "index": 1,
-      "name": "Description"
-    },
-    {
-      "index": 2,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
+      "index": 2,
+      "name": "Stats"
+    },
+    {
       "index": 3,
-      "name": "RequiredForQuest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
+      "name": "Description"
     },
     {
       "index": 4,
-      "name": "PreviousQuest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
+      "name": "LocationKey"
     },
     {
       "index": 5,
@@ -57,11 +49,19 @@
     },
     {
       "index": 6,
-      "name": "Number"
+      "name": "RequiredForQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
     },
     {
       "index": 7,
-      "name": "LocationKey"
+      "name": "PreviousQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
     },
     {
       "index": 8,

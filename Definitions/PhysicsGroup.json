@@ -2,39 +2,75 @@
   "sheet": "PhysicsGroup",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "SimulationTime"
-      }
+      "name": "SimulationTime[0]"
+    },
+    {
+      "index": 1,
+      "name": "SimulationTime[1]"
+    },
+    {
+      "index": 2,
+      "name": "SimulationTime[2]"
+    },
+    {
+      "index": 3,
+      "name": "SimulationTime[3]"
+    },
+    {
+      "index": 4,
+      "name": "SimulationTime[4]"
+    },
+    {
+      "index": 5,
+      "name": "SimulationTime[5]"
     },
     {
       "index": 6,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "name": "PS3SimulationTime"
-      }
+      "name": "PS3SimulationTime[0]"
+    },
+    {
+      "index": 7,
+      "name": "PS3SimulationTime[1]"
+    },
+    {
+      "index": 8,
+      "name": "PS3SimulationTime[2]"
+    },
+    {
+      "index": 9,
+      "name": "PS3SimulationTime[3]"
+    },
+    {
+      "index": 10,
+      "name": "PS3SimulationTime[4]"
+    },
+    {
+      "index": 11,
+      "name": "PS3SimulationTime[5]"
     },
     {
       "index": 12,
-      "name": "RootFollowingGame"
+      "name": "ResetByLookAt"
     },
     {
       "index": 13,
-      "name": "RootFollowingCutScene"
+      "name": "RootFollowingGame"
     },
     {
       "index": 14,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "ConfigSwitch"
-      }
+      "name": "RootFollowingCutScene"
+    },
+    {
+      "index": 15,
+      "name": "ConfigSwitch[0]"
+    },
+    {
+      "index": 16,
+      "name": "ConfigSwitch[1]"
     },
     {
       "index": 17,
-      "name": "ResetByLookAt"
+      "name": "ConfigSwitch[2]"
     },
     {
       "index": 18,

@@ -2,42 +2,352 @@
   "sheet": "EventCustomIconType",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "AnnounceQuest",
-            "converter": {
-              "type": "icon"
-            }
-          },
-          {
-            "name": "AnnounceQuestLocked",
-            "converter": {
-              "type": "icon"
-            }
-          },
-          {
-            "name": "MapAnnounceQuest1",
-            "converter": {
-              "type": "icon"
-            }
-          },
-          {
-            "name": "MapAnnounceQuestLocked",
-            "converter": {
-              "type": "icon"
-            }
-          },
-          {
-            "name": "MapAnnounceQuest2",
-            "converter": {
-              "type": "icon"
-            }
-          }
-        ]
+      "name": "AnnounceQuest[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "AnnounceQuest[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "AnnounceQuest[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "AnnounceQuest[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 4,
+      "name": "AnnounceQuest[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "AnnounceQuest[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "AnnounceQuest[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "AnnounceQuest[7]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 8,
+      "name": "AnnounceQuest[8]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 9,
+      "name": "AnnounceQuest[9]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 10,
+      "name": "AnnounceQuestLocked[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 11,
+      "name": "AnnounceQuestLocked[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 12,
+      "name": "AnnounceQuestLocked[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 13,
+      "name": "AnnounceQuestLocked[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 14,
+      "name": "AnnounceQuestLocked[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 15,
+      "name": "AnnounceQuestLocked[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 16,
+      "name": "AnnounceQuestLocked[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 17,
+      "name": "AnnounceQuestLocked[7]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 18,
+      "name": "AnnounceQuestLocked[8]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 19,
+      "name": "AnnounceQuestLocked[9]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 20,
+      "name": "MapAnnounceQuest1[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 21,
+      "name": "MapAnnounceQuest1[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 22,
+      "name": "MapAnnounceQuest1[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 23,
+      "name": "MapAnnounceQuest1[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 24,
+      "name": "MapAnnounceQuest1[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 25,
+      "name": "MapAnnounceQuest1[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 26,
+      "name": "MapAnnounceQuest1[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 27,
+      "name": "MapAnnounceQuest1[7]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 28,
+      "name": "MapAnnounceQuest1[8]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 29,
+      "name": "MapAnnounceQuest1[9]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 30,
+      "name": "MapAnnounceQuestLocked[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 31,
+      "name": "MapAnnounceQuestLocked[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 32,
+      "name": "MapAnnounceQuestLocked[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 33,
+      "name": "MapAnnounceQuestLocked[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 34,
+      "name": "MapAnnounceQuestLocked[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 35,
+      "name": "MapAnnounceQuestLocked[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 36,
+      "name": "MapAnnounceQuestLocked[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 37,
+      "name": "MapAnnounceQuestLocked[7]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 38,
+      "name": "MapAnnounceQuestLocked[8]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 39,
+      "name": "MapAnnounceQuestLocked[9]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 40,
+      "name": "MapAnnounceQuest2[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 41,
+      "name": "MapAnnounceQuest2[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 42,
+      "name": "MapAnnounceQuest2[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 43,
+      "name": "MapAnnounceQuest2[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 44,
+      "name": "MapAnnounceQuest2[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 45,
+      "name": "MapAnnounceQuest2[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 46,
+      "name": "MapAnnounceQuest2[6]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 47,
+      "name": "MapAnnounceQuest2[7]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 48,
+      "name": "MapAnnounceQuest2[8]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 49,
+      "name": "MapAnnounceQuest2[9]",
+      "converter": {
+        "type": "icon"
       }
     },
     {

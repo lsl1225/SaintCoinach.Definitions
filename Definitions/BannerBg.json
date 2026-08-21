@@ -3,20 +3,24 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "Image",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "Icon",
       "converter": {
         "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "CharaCardDesignCategory"
       }
     },
     {
@@ -45,11 +49,7 @@
     },
     {
       "index": 8,
-      "name": "Category",
-      "converter": {
-        "type": "link",
-        "target": "CharaCardDesignCategory"
-      }
+      "name": "Name"
     }
   ]
 }

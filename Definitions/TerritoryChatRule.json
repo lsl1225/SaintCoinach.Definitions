@@ -2,35 +2,35 @@
   "sheet": "TerritoryChatRule",
   "definitions": [
     {
-      "name": "Public"
+      "name": "Unknown7"
     },
     {
       "index": 1,
-      "name": "Shout"
+      "name": "Public"
     },
     {
       "index": 2,
-      "name": "DutyTell"
+      "name": "Shout"
     },
     {
       "index": 3,
-      "name": "PublicTell"
+      "name": "DutyTell"
     },
     {
       "index": 4,
-      "name": "Party"
+      "name": "PublicTell"
     },
     {
       "index": 5,
-      "name": "Global"
+      "name": "Party"
     },
     {
       "index": 6,
-      "name": "Pvp"
+      "name": "Global"
     },
     {
       "index": 7,
-      "name": "Unknown7"
+      "name": "Pvp"
     }
   ]
 }

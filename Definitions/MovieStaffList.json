@@ -2,18 +2,18 @@
   "sheet": "MovieStaffList",
   "definitions": [
     {
-      "name": "StartTime"
-    },
-    {
-      "index": 1,
-      "name": "EndTime"
-    },
-    {
-      "index": 2,
       "name": "Image",
       "converter": {
         "type": "icon"
       }
+    },
+    {
+      "index": 1,
+      "name": "StartTime"
+    },
+    {
+      "index": 2,
+      "name": "EndTime"
     },
     {
       "index": 3,

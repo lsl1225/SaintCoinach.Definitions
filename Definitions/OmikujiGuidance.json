@@ -2,15 +2,15 @@
   "sheet": "OmikujiGuidance",
   "definitions": [
     {
-      "name": "Type"
+      "name": "Unknown2"
     },
     {
       "index": 1,
-      "name": "Outcome"
+      "name": "Type"
     },
     {
       "index": 2,
-      "name": "Unknown2"
+      "name": "Outcome"
     }
   ]
 }

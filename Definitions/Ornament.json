@@ -3,65 +3,10 @@
   "defaultColumn": "Singular",
   "definitions": [
     {
-      "name": "Singular"
-    },
-    {
-      "index": 1,
-      "name": "Plural"
-    },
-    {
-      "index": 2,
-      "name": "Adjective"
-    },
-    {
-      "index": 3,
-      "name": "PossessivePronoun"
-    },
-    {
-      "index": 4,
-      "name": "StartsWithVowel"
-    },
-    {
-      "index": 5,
-      "name": "Countability"
-    },
-    {
-      "index": 6,
-      "name": "Pronoun"
-    },
-    {
-      "index": 7,
-      "name": "Article"
-    },
-    {
-      "index": 8,
       "name": "Model"
     },
     {
-      "index": 9,
-      "name": "Action",
-      "converter": {
-        "type": "link",
-        "target": "OrnamentAction"
-      }
-    },
-    {
-      "index": 10,
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 11,
-      "name": "Transient"
-    },
-    {
-      "index": 12,
-      "name": "Order"
-    },
-    {
-      "index": 13,
+      "index": 1,
       "name": "CustomizeGroup",
       "converter": {
         "type": "link",
@@ -69,12 +14,67 @@
       }
     },
     {
-      "index": 14,
+      "index": 2,
       "name": "Unknown3"
     },
     {
-      "index": 15,
+      "index": 3,
       "name": "Unknown4"
+    },
+    {
+      "index": 4,
+      "name": "Action",
+      "converter": {
+        "type": "link",
+        "target": "OrnamentAction"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Order"
+    },
+    {
+      "index": 6,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Transient"
+    },
+    {
+      "index": 8,
+      "name": "Singular"
+    },
+    {
+      "index": 9,
+      "name": "Adjective"
+    },
+    {
+      "index": 10,
+      "name": "Plural"
+    },
+    {
+      "index": 11,
+      "name": "PossessivePronoun"
+    },
+    {
+      "index": 12,
+      "name": "StartsWithVowel"
+    },
+    {
+      "index": 13,
+      "name": "Countability"
+    },
+    {
+      "index": 14,
+      "name": "Pronoun"
+    },
+    {
+      "index": 15,
+      "name": "Article"
     }
   ]
 }

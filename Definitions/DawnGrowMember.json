@@ -3,24 +3,58 @@
   "defaultColumn": "Class",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "SelectImage",
-        "converter": {
-          "type": "icon"
-        }
+      "name": "SelectImage[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SelectImage[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SelectImage[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "SelectImage[3]",
+      "converter": {
+        "type": "icon"
       }
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "PortraitImage",
-        "converter": {
-          "type": "icon"
-        }
+      "name": "PortraitImage[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 5,
+      "name": "PortraitImage[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 6,
+      "name": "PortraitImage[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 7,
+      "name": "PortraitImage[3]",
+      "converter": {
+        "type": "icon"
       }
     },
     {

@@ -3,11 +3,11 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "SortKey"
     },
     {
       "index": 1,
-      "name": "SortKey"
+      "name": "Name"
     }
   ]
 }

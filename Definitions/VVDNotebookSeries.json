@@ -7,14 +7,106 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 13,
-      "definition": {
-        "name": "Contents",
-        "converter": {
-          "type": "link",
-          "target": "VVDNotebookContents"
-        }
+      "name": "Contents[0]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Contents[1]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Contents[2]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Contents[3]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Contents[4]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Contents[5]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Contents[6]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Contents[7]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Contents[8]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Contents[9]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Contents[10]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Contents[11]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Contents[12]",
+      "converter": {
+        "type": "link",
+        "target": "VVDNotebookContents"
       }
     }
   ]

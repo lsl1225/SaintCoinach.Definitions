@@ -2,14 +2,66 @@
   "sheet": "GuildleveAssignmentCategory",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Category",
-        "converter": {
-          "type": "link",
-          "target": "LeveAssignmentType"
-        }
+      "name": "Category[0]",
+      "converter": {
+        "type": "link",
+        "target": "LeveAssignmentType"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Category[1]",
+      "converter": {
+        "type": "link",
+        "target": "LeveAssignmentType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Category[2]",
+      "converter": {
+        "type": "link",
+        "target": "LeveAssignmentType"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Category[3]",
+      "converter": {
+        "type": "link",
+        "target": "LeveAssignmentType"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Category[4]",
+      "converter": {
+        "type": "link",
+        "target": "LeveAssignmentType"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Category[5]",
+      "converter": {
+        "type": "link",
+        "target": "LeveAssignmentType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Category[6]",
+      "converter": {
+        "type": "link",
+        "target": "LeveAssignmentType"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Category[7]",
+      "converter": {
+        "type": "link",
+        "target": "LeveAssignmentType"
       }
     }
   ]

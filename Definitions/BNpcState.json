@@ -2,23 +2,23 @@
   "sheet": "BNpcState",
   "definitions": [
     {
-      "name": "Scale"
-    },
-    {
-      "index": 1,
-      "name": "LoopTimeline"
-    },
-    {
-      "index": 2,
-      "name": "Idle"
-    },
-    {
-      "index": 3,
       "name": "Slot"
     },
     {
-      "index": 4,
+      "index": 1,
+      "name": "AnimationStates[0]"
+    },
+    {
+      "index": 2,
+      "name": "AnimationStates[1]"
+    },
+    {
+      "index": 3,
       "name": "ModelState"
+    },
+    {
+      "index": 4,
+      "name": "Idle"
     },
     {
       "index": 5,
@@ -26,14 +26,30 @@
     },
     {
       "index": 6,
-      "name": "Attribute1"
+      "name": "AttributeFlag0"
     },
     {
       "index": 7,
-      "name": "Attribute2"
+      "name": "Attribute1"
     },
     {
       "index": 8,
+      "name": "AttributeFlag1"
+    },
+    {
+      "index": 9,
+      "name": "Attribute2"
+    },
+    {
+      "index": 10,
+      "name": "AttributeFlag2"
+    },
+    {
+      "index": 11,
+      "name": "Scale"
+    },
+    {
+      "index": 12,
       "name": "ModelScale",
       "converter": {
         "type": "link",
@@ -41,24 +57,8 @@
       }
     },
     {
-      "index": 9,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "AnimationStates"
-      }
-    },
-    {
-      "index": 11,
-      "name": "AttributeFlag0"
-    },
-    {
-      "index": 12,
-      "name": "AttributeFlag1"
-    },
-    {
       "index": 13,
-      "name": "AttributeFlag2"
+      "name": "LoopTimeline"
     },
     {
       "index": 14,

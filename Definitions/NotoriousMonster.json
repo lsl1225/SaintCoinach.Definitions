@@ -3,14 +3,6 @@
   "defaultColumn": "BNpcName",
   "definitions": [
     {
-      "name": "BNpcName",
-      "converter": {
-        "type": "link",
-        "target": "BNpcName"
-      }
-    },
-    {
-      "index": 1,
       "name": "BNpcBase",
       "converter": {
         "type": "link",
@@ -18,12 +10,20 @@
       }
     },
     {
+      "index": 1,
+      "name": "Rank"
+    },
+    {
       "index": 2,
-      "name": "Unknown0"
+      "name": "BNpcName",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
     },
     {
       "index": 3,
-      "name": "Rank"
+      "name": "Unknown0"
     }
   ]
 }

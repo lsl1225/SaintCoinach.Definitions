@@ -3,10 +3,6 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
       "name": "BasePlate",
       "converter": {
         "type": "link",
@@ -14,51 +10,7 @@
       }
     },
     {
-      "index": 2,
-      "name": "Backing",
-      "converter": {
-        "type": "link",
-        "target": "CharaCardDecoration"
-      }
-    },
-    {
-      "index": 3,
-      "name": "PatternOverlay",
-      "converter": {
-        "type": "link",
-        "target": "CharaCardDecoration"
-      }
-    },
-    {
-      "index": 4,
-      "name": "PortraitFrame",
-      "converter": {
-        "type": "link",
-        "target": "CharaCardDecoration"
-      }
-    },
-    {
-      "index": 5,
-      "name": "PlateFrame",
-      "converter": {
-        "type": "link",
-        "target": "CharaCardDecoration"
-      }
-    },
-    {
-      "index": 6,
-      "name": "Accent",
-      "converter": {
-        "type": "link",
-        "target": "CharaCardDecoration"
-      }
-    },
-    {
-      "index": 7,
-      "name": "SortKey"
-    },
-    {
-      "index": 8,
+      "index": 1,
       "name": "TopBorder",
       "converter": {
         "type": "link",
@@ -66,12 +18,60 @@
       }
     },
     {
-      "index": 9,
+      "index": 2,
       "name": "BottomBorder",
       "converter": {
         "type": "link",
         "target": "CharaCardHeader"
       }
+    },
+    {
+      "index": 3,
+      "name": "Backing",
+      "converter": {
+        "type": "link",
+        "target": "CharaCardDecoration"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PatternOverlay",
+      "converter": {
+        "type": "link",
+        "target": "CharaCardDecoration"
+      }
+    },
+    {
+      "index": 5,
+      "name": "PortraitFrame",
+      "converter": {
+        "type": "link",
+        "target": "CharaCardDecoration"
+      }
+    },
+    {
+      "index": 6,
+      "name": "PlateFrame",
+      "converter": {
+        "type": "link",
+        "target": "CharaCardDecoration"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Accent",
+      "converter": {
+        "type": "link",
+        "target": "CharaCardDecoration"
+      }
+    },
+    {
+      "index": 8,
+      "name": "SortKey"
+    },
+    {
+      "index": 9,
+      "name": "Name"
     }
   ]
 }

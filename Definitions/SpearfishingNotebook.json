@@ -3,6 +3,14 @@
   "defaultColumn": "PlaceName",
   "definitions": [
     {
+      "name": "GatheringLevel"
+    },
+    {
+      "index": 1,
+      "name": "IsShadowNode"
+    },
+    {
+      "index": 2,
       "name": "TerritoryType",
       "converter": {
         "type": "link",
@@ -10,11 +18,23 @@
       }
     },
     {
-      "index": 1,
+      "index": 3,
+      "name": "X"
+    },
+    {
+      "index": 4,
+      "name": "Y"
+    },
+    {
+      "index": 5,
       "name": "Radius"
     },
     {
-      "index": 2,
+      "index": 6,
+      "name": "Unknown2"
+    },
+    {
+      "index": 7,
       "name": "PlaceName",
       "converter": {
         "type": "link",
@@ -22,7 +42,11 @@
       }
     },
     {
-      "index": 3,
+      "index": 8,
+      "name": "Unknown3"
+    },
+    {
+      "index": 9,
       "name": "GatheringPointBase",
       "converter": {
         "type": "link",
@@ -30,36 +54,12 @@
       }
     },
     {
-      "index": 4,
+      "index": 10,
       "name": "Unknown0"
     },
     {
-      "index": 5,
-      "name": "Unknown1"
-    },
-    {
-      "index": 6,
-      "name": "X"
-    },
-    {
-      "index": 7,
-      "name": "Y"
-    },
-    {
-      "index": 8,
-      "name": "GatheringLevel"
-    },
-    {
-      "index": 9,
-      "name": "Unknown2"
-    },
-    {
-      "index": 10,
-      "name": "Unknown3"
-    },
-    {
       "index": 11,
-      "name": "IsShadowNode"
+      "name": "Unknown1"
     }
   ]
 }

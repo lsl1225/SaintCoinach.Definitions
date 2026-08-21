@@ -11,10 +11,10 @@
     },
     {
       "index": 1,
-      "name": "RequiredQuest",
+      "name": "CollectablesShopItemGroup",
       "converter": {
         "type": "link",
-        "target": "Quest"
+        "target": "CollectablesShopItemGroup"
       }
     },
     {
@@ -23,10 +23,26 @@
     },
     {
       "index": 3,
-      "name": "LevelMax"
+      "name": "RequiredQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
     },
     {
       "index": 4,
+      "name": "LevelMax"
+    },
+    {
+      "index": 5,
+      "name": "Stars"
+    },
+    {
+      "index": 6,
+      "name": "Key"
+    },
+    {
+      "index": 7,
       "name": "CollectablesShopRefine",
       "converter": {
         "type": "link",
@@ -34,28 +50,12 @@
       }
     },
     {
-      "index": 5,
+      "index": 8,
       "name": "CollectablesShopRewardScrip",
       "converter": {
         "type": "link",
         "target": "CollectablesShopRewardScrip"
       }
-    },
-    {
-      "index": 6,
-      "name": "CollectablesShopItemGroup",
-      "converter": {
-        "type": "link",
-        "target": "CollectablesShopItemGroup"
-      }
-    },
-    {
-      "index": 7,
-      "name": "Stars"
-    },
-    {
-      "index": 8,
-      "name": "Key"
     }
   ]
 }

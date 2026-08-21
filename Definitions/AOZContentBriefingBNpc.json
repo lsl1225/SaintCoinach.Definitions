@@ -25,51 +25,51 @@
     },
     {
       "index": 3,
-      "name": "Endurance"
+      "name": "HideStats"
     },
     {
       "index": 4,
-      "name": "Fire"
+      "name": "Endurance"
     },
     {
       "index": 5,
-      "name": "Ice"
+      "name": "Fire"
     },
     {
       "index": 6,
-      "name": "Wind"
+      "name": "Ice"
     },
     {
       "index": 7,
-      "name": "Earth"
+      "name": "Wind"
     },
     {
       "index": 8,
-      "name": "Thunder"
+      "name": "Earth"
     },
     {
       "index": 9,
-      "name": "Water"
+      "name": "Thunder"
     },
     {
       "index": 10,
-      "name": "Slashing"
+      "name": "Water"
     },
     {
       "index": 11,
-      "name": "Piercing"
+      "name": "Slashing"
     },
     {
       "index": 12,
-      "name": "Blunt"
+      "name": "Piercing"
     },
     {
       "index": 13,
-      "name": "Magic"
+      "name": "Blunt"
     },
     {
       "index": 14,
-      "name": "HideStats"
+      "name": "Magic"
     },
     {
       "index": 15,

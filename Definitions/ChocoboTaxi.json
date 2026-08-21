@@ -11,15 +11,15 @@
     },
     {
       "index": 1,
-      "name": "Fare"
+      "name": "TimeRequired"
     },
     {
       "index": 2,
-      "name": "Unknown0"
+      "name": "Fare"
     },
     {
       "index": 3,
-      "name": "TimeRequired"
+      "name": "Unknown0"
     },
     {
       "index": 4,

@@ -7,11 +7,11 @@
     },
     {
       "index": 1,
-      "name": "Plural"
+      "name": "Adjective"
     },
     {
       "index": 2,
-      "name": "Adjective"
+      "name": "Plural"
     },
     {
       "index": 3,
@@ -43,15 +43,15 @@
     },
     {
       "index": 9,
-      "name": "Unknown_70"
-    },
-    {
-      "index": 10,
       "name": "Unknown8"
     },
     {
-      "index": 11,
+      "index": 10,
       "name": "Unknown9"
+    },
+    {
+      "index": 11,
+      "name": "Unknown_70"
     }
   ]
 }

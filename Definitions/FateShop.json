@@ -2,26 +2,98 @@
   "sheet": "FateShop",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "SpecialShop",
-        "converter": {
-          "type": "link",
-          "target": "SpecialShop"
-        }
+      "name": "SpecialShop[0]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShop"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SpecialShop[1]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShop"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SpecialShop[2]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShop"
       }
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "name": "DefaultTalk",
-        "converter": {
-          "type": "link",
-          "target": "DefaultTalk"
-        }
+      "name": "DefaultTalk[0]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 4,
+      "name": "DefaultTalk[1]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 5,
+      "name": "DefaultTalk[2]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 6,
+      "name": "DefaultTalk[3]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 7,
+      "name": "DefaultTalk[4]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 8,
+      "name": "DefaultTalk[5]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 9,
+      "name": "DefaultTalk[6]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 10,
+      "name": "DefaultTalk[7]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
+      }
+    },
+    {
+      "index": 11,
+      "name": "DefaultTalk[8]",
+      "converter": {
+        "type": "link",
+        "target": "DefaultTalk"
       }
     }
   ]

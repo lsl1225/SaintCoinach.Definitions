@@ -3,14 +3,14 @@
   "defaultColumn": "Text",
   "definitions": [
     {
-      "name": "Text"
-    },
-    {
-      "index": 1,
       "name": "Backdrop",
       "converter": {
         "type": "icon"
       }
+    },
+    {
+      "index": 1,
+      "name": "Text"
     }
   ]
 }

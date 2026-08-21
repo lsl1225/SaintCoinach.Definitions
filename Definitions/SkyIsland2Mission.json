@@ -3,26 +3,6 @@
   "defaultColumn": "Item1",
   "definitions": [
     {
-      "name": "Unknown0"
-    },
-    {
-      "index": 1,
-      "name": "Unknown1"
-    },
-    {
-      "index": 2,
-      "name": "Unknown2"
-    },
-    {
-      "index": 3,
-      "name": "Unknown3"
-    },
-    {
-      "index": 4,
-      "name": "Unknown4"
-    },
-    {
-      "index": 5,
       "name": "Item1",
       "converter": {
         "type": "link",
@@ -30,7 +10,7 @@
       }
     },
     {
-      "index": 6,
+      "index": 1,
       "name": "Item2",
       "converter": {
         "type": "link",
@@ -38,42 +18,7 @@
       }
     },
     {
-      "index": 7,
-      "name": "PopRange0"
-    },
-    {
-      "index": 8,
-      "name": "PopRange1"
-    },
-    {
-      "index": 9,
-      "name": "PopRange2"
-    },
-    {
-      "index": 10,
-      "name": "Unknown5"
-    },
-    {
-      "index": 11,
-      "name": "Unknown6"
-    },
-    {
-      "index": 12,
-      "name": "Unknown7"
-    },
-    {
-      "index": 13,
-      "name": "Unknown8"
-    },
-    {
-      "index": 14,
-      "name": "Image",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 15,
+      "index": 2,
       "name": "PlaceName",
       "converter": {
         "type": "link",
@@ -81,11 +26,11 @@
       }
     },
     {
-      "index": 16,
+      "index": 3,
       "name": "Unknown9"
     },
     {
-      "index": 17,
+      "index": 4,
       "name": "Objective1",
       "converter": {
         "type": "link",
@@ -93,7 +38,23 @@
       }
     },
     {
-      "index": 18,
+      "index": 5,
+      "name": "PopRange0"
+    },
+    {
+      "index": 6,
+      "name": "RequiredAmount1"
+    },
+    {
+      "index": 7,
+      "name": "Unknown5"
+    },
+    {
+      "index": 8,
+      "name": "Unknown11"
+    },
+    {
+      "index": 9,
       "name": "Objective2",
       "converter": {
         "type": "link",
@@ -101,7 +62,23 @@
       }
     },
     {
-      "index": 19,
+      "index": 10,
+      "name": "PopRange1"
+    },
+    {
+      "index": 11,
+      "name": "RequiredAmount2"
+    },
+    {
+      "index": 12,
+      "name": "Unknown6"
+    },
+    {
+      "index": 13,
+      "name": "Unknown12"
+    },
+    {
+      "index": 14,
       "name": "Objective3",
       "converter": {
         "type": "link",
@@ -109,28 +86,51 @@
       }
     },
     {
-      "index": 20,
-      "name": "RequiredAmount1"
+      "index": 15,
+      "name": "PopRange2"
     },
     {
-      "index": 21,
-      "name": "RequiredAmount2"
-    },
-    {
-      "index": 22,
+      "index": 16,
       "name": "Unknown10"
     },
     {
+      "index": 17,
+      "name": "Unknown7"
+    },
+    {
+      "index": 18,
+      "name": "Unknown13"
+    },
+    {
+      "index": 19,
+      "name": "Unknown8"
+    },
+    {
+      "index": 20,
+      "name": "Image",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Unknown0"
+    },
+    {
+      "index": 22,
+      "name": "Unknown1"
+    },
+    {
       "index": 23,
-      "name": "Unknown11"
+      "name": "Unknown2"
     },
     {
       "index": 24,
-      "name": "Unknown12"
+      "name": "Unknown3"
     },
     {
       "index": 25,
-      "name": "Unknown13"
+      "name": "Unknown4"
     }
   ]
 }

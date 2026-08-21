@@ -18,15 +18,15 @@
     },
     {
       "index": 3,
-      "name": "Value"
-    },
-    {
-      "index": 4,
       "name": "ChocoboRaceAbilityType",
       "converter": {
         "type": "link",
         "target": "ChocoboRaceAbilityType"
       }
+    },
+    {
+      "index": 4,
+      "name": "Value"
     }
   ]
 }

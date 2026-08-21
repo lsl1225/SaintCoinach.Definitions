@@ -2,31 +2,147 @@
   "sheet": "LeveRewardItemGroup",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "name": "Item",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
+    },
+    {
+      "index": 1,
+      "name": "Count[0]"
+    },
+    {
+      "index": 2,
+      "name": "IsHQ[0]"
+    },
+    {
+      "index": 3,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Count[1]"
+    },
+    {
+      "index": 5,
+      "name": "IsHQ[1]"
+    },
+    {
+      "index": 6,
+      "name": "Item[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Count[2]"
+    },
+    {
+      "index": 8,
+      "name": "IsHQ[2]"
     },
     {
       "index": 9,
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "name": "Count"
+      "name": "Item[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
-      "index": 18,
-      "type": "repeat",
-      "count": 9,
-      "definition": {
-        "name": "IsHQ"
+      "index": 10,
+      "name": "Count[3]"
+    },
+    {
+      "index": 11,
+      "name": "IsHQ[3]"
+    },
+    {
+      "index": 12,
+      "name": "Item[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
+    },
+    {
+      "index": 13,
+      "name": "Count[4]"
+    },
+    {
+      "index": 14,
+      "name": "IsHQ[4]"
+    },
+    {
+      "index": 15,
+      "name": "Item[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Count[5]"
+    },
+    {
+      "index": 17,
+      "name": "IsHQ[5]"
+    },
+    {
+      "index": 18,
+      "name": "Item[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Count[6]"
+    },
+    {
+      "index": 20,
+      "name": "IsHQ[6]"
+    },
+    {
+      "index": 21,
+      "name": "Item[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Count[7]"
+    },
+    {
+      "index": 23,
+      "name": "IsHQ[7]"
+    },
+    {
+      "index": 24,
+      "name": "Item[8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Count[8]"
+    },
+    {
+      "index": 26,
+      "name": "IsHQ[8]"
     }
   ]
 }

@@ -3,18 +3,18 @@
   "defaultColumn": "Message",
   "definitions": [
     {
-      "name": "Message"
+      "name": "Unknown23"
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "name": "ChoicesText"
-      }
+      "name": "Unknown24"
     },
     {
-      "index": 11,
+      "index": 2,
+      "name": "Unknown26"
+    },
+    {
+      "index": 3,
       "name": "NextTalk",
       "converter": {
         "type": "link",
@@ -22,7 +22,11 @@
       }
     },
     {
-      "index": 12,
+      "index": 4,
+      "name": "Unknown25"
+    },
+    {
+      "index": 5,
       "name": "ActionTimeline",
       "converter": {
         "type": "link",
@@ -30,36 +34,132 @@
       }
     },
     {
-      "index": 13,
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "name": "ChoicesTalk",
-        "converter": {
-          "type": "link",
-          "target": "GoldSaucerTalk"
-        }
+      "index": 6,
+      "name": "Unknown27"
+    },
+    {
+      "index": 7,
+      "name": "ChoicesTalk[0]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
       }
     },
     {
+      "index": 8,
+      "name": "ChoicesTalk[1]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ChoicesTalk[2]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 10,
+      "name": "ChoicesTalk[3]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ChoicesTalk[4]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 12,
+      "name": "ChoicesTalk[5]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 13,
+      "name": "ChoicesTalk[6]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 14,
+      "name": "ChoicesTalk[7]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ChoicesTalk[8]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 16,
+      "name": "ChoicesTalk[9]",
+      "converter": {
+        "type": "link",
+        "target": "GoldSaucerTalk"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Message"
+    },
+    {
+      "index": 18,
+      "name": "ChoicesText[0]"
+    },
+    {
+      "index": 19,
+      "name": "ChoicesText[1]"
+    },
+    {
+      "index": 20,
+      "name": "ChoicesText[2]"
+    },
+    {
+      "index": 21,
+      "name": "ChoicesText[3]"
+    },
+    {
+      "index": 22,
+      "name": "ChoicesText[4]"
+    },
+    {
       "index": 23,
-      "name": "Unknown23"
+      "name": "ChoicesText[5]"
     },
     {
       "index": 24,
-      "name": "Unknown24"
+      "name": "ChoicesText[6]"
     },
     {
       "index": 25,
-      "name": "Unknown25"
+      "name": "ChoicesText[7]"
     },
     {
       "index": 26,
-      "name": "Unknown26"
+      "name": "ChoicesText[8]"
     },
     {
       "index": 27,
-      "name": "Unknown27"
+      "name": "ChoicesText[9]"
     }
   ]
 }

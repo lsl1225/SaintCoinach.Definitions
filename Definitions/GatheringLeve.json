@@ -2,30 +2,90 @@
   "sheet": "GatheringLeve",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Route",
-        "converter": {
-          "type": "link",
-          "target": "GatheringLeveRoute"
-        }
+      "name": "Route[0]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringLeveRoute"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Route[1]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringLeveRoute"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Route[2]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringLeveRoute"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Route[3]",
+      "converter": {
+        "type": "link",
+        "target": "GatheringLeveRoute"
       }
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredItem",
-        "converter": {
-          "type": "link",
-          "target": "EventItem"
-        }
+      "name": "RequiredItem[0]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
       }
     },
     {
+      "index": 5,
+      "name": "RequiredItemQuantity[0]"
+    },
+    {
+      "index": 6,
+      "name": "RequiredItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 7,
+      "name": "RequiredItemQuantity[1]"
+    },
+    {
       "index": 8,
+      "name": "RequiredItem[2]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 9,
+      "name": "RequiredItemQuantity[2]"
+    },
+    {
+      "index": 10,
+      "name": "RequiredItem[3]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 11,
+      "name": "RequiredItemQuantity[3]"
+    },
+    {
+      "index": 12,
+      "name": "ItemNumber"
+    },
+    {
+      "index": 13,
       "name": "Rule",
       "converter": {
         "type": "link",
@@ -33,36 +93,24 @@
       }
     },
     {
-      "index": 9,
+      "index": 14,
+      "name": "Varient"
+    },
+    {
+      "index": 15,
+      "name": "Objective[0]"
+    },
+    {
+      "index": 16,
+      "name": "Objective[1]"
+    },
+    {
+      "index": 17,
       "name": "BNpcEntry",
       "converter": {
         "type": "link",
         "target": "GatheringLeveBNpcEntry"
       }
-    },
-    {
-      "index": 10,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Objective"
-      }
-    },
-    {
-      "index": 12,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredItemQuantity"
-      }
-    },
-    {
-      "index": 16,
-      "name": "ItemNumber"
-    },
-    {
-      "index": 17,
-      "name": "Varient"
     },
     {
       "index": 18,

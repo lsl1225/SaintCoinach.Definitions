@@ -22,6 +22,10 @@
     },
     {
       "index": 5,
+      "name": "Type"
+    },
+    {
+      "index": 6,
       "name": "Object",
       "converter": {
         "type": "complexlink",
@@ -65,7 +69,15 @@
       }
     },
     {
-      "index": 6,
+      "index": 7,
+      "name": "Map",
+      "converter": {
+        "type": "link",
+        "target": "Map"
+      }
+    },
+    {
+      "index": 8,
       "name": "EventId",
       "converter": {
         "type": "multiref",
@@ -78,24 +90,12 @@
       }
     },
     {
-      "index": 7,
-      "name": "Map",
-      "converter": {
-        "type": "link",
-        "target": "Map"
-      }
-    },
-    {
-      "index": 8,
+      "index": 9,
       "name": "Territory",
       "converter": {
         "type": "link",
         "target": "TerritoryType"
       }
-    },
-    {
-      "index": 9,
-      "name": "Type"
     }
   ]
 }

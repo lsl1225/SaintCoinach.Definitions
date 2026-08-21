@@ -2,19 +2,259 @@
   "sheet": "Calendar",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 32,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Month"
-          },
-          {
-            "name": "Day"
-          }
-        ]
-      }
+      "name": "Month[0]"
+    },
+    {
+      "index": 1,
+      "name": "Month[1]"
+    },
+    {
+      "index": 2,
+      "name": "Month[2]"
+    },
+    {
+      "index": 3,
+      "name": "Month[3]"
+    },
+    {
+      "index": 4,
+      "name": "Month[4]"
+    },
+    {
+      "index": 5,
+      "name": "Month[5]"
+    },
+    {
+      "index": 6,
+      "name": "Month[6]"
+    },
+    {
+      "index": 7,
+      "name": "Month[7]"
+    },
+    {
+      "index": 8,
+      "name": "Month[8]"
+    },
+    {
+      "index": 9,
+      "name": "Month[9]"
+    },
+    {
+      "index": 10,
+      "name": "Month[10]"
+    },
+    {
+      "index": 11,
+      "name": "Month[11]"
+    },
+    {
+      "index": 12,
+      "name": "Month[12]"
+    },
+    {
+      "index": 13,
+      "name": "Month[13]"
+    },
+    {
+      "index": 14,
+      "name": "Month[14]"
+    },
+    {
+      "index": 15,
+      "name": "Month[15]"
+    },
+    {
+      "index": 16,
+      "name": "Month[16]"
+    },
+    {
+      "index": 17,
+      "name": "Month[17]"
+    },
+    {
+      "index": 18,
+      "name": "Month[18]"
+    },
+    {
+      "index": 19,
+      "name": "Month[19]"
+    },
+    {
+      "index": 20,
+      "name": "Month[20]"
+    },
+    {
+      "index": 21,
+      "name": "Month[21]"
+    },
+    {
+      "index": 22,
+      "name": "Month[22]"
+    },
+    {
+      "index": 23,
+      "name": "Month[23]"
+    },
+    {
+      "index": 24,
+      "name": "Month[24]"
+    },
+    {
+      "index": 25,
+      "name": "Month[25]"
+    },
+    {
+      "index": 26,
+      "name": "Month[26]"
+    },
+    {
+      "index": 27,
+      "name": "Month[27]"
+    },
+    {
+      "index": 28,
+      "name": "Month[28]"
+    },
+    {
+      "index": 29,
+      "name": "Month[29]"
+    },
+    {
+      "index": 30,
+      "name": "Month[30]"
+    },
+    {
+      "index": 31,
+      "name": "Month[31]"
+    },
+    {
+      "index": 32,
+      "name": "Day[0]"
+    },
+    {
+      "index": 33,
+      "name": "Day[1]"
+    },
+    {
+      "index": 34,
+      "name": "Day[2]"
+    },
+    {
+      "index": 35,
+      "name": "Day[3]"
+    },
+    {
+      "index": 36,
+      "name": "Day[4]"
+    },
+    {
+      "index": 37,
+      "name": "Day[5]"
+    },
+    {
+      "index": 38,
+      "name": "Day[6]"
+    },
+    {
+      "index": 39,
+      "name": "Day[7]"
+    },
+    {
+      "index": 40,
+      "name": "Day[8]"
+    },
+    {
+      "index": 41,
+      "name": "Day[9]"
+    },
+    {
+      "index": 42,
+      "name": "Day[10]"
+    },
+    {
+      "index": 43,
+      "name": "Day[11]"
+    },
+    {
+      "index": 44,
+      "name": "Day[12]"
+    },
+    {
+      "index": 45,
+      "name": "Day[13]"
+    },
+    {
+      "index": 46,
+      "name": "Day[14]"
+    },
+    {
+      "index": 47,
+      "name": "Day[15]"
+    },
+    {
+      "index": 48,
+      "name": "Day[16]"
+    },
+    {
+      "index": 49,
+      "name": "Day[17]"
+    },
+    {
+      "index": 50,
+      "name": "Day[18]"
+    },
+    {
+      "index": 51,
+      "name": "Day[19]"
+    },
+    {
+      "index": 52,
+      "name": "Day[20]"
+    },
+    {
+      "index": 53,
+      "name": "Day[21]"
+    },
+    {
+      "index": 54,
+      "name": "Day[22]"
+    },
+    {
+      "index": 55,
+      "name": "Day[23]"
+    },
+    {
+      "index": 56,
+      "name": "Day[24]"
+    },
+    {
+      "index": 57,
+      "name": "Day[25]"
+    },
+    {
+      "index": 58,
+      "name": "Day[26]"
+    },
+    {
+      "index": 59,
+      "name": "Day[27]"
+    },
+    {
+      "index": 60,
+      "name": "Day[28]"
+    },
+    {
+      "index": 61,
+      "name": "Day[29]"
+    },
+    {
+      "index": 62,
+      "name": "Day[30]"
+    },
+    {
+      "index": 63,
+      "name": "Day[31]"
     }
   ]
 }

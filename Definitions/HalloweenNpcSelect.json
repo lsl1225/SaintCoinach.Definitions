@@ -2,29 +2,6 @@
   "sheet": "HalloweenNpcSelect",
   "definitions": [
     {
-      "name": "Description"
-    },
-    {
-      "index": 1,
-      "name": "Unknown1"
-    },
-    {
-      "index": 2,
-      "name": "RequiredQuest",
-      "converter": {
-        "type": "link",
-        "target": "Quest"
-      }
-    },
-    {
-      "index": 3,
-      "name": "PreviewIcon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 4,
       "name": "Transformation",
       "converter": {
         "type": "link",
@@ -32,7 +9,27 @@
       }
     },
     {
-      "index": 5,
+      "index": 1,
+      "name": "Expansion",
+      "converter": {
+        "type": "link",
+        "target": "ExVersion"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Unknown1"
+    },
+    {
+      "index": 3,
+      "name": "RequiredQuest",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 4,
       "name": "Festival",
       "converter": {
         "type": "link",
@@ -40,12 +37,15 @@
       }
     },
     {
-      "index": 6,
-      "name": "Expansion",
+      "index": 5,
+      "name": "PreviewIcon",
       "converter": {
-        "type": "link",
-        "target": "ExVersion"
+        "type": "icon"
       }
+    },
+    {
+      "index": 6,
+      "name": "Description"
     }
   ]
 }

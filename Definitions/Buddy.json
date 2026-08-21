@@ -2,22 +2,10 @@
   "sheet": "Buddy",
   "definitions": [
     {
-      "name": "SoundEffect4"
+      "name": "Base"
     },
     {
       "index": 1,
-      "name": "SoundEffect3"
-    },
-    {
-      "index": 2,
-      "name": "SoundEffect2"
-    },
-    {
-      "index": 3,
-      "name": "SoundEffect1"
-    },
-    {
-      "index": 4,
       "name": "QuestRequirement2",
       "converter": {
         "type": "link",
@@ -25,7 +13,7 @@
       }
     },
     {
-      "index": 5,
+      "index": 2,
       "name": "QuestRequirement1",
       "converter": {
         "type": "link",
@@ -33,12 +21,24 @@
       }
     },
     {
-      "index": 6,
+      "index": 3,
       "name": "BaseEquip"
     },
     {
+      "index": 4,
+      "name": "SoundEffect4"
+    },
+    {
+      "index": 5,
+      "name": "SoundEffect3"
+    },
+    {
+      "index": 6,
+      "name": "SoundEffect2"
+    },
+    {
       "index": 7,
-      "name": "Base"
+      "name": "SoundEffect1"
     }
   ]
 }

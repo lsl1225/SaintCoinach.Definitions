@@ -3,18 +3,6 @@
   "defaultColumn": "Text",
   "definitions": [
     {
-      "name": "Text"
-    },
-    {
-      "index": 1,
-      "name": "Unknown6"
-    },
-    {
-      "index": 2,
-      "name": "BalloonTime"
-    },
-    {
-      "index": 3,
       "name": "Name",
       "converter": {
         "type": "multiref",
@@ -25,48 +13,60 @@
       }
     },
     {
-      "index": 4,
-      "name": "Unknown7"
-    },
-    {
-      "index": 5,
-      "name": "Unknown8"
-    },
-    {
-      "index": 6,
-      "name": "OutputType"
-    },
-    {
-      "index": 7,
-      "name": "Unknown_70"
-    },
-    {
-      "index": 8,
-      "name": "Unknown1"
-    },
-    {
-      "index": 9,
-      "name": "Unknown2"
-    },
-    {
-      "index": 10,
+      "index": 1,
       "name": "Unknown3"
     },
     {
-      "index": 11,
+      "index": 2,
       "name": "Unknown4"
     },
     {
-      "index": 12,
+      "index": 3,
       "name": "Unknown5"
     },
     {
-      "index": 13,
+      "index": 4,
+      "name": "OutputType"
+    },
+    {
+      "index": 5,
+      "name": "Unknown_70"
+    },
+    {
+      "index": 6,
+      "name": "Unknown7"
+    },
+    {
+      "index": 7,
+      "name": "Unknown6"
+    },
+    {
+      "index": 8,
+      "name": "BalloonTime"
+    },
+    {
+      "index": 9,
       "name": "IsBalloonSlow"
     },
     {
-      "index": 14,
+      "index": 10,
       "name": "BattleTalkTime"
+    },
+    {
+      "index": 11,
+      "name": "Unknown1"
+    },
+    {
+      "index": 12,
+      "name": "Unknown2"
+    },
+    {
+      "index": 13,
+      "name": "Text"
+    },
+    {
+      "index": 14,
+      "name": "Unknown8"
     }
   ]
 }

@@ -11,31 +11,31 @@
     },
     {
       "index": 2,
-      "name": "ExpReward"
+      "name": "Passengers"
     },
     {
       "index": 3,
-      "name": "CeruleumTankReq"
-    },
-    {
-      "index": 4,
-      "name": "SurveyDurationmin"
-    },
-    {
-      "index": 5,
-      "name": "SurveyDistance"
-    },
-    {
-      "index": 6,
       "name": "X"
     },
     {
-      "index": 7,
+      "index": 4,
       "name": "Y"
     },
     {
-      "index": 8,
+      "index": 5,
       "name": "RankReq"
+    },
+    {
+      "index": 6,
+      "name": "CeruleumTankReq"
+    },
+    {
+      "index": 7,
+      "name": "SurveyDurationmin"
+    },
+    {
+      "index": 8,
+      "name": "SurveyDistance"
     },
     {
       "index": 9,
@@ -43,11 +43,11 @@
     },
     {
       "index": 10,
-      "name": "Unknown1"
+      "name": "SurveillanceReq"
     },
     {
       "index": 11,
-      "name": "SurveillanceReq"
+      "name": "Unknown1"
     },
     {
       "index": 12,
@@ -55,7 +55,7 @@
     },
     {
       "index": 13,
-      "name": "Passengers"
+      "name": "ExpReward"
     }
   ]
 }

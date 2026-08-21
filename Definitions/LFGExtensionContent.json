@@ -2,23 +2,23 @@
   "sheet": "LFGExtensionContent",
   "definitions": [
     {
-      "name": "Unknown0"
-    },
-    {
-      "index": 1,
-      "name": "Unknown4"
-    },
-    {
-      "index": 2,
       "name": "Unknown1"
     },
     {
-      "index": 3,
+      "index": 1,
       "name": "Unknown2"
     },
     {
-      "index": 4,
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
       "name": "Unknown3"
+    },
+    {
+      "index": 4,
+      "name": "Unknown4"
     }
   ]
 }

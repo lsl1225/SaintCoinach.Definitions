@@ -2,42 +2,259 @@
   "sheet": "FateEvent",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Gesture"
-          },
-          {
-            "name": "LipSync"
-          },
-          {
-            "name": "Facial"
-          },
-          {
-            "name": "Shape"
-          },
-          {
-            "name": "Turn"
-          },
-          {
-            "name": "WidgetType"
-          },
-          {
-            "name": "IsAutoShake"
-          }
-        ]
-      }
+      "name": "Turn[0]"
+    },
+    {
+      "index": 1,
+      "name": "Turn[1]"
+    },
+    {
+      "index": 2,
+      "name": "Turn[2]"
+    },
+    {
+      "index": 3,
+      "name": "Turn[3]"
+    },
+    {
+      "index": 4,
+      "name": "Turn[4]"
+    },
+    {
+      "index": 5,
+      "name": "Turn[5]"
+    },
+    {
+      "index": 6,
+      "name": "Turn[6]"
+    },
+    {
+      "index": 7,
+      "name": "Turn[7]"
+    },
+    {
+      "index": 8,
+      "name": "Gesture[0]"
+    },
+    {
+      "index": 9,
+      "name": "Gesture[1]"
+    },
+    {
+      "index": 10,
+      "name": "Gesture[2]"
+    },
+    {
+      "index": 11,
+      "name": "Gesture[3]"
+    },
+    {
+      "index": 12,
+      "name": "Gesture[4]"
+    },
+    {
+      "index": 13,
+      "name": "Gesture[5]"
+    },
+    {
+      "index": 14,
+      "name": "Gesture[6]"
+    },
+    {
+      "index": 15,
+      "name": "Gesture[7]"
+    },
+    {
+      "index": 16,
+      "name": "LipSync[0]"
+    },
+    {
+      "index": 17,
+      "name": "LipSync[1]"
+    },
+    {
+      "index": 18,
+      "name": "LipSync[2]"
+    },
+    {
+      "index": 19,
+      "name": "LipSync[3]"
+    },
+    {
+      "index": 20,
+      "name": "LipSync[4]"
+    },
+    {
+      "index": 21,
+      "name": "LipSync[5]"
+    },
+    {
+      "index": 22,
+      "name": "LipSync[6]"
+    },
+    {
+      "index": 23,
+      "name": "LipSync[7]"
+    },
+    {
+      "index": 24,
+      "name": "Facial[0]"
+    },
+    {
+      "index": 25,
+      "name": "Facial[1]"
+    },
+    {
+      "index": 26,
+      "name": "Facial[2]"
+    },
+    {
+      "index": 27,
+      "name": "Facial[3]"
+    },
+    {
+      "index": 28,
+      "name": "Facial[4]"
+    },
+    {
+      "index": 29,
+      "name": "Facial[5]"
+    },
+    {
+      "index": 30,
+      "name": "Facial[6]"
+    },
+    {
+      "index": 31,
+      "name": "Facial[7]"
+    },
+    {
+      "index": 32,
+      "name": "Shape[0]"
+    },
+    {
+      "index": 33,
+      "name": "Shape[1]"
+    },
+    {
+      "index": 34,
+      "name": "Shape[2]"
+    },
+    {
+      "index": 35,
+      "name": "Shape[3]"
+    },
+    {
+      "index": 36,
+      "name": "Shape[4]"
+    },
+    {
+      "index": 37,
+      "name": "Shape[5]"
+    },
+    {
+      "index": 38,
+      "name": "Shape[6]"
+    },
+    {
+      "index": 39,
+      "name": "Shape[7]"
+    },
+    {
+      "index": 40,
+      "name": "IsAutoShake[0]"
+    },
+    {
+      "index": 41,
+      "name": "IsAutoShake[1]"
+    },
+    {
+      "index": 42,
+      "name": "IsAutoShake[2]"
+    },
+    {
+      "index": 43,
+      "name": "IsAutoShake[3]"
+    },
+    {
+      "index": 44,
+      "name": "IsAutoShake[4]"
+    },
+    {
+      "index": 45,
+      "name": "IsAutoShake[5]"
+    },
+    {
+      "index": 46,
+      "name": "IsAutoShake[6]"
+    },
+    {
+      "index": 47,
+      "name": "IsAutoShake[7]"
+    },
+    {
+      "index": 48,
+      "name": "WidgetType[0]"
+    },
+    {
+      "index": 49,
+      "name": "WidgetType[1]"
+    },
+    {
+      "index": 50,
+      "name": "WidgetType[2]"
+    },
+    {
+      "index": 51,
+      "name": "WidgetType[3]"
+    },
+    {
+      "index": 52,
+      "name": "WidgetType[4]"
+    },
+    {
+      "index": 53,
+      "name": "WidgetType[5]"
+    },
+    {
+      "index": 54,
+      "name": "WidgetType[6]"
+    },
+    {
+      "index": 55,
+      "name": "WidgetType[7]"
     },
     {
       "index": 56,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Text"
-      }
+      "name": "Text[0]"
+    },
+    {
+      "index": 57,
+      "name": "Text[1]"
+    },
+    {
+      "index": 58,
+      "name": "Text[2]"
+    },
+    {
+      "index": 59,
+      "name": "Text[3]"
+    },
+    {
+      "index": 60,
+      "name": "Text[4]"
+    },
+    {
+      "index": 61,
+      "name": "Text[5]"
+    },
+    {
+      "index": 62,
+      "name": "Text[6]"
+    },
+    {
+      "index": 63,
+      "name": "Text[7]"
     }
   ]
 }

@@ -2,33 +2,171 @@
   "sheet": "IndividualWeather",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 7,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Quest",
-            "converter": {
-              "type": "link",
-              "target": "Quest"
-            }
-          },
-          {
-            "name": "Unknown0"
-          },
-          {
-            "name": "Weather",
-            "converter": {
-              "type": "link",
-              "target": "Weather"
-            }
-          },
-          {
-            "name": "Unknown1"
-          }
-        ]
+      "name": "Weather[0]",
+      "converter": {
+        "type": "link",
+        "target": "Weather"
       }
+    },
+    {
+      "index": 1,
+      "name": "Weather[1]",
+      "converter": {
+        "type": "link",
+        "target": "Weather"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Weather[2]",
+      "converter": {
+        "type": "link",
+        "target": "Weather"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Weather[3]",
+      "converter": {
+        "type": "link",
+        "target": "Weather"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Weather[4]",
+      "converter": {
+        "type": "link",
+        "target": "Weather"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Weather[5]",
+      "converter": {
+        "type": "link",
+        "target": "Weather"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Weather[6]",
+      "converter": {
+        "type": "link",
+        "target": "Weather"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Unknown1[0]"
+    },
+    {
+      "index": 8,
+      "name": "Unknown1[1]"
+    },
+    {
+      "index": 9,
+      "name": "Unknown1[2]"
+    },
+    {
+      "index": 10,
+      "name": "Unknown1[3]"
+    },
+    {
+      "index": 11,
+      "name": "Unknown1[4]"
+    },
+    {
+      "index": 12,
+      "name": "Unknown1[5]"
+    },
+    {
+      "index": 13,
+      "name": "Unknown1[6]"
+    },
+    {
+      "index": 14,
+      "name": "Quest[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Quest[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Quest[2]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Quest[3]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Quest[4]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Quest[5]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Quest[6]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Unknown0[0]"
+    },
+    {
+      "index": 22,
+      "name": "Unknown0[1]"
+    },
+    {
+      "index": 23,
+      "name": "Unknown0[2]"
+    },
+    {
+      "index": 24,
+      "name": "Unknown0[3]"
+    },
+    {
+      "index": 25,
+      "name": "Unknown0[4]"
+    },
+    {
+      "index": 26,
+      "name": "Unknown0[5]"
+    },
+    {
+      "index": 27,
+      "name": "Unknown0[6]"
     }
   ]
 }

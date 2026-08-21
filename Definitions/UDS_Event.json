@@ -11,14 +11,258 @@
     },
     {
       "index": 2,
-      "type": "repeat",
-      "count": 32,
-      "definition": {
-        "name": "Property",
-        "converter": {
-          "type": "link",
-          "target": "UDS_Property"
-        }
+      "name": "Property[0]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Property[1]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Property[2]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Property[3]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Property[4]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Property[5]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Property[6]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Property[7]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Property[8]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Property[9]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Property[10]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Property[11]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Property[12]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Property[13]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Property[14]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Property[15]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Property[16]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Property[17]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Property[18]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Property[19]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Property[20]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Property[21]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Property[22]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Property[23]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Property[24]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 27,
+      "name": "Property[25]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 28,
+      "name": "Property[26]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Property[27]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Property[28]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 31,
+      "name": "Property[29]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Property[30]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Property[31]",
+      "converter": {
+        "type": "link",
+        "target": "UDS_Property"
       }
     }
   ]

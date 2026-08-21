@@ -2,35 +2,43 @@
   "sheet": "GrandCompanyRank",
   "definitions": [
     {
-      "name": "MaxSeals"
+      "name": "Tier"
     },
     {
       "index": 1,
-      "name": "RequiredSeals"
+      "name": "Order"
     },
     {
       "index": 2,
+      "name": "MaxSeals"
+    },
+    {
+      "index": 3,
+      "name": "RequiredSeals"
+    },
+    {
+      "index": 4,
       "name": "IconMaelstrom",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 3,
+      "index": 5,
       "name": "IconSerpents",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 4,
+      "index": 6,
       "name": "IconFlames",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 5,
+      "index": 7,
       "name": "QuestMaelstrom",
       "converter": {
         "type": "link",
@@ -38,7 +46,7 @@
       }
     },
     {
-      "index": 6,
+      "index": 8,
       "name": "QuestSerpents",
       "converter": {
         "type": "link",
@@ -46,20 +54,12 @@
       }
     },
     {
-      "index": 7,
+      "index": 9,
       "name": "QuestFlames",
       "converter": {
         "type": "link",
         "target": "Quest"
       }
-    },
-    {
-      "index": 8,
-      "name": "Tier"
-    },
-    {
-      "index": 9,
-      "name": "Order"
     },
     {
       "index": 10,

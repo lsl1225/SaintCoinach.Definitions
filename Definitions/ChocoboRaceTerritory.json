@@ -3,17 +3,17 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 1,
       "name": "Name",
       "converter": {
         "type": "link",
         "target": "GoldSaucerTextData"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
       }
     }
   ]

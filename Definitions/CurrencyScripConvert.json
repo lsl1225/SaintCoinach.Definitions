@@ -2,7 +2,7 @@
   "sheet": "CurrencyScripConvert",
   "definitions": [
     {
-      "name": "Unknown0"
+      "name": "Unknown3"
     },
     {
       "index": 1,
@@ -14,7 +14,7 @@
     },
     {
       "index": 3,
-      "name": "Unknown3"
+      "name": "Unknown0"
     }
   ]
 }

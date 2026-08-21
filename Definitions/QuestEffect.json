@@ -2,22 +2,51 @@
   "sheet": "QuestEffect",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "Param1"
-          },
-          {
-            "name": "Param2"
-          },
-          {
-            "name": "Type"
-          }
-        ]
-      }
+      "name": "Type[0]"
+    },
+    {
+      "index": 1,
+      "name": "Type[1]"
+    },
+    {
+      "index": 2,
+      "name": "Type[2]"
+    },
+    {
+      "index": 3,
+      "name": "Type[3]"
+    },
+    {
+      "index": 4,
+      "name": "Param1[0]"
+    },
+    {
+      "index": 5,
+      "name": "Param1[1]"
+    },
+    {
+      "index": 6,
+      "name": "Param1[2]"
+    },
+    {
+      "index": 7,
+      "name": "Param1[3]"
+    },
+    {
+      "index": 8,
+      "name": "Param2[0]"
+    },
+    {
+      "index": 9,
+      "name": "Param2[1]"
+    },
+    {
+      "index": 10,
+      "name": "Param2[2]"
+    },
+    {
+      "index": 11,
+      "name": "Param2[3]"
     },
     {
       "index": 12,

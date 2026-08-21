@@ -2,79 +2,827 @@
   "sheet": "BattleLeve",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Time"
-      }
+      "name": "Time[0]"
+    },
+    {
+      "index": 1,
+      "name": "Time[1]"
+    },
+    {
+      "index": 2,
+      "name": "Time[2]"
+    },
+    {
+      "index": 3,
+      "name": "Time[3]"
+    },
+    {
+      "index": 4,
+      "name": "Time[4]"
+    },
+    {
+      "index": 5,
+      "name": "Time[5]"
+    },
+    {
+      "index": 6,
+      "name": "Time[6]"
+    },
+    {
+      "index": 7,
+      "name": "Time[7]"
     },
     {
       "index": 8,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "BNpcName",
-            "converter": {
-              "type": "link",
-              "target": "BNpcName"
-            }
-          },
-          {
-            "name": "ToDoNumberInvolved"
-          },
-          {
-            "type": "repeat",
-            "count": 5,
-            "definition": {
-              "name": "ToDoParam"
-            }
-          },
-          {
-            "name": "BaseID",
-            "converter": {
-              "type": "multiref",
-              "targets": [
-                "EventItem",
-                "BNpcBase"
-              ]
-            }
-          },
-          {
-            "name": "ItemsInvolved",
-            "converter": {
-              "type": "link",
-              "target": "EventItem"
-            }
-          },
-          {
-            "name": "EnemyLevel"
-          },
-          {
-            "name": "ItemsInvolvedQty"
-          },
-          {
-            "name": "ItemDropRate"
-          },
-          {
-            "type": "repeat",
-            "count": 8,
-            "definition": {
-              "name": "NumOfAppearance"
-            }
-          }
+      "name": "BaseID[0]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "BNpcBase"
         ]
       }
     },
     {
-      "index": 168,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "ToDoSequence"
+      "index": 9,
+      "name": "BaseID[1]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "BNpcBase"
+        ]
       }
+    },
+    {
+      "index": 10,
+      "name": "BaseID[2]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "BNpcBase"
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "name": "BaseID[3]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "BNpcBase"
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "name": "BaseID[4]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "BNpcBase"
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "name": "BaseID[5]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "BNpcBase"
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "name": "BaseID[6]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "BNpcBase"
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "name": "BaseID[7]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "EventItem",
+          "BNpcBase"
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "name": "EnemyLevel[0]"
+    },
+    {
+      "index": 17,
+      "name": "EnemyLevel[1]"
+    },
+    {
+      "index": 18,
+      "name": "EnemyLevel[2]"
+    },
+    {
+      "index": 19,
+      "name": "EnemyLevel[3]"
+    },
+    {
+      "index": 20,
+      "name": "EnemyLevel[4]"
+    },
+    {
+      "index": 21,
+      "name": "EnemyLevel[5]"
+    },
+    {
+      "index": 22,
+      "name": "EnemyLevel[6]"
+    },
+    {
+      "index": 23,
+      "name": "EnemyLevel[7]"
+    },
+    {
+      "index": 24,
+      "name": "BNpcName[0]",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 25,
+      "name": "BNpcName[1]",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 26,
+      "name": "BNpcName[2]",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 27,
+      "name": "BNpcName[3]",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 28,
+      "name": "BNpcName[4]",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 29,
+      "name": "BNpcName[5]",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 30,
+      "name": "BNpcName[6]",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 31,
+      "name": "BNpcName[7]",
+      "converter": {
+        "type": "link",
+        "target": "BNpcName"
+      }
+    },
+    {
+      "index": 32,
+      "name": "ItemsInvolved[0]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 33,
+      "name": "ItemsInvolved[1]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 34,
+      "name": "ItemsInvolved[2]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 35,
+      "name": "ItemsInvolved[3]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 36,
+      "name": "ItemsInvolved[4]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 37,
+      "name": "ItemsInvolved[5]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 38,
+      "name": "ItemsInvolved[6]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 39,
+      "name": "ItemsInvolved[7]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 40,
+      "name": "ItemsInvolvedQty[0]"
+    },
+    {
+      "index": 41,
+      "name": "ItemsInvolvedQty[1]"
+    },
+    {
+      "index": 42,
+      "name": "ItemsInvolvedQty[2]"
+    },
+    {
+      "index": 43,
+      "name": "ItemsInvolvedQty[3]"
+    },
+    {
+      "index": 44,
+      "name": "ItemsInvolvedQty[4]"
+    },
+    {
+      "index": 45,
+      "name": "ItemsInvolvedQty[5]"
+    },
+    {
+      "index": 46,
+      "name": "ItemsInvolvedQty[6]"
+    },
+    {
+      "index": 47,
+      "name": "ItemsInvolvedQty[7]"
+    },
+    {
+      "index": 48,
+      "name": "ItemDropRate[0]"
+    },
+    {
+      "index": 49,
+      "name": "ItemDropRate[1]"
+    },
+    {
+      "index": 50,
+      "name": "ItemDropRate[2]"
+    },
+    {
+      "index": 51,
+      "name": "ItemDropRate[3]"
+    },
+    {
+      "index": 52,
+      "name": "ItemDropRate[4]"
+    },
+    {
+      "index": 53,
+      "name": "ItemDropRate[5]"
+    },
+    {
+      "index": 54,
+      "name": "ItemDropRate[6]"
+    },
+    {
+      "index": 55,
+      "name": "ItemDropRate[7]"
+    },
+    {
+      "index": 56,
+      "name": "ToDoNumberInvolved[0]"
+    },
+    {
+      "index": 57,
+      "name": "ToDoNumberInvolved[1]"
+    },
+    {
+      "index": 58,
+      "name": "ToDoNumberInvolved[2]"
+    },
+    {
+      "index": 59,
+      "name": "ToDoNumberInvolved[3]"
+    },
+    {
+      "index": 60,
+      "name": "ToDoNumberInvolved[4]"
+    },
+    {
+      "index": 61,
+      "name": "ToDoNumberInvolved[5]"
+    },
+    {
+      "index": 62,
+      "name": "ToDoNumberInvolved[6]"
+    },
+    {
+      "index": 63,
+      "name": "ToDoNumberInvolved[7]"
+    },
+    {
+      "index": 64,
+      "name": "ToDoParam[0][0]"
+    },
+    {
+      "index": 65,
+      "name": "ToDoParam[0][1]"
+    },
+    {
+      "index": 66,
+      "name": "ToDoParam[0][2]"
+    },
+    {
+      "index": 67,
+      "name": "ToDoParam[0][3]"
+    },
+    {
+      "index": 68,
+      "name": "ToDoParam[0][4]"
+    },
+    {
+      "index": 69,
+      "name": "ToDoParam[0][5]"
+    },
+    {
+      "index": 70,
+      "name": "ToDoParam[0][6]"
+    },
+    {
+      "index": 71,
+      "name": "ToDoParam[0][7]"
+    },
+    {
+      "index": 72,
+      "name": "ToDoParam[1][0]"
+    },
+    {
+      "index": 73,
+      "name": "ToDoParam[1][1]"
+    },
+    {
+      "index": 74,
+      "name": "ToDoParam[1][2]"
+    },
+    {
+      "index": 75,
+      "name": "ToDoParam[1][3]"
+    },
+    {
+      "index": 76,
+      "name": "ToDoParam[1][4]"
+    },
+    {
+      "index": 77,
+      "name": "ToDoParam[1][5]"
+    },
+    {
+      "index": 78,
+      "name": "ToDoParam[1][6]"
+    },
+    {
+      "index": 79,
+      "name": "ToDoParam[1][7]"
+    },
+    {
+      "index": 80,
+      "name": "ToDoParam[2][0]"
+    },
+    {
+      "index": 81,
+      "name": "ToDoParam[2][1]"
+    },
+    {
+      "index": 82,
+      "name": "ToDoParam[2][2]"
+    },
+    {
+      "index": 83,
+      "name": "ToDoParam[2][3]"
+    },
+    {
+      "index": 84,
+      "name": "ToDoParam[2][4]"
+    },
+    {
+      "index": 85,
+      "name": "ToDoParam[2][5]"
+    },
+    {
+      "index": 86,
+      "name": "ToDoParam[2][6]"
+    },
+    {
+      "index": 87,
+      "name": "ToDoParam[2][7]"
+    },
+    {
+      "index": 88,
+      "name": "ToDoParam[3][0]"
+    },
+    {
+      "index": 89,
+      "name": "ToDoParam[3][1]"
+    },
+    {
+      "index": 90,
+      "name": "ToDoParam[3][2]"
+    },
+    {
+      "index": 91,
+      "name": "ToDoParam[3][3]"
+    },
+    {
+      "index": 92,
+      "name": "ToDoParam[3][4]"
+    },
+    {
+      "index": 93,
+      "name": "ToDoParam[3][5]"
+    },
+    {
+      "index": 94,
+      "name": "ToDoParam[3][6]"
+    },
+    {
+      "index": 95,
+      "name": "ToDoParam[3][7]"
+    },
+    {
+      "index": 96,
+      "name": "ToDoParam[4][0]"
+    },
+    {
+      "index": 97,
+      "name": "ToDoParam[4][1]"
+    },
+    {
+      "index": 98,
+      "name": "ToDoParam[4][2]"
+    },
+    {
+      "index": 99,
+      "name": "ToDoParam[4][3]"
+    },
+    {
+      "index": 100,
+      "name": "ToDoParam[4][4]"
+    },
+    {
+      "index": 101,
+      "name": "ToDoParam[4][5]"
+    },
+    {
+      "index": 102,
+      "name": "ToDoParam[4][6]"
+    },
+    {
+      "index": 103,
+      "name": "ToDoParam[4][7]"
+    },
+    {
+      "index": 104,
+      "name": "NumOfAppearance[0][0]"
+    },
+    {
+      "index": 105,
+      "name": "NumOfAppearance[0][1]"
+    },
+    {
+      "index": 106,
+      "name": "NumOfAppearance[0][2]"
+    },
+    {
+      "index": 107,
+      "name": "NumOfAppearance[0][3]"
+    },
+    {
+      "index": 108,
+      "name": "NumOfAppearance[0][4]"
+    },
+    {
+      "index": 109,
+      "name": "NumOfAppearance[0][5]"
+    },
+    {
+      "index": 110,
+      "name": "NumOfAppearance[0][6]"
+    },
+    {
+      "index": 111,
+      "name": "NumOfAppearance[0][7]"
+    },
+    {
+      "index": 112,
+      "name": "NumOfAppearance[1][0]"
+    },
+    {
+      "index": 113,
+      "name": "NumOfAppearance[1][1]"
+    },
+    {
+      "index": 114,
+      "name": "NumOfAppearance[1][2]"
+    },
+    {
+      "index": 115,
+      "name": "NumOfAppearance[1][3]"
+    },
+    {
+      "index": 116,
+      "name": "NumOfAppearance[1][4]"
+    },
+    {
+      "index": 117,
+      "name": "NumOfAppearance[1][5]"
+    },
+    {
+      "index": 118,
+      "name": "NumOfAppearance[1][6]"
+    },
+    {
+      "index": 119,
+      "name": "NumOfAppearance[1][7]"
+    },
+    {
+      "index": 120,
+      "name": "NumOfAppearance[2][0]"
+    },
+    {
+      "index": 121,
+      "name": "NumOfAppearance[2][1]"
+    },
+    {
+      "index": 122,
+      "name": "NumOfAppearance[2][2]"
+    },
+    {
+      "index": 123,
+      "name": "NumOfAppearance[2][3]"
+    },
+    {
+      "index": 124,
+      "name": "NumOfAppearance[2][4]"
+    },
+    {
+      "index": 125,
+      "name": "NumOfAppearance[2][5]"
+    },
+    {
+      "index": 126,
+      "name": "NumOfAppearance[2][6]"
+    },
+    {
+      "index": 127,
+      "name": "NumOfAppearance[2][7]"
+    },
+    {
+      "index": 128,
+      "name": "NumOfAppearance[3][0]"
+    },
+    {
+      "index": 129,
+      "name": "NumOfAppearance[3][1]"
+    },
+    {
+      "index": 130,
+      "name": "NumOfAppearance[3][2]"
+    },
+    {
+      "index": 131,
+      "name": "NumOfAppearance[3][3]"
+    },
+    {
+      "index": 132,
+      "name": "NumOfAppearance[3][4]"
+    },
+    {
+      "index": 133,
+      "name": "NumOfAppearance[3][5]"
+    },
+    {
+      "index": 134,
+      "name": "NumOfAppearance[3][6]"
+    },
+    {
+      "index": 135,
+      "name": "NumOfAppearance[3][7]"
+    },
+    {
+      "index": 136,
+      "name": "NumOfAppearance[4][0]"
+    },
+    {
+      "index": 137,
+      "name": "NumOfAppearance[4][1]"
+    },
+    {
+      "index": 138,
+      "name": "NumOfAppearance[4][2]"
+    },
+    {
+      "index": 139,
+      "name": "NumOfAppearance[4][3]"
+    },
+    {
+      "index": 140,
+      "name": "NumOfAppearance[4][4]"
+    },
+    {
+      "index": 141,
+      "name": "NumOfAppearance[4][5]"
+    },
+    {
+      "index": 142,
+      "name": "NumOfAppearance[4][6]"
+    },
+    {
+      "index": 143,
+      "name": "NumOfAppearance[4][7]"
+    },
+    {
+      "index": 144,
+      "name": "NumOfAppearance[5][0]"
+    },
+    {
+      "index": 145,
+      "name": "NumOfAppearance[5][1]"
+    },
+    {
+      "index": 146,
+      "name": "NumOfAppearance[5][2]"
+    },
+    {
+      "index": 147,
+      "name": "NumOfAppearance[5][3]"
+    },
+    {
+      "index": 148,
+      "name": "NumOfAppearance[5][4]"
+    },
+    {
+      "index": 149,
+      "name": "NumOfAppearance[5][5]"
+    },
+    {
+      "index": 150,
+      "name": "NumOfAppearance[5][6]"
+    },
+    {
+      "index": 151,
+      "name": "NumOfAppearance[5][7]"
+    },
+    {
+      "index": 152,
+      "name": "NumOfAppearance[6][0]"
+    },
+    {
+      "index": 153,
+      "name": "NumOfAppearance[6][1]"
+    },
+    {
+      "index": 154,
+      "name": "NumOfAppearance[6][2]"
+    },
+    {
+      "index": 155,
+      "name": "NumOfAppearance[6][3]"
+    },
+    {
+      "index": 156,
+      "name": "NumOfAppearance[6][4]"
+    },
+    {
+      "index": 157,
+      "name": "NumOfAppearance[6][5]"
+    },
+    {
+      "index": 158,
+      "name": "NumOfAppearance[6][6]"
+    },
+    {
+      "index": 159,
+      "name": "NumOfAppearance[6][7]"
+    },
+    {
+      "index": 160,
+      "name": "NumOfAppearance[7][0]"
+    },
+    {
+      "index": 161,
+      "name": "NumOfAppearance[7][1]"
+    },
+    {
+      "index": 162,
+      "name": "NumOfAppearance[7][2]"
+    },
+    {
+      "index": 163,
+      "name": "NumOfAppearance[7][3]"
+    },
+    {
+      "index": 164,
+      "name": "NumOfAppearance[7][4]"
+    },
+    {
+      "index": 165,
+      "name": "NumOfAppearance[7][5]"
+    },
+    {
+      "index": 166,
+      "name": "NumOfAppearance[7][6]"
+    },
+    {
+      "index": 167,
+      "name": "NumOfAppearance[7][7]"
+    },
+    {
+      "index": 168,
+      "name": "ToDoSequence[0]"
+    },
+    {
+      "index": 169,
+      "name": "ToDoSequence[1]"
+    },
+    {
+      "index": 170,
+      "name": "ToDoSequence[2]"
+    },
+    {
+      "index": 171,
+      "name": "ToDoSequence[3]"
+    },
+    {
+      "index": 172,
+      "name": "ToDoSequence[4]"
+    },
+    {
+      "index": 173,
+      "name": "ToDoSequence[5]"
+    },
+    {
+      "index": 174,
+      "name": "ToDoSequence[6]"
+    },
+    {
+      "index": 175,
+      "name": "ToDoSequence[7]"
     },
     {
       "index": 176,
@@ -86,27 +834,39 @@
     },
     {
       "index": 177,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "Objectives",
-        "converter": {
-          "type": "link",
-          "target": "LeveString"
-        }
+      "name": "Variant"
+    },
+    {
+      "index": 178,
+      "name": "Objectives[0]",
+      "converter": {
+        "type": "link",
+        "target": "LeveString"
+      }
+    },
+    {
+      "index": 179,
+      "name": "Objectives[1]",
+      "converter": {
+        "type": "link",
+        "target": "LeveString"
       }
     },
     {
       "index": 180,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Help"
+      "name": "Objectives[2]",
+      "converter": {
+        "type": "link",
+        "target": "LeveString"
       }
     },
     {
+      "index": 181,
+      "name": "Help[0]"
+    },
+    {
       "index": 182,
-      "name": "Variant"
+      "name": "Help[1]"
     }
   ]
 }

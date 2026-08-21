@@ -3,13 +3,6 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 1,
       "name": "Name",
       "converter": {
         "type": "link",
@@ -17,11 +10,18 @@
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "FATE",
       "converter": {
         "type": "link",
         "target": "Fate"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
       }
     },
     {

@@ -2,23 +2,27 @@
   "sheet": "ContentExAction",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Name",
-        "converter": {
-          "type": "link",
-          "target": "Action"
-        }
+      "name": "Name[0]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Name[1]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
       }
     },
     {
       "index": 2,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Charges"
-      }
+      "name": "Charges[0]"
+    },
+    {
+      "index": 3,
+      "name": "Charges[1]"
     }
   ]
 }

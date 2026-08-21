@@ -2,48 +2,259 @@
   "sheet": "MJIFarmPastureRank",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "type": "repeat",
-            "count": 4,
-            "definition": {
-              "name": "SGB",
-              "converter": {
-                "type": "link",
-                "target": "ExportedSG"
-              }
-            }
-          },
-          {
-            "name": "Unknown0"
-          },
-          {
-            "name": "Unknown1"
-          },
-          {
-            "name": "Unknown2"
-          },
-          {
-            "name": "Unknown3"
-          },
-          {
-            "name": "Unknown4"
-          },
-          {
-            "name": "Unknown5"
-          },
-          {
-            "name": "Unknown6"
-          },
-          {
-            "name": "Unknown7"
-          }
-        ]
+      "name": "SGB[0][0]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
       }
+    },
+    {
+      "index": 1,
+      "name": "SGB[0][1]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SGB[0][2]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 3,
+      "name": "SGB[0][3]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 4,
+      "name": "SGB[1][0]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 5,
+      "name": "SGB[1][1]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 6,
+      "name": "SGB[1][2]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 7,
+      "name": "SGB[1][3]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 8,
+      "name": "SGB[2][0]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 9,
+      "name": "SGB[2][1]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 10,
+      "name": "SGB[2][2]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 11,
+      "name": "SGB[2][3]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 12,
+      "name": "SGB[3][0]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 13,
+      "name": "SGB[3][1]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 14,
+      "name": "SGB[3][2]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 15,
+      "name": "SGB[3][3]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Unknown4[0]"
+    },
+    {
+      "index": 17,
+      "name": "Unknown4[1]"
+    },
+    {
+      "index": 18,
+      "name": "Unknown4[2]"
+    },
+    {
+      "index": 19,
+      "name": "Unknown4[3]"
+    },
+    {
+      "index": 20,
+      "name": "Unknown5[0]"
+    },
+    {
+      "index": 21,
+      "name": "Unknown5[1]"
+    },
+    {
+      "index": 22,
+      "name": "Unknown5[2]"
+    },
+    {
+      "index": 23,
+      "name": "Unknown5[3]"
+    },
+    {
+      "index": 24,
+      "name": "Unknown6[0]"
+    },
+    {
+      "index": 25,
+      "name": "Unknown6[1]"
+    },
+    {
+      "index": 26,
+      "name": "Unknown6[2]"
+    },
+    {
+      "index": 27,
+      "name": "Unknown6[3]"
+    },
+    {
+      "index": 28,
+      "name": "Unknown0[0]"
+    },
+    {
+      "index": 29,
+      "name": "Unknown0[1]"
+    },
+    {
+      "index": 30,
+      "name": "Unknown0[2]"
+    },
+    {
+      "index": 31,
+      "name": "Unknown0[3]"
+    },
+    {
+      "index": 32,
+      "name": "Unknown1[0]"
+    },
+    {
+      "index": 33,
+      "name": "Unknown1[1]"
+    },
+    {
+      "index": 34,
+      "name": "Unknown1[2]"
+    },
+    {
+      "index": 35,
+      "name": "Unknown1[3]"
+    },
+    {
+      "index": 36,
+      "name": "Unknown7[0]"
+    },
+    {
+      "index": 37,
+      "name": "Unknown7[1]"
+    },
+    {
+      "index": 38,
+      "name": "Unknown7[2]"
+    },
+    {
+      "index": 39,
+      "name": "Unknown7[3]"
+    },
+    {
+      "index": 40,
+      "name": "Unknown2[0]"
+    },
+    {
+      "index": 41,
+      "name": "Unknown2[1]"
+    },
+    {
+      "index": 42,
+      "name": "Unknown2[2]"
+    },
+    {
+      "index": 43,
+      "name": "Unknown2[3]"
+    },
+    {
+      "index": 44,
+      "name": "Unknown3[0]"
+    },
+    {
+      "index": 45,
+      "name": "Unknown3[1]"
+    },
+    {
+      "index": 46,
+      "name": "Unknown3[2]"
+    },
+    {
+      "index": 47,
+      "name": "Unknown3[3]"
     }
   ]
 }

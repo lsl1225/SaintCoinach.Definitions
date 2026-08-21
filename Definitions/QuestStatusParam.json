@@ -10,11 +10,11 @@
     },
     {
       "index": 1,
-      "name": "StatusParam1"
+      "name": "StatusParam2"
     },
     {
       "index": 2,
-      "name": "StatusParam2"
+      "name": "StatusParam1"
     }
   ]
 }

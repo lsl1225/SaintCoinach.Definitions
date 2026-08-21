@@ -10,18 +10,10 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "ReplaceActions",
-        "converter": {
-          "type": "link",
-          "target": "Action"
-        }
-      }
+      "name": "Type1"
     },
     {
-      "index": 5,
+      "index": 2,
       "name": "Param1",
       "converter": {
         "type": "complexlink",
@@ -72,7 +64,19 @@
       }
     },
     {
-      "index": 6,
+      "index": 3,
+      "name": "ReplaceActions[0]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Type2"
+    },
+    {
+      "index": 5,
       "name": "Param2",
       "converter": {
         "type": "complexlink",
@@ -123,7 +127,19 @@
       }
     },
     {
+      "index": 6,
+      "name": "ReplaceActions[1]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
       "index": 7,
+      "name": "Type3"
+    },
+    {
+      "index": 8,
       "name": "Param3",
       "converter": {
         "type": "complexlink",
@@ -174,7 +190,19 @@
       }
     },
     {
-      "index": 8,
+      "index": 9,
+      "name": "ReplaceActions[2]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Type4"
+    },
+    {
+      "index": 11,
       "name": "Param4",
       "converter": {
         "type": "complexlink",
@@ -225,20 +253,12 @@
       }
     },
     {
-      "index": 9,
-      "name": "Type1"
-    },
-    {
-      "index": 10,
-      "name": "Type2"
-    },
-    {
-      "index": 11,
-      "name": "Type3"
-    },
-    {
       "index": 12,
-      "name": "Type4"
+      "name": "ReplaceActions[3]",
+      "converter": {
+        "type": "link",
+        "target": "Action"
+      }
     },
     {
       "index": 13,

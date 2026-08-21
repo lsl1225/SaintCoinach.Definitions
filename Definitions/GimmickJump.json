@@ -2,6 +2,14 @@
   "sheet": "GimmickJump",
   "definitions": [
     {
+      "name": "FallDamage"
+    },
+    {
+      "index": 1,
+      "name": "Height"
+    },
+    {
+      "index": 2,
       "name": "LoopMotion",
       "converter": {
         "type": "link",
@@ -9,7 +17,7 @@
       }
     },
     {
-      "index": 1,
+      "index": 3,
       "name": "EndMotion",
       "converter": {
         "type": "link",
@@ -17,28 +25,20 @@
       }
     },
     {
-      "index": 2,
-      "name": "FallDamage"
-    },
-    {
-      "index": 3,
-      "name": "Height"
-    },
-    {
       "index": 4,
-      "name": "Unknown1"
-    },
-    {
-      "index": 5,
-      "name": "Unknown2"
-    },
-    {
-      "index": 6,
       "name": "StartClient"
     },
     {
-      "index": 7,
+      "index": 5,
       "name": "Unknown0"
+    },
+    {
+      "index": 6,
+      "name": "Unknown1"
+    },
+    {
+      "index": 7,
+      "name": "Unknown2"
     },
     {
       "index": 8,

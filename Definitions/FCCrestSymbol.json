@@ -2,15 +2,15 @@
   "sheet": "FCCrestSymbol",
   "definitions": [
     {
-      "name": "Unknown0"
-    },
-    {
-      "index": 1,
       "name": "ColorNum"
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "FCRight"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
     }
   ]
 }

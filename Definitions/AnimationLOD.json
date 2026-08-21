@@ -14,11 +14,35 @@
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "AnimationEnable"
-      }
+      "name": "AnimationEnable[0]"
+    },
+    {
+      "index": 4,
+      "name": "AnimationEnable[1]"
+    },
+    {
+      "index": 5,
+      "name": "AnimationEnable[2]"
+    },
+    {
+      "index": 6,
+      "name": "AnimationEnable[3]"
+    },
+    {
+      "index": 7,
+      "name": "AnimationEnable[4]"
+    },
+    {
+      "index": 8,
+      "name": "AnimationEnable[5]"
+    },
+    {
+      "index": 9,
+      "name": "AnimationEnable[6]"
+    },
+    {
+      "index": 10,
+      "name": "AnimationEnable[7]"
     }
   ]
 }

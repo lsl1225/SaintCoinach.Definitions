@@ -3,10 +3,6 @@
   "defaultColumn": "Text",
   "definitions": [
     {
-      "name": "Text"
-    },
-    {
-      "index": 1,
       "name": "LogKind",
       "converter": {
         "type": "link",
@@ -14,20 +10,24 @@
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "DisplayFlags"
     },
     {
-      "index": 3,
+      "index": 2,
       "name": "Unknown1"
     },
     {
-      "index": 4,
+      "index": 3,
       "name": "Duration"
     },
     {
-      "index": 5,
+      "index": 4,
       "name": "Unknown2"
+    },
+    {
+      "index": 5,
+      "name": "Text"
     }
   ]
 }

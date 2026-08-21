@@ -2,23 +2,99 @@
   "sheet": "LeveRewardItem",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "LeveRewardItemGroup",
-        "converter": {
-          "type": "link",
-          "target": "LeveRewardItemGroup"
-        }
+      "name": "LeveRewardItemGroup[0]",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItemGroup"
       }
     },
     {
-      "index": 8,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "ProbabilityPercent"
+      "index": 1,
+      "name": "ProbabilityPercent[0]"
+    },
+    {
+      "index": 2,
+      "name": "LeveRewardItemGroup[1]",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItemGroup"
       }
+    },
+    {
+      "index": 3,
+      "name": "ProbabilityPercent[1]"
+    },
+    {
+      "index": 4,
+      "name": "LeveRewardItemGroup[2]",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItemGroup"
+      }
+    },
+    {
+      "index": 5,
+      "name": "ProbabilityPercent[2]"
+    },
+    {
+      "index": 6,
+      "name": "LeveRewardItemGroup[3]",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItemGroup"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ProbabilityPercent[3]"
+    },
+    {
+      "index": 8,
+      "name": "LeveRewardItemGroup[4]",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItemGroup"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ProbabilityPercent[4]"
+    },
+    {
+      "index": 10,
+      "name": "LeveRewardItemGroup[5]",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItemGroup"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ProbabilityPercent[5]"
+    },
+    {
+      "index": 12,
+      "name": "LeveRewardItemGroup[6]",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItemGroup"
+      }
+    },
+    {
+      "index": 13,
+      "name": "ProbabilityPercent[6]"
+    },
+    {
+      "index": 14,
+      "name": "LeveRewardItemGroup[7]",
+      "converter": {
+        "type": "link",
+        "target": "LeveRewardItemGroup"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ProbabilityPercent[7]"
     }
   ]
 }

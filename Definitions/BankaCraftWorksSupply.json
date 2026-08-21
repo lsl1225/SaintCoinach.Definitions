@@ -2,51 +2,195 @@
   "sheet": "BankaCraftWorksSupply",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "ItemId",
-            "converter": {
-              "type": "link",
-              "target": "Item"
-            }
-          },
-          {
-            "name": "XPReward"
-          },
-          {
-            "name": "Collectability",
-            "converter": {
-              "type": "link",
-              "target": "CollectablesRefine"
-            }
-          },
-          {
-            "name": "GilReward"
-          },
-          {
-            "name": "Level"
-          },
-          {
-            "name": "HighXPMultiplier"
-          },
-          {
-            "name": "HighGilMultiplier"
-          },
-          {
-            "name": "Unknown8"
-          },
-          {
-            "name": "ScripReward"
-          },
-          {
-            "name": "HighScripMultiplier"
-          }
-        ]
+      "name": "Level[0]"
+    },
+    {
+      "index": 1,
+      "name": "Level[1]"
+    },
+    {
+      "index": 2,
+      "name": "Level[2]"
+    },
+    {
+      "index": 3,
+      "name": "Level[3]"
+    },
+    {
+      "index": 4,
+      "name": "ItemId[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
+    },
+    {
+      "index": 5,
+      "name": "ItemId[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ItemId[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ItemId[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Collectability[0]",
+      "converter": {
+        "type": "link",
+        "target": "CollectablesRefine"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Collectability[1]",
+      "converter": {
+        "type": "link",
+        "target": "CollectablesRefine"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Collectability[2]",
+      "converter": {
+        "type": "link",
+        "target": "CollectablesRefine"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Collectability[3]",
+      "converter": {
+        "type": "link",
+        "target": "CollectablesRefine"
+      }
+    },
+    {
+      "index": 12,
+      "name": "XPReward[0]"
+    },
+    {
+      "index": 13,
+      "name": "XPReward[1]"
+    },
+    {
+      "index": 14,
+      "name": "XPReward[2]"
+    },
+    {
+      "index": 15,
+      "name": "XPReward[3]"
+    },
+    {
+      "index": 16,
+      "name": "HighXPMultiplier[0]"
+    },
+    {
+      "index": 17,
+      "name": "HighXPMultiplier[1]"
+    },
+    {
+      "index": 18,
+      "name": "HighXPMultiplier[2]"
+    },
+    {
+      "index": 19,
+      "name": "HighXPMultiplier[3]"
+    },
+    {
+      "index": 20,
+      "name": "GilReward[0]"
+    },
+    {
+      "index": 21,
+      "name": "GilReward[1]"
+    },
+    {
+      "index": 22,
+      "name": "GilReward[2]"
+    },
+    {
+      "index": 23,
+      "name": "GilReward[3]"
+    },
+    {
+      "index": 24,
+      "name": "HighGilMultiplier[0]"
+    },
+    {
+      "index": 25,
+      "name": "HighGilMultiplier[1]"
+    },
+    {
+      "index": 26,
+      "name": "HighGilMultiplier[2]"
+    },
+    {
+      "index": 27,
+      "name": "HighGilMultiplier[3]"
+    },
+    {
+      "index": 28,
+      "name": "Unknown8[0]"
+    },
+    {
+      "index": 29,
+      "name": "Unknown8[1]"
+    },
+    {
+      "index": 30,
+      "name": "Unknown8[2]"
+    },
+    {
+      "index": 31,
+      "name": "Unknown8[3]"
+    },
+    {
+      "index": 32,
+      "name": "ScripReward[0]"
+    },
+    {
+      "index": 33,
+      "name": "ScripReward[1]"
+    },
+    {
+      "index": 34,
+      "name": "ScripReward[2]"
+    },
+    {
+      "index": 35,
+      "name": "ScripReward[3]"
+    },
+    {
+      "index": 36,
+      "name": "HighScripMultiplier[0]"
+    },
+    {
+      "index": 37,
+      "name": "HighScripMultiplier[1]"
+    },
+    {
+      "index": 38,
+      "name": "HighScripMultiplier[2]"
+    },
+    {
+      "index": 39,
+      "name": "HighScripMultiplier[3]"
     }
   ]
 }

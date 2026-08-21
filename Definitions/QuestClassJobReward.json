@@ -2,38 +2,6 @@
   "sheet": "QuestClassJobReward",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RewardItem",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
-      }
-    },
-    {
-      "index": 4,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredItem",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
-      }
-    },
-    {
-      "index": 8,
-      "name": "Unknown8"
-    },
-    {
-      "index": 9,
-      "name": "Unknown9"
-    },
-    {
-      "index": 10,
       "name": "ClassJobCategory",
       "converter": {
         "type": "link",
@@ -41,20 +9,108 @@
       }
     },
     {
-      "index": 11,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RewardAmount"
+      "index": 1,
+      "name": "RewardItem[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
-      "index": 15,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredAmount"
+      "index": 2,
+      "name": "RewardItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
+    },
+    {
+      "index": 3,
+      "name": "RewardItem[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "RewardItem[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "RewardAmount[0]"
+    },
+    {
+      "index": 6,
+      "name": "RewardAmount[1]"
+    },
+    {
+      "index": 7,
+      "name": "RewardAmount[2]"
+    },
+    {
+      "index": 8,
+      "name": "RewardAmount[3]"
+    },
+    {
+      "index": 9,
+      "name": "RequiredItem[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "RequiredItem[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 11,
+      "name": "RequiredItem[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 12,
+      "name": "RequiredItem[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Unknown8"
+    },
+    {
+      "index": 14,
+      "name": "Unknown9"
+    },
+    {
+      "index": 15,
+      "name": "RequiredAmount[0]"
+    },
+    {
+      "index": 16,
+      "name": "RequiredAmount[1]"
+    },
+    {
+      "index": 17,
+      "name": "RequiredAmount[2]"
+    },
+    {
+      "index": 18,
+      "name": "RequiredAmount[3]"
     },
     {
       "index": 19,

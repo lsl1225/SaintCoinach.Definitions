@@ -2,39 +2,39 @@
   "sheet": "SkyIslandSubject",
   "definitions": [
     {
-      "name": "Unknown0"
-    },
-    {
-      "index": 1,
-      "name": "Unknown1"
-    },
-    {
-      "index": 2,
-      "name": "Unknown2"
-    },
-    {
-      "index": 3,
-      "name": "Unknown3"
-    },
-    {
-      "index": 4,
-      "name": "Unknown4"
-    },
-    {
-      "index": 5,
-      "name": "Unknown5"
-    },
-    {
-      "index": 6,
       "name": "Unknown6"
     },
     {
-      "index": 7,
+      "index": 1,
+      "name": "Unknown12"
+    },
+    {
+      "index": 2,
+      "name": "Unknown0"
+    },
+    {
+      "index": 3,
       "name": "Unknown7"
     },
     {
-      "index": 8,
+      "index": 4,
+      "name": "Unknown13"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
       "name": "Unknown8"
+    },
+    {
+      "index": 7,
+      "name": "Unknown14"
+    },
+    {
+      "index": 8,
+      "name": "Unknown2"
     },
     {
       "index": 9,
@@ -42,35 +42,35 @@
     },
     {
       "index": 10,
-      "name": "Unknown10"
-    },
-    {
-      "index": 11,
-      "name": "Unknown11"
-    },
-    {
-      "index": 12,
-      "name": "Unknown12"
-    },
-    {
-      "index": 13,
-      "name": "Unknown13"
-    },
-    {
-      "index": 14,
-      "name": "Unknown14"
-    },
-    {
-      "index": 15,
       "name": "Unknown15"
     },
     {
-      "index": 16,
+      "index": 11,
+      "name": "Unknown3"
+    },
+    {
+      "index": 12,
+      "name": "Unknown10"
+    },
+    {
+      "index": 13,
       "name": "Unknown16"
     },
     {
-      "index": 17,
+      "index": 14,
+      "name": "Unknown4"
+    },
+    {
+      "index": 15,
+      "name": "Unknown11"
+    },
+    {
+      "index": 16,
       "name": "Unknown17"
+    },
+    {
+      "index": 17,
+      "name": "Unknown5"
     }
   ]
 }

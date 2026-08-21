@@ -2,23 +2,274 @@
   "sheet": "ArrayEventHandler",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 16,
-      "definition": {
-        "name": "Data",
-        "converter": {
-          "type": "multiref",
-          "targets": [
-            "InstanceContentGuide",
-            "Story",
-            "Opening",
-            "CustomTalk",
-            "DefaultTalk",
-            "GilShop",
-            "Warp",
-            "Quest"
-          ]
-        }
+      "name": "Data[0]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "Data[1]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "Data[2]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "name": "Data[3]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "name": "Data[4]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "name": "Data[5]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "name": "Data[6]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "Data[7]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "name": "Data[8]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "name": "Data[9]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "name": "Data[10]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "name": "Data[11]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "name": "Data[12]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "name": "Data[13]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "name": "Data[14]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "name": "Data[15]",
+      "converter": {
+        "type": "multiref",
+        "targets": [
+          "InstanceContentGuide",
+          "Story",
+          "Opening",
+          "CustomTalk",
+          "DefaultTalk",
+          "GilShop",
+          "Warp",
+          "Quest"
+        ]
       }
     }
   ]

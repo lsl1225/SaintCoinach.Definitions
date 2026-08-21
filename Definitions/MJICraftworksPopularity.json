@@ -2,14 +2,730 @@
   "sheet": "MJICraftworksPopularity",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 91,
-      "definition": {
-        "name": "Popularity",
-        "converter": {
-          "type": "link",
-          "target": "MJICraftworksPopularityType"
-        }
+      "name": "Popularity[0]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Popularity[1]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Popularity[2]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Popularity[3]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Popularity[4]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Popularity[5]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Popularity[6]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Popularity[7]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Popularity[8]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Popularity[9]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Popularity[10]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Popularity[11]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Popularity[12]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Popularity[13]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Popularity[14]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Popularity[15]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Popularity[16]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Popularity[17]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Popularity[18]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Popularity[19]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Popularity[20]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Popularity[21]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Popularity[22]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Popularity[23]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Popularity[24]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Popularity[25]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Popularity[26]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 27,
+      "name": "Popularity[27]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 28,
+      "name": "Popularity[28]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Popularity[29]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Popularity[30]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 31,
+      "name": "Popularity[31]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Popularity[32]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Popularity[33]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 34,
+      "name": "Popularity[34]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 35,
+      "name": "Popularity[35]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 36,
+      "name": "Popularity[36]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 37,
+      "name": "Popularity[37]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 38,
+      "name": "Popularity[38]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 39,
+      "name": "Popularity[39]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 40,
+      "name": "Popularity[40]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 41,
+      "name": "Popularity[41]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 42,
+      "name": "Popularity[42]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 43,
+      "name": "Popularity[43]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 44,
+      "name": "Popularity[44]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 45,
+      "name": "Popularity[45]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 46,
+      "name": "Popularity[46]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 47,
+      "name": "Popularity[47]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 48,
+      "name": "Popularity[48]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 49,
+      "name": "Popularity[49]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 50,
+      "name": "Popularity[50]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 51,
+      "name": "Popularity[51]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 52,
+      "name": "Popularity[52]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 53,
+      "name": "Popularity[53]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 54,
+      "name": "Popularity[54]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 55,
+      "name": "Popularity[55]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 56,
+      "name": "Popularity[56]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 57,
+      "name": "Popularity[57]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 58,
+      "name": "Popularity[58]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 59,
+      "name": "Popularity[59]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 60,
+      "name": "Popularity[60]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 61,
+      "name": "Popularity[61]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 62,
+      "name": "Popularity[62]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 63,
+      "name": "Popularity[63]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 64,
+      "name": "Popularity[64]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 65,
+      "name": "Popularity[65]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 66,
+      "name": "Popularity[66]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 67,
+      "name": "Popularity[67]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 68,
+      "name": "Popularity[68]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 69,
+      "name": "Popularity[69]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 70,
+      "name": "Popularity[70]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 71,
+      "name": "Popularity[71]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 72,
+      "name": "Popularity[72]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 73,
+      "name": "Popularity[73]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 74,
+      "name": "Popularity[74]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 75,
+      "name": "Popularity[75]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 76,
+      "name": "Popularity[76]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 77,
+      "name": "Popularity[77]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 78,
+      "name": "Popularity[78]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 79,
+      "name": "Popularity[79]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 80,
+      "name": "Popularity[80]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 81,
+      "name": "Popularity[81]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 82,
+      "name": "Popularity[82]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 83,
+      "name": "Popularity[83]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 84,
+      "name": "Popularity[84]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 85,
+      "name": "Popularity[85]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 86,
+      "name": "Popularity[86]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 87,
+      "name": "Popularity[87]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 88,
+      "name": "Popularity[88]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 89,
+      "name": "Popularity[89]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
+      }
+    },
+    {
+      "index": 90,
+      "name": "Popularity[90]",
+      "converter": {
+        "type": "link",
+        "target": "MJICraftworksPopularityType"
       }
     }
   ]

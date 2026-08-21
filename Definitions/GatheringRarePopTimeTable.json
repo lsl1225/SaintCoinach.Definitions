@@ -2,19 +2,27 @@
   "sheet": "GatheringRarePopTimeTable",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "StartTime"
-      }
+      "name": "StartTime[0]"
+    },
+    {
+      "index": 1,
+      "name": "Duration[0]"
+    },
+    {
+      "index": 2,
+      "name": "StartTime[1]"
     },
     {
       "index": 3,
-      "type": "repeat",
-      "count": 3,
-      "definition": {
-        "name": "Duration"
-      }
+      "name": "Duration[1]"
+    },
+    {
+      "index": 4,
+      "name": "StartTime[2]"
+    },
+    {
+      "index": 5,
+      "name": "Duration[2]"
     }
   ]
 }

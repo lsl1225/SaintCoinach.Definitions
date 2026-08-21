@@ -2,11 +2,11 @@
   "sheet": "HugeCraftworksRank",
   "definitions": [
     {
-      "name": "ExpRewardPerItem"
+      "name": "CrafterLevel"
     },
     {
       "index": 1,
-      "name": "CrafterLevel"
+      "name": "ExpRewardPerItem"
     },
     {
       "index": 2,

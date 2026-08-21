@@ -2,23 +2,23 @@
   "sheet": "ActivityFeedButtons",
   "definitions": [
     {
-      "name": "BannerURL"
+      "name": "Unknown0"
     },
     {
       "index": 1,
-      "name": "Description"
+      "name": "BannerURL"
     },
     {
       "index": 2,
-      "name": "Language"
+      "name": "Description"
     },
     {
       "index": 3,
-      "name": "PictureURL"
+      "name": "Language"
     },
     {
       "index": 4,
-      "name": "Unknown0"
+      "name": "PictureURL"
     }
   ]
 }

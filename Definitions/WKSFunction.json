@@ -2,58 +2,146 @@
   "sheet": "WKSFunction",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredQuests0",
-        "converter": {
-          "type": "link",
-          "target": "Quest"
-        }
+      "name": "RequiredDevGrade[0]",
+      "converter": {
+        "type": "link",
+        "target": "WKSDevGrade"
+      }
+    },
+    {
+      "index": 1,
+      "name": "RequiredDevGrade[1]",
+      "converter": {
+        "type": "link",
+        "target": "WKSDevGrade"
+      }
+    },
+    {
+      "index": 2,
+      "name": "RequiredDevGrade[2]",
+      "converter": {
+        "type": "link",
+        "target": "WKSDevGrade"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RequiredDevGrade[3]",
+      "converter": {
+        "type": "link",
+        "target": "WKSDevGrade"
       }
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredQuests1",
-        "converter": {
-          "type": "link",
-          "target": "Quest"
-        }
-      }
+      "name": "Unknown12[0]"
+    },
+    {
+      "index": 5,
+      "name": "Unknown12[1]"
+    },
+    {
+      "index": 6,
+      "name": "Unknown12[2]"
+    },
+    {
+      "index": 7,
+      "name": "Unknown12[3]"
     },
     {
       "index": 8,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredQuests2",
-        "converter": {
-          "type": "link",
-          "target": "Quest"
-        }
+      "name": "RequiredQuests0[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 9,
+      "name": "RequiredQuests0[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 10,
+      "name": "RequiredQuests0[2]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 11,
+      "name": "RequiredQuests0[3]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
       }
     },
     {
       "index": 12,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "RequiredDevGrade",
-        "converter": {
-          "type": "link",
-          "target": "WKSDevGrade"
-        }
+      "name": "RequiredQuests1[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 13,
+      "name": "RequiredQuests1[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 14,
+      "name": "RequiredQuests1[2]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 15,
+      "name": "RequiredQuests1[3]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
       }
     },
     {
       "index": 16,
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "Unknown12"
+      "name": "RequiredQuests2[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 17,
+      "name": "RequiredQuests2[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 18,
+      "name": "RequiredQuests2[2]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 19,
+      "name": "RequiredQuests2[3]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
       }
     }
   ]

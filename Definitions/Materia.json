@@ -2,31 +2,203 @@
   "sheet": "Materia",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 16,
-      "definition": {
-        "name": "Item",
-        "converter": {
-          "type": "link",
-          "target": "Item"
-        }
+      "name": "Item[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Item[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Item[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Item[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Item[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Item[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Item[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Item[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Item[8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Item[9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Item[10]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Item[11]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Item[12]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Item[13]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Item[14]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Item[15]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
       "index": 16,
-      "type": "repeat",
-      "count": 16,
-      "definition": {
-        "name": "Value"
-      }
-    },
-    {
-      "index": 32,
       "name": "BaseParam",
       "converter": {
         "type": "link",
         "target": "BaseParam"
       }
+    },
+    {
+      "index": 17,
+      "name": "Value[0]"
+    },
+    {
+      "index": 18,
+      "name": "Value[1]"
+    },
+    {
+      "index": 19,
+      "name": "Value[2]"
+    },
+    {
+      "index": 20,
+      "name": "Value[3]"
+    },
+    {
+      "index": 21,
+      "name": "Value[4]"
+    },
+    {
+      "index": 22,
+      "name": "Value[5]"
+    },
+    {
+      "index": 23,
+      "name": "Value[6]"
+    },
+    {
+      "index": 24,
+      "name": "Value[7]"
+    },
+    {
+      "index": 25,
+      "name": "Value[8]"
+    },
+    {
+      "index": 26,
+      "name": "Value[9]"
+    },
+    {
+      "index": 27,
+      "name": "Value[10]"
+    },
+    {
+      "index": 28,
+      "name": "Value[11]"
+    },
+    {
+      "index": 29,
+      "name": "Value[12]"
+    },
+    {
+      "index": 30,
+      "name": "Value[13]"
+    },
+    {
+      "index": 31,
+      "name": "Value[14]"
+    },
+    {
+      "index": 32,
+      "name": "Value[15]"
     }
   ]
 }

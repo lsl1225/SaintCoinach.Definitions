@@ -3,14 +3,6 @@
   "defaultColumn": "Area",
   "definitions": [
     {
-      "name": "Area",
-      "converter": {
-        "type": "link",
-        "target": "MJIText"
-      }
-    },
-    {
-      "index": 1,
       "name": "RareMaterial",
       "converter": {
         "type": "link",
@@ -18,8 +10,16 @@
       }
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "Unknown0"
+    },
+    {
+      "index": 2,
+      "name": "Area",
+      "converter": {
+        "type": "link",
+        "target": "MJIText"
+      }
     }
   ]
 }

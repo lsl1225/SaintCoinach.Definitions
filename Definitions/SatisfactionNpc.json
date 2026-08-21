@@ -3,81 +3,6 @@
   "defaultColumn": "Npc",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "SupplyIndex"
-          },
-          {
-            "type": "repeat",
-            "count": 3,
-            "definition": {
-              "name": "Item",
-              "converter": {
-                "type": "link",
-                "target": "Item"
-              }
-            }
-          },
-          {
-            "name": "SatisfactionRequired"
-          },
-          {
-            "type": "repeat",
-            "count": 3,
-            "definition": {
-              "name": "ItemCount"
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 3,
-            "definition": {
-              "name": "IsHQ"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "index": 66,
-      "type": "repeat",
-      "count": 6,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "ImageId",
-            "converter": {
-              "type": "icon"
-            }
-          },
-          {
-            "name": "Unknown1"
-          },
-          {
-            "name": "Quest",
-            "converter": {
-              "type": "link",
-              "target": "Quest"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "index": 84,
-      "name": "Level",
-      "converter": {
-        "type": "link",
-        "target": "Level"
-      }
-    },
-    {
-      "index": 85,
       "name": "Npc",
       "converter": {
         "type": "link",
@@ -85,7 +10,7 @@
       }
     },
     {
-      "index": 86,
+      "index": 1,
       "name": "QuestRequired",
       "converter": {
         "type": "link",
@@ -93,19 +18,477 @@
       }
     },
     {
-      "index": 87,
-      "name": "Icon",
+      "index": 2,
+      "name": "LevelUnlock"
+    },
+    {
+      "index": 3,
+      "name": "DeliveriesPerWeek"
+    },
+    {
+      "index": 4,
+      "name": "SupplyIndex[0]"
+    },
+    {
+      "index": 5,
+      "name": "SupplyIndex[1]"
+    },
+    {
+      "index": 6,
+      "name": "SupplyIndex[2]"
+    },
+    {
+      "index": 7,
+      "name": "SupplyIndex[3]"
+    },
+    {
+      "index": 8,
+      "name": "SupplyIndex[4]"
+    },
+    {
+      "index": 9,
+      "name": "SupplyIndex[5]"
+    },
+    {
+      "index": 10,
+      "name": "SatisfactionRequired[0]"
+    },
+    {
+      "index": 11,
+      "name": "SatisfactionRequired[1]"
+    },
+    {
+      "index": 12,
+      "name": "SatisfactionRequired[2]"
+    },
+    {
+      "index": 13,
+      "name": "SatisfactionRequired[3]"
+    },
+    {
+      "index": 14,
+      "name": "SatisfactionRequired[4]"
+    },
+    {
+      "index": 15,
+      "name": "SatisfactionRequired[5]"
+    },
+    {
+      "index": 16,
+      "name": "Item[0][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Item[0][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Item[0][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Item[0][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Item[0][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Item[0][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 22,
+      "name": "ItemCount[0][0]"
+    },
+    {
+      "index": 23,
+      "name": "ItemCount[0][1]"
+    },
+    {
+      "index": 24,
+      "name": "ItemCount[0][2]"
+    },
+    {
+      "index": 25,
+      "name": "ItemCount[0][3]"
+    },
+    {
+      "index": 26,
+      "name": "ItemCount[0][4]"
+    },
+    {
+      "index": 27,
+      "name": "ItemCount[0][5]"
+    },
+    {
+      "index": 28,
+      "name": "IsHQ[0][0]"
+    },
+    {
+      "index": 29,
+      "name": "IsHQ[0][1]"
+    },
+    {
+      "index": 30,
+      "name": "IsHQ[0][2]"
+    },
+    {
+      "index": 31,
+      "name": "IsHQ[0][3]"
+    },
+    {
+      "index": 32,
+      "name": "IsHQ[0][4]"
+    },
+    {
+      "index": 33,
+      "name": "IsHQ[0][5]"
+    },
+    {
+      "index": 34,
+      "name": "Item[1][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 35,
+      "name": "Item[1][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 36,
+      "name": "Item[1][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 37,
+      "name": "Item[1][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 38,
+      "name": "Item[1][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 39,
+      "name": "Item[1][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 40,
+      "name": "ItemCount[1][0]"
+    },
+    {
+      "index": 41,
+      "name": "ItemCount[1][1]"
+    },
+    {
+      "index": 42,
+      "name": "ItemCount[1][2]"
+    },
+    {
+      "index": 43,
+      "name": "ItemCount[1][3]"
+    },
+    {
+      "index": 44,
+      "name": "ItemCount[1][4]"
+    },
+    {
+      "index": 45,
+      "name": "ItemCount[1][5]"
+    },
+    {
+      "index": 46,
+      "name": "IsHQ[1][0]"
+    },
+    {
+      "index": 47,
+      "name": "IsHQ[1][1]"
+    },
+    {
+      "index": 48,
+      "name": "IsHQ[1][2]"
+    },
+    {
+      "index": 49,
+      "name": "IsHQ[1][3]"
+    },
+    {
+      "index": 50,
+      "name": "IsHQ[1][4]"
+    },
+    {
+      "index": 51,
+      "name": "IsHQ[1][5]"
+    },
+    {
+      "index": 52,
+      "name": "Item[2][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 53,
+      "name": "Item[2][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 54,
+      "name": "Item[2][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 55,
+      "name": "Item[2][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 56,
+      "name": "Item[2][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 57,
+      "name": "Item[2][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 58,
+      "name": "ItemCount[2][0]"
+    },
+    {
+      "index": 59,
+      "name": "ItemCount[2][1]"
+    },
+    {
+      "index": 60,
+      "name": "ItemCount[2][2]"
+    },
+    {
+      "index": 61,
+      "name": "ItemCount[2][3]"
+    },
+    {
+      "index": 62,
+      "name": "ItemCount[2][4]"
+    },
+    {
+      "index": 63,
+      "name": "ItemCount[2][5]"
+    },
+    {
+      "index": 64,
+      "name": "IsHQ[2][0]"
+    },
+    {
+      "index": 65,
+      "name": "IsHQ[2][1]"
+    },
+    {
+      "index": 66,
+      "name": "IsHQ[2][2]"
+    },
+    {
+      "index": 67,
+      "name": "IsHQ[2][3]"
+    },
+    {
+      "index": 68,
+      "name": "IsHQ[2][4]"
+    },
+    {
+      "index": 69,
+      "name": "IsHQ[2][5]"
+    },
+    {
+      "index": 70,
+      "name": "ImageId[0]",
       "converter": {
         "type": "icon"
       }
     },
     {
+      "index": 71,
+      "name": "ImageId[1]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 72,
+      "name": "ImageId[2]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 73,
+      "name": "ImageId[3]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 74,
+      "name": "ImageId[4]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 75,
+      "name": "ImageId[5]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 76,
+      "name": "Unknown1[0]"
+    },
+    {
+      "index": 77,
+      "name": "Unknown1[1]"
+    },
+    {
+      "index": 78,
+      "name": "Unknown1[2]"
+    },
+    {
+      "index": 79,
+      "name": "Unknown1[3]"
+    },
+    {
+      "index": 80,
+      "name": "Unknown1[4]"
+    },
+    {
+      "index": 81,
+      "name": "Unknown1[5]"
+    },
+    {
+      "index": 82,
+      "name": "Quest[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 83,
+      "name": "Quest[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 84,
+      "name": "Quest[2]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 85,
+      "name": "Quest[3]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 86,
+      "name": "Quest[4]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 87,
+      "name": "Quest[5]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
       "index": 88,
-      "name": "LevelUnlock"
+      "name": "Level",
+      "converter": {
+        "type": "link",
+        "target": "Level"
+      }
     },
     {
       "index": 89,
-      "name": "DeliveriesPerWeek"
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
     },
     {
       "index": 90,

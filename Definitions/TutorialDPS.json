@@ -2,15 +2,15 @@
   "sheet": "TutorialDPS",
   "definitions": [
     {
-      "name": "Image"
-    },
-    {
-      "index": 1,
       "name": "Objective",
       "converter": {
         "type": "link",
         "target": "Tutorial"
       }
+    },
+    {
+      "index": 1,
+      "name": "Image"
     }
   ]
 }

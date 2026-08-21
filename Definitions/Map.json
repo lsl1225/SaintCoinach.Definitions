@@ -3,51 +3,43 @@
   "defaultColumn": "PlaceName",
   "definitions": [
     {
-      "name": "Id"
+      "name": "MapCondition",
+      "converter": {
+        "type": "link",
+        "target": "MapCondition"
+      }
     },
     {
       "index": 1,
-      "name": "DiscoveryFlag"
+      "name": "PriorityCategoryUI"
     },
     {
       "index": 2,
-      "name": "MapMarkerRange"
+      "name": "PriorityUI"
     },
     {
       "index": 3,
-      "name": "SizeFactor"
+      "name": "MapIndex"
     },
     {
       "index": 4,
-      "name": "PlaceNameRegion",
+      "name": "MapType",
       "converter": {
         "type": "link",
-        "target": "PlaceName"
+        "target": "MapType"
       }
     },
     {
       "index": 5,
-      "name": "PlaceName",
-      "converter": {
-        "type": "link",
-        "target": "PlaceName"
-      }
+      "name": "MapMarkerRange"
     },
     {
       "index": 6,
-      "name": "PlaceNameSub",
-      "converter": {
-        "type": "link",
-        "target": "PlaceName"
-      }
+      "name": "Id"
     },
     {
       "index": 7,
-      "name": "TerritoryType",
-      "converter": {
-        "type": "link",
-        "target": "TerritoryType"
-      }
+      "name": "SizeFactor"
     },
     {
       "index": 8,
@@ -59,59 +51,67 @@
     },
     {
       "index": 10,
-      "name": "DiscoveryIndex"
+      "name": "PlaceNameRegion",
+      "converter": {
+        "type": "link",
+        "target": "PlaceName"
+      }
     },
     {
       "index": 11,
-      "name": "MapCondition",
+      "name": "PlaceName",
       "converter": {
         "type": "link",
-        "target": "MapCondition"
+        "target": "PlaceName"
       }
     },
     {
       "index": 12,
-      "name": "PriorityCategoryUI"
-    },
-    {
-      "index": 13,
-      "name": "PriorityUI"
-    },
-    {
-      "index": 14,
-      "name": "MapType",
+      "name": "PlaceNameSub",
       "converter": {
         "type": "link",
-        "target": "MapType"
+        "target": "PlaceName"
       }
     },
     {
-      "index": 15,
+      "index": 13,
       "name": "Unknown2"
     },
     {
+      "index": 14,
+      "name": "DiscoveryIndex"
+    },
+    {
+      "index": 15,
+      "name": "DiscoveryFlag"
+    },
+    {
       "index": 16,
+      "name": "TerritoryType",
+      "converter": {
+        "type": "link",
+        "target": "TerritoryType"
+      }
+    },
+    {
+      "index": 17,
+      "name": "DiscoveryArrayByte"
+    },
+    {
+      "index": 18,
+      "name": "IsEvent"
+    },
+    {
+      "index": 19,
+      "name": "Unknown1"
+    },
+    {
+      "index": 20,
       "name": "MapReplace",
       "converter": {
         "type": "link",
         "target": "MapReplace"
       }
-    },
-    {
-      "index": 17,
-      "name": "MapIndex"
-    },
-    {
-      "index": 18,
-      "name": "DiscoveryArrayByte"
-    },
-    {
-      "index": 19,
-      "name": "IsEvent"
-    },
-    {
-      "index": 20,
-      "name": "Unknown1"
     }
   ]
 }

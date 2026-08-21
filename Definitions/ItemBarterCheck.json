@@ -2,6 +2,14 @@
   "sheet": "ItemBarterCheck",
   "definitions": [
     {
+      "name": "Category",
+      "converter": {
+        "type": "link",
+        "target": "AddonTransient"
+      }
+    },
+    {
+      "index": 1,
       "name": "Question",
       "converter": {
         "type": "multiref",
@@ -12,19 +20,11 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "name": "Confirm",
       "converter": {
         "type": "link",
         "target": "Addon"
-      }
-    },
-    {
-      "index": 2,
-      "name": "Category",
-      "converter": {
-        "type": "link",
-        "target": "AddonTransient"
       }
     }
   ]

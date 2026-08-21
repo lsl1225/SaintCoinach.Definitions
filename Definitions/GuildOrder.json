@@ -2,75 +2,75 @@
   "sheet": "GuildOrder",
   "definitions": [
     {
-      "name": "Objective"
-    },
-    {
-      "index": 1,
-      "name": "Description1"
-    },
-    {
-      "index": 2,
-      "name": "Description2"
-    },
-    {
-      "index": 3,
-      "name": "Description3"
-    },
-    {
-      "index": 4,
-      "name": "CompletionBonusExp"
-    },
-    {
-      "index": 5,
-      "name": "RewardExp"
-    },
-    {
-      "index": 6,
-      "name": "CompletionBonusGil"
-    },
-    {
-      "index": 7,
-      "name": "RewardGil"
-    },
-    {
-      "index": 8,
-      "name": "Unknown0"
-    },
-    {
-      "index": 9,
-      "name": "Unknown1"
-    },
-    {
-      "index": 10,
-      "name": "Unknown2"
-    },
-    {
-      "index": 11,
-      "name": "Unknown3"
-    },
-    {
-      "index": 12,
-      "name": "Unknown4"
-    },
-    {
-      "index": 13,
-      "name": "Unknown5"
-    },
-    {
-      "index": 14,
-      "name": "Unknown6"
-    },
-    {
-      "index": 15,
-      "name": "Unknown7"
-    },
-    {
-      "index": 16,
       "name": "ENpcName",
       "converter": {
         "type": "link",
         "target": "ENpcResident"
       }
+    },
+    {
+      "index": 1,
+      "name": "Objective"
+    },
+    {
+      "index": 2,
+      "name": "Description1"
+    },
+    {
+      "index": 3,
+      "name": "Description2"
+    },
+    {
+      "index": 4,
+      "name": "Description3"
+    },
+    {
+      "index": 5,
+      "name": "CompletionBonusExp"
+    },
+    {
+      "index": 6,
+      "name": "RewardExp"
+    },
+    {
+      "index": 7,
+      "name": "CompletionBonusGil"
+    },
+    {
+      "index": 8,
+      "name": "RewardGil"
+    },
+    {
+      "index": 9,
+      "name": "Unknown0"
+    },
+    {
+      "index": 10,
+      "name": "Unknown1"
+    },
+    {
+      "index": 11,
+      "name": "Unknown2"
+    },
+    {
+      "index": 12,
+      "name": "Unknown3"
+    },
+    {
+      "index": 13,
+      "name": "Unknown4"
+    },
+    {
+      "index": 14,
+      "name": "Unknown5"
+    },
+    {
+      "index": 15,
+      "name": "Unknown6"
+    },
+    {
+      "index": 16,
+      "name": "Unknown7"
     }
   ]
 }

@@ -3,26 +3,14 @@
   "defaultColumn": "Content0",
   "definitions": [
     {
-      "name": "Score1"
+      "name": "ContentType",
+      "converter": {
+        "type": "link",
+        "target": "CSBonusContentType"
+      }
     },
     {
       "index": 1,
-      "name": "Score2"
-    },
-    {
-      "index": 2,
-      "name": "Score3"
-    },
-    {
-      "index": 3,
-      "name": "Score4"
-    },
-    {
-      "index": 4,
-      "name": "Score5"
-    },
-    {
-      "index": 5,
       "name": "Content0",
       "converter": {
         "type": "link",
@@ -30,7 +18,7 @@
       }
     },
     {
-      "index": 6,
+      "index": 2,
       "name": "Content1",
       "converter": {
         "type": "link",
@@ -38,16 +26,28 @@
       }
     },
     {
-      "index": 7,
+      "index": 3,
       "name": "Score0"
     },
     {
+      "index": 4,
+      "name": "Score1"
+    },
+    {
+      "index": 5,
+      "name": "Score2"
+    },
+    {
+      "index": 6,
+      "name": "Score3"
+    },
+    {
+      "index": 7,
+      "name": "Score4"
+    },
+    {
       "index": 8,
-      "name": "ContentType",
-      "converter": {
-        "type": "link",
-        "target": "CSBonusContentType"
-      }
+      "name": "Score5"
     },
     {
       "index": 9,

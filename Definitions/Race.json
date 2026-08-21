@@ -19,14 +19,6 @@
     },
     {
       "index": 3,
-      "name": "RSEFBody",
-      "converter": {
-        "type": "link",
-        "target": "Item"
-      }
-    },
-    {
-      "index": 4,
       "name": "RSEMHands",
       "converter": {
         "type": "link",
@@ -34,15 +26,7 @@
       }
     },
     {
-      "index": 5,
-      "name": "RSEFHands",
-      "converter": {
-        "type": "link",
-        "target": "Item"
-      }
-    },
-    {
-      "index": 6,
+      "index": 4,
       "name": "RSEMLegs",
       "converter": {
         "type": "link",
@@ -50,8 +34,24 @@
       }
     },
     {
+      "index": 5,
+      "name": "RSEMFeet",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RSEFBody",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
       "index": 7,
-      "name": "RSEFLegs",
+      "name": "RSEFHands",
       "converter": {
         "type": "link",
         "target": "Item"
@@ -59,7 +59,7 @@
     },
     {
       "index": 8,
-      "name": "RSEMFeet",
+      "name": "RSEFLegs",
       "converter": {
         "type": "link",
         "target": "Item"

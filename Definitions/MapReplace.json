@@ -2,6 +2,22 @@
   "sheet": "MapReplace",
   "definitions": [
     {
+      "name": "Unknown7"
+    },
+    {
+      "index": 1,
+      "name": "Unknown8"
+    },
+    {
+      "index": 2,
+      "name": "Unknown5"
+    },
+    {
+      "index": 3,
+      "name": "Unknown6"
+    },
+    {
+      "index": 4,
       "name": "Quest",
       "converter": {
         "type": "link",
@@ -9,7 +25,11 @@
       }
     },
     {
-      "index": 1,
+      "index": 5,
+      "name": "QuestSequence"
+    },
+    {
+      "index": 6,
       "name": "Map",
       "converter": {
         "type": "link",
@@ -17,7 +37,7 @@
       }
     },
     {
-      "index": 2,
+      "index": 7,
       "name": "TerritoryType",
       "converter": {
         "type": "link",
@@ -25,28 +45,8 @@
       }
     },
     {
-      "index": 3,
-      "name": "Unknown4"
-    },
-    {
-      "index": 4,
-      "name": "Unknown7"
-    },
-    {
-      "index": 5,
-      "name": "Unknown8"
-    },
-    {
-      "index": 6,
-      "name": "Unknown5"
-    },
-    {
-      "index": 7,
-      "name": "Unknown6"
-    },
-    {
       "index": 8,
-      "name": "QuestSequence"
+      "name": "Unknown4"
     }
   ]
 }

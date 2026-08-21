@@ -2,34 +2,41 @@
   "sheet": "TradeScreenImage",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Items",
-        "converter": {
-          "type": "link",
-          "target": "EventItem"
-        }
+      "name": "Items[0]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Items[1]",
+      "converter": {
+        "type": "link",
+        "target": "EventItem"
       }
     },
     {
       "index": 2,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "ItemIcons",
-        "converter": {
-          "type": "icon"
-        }
+      "name": "ItemIcons[0]",
+      "converter": {
+        "type": "icon"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ItemIcons[1]",
+      "converter": {
+        "type": "icon"
       }
     },
     {
       "index": 4,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "ItemValues"
-      }
+      "name": "ItemValues[0]"
+    },
+    {
+      "index": 5,
+      "name": "ItemValues[1]"
     },
     {
       "index": 6,

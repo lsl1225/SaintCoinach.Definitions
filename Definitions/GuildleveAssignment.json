@@ -6,6 +6,10 @@
     },
     {
       "index": 1,
+      "name": "Unknown0"
+    },
+    {
+      "index": 2,
       "name": "AssignmentTalk",
       "converter": {
         "type": "link",
@@ -13,44 +17,44 @@
       }
     },
     {
-      "index": 2,
-      "type": "repeat",
-      "count": 2,
-      "definition": {
-        "name": "Quest",
-        "converter": {
-          "type": "link",
-          "target": "Quest"
-        }
+      "index": 3,
+      "name": "Quest[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
       }
     },
     {
       "index": 4,
-      "name": "Unknown0"
+      "name": "Quest[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
     },
     {
       "index": 5,
-      "name": "Unknown1"
-    },
-    {
-      "index": 6,
       "name": "Unknown2"
     },
     {
-      "index": 7,
+      "index": 6,
       "name": "Unknown3"
     },
     {
-      "index": 8,
+      "index": 7,
       "name": "Unknown4"
     },
     {
-      "index": 9,
+      "index": 8,
       "name": "Unknown5"
     },
     {
-      "index": 10,
+      "index": 9,
       "name": "Unknown6"
+    },
+    {
+      "index": 10,
+      "name": "Unknown1"
     }
   ]
 }

@@ -2,6 +2,10 @@
   "sheet": "MobHuntOrderType",
   "definitions": [
     {
+      "name": "Type"
+    },
+    {
+      "index": 1,
       "name": "Quest",
       "converter": {
         "type": "link",
@@ -9,7 +13,7 @@
       }
     },
     {
-      "index": 1,
+      "index": 2,
       "name": "EventItem",
       "converter": {
         "type": "link",
@@ -17,16 +21,12 @@
       }
     },
     {
-      "index": 2,
+      "index": 3,
       "name": "OrderStart",
       "converter": {
         "type": "link",
         "target": "MobHuntOrder"
       }
-    },
-    {
-      "index": 3,
-      "name": "Type"
     },
     {
       "index": 4,

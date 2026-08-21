@@ -7,121 +7,10330 @@
     },
     {
       "index": 1,
-      "type": "repeat",
-      "count": 60,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "type": "repeat",
-            "count": 2,
-            "definition": {
-              "name": "ReceiveCount"
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 3,
-            "definition": {
-              "name": "CurrencyCost"
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 2,
-            "definition": {
-              "name": "Item",
-              "converter": {
-                "type": "link",
-                "target": "Item"
-              }
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 2,
-            "definition": {
-              "name": "Category",
-              "converter": {
-                "type": "link",
-                "target": "SpecialShopItemCategory"
-              }
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 3,
-            "definition": {
-              "name": "ItemCost",
-              "converter": {
-                "type": "link",
-                "target": "Item"
-              }
-            }
-          },
-          {
-            "name": "Quest",
-            "converter": {
-              "type": "link",
-              "target": "Quest"
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 4,
-            "definition": {
-              "name": "Unknown0"
-            }
-          },
-          {
-            "name": "AchievementUnlock",
-            "converter": {
-              "type": "link",
-              "target": "Achievement"
-            }
-          },
-          {
-            "name": "Unknown2"
-          },
-          {
-            "type": "repeat",
-            "count": 3,
-            "definition": {
-              "name": "CollectabilityCost"
-            }
-          },
-          {
-            "name": "PatchNumber"
-          },
-          {
-            "type": "repeat",
-            "count": 3,
-            "definition": {
-              "name": "CostType"
-            }
-          },
-          {
-            "type": "repeat",
-            "count": 5,
-            "definition": {
-              "name": "Unknown1"
-            }
-          },
-          {
-            "name": "Order"
-          },
-          {
-            "type": "repeat",
-            "count": 2,
-            "definition": {
-              "name": "ReceiveHq"
-            }
-          }
-        ]
+      "name": "Item[0][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
       }
     },
     {
+      "index": 2,
+      "name": "Item[0][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Item[0][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Item[0][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Item[0][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Item[0][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "Item[0][6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Item[0][7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Item[0][8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "Item[0][9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Item[0][10]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Item[0][11]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Item[0][12]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Item[0][13]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 15,
+      "name": "Item[0][14]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Item[0][15]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Item[0][16]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Item[0][17]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Item[0][18]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Item[0][19]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Item[0][20]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Item[0][21]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Item[0][22]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 24,
+      "name": "Item[0][23]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Item[0][24]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Item[0][25]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 27,
+      "name": "Item[0][26]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 28,
+      "name": "Item[0][27]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Item[0][28]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Item[0][29]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 31,
+      "name": "Item[0][30]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 32,
+      "name": "Item[0][31]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Item[0][32]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 34,
+      "name": "Item[0][33]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 35,
+      "name": "Item[0][34]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 36,
+      "name": "Item[0][35]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 37,
+      "name": "Item[0][36]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 38,
+      "name": "Item[0][37]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 39,
+      "name": "Item[0][38]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 40,
+      "name": "Item[0][39]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 41,
+      "name": "Item[0][40]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 42,
+      "name": "Item[0][41]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 43,
+      "name": "Item[0][42]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 44,
+      "name": "Item[0][43]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 45,
+      "name": "Item[0][44]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 46,
+      "name": "Item[0][45]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 47,
+      "name": "Item[0][46]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 48,
+      "name": "Item[0][47]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 49,
+      "name": "Item[0][48]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 50,
+      "name": "Item[0][49]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 51,
+      "name": "Item[0][50]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 52,
+      "name": "Item[0][51]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 53,
+      "name": "Item[0][52]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 54,
+      "name": "Item[0][53]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 55,
+      "name": "Item[0][54]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 56,
+      "name": "Item[0][55]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 57,
+      "name": "Item[0][56]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 58,
+      "name": "Item[0][57]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 59,
+      "name": "Item[0][58]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 60,
+      "name": "Item[0][59]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 61,
+      "name": "ReceiveCount[0][0]"
+    },
+    {
+      "index": 62,
+      "name": "ReceiveCount[0][1]"
+    },
+    {
+      "index": 63,
+      "name": "ReceiveCount[0][2]"
+    },
+    {
+      "index": 64,
+      "name": "ReceiveCount[0][3]"
+    },
+    {
+      "index": 65,
+      "name": "ReceiveCount[0][4]"
+    },
+    {
+      "index": 66,
+      "name": "ReceiveCount[0][5]"
+    },
+    {
+      "index": 67,
+      "name": "ReceiveCount[0][6]"
+    },
+    {
+      "index": 68,
+      "name": "ReceiveCount[0][7]"
+    },
+    {
+      "index": 69,
+      "name": "ReceiveCount[0][8]"
+    },
+    {
+      "index": 70,
+      "name": "ReceiveCount[0][9]"
+    },
+    {
+      "index": 71,
+      "name": "ReceiveCount[0][10]"
+    },
+    {
+      "index": 72,
+      "name": "ReceiveCount[0][11]"
+    },
+    {
+      "index": 73,
+      "name": "ReceiveCount[0][12]"
+    },
+    {
+      "index": 74,
+      "name": "ReceiveCount[0][13]"
+    },
+    {
+      "index": 75,
+      "name": "ReceiveCount[0][14]"
+    },
+    {
+      "index": 76,
+      "name": "ReceiveCount[0][15]"
+    },
+    {
+      "index": 77,
+      "name": "ReceiveCount[0][16]"
+    },
+    {
+      "index": 78,
+      "name": "ReceiveCount[0][17]"
+    },
+    {
+      "index": 79,
+      "name": "ReceiveCount[0][18]"
+    },
+    {
+      "index": 80,
+      "name": "ReceiveCount[0][19]"
+    },
+    {
+      "index": 81,
+      "name": "ReceiveCount[0][20]"
+    },
+    {
+      "index": 82,
+      "name": "ReceiveCount[0][21]"
+    },
+    {
+      "index": 83,
+      "name": "ReceiveCount[0][22]"
+    },
+    {
+      "index": 84,
+      "name": "ReceiveCount[0][23]"
+    },
+    {
+      "index": 85,
+      "name": "ReceiveCount[0][24]"
+    },
+    {
+      "index": 86,
+      "name": "ReceiveCount[0][25]"
+    },
+    {
+      "index": 87,
+      "name": "ReceiveCount[0][26]"
+    },
+    {
+      "index": 88,
+      "name": "ReceiveCount[0][27]"
+    },
+    {
+      "index": 89,
+      "name": "ReceiveCount[0][28]"
+    },
+    {
+      "index": 90,
+      "name": "ReceiveCount[0][29]"
+    },
+    {
+      "index": 91,
+      "name": "ReceiveCount[0][30]"
+    },
+    {
+      "index": 92,
+      "name": "ReceiveCount[0][31]"
+    },
+    {
+      "index": 93,
+      "name": "ReceiveCount[0][32]"
+    },
+    {
+      "index": 94,
+      "name": "ReceiveCount[0][33]"
+    },
+    {
+      "index": 95,
+      "name": "ReceiveCount[0][34]"
+    },
+    {
+      "index": 96,
+      "name": "ReceiveCount[0][35]"
+    },
+    {
+      "index": 97,
+      "name": "ReceiveCount[0][36]"
+    },
+    {
+      "index": 98,
+      "name": "ReceiveCount[0][37]"
+    },
+    {
+      "index": 99,
+      "name": "ReceiveCount[0][38]"
+    },
+    {
+      "index": 100,
+      "name": "ReceiveCount[0][39]"
+    },
+    {
+      "index": 101,
+      "name": "ReceiveCount[0][40]"
+    },
+    {
+      "index": 102,
+      "name": "ReceiveCount[0][41]"
+    },
+    {
+      "index": 103,
+      "name": "ReceiveCount[0][42]"
+    },
+    {
+      "index": 104,
+      "name": "ReceiveCount[0][43]"
+    },
+    {
+      "index": 105,
+      "name": "ReceiveCount[0][44]"
+    },
+    {
+      "index": 106,
+      "name": "ReceiveCount[0][45]"
+    },
+    {
+      "index": 107,
+      "name": "ReceiveCount[0][46]"
+    },
+    {
+      "index": 108,
+      "name": "ReceiveCount[0][47]"
+    },
+    {
+      "index": 109,
+      "name": "ReceiveCount[0][48]"
+    },
+    {
+      "index": 110,
+      "name": "ReceiveCount[0][49]"
+    },
+    {
+      "index": 111,
+      "name": "ReceiveCount[0][50]"
+    },
+    {
+      "index": 112,
+      "name": "ReceiveCount[0][51]"
+    },
+    {
+      "index": 113,
+      "name": "ReceiveCount[0][52]"
+    },
+    {
+      "index": 114,
+      "name": "ReceiveCount[0][53]"
+    },
+    {
+      "index": 115,
+      "name": "ReceiveCount[0][54]"
+    },
+    {
+      "index": 116,
+      "name": "ReceiveCount[0][55]"
+    },
+    {
+      "index": 117,
+      "name": "ReceiveCount[0][56]"
+    },
+    {
+      "index": 118,
+      "name": "ReceiveCount[0][57]"
+    },
+    {
+      "index": 119,
+      "name": "ReceiveCount[0][58]"
+    },
+    {
+      "index": 120,
+      "name": "ReceiveCount[0][59]"
+    },
+    {
+      "index": 121,
+      "name": "Category[0][0]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 122,
+      "name": "Category[0][1]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 123,
+      "name": "Category[0][2]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 124,
+      "name": "Category[0][3]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 125,
+      "name": "Category[0][4]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 126,
+      "name": "Category[0][5]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 127,
+      "name": "Category[0][6]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 128,
+      "name": "Category[0][7]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 129,
+      "name": "Category[0][8]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 130,
+      "name": "Category[0][9]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 131,
+      "name": "Category[0][10]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 132,
+      "name": "Category[0][11]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 133,
+      "name": "Category[0][12]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 134,
+      "name": "Category[0][13]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 135,
+      "name": "Category[0][14]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 136,
+      "name": "Category[0][15]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 137,
+      "name": "Category[0][16]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 138,
+      "name": "Category[0][17]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 139,
+      "name": "Category[0][18]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 140,
+      "name": "Category[0][19]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 141,
+      "name": "Category[0][20]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 142,
+      "name": "Category[0][21]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 143,
+      "name": "Category[0][22]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 144,
+      "name": "Category[0][23]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 145,
+      "name": "Category[0][24]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 146,
+      "name": "Category[0][25]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 147,
+      "name": "Category[0][26]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 148,
+      "name": "Category[0][27]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 149,
+      "name": "Category[0][28]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 150,
+      "name": "Category[0][29]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 151,
+      "name": "Category[0][30]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 152,
+      "name": "Category[0][31]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 153,
+      "name": "Category[0][32]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 154,
+      "name": "Category[0][33]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 155,
+      "name": "Category[0][34]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 156,
+      "name": "Category[0][35]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 157,
+      "name": "Category[0][36]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 158,
+      "name": "Category[0][37]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 159,
+      "name": "Category[0][38]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 160,
+      "name": "Category[0][39]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 161,
+      "name": "Category[0][40]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 162,
+      "name": "Category[0][41]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 163,
+      "name": "Category[0][42]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 164,
+      "name": "Category[0][43]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 165,
+      "name": "Category[0][44]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 166,
+      "name": "Category[0][45]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 167,
+      "name": "Category[0][46]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 168,
+      "name": "Category[0][47]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 169,
+      "name": "Category[0][48]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 170,
+      "name": "Category[0][49]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 171,
+      "name": "Category[0][50]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 172,
+      "name": "Category[0][51]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 173,
+      "name": "Category[0][52]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 174,
+      "name": "Category[0][53]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 175,
+      "name": "Category[0][54]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 176,
+      "name": "Category[0][55]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 177,
+      "name": "Category[0][56]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 178,
+      "name": "Category[0][57]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 179,
+      "name": "Category[0][58]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 180,
+      "name": "Category[0][59]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 181,
+      "name": "ReceiveHq[0][0]"
+    },
+    {
+      "index": 182,
+      "name": "ReceiveHq[0][1]"
+    },
+    {
+      "index": 183,
+      "name": "ReceiveHq[0][2]"
+    },
+    {
+      "index": 184,
+      "name": "ReceiveHq[0][3]"
+    },
+    {
+      "index": 185,
+      "name": "ReceiveHq[0][4]"
+    },
+    {
+      "index": 186,
+      "name": "ReceiveHq[0][5]"
+    },
+    {
+      "index": 187,
+      "name": "ReceiveHq[0][6]"
+    },
+    {
+      "index": 188,
+      "name": "ReceiveHq[0][7]"
+    },
+    {
+      "index": 189,
+      "name": "ReceiveHq[0][8]"
+    },
+    {
+      "index": 190,
+      "name": "ReceiveHq[0][9]"
+    },
+    {
+      "index": 191,
+      "name": "ReceiveHq[0][10]"
+    },
+    {
+      "index": 192,
+      "name": "ReceiveHq[0][11]"
+    },
+    {
+      "index": 193,
+      "name": "ReceiveHq[0][12]"
+    },
+    {
+      "index": 194,
+      "name": "ReceiveHq[0][13]"
+    },
+    {
+      "index": 195,
+      "name": "ReceiveHq[0][14]"
+    },
+    {
+      "index": 196,
+      "name": "ReceiveHq[0][15]"
+    },
+    {
+      "index": 197,
+      "name": "ReceiveHq[0][16]"
+    },
+    {
+      "index": 198,
+      "name": "ReceiveHq[0][17]"
+    },
+    {
+      "index": 199,
+      "name": "ReceiveHq[0][18]"
+    },
+    {
+      "index": 200,
+      "name": "ReceiveHq[0][19]"
+    },
+    {
+      "index": 201,
+      "name": "ReceiveHq[0][20]"
+    },
+    {
+      "index": 202,
+      "name": "ReceiveHq[0][21]"
+    },
+    {
+      "index": 203,
+      "name": "ReceiveHq[0][22]"
+    },
+    {
+      "index": 204,
+      "name": "ReceiveHq[0][23]"
+    },
+    {
+      "index": 205,
+      "name": "ReceiveHq[0][24]"
+    },
+    {
+      "index": 206,
+      "name": "ReceiveHq[0][25]"
+    },
+    {
+      "index": 207,
+      "name": "ReceiveHq[0][26]"
+    },
+    {
+      "index": 208,
+      "name": "ReceiveHq[0][27]"
+    },
+    {
+      "index": 209,
+      "name": "ReceiveHq[0][28]"
+    },
+    {
+      "index": 210,
+      "name": "ReceiveHq[0][29]"
+    },
+    {
+      "index": 211,
+      "name": "ReceiveHq[0][30]"
+    },
+    {
+      "index": 212,
+      "name": "ReceiveHq[0][31]"
+    },
+    {
+      "index": 213,
+      "name": "ReceiveHq[0][32]"
+    },
+    {
+      "index": 214,
+      "name": "ReceiveHq[0][33]"
+    },
+    {
+      "index": 215,
+      "name": "ReceiveHq[0][34]"
+    },
+    {
+      "index": 216,
+      "name": "ReceiveHq[0][35]"
+    },
+    {
+      "index": 217,
+      "name": "ReceiveHq[0][36]"
+    },
+    {
+      "index": 218,
+      "name": "ReceiveHq[0][37]"
+    },
+    {
+      "index": 219,
+      "name": "ReceiveHq[0][38]"
+    },
+    {
+      "index": 220,
+      "name": "ReceiveHq[0][39]"
+    },
+    {
+      "index": 221,
+      "name": "ReceiveHq[0][40]"
+    },
+    {
+      "index": 222,
+      "name": "ReceiveHq[0][41]"
+    },
+    {
+      "index": 223,
+      "name": "ReceiveHq[0][42]"
+    },
+    {
+      "index": 224,
+      "name": "ReceiveHq[0][43]"
+    },
+    {
+      "index": 225,
+      "name": "ReceiveHq[0][44]"
+    },
+    {
+      "index": 226,
+      "name": "ReceiveHq[0][45]"
+    },
+    {
+      "index": 227,
+      "name": "ReceiveHq[0][46]"
+    },
+    {
+      "index": 228,
+      "name": "ReceiveHq[0][47]"
+    },
+    {
+      "index": 229,
+      "name": "ReceiveHq[0][48]"
+    },
+    {
+      "index": 230,
+      "name": "ReceiveHq[0][49]"
+    },
+    {
+      "index": 231,
+      "name": "ReceiveHq[0][50]"
+    },
+    {
+      "index": 232,
+      "name": "ReceiveHq[0][51]"
+    },
+    {
+      "index": 233,
+      "name": "ReceiveHq[0][52]"
+    },
+    {
+      "index": 234,
+      "name": "ReceiveHq[0][53]"
+    },
+    {
+      "index": 235,
+      "name": "ReceiveHq[0][54]"
+    },
+    {
+      "index": 236,
+      "name": "ReceiveHq[0][55]"
+    },
+    {
+      "index": 237,
+      "name": "ReceiveHq[0][56]"
+    },
+    {
+      "index": 238,
+      "name": "ReceiveHq[0][57]"
+    },
+    {
+      "index": 239,
+      "name": "ReceiveHq[0][58]"
+    },
+    {
+      "index": 240,
+      "name": "ReceiveHq[0][59]"
+    },
+    {
+      "index": 241,
+      "name": "Item[1][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 242,
+      "name": "Item[1][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 243,
+      "name": "Item[1][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 244,
+      "name": "Item[1][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 245,
+      "name": "Item[1][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 246,
+      "name": "Item[1][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 247,
+      "name": "Item[1][6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 248,
+      "name": "Item[1][7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 249,
+      "name": "Item[1][8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 250,
+      "name": "Item[1][9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 251,
+      "name": "Item[1][10]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 252,
+      "name": "Item[1][11]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 253,
+      "name": "Item[1][12]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 254,
+      "name": "Item[1][13]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 255,
+      "name": "Item[1][14]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 256,
+      "name": "Item[1][15]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 257,
+      "name": "Item[1][16]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 258,
+      "name": "Item[1][17]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 259,
+      "name": "Item[1][18]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 260,
+      "name": "Item[1][19]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 261,
+      "name": "Item[1][20]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 262,
+      "name": "Item[1][21]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 263,
+      "name": "Item[1][22]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 264,
+      "name": "Item[1][23]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 265,
+      "name": "Item[1][24]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 266,
+      "name": "Item[1][25]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 267,
+      "name": "Item[1][26]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 268,
+      "name": "Item[1][27]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 269,
+      "name": "Item[1][28]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 270,
+      "name": "Item[1][29]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 271,
+      "name": "Item[1][30]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 272,
+      "name": "Item[1][31]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 273,
+      "name": "Item[1][32]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 274,
+      "name": "Item[1][33]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 275,
+      "name": "Item[1][34]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 276,
+      "name": "Item[1][35]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 277,
+      "name": "Item[1][36]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 278,
+      "name": "Item[1][37]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 279,
+      "name": "Item[1][38]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 280,
+      "name": "Item[1][39]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 281,
+      "name": "Item[1][40]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 282,
+      "name": "Item[1][41]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 283,
+      "name": "Item[1][42]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 284,
+      "name": "Item[1][43]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 285,
+      "name": "Item[1][44]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 286,
+      "name": "Item[1][45]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 287,
+      "name": "Item[1][46]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 288,
+      "name": "Item[1][47]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 289,
+      "name": "Item[1][48]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 290,
+      "name": "Item[1][49]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 291,
+      "name": "Item[1][50]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 292,
+      "name": "Item[1][51]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 293,
+      "name": "Item[1][52]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 294,
+      "name": "Item[1][53]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 295,
+      "name": "Item[1][54]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 296,
+      "name": "Item[1][55]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 297,
+      "name": "Item[1][56]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 298,
+      "name": "Item[1][57]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 299,
+      "name": "Item[1][58]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 300,
+      "name": "Item[1][59]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 301,
+      "name": "ReceiveCount[1][0]"
+    },
+    {
+      "index": 302,
+      "name": "ReceiveCount[1][1]"
+    },
+    {
+      "index": 303,
+      "name": "ReceiveCount[1][2]"
+    },
+    {
+      "index": 304,
+      "name": "ReceiveCount[1][3]"
+    },
+    {
+      "index": 305,
+      "name": "ReceiveCount[1][4]"
+    },
+    {
+      "index": 306,
+      "name": "ReceiveCount[1][5]"
+    },
+    {
+      "index": 307,
+      "name": "ReceiveCount[1][6]"
+    },
+    {
+      "index": 308,
+      "name": "ReceiveCount[1][7]"
+    },
+    {
+      "index": 309,
+      "name": "ReceiveCount[1][8]"
+    },
+    {
+      "index": 310,
+      "name": "ReceiveCount[1][9]"
+    },
+    {
+      "index": 311,
+      "name": "ReceiveCount[1][10]"
+    },
+    {
+      "index": 312,
+      "name": "ReceiveCount[1][11]"
+    },
+    {
+      "index": 313,
+      "name": "ReceiveCount[1][12]"
+    },
+    {
+      "index": 314,
+      "name": "ReceiveCount[1][13]"
+    },
+    {
+      "index": 315,
+      "name": "ReceiveCount[1][14]"
+    },
+    {
+      "index": 316,
+      "name": "ReceiveCount[1][15]"
+    },
+    {
+      "index": 317,
+      "name": "ReceiveCount[1][16]"
+    },
+    {
+      "index": 318,
+      "name": "ReceiveCount[1][17]"
+    },
+    {
+      "index": 319,
+      "name": "ReceiveCount[1][18]"
+    },
+    {
+      "index": 320,
+      "name": "ReceiveCount[1][19]"
+    },
+    {
+      "index": 321,
+      "name": "ReceiveCount[1][20]"
+    },
+    {
+      "index": 322,
+      "name": "ReceiveCount[1][21]"
+    },
+    {
+      "index": 323,
+      "name": "ReceiveCount[1][22]"
+    },
+    {
+      "index": 324,
+      "name": "ReceiveCount[1][23]"
+    },
+    {
+      "index": 325,
+      "name": "ReceiveCount[1][24]"
+    },
+    {
+      "index": 326,
+      "name": "ReceiveCount[1][25]"
+    },
+    {
+      "index": 327,
+      "name": "ReceiveCount[1][26]"
+    },
+    {
+      "index": 328,
+      "name": "ReceiveCount[1][27]"
+    },
+    {
+      "index": 329,
+      "name": "ReceiveCount[1][28]"
+    },
+    {
+      "index": 330,
+      "name": "ReceiveCount[1][29]"
+    },
+    {
+      "index": 331,
+      "name": "ReceiveCount[1][30]"
+    },
+    {
+      "index": 332,
+      "name": "ReceiveCount[1][31]"
+    },
+    {
+      "index": 333,
+      "name": "ReceiveCount[1][32]"
+    },
+    {
+      "index": 334,
+      "name": "ReceiveCount[1][33]"
+    },
+    {
+      "index": 335,
+      "name": "ReceiveCount[1][34]"
+    },
+    {
+      "index": 336,
+      "name": "ReceiveCount[1][35]"
+    },
+    {
+      "index": 337,
+      "name": "ReceiveCount[1][36]"
+    },
+    {
+      "index": 338,
+      "name": "ReceiveCount[1][37]"
+    },
+    {
+      "index": 339,
+      "name": "ReceiveCount[1][38]"
+    },
+    {
+      "index": 340,
+      "name": "ReceiveCount[1][39]"
+    },
+    {
+      "index": 341,
+      "name": "ReceiveCount[1][40]"
+    },
+    {
+      "index": 342,
+      "name": "ReceiveCount[1][41]"
+    },
+    {
+      "index": 343,
+      "name": "ReceiveCount[1][42]"
+    },
+    {
+      "index": 344,
+      "name": "ReceiveCount[1][43]"
+    },
+    {
+      "index": 345,
+      "name": "ReceiveCount[1][44]"
+    },
+    {
+      "index": 346,
+      "name": "ReceiveCount[1][45]"
+    },
+    {
+      "index": 347,
+      "name": "ReceiveCount[1][46]"
+    },
+    {
+      "index": 348,
+      "name": "ReceiveCount[1][47]"
+    },
+    {
+      "index": 349,
+      "name": "ReceiveCount[1][48]"
+    },
+    {
+      "index": 350,
+      "name": "ReceiveCount[1][49]"
+    },
+    {
+      "index": 351,
+      "name": "ReceiveCount[1][50]"
+    },
+    {
+      "index": 352,
+      "name": "ReceiveCount[1][51]"
+    },
+    {
+      "index": 353,
+      "name": "ReceiveCount[1][52]"
+    },
+    {
+      "index": 354,
+      "name": "ReceiveCount[1][53]"
+    },
+    {
+      "index": 355,
+      "name": "ReceiveCount[1][54]"
+    },
+    {
+      "index": 356,
+      "name": "ReceiveCount[1][55]"
+    },
+    {
+      "index": 357,
+      "name": "ReceiveCount[1][56]"
+    },
+    {
+      "index": 358,
+      "name": "ReceiveCount[1][57]"
+    },
+    {
+      "index": 359,
+      "name": "ReceiveCount[1][58]"
+    },
+    {
+      "index": 360,
+      "name": "ReceiveCount[1][59]"
+    },
+    {
+      "index": 361,
+      "name": "Category[1][0]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 362,
+      "name": "Category[1][1]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 363,
+      "name": "Category[1][2]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 364,
+      "name": "Category[1][3]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 365,
+      "name": "Category[1][4]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 366,
+      "name": "Category[1][5]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 367,
+      "name": "Category[1][6]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 368,
+      "name": "Category[1][7]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 369,
+      "name": "Category[1][8]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 370,
+      "name": "Category[1][9]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 371,
+      "name": "Category[1][10]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 372,
+      "name": "Category[1][11]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 373,
+      "name": "Category[1][12]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 374,
+      "name": "Category[1][13]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 375,
+      "name": "Category[1][14]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 376,
+      "name": "Category[1][15]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 377,
+      "name": "Category[1][16]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 378,
+      "name": "Category[1][17]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 379,
+      "name": "Category[1][18]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 380,
+      "name": "Category[1][19]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 381,
+      "name": "Category[1][20]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 382,
+      "name": "Category[1][21]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 383,
+      "name": "Category[1][22]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 384,
+      "name": "Category[1][23]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 385,
+      "name": "Category[1][24]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 386,
+      "name": "Category[1][25]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 387,
+      "name": "Category[1][26]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 388,
+      "name": "Category[1][27]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 389,
+      "name": "Category[1][28]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 390,
+      "name": "Category[1][29]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 391,
+      "name": "Category[1][30]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 392,
+      "name": "Category[1][31]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 393,
+      "name": "Category[1][32]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 394,
+      "name": "Category[1][33]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 395,
+      "name": "Category[1][34]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 396,
+      "name": "Category[1][35]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 397,
+      "name": "Category[1][36]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 398,
+      "name": "Category[1][37]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 399,
+      "name": "Category[1][38]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 400,
+      "name": "Category[1][39]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 401,
+      "name": "Category[1][40]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 402,
+      "name": "Category[1][41]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 403,
+      "name": "Category[1][42]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 404,
+      "name": "Category[1][43]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 405,
+      "name": "Category[1][44]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 406,
+      "name": "Category[1][45]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 407,
+      "name": "Category[1][46]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 408,
+      "name": "Category[1][47]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 409,
+      "name": "Category[1][48]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 410,
+      "name": "Category[1][49]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 411,
+      "name": "Category[1][50]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 412,
+      "name": "Category[1][51]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 413,
+      "name": "Category[1][52]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 414,
+      "name": "Category[1][53]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 415,
+      "name": "Category[1][54]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 416,
+      "name": "Category[1][55]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 417,
+      "name": "Category[1][56]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 418,
+      "name": "Category[1][57]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 419,
+      "name": "Category[1][58]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 420,
+      "name": "Category[1][59]",
+      "converter": {
+        "type": "link",
+        "target": "SpecialShopItemCategory"
+      }
+    },
+    {
+      "index": 421,
+      "name": "ReceiveHq[1][0]"
+    },
+    {
+      "index": 422,
+      "name": "ReceiveHq[1][1]"
+    },
+    {
+      "index": 423,
+      "name": "ReceiveHq[1][2]"
+    },
+    {
+      "index": 424,
+      "name": "ReceiveHq[1][3]"
+    },
+    {
+      "index": 425,
+      "name": "ReceiveHq[1][4]"
+    },
+    {
+      "index": 426,
+      "name": "ReceiveHq[1][5]"
+    },
+    {
+      "index": 427,
+      "name": "ReceiveHq[1][6]"
+    },
+    {
+      "index": 428,
+      "name": "ReceiveHq[1][7]"
+    },
+    {
+      "index": 429,
+      "name": "ReceiveHq[1][8]"
+    },
+    {
+      "index": 430,
+      "name": "ReceiveHq[1][9]"
+    },
+    {
+      "index": 431,
+      "name": "ReceiveHq[1][10]"
+    },
+    {
+      "index": 432,
+      "name": "ReceiveHq[1][11]"
+    },
+    {
+      "index": 433,
+      "name": "ReceiveHq[1][12]"
+    },
+    {
+      "index": 434,
+      "name": "ReceiveHq[1][13]"
+    },
+    {
+      "index": 435,
+      "name": "ReceiveHq[1][14]"
+    },
+    {
+      "index": 436,
+      "name": "ReceiveHq[1][15]"
+    },
+    {
+      "index": 437,
+      "name": "ReceiveHq[1][16]"
+    },
+    {
+      "index": 438,
+      "name": "ReceiveHq[1][17]"
+    },
+    {
+      "index": 439,
+      "name": "ReceiveHq[1][18]"
+    },
+    {
+      "index": 440,
+      "name": "ReceiveHq[1][19]"
+    },
+    {
+      "index": 441,
+      "name": "ReceiveHq[1][20]"
+    },
+    {
+      "index": 442,
+      "name": "ReceiveHq[1][21]"
+    },
+    {
+      "index": 443,
+      "name": "ReceiveHq[1][22]"
+    },
+    {
+      "index": 444,
+      "name": "ReceiveHq[1][23]"
+    },
+    {
+      "index": 445,
+      "name": "ReceiveHq[1][24]"
+    },
+    {
+      "index": 446,
+      "name": "ReceiveHq[1][25]"
+    },
+    {
+      "index": 447,
+      "name": "ReceiveHq[1][26]"
+    },
+    {
+      "index": 448,
+      "name": "ReceiveHq[1][27]"
+    },
+    {
+      "index": 449,
+      "name": "ReceiveHq[1][28]"
+    },
+    {
+      "index": 450,
+      "name": "ReceiveHq[1][29]"
+    },
+    {
+      "index": 451,
+      "name": "ReceiveHq[1][30]"
+    },
+    {
+      "index": 452,
+      "name": "ReceiveHq[1][31]"
+    },
+    {
+      "index": 453,
+      "name": "ReceiveHq[1][32]"
+    },
+    {
+      "index": 454,
+      "name": "ReceiveHq[1][33]"
+    },
+    {
+      "index": 455,
+      "name": "ReceiveHq[1][34]"
+    },
+    {
+      "index": 456,
+      "name": "ReceiveHq[1][35]"
+    },
+    {
+      "index": 457,
+      "name": "ReceiveHq[1][36]"
+    },
+    {
+      "index": 458,
+      "name": "ReceiveHq[1][37]"
+    },
+    {
+      "index": 459,
+      "name": "ReceiveHq[1][38]"
+    },
+    {
+      "index": 460,
+      "name": "ReceiveHq[1][39]"
+    },
+    {
+      "index": 461,
+      "name": "ReceiveHq[1][40]"
+    },
+    {
+      "index": 462,
+      "name": "ReceiveHq[1][41]"
+    },
+    {
+      "index": 463,
+      "name": "ReceiveHq[1][42]"
+    },
+    {
+      "index": 464,
+      "name": "ReceiveHq[1][43]"
+    },
+    {
+      "index": 465,
+      "name": "ReceiveHq[1][44]"
+    },
+    {
+      "index": 466,
+      "name": "ReceiveHq[1][45]"
+    },
+    {
+      "index": 467,
+      "name": "ReceiveHq[1][46]"
+    },
+    {
+      "index": 468,
+      "name": "ReceiveHq[1][47]"
+    },
+    {
+      "index": 469,
+      "name": "ReceiveHq[1][48]"
+    },
+    {
+      "index": 470,
+      "name": "ReceiveHq[1][49]"
+    },
+    {
+      "index": 471,
+      "name": "ReceiveHq[1][50]"
+    },
+    {
+      "index": 472,
+      "name": "ReceiveHq[1][51]"
+    },
+    {
+      "index": 473,
+      "name": "ReceiveHq[1][52]"
+    },
+    {
+      "index": 474,
+      "name": "ReceiveHq[1][53]"
+    },
+    {
+      "index": 475,
+      "name": "ReceiveHq[1][54]"
+    },
+    {
+      "index": 476,
+      "name": "ReceiveHq[1][55]"
+    },
+    {
+      "index": 477,
+      "name": "ReceiveHq[1][56]"
+    },
+    {
+      "index": 478,
+      "name": "ReceiveHq[1][57]"
+    },
+    {
+      "index": 479,
+      "name": "ReceiveHq[1][58]"
+    },
+    {
+      "index": 480,
+      "name": "ReceiveHq[1][59]"
+    },
+    {
+      "index": 481,
+      "name": "ItemCost[0][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 482,
+      "name": "ItemCost[0][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 483,
+      "name": "ItemCost[0][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 484,
+      "name": "ItemCost[0][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 485,
+      "name": "ItemCost[0][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 486,
+      "name": "ItemCost[0][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 487,
+      "name": "ItemCost[0][6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 488,
+      "name": "ItemCost[0][7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 489,
+      "name": "ItemCost[0][8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 490,
+      "name": "ItemCost[0][9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 491,
+      "name": "ItemCost[0][10]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 492,
+      "name": "ItemCost[0][11]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 493,
+      "name": "ItemCost[0][12]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 494,
+      "name": "ItemCost[0][13]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 495,
+      "name": "ItemCost[0][14]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 496,
+      "name": "ItemCost[0][15]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 497,
+      "name": "ItemCost[0][16]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 498,
+      "name": "ItemCost[0][17]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 499,
+      "name": "ItemCost[0][18]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 500,
+      "name": "ItemCost[0][19]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 501,
+      "name": "ItemCost[0][20]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 502,
+      "name": "ItemCost[0][21]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 503,
+      "name": "ItemCost[0][22]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 504,
+      "name": "ItemCost[0][23]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 505,
+      "name": "ItemCost[0][24]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 506,
+      "name": "ItemCost[0][25]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 507,
+      "name": "ItemCost[0][26]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 508,
+      "name": "ItemCost[0][27]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 509,
+      "name": "ItemCost[0][28]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 510,
+      "name": "ItemCost[0][29]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 511,
+      "name": "ItemCost[0][30]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 512,
+      "name": "ItemCost[0][31]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 513,
+      "name": "ItemCost[0][32]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 514,
+      "name": "ItemCost[0][33]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 515,
+      "name": "ItemCost[0][34]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 516,
+      "name": "ItemCost[0][35]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 517,
+      "name": "ItemCost[0][36]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 518,
+      "name": "ItemCost[0][37]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 519,
+      "name": "ItemCost[0][38]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 520,
+      "name": "ItemCost[0][39]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 521,
+      "name": "ItemCost[0][40]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 522,
+      "name": "ItemCost[0][41]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 523,
+      "name": "ItemCost[0][42]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 524,
+      "name": "ItemCost[0][43]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 525,
+      "name": "ItemCost[0][44]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 526,
+      "name": "ItemCost[0][45]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 527,
+      "name": "ItemCost[0][46]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 528,
+      "name": "ItemCost[0][47]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 529,
+      "name": "ItemCost[0][48]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 530,
+      "name": "ItemCost[0][49]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 531,
+      "name": "ItemCost[0][50]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 532,
+      "name": "ItemCost[0][51]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 533,
+      "name": "ItemCost[0][52]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 534,
+      "name": "ItemCost[0][53]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 535,
+      "name": "ItemCost[0][54]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 536,
+      "name": "ItemCost[0][55]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 537,
+      "name": "ItemCost[0][56]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 538,
+      "name": "ItemCost[0][57]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 539,
+      "name": "ItemCost[0][58]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 540,
+      "name": "ItemCost[0][59]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 541,
+      "name": "CurrencyCost[0][0]"
+    },
+    {
+      "index": 542,
+      "name": "CurrencyCost[0][1]"
+    },
+    {
+      "index": 543,
+      "name": "CurrencyCost[0][2]"
+    },
+    {
+      "index": 544,
+      "name": "CurrencyCost[0][3]"
+    },
+    {
+      "index": 545,
+      "name": "CurrencyCost[0][4]"
+    },
+    {
+      "index": 546,
+      "name": "CurrencyCost[0][5]"
+    },
+    {
+      "index": 547,
+      "name": "CurrencyCost[0][6]"
+    },
+    {
+      "index": 548,
+      "name": "CurrencyCost[0][7]"
+    },
+    {
+      "index": 549,
+      "name": "CurrencyCost[0][8]"
+    },
+    {
+      "index": 550,
+      "name": "CurrencyCost[0][9]"
+    },
+    {
+      "index": 551,
+      "name": "CurrencyCost[0][10]"
+    },
+    {
+      "index": 552,
+      "name": "CurrencyCost[0][11]"
+    },
+    {
+      "index": 553,
+      "name": "CurrencyCost[0][12]"
+    },
+    {
+      "index": 554,
+      "name": "CurrencyCost[0][13]"
+    },
+    {
+      "index": 555,
+      "name": "CurrencyCost[0][14]"
+    },
+    {
+      "index": 556,
+      "name": "CurrencyCost[0][15]"
+    },
+    {
+      "index": 557,
+      "name": "CurrencyCost[0][16]"
+    },
+    {
+      "index": 558,
+      "name": "CurrencyCost[0][17]"
+    },
+    {
+      "index": 559,
+      "name": "CurrencyCost[0][18]"
+    },
+    {
+      "index": 560,
+      "name": "CurrencyCost[0][19]"
+    },
+    {
+      "index": 561,
+      "name": "CurrencyCost[0][20]"
+    },
+    {
+      "index": 562,
+      "name": "CurrencyCost[0][21]"
+    },
+    {
+      "index": 563,
+      "name": "CurrencyCost[0][22]"
+    },
+    {
+      "index": 564,
+      "name": "CurrencyCost[0][23]"
+    },
+    {
+      "index": 565,
+      "name": "CurrencyCost[0][24]"
+    },
+    {
+      "index": 566,
+      "name": "CurrencyCost[0][25]"
+    },
+    {
+      "index": 567,
+      "name": "CurrencyCost[0][26]"
+    },
+    {
+      "index": 568,
+      "name": "CurrencyCost[0][27]"
+    },
+    {
+      "index": 569,
+      "name": "CurrencyCost[0][28]"
+    },
+    {
+      "index": 570,
+      "name": "CurrencyCost[0][29]"
+    },
+    {
+      "index": 571,
+      "name": "CurrencyCost[0][30]"
+    },
+    {
+      "index": 572,
+      "name": "CurrencyCost[0][31]"
+    },
+    {
+      "index": 573,
+      "name": "CurrencyCost[0][32]"
+    },
+    {
+      "index": 574,
+      "name": "CurrencyCost[0][33]"
+    },
+    {
+      "index": 575,
+      "name": "CurrencyCost[0][34]"
+    },
+    {
+      "index": 576,
+      "name": "CurrencyCost[0][35]"
+    },
+    {
+      "index": 577,
+      "name": "CurrencyCost[0][36]"
+    },
+    {
+      "index": 578,
+      "name": "CurrencyCost[0][37]"
+    },
+    {
+      "index": 579,
+      "name": "CurrencyCost[0][38]"
+    },
+    {
+      "index": 580,
+      "name": "CurrencyCost[0][39]"
+    },
+    {
+      "index": 581,
+      "name": "CurrencyCost[0][40]"
+    },
+    {
+      "index": 582,
+      "name": "CurrencyCost[0][41]"
+    },
+    {
+      "index": 583,
+      "name": "CurrencyCost[0][42]"
+    },
+    {
+      "index": 584,
+      "name": "CurrencyCost[0][43]"
+    },
+    {
+      "index": 585,
+      "name": "CurrencyCost[0][44]"
+    },
+    {
+      "index": 586,
+      "name": "CurrencyCost[0][45]"
+    },
+    {
+      "index": 587,
+      "name": "CurrencyCost[0][46]"
+    },
+    {
+      "index": 588,
+      "name": "CurrencyCost[0][47]"
+    },
+    {
+      "index": 589,
+      "name": "CurrencyCost[0][48]"
+    },
+    {
+      "index": 590,
+      "name": "CurrencyCost[0][49]"
+    },
+    {
+      "index": 591,
+      "name": "CurrencyCost[0][50]"
+    },
+    {
+      "index": 592,
+      "name": "CurrencyCost[0][51]"
+    },
+    {
+      "index": 593,
+      "name": "CurrencyCost[0][52]"
+    },
+    {
+      "index": 594,
+      "name": "CurrencyCost[0][53]"
+    },
+    {
+      "index": 595,
+      "name": "CurrencyCost[0][54]"
+    },
+    {
+      "index": 596,
+      "name": "CurrencyCost[0][55]"
+    },
+    {
+      "index": 597,
+      "name": "CurrencyCost[0][56]"
+    },
+    {
+      "index": 598,
+      "name": "CurrencyCost[0][57]"
+    },
+    {
+      "index": 599,
+      "name": "CurrencyCost[0][58]"
+    },
+    {
+      "index": 600,
+      "name": "CurrencyCost[0][59]"
+    },
+    {
+      "index": 601,
+      "name": "CostType[0][0]"
+    },
+    {
+      "index": 602,
+      "name": "CostType[0][1]"
+    },
+    {
+      "index": 603,
+      "name": "CostType[0][2]"
+    },
+    {
+      "index": 604,
+      "name": "CostType[0][3]"
+    },
+    {
+      "index": 605,
+      "name": "CostType[0][4]"
+    },
+    {
+      "index": 606,
+      "name": "CostType[0][5]"
+    },
+    {
+      "index": 607,
+      "name": "CostType[0][6]"
+    },
+    {
+      "index": 608,
+      "name": "CostType[0][7]"
+    },
+    {
+      "index": 609,
+      "name": "CostType[0][8]"
+    },
+    {
+      "index": 610,
+      "name": "CostType[0][9]"
+    },
+    {
+      "index": 611,
+      "name": "CostType[0][10]"
+    },
+    {
+      "index": 612,
+      "name": "CostType[0][11]"
+    },
+    {
+      "index": 613,
+      "name": "CostType[0][12]"
+    },
+    {
+      "index": 614,
+      "name": "CostType[0][13]"
+    },
+    {
+      "index": 615,
+      "name": "CostType[0][14]"
+    },
+    {
+      "index": 616,
+      "name": "CostType[0][15]"
+    },
+    {
+      "index": 617,
+      "name": "CostType[0][16]"
+    },
+    {
+      "index": 618,
+      "name": "CostType[0][17]"
+    },
+    {
+      "index": 619,
+      "name": "CostType[0][18]"
+    },
+    {
+      "index": 620,
+      "name": "CostType[0][19]"
+    },
+    {
+      "index": 621,
+      "name": "CostType[0][20]"
+    },
+    {
+      "index": 622,
+      "name": "CostType[0][21]"
+    },
+    {
+      "index": 623,
+      "name": "CostType[0][22]"
+    },
+    {
+      "index": 624,
+      "name": "CostType[0][23]"
+    },
+    {
+      "index": 625,
+      "name": "CostType[0][24]"
+    },
+    {
+      "index": 626,
+      "name": "CostType[0][25]"
+    },
+    {
+      "index": 627,
+      "name": "CostType[0][26]"
+    },
+    {
+      "index": 628,
+      "name": "CostType[0][27]"
+    },
+    {
+      "index": 629,
+      "name": "CostType[0][28]"
+    },
+    {
+      "index": 630,
+      "name": "CostType[0][29]"
+    },
+    {
+      "index": 631,
+      "name": "CostType[0][30]"
+    },
+    {
+      "index": 632,
+      "name": "CostType[0][31]"
+    },
+    {
+      "index": 633,
+      "name": "CostType[0][32]"
+    },
+    {
+      "index": 634,
+      "name": "CostType[0][33]"
+    },
+    {
+      "index": 635,
+      "name": "CostType[0][34]"
+    },
+    {
+      "index": 636,
+      "name": "CostType[0][35]"
+    },
+    {
+      "index": 637,
+      "name": "CostType[0][36]"
+    },
+    {
+      "index": 638,
+      "name": "CostType[0][37]"
+    },
+    {
+      "index": 639,
+      "name": "CostType[0][38]"
+    },
+    {
+      "index": 640,
+      "name": "CostType[0][39]"
+    },
+    {
+      "index": 641,
+      "name": "CostType[0][40]"
+    },
+    {
+      "index": 642,
+      "name": "CostType[0][41]"
+    },
+    {
+      "index": 643,
+      "name": "CostType[0][42]"
+    },
+    {
+      "index": 644,
+      "name": "CostType[0][43]"
+    },
+    {
+      "index": 645,
+      "name": "CostType[0][44]"
+    },
+    {
+      "index": 646,
+      "name": "CostType[0][45]"
+    },
+    {
+      "index": 647,
+      "name": "CostType[0][46]"
+    },
+    {
+      "index": 648,
+      "name": "CostType[0][47]"
+    },
+    {
+      "index": 649,
+      "name": "CostType[0][48]"
+    },
+    {
+      "index": 650,
+      "name": "CostType[0][49]"
+    },
+    {
+      "index": 651,
+      "name": "CostType[0][50]"
+    },
+    {
+      "index": 652,
+      "name": "CostType[0][51]"
+    },
+    {
+      "index": 653,
+      "name": "CostType[0][52]"
+    },
+    {
+      "index": 654,
+      "name": "CostType[0][53]"
+    },
+    {
+      "index": 655,
+      "name": "CostType[0][54]"
+    },
+    {
+      "index": 656,
+      "name": "CostType[0][55]"
+    },
+    {
+      "index": 657,
+      "name": "CostType[0][56]"
+    },
+    {
+      "index": 658,
+      "name": "CostType[0][57]"
+    },
+    {
+      "index": 659,
+      "name": "CostType[0][58]"
+    },
+    {
+      "index": 660,
+      "name": "CostType[0][59]"
+    },
+    {
+      "index": 661,
+      "name": "CollectabilityCost[0][0]"
+    },
+    {
+      "index": 662,
+      "name": "CollectabilityCost[0][1]"
+    },
+    {
+      "index": 663,
+      "name": "CollectabilityCost[0][2]"
+    },
+    {
+      "index": 664,
+      "name": "CollectabilityCost[0][3]"
+    },
+    {
+      "index": 665,
+      "name": "CollectabilityCost[0][4]"
+    },
+    {
+      "index": 666,
+      "name": "CollectabilityCost[0][5]"
+    },
+    {
+      "index": 667,
+      "name": "CollectabilityCost[0][6]"
+    },
+    {
+      "index": 668,
+      "name": "CollectabilityCost[0][7]"
+    },
+    {
+      "index": 669,
+      "name": "CollectabilityCost[0][8]"
+    },
+    {
+      "index": 670,
+      "name": "CollectabilityCost[0][9]"
+    },
+    {
+      "index": 671,
+      "name": "CollectabilityCost[0][10]"
+    },
+    {
+      "index": 672,
+      "name": "CollectabilityCost[0][11]"
+    },
+    {
+      "index": 673,
+      "name": "CollectabilityCost[0][12]"
+    },
+    {
+      "index": 674,
+      "name": "CollectabilityCost[0][13]"
+    },
+    {
+      "index": 675,
+      "name": "CollectabilityCost[0][14]"
+    },
+    {
+      "index": 676,
+      "name": "CollectabilityCost[0][15]"
+    },
+    {
+      "index": 677,
+      "name": "CollectabilityCost[0][16]"
+    },
+    {
+      "index": 678,
+      "name": "CollectabilityCost[0][17]"
+    },
+    {
+      "index": 679,
+      "name": "CollectabilityCost[0][18]"
+    },
+    {
+      "index": 680,
+      "name": "CollectabilityCost[0][19]"
+    },
+    {
+      "index": 681,
+      "name": "CollectabilityCost[0][20]"
+    },
+    {
+      "index": 682,
+      "name": "CollectabilityCost[0][21]"
+    },
+    {
+      "index": 683,
+      "name": "CollectabilityCost[0][22]"
+    },
+    {
+      "index": 684,
+      "name": "CollectabilityCost[0][23]"
+    },
+    {
+      "index": 685,
+      "name": "CollectabilityCost[0][24]"
+    },
+    {
+      "index": 686,
+      "name": "CollectabilityCost[0][25]"
+    },
+    {
+      "index": 687,
+      "name": "CollectabilityCost[0][26]"
+    },
+    {
+      "index": 688,
+      "name": "CollectabilityCost[0][27]"
+    },
+    {
+      "index": 689,
+      "name": "CollectabilityCost[0][28]"
+    },
+    {
+      "index": 690,
+      "name": "CollectabilityCost[0][29]"
+    },
+    {
+      "index": 691,
+      "name": "CollectabilityCost[0][30]"
+    },
+    {
+      "index": 692,
+      "name": "CollectabilityCost[0][31]"
+    },
+    {
+      "index": 693,
+      "name": "CollectabilityCost[0][32]"
+    },
+    {
+      "index": 694,
+      "name": "CollectabilityCost[0][33]"
+    },
+    {
+      "index": 695,
+      "name": "CollectabilityCost[0][34]"
+    },
+    {
+      "index": 696,
+      "name": "CollectabilityCost[0][35]"
+    },
+    {
+      "index": 697,
+      "name": "CollectabilityCost[0][36]"
+    },
+    {
+      "index": 698,
+      "name": "CollectabilityCost[0][37]"
+    },
+    {
+      "index": 699,
+      "name": "CollectabilityCost[0][38]"
+    },
+    {
+      "index": 700,
+      "name": "CollectabilityCost[0][39]"
+    },
+    {
+      "index": 701,
+      "name": "CollectabilityCost[0][40]"
+    },
+    {
+      "index": 702,
+      "name": "CollectabilityCost[0][41]"
+    },
+    {
+      "index": 703,
+      "name": "CollectabilityCost[0][42]"
+    },
+    {
+      "index": 704,
+      "name": "CollectabilityCost[0][43]"
+    },
+    {
+      "index": 705,
+      "name": "CollectabilityCost[0][44]"
+    },
+    {
+      "index": 706,
+      "name": "CollectabilityCost[0][45]"
+    },
+    {
+      "index": 707,
+      "name": "CollectabilityCost[0][46]"
+    },
+    {
+      "index": 708,
+      "name": "CollectabilityCost[0][47]"
+    },
+    {
+      "index": 709,
+      "name": "CollectabilityCost[0][48]"
+    },
+    {
+      "index": 710,
+      "name": "CollectabilityCost[0][49]"
+    },
+    {
+      "index": 711,
+      "name": "CollectabilityCost[0][50]"
+    },
+    {
+      "index": 712,
+      "name": "CollectabilityCost[0][51]"
+    },
+    {
+      "index": 713,
+      "name": "CollectabilityCost[0][52]"
+    },
+    {
+      "index": 714,
+      "name": "CollectabilityCost[0][53]"
+    },
+    {
+      "index": 715,
+      "name": "CollectabilityCost[0][54]"
+    },
+    {
+      "index": 716,
+      "name": "CollectabilityCost[0][55]"
+    },
+    {
+      "index": 717,
+      "name": "CollectabilityCost[0][56]"
+    },
+    {
+      "index": 718,
+      "name": "CollectabilityCost[0][57]"
+    },
+    {
+      "index": 719,
+      "name": "CollectabilityCost[0][58]"
+    },
+    {
+      "index": 720,
+      "name": "CollectabilityCost[0][59]"
+    },
+    {
+      "index": 721,
+      "name": "ItemCost[1][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 722,
+      "name": "ItemCost[1][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 723,
+      "name": "ItemCost[1][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 724,
+      "name": "ItemCost[1][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 725,
+      "name": "ItemCost[1][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 726,
+      "name": "ItemCost[1][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 727,
+      "name": "ItemCost[1][6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 728,
+      "name": "ItemCost[1][7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 729,
+      "name": "ItemCost[1][8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 730,
+      "name": "ItemCost[1][9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 731,
+      "name": "ItemCost[1][10]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 732,
+      "name": "ItemCost[1][11]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 733,
+      "name": "ItemCost[1][12]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 734,
+      "name": "ItemCost[1][13]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 735,
+      "name": "ItemCost[1][14]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 736,
+      "name": "ItemCost[1][15]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 737,
+      "name": "ItemCost[1][16]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 738,
+      "name": "ItemCost[1][17]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 739,
+      "name": "ItemCost[1][18]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 740,
+      "name": "ItemCost[1][19]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 741,
+      "name": "ItemCost[1][20]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 742,
+      "name": "ItemCost[1][21]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 743,
+      "name": "ItemCost[1][22]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 744,
+      "name": "ItemCost[1][23]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 745,
+      "name": "ItemCost[1][24]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 746,
+      "name": "ItemCost[1][25]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 747,
+      "name": "ItemCost[1][26]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 748,
+      "name": "ItemCost[1][27]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 749,
+      "name": "ItemCost[1][28]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 750,
+      "name": "ItemCost[1][29]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 751,
+      "name": "ItemCost[1][30]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 752,
+      "name": "ItemCost[1][31]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 753,
+      "name": "ItemCost[1][32]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 754,
+      "name": "ItemCost[1][33]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 755,
+      "name": "ItemCost[1][34]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 756,
+      "name": "ItemCost[1][35]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 757,
+      "name": "ItemCost[1][36]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 758,
+      "name": "ItemCost[1][37]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 759,
+      "name": "ItemCost[1][38]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 760,
+      "name": "ItemCost[1][39]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 761,
+      "name": "ItemCost[1][40]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 762,
+      "name": "ItemCost[1][41]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 763,
+      "name": "ItemCost[1][42]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 764,
+      "name": "ItemCost[1][43]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 765,
+      "name": "ItemCost[1][44]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 766,
+      "name": "ItemCost[1][45]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 767,
+      "name": "ItemCost[1][46]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 768,
+      "name": "ItemCost[1][47]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 769,
+      "name": "ItemCost[1][48]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 770,
+      "name": "ItemCost[1][49]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 771,
+      "name": "ItemCost[1][50]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 772,
+      "name": "ItemCost[1][51]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 773,
+      "name": "ItemCost[1][52]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 774,
+      "name": "ItemCost[1][53]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 775,
+      "name": "ItemCost[1][54]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 776,
+      "name": "ItemCost[1][55]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 777,
+      "name": "ItemCost[1][56]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 778,
+      "name": "ItemCost[1][57]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 779,
+      "name": "ItemCost[1][58]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 780,
+      "name": "ItemCost[1][59]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 781,
+      "name": "CurrencyCost[1][0]"
+    },
+    {
+      "index": 782,
+      "name": "CurrencyCost[1][1]"
+    },
+    {
+      "index": 783,
+      "name": "CurrencyCost[1][2]"
+    },
+    {
+      "index": 784,
+      "name": "CurrencyCost[1][3]"
+    },
+    {
+      "index": 785,
+      "name": "CurrencyCost[1][4]"
+    },
+    {
+      "index": 786,
+      "name": "CurrencyCost[1][5]"
+    },
+    {
+      "index": 787,
+      "name": "CurrencyCost[1][6]"
+    },
+    {
+      "index": 788,
+      "name": "CurrencyCost[1][7]"
+    },
+    {
+      "index": 789,
+      "name": "CurrencyCost[1][8]"
+    },
+    {
+      "index": 790,
+      "name": "CurrencyCost[1][9]"
+    },
+    {
+      "index": 791,
+      "name": "CurrencyCost[1][10]"
+    },
+    {
+      "index": 792,
+      "name": "CurrencyCost[1][11]"
+    },
+    {
+      "index": 793,
+      "name": "CurrencyCost[1][12]"
+    },
+    {
+      "index": 794,
+      "name": "CurrencyCost[1][13]"
+    },
+    {
+      "index": 795,
+      "name": "CurrencyCost[1][14]"
+    },
+    {
+      "index": 796,
+      "name": "CurrencyCost[1][15]"
+    },
+    {
+      "index": 797,
+      "name": "CurrencyCost[1][16]"
+    },
+    {
+      "index": 798,
+      "name": "CurrencyCost[1][17]"
+    },
+    {
+      "index": 799,
+      "name": "CurrencyCost[1][18]"
+    },
+    {
+      "index": 800,
+      "name": "CurrencyCost[1][19]"
+    },
+    {
+      "index": 801,
+      "name": "CurrencyCost[1][20]"
+    },
+    {
+      "index": 802,
+      "name": "CurrencyCost[1][21]"
+    },
+    {
+      "index": 803,
+      "name": "CurrencyCost[1][22]"
+    },
+    {
+      "index": 804,
+      "name": "CurrencyCost[1][23]"
+    },
+    {
+      "index": 805,
+      "name": "CurrencyCost[1][24]"
+    },
+    {
+      "index": 806,
+      "name": "CurrencyCost[1][25]"
+    },
+    {
+      "index": 807,
+      "name": "CurrencyCost[1][26]"
+    },
+    {
+      "index": 808,
+      "name": "CurrencyCost[1][27]"
+    },
+    {
+      "index": 809,
+      "name": "CurrencyCost[1][28]"
+    },
+    {
+      "index": 810,
+      "name": "CurrencyCost[1][29]"
+    },
+    {
+      "index": 811,
+      "name": "CurrencyCost[1][30]"
+    },
+    {
+      "index": 812,
+      "name": "CurrencyCost[1][31]"
+    },
+    {
+      "index": 813,
+      "name": "CurrencyCost[1][32]"
+    },
+    {
+      "index": 814,
+      "name": "CurrencyCost[1][33]"
+    },
+    {
+      "index": 815,
+      "name": "CurrencyCost[1][34]"
+    },
+    {
+      "index": 816,
+      "name": "CurrencyCost[1][35]"
+    },
+    {
+      "index": 817,
+      "name": "CurrencyCost[1][36]"
+    },
+    {
+      "index": 818,
+      "name": "CurrencyCost[1][37]"
+    },
+    {
+      "index": 819,
+      "name": "CurrencyCost[1][38]"
+    },
+    {
+      "index": 820,
+      "name": "CurrencyCost[1][39]"
+    },
+    {
+      "index": 821,
+      "name": "CurrencyCost[1][40]"
+    },
+    {
+      "index": 822,
+      "name": "CurrencyCost[1][41]"
+    },
+    {
+      "index": 823,
+      "name": "CurrencyCost[1][42]"
+    },
+    {
+      "index": 824,
+      "name": "CurrencyCost[1][43]"
+    },
+    {
+      "index": 825,
+      "name": "CurrencyCost[1][44]"
+    },
+    {
+      "index": 826,
+      "name": "CurrencyCost[1][45]"
+    },
+    {
+      "index": 827,
+      "name": "CurrencyCost[1][46]"
+    },
+    {
+      "index": 828,
+      "name": "CurrencyCost[1][47]"
+    },
+    {
+      "index": 829,
+      "name": "CurrencyCost[1][48]"
+    },
+    {
+      "index": 830,
+      "name": "CurrencyCost[1][49]"
+    },
+    {
+      "index": 831,
+      "name": "CurrencyCost[1][50]"
+    },
+    {
+      "index": 832,
+      "name": "CurrencyCost[1][51]"
+    },
+    {
+      "index": 833,
+      "name": "CurrencyCost[1][52]"
+    },
+    {
+      "index": 834,
+      "name": "CurrencyCost[1][53]"
+    },
+    {
+      "index": 835,
+      "name": "CurrencyCost[1][54]"
+    },
+    {
+      "index": 836,
+      "name": "CurrencyCost[1][55]"
+    },
+    {
+      "index": 837,
+      "name": "CurrencyCost[1][56]"
+    },
+    {
+      "index": 838,
+      "name": "CurrencyCost[1][57]"
+    },
+    {
+      "index": 839,
+      "name": "CurrencyCost[1][58]"
+    },
+    {
+      "index": 840,
+      "name": "CurrencyCost[1][59]"
+    },
+    {
+      "index": 841,
+      "name": "CostType[1][0]"
+    },
+    {
+      "index": 842,
+      "name": "CostType[1][1]"
+    },
+    {
+      "index": 843,
+      "name": "CostType[1][2]"
+    },
+    {
+      "index": 844,
+      "name": "CostType[1][3]"
+    },
+    {
+      "index": 845,
+      "name": "CostType[1][4]"
+    },
+    {
+      "index": 846,
+      "name": "CostType[1][5]"
+    },
+    {
+      "index": 847,
+      "name": "CostType[1][6]"
+    },
+    {
+      "index": 848,
+      "name": "CostType[1][7]"
+    },
+    {
+      "index": 849,
+      "name": "CostType[1][8]"
+    },
+    {
+      "index": 850,
+      "name": "CostType[1][9]"
+    },
+    {
+      "index": 851,
+      "name": "CostType[1][10]"
+    },
+    {
+      "index": 852,
+      "name": "CostType[1][11]"
+    },
+    {
+      "index": 853,
+      "name": "CostType[1][12]"
+    },
+    {
+      "index": 854,
+      "name": "CostType[1][13]"
+    },
+    {
+      "index": 855,
+      "name": "CostType[1][14]"
+    },
+    {
+      "index": 856,
+      "name": "CostType[1][15]"
+    },
+    {
+      "index": 857,
+      "name": "CostType[1][16]"
+    },
+    {
+      "index": 858,
+      "name": "CostType[1][17]"
+    },
+    {
+      "index": 859,
+      "name": "CostType[1][18]"
+    },
+    {
+      "index": 860,
+      "name": "CostType[1][19]"
+    },
+    {
+      "index": 861,
+      "name": "CostType[1][20]"
+    },
+    {
+      "index": 862,
+      "name": "CostType[1][21]"
+    },
+    {
+      "index": 863,
+      "name": "CostType[1][22]"
+    },
+    {
+      "index": 864,
+      "name": "CostType[1][23]"
+    },
+    {
+      "index": 865,
+      "name": "CostType[1][24]"
+    },
+    {
+      "index": 866,
+      "name": "CostType[1][25]"
+    },
+    {
+      "index": 867,
+      "name": "CostType[1][26]"
+    },
+    {
+      "index": 868,
+      "name": "CostType[1][27]"
+    },
+    {
+      "index": 869,
+      "name": "CostType[1][28]"
+    },
+    {
+      "index": 870,
+      "name": "CostType[1][29]"
+    },
+    {
+      "index": 871,
+      "name": "CostType[1][30]"
+    },
+    {
+      "index": 872,
+      "name": "CostType[1][31]"
+    },
+    {
+      "index": 873,
+      "name": "CostType[1][32]"
+    },
+    {
+      "index": 874,
+      "name": "CostType[1][33]"
+    },
+    {
+      "index": 875,
+      "name": "CostType[1][34]"
+    },
+    {
+      "index": 876,
+      "name": "CostType[1][35]"
+    },
+    {
+      "index": 877,
+      "name": "CostType[1][36]"
+    },
+    {
+      "index": 878,
+      "name": "CostType[1][37]"
+    },
+    {
+      "index": 879,
+      "name": "CostType[1][38]"
+    },
+    {
+      "index": 880,
+      "name": "CostType[1][39]"
+    },
+    {
+      "index": 881,
+      "name": "CostType[1][40]"
+    },
+    {
+      "index": 882,
+      "name": "CostType[1][41]"
+    },
+    {
+      "index": 883,
+      "name": "CostType[1][42]"
+    },
+    {
+      "index": 884,
+      "name": "CostType[1][43]"
+    },
+    {
+      "index": 885,
+      "name": "CostType[1][44]"
+    },
+    {
+      "index": 886,
+      "name": "CostType[1][45]"
+    },
+    {
+      "index": 887,
+      "name": "CostType[1][46]"
+    },
+    {
+      "index": 888,
+      "name": "CostType[1][47]"
+    },
+    {
+      "index": 889,
+      "name": "CostType[1][48]"
+    },
+    {
+      "index": 890,
+      "name": "CostType[1][49]"
+    },
+    {
+      "index": 891,
+      "name": "CostType[1][50]"
+    },
+    {
+      "index": 892,
+      "name": "CostType[1][51]"
+    },
+    {
+      "index": 893,
+      "name": "CostType[1][52]"
+    },
+    {
+      "index": 894,
+      "name": "CostType[1][53]"
+    },
+    {
+      "index": 895,
+      "name": "CostType[1][54]"
+    },
+    {
+      "index": 896,
+      "name": "CostType[1][55]"
+    },
+    {
+      "index": 897,
+      "name": "CostType[1][56]"
+    },
+    {
+      "index": 898,
+      "name": "CostType[1][57]"
+    },
+    {
+      "index": 899,
+      "name": "CostType[1][58]"
+    },
+    {
+      "index": 900,
+      "name": "CostType[1][59]"
+    },
+    {
+      "index": 901,
+      "name": "CollectabilityCost[1][0]"
+    },
+    {
+      "index": 902,
+      "name": "CollectabilityCost[1][1]"
+    },
+    {
+      "index": 903,
+      "name": "CollectabilityCost[1][2]"
+    },
+    {
+      "index": 904,
+      "name": "CollectabilityCost[1][3]"
+    },
+    {
+      "index": 905,
+      "name": "CollectabilityCost[1][4]"
+    },
+    {
+      "index": 906,
+      "name": "CollectabilityCost[1][5]"
+    },
+    {
+      "index": 907,
+      "name": "CollectabilityCost[1][6]"
+    },
+    {
+      "index": 908,
+      "name": "CollectabilityCost[1][7]"
+    },
+    {
+      "index": 909,
+      "name": "CollectabilityCost[1][8]"
+    },
+    {
+      "index": 910,
+      "name": "CollectabilityCost[1][9]"
+    },
+    {
+      "index": 911,
+      "name": "CollectabilityCost[1][10]"
+    },
+    {
+      "index": 912,
+      "name": "CollectabilityCost[1][11]"
+    },
+    {
+      "index": 913,
+      "name": "CollectabilityCost[1][12]"
+    },
+    {
+      "index": 914,
+      "name": "CollectabilityCost[1][13]"
+    },
+    {
+      "index": 915,
+      "name": "CollectabilityCost[1][14]"
+    },
+    {
+      "index": 916,
+      "name": "CollectabilityCost[1][15]"
+    },
+    {
+      "index": 917,
+      "name": "CollectabilityCost[1][16]"
+    },
+    {
+      "index": 918,
+      "name": "CollectabilityCost[1][17]"
+    },
+    {
+      "index": 919,
+      "name": "CollectabilityCost[1][18]"
+    },
+    {
+      "index": 920,
+      "name": "CollectabilityCost[1][19]"
+    },
+    {
+      "index": 921,
+      "name": "CollectabilityCost[1][20]"
+    },
+    {
+      "index": 922,
+      "name": "CollectabilityCost[1][21]"
+    },
+    {
+      "index": 923,
+      "name": "CollectabilityCost[1][22]"
+    },
+    {
+      "index": 924,
+      "name": "CollectabilityCost[1][23]"
+    },
+    {
+      "index": 925,
+      "name": "CollectabilityCost[1][24]"
+    },
+    {
+      "index": 926,
+      "name": "CollectabilityCost[1][25]"
+    },
+    {
+      "index": 927,
+      "name": "CollectabilityCost[1][26]"
+    },
+    {
+      "index": 928,
+      "name": "CollectabilityCost[1][27]"
+    },
+    {
+      "index": 929,
+      "name": "CollectabilityCost[1][28]"
+    },
+    {
+      "index": 930,
+      "name": "CollectabilityCost[1][29]"
+    },
+    {
+      "index": 931,
+      "name": "CollectabilityCost[1][30]"
+    },
+    {
+      "index": 932,
+      "name": "CollectabilityCost[1][31]"
+    },
+    {
+      "index": 933,
+      "name": "CollectabilityCost[1][32]"
+    },
+    {
+      "index": 934,
+      "name": "CollectabilityCost[1][33]"
+    },
+    {
+      "index": 935,
+      "name": "CollectabilityCost[1][34]"
+    },
+    {
+      "index": 936,
+      "name": "CollectabilityCost[1][35]"
+    },
+    {
+      "index": 937,
+      "name": "CollectabilityCost[1][36]"
+    },
+    {
+      "index": 938,
+      "name": "CollectabilityCost[1][37]"
+    },
+    {
+      "index": 939,
+      "name": "CollectabilityCost[1][38]"
+    },
+    {
+      "index": 940,
+      "name": "CollectabilityCost[1][39]"
+    },
+    {
+      "index": 941,
+      "name": "CollectabilityCost[1][40]"
+    },
+    {
+      "index": 942,
+      "name": "CollectabilityCost[1][41]"
+    },
+    {
+      "index": 943,
+      "name": "CollectabilityCost[1][42]"
+    },
+    {
+      "index": 944,
+      "name": "CollectabilityCost[1][43]"
+    },
+    {
+      "index": 945,
+      "name": "CollectabilityCost[1][44]"
+    },
+    {
+      "index": 946,
+      "name": "CollectabilityCost[1][45]"
+    },
+    {
+      "index": 947,
+      "name": "CollectabilityCost[1][46]"
+    },
+    {
+      "index": 948,
+      "name": "CollectabilityCost[1][47]"
+    },
+    {
+      "index": 949,
+      "name": "CollectabilityCost[1][48]"
+    },
+    {
+      "index": 950,
+      "name": "CollectabilityCost[1][49]"
+    },
+    {
+      "index": 951,
+      "name": "CollectabilityCost[1][50]"
+    },
+    {
+      "index": 952,
+      "name": "CollectabilityCost[1][51]"
+    },
+    {
+      "index": 953,
+      "name": "CollectabilityCost[1][52]"
+    },
+    {
+      "index": 954,
+      "name": "CollectabilityCost[1][53]"
+    },
+    {
+      "index": 955,
+      "name": "CollectabilityCost[1][54]"
+    },
+    {
+      "index": 956,
+      "name": "CollectabilityCost[1][55]"
+    },
+    {
+      "index": 957,
+      "name": "CollectabilityCost[1][56]"
+    },
+    {
+      "index": 958,
+      "name": "CollectabilityCost[1][57]"
+    },
+    {
+      "index": 959,
+      "name": "CollectabilityCost[1][58]"
+    },
+    {
+      "index": 960,
+      "name": "CollectabilityCost[1][59]"
+    },
+    {
+      "index": 961,
+      "name": "ItemCost[2][0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 962,
+      "name": "ItemCost[2][1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 963,
+      "name": "ItemCost[2][2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 964,
+      "name": "ItemCost[2][3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 965,
+      "name": "ItemCost[2][4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 966,
+      "name": "ItemCost[2][5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 967,
+      "name": "ItemCost[2][6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 968,
+      "name": "ItemCost[2][7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 969,
+      "name": "ItemCost[2][8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 970,
+      "name": "ItemCost[2][9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 971,
+      "name": "ItemCost[2][10]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 972,
+      "name": "ItemCost[2][11]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 973,
+      "name": "ItemCost[2][12]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 974,
+      "name": "ItemCost[2][13]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 975,
+      "name": "ItemCost[2][14]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 976,
+      "name": "ItemCost[2][15]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 977,
+      "name": "ItemCost[2][16]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 978,
+      "name": "ItemCost[2][17]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 979,
+      "name": "ItemCost[2][18]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 980,
+      "name": "ItemCost[2][19]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 981,
+      "name": "ItemCost[2][20]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 982,
+      "name": "ItemCost[2][21]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 983,
+      "name": "ItemCost[2][22]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 984,
+      "name": "ItemCost[2][23]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 985,
+      "name": "ItemCost[2][24]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 986,
+      "name": "ItemCost[2][25]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 987,
+      "name": "ItemCost[2][26]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 988,
+      "name": "ItemCost[2][27]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 989,
+      "name": "ItemCost[2][28]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 990,
+      "name": "ItemCost[2][29]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 991,
+      "name": "ItemCost[2][30]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 992,
+      "name": "ItemCost[2][31]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 993,
+      "name": "ItemCost[2][32]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 994,
+      "name": "ItemCost[2][33]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 995,
+      "name": "ItemCost[2][34]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 996,
+      "name": "ItemCost[2][35]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 997,
+      "name": "ItemCost[2][36]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 998,
+      "name": "ItemCost[2][37]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 999,
+      "name": "ItemCost[2][38]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1000,
+      "name": "ItemCost[2][39]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1001,
+      "name": "ItemCost[2][40]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1002,
+      "name": "ItemCost[2][41]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1003,
+      "name": "ItemCost[2][42]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1004,
+      "name": "ItemCost[2][43]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1005,
+      "name": "ItemCost[2][44]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1006,
+      "name": "ItemCost[2][45]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1007,
+      "name": "ItemCost[2][46]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1008,
+      "name": "ItemCost[2][47]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1009,
+      "name": "ItemCost[2][48]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1010,
+      "name": "ItemCost[2][49]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1011,
+      "name": "ItemCost[2][50]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1012,
+      "name": "ItemCost[2][51]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1013,
+      "name": "ItemCost[2][52]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1014,
+      "name": "ItemCost[2][53]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1015,
+      "name": "ItemCost[2][54]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1016,
+      "name": "ItemCost[2][55]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1017,
+      "name": "ItemCost[2][56]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1018,
+      "name": "ItemCost[2][57]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1019,
+      "name": "ItemCost[2][58]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1020,
+      "name": "ItemCost[2][59]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1021,
+      "name": "CurrencyCost[2][0]"
+    },
+    {
+      "index": 1022,
+      "name": "CurrencyCost[2][1]"
+    },
+    {
+      "index": 1023,
+      "name": "CurrencyCost[2][2]"
+    },
+    {
+      "index": 1024,
+      "name": "CurrencyCost[2][3]"
+    },
+    {
+      "index": 1025,
+      "name": "CurrencyCost[2][4]"
+    },
+    {
+      "index": 1026,
+      "name": "CurrencyCost[2][5]"
+    },
+    {
+      "index": 1027,
+      "name": "CurrencyCost[2][6]"
+    },
+    {
+      "index": 1028,
+      "name": "CurrencyCost[2][7]"
+    },
+    {
+      "index": 1029,
+      "name": "CurrencyCost[2][8]"
+    },
+    {
+      "index": 1030,
+      "name": "CurrencyCost[2][9]"
+    },
+    {
+      "index": 1031,
+      "name": "CurrencyCost[2][10]"
+    },
+    {
+      "index": 1032,
+      "name": "CurrencyCost[2][11]"
+    },
+    {
+      "index": 1033,
+      "name": "CurrencyCost[2][12]"
+    },
+    {
+      "index": 1034,
+      "name": "CurrencyCost[2][13]"
+    },
+    {
+      "index": 1035,
+      "name": "CurrencyCost[2][14]"
+    },
+    {
+      "index": 1036,
+      "name": "CurrencyCost[2][15]"
+    },
+    {
+      "index": 1037,
+      "name": "CurrencyCost[2][16]"
+    },
+    {
+      "index": 1038,
+      "name": "CurrencyCost[2][17]"
+    },
+    {
+      "index": 1039,
+      "name": "CurrencyCost[2][18]"
+    },
+    {
+      "index": 1040,
+      "name": "CurrencyCost[2][19]"
+    },
+    {
+      "index": 1041,
+      "name": "CurrencyCost[2][20]"
+    },
+    {
+      "index": 1042,
+      "name": "CurrencyCost[2][21]"
+    },
+    {
+      "index": 1043,
+      "name": "CurrencyCost[2][22]"
+    },
+    {
+      "index": 1044,
+      "name": "CurrencyCost[2][23]"
+    },
+    {
+      "index": 1045,
+      "name": "CurrencyCost[2][24]"
+    },
+    {
+      "index": 1046,
+      "name": "CurrencyCost[2][25]"
+    },
+    {
+      "index": 1047,
+      "name": "CurrencyCost[2][26]"
+    },
+    {
+      "index": 1048,
+      "name": "CurrencyCost[2][27]"
+    },
+    {
+      "index": 1049,
+      "name": "CurrencyCost[2][28]"
+    },
+    {
+      "index": 1050,
+      "name": "CurrencyCost[2][29]"
+    },
+    {
+      "index": 1051,
+      "name": "CurrencyCost[2][30]"
+    },
+    {
+      "index": 1052,
+      "name": "CurrencyCost[2][31]"
+    },
+    {
+      "index": 1053,
+      "name": "CurrencyCost[2][32]"
+    },
+    {
+      "index": 1054,
+      "name": "CurrencyCost[2][33]"
+    },
+    {
+      "index": 1055,
+      "name": "CurrencyCost[2][34]"
+    },
+    {
+      "index": 1056,
+      "name": "CurrencyCost[2][35]"
+    },
+    {
+      "index": 1057,
+      "name": "CurrencyCost[2][36]"
+    },
+    {
+      "index": 1058,
+      "name": "CurrencyCost[2][37]"
+    },
+    {
+      "index": 1059,
+      "name": "CurrencyCost[2][38]"
+    },
+    {
+      "index": 1060,
+      "name": "CurrencyCost[2][39]"
+    },
+    {
+      "index": 1061,
+      "name": "CurrencyCost[2][40]"
+    },
+    {
+      "index": 1062,
+      "name": "CurrencyCost[2][41]"
+    },
+    {
+      "index": 1063,
+      "name": "CurrencyCost[2][42]"
+    },
+    {
+      "index": 1064,
+      "name": "CurrencyCost[2][43]"
+    },
+    {
+      "index": 1065,
+      "name": "CurrencyCost[2][44]"
+    },
+    {
+      "index": 1066,
+      "name": "CurrencyCost[2][45]"
+    },
+    {
+      "index": 1067,
+      "name": "CurrencyCost[2][46]"
+    },
+    {
+      "index": 1068,
+      "name": "CurrencyCost[2][47]"
+    },
+    {
+      "index": 1069,
+      "name": "CurrencyCost[2][48]"
+    },
+    {
+      "index": 1070,
+      "name": "CurrencyCost[2][49]"
+    },
+    {
+      "index": 1071,
+      "name": "CurrencyCost[2][50]"
+    },
+    {
+      "index": 1072,
+      "name": "CurrencyCost[2][51]"
+    },
+    {
+      "index": 1073,
+      "name": "CurrencyCost[2][52]"
+    },
+    {
+      "index": 1074,
+      "name": "CurrencyCost[2][53]"
+    },
+    {
+      "index": 1075,
+      "name": "CurrencyCost[2][54]"
+    },
+    {
+      "index": 1076,
+      "name": "CurrencyCost[2][55]"
+    },
+    {
+      "index": 1077,
+      "name": "CurrencyCost[2][56]"
+    },
+    {
+      "index": 1078,
+      "name": "CurrencyCost[2][57]"
+    },
+    {
+      "index": 1079,
+      "name": "CurrencyCost[2][58]"
+    },
+    {
+      "index": 1080,
+      "name": "CurrencyCost[2][59]"
+    },
+    {
+      "index": 1081,
+      "name": "CostType[2][0]"
+    },
+    {
+      "index": 1082,
+      "name": "CostType[2][1]"
+    },
+    {
+      "index": 1083,
+      "name": "CostType[2][2]"
+    },
+    {
+      "index": 1084,
+      "name": "CostType[2][3]"
+    },
+    {
+      "index": 1085,
+      "name": "CostType[2][4]"
+    },
+    {
+      "index": 1086,
+      "name": "CostType[2][5]"
+    },
+    {
+      "index": 1087,
+      "name": "CostType[2][6]"
+    },
+    {
+      "index": 1088,
+      "name": "CostType[2][7]"
+    },
+    {
+      "index": 1089,
+      "name": "CostType[2][8]"
+    },
+    {
+      "index": 1090,
+      "name": "CostType[2][9]"
+    },
+    {
+      "index": 1091,
+      "name": "CostType[2][10]"
+    },
+    {
+      "index": 1092,
+      "name": "CostType[2][11]"
+    },
+    {
+      "index": 1093,
+      "name": "CostType[2][12]"
+    },
+    {
+      "index": 1094,
+      "name": "CostType[2][13]"
+    },
+    {
+      "index": 1095,
+      "name": "CostType[2][14]"
+    },
+    {
+      "index": 1096,
+      "name": "CostType[2][15]"
+    },
+    {
+      "index": 1097,
+      "name": "CostType[2][16]"
+    },
+    {
+      "index": 1098,
+      "name": "CostType[2][17]"
+    },
+    {
+      "index": 1099,
+      "name": "CostType[2][18]"
+    },
+    {
+      "index": 1100,
+      "name": "CostType[2][19]"
+    },
+    {
+      "index": 1101,
+      "name": "CostType[2][20]"
+    },
+    {
+      "index": 1102,
+      "name": "CostType[2][21]"
+    },
+    {
+      "index": 1103,
+      "name": "CostType[2][22]"
+    },
+    {
+      "index": 1104,
+      "name": "CostType[2][23]"
+    },
+    {
+      "index": 1105,
+      "name": "CostType[2][24]"
+    },
+    {
+      "index": 1106,
+      "name": "CostType[2][25]"
+    },
+    {
+      "index": 1107,
+      "name": "CostType[2][26]"
+    },
+    {
+      "index": 1108,
+      "name": "CostType[2][27]"
+    },
+    {
+      "index": 1109,
+      "name": "CostType[2][28]"
+    },
+    {
+      "index": 1110,
+      "name": "CostType[2][29]"
+    },
+    {
+      "index": 1111,
+      "name": "CostType[2][30]"
+    },
+    {
+      "index": 1112,
+      "name": "CostType[2][31]"
+    },
+    {
+      "index": 1113,
+      "name": "CostType[2][32]"
+    },
+    {
+      "index": 1114,
+      "name": "CostType[2][33]"
+    },
+    {
+      "index": 1115,
+      "name": "CostType[2][34]"
+    },
+    {
+      "index": 1116,
+      "name": "CostType[2][35]"
+    },
+    {
+      "index": 1117,
+      "name": "CostType[2][36]"
+    },
+    {
+      "index": 1118,
+      "name": "CostType[2][37]"
+    },
+    {
+      "index": 1119,
+      "name": "CostType[2][38]"
+    },
+    {
+      "index": 1120,
+      "name": "CostType[2][39]"
+    },
+    {
+      "index": 1121,
+      "name": "CostType[2][40]"
+    },
+    {
+      "index": 1122,
+      "name": "CostType[2][41]"
+    },
+    {
+      "index": 1123,
+      "name": "CostType[2][42]"
+    },
+    {
+      "index": 1124,
+      "name": "CostType[2][43]"
+    },
+    {
+      "index": 1125,
+      "name": "CostType[2][44]"
+    },
+    {
+      "index": 1126,
+      "name": "CostType[2][45]"
+    },
+    {
+      "index": 1127,
+      "name": "CostType[2][46]"
+    },
+    {
+      "index": 1128,
+      "name": "CostType[2][47]"
+    },
+    {
+      "index": 1129,
+      "name": "CostType[2][48]"
+    },
+    {
+      "index": 1130,
+      "name": "CostType[2][49]"
+    },
+    {
+      "index": 1131,
+      "name": "CostType[2][50]"
+    },
+    {
+      "index": 1132,
+      "name": "CostType[2][51]"
+    },
+    {
+      "index": 1133,
+      "name": "CostType[2][52]"
+    },
+    {
+      "index": 1134,
+      "name": "CostType[2][53]"
+    },
+    {
+      "index": 1135,
+      "name": "CostType[2][54]"
+    },
+    {
+      "index": 1136,
+      "name": "CostType[2][55]"
+    },
+    {
+      "index": 1137,
+      "name": "CostType[2][56]"
+    },
+    {
+      "index": 1138,
+      "name": "CostType[2][57]"
+    },
+    {
+      "index": 1139,
+      "name": "CostType[2][58]"
+    },
+    {
+      "index": 1140,
+      "name": "CostType[2][59]"
+    },
+    {
+      "index": 1141,
+      "name": "CollectabilityCost[2][0]"
+    },
+    {
+      "index": 1142,
+      "name": "CollectabilityCost[2][1]"
+    },
+    {
+      "index": 1143,
+      "name": "CollectabilityCost[2][2]"
+    },
+    {
+      "index": 1144,
+      "name": "CollectabilityCost[2][3]"
+    },
+    {
+      "index": 1145,
+      "name": "CollectabilityCost[2][4]"
+    },
+    {
+      "index": 1146,
+      "name": "CollectabilityCost[2][5]"
+    },
+    {
+      "index": 1147,
+      "name": "CollectabilityCost[2][6]"
+    },
+    {
+      "index": 1148,
+      "name": "CollectabilityCost[2][7]"
+    },
+    {
+      "index": 1149,
+      "name": "CollectabilityCost[2][8]"
+    },
+    {
+      "index": 1150,
+      "name": "CollectabilityCost[2][9]"
+    },
+    {
+      "index": 1151,
+      "name": "CollectabilityCost[2][10]"
+    },
+    {
+      "index": 1152,
+      "name": "CollectabilityCost[2][11]"
+    },
+    {
+      "index": 1153,
+      "name": "CollectabilityCost[2][12]"
+    },
+    {
+      "index": 1154,
+      "name": "CollectabilityCost[2][13]"
+    },
+    {
+      "index": 1155,
+      "name": "CollectabilityCost[2][14]"
+    },
+    {
+      "index": 1156,
+      "name": "CollectabilityCost[2][15]"
+    },
+    {
+      "index": 1157,
+      "name": "CollectabilityCost[2][16]"
+    },
+    {
+      "index": 1158,
+      "name": "CollectabilityCost[2][17]"
+    },
+    {
+      "index": 1159,
+      "name": "CollectabilityCost[2][18]"
+    },
+    {
+      "index": 1160,
+      "name": "CollectabilityCost[2][19]"
+    },
+    {
+      "index": 1161,
+      "name": "CollectabilityCost[2][20]"
+    },
+    {
+      "index": 1162,
+      "name": "CollectabilityCost[2][21]"
+    },
+    {
+      "index": 1163,
+      "name": "CollectabilityCost[2][22]"
+    },
+    {
+      "index": 1164,
+      "name": "CollectabilityCost[2][23]"
+    },
+    {
+      "index": 1165,
+      "name": "CollectabilityCost[2][24]"
+    },
+    {
+      "index": 1166,
+      "name": "CollectabilityCost[2][25]"
+    },
+    {
+      "index": 1167,
+      "name": "CollectabilityCost[2][26]"
+    },
+    {
+      "index": 1168,
+      "name": "CollectabilityCost[2][27]"
+    },
+    {
+      "index": 1169,
+      "name": "CollectabilityCost[2][28]"
+    },
+    {
+      "index": 1170,
+      "name": "CollectabilityCost[2][29]"
+    },
+    {
+      "index": 1171,
+      "name": "CollectabilityCost[2][30]"
+    },
+    {
+      "index": 1172,
+      "name": "CollectabilityCost[2][31]"
+    },
+    {
+      "index": 1173,
+      "name": "CollectabilityCost[2][32]"
+    },
+    {
+      "index": 1174,
+      "name": "CollectabilityCost[2][33]"
+    },
+    {
+      "index": 1175,
+      "name": "CollectabilityCost[2][34]"
+    },
+    {
+      "index": 1176,
+      "name": "CollectabilityCost[2][35]"
+    },
+    {
+      "index": 1177,
+      "name": "CollectabilityCost[2][36]"
+    },
+    {
+      "index": 1178,
+      "name": "CollectabilityCost[2][37]"
+    },
+    {
+      "index": 1179,
+      "name": "CollectabilityCost[2][38]"
+    },
+    {
+      "index": 1180,
+      "name": "CollectabilityCost[2][39]"
+    },
+    {
+      "index": 1181,
+      "name": "CollectabilityCost[2][40]"
+    },
+    {
+      "index": 1182,
+      "name": "CollectabilityCost[2][41]"
+    },
+    {
+      "index": 1183,
+      "name": "CollectabilityCost[2][42]"
+    },
+    {
+      "index": 1184,
+      "name": "CollectabilityCost[2][43]"
+    },
+    {
+      "index": 1185,
+      "name": "CollectabilityCost[2][44]"
+    },
+    {
+      "index": 1186,
+      "name": "CollectabilityCost[2][45]"
+    },
+    {
+      "index": 1187,
+      "name": "CollectabilityCost[2][46]"
+    },
+    {
+      "index": 1188,
+      "name": "CollectabilityCost[2][47]"
+    },
+    {
+      "index": 1189,
+      "name": "CollectabilityCost[2][48]"
+    },
+    {
+      "index": 1190,
+      "name": "CollectabilityCost[2][49]"
+    },
+    {
+      "index": 1191,
+      "name": "CollectabilityCost[2][50]"
+    },
+    {
+      "index": 1192,
+      "name": "CollectabilityCost[2][51]"
+    },
+    {
+      "index": 1193,
+      "name": "CollectabilityCost[2][52]"
+    },
+    {
+      "index": 1194,
+      "name": "CollectabilityCost[2][53]"
+    },
+    {
+      "index": 1195,
+      "name": "CollectabilityCost[2][54]"
+    },
+    {
+      "index": 1196,
+      "name": "CollectabilityCost[2][55]"
+    },
+    {
+      "index": 1197,
+      "name": "CollectabilityCost[2][56]"
+    },
+    {
+      "index": 1198,
+      "name": "CollectabilityCost[2][57]"
+    },
+    {
+      "index": 1199,
+      "name": "CollectabilityCost[2][58]"
+    },
+    {
+      "index": 1200,
+      "name": "CollectabilityCost[2][59]"
+    },
+    {
+      "index": 1201,
+      "name": "Quest[0]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1202,
+      "name": "Quest[1]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1203,
+      "name": "Quest[2]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1204,
+      "name": "Quest[3]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1205,
+      "name": "Quest[4]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1206,
+      "name": "Quest[5]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1207,
+      "name": "Quest[6]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1208,
+      "name": "Quest[7]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1209,
+      "name": "Quest[8]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1210,
+      "name": "Quest[9]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1211,
+      "name": "Quest[10]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1212,
+      "name": "Quest[11]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1213,
+      "name": "Quest[12]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1214,
+      "name": "Quest[13]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1215,
+      "name": "Quest[14]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1216,
+      "name": "Quest[15]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1217,
+      "name": "Quest[16]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1218,
+      "name": "Quest[17]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1219,
+      "name": "Quest[18]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1220,
+      "name": "Quest[19]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1221,
+      "name": "Quest[20]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1222,
+      "name": "Quest[21]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1223,
+      "name": "Quest[22]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1224,
+      "name": "Quest[23]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1225,
+      "name": "Quest[24]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1226,
+      "name": "Quest[25]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1227,
+      "name": "Quest[26]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1228,
+      "name": "Quest[27]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1229,
+      "name": "Quest[28]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1230,
+      "name": "Quest[29]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1231,
+      "name": "Quest[30]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1232,
+      "name": "Quest[31]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1233,
+      "name": "Quest[32]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1234,
+      "name": "Quest[33]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1235,
+      "name": "Quest[34]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1236,
+      "name": "Quest[35]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1237,
+      "name": "Quest[36]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1238,
+      "name": "Quest[37]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1239,
+      "name": "Quest[38]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1240,
+      "name": "Quest[39]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1241,
+      "name": "Quest[40]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1242,
+      "name": "Quest[41]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1243,
+      "name": "Quest[42]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1244,
+      "name": "Quest[43]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1245,
+      "name": "Quest[44]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1246,
+      "name": "Quest[45]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1247,
+      "name": "Quest[46]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1248,
+      "name": "Quest[47]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1249,
+      "name": "Quest[48]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1250,
+      "name": "Quest[49]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1251,
+      "name": "Quest[50]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1252,
+      "name": "Quest[51]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1253,
+      "name": "Quest[52]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1254,
+      "name": "Quest[53]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1255,
+      "name": "Quest[54]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1256,
+      "name": "Quest[55]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1257,
+      "name": "Quest[56]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1258,
+      "name": "Quest[57]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1259,
+      "name": "Quest[58]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1260,
+      "name": "Quest[59]",
+      "converter": {
+        "type": "link",
+        "target": "Quest"
+      }
+    },
+    {
+      "index": 1261,
+      "name": "Unknown0[0][0]"
+    },
+    {
+      "index": 1262,
+      "name": "Unknown0[0][1]"
+    },
+    {
+      "index": 1263,
+      "name": "Unknown0[0][2]"
+    },
+    {
+      "index": 1264,
+      "name": "Unknown0[0][3]"
+    },
+    {
+      "index": 1265,
+      "name": "Unknown0[0][4]"
+    },
+    {
+      "index": 1266,
+      "name": "Unknown0[0][5]"
+    },
+    {
+      "index": 1267,
+      "name": "Unknown0[0][6]"
+    },
+    {
+      "index": 1268,
+      "name": "Unknown0[0][7]"
+    },
+    {
+      "index": 1269,
+      "name": "Unknown0[0][8]"
+    },
+    {
+      "index": 1270,
+      "name": "Unknown0[0][9]"
+    },
+    {
+      "index": 1271,
+      "name": "Unknown0[0][10]"
+    },
+    {
+      "index": 1272,
+      "name": "Unknown0[0][11]"
+    },
+    {
+      "index": 1273,
+      "name": "Unknown0[0][12]"
+    },
+    {
+      "index": 1274,
+      "name": "Unknown0[0][13]"
+    },
+    {
+      "index": 1275,
+      "name": "Unknown0[0][14]"
+    },
+    {
+      "index": 1276,
+      "name": "Unknown0[0][15]"
+    },
+    {
+      "index": 1277,
+      "name": "Unknown0[0][16]"
+    },
+    {
+      "index": 1278,
+      "name": "Unknown0[0][17]"
+    },
+    {
+      "index": 1279,
+      "name": "Unknown0[0][18]"
+    },
+    {
+      "index": 1280,
+      "name": "Unknown0[0][19]"
+    },
+    {
+      "index": 1281,
+      "name": "Unknown0[0][20]"
+    },
+    {
+      "index": 1282,
+      "name": "Unknown0[0][21]"
+    },
+    {
+      "index": 1283,
+      "name": "Unknown0[0][22]"
+    },
+    {
+      "index": 1284,
+      "name": "Unknown0[0][23]"
+    },
+    {
+      "index": 1285,
+      "name": "Unknown0[0][24]"
+    },
+    {
+      "index": 1286,
+      "name": "Unknown0[0][25]"
+    },
+    {
+      "index": 1287,
+      "name": "Unknown0[0][26]"
+    },
+    {
+      "index": 1288,
+      "name": "Unknown0[0][27]"
+    },
+    {
+      "index": 1289,
+      "name": "Unknown0[0][28]"
+    },
+    {
+      "index": 1290,
+      "name": "Unknown0[0][29]"
+    },
+    {
+      "index": 1291,
+      "name": "Unknown0[0][30]"
+    },
+    {
+      "index": 1292,
+      "name": "Unknown0[0][31]"
+    },
+    {
+      "index": 1293,
+      "name": "Unknown0[0][32]"
+    },
+    {
+      "index": 1294,
+      "name": "Unknown0[0][33]"
+    },
+    {
+      "index": 1295,
+      "name": "Unknown0[0][34]"
+    },
+    {
+      "index": 1296,
+      "name": "Unknown0[0][35]"
+    },
+    {
+      "index": 1297,
+      "name": "Unknown0[0][36]"
+    },
+    {
+      "index": 1298,
+      "name": "Unknown0[0][37]"
+    },
+    {
+      "index": 1299,
+      "name": "Unknown0[0][38]"
+    },
+    {
+      "index": 1300,
+      "name": "Unknown0[0][39]"
+    },
+    {
+      "index": 1301,
+      "name": "Unknown0[0][40]"
+    },
+    {
+      "index": 1302,
+      "name": "Unknown0[0][41]"
+    },
+    {
+      "index": 1303,
+      "name": "Unknown0[0][42]"
+    },
+    {
+      "index": 1304,
+      "name": "Unknown0[0][43]"
+    },
+    {
+      "index": 1305,
+      "name": "Unknown0[0][44]"
+    },
+    {
+      "index": 1306,
+      "name": "Unknown0[0][45]"
+    },
+    {
+      "index": 1307,
+      "name": "Unknown0[0][46]"
+    },
+    {
+      "index": 1308,
+      "name": "Unknown0[0][47]"
+    },
+    {
+      "index": 1309,
+      "name": "Unknown0[0][48]"
+    },
+    {
+      "index": 1310,
+      "name": "Unknown0[0][49]"
+    },
+    {
+      "index": 1311,
+      "name": "Unknown0[0][50]"
+    },
+    {
+      "index": 1312,
+      "name": "Unknown0[0][51]"
+    },
+    {
+      "index": 1313,
+      "name": "Unknown0[0][52]"
+    },
+    {
+      "index": 1314,
+      "name": "Unknown0[0][53]"
+    },
+    {
+      "index": 1315,
+      "name": "Unknown0[0][54]"
+    },
+    {
+      "index": 1316,
+      "name": "Unknown0[0][55]"
+    },
+    {
+      "index": 1317,
+      "name": "Unknown0[0][56]"
+    },
+    {
+      "index": 1318,
+      "name": "Unknown0[0][57]"
+    },
+    {
+      "index": 1319,
+      "name": "Unknown0[0][58]"
+    },
+    {
+      "index": 1320,
+      "name": "Unknown0[0][59]"
+    },
+    {
+      "index": 1321,
+      "name": "Unknown1[0][0]"
+    },
+    {
+      "index": 1322,
+      "name": "Unknown1[0][1]"
+    },
+    {
+      "index": 1323,
+      "name": "Unknown1[0][2]"
+    },
+    {
+      "index": 1324,
+      "name": "Unknown1[0][3]"
+    },
+    {
+      "index": 1325,
+      "name": "Unknown1[0][4]"
+    },
+    {
+      "index": 1326,
+      "name": "Unknown1[0][5]"
+    },
+    {
+      "index": 1327,
+      "name": "Unknown1[0][6]"
+    },
+    {
+      "index": 1328,
+      "name": "Unknown1[0][7]"
+    },
+    {
+      "index": 1329,
+      "name": "Unknown1[0][8]"
+    },
+    {
+      "index": 1330,
+      "name": "Unknown1[0][9]"
+    },
+    {
+      "index": 1331,
+      "name": "Unknown1[0][10]"
+    },
+    {
+      "index": 1332,
+      "name": "Unknown1[0][11]"
+    },
+    {
+      "index": 1333,
+      "name": "Unknown1[0][12]"
+    },
+    {
+      "index": 1334,
+      "name": "Unknown1[0][13]"
+    },
+    {
+      "index": 1335,
+      "name": "Unknown1[0][14]"
+    },
+    {
+      "index": 1336,
+      "name": "Unknown1[0][15]"
+    },
+    {
+      "index": 1337,
+      "name": "Unknown1[0][16]"
+    },
+    {
+      "index": 1338,
+      "name": "Unknown1[0][17]"
+    },
+    {
+      "index": 1339,
+      "name": "Unknown1[0][18]"
+    },
+    {
+      "index": 1340,
+      "name": "Unknown1[0][19]"
+    },
+    {
+      "index": 1341,
+      "name": "Unknown1[0][20]"
+    },
+    {
+      "index": 1342,
+      "name": "Unknown1[0][21]"
+    },
+    {
+      "index": 1343,
+      "name": "Unknown1[0][22]"
+    },
+    {
+      "index": 1344,
+      "name": "Unknown1[0][23]"
+    },
+    {
+      "index": 1345,
+      "name": "Unknown1[0][24]"
+    },
+    {
+      "index": 1346,
+      "name": "Unknown1[0][25]"
+    },
+    {
+      "index": 1347,
+      "name": "Unknown1[0][26]"
+    },
+    {
+      "index": 1348,
+      "name": "Unknown1[0][27]"
+    },
+    {
+      "index": 1349,
+      "name": "Unknown1[0][28]"
+    },
+    {
+      "index": 1350,
+      "name": "Unknown1[0][29]"
+    },
+    {
+      "index": 1351,
+      "name": "Unknown1[0][30]"
+    },
+    {
+      "index": 1352,
+      "name": "Unknown1[0][31]"
+    },
+    {
+      "index": 1353,
+      "name": "Unknown1[0][32]"
+    },
+    {
+      "index": 1354,
+      "name": "Unknown1[0][33]"
+    },
+    {
+      "index": 1355,
+      "name": "Unknown1[0][34]"
+    },
+    {
+      "index": 1356,
+      "name": "Unknown1[0][35]"
+    },
+    {
+      "index": 1357,
+      "name": "Unknown1[0][36]"
+    },
+    {
+      "index": 1358,
+      "name": "Unknown1[0][37]"
+    },
+    {
+      "index": 1359,
+      "name": "Unknown1[0][38]"
+    },
+    {
+      "index": 1360,
+      "name": "Unknown1[0][39]"
+    },
+    {
+      "index": 1361,
+      "name": "Unknown1[0][40]"
+    },
+    {
+      "index": 1362,
+      "name": "Unknown1[0][41]"
+    },
+    {
+      "index": 1363,
+      "name": "Unknown1[0][42]"
+    },
+    {
+      "index": 1364,
+      "name": "Unknown1[0][43]"
+    },
+    {
+      "index": 1365,
+      "name": "Unknown1[0][44]"
+    },
+    {
+      "index": 1366,
+      "name": "Unknown1[0][45]"
+    },
+    {
+      "index": 1367,
+      "name": "Unknown1[0][46]"
+    },
+    {
+      "index": 1368,
+      "name": "Unknown1[0][47]"
+    },
+    {
+      "index": 1369,
+      "name": "Unknown1[0][48]"
+    },
+    {
+      "index": 1370,
+      "name": "Unknown1[0][49]"
+    },
+    {
+      "index": 1371,
+      "name": "Unknown1[0][50]"
+    },
+    {
+      "index": 1372,
+      "name": "Unknown1[0][51]"
+    },
+    {
+      "index": 1373,
+      "name": "Unknown1[0][52]"
+    },
+    {
+      "index": 1374,
+      "name": "Unknown1[0][53]"
+    },
+    {
+      "index": 1375,
+      "name": "Unknown1[0][54]"
+    },
+    {
+      "index": 1376,
+      "name": "Unknown1[0][55]"
+    },
+    {
+      "index": 1377,
+      "name": "Unknown1[0][56]"
+    },
+    {
+      "index": 1378,
+      "name": "Unknown1[0][57]"
+    },
+    {
+      "index": 1379,
+      "name": "Unknown1[0][58]"
+    },
+    {
+      "index": 1380,
+      "name": "Unknown1[0][59]"
+    },
+    {
+      "index": 1381,
+      "name": "Unknown1[1][0]"
+    },
+    {
+      "index": 1382,
+      "name": "Unknown1[1][1]"
+    },
+    {
+      "index": 1383,
+      "name": "Unknown1[1][2]"
+    },
+    {
+      "index": 1384,
+      "name": "Unknown1[1][3]"
+    },
+    {
+      "index": 1385,
+      "name": "Unknown1[1][4]"
+    },
+    {
+      "index": 1386,
+      "name": "Unknown1[1][5]"
+    },
+    {
+      "index": 1387,
+      "name": "Unknown1[1][6]"
+    },
+    {
+      "index": 1388,
+      "name": "Unknown1[1][7]"
+    },
+    {
+      "index": 1389,
+      "name": "Unknown1[1][8]"
+    },
+    {
+      "index": 1390,
+      "name": "Unknown1[1][9]"
+    },
+    {
+      "index": 1391,
+      "name": "Unknown1[1][10]"
+    },
+    {
+      "index": 1392,
+      "name": "Unknown1[1][11]"
+    },
+    {
+      "index": 1393,
+      "name": "Unknown1[1][12]"
+    },
+    {
+      "index": 1394,
+      "name": "Unknown1[1][13]"
+    },
+    {
+      "index": 1395,
+      "name": "Unknown1[1][14]"
+    },
+    {
+      "index": 1396,
+      "name": "Unknown1[1][15]"
+    },
+    {
+      "index": 1397,
+      "name": "Unknown1[1][16]"
+    },
+    {
+      "index": 1398,
+      "name": "Unknown1[1][17]"
+    },
+    {
+      "index": 1399,
+      "name": "Unknown1[1][18]"
+    },
+    {
+      "index": 1400,
+      "name": "Unknown1[1][19]"
+    },
+    {
+      "index": 1401,
+      "name": "Unknown1[1][20]"
+    },
+    {
+      "index": 1402,
+      "name": "Unknown1[1][21]"
+    },
+    {
+      "index": 1403,
+      "name": "Unknown1[1][22]"
+    },
+    {
+      "index": 1404,
+      "name": "Unknown1[1][23]"
+    },
+    {
+      "index": 1405,
+      "name": "Unknown1[1][24]"
+    },
+    {
+      "index": 1406,
+      "name": "Unknown1[1][25]"
+    },
+    {
+      "index": 1407,
+      "name": "Unknown1[1][26]"
+    },
+    {
+      "index": 1408,
+      "name": "Unknown1[1][27]"
+    },
+    {
+      "index": 1409,
+      "name": "Unknown1[1][28]"
+    },
+    {
+      "index": 1410,
+      "name": "Unknown1[1][29]"
+    },
+    {
+      "index": 1411,
+      "name": "Unknown1[1][30]"
+    },
+    {
+      "index": 1412,
+      "name": "Unknown1[1][31]"
+    },
+    {
+      "index": 1413,
+      "name": "Unknown1[1][32]"
+    },
+    {
+      "index": 1414,
+      "name": "Unknown1[1][33]"
+    },
+    {
+      "index": 1415,
+      "name": "Unknown1[1][34]"
+    },
+    {
+      "index": 1416,
+      "name": "Unknown1[1][35]"
+    },
+    {
+      "index": 1417,
+      "name": "Unknown1[1][36]"
+    },
+    {
+      "index": 1418,
+      "name": "Unknown1[1][37]"
+    },
+    {
+      "index": 1419,
+      "name": "Unknown1[1][38]"
+    },
+    {
+      "index": 1420,
+      "name": "Unknown1[1][39]"
+    },
+    {
+      "index": 1421,
+      "name": "Unknown1[1][40]"
+    },
+    {
+      "index": 1422,
+      "name": "Unknown1[1][41]"
+    },
+    {
+      "index": 1423,
+      "name": "Unknown1[1][42]"
+    },
+    {
+      "index": 1424,
+      "name": "Unknown1[1][43]"
+    },
+    {
+      "index": 1425,
+      "name": "Unknown1[1][44]"
+    },
+    {
+      "index": 1426,
+      "name": "Unknown1[1][45]"
+    },
+    {
+      "index": 1427,
+      "name": "Unknown1[1][46]"
+    },
+    {
+      "index": 1428,
+      "name": "Unknown1[1][47]"
+    },
+    {
+      "index": 1429,
+      "name": "Unknown1[1][48]"
+    },
+    {
+      "index": 1430,
+      "name": "Unknown1[1][49]"
+    },
+    {
+      "index": 1431,
+      "name": "Unknown1[1][50]"
+    },
+    {
+      "index": 1432,
+      "name": "Unknown1[1][51]"
+    },
+    {
+      "index": 1433,
+      "name": "Unknown1[1][52]"
+    },
+    {
+      "index": 1434,
+      "name": "Unknown1[1][53]"
+    },
+    {
+      "index": 1435,
+      "name": "Unknown1[1][54]"
+    },
+    {
+      "index": 1436,
+      "name": "Unknown1[1][55]"
+    },
+    {
+      "index": 1437,
+      "name": "Unknown1[1][56]"
+    },
+    {
+      "index": 1438,
+      "name": "Unknown1[1][57]"
+    },
+    {
+      "index": 1439,
+      "name": "Unknown1[1][58]"
+    },
+    {
+      "index": 1440,
+      "name": "Unknown1[1][59]"
+    },
+    {
+      "index": 1441,
+      "name": "Unknown1[2][0]"
+    },
+    {
+      "index": 1442,
+      "name": "Unknown1[2][1]"
+    },
+    {
+      "index": 1443,
+      "name": "Unknown1[2][2]"
+    },
+    {
+      "index": 1444,
+      "name": "Unknown1[2][3]"
+    },
+    {
+      "index": 1445,
+      "name": "Unknown1[2][4]"
+    },
+    {
+      "index": 1446,
+      "name": "Unknown1[2][5]"
+    },
+    {
+      "index": 1447,
+      "name": "Unknown1[2][6]"
+    },
+    {
+      "index": 1448,
+      "name": "Unknown1[2][7]"
+    },
+    {
+      "index": 1449,
+      "name": "Unknown1[2][8]"
+    },
+    {
+      "index": 1450,
+      "name": "Unknown1[2][9]"
+    },
+    {
+      "index": 1451,
+      "name": "Unknown1[2][10]"
+    },
+    {
+      "index": 1452,
+      "name": "Unknown1[2][11]"
+    },
+    {
+      "index": 1453,
+      "name": "Unknown1[2][12]"
+    },
+    {
+      "index": 1454,
+      "name": "Unknown1[2][13]"
+    },
+    {
+      "index": 1455,
+      "name": "Unknown1[2][14]"
+    },
+    {
+      "index": 1456,
+      "name": "Unknown1[2][15]"
+    },
+    {
+      "index": 1457,
+      "name": "Unknown1[2][16]"
+    },
+    {
+      "index": 1458,
+      "name": "Unknown1[2][17]"
+    },
+    {
+      "index": 1459,
+      "name": "Unknown1[2][18]"
+    },
+    {
+      "index": 1460,
+      "name": "Unknown1[2][19]"
+    },
+    {
+      "index": 1461,
+      "name": "Unknown1[2][20]"
+    },
+    {
+      "index": 1462,
+      "name": "Unknown1[2][21]"
+    },
+    {
+      "index": 1463,
+      "name": "Unknown1[2][22]"
+    },
+    {
+      "index": 1464,
+      "name": "Unknown1[2][23]"
+    },
+    {
+      "index": 1465,
+      "name": "Unknown1[2][24]"
+    },
+    {
+      "index": 1466,
+      "name": "Unknown1[2][25]"
+    },
+    {
+      "index": 1467,
+      "name": "Unknown1[2][26]"
+    },
+    {
+      "index": 1468,
+      "name": "Unknown1[2][27]"
+    },
+    {
+      "index": 1469,
+      "name": "Unknown1[2][28]"
+    },
+    {
+      "index": 1470,
+      "name": "Unknown1[2][29]"
+    },
+    {
+      "index": 1471,
+      "name": "Unknown1[2][30]"
+    },
+    {
+      "index": 1472,
+      "name": "Unknown1[2][31]"
+    },
+    {
+      "index": 1473,
+      "name": "Unknown1[2][32]"
+    },
+    {
+      "index": 1474,
+      "name": "Unknown1[2][33]"
+    },
+    {
+      "index": 1475,
+      "name": "Unknown1[2][34]"
+    },
+    {
+      "index": 1476,
+      "name": "Unknown1[2][35]"
+    },
+    {
+      "index": 1477,
+      "name": "Unknown1[2][36]"
+    },
+    {
+      "index": 1478,
+      "name": "Unknown1[2][37]"
+    },
+    {
+      "index": 1479,
+      "name": "Unknown1[2][38]"
+    },
+    {
+      "index": 1480,
+      "name": "Unknown1[2][39]"
+    },
+    {
+      "index": 1481,
+      "name": "Unknown1[2][40]"
+    },
+    {
+      "index": 1482,
+      "name": "Unknown1[2][41]"
+    },
+    {
+      "index": 1483,
+      "name": "Unknown1[2][42]"
+    },
+    {
+      "index": 1484,
+      "name": "Unknown1[2][43]"
+    },
+    {
+      "index": 1485,
+      "name": "Unknown1[2][44]"
+    },
+    {
+      "index": 1486,
+      "name": "Unknown1[2][45]"
+    },
+    {
+      "index": 1487,
+      "name": "Unknown1[2][46]"
+    },
+    {
+      "index": 1488,
+      "name": "Unknown1[2][47]"
+    },
+    {
+      "index": 1489,
+      "name": "Unknown1[2][48]"
+    },
+    {
+      "index": 1490,
+      "name": "Unknown1[2][49]"
+    },
+    {
+      "index": 1491,
+      "name": "Unknown1[2][50]"
+    },
+    {
+      "index": 1492,
+      "name": "Unknown1[2][51]"
+    },
+    {
+      "index": 1493,
+      "name": "Unknown1[2][52]"
+    },
+    {
+      "index": 1494,
+      "name": "Unknown1[2][53]"
+    },
+    {
+      "index": 1495,
+      "name": "Unknown1[2][54]"
+    },
+    {
+      "index": 1496,
+      "name": "Unknown1[2][55]"
+    },
+    {
+      "index": 1497,
+      "name": "Unknown1[2][56]"
+    },
+    {
+      "index": 1498,
+      "name": "Unknown1[2][57]"
+    },
+    {
+      "index": 1499,
+      "name": "Unknown1[2][58]"
+    },
+    {
+      "index": 1500,
+      "name": "Unknown1[2][59]"
+    },
+    {
+      "index": 1501,
+      "name": "Unknown0[1][0]"
+    },
+    {
+      "index": 1502,
+      "name": "Unknown0[1][1]"
+    },
+    {
+      "index": 1503,
+      "name": "Unknown0[1][2]"
+    },
+    {
+      "index": 1504,
+      "name": "Unknown0[1][3]"
+    },
+    {
+      "index": 1505,
+      "name": "Unknown0[1][4]"
+    },
+    {
+      "index": 1506,
+      "name": "Unknown0[1][5]"
+    },
+    {
+      "index": 1507,
+      "name": "Unknown0[1][6]"
+    },
+    {
+      "index": 1508,
+      "name": "Unknown0[1][7]"
+    },
+    {
+      "index": 1509,
+      "name": "Unknown0[1][8]"
+    },
+    {
+      "index": 1510,
+      "name": "Unknown0[1][9]"
+    },
+    {
+      "index": 1511,
+      "name": "Unknown0[1][10]"
+    },
+    {
+      "index": 1512,
+      "name": "Unknown0[1][11]"
+    },
+    {
+      "index": 1513,
+      "name": "Unknown0[1][12]"
+    },
+    {
+      "index": 1514,
+      "name": "Unknown0[1][13]"
+    },
+    {
+      "index": 1515,
+      "name": "Unknown0[1][14]"
+    },
+    {
+      "index": 1516,
+      "name": "Unknown0[1][15]"
+    },
+    {
+      "index": 1517,
+      "name": "Unknown0[1][16]"
+    },
+    {
+      "index": 1518,
+      "name": "Unknown0[1][17]"
+    },
+    {
+      "index": 1519,
+      "name": "Unknown0[1][18]"
+    },
+    {
+      "index": 1520,
+      "name": "Unknown0[1][19]"
+    },
+    {
+      "index": 1521,
+      "name": "Unknown0[1][20]"
+    },
+    {
+      "index": 1522,
+      "name": "Unknown0[1][21]"
+    },
+    {
+      "index": 1523,
+      "name": "Unknown0[1][22]"
+    },
+    {
+      "index": 1524,
+      "name": "Unknown0[1][23]"
+    },
+    {
+      "index": 1525,
+      "name": "Unknown0[1][24]"
+    },
+    {
+      "index": 1526,
+      "name": "Unknown0[1][25]"
+    },
+    {
+      "index": 1527,
+      "name": "Unknown0[1][26]"
+    },
+    {
+      "index": 1528,
+      "name": "Unknown0[1][27]"
+    },
+    {
+      "index": 1529,
+      "name": "Unknown0[1][28]"
+    },
+    {
+      "index": 1530,
+      "name": "Unknown0[1][29]"
+    },
+    {
+      "index": 1531,
+      "name": "Unknown0[1][30]"
+    },
+    {
+      "index": 1532,
+      "name": "Unknown0[1][31]"
+    },
+    {
+      "index": 1533,
+      "name": "Unknown0[1][32]"
+    },
+    {
+      "index": 1534,
+      "name": "Unknown0[1][33]"
+    },
+    {
+      "index": 1535,
+      "name": "Unknown0[1][34]"
+    },
+    {
+      "index": 1536,
+      "name": "Unknown0[1][35]"
+    },
+    {
+      "index": 1537,
+      "name": "Unknown0[1][36]"
+    },
+    {
+      "index": 1538,
+      "name": "Unknown0[1][37]"
+    },
+    {
+      "index": 1539,
+      "name": "Unknown0[1][38]"
+    },
+    {
+      "index": 1540,
+      "name": "Unknown0[1][39]"
+    },
+    {
+      "index": 1541,
+      "name": "Unknown0[1][40]"
+    },
+    {
+      "index": 1542,
+      "name": "Unknown0[1][41]"
+    },
+    {
+      "index": 1543,
+      "name": "Unknown0[1][42]"
+    },
+    {
+      "index": 1544,
+      "name": "Unknown0[1][43]"
+    },
+    {
+      "index": 1545,
+      "name": "Unknown0[1][44]"
+    },
+    {
+      "index": 1546,
+      "name": "Unknown0[1][45]"
+    },
+    {
+      "index": 1547,
+      "name": "Unknown0[1][46]"
+    },
+    {
+      "index": 1548,
+      "name": "Unknown0[1][47]"
+    },
+    {
+      "index": 1549,
+      "name": "Unknown0[1][48]"
+    },
+    {
+      "index": 1550,
+      "name": "Unknown0[1][49]"
+    },
+    {
+      "index": 1551,
+      "name": "Unknown0[1][50]"
+    },
+    {
+      "index": 1552,
+      "name": "Unknown0[1][51]"
+    },
+    {
+      "index": 1553,
+      "name": "Unknown0[1][52]"
+    },
+    {
+      "index": 1554,
+      "name": "Unknown0[1][53]"
+    },
+    {
+      "index": 1555,
+      "name": "Unknown0[1][54]"
+    },
+    {
+      "index": 1556,
+      "name": "Unknown0[1][55]"
+    },
+    {
+      "index": 1557,
+      "name": "Unknown0[1][56]"
+    },
+    {
+      "index": 1558,
+      "name": "Unknown0[1][57]"
+    },
+    {
+      "index": 1559,
+      "name": "Unknown0[1][58]"
+    },
+    {
+      "index": 1560,
+      "name": "Unknown0[1][59]"
+    },
+    {
+      "index": 1561,
+      "name": "Unknown0[2][0]"
+    },
+    {
+      "index": 1562,
+      "name": "Unknown0[2][1]"
+    },
+    {
+      "index": 1563,
+      "name": "Unknown0[2][2]"
+    },
+    {
+      "index": 1564,
+      "name": "Unknown0[2][3]"
+    },
+    {
+      "index": 1565,
+      "name": "Unknown0[2][4]"
+    },
+    {
+      "index": 1566,
+      "name": "Unknown0[2][5]"
+    },
+    {
+      "index": 1567,
+      "name": "Unknown0[2][6]"
+    },
+    {
+      "index": 1568,
+      "name": "Unknown0[2][7]"
+    },
+    {
+      "index": 1569,
+      "name": "Unknown0[2][8]"
+    },
+    {
+      "index": 1570,
+      "name": "Unknown0[2][9]"
+    },
+    {
+      "index": 1571,
+      "name": "Unknown0[2][10]"
+    },
+    {
+      "index": 1572,
+      "name": "Unknown0[2][11]"
+    },
+    {
+      "index": 1573,
+      "name": "Unknown0[2][12]"
+    },
+    {
+      "index": 1574,
+      "name": "Unknown0[2][13]"
+    },
+    {
+      "index": 1575,
+      "name": "Unknown0[2][14]"
+    },
+    {
+      "index": 1576,
+      "name": "Unknown0[2][15]"
+    },
+    {
+      "index": 1577,
+      "name": "Unknown0[2][16]"
+    },
+    {
+      "index": 1578,
+      "name": "Unknown0[2][17]"
+    },
+    {
+      "index": 1579,
+      "name": "Unknown0[2][18]"
+    },
+    {
+      "index": 1580,
+      "name": "Unknown0[2][19]"
+    },
+    {
+      "index": 1581,
+      "name": "Unknown0[2][20]"
+    },
+    {
+      "index": 1582,
+      "name": "Unknown0[2][21]"
+    },
+    {
+      "index": 1583,
+      "name": "Unknown0[2][22]"
+    },
+    {
+      "index": 1584,
+      "name": "Unknown0[2][23]"
+    },
+    {
+      "index": 1585,
+      "name": "Unknown0[2][24]"
+    },
+    {
+      "index": 1586,
+      "name": "Unknown0[2][25]"
+    },
+    {
+      "index": 1587,
+      "name": "Unknown0[2][26]"
+    },
+    {
+      "index": 1588,
+      "name": "Unknown0[2][27]"
+    },
+    {
+      "index": 1589,
+      "name": "Unknown0[2][28]"
+    },
+    {
+      "index": 1590,
+      "name": "Unknown0[2][29]"
+    },
+    {
+      "index": 1591,
+      "name": "Unknown0[2][30]"
+    },
+    {
+      "index": 1592,
+      "name": "Unknown0[2][31]"
+    },
+    {
+      "index": 1593,
+      "name": "Unknown0[2][32]"
+    },
+    {
+      "index": 1594,
+      "name": "Unknown0[2][33]"
+    },
+    {
+      "index": 1595,
+      "name": "Unknown0[2][34]"
+    },
+    {
+      "index": 1596,
+      "name": "Unknown0[2][35]"
+    },
+    {
+      "index": 1597,
+      "name": "Unknown0[2][36]"
+    },
+    {
+      "index": 1598,
+      "name": "Unknown0[2][37]"
+    },
+    {
+      "index": 1599,
+      "name": "Unknown0[2][38]"
+    },
+    {
+      "index": 1600,
+      "name": "Unknown0[2][39]"
+    },
+    {
+      "index": 1601,
+      "name": "Unknown0[2][40]"
+    },
+    {
+      "index": 1602,
+      "name": "Unknown0[2][41]"
+    },
+    {
+      "index": 1603,
+      "name": "Unknown0[2][42]"
+    },
+    {
+      "index": 1604,
+      "name": "Unknown0[2][43]"
+    },
+    {
+      "index": 1605,
+      "name": "Unknown0[2][44]"
+    },
+    {
+      "index": 1606,
+      "name": "Unknown0[2][45]"
+    },
+    {
+      "index": 1607,
+      "name": "Unknown0[2][46]"
+    },
+    {
+      "index": 1608,
+      "name": "Unknown0[2][47]"
+    },
+    {
+      "index": 1609,
+      "name": "Unknown0[2][48]"
+    },
+    {
+      "index": 1610,
+      "name": "Unknown0[2][49]"
+    },
+    {
+      "index": 1611,
+      "name": "Unknown0[2][50]"
+    },
+    {
+      "index": 1612,
+      "name": "Unknown0[2][51]"
+    },
+    {
+      "index": 1613,
+      "name": "Unknown0[2][52]"
+    },
+    {
+      "index": 1614,
+      "name": "Unknown0[2][53]"
+    },
+    {
+      "index": 1615,
+      "name": "Unknown0[2][54]"
+    },
+    {
+      "index": 1616,
+      "name": "Unknown0[2][55]"
+    },
+    {
+      "index": 1617,
+      "name": "Unknown0[2][56]"
+    },
+    {
+      "index": 1618,
+      "name": "Unknown0[2][57]"
+    },
+    {
+      "index": 1619,
+      "name": "Unknown0[2][58]"
+    },
+    {
+      "index": 1620,
+      "name": "Unknown0[2][59]"
+    },
+    {
+      "index": 1621,
+      "name": "Unknown1[3][0]"
+    },
+    {
+      "index": 1622,
+      "name": "Unknown1[3][1]"
+    },
+    {
+      "index": 1623,
+      "name": "Unknown1[3][2]"
+    },
+    {
+      "index": 1624,
+      "name": "Unknown1[3][3]"
+    },
+    {
+      "index": 1625,
+      "name": "Unknown1[3][4]"
+    },
+    {
+      "index": 1626,
+      "name": "Unknown1[3][5]"
+    },
+    {
+      "index": 1627,
+      "name": "Unknown1[3][6]"
+    },
+    {
+      "index": 1628,
+      "name": "Unknown1[3][7]"
+    },
+    {
+      "index": 1629,
+      "name": "Unknown1[3][8]"
+    },
+    {
+      "index": 1630,
+      "name": "Unknown1[3][9]"
+    },
+    {
+      "index": 1631,
+      "name": "Unknown1[3][10]"
+    },
+    {
+      "index": 1632,
+      "name": "Unknown1[3][11]"
+    },
+    {
+      "index": 1633,
+      "name": "Unknown1[3][12]"
+    },
+    {
+      "index": 1634,
+      "name": "Unknown1[3][13]"
+    },
+    {
+      "index": 1635,
+      "name": "Unknown1[3][14]"
+    },
+    {
+      "index": 1636,
+      "name": "Unknown1[3][15]"
+    },
+    {
+      "index": 1637,
+      "name": "Unknown1[3][16]"
+    },
+    {
+      "index": 1638,
+      "name": "Unknown1[3][17]"
+    },
+    {
+      "index": 1639,
+      "name": "Unknown1[3][18]"
+    },
+    {
+      "index": 1640,
+      "name": "Unknown1[3][19]"
+    },
+    {
+      "index": 1641,
+      "name": "Unknown1[3][20]"
+    },
+    {
+      "index": 1642,
+      "name": "Unknown1[3][21]"
+    },
+    {
+      "index": 1643,
+      "name": "Unknown1[3][22]"
+    },
+    {
+      "index": 1644,
+      "name": "Unknown1[3][23]"
+    },
+    {
+      "index": 1645,
+      "name": "Unknown1[3][24]"
+    },
+    {
+      "index": 1646,
+      "name": "Unknown1[3][25]"
+    },
+    {
+      "index": 1647,
+      "name": "Unknown1[3][26]"
+    },
+    {
+      "index": 1648,
+      "name": "Unknown1[3][27]"
+    },
+    {
+      "index": 1649,
+      "name": "Unknown1[3][28]"
+    },
+    {
+      "index": 1650,
+      "name": "Unknown1[3][29]"
+    },
+    {
+      "index": 1651,
+      "name": "Unknown1[3][30]"
+    },
+    {
+      "index": 1652,
+      "name": "Unknown1[3][31]"
+    },
+    {
+      "index": 1653,
+      "name": "Unknown1[3][32]"
+    },
+    {
+      "index": 1654,
+      "name": "Unknown1[3][33]"
+    },
+    {
+      "index": 1655,
+      "name": "Unknown1[3][34]"
+    },
+    {
+      "index": 1656,
+      "name": "Unknown1[3][35]"
+    },
+    {
+      "index": 1657,
+      "name": "Unknown1[3][36]"
+    },
+    {
+      "index": 1658,
+      "name": "Unknown1[3][37]"
+    },
+    {
+      "index": 1659,
+      "name": "Unknown1[3][38]"
+    },
+    {
+      "index": 1660,
+      "name": "Unknown1[3][39]"
+    },
+    {
+      "index": 1661,
+      "name": "Unknown1[3][40]"
+    },
+    {
+      "index": 1662,
+      "name": "Unknown1[3][41]"
+    },
+    {
+      "index": 1663,
+      "name": "Unknown1[3][42]"
+    },
+    {
+      "index": 1664,
+      "name": "Unknown1[3][43]"
+    },
+    {
+      "index": 1665,
+      "name": "Unknown1[3][44]"
+    },
+    {
+      "index": 1666,
+      "name": "Unknown1[3][45]"
+    },
+    {
+      "index": 1667,
+      "name": "Unknown1[3][46]"
+    },
+    {
+      "index": 1668,
+      "name": "Unknown1[3][47]"
+    },
+    {
+      "index": 1669,
+      "name": "Unknown1[3][48]"
+    },
+    {
+      "index": 1670,
+      "name": "Unknown1[3][49]"
+    },
+    {
+      "index": 1671,
+      "name": "Unknown1[3][50]"
+    },
+    {
+      "index": 1672,
+      "name": "Unknown1[3][51]"
+    },
+    {
+      "index": 1673,
+      "name": "Unknown1[3][52]"
+    },
+    {
+      "index": 1674,
+      "name": "Unknown1[3][53]"
+    },
+    {
+      "index": 1675,
+      "name": "Unknown1[3][54]"
+    },
+    {
+      "index": 1676,
+      "name": "Unknown1[3][55]"
+    },
+    {
+      "index": 1677,
+      "name": "Unknown1[3][56]"
+    },
+    {
+      "index": 1678,
+      "name": "Unknown1[3][57]"
+    },
+    {
+      "index": 1679,
+      "name": "Unknown1[3][58]"
+    },
+    {
+      "index": 1680,
+      "name": "Unknown1[3][59]"
+    },
+    {
+      "index": 1681,
+      "name": "Unknown0[3][0]"
+    },
+    {
+      "index": 1682,
+      "name": "Unknown0[3][1]"
+    },
+    {
+      "index": 1683,
+      "name": "Unknown0[3][2]"
+    },
+    {
+      "index": 1684,
+      "name": "Unknown0[3][3]"
+    },
+    {
+      "index": 1685,
+      "name": "Unknown0[3][4]"
+    },
+    {
+      "index": 1686,
+      "name": "Unknown0[3][5]"
+    },
+    {
+      "index": 1687,
+      "name": "Unknown0[3][6]"
+    },
+    {
+      "index": 1688,
+      "name": "Unknown0[3][7]"
+    },
+    {
+      "index": 1689,
+      "name": "Unknown0[3][8]"
+    },
+    {
+      "index": 1690,
+      "name": "Unknown0[3][9]"
+    },
+    {
+      "index": 1691,
+      "name": "Unknown0[3][10]"
+    },
+    {
+      "index": 1692,
+      "name": "Unknown0[3][11]"
+    },
+    {
+      "index": 1693,
+      "name": "Unknown0[3][12]"
+    },
+    {
+      "index": 1694,
+      "name": "Unknown0[3][13]"
+    },
+    {
+      "index": 1695,
+      "name": "Unknown0[3][14]"
+    },
+    {
+      "index": 1696,
+      "name": "Unknown0[3][15]"
+    },
+    {
+      "index": 1697,
+      "name": "Unknown0[3][16]"
+    },
+    {
+      "index": 1698,
+      "name": "Unknown0[3][17]"
+    },
+    {
+      "index": 1699,
+      "name": "Unknown0[3][18]"
+    },
+    {
+      "index": 1700,
+      "name": "Unknown0[3][19]"
+    },
+    {
+      "index": 1701,
+      "name": "Unknown0[3][20]"
+    },
+    {
+      "index": 1702,
+      "name": "Unknown0[3][21]"
+    },
+    {
+      "index": 1703,
+      "name": "Unknown0[3][22]"
+    },
+    {
+      "index": 1704,
+      "name": "Unknown0[3][23]"
+    },
+    {
+      "index": 1705,
+      "name": "Unknown0[3][24]"
+    },
+    {
+      "index": 1706,
+      "name": "Unknown0[3][25]"
+    },
+    {
+      "index": 1707,
+      "name": "Unknown0[3][26]"
+    },
+    {
+      "index": 1708,
+      "name": "Unknown0[3][27]"
+    },
+    {
+      "index": 1709,
+      "name": "Unknown0[3][28]"
+    },
+    {
+      "index": 1710,
+      "name": "Unknown0[3][29]"
+    },
+    {
+      "index": 1711,
+      "name": "Unknown0[3][30]"
+    },
+    {
+      "index": 1712,
+      "name": "Unknown0[3][31]"
+    },
+    {
+      "index": 1713,
+      "name": "Unknown0[3][32]"
+    },
+    {
+      "index": 1714,
+      "name": "Unknown0[3][33]"
+    },
+    {
+      "index": 1715,
+      "name": "Unknown0[3][34]"
+    },
+    {
+      "index": 1716,
+      "name": "Unknown0[3][35]"
+    },
+    {
+      "index": 1717,
+      "name": "Unknown0[3][36]"
+    },
+    {
+      "index": 1718,
+      "name": "Unknown0[3][37]"
+    },
+    {
+      "index": 1719,
+      "name": "Unknown0[3][38]"
+    },
+    {
+      "index": 1720,
+      "name": "Unknown0[3][39]"
+    },
+    {
+      "index": 1721,
+      "name": "Unknown0[3][40]"
+    },
+    {
+      "index": 1722,
+      "name": "Unknown0[3][41]"
+    },
+    {
+      "index": 1723,
+      "name": "Unknown0[3][42]"
+    },
+    {
+      "index": 1724,
+      "name": "Unknown0[3][43]"
+    },
+    {
+      "index": 1725,
+      "name": "Unknown0[3][44]"
+    },
+    {
+      "index": 1726,
+      "name": "Unknown0[3][45]"
+    },
+    {
+      "index": 1727,
+      "name": "Unknown0[3][46]"
+    },
+    {
+      "index": 1728,
+      "name": "Unknown0[3][47]"
+    },
+    {
+      "index": 1729,
+      "name": "Unknown0[3][48]"
+    },
+    {
+      "index": 1730,
+      "name": "Unknown0[3][49]"
+    },
+    {
+      "index": 1731,
+      "name": "Unknown0[3][50]"
+    },
+    {
+      "index": 1732,
+      "name": "Unknown0[3][51]"
+    },
+    {
+      "index": 1733,
+      "name": "Unknown0[3][52]"
+    },
+    {
+      "index": 1734,
+      "name": "Unknown0[3][53]"
+    },
+    {
+      "index": 1735,
+      "name": "Unknown0[3][54]"
+    },
+    {
+      "index": 1736,
+      "name": "Unknown0[3][55]"
+    },
+    {
+      "index": 1737,
+      "name": "Unknown0[3][56]"
+    },
+    {
+      "index": 1738,
+      "name": "Unknown0[3][57]"
+    },
+    {
+      "index": 1739,
+      "name": "Unknown0[3][58]"
+    },
+    {
+      "index": 1740,
+      "name": "Unknown0[3][59]"
+    },
+    {
+      "index": 1741,
+      "name": "AchievementUnlock[0]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1742,
+      "name": "AchievementUnlock[1]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1743,
+      "name": "AchievementUnlock[2]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1744,
+      "name": "AchievementUnlock[3]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1745,
+      "name": "AchievementUnlock[4]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1746,
+      "name": "AchievementUnlock[5]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1747,
+      "name": "AchievementUnlock[6]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1748,
+      "name": "AchievementUnlock[7]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1749,
+      "name": "AchievementUnlock[8]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1750,
+      "name": "AchievementUnlock[9]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1751,
+      "name": "AchievementUnlock[10]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1752,
+      "name": "AchievementUnlock[11]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1753,
+      "name": "AchievementUnlock[12]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1754,
+      "name": "AchievementUnlock[13]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1755,
+      "name": "AchievementUnlock[14]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1756,
+      "name": "AchievementUnlock[15]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1757,
+      "name": "AchievementUnlock[16]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1758,
+      "name": "AchievementUnlock[17]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1759,
+      "name": "AchievementUnlock[18]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1760,
+      "name": "AchievementUnlock[19]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1761,
+      "name": "AchievementUnlock[20]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1762,
+      "name": "AchievementUnlock[21]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1763,
+      "name": "AchievementUnlock[22]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1764,
+      "name": "AchievementUnlock[23]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1765,
+      "name": "AchievementUnlock[24]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1766,
+      "name": "AchievementUnlock[25]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1767,
+      "name": "AchievementUnlock[26]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1768,
+      "name": "AchievementUnlock[27]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1769,
+      "name": "AchievementUnlock[28]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1770,
+      "name": "AchievementUnlock[29]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1771,
+      "name": "AchievementUnlock[30]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1772,
+      "name": "AchievementUnlock[31]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1773,
+      "name": "AchievementUnlock[32]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1774,
+      "name": "AchievementUnlock[33]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1775,
+      "name": "AchievementUnlock[34]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1776,
+      "name": "AchievementUnlock[35]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1777,
+      "name": "AchievementUnlock[36]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1778,
+      "name": "AchievementUnlock[37]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1779,
+      "name": "AchievementUnlock[38]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1780,
+      "name": "AchievementUnlock[39]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1781,
+      "name": "AchievementUnlock[40]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1782,
+      "name": "AchievementUnlock[41]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1783,
+      "name": "AchievementUnlock[42]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1784,
+      "name": "AchievementUnlock[43]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1785,
+      "name": "AchievementUnlock[44]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1786,
+      "name": "AchievementUnlock[45]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1787,
+      "name": "AchievementUnlock[46]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1788,
+      "name": "AchievementUnlock[47]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1789,
+      "name": "AchievementUnlock[48]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1790,
+      "name": "AchievementUnlock[49]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1791,
+      "name": "AchievementUnlock[50]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1792,
+      "name": "AchievementUnlock[51]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1793,
+      "name": "AchievementUnlock[52]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1794,
+      "name": "AchievementUnlock[53]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1795,
+      "name": "AchievementUnlock[54]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1796,
+      "name": "AchievementUnlock[55]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1797,
+      "name": "AchievementUnlock[56]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1798,
+      "name": "AchievementUnlock[57]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1799,
+      "name": "AchievementUnlock[58]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1800,
+      "name": "AchievementUnlock[59]",
+      "converter": {
+        "type": "link",
+        "target": "Achievement"
+      }
+    },
+    {
+      "index": 1801,
+      "name": "Unknown1[4][0]"
+    },
+    {
+      "index": 1802,
+      "name": "Unknown1[4][1]"
+    },
+    {
+      "index": 1803,
+      "name": "Unknown1[4][2]"
+    },
+    {
+      "index": 1804,
+      "name": "Unknown1[4][3]"
+    },
+    {
+      "index": 1805,
+      "name": "Unknown1[4][4]"
+    },
+    {
+      "index": 1806,
+      "name": "Unknown1[4][5]"
+    },
+    {
+      "index": 1807,
+      "name": "Unknown1[4][6]"
+    },
+    {
+      "index": 1808,
+      "name": "Unknown1[4][7]"
+    },
+    {
+      "index": 1809,
+      "name": "Unknown1[4][8]"
+    },
+    {
+      "index": 1810,
+      "name": "Unknown1[4][9]"
+    },
+    {
+      "index": 1811,
+      "name": "Unknown1[4][10]"
+    },
+    {
+      "index": 1812,
+      "name": "Unknown1[4][11]"
+    },
+    {
+      "index": 1813,
+      "name": "Unknown1[4][12]"
+    },
+    {
+      "index": 1814,
+      "name": "Unknown1[4][13]"
+    },
+    {
+      "index": 1815,
+      "name": "Unknown1[4][14]"
+    },
+    {
+      "index": 1816,
+      "name": "Unknown1[4][15]"
+    },
+    {
+      "index": 1817,
+      "name": "Unknown1[4][16]"
+    },
+    {
+      "index": 1818,
+      "name": "Unknown1[4][17]"
+    },
+    {
+      "index": 1819,
+      "name": "Unknown1[4][18]"
+    },
+    {
+      "index": 1820,
+      "name": "Unknown1[4][19]"
+    },
+    {
+      "index": 1821,
+      "name": "Unknown1[4][20]"
+    },
+    {
+      "index": 1822,
+      "name": "Unknown1[4][21]"
+    },
+    {
+      "index": 1823,
+      "name": "Unknown1[4][22]"
+    },
+    {
+      "index": 1824,
+      "name": "Unknown1[4][23]"
+    },
+    {
+      "index": 1825,
+      "name": "Unknown1[4][24]"
+    },
+    {
+      "index": 1826,
+      "name": "Unknown1[4][25]"
+    },
+    {
+      "index": 1827,
+      "name": "Unknown1[4][26]"
+    },
+    {
+      "index": 1828,
+      "name": "Unknown1[4][27]"
+    },
+    {
+      "index": 1829,
+      "name": "Unknown1[4][28]"
+    },
+    {
+      "index": 1830,
+      "name": "Unknown1[4][29]"
+    },
+    {
+      "index": 1831,
+      "name": "Unknown1[4][30]"
+    },
+    {
+      "index": 1832,
+      "name": "Unknown1[4][31]"
+    },
+    {
+      "index": 1833,
+      "name": "Unknown1[4][32]"
+    },
+    {
+      "index": 1834,
+      "name": "Unknown1[4][33]"
+    },
+    {
+      "index": 1835,
+      "name": "Unknown1[4][34]"
+    },
+    {
+      "index": 1836,
+      "name": "Unknown1[4][35]"
+    },
+    {
+      "index": 1837,
+      "name": "Unknown1[4][36]"
+    },
+    {
+      "index": 1838,
+      "name": "Unknown1[4][37]"
+    },
+    {
+      "index": 1839,
+      "name": "Unknown1[4][38]"
+    },
+    {
+      "index": 1840,
+      "name": "Unknown1[4][39]"
+    },
+    {
+      "index": 1841,
+      "name": "Unknown1[4][40]"
+    },
+    {
+      "index": 1842,
+      "name": "Unknown1[4][41]"
+    },
+    {
+      "index": 1843,
+      "name": "Unknown1[4][42]"
+    },
+    {
+      "index": 1844,
+      "name": "Unknown1[4][43]"
+    },
+    {
+      "index": 1845,
+      "name": "Unknown1[4][44]"
+    },
+    {
+      "index": 1846,
+      "name": "Unknown1[4][45]"
+    },
+    {
+      "index": 1847,
+      "name": "Unknown1[4][46]"
+    },
+    {
+      "index": 1848,
+      "name": "Unknown1[4][47]"
+    },
+    {
+      "index": 1849,
+      "name": "Unknown1[4][48]"
+    },
+    {
+      "index": 1850,
+      "name": "Unknown1[4][49]"
+    },
+    {
+      "index": 1851,
+      "name": "Unknown1[4][50]"
+    },
+    {
+      "index": 1852,
+      "name": "Unknown1[4][51]"
+    },
+    {
+      "index": 1853,
+      "name": "Unknown1[4][52]"
+    },
+    {
+      "index": 1854,
+      "name": "Unknown1[4][53]"
+    },
+    {
+      "index": 1855,
+      "name": "Unknown1[4][54]"
+    },
+    {
+      "index": 1856,
+      "name": "Unknown1[4][55]"
+    },
+    {
+      "index": 1857,
+      "name": "Unknown1[4][56]"
+    },
+    {
+      "index": 1858,
+      "name": "Unknown1[4][57]"
+    },
+    {
+      "index": 1859,
+      "name": "Unknown1[4][58]"
+    },
+    {
+      "index": 1860,
+      "name": "Unknown1[4][59]"
+    },
+    {
+      "index": 1861,
+      "name": "Unknown2[0]"
+    },
+    {
+      "index": 1862,
+      "name": "Unknown2[1]"
+    },
+    {
+      "index": 1863,
+      "name": "Unknown2[2]"
+    },
+    {
+      "index": 1864,
+      "name": "Unknown2[3]"
+    },
+    {
+      "index": 1865,
+      "name": "Unknown2[4]"
+    },
+    {
+      "index": 1866,
+      "name": "Unknown2[5]"
+    },
+    {
+      "index": 1867,
+      "name": "Unknown2[6]"
+    },
+    {
+      "index": 1868,
+      "name": "Unknown2[7]"
+    },
+    {
+      "index": 1869,
+      "name": "Unknown2[8]"
+    },
+    {
+      "index": 1870,
+      "name": "Unknown2[9]"
+    },
+    {
+      "index": 1871,
+      "name": "Unknown2[10]"
+    },
+    {
+      "index": 1872,
+      "name": "Unknown2[11]"
+    },
+    {
+      "index": 1873,
+      "name": "Unknown2[12]"
+    },
+    {
+      "index": 1874,
+      "name": "Unknown2[13]"
+    },
+    {
+      "index": 1875,
+      "name": "Unknown2[14]"
+    },
+    {
+      "index": 1876,
+      "name": "Unknown2[15]"
+    },
+    {
+      "index": 1877,
+      "name": "Unknown2[16]"
+    },
+    {
+      "index": 1878,
+      "name": "Unknown2[17]"
+    },
+    {
+      "index": 1879,
+      "name": "Unknown2[18]"
+    },
+    {
+      "index": 1880,
+      "name": "Unknown2[19]"
+    },
+    {
+      "index": 1881,
+      "name": "Unknown2[20]"
+    },
+    {
+      "index": 1882,
+      "name": "Unknown2[21]"
+    },
+    {
+      "index": 1883,
+      "name": "Unknown2[22]"
+    },
+    {
+      "index": 1884,
+      "name": "Unknown2[23]"
+    },
+    {
+      "index": 1885,
+      "name": "Unknown2[24]"
+    },
+    {
+      "index": 1886,
+      "name": "Unknown2[25]"
+    },
+    {
+      "index": 1887,
+      "name": "Unknown2[26]"
+    },
+    {
+      "index": 1888,
+      "name": "Unknown2[27]"
+    },
+    {
+      "index": 1889,
+      "name": "Unknown2[28]"
+    },
+    {
+      "index": 1890,
+      "name": "Unknown2[29]"
+    },
+    {
+      "index": 1891,
+      "name": "Unknown2[30]"
+    },
+    {
+      "index": 1892,
+      "name": "Unknown2[31]"
+    },
+    {
+      "index": 1893,
+      "name": "Unknown2[32]"
+    },
+    {
+      "index": 1894,
+      "name": "Unknown2[33]"
+    },
+    {
+      "index": 1895,
+      "name": "Unknown2[34]"
+    },
+    {
+      "index": 1896,
+      "name": "Unknown2[35]"
+    },
+    {
+      "index": 1897,
+      "name": "Unknown2[36]"
+    },
+    {
+      "index": 1898,
+      "name": "Unknown2[37]"
+    },
+    {
+      "index": 1899,
+      "name": "Unknown2[38]"
+    },
+    {
+      "index": 1900,
+      "name": "Unknown2[39]"
+    },
+    {
+      "index": 1901,
+      "name": "Unknown2[40]"
+    },
+    {
+      "index": 1902,
+      "name": "Unknown2[41]"
+    },
+    {
+      "index": 1903,
+      "name": "Unknown2[42]"
+    },
+    {
+      "index": 1904,
+      "name": "Unknown2[43]"
+    },
+    {
+      "index": 1905,
+      "name": "Unknown2[44]"
+    },
+    {
+      "index": 1906,
+      "name": "Unknown2[45]"
+    },
+    {
+      "index": 1907,
+      "name": "Unknown2[46]"
+    },
+    {
+      "index": 1908,
+      "name": "Unknown2[47]"
+    },
+    {
+      "index": 1909,
+      "name": "Unknown2[48]"
+    },
+    {
+      "index": 1910,
+      "name": "Unknown2[49]"
+    },
+    {
+      "index": 1911,
+      "name": "Unknown2[50]"
+    },
+    {
+      "index": 1912,
+      "name": "Unknown2[51]"
+    },
+    {
+      "index": 1913,
+      "name": "Unknown2[52]"
+    },
+    {
+      "index": 1914,
+      "name": "Unknown2[53]"
+    },
+    {
+      "index": 1915,
+      "name": "Unknown2[54]"
+    },
+    {
+      "index": 1916,
+      "name": "Unknown2[55]"
+    },
+    {
+      "index": 1917,
+      "name": "Unknown2[56]"
+    },
+    {
+      "index": 1918,
+      "name": "Unknown2[57]"
+    },
+    {
+      "index": 1919,
+      "name": "Unknown2[58]"
+    },
+    {
+      "index": 1920,
+      "name": "Unknown2[59]"
+    },
+    {
+      "index": 1921,
+      "name": "Order[0]"
+    },
+    {
+      "index": 1922,
+      "name": "Order[1]"
+    },
+    {
+      "index": 1923,
+      "name": "Order[2]"
+    },
+    {
+      "index": 1924,
+      "name": "Order[3]"
+    },
+    {
+      "index": 1925,
+      "name": "Order[4]"
+    },
+    {
+      "index": 1926,
+      "name": "Order[5]"
+    },
+    {
+      "index": 1927,
+      "name": "Order[6]"
+    },
+    {
+      "index": 1928,
+      "name": "Order[7]"
+    },
+    {
+      "index": 1929,
+      "name": "Order[8]"
+    },
+    {
+      "index": 1930,
+      "name": "Order[9]"
+    },
+    {
+      "index": 1931,
+      "name": "Order[10]"
+    },
+    {
+      "index": 1932,
+      "name": "Order[11]"
+    },
+    {
+      "index": 1933,
+      "name": "Order[12]"
+    },
+    {
+      "index": 1934,
+      "name": "Order[13]"
+    },
+    {
+      "index": 1935,
+      "name": "Order[14]"
+    },
+    {
+      "index": 1936,
+      "name": "Order[15]"
+    },
+    {
+      "index": 1937,
+      "name": "Order[16]"
+    },
+    {
+      "index": 1938,
+      "name": "Order[17]"
+    },
+    {
+      "index": 1939,
+      "name": "Order[18]"
+    },
+    {
+      "index": 1940,
+      "name": "Order[19]"
+    },
+    {
+      "index": 1941,
+      "name": "Order[20]"
+    },
+    {
+      "index": 1942,
+      "name": "Order[21]"
+    },
+    {
+      "index": 1943,
+      "name": "Order[22]"
+    },
+    {
+      "index": 1944,
+      "name": "Order[23]"
+    },
+    {
+      "index": 1945,
+      "name": "Order[24]"
+    },
+    {
+      "index": 1946,
+      "name": "Order[25]"
+    },
+    {
+      "index": 1947,
+      "name": "Order[26]"
+    },
+    {
+      "index": 1948,
+      "name": "Order[27]"
+    },
+    {
+      "index": 1949,
+      "name": "Order[28]"
+    },
+    {
+      "index": 1950,
+      "name": "Order[29]"
+    },
+    {
+      "index": 1951,
+      "name": "Order[30]"
+    },
+    {
+      "index": 1952,
+      "name": "Order[31]"
+    },
+    {
+      "index": 1953,
+      "name": "Order[32]"
+    },
+    {
+      "index": 1954,
+      "name": "Order[33]"
+    },
+    {
+      "index": 1955,
+      "name": "Order[34]"
+    },
+    {
+      "index": 1956,
+      "name": "Order[35]"
+    },
+    {
+      "index": 1957,
+      "name": "Order[36]"
+    },
+    {
+      "index": 1958,
+      "name": "Order[37]"
+    },
+    {
+      "index": 1959,
+      "name": "Order[38]"
+    },
+    {
+      "index": 1960,
+      "name": "Order[39]"
+    },
+    {
+      "index": 1961,
+      "name": "Order[40]"
+    },
+    {
+      "index": 1962,
+      "name": "Order[41]"
+    },
+    {
+      "index": 1963,
+      "name": "Order[42]"
+    },
+    {
+      "index": 1964,
+      "name": "Order[43]"
+    },
+    {
+      "index": 1965,
+      "name": "Order[44]"
+    },
+    {
+      "index": 1966,
+      "name": "Order[45]"
+    },
+    {
+      "index": 1967,
+      "name": "Order[46]"
+    },
+    {
+      "index": 1968,
+      "name": "Order[47]"
+    },
+    {
+      "index": 1969,
+      "name": "Order[48]"
+    },
+    {
+      "index": 1970,
+      "name": "Order[49]"
+    },
+    {
+      "index": 1971,
+      "name": "Order[50]"
+    },
+    {
+      "index": 1972,
+      "name": "Order[51]"
+    },
+    {
+      "index": 1973,
+      "name": "Order[52]"
+    },
+    {
+      "index": 1974,
+      "name": "Order[53]"
+    },
+    {
+      "index": 1975,
+      "name": "Order[54]"
+    },
+    {
+      "index": 1976,
+      "name": "Order[55]"
+    },
+    {
+      "index": 1977,
+      "name": "Order[56]"
+    },
+    {
+      "index": 1978,
+      "name": "Order[57]"
+    },
+    {
+      "index": 1979,
+      "name": "Order[58]"
+    },
+    {
+      "index": 1980,
+      "name": "Order[59]"
+    },
+    {
+      "index": 1981,
+      "name": "PatchNumber[0]"
+    },
+    {
+      "index": 1982,
+      "name": "PatchNumber[1]"
+    },
+    {
+      "index": 1983,
+      "name": "PatchNumber[2]"
+    },
+    {
+      "index": 1984,
+      "name": "PatchNumber[3]"
+    },
+    {
+      "index": 1985,
+      "name": "PatchNumber[4]"
+    },
+    {
+      "index": 1986,
+      "name": "PatchNumber[5]"
+    },
+    {
+      "index": 1987,
+      "name": "PatchNumber[6]"
+    },
+    {
+      "index": 1988,
+      "name": "PatchNumber[7]"
+    },
+    {
+      "index": 1989,
+      "name": "PatchNumber[8]"
+    },
+    {
+      "index": 1990,
+      "name": "PatchNumber[9]"
+    },
+    {
+      "index": 1991,
+      "name": "PatchNumber[10]"
+    },
+    {
+      "index": 1992,
+      "name": "PatchNumber[11]"
+    },
+    {
+      "index": 1993,
+      "name": "PatchNumber[12]"
+    },
+    {
+      "index": 1994,
+      "name": "PatchNumber[13]"
+    },
+    {
+      "index": 1995,
+      "name": "PatchNumber[14]"
+    },
+    {
+      "index": 1996,
+      "name": "PatchNumber[15]"
+    },
+    {
+      "index": 1997,
+      "name": "PatchNumber[16]"
+    },
+    {
+      "index": 1998,
+      "name": "PatchNumber[17]"
+    },
+    {
+      "index": 1999,
+      "name": "PatchNumber[18]"
+    },
+    {
+      "index": 2000,
+      "name": "PatchNumber[19]"
+    },
+    {
+      "index": 2001,
+      "name": "PatchNumber[20]"
+    },
+    {
+      "index": 2002,
+      "name": "PatchNumber[21]"
+    },
+    {
+      "index": 2003,
+      "name": "PatchNumber[22]"
+    },
+    {
+      "index": 2004,
+      "name": "PatchNumber[23]"
+    },
+    {
+      "index": 2005,
+      "name": "PatchNumber[24]"
+    },
+    {
+      "index": 2006,
+      "name": "PatchNumber[25]"
+    },
+    {
+      "index": 2007,
+      "name": "PatchNumber[26]"
+    },
+    {
+      "index": 2008,
+      "name": "PatchNumber[27]"
+    },
+    {
+      "index": 2009,
+      "name": "PatchNumber[28]"
+    },
+    {
+      "index": 2010,
+      "name": "PatchNumber[29]"
+    },
+    {
+      "index": 2011,
+      "name": "PatchNumber[30]"
+    },
+    {
+      "index": 2012,
+      "name": "PatchNumber[31]"
+    },
+    {
+      "index": 2013,
+      "name": "PatchNumber[32]"
+    },
+    {
+      "index": 2014,
+      "name": "PatchNumber[33]"
+    },
+    {
+      "index": 2015,
+      "name": "PatchNumber[34]"
+    },
+    {
+      "index": 2016,
+      "name": "PatchNumber[35]"
+    },
+    {
+      "index": 2017,
+      "name": "PatchNumber[36]"
+    },
+    {
+      "index": 2018,
+      "name": "PatchNumber[37]"
+    },
+    {
+      "index": 2019,
+      "name": "PatchNumber[38]"
+    },
+    {
+      "index": 2020,
+      "name": "PatchNumber[39]"
+    },
+    {
+      "index": 2021,
+      "name": "PatchNumber[40]"
+    },
+    {
+      "index": 2022,
+      "name": "PatchNumber[41]"
+    },
+    {
+      "index": 2023,
+      "name": "PatchNumber[42]"
+    },
+    {
+      "index": 2024,
+      "name": "PatchNumber[43]"
+    },
+    {
+      "index": 2025,
+      "name": "PatchNumber[44]"
+    },
+    {
+      "index": 2026,
+      "name": "PatchNumber[45]"
+    },
+    {
+      "index": 2027,
+      "name": "PatchNumber[46]"
+    },
+    {
+      "index": 2028,
+      "name": "PatchNumber[47]"
+    },
+    {
+      "index": 2029,
+      "name": "PatchNumber[48]"
+    },
+    {
+      "index": 2030,
+      "name": "PatchNumber[49]"
+    },
+    {
+      "index": 2031,
+      "name": "PatchNumber[50]"
+    },
+    {
+      "index": 2032,
+      "name": "PatchNumber[51]"
+    },
+    {
+      "index": 2033,
+      "name": "PatchNumber[52]"
+    },
+    {
+      "index": 2034,
+      "name": "PatchNumber[53]"
+    },
+    {
+      "index": 2035,
+      "name": "PatchNumber[54]"
+    },
+    {
+      "index": 2036,
+      "name": "PatchNumber[55]"
+    },
+    {
+      "index": 2037,
+      "name": "PatchNumber[56]"
+    },
+    {
+      "index": 2038,
+      "name": "PatchNumber[57]"
+    },
+    {
+      "index": 2039,
+      "name": "PatchNumber[58]"
+    },
+    {
+      "index": 2040,
+      "name": "PatchNumber[59]"
+    },
+    {
       "index": 2041,
+      "name": "UseCurrencyType"
+    },
+    {
+      "index": 2042,
       "name": "Quest",
       "converter": {
         "type": "link",
@@ -129,23 +10338,7 @@
       }
     },
     {
-      "index": 2042,
-      "name": "CustomTalk",
-      "converter": {
-        "type": "link",
-        "target": "CustomTalk"
-      }
-    },
-    {
       "index": 2043,
-      "name": "RequiredContentFinderCondition",
-      "converter": {
-        "type": "link",
-        "target": "ContentFinderCondition"
-      }
-    },
-    {
-      "index": 2044,
       "name": "CompleteText",
       "converter": {
         "type": "link",
@@ -153,7 +10346,7 @@
       }
     },
     {
-      "index": 2045,
+      "index": 2044,
       "name": "NotCompleteText",
       "converter": {
         "type": "link",
@@ -161,7 +10354,19 @@
       }
     },
     {
+      "index": 2045,
+      "name": "CustomTalk",
+      "converter": {
+        "type": "link",
+        "target": "CustomTalk"
+      }
+    },
+    {
       "index": 2046,
+      "name": "Unknown3"
+    },
+    {
+      "index": 2047,
       "name": "RequiredFestival",
       "converter": {
         "type": "link",
@@ -169,16 +10374,16 @@
       }
     },
     {
-      "index": 2047,
+      "index": 2048,
       "name": "RequiredFestivalPhase"
     },
     {
-      "index": 2048,
-      "name": "UseCurrencyType"
-    },
-    {
       "index": 2049,
-      "name": "Unknown3"
+      "name": "RequiredContentFinderCondition",
+      "converter": {
+        "type": "link",
+        "target": "ContentFinderCondition"
+      }
     },
     {
       "index": 2050,

@@ -15,15 +15,15 @@
     },
     {
       "index": 3,
-      "name": "Unknown0"
-    },
-    {
-      "index": 4,
       "name": "RestrictYScale"
     },
     {
-      "index": 5,
+      "index": 4,
       "name": "LargeScale"
+    },
+    {
+      "index": 5,
+      "name": "Unknown0"
     }
   ]
 }

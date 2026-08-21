@@ -2,27 +2,119 @@
   "sheet": "EmjVoiceNpc",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 25,
-      "definition": {
-        "name": "VoLines"
-      }
-    },
-    {
-      "index": 25,
-      "name": "Name"
-    },
-    {
-      "index": 26,
-      "name": "NameJapanese"
-    },
-    {
-      "index": 27,
       "name": "UnlockLink"
     },
     {
-      "index": 28,
+      "index": 1,
       "name": "EmjCostume"
+    },
+    {
+      "index": 2,
+      "name": "VoLines[0]"
+    },
+    {
+      "index": 3,
+      "name": "VoLines[1]"
+    },
+    {
+      "index": 4,
+      "name": "VoLines[2]"
+    },
+    {
+      "index": 5,
+      "name": "VoLines[3]"
+    },
+    {
+      "index": 6,
+      "name": "VoLines[4]"
+    },
+    {
+      "index": 7,
+      "name": "VoLines[5]"
+    },
+    {
+      "index": 8,
+      "name": "VoLines[6]"
+    },
+    {
+      "index": 9,
+      "name": "VoLines[7]"
+    },
+    {
+      "index": 10,
+      "name": "VoLines[8]"
+    },
+    {
+      "index": 11,
+      "name": "VoLines[9]"
+    },
+    {
+      "index": 12,
+      "name": "VoLines[10]"
+    },
+    {
+      "index": 13,
+      "name": "VoLines[11]"
+    },
+    {
+      "index": 14,
+      "name": "VoLines[12]"
+    },
+    {
+      "index": 15,
+      "name": "VoLines[13]"
+    },
+    {
+      "index": 16,
+      "name": "VoLines[14]"
+    },
+    {
+      "index": 17,
+      "name": "VoLines[15]"
+    },
+    {
+      "index": 18,
+      "name": "VoLines[16]"
+    },
+    {
+      "index": 19,
+      "name": "VoLines[17]"
+    },
+    {
+      "index": 20,
+      "name": "VoLines[18]"
+    },
+    {
+      "index": 21,
+      "name": "VoLines[19]"
+    },
+    {
+      "index": 22,
+      "name": "VoLines[20]"
+    },
+    {
+      "index": 23,
+      "name": "VoLines[21]"
+    },
+    {
+      "index": 24,
+      "name": "VoLines[22]"
+    },
+    {
+      "index": 25,
+      "name": "VoLines[23]"
+    },
+    {
+      "index": 26,
+      "name": "VoLines[24]"
+    },
+    {
+      "index": 27,
+      "name": "Name"
+    },
+    {
+      "index": 28,
+      "name": "NameJapanese"
     },
     {
       "index": 29,

@@ -3,21 +3,14 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Icon",
-      "converter": {
-        "type": "icon"
-      }
-    },
-    {
-      "index": 1,
       "name": "RatingMin"
     },
     {
-      "index": 2,
+      "index": 1,
       "name": "RatingMax"
     },
     {
-      "index": 3,
+      "index": 2,
       "name": "Name",
       "converter": {
         "type": "link",
@@ -25,8 +18,15 @@
       }
     },
     {
-      "index": 4,
+      "index": 3,
       "name": "Fee"
+    },
+    {
+      "index": 4,
+      "name": "Icon",
+      "converter": {
+        "type": "icon"
+      }
     }
   ]
 }

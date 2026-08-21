@@ -2,215 +2,215 @@
   "sheet": "WKSMechaEventData",
   "definitions": [
     {
-      "name": "Name"
-    },
-    {
-      "index": 1,
-      "name": "Description"
-    },
-    {
-      "index": 2,
-      "name": "Unknown2"
-    },
-    {
-      "index": 3,
-      "name": "Unknown3"
-    },
-    {
-      "index": 4,
-      "name": "Unknown4"
-    },
-    {
-      "index": 5,
-      "name": "Unknown5"
-    },
-    {
-      "index": 6,
-      "name": "Unknown6"
-    },
-    {
-      "index": 7,
-      "name": "Unknown7"
-    },
-    {
-      "index": 8,
-      "name": "Unknown8"
-    },
-    {
-      "index": 9,
-      "name": "Unknown9"
-    },
-    {
-      "index": 10,
-      "name": "Unknown10"
-    },
-    {
-      "index": 11,
-      "name": "Unknown11"
-    },
-    {
-      "index": 12,
-      "name": "Unknown12"
-    },
-    {
-      "index": 13,
-      "name": "Unknown13"
-    },
-    {
-      "index": 14,
-      "name": "Unknown14"
-    },
-    {
-      "index": 15,
-      "name": "Unknown15"
-    },
-    {
-      "index": 16,
-      "name": "Unknown16"
-    },
-    {
-      "index": 17,
-      "name": "Unknown17"
-    },
-    {
-      "index": 18,
-      "name": "Unknown18"
-    },
-    {
-      "index": 19,
-      "name": "Unknown19"
-    },
-    {
-      "index": 20,
-      "name": "Unknown20"
-    },
-    {
-      "index": 21,
-      "name": "Unknown21"
-    },
-    {
-      "index": 22,
-      "name": "Unknown22"
-    },
-    {
-      "index": 23,
-      "name": "Unknown23"
-    },
-    {
-      "index": 24,
-      "name": "Unknown24"
-    },
-    {
-      "index": 25,
-      "name": "Unknown25"
-    },
-    {
-      "index": 26,
-      "name": "Unknown26"
-    },
-    {
-      "index": 27,
-      "name": "Unknown27"
-    },
-    {
-      "index": 28,
-      "name": "Unknown28"
-    },
-    {
-      "index": 29,
-      "name": "Unknown29"
-    },
-    {
-      "index": 30,
-      "name": "Unknown30"
-    },
-    {
-      "index": 31,
-      "name": "Unknown31"
-    },
-    {
-      "index": 32,
-      "name": "Unknown32"
-    },
-    {
-      "index": 33,
-      "name": "Unknown33"
-    },
-    {
-      "index": 34,
-      "name": "Unknown34"
-    },
-    {
-      "index": 35,
-      "name": "Unknown35"
-    },
-    {
-      "index": 36,
-      "name": "Unknown36"
-    },
-    {
-      "index": 37,
-      "name": "Unknown37"
-    },
-    {
-      "index": 38,
-      "name": "Unknown38"
-    },
-    {
-      "index": 39,
-      "name": "Unknown39"
-    },
-    {
-      "index": 40,
-      "name": "Unknown40"
-    },
-    {
-      "index": 41,
       "name": "Unknown41"
     },
     {
-      "index": 42,
-      "name": "Unknown42"
+      "index": 1,
+      "name": "Name"
     },
     {
-      "index": 43,
-      "name": "Unknown43"
+      "index": 2,
+      "name": "Description"
     },
     {
-      "index": 44,
-      "name": "Unknown44"
+      "index": 3,
+      "name": "Unknown2"
     },
     {
-      "index": 45,
-      "name": "Unknown45"
+      "index": 4,
+      "name": "Unknown3"
     },
     {
-      "index": 46,
-      "name": "Unknown46"
+      "index": 5,
+      "name": "Unknown4"
     },
     {
-      "index": 47,
-      "name": "Unknown47"
+      "index": 6,
+      "name": "Unknown5"
     },
     {
-      "index": 48,
-      "name": "Unknown48"
+      "index": 7,
+      "name": "Unknown6"
     },
     {
-      "index": 49,
-      "name": "Unknown49"
+      "index": 8,
+      "name": "Unknown7"
     },
     {
-      "index": 50,
+      "index": 9,
+      "name": "Unknown8"
+    },
+    {
+      "index": 10,
+      "name": "Unknown9"
+    },
+    {
+      "index": 11,
+      "name": "Unknown15"
+    },
+    {
+      "index": 12,
+      "name": "Unknown52"
+    },
+    {
+      "index": 13,
       "name": "Unknown50"
     },
     {
-      "index": 51,
+      "index": 14,
+      "name": "Unknown16"
+    },
+    {
+      "index": 15,
+      "name": "Unknown17"
+    },
+    {
+      "index": 16,
+      "name": "Unknown18"
+    },
+    {
+      "index": 17,
+      "name": "Unknown42"
+    },
+    {
+      "index": 18,
+      "name": "Unknown19"
+    },
+    {
+      "index": 19,
+      "name": "Unknown20"
+    },
+    {
+      "index": 20,
+      "name": "Unknown43"
+    },
+    {
+      "index": 21,
       "name": "Unknown51"
     },
     {
+      "index": 22,
+      "name": "Unknown44"
+    },
+    {
+      "index": 23,
+      "name": "Unknown45"
+    },
+    {
+      "index": 24,
+      "name": "Unknown46"
+    },
+    {
+      "index": 25,
+      "name": "Unknown47"
+    },
+    {
+      "index": 26,
+      "name": "Unknown21"
+    },
+    {
+      "index": 27,
+      "name": "Unknown22"
+    },
+    {
+      "index": 28,
+      "name": "Unknown23"
+    },
+    {
+      "index": 29,
+      "name": "Unknown24"
+    },
+    {
+      "index": 30,
+      "name": "Unknown25"
+    },
+    {
+      "index": 31,
+      "name": "Unknown26"
+    },
+    {
+      "index": 32,
+      "name": "Unknown27"
+    },
+    {
+      "index": 33,
+      "name": "Unknown48"
+    },
+    {
+      "index": 34,
+      "name": "Unknown49"
+    },
+    {
+      "index": 35,
+      "name": "Unknown28"
+    },
+    {
+      "index": 36,
+      "name": "Unknown10"
+    },
+    {
+      "index": 37,
+      "name": "Unknown11"
+    },
+    {
+      "index": 38,
+      "name": "Unknown12"
+    },
+    {
+      "index": 39,
+      "name": "Unknown13"
+    },
+    {
+      "index": 40,
+      "name": "Unknown14"
+    },
+    {
+      "index": 41,
+      "name": "Unknown29"
+    },
+    {
+      "index": 42,
+      "name": "Unknown30"
+    },
+    {
+      "index": 43,
+      "name": "Unknown31"
+    },
+    {
+      "index": 44,
+      "name": "Unknown32"
+    },
+    {
+      "index": 45,
+      "name": "Unknown33"
+    },
+    {
+      "index": 46,
+      "name": "Unknown34"
+    },
+    {
+      "index": 47,
+      "name": "Unknown35"
+    },
+    {
+      "index": 48,
+      "name": "Unknown36"
+    },
+    {
+      "index": 49,
+      "name": "Unknown37"
+    },
+    {
+      "index": 50,
+      "name": "Unknown38"
+    },
+    {
+      "index": 51,
+      "name": "Unknown39"
+    },
+    {
       "index": 52,
-      "name": "Unknown52"
+      "name": "Unknown40"
     }
   ]
 }

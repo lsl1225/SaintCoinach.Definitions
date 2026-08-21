@@ -3,14 +3,46 @@
   "defaultColumn": "Name",
   "definitions": [
     {
-      "name": "Name"
+      "name": "AchievementCategory",
+      "converter": {
+        "type": "link",
+        "target": "AchievementCategory"
+      }
     },
     {
       "index": 1,
-      "name": "Description"
+      "name": "Name"
     },
     {
       "index": 2,
+      "name": "Description"
+    },
+    {
+      "index": 3,
+      "name": "AchievementTarget",
+      "converter": {
+        "type": "link",
+        "target": "AchievementTarget"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "Points"
+    },
+    {
+      "index": 6,
+      "name": "Title",
+      "converter": {
+        "type": "link",
+        "target": "Title"
+      }
+    },
+    {
+      "index": 7,
       "name": "Item",
       "converter": {
         "type": "link",
@@ -18,14 +50,34 @@
       }
     },
     {
-      "index": 3,
+      "index": 8,
+      "name": "Unknown1"
+    },
+    {
+      "index": 9,
+      "name": "Unknown2"
+    },
+    {
+      "index": 10,
+      "name": "Unknown3"
+    },
+    {
+      "index": 11,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 4,
+      "index": 12,
+      "name": "Unknown4"
+    },
+    {
+      "index": 13,
+      "name": "Type"
+    },
+    {
+      "index": 14,
       "name": "Key",
       "converter": {
         "type": "complexlink",
@@ -118,118 +170,440 @@
       }
     },
     {
-      "index": 5,
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "Data",
-        "converter": {
-          "type": "complexlink",
-          "links": [
-            {
-              "sheet": "Achievement",
-              "when": {
-                "key": "Type",
-                "value": 2
-              }
-            },
-            {
-              "sheet": "Quest",
-              "when": {
-                "key": "Type",
-                "value": 6
-              }
-            },
-            {
-              "sheet": "Quest",
-              "when": {
-                "key": "Type",
-                "value": 9
-              }
-            },
-            {
-              "sheet": "BeastReputationRank",
-              "when": {
-                "key": "Type",
-                "value": 15
-              }
-            },
-            {
-              "sheet": "AetherCurrentCompFlgSet",
-              "when": {
-                "key": "Type",
-                "value": 20
-              }
-            },
-            {
-              "sheets": [
-                "ClassJob",
-                "Quest"
-              ],
-              "when": {
-                "key": "Type",
-                "value": 24
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "index": 13,
-      "name": "Title",
-      "converter": {
-        "type": "link",
-        "target": "Title"
-      }
-    },
-    {
-      "index": 14,
-      "name": "Order"
-    },
-    {
       "index": 15,
-      "name": "AchievementCategory",
+      "name": "Data[0]",
       "converter": {
-        "type": "link",
-        "target": "AchievementCategory"
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "Type",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "BeastReputationRank",
+            "when": {
+              "key": "Type",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "AetherCurrentCompFlgSet",
+            "when": {
+              "key": "Type",
+              "value": 20
+            }
+          },
+          {
+            "sheets": [
+              "ClassJob",
+              "Quest"
+            ],
+            "when": {
+              "key": "Type",
+              "value": 24
+            }
+          }
+        ]
       }
     },
     {
       "index": 16,
-      "name": "AchievementTarget",
+      "name": "Data[1]",
       "converter": {
-        "type": "link",
-        "target": "AchievementTarget"
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "Type",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "BeastReputationRank",
+            "when": {
+              "key": "Type",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "AetherCurrentCompFlgSet",
+            "when": {
+              "key": "Type",
+              "value": 20
+            }
+          },
+          {
+            "sheets": [
+              "ClassJob",
+              "Quest"
+            ],
+            "when": {
+              "key": "Type",
+              "value": 24
+            }
+          }
+        ]
       }
     },
     {
       "index": 17,
-      "name": "Unknown0"
+      "name": "Data[2]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "Type",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "BeastReputationRank",
+            "when": {
+              "key": "Type",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "AetherCurrentCompFlgSet",
+            "when": {
+              "key": "Type",
+              "value": 20
+            }
+          },
+          {
+            "sheets": [
+              "ClassJob",
+              "Quest"
+            ],
+            "when": {
+              "key": "Type",
+              "value": 24
+            }
+          }
+        ]
+      }
     },
     {
       "index": 18,
-      "name": "Points"
+      "name": "Data[3]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "Type",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "BeastReputationRank",
+            "when": {
+              "key": "Type",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "AetherCurrentCompFlgSet",
+            "when": {
+              "key": "Type",
+              "value": 20
+            }
+          },
+          {
+            "sheets": [
+              "ClassJob",
+              "Quest"
+            ],
+            "when": {
+              "key": "Type",
+              "value": 24
+            }
+          }
+        ]
+      }
     },
     {
       "index": 19,
-      "name": "Unknown1"
+      "name": "Data[4]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "Type",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "BeastReputationRank",
+            "when": {
+              "key": "Type",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "AetherCurrentCompFlgSet",
+            "when": {
+              "key": "Type",
+              "value": 20
+            }
+          },
+          {
+            "sheets": [
+              "ClassJob",
+              "Quest"
+            ],
+            "when": {
+              "key": "Type",
+              "value": 24
+            }
+          }
+        ]
+      }
     },
     {
       "index": 20,
-      "name": "Unknown2"
+      "name": "Data[5]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "Type",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "BeastReputationRank",
+            "when": {
+              "key": "Type",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "AetherCurrentCompFlgSet",
+            "when": {
+              "key": "Type",
+              "value": 20
+            }
+          },
+          {
+            "sheets": [
+              "ClassJob",
+              "Quest"
+            ],
+            "when": {
+              "key": "Type",
+              "value": 24
+            }
+          }
+        ]
+      }
     },
     {
       "index": 21,
-      "name": "Unknown3"
+      "name": "Data[6]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "Type",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "BeastReputationRank",
+            "when": {
+              "key": "Type",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "AetherCurrentCompFlgSet",
+            "when": {
+              "key": "Type",
+              "value": 20
+            }
+          },
+          {
+            "sheets": [
+              "ClassJob",
+              "Quest"
+            ],
+            "when": {
+              "key": "Type",
+              "value": 24
+            }
+          }
+        ]
+      }
     },
     {
       "index": 22,
-      "name": "Unknown4"
+      "name": "Data[7]",
+      "converter": {
+        "type": "complexlink",
+        "links": [
+          {
+            "sheet": "Achievement",
+            "when": {
+              "key": "Type",
+              "value": 2
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 6
+            }
+          },
+          {
+            "sheet": "Quest",
+            "when": {
+              "key": "Type",
+              "value": 9
+            }
+          },
+          {
+            "sheet": "BeastReputationRank",
+            "when": {
+              "key": "Type",
+              "value": 15
+            }
+          },
+          {
+            "sheet": "AetherCurrentCompFlgSet",
+            "when": {
+              "key": "Type",
+              "value": 20
+            }
+          },
+          {
+            "sheets": [
+              "ClassJob",
+              "Quest"
+            ],
+            "when": {
+              "key": "Type",
+              "value": 24
+            }
+          }
+        ]
+      }
     },
     {
       "index": 23,
-      "name": "Type"
+      "name": "Order"
     },
     {
       "index": 24,

@@ -2,14 +2,82 @@
   "sheet": "NotoriousMonsterTerritory",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 10,
-      "definition": {
-        "name": "NotoriousMonsters",
-        "converter": {
-          "type": "link",
-          "target": "NotoriousMonster"
-        }
+      "name": "NotoriousMonsters[0]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 1,
+      "name": "NotoriousMonsters[1]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 2,
+      "name": "NotoriousMonsters[2]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 3,
+      "name": "NotoriousMonsters[3]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 4,
+      "name": "NotoriousMonsters[4]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 5,
+      "name": "NotoriousMonsters[5]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 6,
+      "name": "NotoriousMonsters[6]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 7,
+      "name": "NotoriousMonsters[7]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 8,
+      "name": "NotoriousMonsters[8]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
+      }
+    },
+    {
+      "index": 9,
+      "name": "NotoriousMonsters[9]",
+      "converter": {
+        "type": "link",
+        "target": "NotoriousMonster"
       }
     }
   ]

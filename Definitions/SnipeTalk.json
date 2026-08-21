@@ -2,18 +2,14 @@
   "sheet": "SnipeTalk",
   "definitions": [
     {
-      "name": "Text"
+      "name": "Unknown2"
     },
     {
       "index": 1,
-      "name": "Unknown0"
+      "name": "Unknown3"
     },
     {
       "index": 2,
-      "name": "Unknown1"
-    },
-    {
-      "index": 3,
       "name": "Name",
       "converter": {
         "type": "link",
@@ -21,12 +17,16 @@
       }
     },
     {
+      "index": 3,
+      "name": "Text"
+    },
+    {
       "index": 4,
-      "name": "Unknown2"
+      "name": "Unknown0"
     },
     {
       "index": 5,
-      "name": "Unknown3"
+      "name": "Unknown1"
     }
   ]
 }

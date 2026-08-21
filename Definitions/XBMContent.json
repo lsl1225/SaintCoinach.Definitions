@@ -2,138 +2,6 @@
   "sheet": "XBMContent",
   "definitions": [
     {
-      "name": "Unknown0"
-    },
-    {
-      "index": 1,
-      "name": "Unknown1"
-    },
-    {
-      "index": 2,
-      "name": "Unknown2"
-    },
-    {
-      "index": 3,
-      "name": "Unknown3"
-    },
-    {
-      "index": 4,
-      "name": "Unknown4"
-    },
-    {
-      "index": 5,
-      "name": "Unknown5"
-    },
-    {
-      "index": 6,
-      "name": "Unknown6"
-    },
-    {
-      "index": 7,
-      "name": "Unknown7"
-    },
-    {
-      "index": 8,
-      "name": "Unknown8"
-    },
-    {
-      "index": 9,
-      "name": "Unknown9"
-    },
-    {
-      "index": 10,
-      "name": "Unknown10"
-    },
-    {
-      "index": 11,
-      "name": "Unknown11"
-    },
-    {
-      "index": 12,
-      "name": "Unknown12"
-    },
-    {
-      "index": 13,
-      "name": "Unknown13"
-    },
-    {
-      "index": 14,
-      "name": "Unknown14"
-    },
-    {
-      "index": 15,
-      "name": "Unknown15"
-    },
-    {
-      "index": 16,
-      "name": "Unknown16"
-    },
-    {
-      "index": 17,
-      "name": "Unknown17"
-    },
-    {
-      "index": 18,
-      "name": "Unknown18"
-    },
-    {
-      "index": 19,
-      "name": "Unknown19"
-    },
-    {
-      "index": 20,
-      "name": "Unknown20"
-    },
-    {
-      "index": 21,
-      "name": "Unknown21"
-    },
-    {
-      "index": 22,
-      "name": "Unknown22"
-    },
-    {
-      "index": 23,
-      "name": "Unknown23"
-    },
-    {
-      "index": 24,
-      "name": "Unknown24"
-    },
-    {
-      "index": 25,
-      "name": "Unknown25"
-    },
-    {
-      "index": 26,
-      "name": "Unknown26"
-    },
-    {
-      "index": 27,
-      "name": "Unknown27"
-    },
-    {
-      "index": 28,
-      "name": "Unknown28"
-    },
-    {
-      "index": 29,
-      "name": "Unknown29"
-    },
-    {
-      "index": 30,
-      "name": "Unknown30"
-    },
-    {
-      "index": 31,
-      "name": "Unknown31"
-    },
-    {
-      "index": 32,
-      "name": "Unknown32"
-    },
-    {
-      "index": 33,
       "name": "ContentFinderCondition",
       "converter": {
         "type": "link",
@@ -141,16 +9,148 @@
       }
     },
     {
-      "index": 34,
+      "index": 1,
       "name": "Unknown34"
     },
     {
-      "index": 35,
+      "index": 2,
       "name": "Unknown35"
     },
     {
-      "index": 36,
+      "index": 3,
       "name": "Unknown36"
+    },
+    {
+      "index": 4,
+      "name": "Unknown0"
+    },
+    {
+      "index": 5,
+      "name": "Unknown1"
+    },
+    {
+      "index": 6,
+      "name": "Unknown2"
+    },
+    {
+      "index": 7,
+      "name": "Unknown3"
+    },
+    {
+      "index": 8,
+      "name": "Unknown4"
+    },
+    {
+      "index": 9,
+      "name": "Unknown5"
+    },
+    {
+      "index": 10,
+      "name": "Unknown6"
+    },
+    {
+      "index": 11,
+      "name": "Unknown7"
+    },
+    {
+      "index": 12,
+      "name": "Unknown8"
+    },
+    {
+      "index": 13,
+      "name": "Unknown9"
+    },
+    {
+      "index": 14,
+      "name": "Unknown10"
+    },
+    {
+      "index": 15,
+      "name": "Unknown11"
+    },
+    {
+      "index": 16,
+      "name": "Unknown12"
+    },
+    {
+      "index": 17,
+      "name": "Unknown13"
+    },
+    {
+      "index": 18,
+      "name": "Unknown14"
+    },
+    {
+      "index": 19,
+      "name": "Unknown15"
+    },
+    {
+      "index": 20,
+      "name": "Unknown16"
+    },
+    {
+      "index": 21,
+      "name": "Unknown17"
+    },
+    {
+      "index": 22,
+      "name": "Unknown18"
+    },
+    {
+      "index": 23,
+      "name": "Unknown19"
+    },
+    {
+      "index": 24,
+      "name": "Unknown20"
+    },
+    {
+      "index": 25,
+      "name": "Unknown21"
+    },
+    {
+      "index": 26,
+      "name": "Unknown22"
+    },
+    {
+      "index": 27,
+      "name": "Unknown23"
+    },
+    {
+      "index": 28,
+      "name": "Unknown24"
+    },
+    {
+      "index": 29,
+      "name": "Unknown25"
+    },
+    {
+      "index": 30,
+      "name": "Unknown26"
+    },
+    {
+      "index": 31,
+      "name": "Unknown27"
+    },
+    {
+      "index": 32,
+      "name": "Unknown28"
+    },
+    {
+      "index": 33,
+      "name": "Unknown29"
+    },
+    {
+      "index": 34,
+      "name": "Unknown30"
+    },
+    {
+      "index": 35,
+      "name": "Unknown31"
+    },
+    {
+      "index": 36,
+      "name": "Unknown32"
     }
   ]
 }

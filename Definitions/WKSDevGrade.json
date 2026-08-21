@@ -23,94 +23,94 @@
     },
     {
       "index": 5,
+      "name": "LodestoneRank"
+    },
+    {
+      "index": 6,
+      "name": "Unknown24"
+    },
+    {
+      "index": 7,
+      "name": "FestivalId"
+    },
+    {
+      "index": 8,
+      "name": "FestivalPhase"
+    },
+    {
+      "index": 9,
+      "name": "Unknown14"
+    },
+    {
+      "index": 10,
       "name": "Thumbnail",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 6,
-      "name": "Unknown4"
-    },
-    {
-      "index": 7,
-      "name": "Unknown12"
-    },
-    {
-      "index": 8,
+      "index": 11,
       "name": "Unknown13"
     },
     {
-      "index": 9,
-      "name": "FestivalId"
-    },
-    {
-      "index": 10,
-      "name": "Unknown14"
-    },
-    {
-      "index": 11,
-      "name": "LodestoneRank"
-    },
-    {
       "index": 12,
-      "name": "FestivalPhase"
+      "name": "Unknown4"
     },
     {
       "index": 13,
-      "name": "Unknown8"
+      "name": "Unknown12"
     },
     {
       "index": 14,
-      "name": "Unknown9"
+      "name": "Unknown8"
     },
     {
       "index": 15,
-      "name": "Unknown10"
+      "name": "Unknown9"
     },
     {
       "index": 16,
-      "name": "Unknown11"
+      "name": "Unknown10"
     },
     {
       "index": 17,
-      "name": "Unknown15"
+      "name": "Unknown11"
     },
     {
       "index": 18,
-      "name": "Unknown16"
+      "name": "Unknown15"
     },
     {
       "index": 19,
-      "name": "Unknown17"
+      "name": "Unknown16"
     },
     {
       "index": 20,
-      "name": "Unknown18"
+      "name": "Unknown17"
     },
     {
       "index": 21,
-      "name": "Unknown19"
+      "name": "Unknown18"
     },
     {
       "index": 22,
-      "name": "Unknown20"
+      "name": "Unknown19"
     },
     {
       "index": 23,
-      "name": "Unknown21"
+      "name": "Unknown20"
     },
     {
       "index": 24,
-      "name": "Unknown22"
+      "name": "Unknown21"
     },
     {
       "index": 25,
-      "name": "Unknown23"
+      "name": "Unknown22"
     },
     {
       "index": 26,
-      "name": "Unknown24"
+      "name": "Unknown23"
     }
   ]
 }

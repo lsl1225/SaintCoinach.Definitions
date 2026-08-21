@@ -2,23 +2,63 @@
   "sheet": "MJIVillageAppearanceSG",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 5,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "UnknownParam"
-          },
-          {
-            "name": "SGB",
-            "converter": {
-              "type": "link",
-              "target": "ExportedSG"
-            }
-          }
-        ]
+      "name": "SGB[0]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
       }
+    },
+    {
+      "index": 1,
+      "name": "SGB[1]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SGB[2]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 3,
+      "name": "SGB[3]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 4,
+      "name": "SGB[4]",
+      "converter": {
+        "type": "link",
+        "target": "ExportedSG"
+      }
+    },
+    {
+      "index": 5,
+      "name": "UnknownParam[0]"
+    },
+    {
+      "index": 6,
+      "name": "UnknownParam[1]"
+    },
+    {
+      "index": 7,
+      "name": "UnknownParam[2]"
+    },
+    {
+      "index": 8,
+      "name": "UnknownParam[3]"
+    },
+    {
+      "index": 9,
+      "name": "UnknownParam[4]"
     }
   ]
 }

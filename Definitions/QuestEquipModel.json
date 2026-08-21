@@ -2,11 +2,11 @@
   "sheet": "QuestEquipModel",
   "definitions": [
     {
-      "name": "Model"
+      "name": "Slot"
     },
     {
       "index": 1,
-      "name": "Slot"
+      "name": "Model"
     }
   ]
 }

@@ -2,13 +2,21 @@
   "sheet": "MapMarker",
   "definitions": [
     {
+      "name": "X"
+    },
+    {
+      "index": 1,
+      "name": "Y"
+    },
+    {
+      "index": 2,
       "name": "Icon",
       "converter": {
         "type": "icon"
       }
     },
     {
-      "index": 1,
+      "index": 3,
       "name": "PlaceNameSubtext",
       "converter": {
         "type": "link",
@@ -16,7 +24,27 @@
       }
     },
     {
-      "index": 2,
+      "index": 4,
+      "name": "SubtextOrientation"
+    },
+    {
+      "index": 5,
+      "name": "MapMarkerRegion",
+      "converter": {
+        "type": "link",
+        "target": "MapMarkerRegion"
+      }
+    },
+    {
+      "index": 6,
+      "name": "Type"
+    },
+    {
+      "index": 7,
+      "name": "DataType"
+    },
+    {
+      "index": 8,
       "name": "DataKey",
       "converter": {
         "type": "complexlink",
@@ -53,40 +81,12 @@
       }
     },
     {
-      "index": 3,
-      "name": "MapMarkerUnlockedBit"
-    },
-    {
-      "index": 4,
-      "name": "X"
-    },
-    {
-      "index": 5,
-      "name": "Y"
-    },
-    {
-      "index": 6,
-      "name": "SubtextOrientation"
-    },
-    {
-      "index": 7,
-      "name": "MapMarkerRegion",
-      "converter": {
-        "type": "link",
-        "target": "MapMarkerRegion"
-      }
-    },
-    {
-      "index": 8,
-      "name": "Type"
-    },
-    {
       "index": 9,
-      "name": "DataType"
+      "name": "Unknown0"
     },
     {
       "index": 10,
-      "name": "Unknown0"
+      "name": "MapMarkerUnlockedBit"
     }
   ]
 }

@@ -3,23 +3,43 @@
   "defaultColumn": "VFX",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 4,
-      "definition": {
-        "name": "VFX",
-        "converter": {
-          "type": "link",
-          "target": "VFX"
-        }
+      "name": "VFX[0]",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
       }
     },
     {
-      "index": 4,
+      "index": 1,
       "name": "Unknown0"
     },
     {
-      "index": 5,
+      "index": 2,
+      "name": "VFX[1]",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
+    },
+    {
+      "index": 3,
       "name": "Unknown1"
+    },
+    {
+      "index": 4,
+      "name": "VFX[2]",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
+    },
+    {
+      "index": 5,
+      "name": "VFX[3]",
+      "converter": {
+        "type": "link",
+        "target": "VFX"
+      }
     },
     {
       "index": 6,

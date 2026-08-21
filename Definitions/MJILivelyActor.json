@@ -2,22 +2,6 @@
   "sheet": "MJILivelyActor",
   "definitions": [
     {
-      "name": "X"
-    },
-    {
-      "index": 1,
-      "name": "Y"
-    },
-    {
-      "index": 2,
-      "name": "Z"
-    },
-    {
-      "index": 3,
-      "name": "Rot"
-    },
-    {
-      "index": 4,
       "name": "ENPC",
       "converter": {
         "type": "link",
@@ -25,12 +9,28 @@
       }
     },
     {
-      "index": 5,
+      "index": 1,
       "name": "Behavior",
       "converter": {
         "type": "link",
         "target": "Behavior"
       }
+    },
+    {
+      "index": 2,
+      "name": "X"
+    },
+    {
+      "index": 3,
+      "name": "Y"
+    },
+    {
+      "index": 4,
+      "name": "Z"
+    },
+    {
+      "index": 5,
+      "name": "Rot"
     }
   ]
 }

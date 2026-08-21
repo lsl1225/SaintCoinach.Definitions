@@ -2,86 +2,2026 @@
   "sheet": "HWDCrafterSupply",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 23,
-      "definition": {
-        "type": "group",
-        "members": [
-          {
-            "name": "ItemTradeIn",
-            "converter": {
-              "type": "link",
-              "target": "Item"
-            }
-          },
-          {
-            "name": "BaseCollectableRating"
-          },
-          {
-            "name": "MidCollectableRating"
-          },
-          {
-            "name": "HighCollectableRating"
-          },
-          {
-            "name": "BaseCollectableReward",
-            "converter": {
-              "type": "link",
-              "target": "HWDCrafterSupplyReward"
-            }
-          },
-          {
-            "name": "MidCollectableReward",
-            "converter": {
-              "type": "link",
-              "target": "HWDCrafterSupplyReward"
-            }
-          },
-          {
-            "name": "HighCollectableReward",
-            "converter": {
-              "type": "link",
-              "target": "HWDCrafterSupplyReward"
-            }
-          },
-          {
-            "name": "BaseCollectableRewardPostPhase",
-            "converter": {
-              "type": "link",
-              "target": "HWDCrafterSupplyReward"
-            }
-          },
-          {
-            "name": "MidCollectableRewardPostPhase",
-            "converter": {
-              "type": "link",
-              "target": "HWDCrafterSupplyReward"
-            }
-          },
-          {
-            "name": "HighCollectableRewardPostPhase",
-            "converter": {
-              "type": "link",
-              "target": "HWDCrafterSupplyReward"
-            }
-          },
-          {
-            "name": "Level"
-          },
-          {
-            "name": "LevelMax"
-          },
-          {
-            "name": "Unknown0"
-          },
-          {
-            "name": "TermName",
-            "converter": {
-              "type": "link",
-              "target": "HWDCrafterSupplyTerm"
-            }
-          }
-        ]
+      "name": "ItemTradeIn[0]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ItemTradeIn[1]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ItemTradeIn[2]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ItemTradeIn[3]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ItemTradeIn[4]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 5,
+      "name": "ItemTradeIn[5]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ItemTradeIn[6]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ItemTradeIn[7]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 8,
+      "name": "ItemTradeIn[8]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ItemTradeIn[9]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 10,
+      "name": "ItemTradeIn[10]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ItemTradeIn[11]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 12,
+      "name": "ItemTradeIn[12]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 13,
+      "name": "ItemTradeIn[13]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 14,
+      "name": "ItemTradeIn[14]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ItemTradeIn[15]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 16,
+      "name": "ItemTradeIn[16]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 17,
+      "name": "ItemTradeIn[17]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 18,
+      "name": "ItemTradeIn[18]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 19,
+      "name": "ItemTradeIn[19]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 20,
+      "name": "ItemTradeIn[20]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 21,
+      "name": "ItemTradeIn[21]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 22,
+      "name": "ItemTradeIn[22]",
+      "converter": {
+        "type": "link",
+        "target": "Item"
+      }
+    },
+    {
+      "index": 23,
+      "name": "Level[0]"
+    },
+    {
+      "index": 24,
+      "name": "Level[1]"
+    },
+    {
+      "index": 25,
+      "name": "Level[2]"
+    },
+    {
+      "index": 26,
+      "name": "Level[3]"
+    },
+    {
+      "index": 27,
+      "name": "Level[4]"
+    },
+    {
+      "index": 28,
+      "name": "Level[5]"
+    },
+    {
+      "index": 29,
+      "name": "Level[6]"
+    },
+    {
+      "index": 30,
+      "name": "Level[7]"
+    },
+    {
+      "index": 31,
+      "name": "Level[8]"
+    },
+    {
+      "index": 32,
+      "name": "Level[9]"
+    },
+    {
+      "index": 33,
+      "name": "Level[10]"
+    },
+    {
+      "index": 34,
+      "name": "Level[11]"
+    },
+    {
+      "index": 35,
+      "name": "Level[12]"
+    },
+    {
+      "index": 36,
+      "name": "Level[13]"
+    },
+    {
+      "index": 37,
+      "name": "Level[14]"
+    },
+    {
+      "index": 38,
+      "name": "Level[15]"
+    },
+    {
+      "index": 39,
+      "name": "Level[16]"
+    },
+    {
+      "index": 40,
+      "name": "Level[17]"
+    },
+    {
+      "index": 41,
+      "name": "Level[18]"
+    },
+    {
+      "index": 42,
+      "name": "Level[19]"
+    },
+    {
+      "index": 43,
+      "name": "Level[20]"
+    },
+    {
+      "index": 44,
+      "name": "Level[21]"
+    },
+    {
+      "index": 45,
+      "name": "Level[22]"
+    },
+    {
+      "index": 46,
+      "name": "LevelMax[0]"
+    },
+    {
+      "index": 47,
+      "name": "LevelMax[1]"
+    },
+    {
+      "index": 48,
+      "name": "LevelMax[2]"
+    },
+    {
+      "index": 49,
+      "name": "LevelMax[3]"
+    },
+    {
+      "index": 50,
+      "name": "LevelMax[4]"
+    },
+    {
+      "index": 51,
+      "name": "LevelMax[5]"
+    },
+    {
+      "index": 52,
+      "name": "LevelMax[6]"
+    },
+    {
+      "index": 53,
+      "name": "LevelMax[7]"
+    },
+    {
+      "index": 54,
+      "name": "LevelMax[8]"
+    },
+    {
+      "index": 55,
+      "name": "LevelMax[9]"
+    },
+    {
+      "index": 56,
+      "name": "LevelMax[10]"
+    },
+    {
+      "index": 57,
+      "name": "LevelMax[11]"
+    },
+    {
+      "index": 58,
+      "name": "LevelMax[12]"
+    },
+    {
+      "index": 59,
+      "name": "LevelMax[13]"
+    },
+    {
+      "index": 60,
+      "name": "LevelMax[14]"
+    },
+    {
+      "index": 61,
+      "name": "LevelMax[15]"
+    },
+    {
+      "index": 62,
+      "name": "LevelMax[16]"
+    },
+    {
+      "index": 63,
+      "name": "LevelMax[17]"
+    },
+    {
+      "index": 64,
+      "name": "LevelMax[18]"
+    },
+    {
+      "index": 65,
+      "name": "LevelMax[19]"
+    },
+    {
+      "index": 66,
+      "name": "LevelMax[20]"
+    },
+    {
+      "index": 67,
+      "name": "LevelMax[21]"
+    },
+    {
+      "index": 68,
+      "name": "LevelMax[22]"
+    },
+    {
+      "index": 69,
+      "name": "Unknown0[0]"
+    },
+    {
+      "index": 70,
+      "name": "Unknown0[1]"
+    },
+    {
+      "index": 71,
+      "name": "Unknown0[2]"
+    },
+    {
+      "index": 72,
+      "name": "Unknown0[3]"
+    },
+    {
+      "index": 73,
+      "name": "Unknown0[4]"
+    },
+    {
+      "index": 74,
+      "name": "Unknown0[5]"
+    },
+    {
+      "index": 75,
+      "name": "Unknown0[6]"
+    },
+    {
+      "index": 76,
+      "name": "Unknown0[7]"
+    },
+    {
+      "index": 77,
+      "name": "Unknown0[8]"
+    },
+    {
+      "index": 78,
+      "name": "Unknown0[9]"
+    },
+    {
+      "index": 79,
+      "name": "Unknown0[10]"
+    },
+    {
+      "index": 80,
+      "name": "Unknown0[11]"
+    },
+    {
+      "index": 81,
+      "name": "Unknown0[12]"
+    },
+    {
+      "index": 82,
+      "name": "Unknown0[13]"
+    },
+    {
+      "index": 83,
+      "name": "Unknown0[14]"
+    },
+    {
+      "index": 84,
+      "name": "Unknown0[15]"
+    },
+    {
+      "index": 85,
+      "name": "Unknown0[16]"
+    },
+    {
+      "index": 86,
+      "name": "Unknown0[17]"
+    },
+    {
+      "index": 87,
+      "name": "Unknown0[18]"
+    },
+    {
+      "index": 88,
+      "name": "Unknown0[19]"
+    },
+    {
+      "index": 89,
+      "name": "Unknown0[20]"
+    },
+    {
+      "index": 90,
+      "name": "Unknown0[21]"
+    },
+    {
+      "index": 91,
+      "name": "Unknown0[22]"
+    },
+    {
+      "index": 92,
+      "name": "BaseCollectableRating[0]"
+    },
+    {
+      "index": 93,
+      "name": "BaseCollectableRating[1]"
+    },
+    {
+      "index": 94,
+      "name": "BaseCollectableRating[2]"
+    },
+    {
+      "index": 95,
+      "name": "BaseCollectableRating[3]"
+    },
+    {
+      "index": 96,
+      "name": "BaseCollectableRating[4]"
+    },
+    {
+      "index": 97,
+      "name": "BaseCollectableRating[5]"
+    },
+    {
+      "index": 98,
+      "name": "BaseCollectableRating[6]"
+    },
+    {
+      "index": 99,
+      "name": "BaseCollectableRating[7]"
+    },
+    {
+      "index": 100,
+      "name": "BaseCollectableRating[8]"
+    },
+    {
+      "index": 101,
+      "name": "BaseCollectableRating[9]"
+    },
+    {
+      "index": 102,
+      "name": "BaseCollectableRating[10]"
+    },
+    {
+      "index": 103,
+      "name": "BaseCollectableRating[11]"
+    },
+    {
+      "index": 104,
+      "name": "BaseCollectableRating[12]"
+    },
+    {
+      "index": 105,
+      "name": "BaseCollectableRating[13]"
+    },
+    {
+      "index": 106,
+      "name": "BaseCollectableRating[14]"
+    },
+    {
+      "index": 107,
+      "name": "BaseCollectableRating[15]"
+    },
+    {
+      "index": 108,
+      "name": "BaseCollectableRating[16]"
+    },
+    {
+      "index": 109,
+      "name": "BaseCollectableRating[17]"
+    },
+    {
+      "index": 110,
+      "name": "BaseCollectableRating[18]"
+    },
+    {
+      "index": 111,
+      "name": "BaseCollectableRating[19]"
+    },
+    {
+      "index": 112,
+      "name": "BaseCollectableRating[20]"
+    },
+    {
+      "index": 113,
+      "name": "BaseCollectableRating[21]"
+    },
+    {
+      "index": 114,
+      "name": "BaseCollectableRating[22]"
+    },
+    {
+      "index": 115,
+      "name": "MidCollectableRating[0]"
+    },
+    {
+      "index": 116,
+      "name": "MidCollectableRating[1]"
+    },
+    {
+      "index": 117,
+      "name": "MidCollectableRating[2]"
+    },
+    {
+      "index": 118,
+      "name": "MidCollectableRating[3]"
+    },
+    {
+      "index": 119,
+      "name": "MidCollectableRating[4]"
+    },
+    {
+      "index": 120,
+      "name": "MidCollectableRating[5]"
+    },
+    {
+      "index": 121,
+      "name": "MidCollectableRating[6]"
+    },
+    {
+      "index": 122,
+      "name": "MidCollectableRating[7]"
+    },
+    {
+      "index": 123,
+      "name": "MidCollectableRating[8]"
+    },
+    {
+      "index": 124,
+      "name": "MidCollectableRating[9]"
+    },
+    {
+      "index": 125,
+      "name": "MidCollectableRating[10]"
+    },
+    {
+      "index": 126,
+      "name": "MidCollectableRating[11]"
+    },
+    {
+      "index": 127,
+      "name": "MidCollectableRating[12]"
+    },
+    {
+      "index": 128,
+      "name": "MidCollectableRating[13]"
+    },
+    {
+      "index": 129,
+      "name": "MidCollectableRating[14]"
+    },
+    {
+      "index": 130,
+      "name": "MidCollectableRating[15]"
+    },
+    {
+      "index": 131,
+      "name": "MidCollectableRating[16]"
+    },
+    {
+      "index": 132,
+      "name": "MidCollectableRating[17]"
+    },
+    {
+      "index": 133,
+      "name": "MidCollectableRating[18]"
+    },
+    {
+      "index": 134,
+      "name": "MidCollectableRating[19]"
+    },
+    {
+      "index": 135,
+      "name": "MidCollectableRating[20]"
+    },
+    {
+      "index": 136,
+      "name": "MidCollectableRating[21]"
+    },
+    {
+      "index": 137,
+      "name": "MidCollectableRating[22]"
+    },
+    {
+      "index": 138,
+      "name": "HighCollectableRating[0]"
+    },
+    {
+      "index": 139,
+      "name": "HighCollectableRating[1]"
+    },
+    {
+      "index": 140,
+      "name": "HighCollectableRating[2]"
+    },
+    {
+      "index": 141,
+      "name": "HighCollectableRating[3]"
+    },
+    {
+      "index": 142,
+      "name": "HighCollectableRating[4]"
+    },
+    {
+      "index": 143,
+      "name": "HighCollectableRating[5]"
+    },
+    {
+      "index": 144,
+      "name": "HighCollectableRating[6]"
+    },
+    {
+      "index": 145,
+      "name": "HighCollectableRating[7]"
+    },
+    {
+      "index": 146,
+      "name": "HighCollectableRating[8]"
+    },
+    {
+      "index": 147,
+      "name": "HighCollectableRating[9]"
+    },
+    {
+      "index": 148,
+      "name": "HighCollectableRating[10]"
+    },
+    {
+      "index": 149,
+      "name": "HighCollectableRating[11]"
+    },
+    {
+      "index": 150,
+      "name": "HighCollectableRating[12]"
+    },
+    {
+      "index": 151,
+      "name": "HighCollectableRating[13]"
+    },
+    {
+      "index": 152,
+      "name": "HighCollectableRating[14]"
+    },
+    {
+      "index": 153,
+      "name": "HighCollectableRating[15]"
+    },
+    {
+      "index": 154,
+      "name": "HighCollectableRating[16]"
+    },
+    {
+      "index": 155,
+      "name": "HighCollectableRating[17]"
+    },
+    {
+      "index": 156,
+      "name": "HighCollectableRating[18]"
+    },
+    {
+      "index": 157,
+      "name": "HighCollectableRating[19]"
+    },
+    {
+      "index": 158,
+      "name": "HighCollectableRating[20]"
+    },
+    {
+      "index": 159,
+      "name": "HighCollectableRating[21]"
+    },
+    {
+      "index": 160,
+      "name": "HighCollectableRating[22]"
+    },
+    {
+      "index": 161,
+      "name": "BaseCollectableReward[0]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 162,
+      "name": "BaseCollectableReward[1]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 163,
+      "name": "BaseCollectableReward[2]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 164,
+      "name": "BaseCollectableReward[3]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 165,
+      "name": "BaseCollectableReward[4]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 166,
+      "name": "BaseCollectableReward[5]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 167,
+      "name": "BaseCollectableReward[6]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 168,
+      "name": "BaseCollectableReward[7]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 169,
+      "name": "BaseCollectableReward[8]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 170,
+      "name": "BaseCollectableReward[9]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 171,
+      "name": "BaseCollectableReward[10]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 172,
+      "name": "BaseCollectableReward[11]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 173,
+      "name": "BaseCollectableReward[12]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 174,
+      "name": "BaseCollectableReward[13]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 175,
+      "name": "BaseCollectableReward[14]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 176,
+      "name": "BaseCollectableReward[15]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 177,
+      "name": "BaseCollectableReward[16]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 178,
+      "name": "BaseCollectableReward[17]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 179,
+      "name": "BaseCollectableReward[18]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 180,
+      "name": "BaseCollectableReward[19]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 181,
+      "name": "BaseCollectableReward[20]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 182,
+      "name": "BaseCollectableReward[21]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 183,
+      "name": "BaseCollectableReward[22]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 184,
+      "name": "MidCollectableReward[0]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 185,
+      "name": "MidCollectableReward[1]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 186,
+      "name": "MidCollectableReward[2]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 187,
+      "name": "MidCollectableReward[3]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 188,
+      "name": "MidCollectableReward[4]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 189,
+      "name": "MidCollectableReward[5]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 190,
+      "name": "MidCollectableReward[6]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 191,
+      "name": "MidCollectableReward[7]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 192,
+      "name": "MidCollectableReward[8]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 193,
+      "name": "MidCollectableReward[9]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 194,
+      "name": "MidCollectableReward[10]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 195,
+      "name": "MidCollectableReward[11]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 196,
+      "name": "MidCollectableReward[12]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 197,
+      "name": "MidCollectableReward[13]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 198,
+      "name": "MidCollectableReward[14]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 199,
+      "name": "MidCollectableReward[15]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 200,
+      "name": "MidCollectableReward[16]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 201,
+      "name": "MidCollectableReward[17]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 202,
+      "name": "MidCollectableReward[18]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 203,
+      "name": "MidCollectableReward[19]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 204,
+      "name": "MidCollectableReward[20]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 205,
+      "name": "MidCollectableReward[21]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 206,
+      "name": "MidCollectableReward[22]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 207,
+      "name": "HighCollectableReward[0]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 208,
+      "name": "HighCollectableReward[1]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 209,
+      "name": "HighCollectableReward[2]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 210,
+      "name": "HighCollectableReward[3]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 211,
+      "name": "HighCollectableReward[4]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 212,
+      "name": "HighCollectableReward[5]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 213,
+      "name": "HighCollectableReward[6]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 214,
+      "name": "HighCollectableReward[7]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 215,
+      "name": "HighCollectableReward[8]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 216,
+      "name": "HighCollectableReward[9]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 217,
+      "name": "HighCollectableReward[10]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 218,
+      "name": "HighCollectableReward[11]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 219,
+      "name": "HighCollectableReward[12]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 220,
+      "name": "HighCollectableReward[13]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 221,
+      "name": "HighCollectableReward[14]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 222,
+      "name": "HighCollectableReward[15]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 223,
+      "name": "HighCollectableReward[16]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 224,
+      "name": "HighCollectableReward[17]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 225,
+      "name": "HighCollectableReward[18]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 226,
+      "name": "HighCollectableReward[19]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 227,
+      "name": "HighCollectableReward[20]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 228,
+      "name": "HighCollectableReward[21]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 229,
+      "name": "HighCollectableReward[22]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 230,
+      "name": "BaseCollectableRewardPostPhase[0]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 231,
+      "name": "BaseCollectableRewardPostPhase[1]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 232,
+      "name": "BaseCollectableRewardPostPhase[2]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 233,
+      "name": "BaseCollectableRewardPostPhase[3]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 234,
+      "name": "BaseCollectableRewardPostPhase[4]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 235,
+      "name": "BaseCollectableRewardPostPhase[5]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 236,
+      "name": "BaseCollectableRewardPostPhase[6]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 237,
+      "name": "BaseCollectableRewardPostPhase[7]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 238,
+      "name": "BaseCollectableRewardPostPhase[8]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 239,
+      "name": "BaseCollectableRewardPostPhase[9]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 240,
+      "name": "BaseCollectableRewardPostPhase[10]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 241,
+      "name": "BaseCollectableRewardPostPhase[11]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 242,
+      "name": "BaseCollectableRewardPostPhase[12]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 243,
+      "name": "BaseCollectableRewardPostPhase[13]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 244,
+      "name": "BaseCollectableRewardPostPhase[14]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 245,
+      "name": "BaseCollectableRewardPostPhase[15]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 246,
+      "name": "BaseCollectableRewardPostPhase[16]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 247,
+      "name": "BaseCollectableRewardPostPhase[17]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 248,
+      "name": "BaseCollectableRewardPostPhase[18]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 249,
+      "name": "BaseCollectableRewardPostPhase[19]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 250,
+      "name": "BaseCollectableRewardPostPhase[20]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 251,
+      "name": "BaseCollectableRewardPostPhase[21]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 252,
+      "name": "BaseCollectableRewardPostPhase[22]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 253,
+      "name": "MidCollectableRewardPostPhase[0]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 254,
+      "name": "MidCollectableRewardPostPhase[1]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 255,
+      "name": "MidCollectableRewardPostPhase[2]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 256,
+      "name": "MidCollectableRewardPostPhase[3]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 257,
+      "name": "MidCollectableRewardPostPhase[4]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 258,
+      "name": "MidCollectableRewardPostPhase[5]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 259,
+      "name": "MidCollectableRewardPostPhase[6]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 260,
+      "name": "MidCollectableRewardPostPhase[7]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 261,
+      "name": "MidCollectableRewardPostPhase[8]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 262,
+      "name": "MidCollectableRewardPostPhase[9]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 263,
+      "name": "MidCollectableRewardPostPhase[10]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 264,
+      "name": "MidCollectableRewardPostPhase[11]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 265,
+      "name": "MidCollectableRewardPostPhase[12]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 266,
+      "name": "MidCollectableRewardPostPhase[13]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 267,
+      "name": "MidCollectableRewardPostPhase[14]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 268,
+      "name": "MidCollectableRewardPostPhase[15]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 269,
+      "name": "MidCollectableRewardPostPhase[16]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 270,
+      "name": "MidCollectableRewardPostPhase[17]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 271,
+      "name": "MidCollectableRewardPostPhase[18]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 272,
+      "name": "MidCollectableRewardPostPhase[19]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 273,
+      "name": "MidCollectableRewardPostPhase[20]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 274,
+      "name": "MidCollectableRewardPostPhase[21]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 275,
+      "name": "MidCollectableRewardPostPhase[22]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 276,
+      "name": "HighCollectableRewardPostPhase[0]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 277,
+      "name": "HighCollectableRewardPostPhase[1]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 278,
+      "name": "HighCollectableRewardPostPhase[2]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 279,
+      "name": "HighCollectableRewardPostPhase[3]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 280,
+      "name": "HighCollectableRewardPostPhase[4]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 281,
+      "name": "HighCollectableRewardPostPhase[5]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 282,
+      "name": "HighCollectableRewardPostPhase[6]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 283,
+      "name": "HighCollectableRewardPostPhase[7]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 284,
+      "name": "HighCollectableRewardPostPhase[8]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 285,
+      "name": "HighCollectableRewardPostPhase[9]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 286,
+      "name": "HighCollectableRewardPostPhase[10]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 287,
+      "name": "HighCollectableRewardPostPhase[11]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 288,
+      "name": "HighCollectableRewardPostPhase[12]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 289,
+      "name": "HighCollectableRewardPostPhase[13]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 290,
+      "name": "HighCollectableRewardPostPhase[14]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 291,
+      "name": "HighCollectableRewardPostPhase[15]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 292,
+      "name": "HighCollectableRewardPostPhase[16]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 293,
+      "name": "HighCollectableRewardPostPhase[17]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 294,
+      "name": "HighCollectableRewardPostPhase[18]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 295,
+      "name": "HighCollectableRewardPostPhase[19]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 296,
+      "name": "HighCollectableRewardPostPhase[20]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 297,
+      "name": "HighCollectableRewardPostPhase[21]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 298,
+      "name": "HighCollectableRewardPostPhase[22]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyReward"
+      }
+    },
+    {
+      "index": 299,
+      "name": "TermName[0]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 300,
+      "name": "TermName[1]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 301,
+      "name": "TermName[2]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 302,
+      "name": "TermName[3]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 303,
+      "name": "TermName[4]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 304,
+      "name": "TermName[5]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 305,
+      "name": "TermName[6]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 306,
+      "name": "TermName[7]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 307,
+      "name": "TermName[8]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 308,
+      "name": "TermName[9]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 309,
+      "name": "TermName[10]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 310,
+      "name": "TermName[11]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 311,
+      "name": "TermName[12]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 312,
+      "name": "TermName[13]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 313,
+      "name": "TermName[14]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 314,
+      "name": "TermName[15]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 315,
+      "name": "TermName[16]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 316,
+      "name": "TermName[17]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 317,
+      "name": "TermName[18]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 318,
+      "name": "TermName[19]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 319,
+      "name": "TermName[20]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 320,
+      "name": "TermName[21]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
+      }
+    },
+    {
+      "index": 321,
+      "name": "TermName[22]",
+      "converter": {
+        "type": "link",
+        "target": "HWDCrafterSupplyTerm"
       }
     }
   ]

@@ -2,19 +2,71 @@
   "sheet": "ContentNpcTalk",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 8,
-      "definition": {
-        "name": "ContentTalk",
-        "converter": {
-          "type": "link",
-          "target": "ContentTalk"
-        }
+      "name": "Type"
+    },
+    {
+      "index": 1,
+      "name": "ContentTalk[0]",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalk"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ContentTalk[1]",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalk"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ContentTalk[2]",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalk"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ContentTalk[3]",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalk"
+      }
+    },
+    {
+      "index": 5,
+      "name": "ContentTalk[4]",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalk"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ContentTalk[5]",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalk"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ContentTalk[6]",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalk"
       }
     },
     {
       "index": 8,
-      "name": "Type"
+      "name": "ContentTalk[7]",
+      "converter": {
+        "type": "link",
+        "target": "ContentTalk"
+      }
     }
   ]
 }

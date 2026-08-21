@@ -2,23 +2,175 @@
   "sheet": "MountCustomize",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 21,
-      "definition": {
-        "name": "Scale"
-      }
+      "name": "Unknown4"
+    },
+    {
+      "index": 1,
+      "name": "Scale[0]"
+    },
+    {
+      "index": 2,
+      "name": "Scale[1]"
+    },
+    {
+      "index": 3,
+      "name": "Scale[2]"
+    },
+    {
+      "index": 4,
+      "name": "Scale[3]"
+    },
+    {
+      "index": 5,
+      "name": "Scale[4]"
+    },
+    {
+      "index": 6,
+      "name": "Scale[5]"
+    },
+    {
+      "index": 7,
+      "name": "Scale[6]"
+    },
+    {
+      "index": 8,
+      "name": "Scale[7]"
+    },
+    {
+      "index": 9,
+      "name": "Scale[8]"
+    },
+    {
+      "index": 10,
+      "name": "Scale[9]"
+    },
+    {
+      "index": 11,
+      "name": "Scale[10]"
+    },
+    {
+      "index": 12,
+      "name": "Scale[11]"
+    },
+    {
+      "index": 13,
+      "name": "Scale[12]"
+    },
+    {
+      "index": 14,
+      "name": "Scale[13]"
+    },
+    {
+      "index": 15,
+      "name": "Scale[14]"
+    },
+    {
+      "index": 16,
+      "name": "Scale[15]"
+    },
+    {
+      "index": 17,
+      "name": "Scale[16]"
+    },
+    {
+      "index": 18,
+      "name": "Scale[17]"
+    },
+    {
+      "index": 19,
+      "name": "Scale[18]"
+    },
+    {
+      "index": 20,
+      "name": "Scale[19]"
     },
     {
       "index": 21,
-      "type": "repeat",
-      "count": 21,
-      "definition": {
-        "name": "CameraHeight"
-      }
+      "name": "Scale[20]"
+    },
+    {
+      "index": 22,
+      "name": "CameraHeight[0]"
+    },
+    {
+      "index": 23,
+      "name": "CameraHeight[1]"
+    },
+    {
+      "index": 24,
+      "name": "CameraHeight[2]"
+    },
+    {
+      "index": 25,
+      "name": "CameraHeight[3]"
+    },
+    {
+      "index": 26,
+      "name": "CameraHeight[4]"
+    },
+    {
+      "index": 27,
+      "name": "CameraHeight[5]"
+    },
+    {
+      "index": 28,
+      "name": "CameraHeight[6]"
+    },
+    {
+      "index": 29,
+      "name": "CameraHeight[7]"
+    },
+    {
+      "index": 30,
+      "name": "CameraHeight[8]"
+    },
+    {
+      "index": 31,
+      "name": "CameraHeight[9]"
+    },
+    {
+      "index": 32,
+      "name": "CameraHeight[10]"
+    },
+    {
+      "index": 33,
+      "name": "CameraHeight[11]"
+    },
+    {
+      "index": 34,
+      "name": "CameraHeight[12]"
+    },
+    {
+      "index": 35,
+      "name": "CameraHeight[13]"
+    },
+    {
+      "index": 36,
+      "name": "CameraHeight[14]"
+    },
+    {
+      "index": 37,
+      "name": "CameraHeight[15]"
+    },
+    {
+      "index": 38,
+      "name": "CameraHeight[16]"
+    },
+    {
+      "index": 39,
+      "name": "CameraHeight[17]"
+    },
+    {
+      "index": 40,
+      "name": "CameraHeight[18]"
+    },
+    {
+      "index": 41,
+      "name": "CameraHeight[19]"
     },
     {
       "index": 42,
-      "name": "Unknown4"
+      "name": "CameraHeight[20]"
     }
   ]
 }

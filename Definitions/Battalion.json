@@ -2,11 +2,63 @@
   "sheet": "Battalion",
   "definitions": [
     {
-      "type": "repeat",
-      "count": 15,
-      "definition": {
-        "name": "IsEnemyTo"
-      }
+      "name": "IsEnemyTo[0]"
+    },
+    {
+      "index": 1,
+      "name": "IsEnemyTo[1]"
+    },
+    {
+      "index": 2,
+      "name": "IsEnemyTo[2]"
+    },
+    {
+      "index": 3,
+      "name": "IsEnemyTo[3]"
+    },
+    {
+      "index": 4,
+      "name": "IsEnemyTo[4]"
+    },
+    {
+      "index": 5,
+      "name": "IsEnemyTo[5]"
+    },
+    {
+      "index": 6,
+      "name": "IsEnemyTo[6]"
+    },
+    {
+      "index": 7,
+      "name": "IsEnemyTo[7]"
+    },
+    {
+      "index": 8,
+      "name": "IsEnemyTo[8]"
+    },
+    {
+      "index": 9,
+      "name": "IsEnemyTo[9]"
+    },
+    {
+      "index": 10,
+      "name": "IsEnemyTo[10]"
+    },
+    {
+      "index": 11,
+      "name": "IsEnemyTo[11]"
+    },
+    {
+      "index": 12,
+      "name": "IsEnemyTo[12]"
+    },
+    {
+      "index": 13,
+      "name": "IsEnemyTo[13]"
+    },
+    {
+      "index": 14,
+      "name": "IsEnemyTo[14]"
     }
   ]
 }

@@ -2,79 +2,79 @@
   "sheet": "PresetCamera",
   "definitions": [
     {
-      "name": "PosX"
+      "name": "EID"
     },
     {
       "index": 1,
-      "name": "PosY"
+      "name": "PosX"
     },
     {
       "index": 2,
-      "name": "PosZ"
+      "name": "PosY"
     },
     {
       "index": 3,
-      "name": "Elezen"
+      "name": "PosZ"
     },
     {
       "index": 4,
-      "name": "Lalafell"
+      "name": "Elezen"
     },
     {
       "index": 5,
-      "name": "Miqote"
+      "name": "Lalafell"
     },
     {
       "index": 6,
-      "name": "Roe"
+      "name": "Miqote"
     },
     {
       "index": 7,
-      "name": "Hrothgar"
+      "name": "Roe"
     },
     {
       "index": 8,
-      "name": "Viera"
+      "name": "Hrothgar"
     },
     {
       "index": 9,
-      "name": "Unknown0"
+      "name": "Viera"
     },
     {
       "index": 10,
-      "name": "Hyur_F"
+      "name": "Unknown0"
     },
     {
       "index": 11,
-      "name": "Elezen_F"
+      "name": "Hyur_F"
     },
     {
       "index": 12,
-      "name": "Lalafell_F"
+      "name": "Elezen_F"
     },
     {
       "index": 13,
-      "name": "Miqote_F"
+      "name": "Lalafell_F"
     },
     {
       "index": 14,
-      "name": "Roe_F"
+      "name": "Miqote_F"
     },
     {
       "index": 15,
-      "name": "Hrothgar_F"
+      "name": "Roe_F"
     },
     {
       "index": 16,
-      "name": "Viera_F"
+      "name": "Hrothgar_F"
     },
     {
       "index": 17,
-      "name": "Unknown_70"
+      "name": "Viera_F"
     },
     {
       "index": 18,
-      "name": "EID"
+      "name": "Unknown_70"
     }
   ]
 }
