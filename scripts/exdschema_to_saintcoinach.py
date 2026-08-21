@@ -299,18 +299,37 @@ class Converter:
         return result
 
     def validate_default_column(self, result: Json) -> None:
+        """
+        SaintCoinach permits an unresolved defaultColumn.
+
+        SheetDefinition.Compile() uses TryGetValue() and simply leaves the
+        compiled default-column index null when the named column is absent.
+        This occurs in SaintCoinach's own definitions too, for example
+        StatusLoopVFX has defaultColumn "VFX" without a physical column named
+        exactly "VFX".
+
+        Preserve EXDSchema's displayField verbatim and report this only as an
+        informational warning.
+        """
         default_column = result.get("defaultColumn")
         if default_column is None:
             return
+
         names = {
             d.get("name")
             for d in result["definitions"]
             if isinstance(d, dict)
         }
+
         if default_column not in names:
-            raise ConversionError(
-                f"{self._sheet}: defaultColumn {default_column!r} is not present "
-                "in the generated SaintCoinach column names"
+            self.warn(
+                "$.displayField",
+                "default-column-unresolved",
+                f"defaultColumn {default_column!r} does not name a generated "
+                "SaintCoinach column. It is preserved verbatim; SaintCoinach "
+                "will treat its compiled default-column index as null.",
+                lossy=False,
+                once=True,
             )
 
     def expand_fields(self, fields: list[Json]) -> list[ExpandedLeaf]:
