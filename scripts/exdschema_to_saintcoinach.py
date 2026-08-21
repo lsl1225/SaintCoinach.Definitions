@@ -2,13 +2,21 @@
 """
 Convert xivdev/EXDSchema YAML definitions to xivapi/SaintCoinach JSON definitions.
 
-Dependency:
-    pip install PyYAML
+This converter uses EXDSchema's `.github/columns.yml` to translate the
+offset-ordered EXDSchema field list into SaintCoinach's EXH column-definition
+index space.
 
-Typical usage:
+Dependency:
+    python -m pip install PyYAML
+
+Typical usage with the EXDSchema `latest` branch:
     python exdschema_to_saintcoinach.py ./EXDSchema ./Definitions
-    python exdschema_to_saintcoinach.py ./EXDSchema/schemas/latest ./Definitions
-    python exdschema_to_saintcoinach.py ./GCSupplyDuty.yml ./Definitions
+
+Single file:
+    python exdschema_to_saintcoinach.py \
+        ./EXDSchema/Item.yml \
+        ./Definitions \
+        --columns-file ./EXDSchema/.github/columns.yml
 
 Optional:
     --generic-target Item
@@ -20,9 +28,11 @@ Optional:
 from __future__ import annotations
 
 import argparse
+import copy
 import json
+import re
 import sys
-from dataclasses import dataclass, asdict
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -35,6 +45,7 @@ except ImportError as exc:
 
 
 Json = dict[str, Any]
+_PACKED_BOOL_RE = re.compile(r"^packedbool([0-7])$", re.IGNORECASE)
 
 
 @dataclass
@@ -53,25 +64,166 @@ class LeafNaming:
     repeat_depth: int
 
 
+@dataclass
+class ExpandedLeaf:
+    path: str
+    base_name: str
+    output_base_name: str
+    scope_paths: tuple[str, ...]
+    scope_indices: tuple[int, ...]
+    field: Json
+
+    @property
+    def suffix(self) -> str:
+        # SaintCoinach RepeatDataDefinition appends the innermost repeat index
+        # first, then each outer repeat index.
+        return "".join(f"[{i}]" for i in reversed(self.scope_indices))
+
+    @property
+    def final_name(self) -> str:
+        return f"{self.output_base_name}{self.suffix}"
+
+
 class ConversionError(RuntimeError):
     pass
+
+
+class ColumnIndexResolver:
+    """
+    Maps EXDSchema's flattened offset order to SaintCoinach's EXH column index.
+
+    EXDSchema fields are ordered by row byte offset. SaintCoinach's `index`
+    refers to the original position of a column definition inside the EXH
+    header. EXDSchema's `.github/columns.yml` stores those original column
+    definitions, including their byte offsets.
+    """
+
+    def __init__(self, columns_file: Path) -> None:
+        self.columns_file = columns_file
+        self._sheets = self._load(columns_file)
+
+    @staticmethod
+    def _load(path: Path) -> dict[str, list[Json]]:
+        try:
+            with path.open("r", encoding="utf-8-sig") as f:
+                value = yaml.safe_load(f)
+        except yaml.YAMLError as exc:
+            raise ConversionError(
+                f"{path}: columns YAML parse failed: {exc}"
+            ) from exc
+
+        if not isinstance(value, dict):
+            raise ConversionError(f"{path}: columns YAML root must be an object")
+
+        result: dict[str, list[Json]] = {}
+        for raw_name, raw_columns in value.items():
+            if not isinstance(raw_name, str):
+                raise ConversionError(f"{path}: invalid sheet name in columns file")
+            if not isinstance(raw_columns, list):
+                raise ConversionError(
+                    f"{path}: columns entry for {raw_name!r} must be a list"
+                )
+
+            # EXDTools writes subrow sheets as "Sheet@Subrow". The EXDSchema file
+            # itself is still named "Sheet".
+            name = raw_name.removesuffix("@Subrow")
+            if name in result:
+                raise ConversionError(
+                    f"{path}: duplicate normalized columns entry for {name!r}"
+                )
+
+            columns: list[Json] = []
+            for i, raw_column in enumerate(raw_columns):
+                if not isinstance(raw_column, dict):
+                    raise ConversionError(
+                        f"{path}: {raw_name}[{i}] must be an object"
+                    )
+
+                col_type = raw_column.get("type")
+                offset = raw_column.get("offset")
+                if not isinstance(col_type, str) or not col_type:
+                    raise ConversionError(
+                        f"{path}: {raw_name}[{i}].type must be a string"
+                    )
+                if isinstance(offset, bool) or not isinstance(offset, int) or offset < 0:
+                    raise ConversionError(
+                        f"{path}: {raw_name}[{i}].offset must be a non-negative integer"
+                    )
+
+                columns.append({"type": col_type, "offset": offset})
+
+            result[name] = columns
+
+        return result
+
+    @staticmethod
+    def _offset_sort_key(column: Json, original_index: int) -> tuple[int, int]:
+        """
+        Match the offset ordering used by EXDSchema consumers.
+
+        Packed bool columns share a byte offset. Their packed-bool bit number
+        disambiguates their order within that byte.
+        """
+        offset = int(column["offset"])
+        col_type = str(column["type"]).lower()
+        match = _PACKED_BOOL_RE.fullmatch(col_type)
+        bit = int(match.group(1)) if match else 0
+        return (offset * 8 + bit, original_index)
+
+    def mapping_for(self, sheet: str, expected_count: int) -> list[int]:
+        columns = self._sheets.get(sheet)
+        if columns is None:
+            raise ConversionError(
+                f"{sheet}: no EXH column metadata found in {self.columns_file}"
+            )
+
+        if len(columns) != expected_count:
+            raise ConversionError(
+                f"{sheet}: EXDSchema expands to {expected_count} physical fields, "
+                f"but {self.columns_file} contains {len(columns)} EXH columns. "
+                "The schema and columns file must come from the same EXDSchema commit."
+            )
+
+        # The list position is the original EXH column-definition index used by
+        # SaintCoinach. Sorting by offset reconstructs the order used by EXDSchema.
+        sorted_columns = sorted(
+            enumerate(columns),
+            key=lambda pair: self._offset_sort_key(pair[1], pair[0]),
+        )
+        return [original_index for original_index, _column in sorted_columns]
 
 
 class Converter:
     def __init__(
         self,
         *,
+        column_resolver: ColumnIndexResolver,
         generic_targets: set[str] | None = None,
         strict: bool = False,
     ) -> None:
+        self.column_resolver = column_resolver
         self.generic_targets = generic_targets or set()
         self.strict = strict
         self.warnings: list[ConversionWarning] = []
         self._sheet = ""
-        self._conditional_switches: list[tuple[str, str]] = []
         self._name_overrides: dict[str, str] = {}
+        self._warned_paths: set[tuple[str, str]] = set()
 
-    def warn(self, path: str, code: str, message: str, *, lossy: bool = True) -> None:
+    def warn(
+        self,
+        path: str,
+        code: str,
+        message: str,
+        *,
+        lossy: bool = True,
+        once: bool = False,
+    ) -> None:
+        if once:
+            token = (path, code)
+            if token in self._warned_paths:
+                return
+            self._warned_paths.add(token)
+
         warning = ConversionWarning(
             sheet=self._sheet,
             path=path,
@@ -96,7 +248,7 @@ class Converter:
             raise ConversionError(f"{sheet}: missing or invalid top-level 'fields'")
 
         self._sheet = sheet
-        self._conditional_switches = []
+        self._warned_paths = set()
         self._name_overrides = self.build_name_overrides(fields)
 
         result: Json = {"sheet": sheet}
@@ -113,57 +265,77 @@ class Converter:
         if source.get("relations"):
             self.warn(
                 "$.relations",
-                "relations-dropped",
-                "EXDSchema relations have no direct SaintCoinach JSON equivalent; "
-                "the physical field layout is preserved and relation metadata is omitted.",
+                "relations-flattened",
+                "EXDSchema relation metadata is not emitted. Every physical field is "
+                "written as an individual SaintCoinach definition, so AoS/SoA column "
+                "positioning remains correct without group/repeat layout assumptions.",
+                lossy=False,
             )
 
+        leaves = self.expand_fields(fields)
+        self.attach_converters(leaves)
+
+        column_mapping = self.column_resolver.mapping_for(sheet, len(leaves))
+
         definitions: list[Json] = []
-        column_index = 0
+        for offset_index, leaf in enumerate(leaves):
+            actual_index = column_mapping[offset_index]
 
-        for i, field in enumerate(fields):
-            path = f"$.fields[{i}]"
-            definition = self.convert_field(field, inherited_name=None, path=path)
-            length = definition_length(definition)
+            definition: Json = {"name": leaf.final_name}
+            converter = leaf.field.get("__saintcoinach_converter")
+            if converter is not None:
+                definition["converter"] = converter
 
-            positioned = definition if column_index == 0 else {"index": column_index, **definition}
-            definitions.append(positioned)
-            column_index += length
+            if actual_index != 0:
+                definition = {"index": actual_index, **definition}
 
+            definitions.append(definition)
+
+        definitions.sort(key=lambda d: int(d.get("index", 0)))
         result["definitions"] = definitions
-        validate_unique_column_names(result)
 
-        # SaintCoinach ComplexLinkConverter resolves a "when.key" by searching
-        # top-level positioned definitions and comparing InnerDefinition.GetName(0).
-        # A top-level scalar-like field is safe. A top-level repeat/group generally
-        # exposes a suffixed or nested first name and may not resolve the source key.
-        scalar_top_level_names = {
-            f.get("name")
-            for f in fields
-            if isinstance(f, dict)
-            and isinstance(f.get("name"), str)
-            and f.get("type", "scalar") != "array"
-        }
-        for switch, path in self._conditional_switches:
-            if switch not in scalar_top_level_names:
-                self.warn(
-                    path,
-                    "conditional-key-may-not-resolve",
-                    f"conditional link uses switch field '{switch}', which is not a "
-                    "top-level scalar-like definition. SaintCoinach resolves complex-link "
-                    "condition keys against top-level definition names, so this case may "
-                    "need a manual definition rewrite.",
-                )
-
+        validate_generated_sheet(result, expected_count=len(leaves))
+        self.validate_default_column(result)
         return result
 
-    def convert_field(
+    def validate_default_column(self, result: Json) -> None:
+        default_column = result.get("defaultColumn")
+        if default_column is None:
+            return
+        names = {
+            d.get("name")
+            for d in result["definitions"]
+            if isinstance(d, dict)
+        }
+        if default_column not in names:
+            raise ConversionError(
+                f"{self._sheet}: defaultColumn {default_column!r} is not present "
+                "in the generated SaintCoinach column names"
+            )
+
+    def expand_fields(self, fields: list[Json]) -> list[ExpandedLeaf]:
+        leaves: list[ExpandedLeaf] = []
+        for i, field in enumerate(fields):
+            self.expand_field(
+                field,
+                inherited_name=None,
+                path=f"$.fields[{i}]",
+                scope_paths=(),
+                scope_indices=(),
+                out=leaves,
+            )
+        return leaves
+
+    def expand_field(
         self,
         field: Json,
         *,
         inherited_name: str | None,
         path: str,
-    ) -> Json:
+        scope_paths: tuple[str, ...],
+        scope_indices: tuple[int, ...],
+        out: list[ExpandedLeaf],
+    ) -> None:
         if not isinstance(field, dict):
             raise ConversionError(f"{self._sheet}: {path}: field must be an object")
 
@@ -179,43 +351,42 @@ class Converter:
                 f"{path}.comment",
                 "comment-dropped",
                 "SaintCoinach definitions have no field-comment property; comment omitted.",
+                once=True,
             )
 
         if field.get("relations"):
             self.warn(
                 f"{path}.relations",
-                "relations-dropped",
-                "EXDSchema array relations have no direct SaintCoinach JSON equivalent; "
-                "the physical field layout is preserved and relation metadata is omitted.",
+                "relations-flattened",
+                "Nested EXDSchema relation metadata is not emitted. Physical fields are "
+                "flattened individually and retain correct EXH indices.",
+                lossy=False,
+                once=True,
             )
 
-        if field_type == "array":
-            return self.convert_array(
-                field,
-                effective_name=effective_name,
-                path=path,
+        if field_type != "array":
+            if effective_name is None:
+                raise ConversionError(
+                    f"{self._sheet}: {path}: unnamed non-array field has no array name to inherit"
+                )
+
+            out.append(
+                ExpandedLeaf(
+                    path=path,
+                    base_name=effective_name,
+                    output_base_name=self.output_name(path, effective_name),
+                    scope_paths=scope_paths,
+                    scope_indices=scope_indices,
+                    field=copy.deepcopy(field),
+                )
             )
+            return
 
         if effective_name is None:
             raise ConversionError(
-                f"{self._sheet}: {path}: unnamed non-array field has no array name to inherit"
+                f"{self._sheet}: {path}: unnamed array has no name to inherit"
             )
 
-        definition: Json = {"name": self.output_name(path, effective_name)}
-
-        converter = self.convert_value_converter(field, path=path)
-        if converter is not None:
-            definition["converter"] = converter
-
-        return definition
-
-    def convert_array(
-        self,
-        field: Json,
-        *,
-        effective_name: str | None,
-        path: str,
-    ) -> Json:
         count = field.get("count")
         if isinstance(count, bool) or not isinstance(count, (int, float)):
             raise ConversionError(f"{self._sheet}: {path}: array count must be a number")
@@ -227,67 +398,198 @@ class Converter:
 
         children = field.get("fields")
 
-        # EXDSchema allows an array without an explicit element descriptor.
-        # Its element is treated as a plain scalar carrying the array's own name.
         if children is None:
-            if effective_name is None:
-                raise ConversionError(
-                    f"{self._sheet}: {path}: unnamed array without fields has no name to inherit"
+            # An array without an element descriptor is a repeated scalar.
+            for repeat_index in range(count):
+                out.append(
+                    ExpandedLeaf(
+                        path=path,
+                        base_name=effective_name,
+                        output_base_name=self.output_name(path, effective_name),
+                        scope_paths=(*scope_paths, path),
+                        scope_indices=(*scope_indices, repeat_index),
+                        field={"type": "scalar"},
+                    )
                 )
-            repeated: Json = {"name": self.output_name(path, effective_name)}
+            return
 
-        else:
-            if not isinstance(children, list) or not children:
-                raise ConversionError(
-                    f"{self._sheet}: {path}.fields: must be a non-empty list"
-                )
+        if not isinstance(children, list) or not children:
+            raise ConversionError(
+                f"{self._sheet}: {path}.fields: must be a non-empty list"
+            )
+
+        for repeat_index in range(count):
+            child_scope_paths = (*scope_paths, path)
+            child_scope_indices = (*scope_indices, repeat_index)
 
             if len(children) == 1:
-                # In EXDSchema, a one-field array uses an unnamed field descriptor.
-                # Its semantic name is the containing array's name.
-                repeated = self.convert_field(
+                self.expand_field(
                     children[0],
                     inherited_name=effective_name,
                     path=f"{path}.fields[0]",
+                    scope_paths=child_scope_paths,
+                    scope_indices=child_scope_indices,
+                    out=out,
                 )
             else:
-                members: list[Json] = []
                 for i, child in enumerate(children):
-                    member = self.convert_field(
+                    self.expand_field(
                         child,
                         inherited_name=None,
                         path=f"{path}.fields[{i}]",
+                        scope_paths=child_scope_paths,
+                        scope_indices=child_scope_indices,
+                        out=out,
                     )
-                    members.append(member)
-                repeated = {"type": "group", "members": members}
 
-        return {
-            "type": "repeat",
-            "count": count,
-            "definition": repeated,
-        }
+    def attach_converters(self, leaves: list[ExpandedLeaf]) -> None:
+        for leaf in leaves:
+            converter = self.convert_value_converter(leaf, leaves)
+            if converter is not None:
+                leaf.field["__saintcoinach_converter"] = converter
+
+    def convert_value_converter(
+        self,
+        leaf: ExpandedLeaf,
+        all_leaves: list[ExpandedLeaf],
+    ) -> Json | None:
+        field = leaf.field
+        path = leaf.path
+        field_type = field.get("type", "scalar")
+
+        if field_type == "scalar":
+            return None
+
+        if field_type == "icon":
+            return {"type": "icon"}
+
+        if field_type == "color":
+            return {"type": "color"}
+
+        if field_type == "modelId":
+            self.warn(
+                path,
+                "modelid-downgraded",
+                "EXDSchema 'modelId' has no corresponding SaintCoinach value converter; "
+                "it is emitted as a plain scalar field.",
+                once=True,
+            )
+            return None
+
+        if field_type != "link":
+            raise ConversionError(
+                f"{self._sheet}: {path}: unsupported EXDSchema field type {field_type!r}"
+            )
+
+        if "targets" in field:
+            targets = normalize_targets(field["targets"], self._sheet, path)
+            if len(targets) == 1:
+                return {"type": "link", "target": targets[0]}
+            return {"type": "multiref", "targets": targets}
+
+        condition = field.get("condition")
+        if not isinstance(condition, dict):
+            raise ConversionError(
+                f"{self._sheet}: {path}: link requires 'targets' or 'condition'"
+            )
+
+        switch = condition.get("switch")
+        cases = condition.get("cases")
+        if not isinstance(switch, str) or not switch:
+            raise ConversionError(
+                f"{self._sheet}: {path}.condition.switch: invalid switch field"
+            )
+        if not isinstance(cases, dict) or not cases:
+            raise ConversionError(
+                f"{self._sheet}: {path}.condition.cases: must be a non-empty object"
+            )
+
+        resolved_switch = self.resolve_condition_switch(
+            switch=switch,
+            current_leaf=leaf,
+            all_leaves=all_leaves,
+        )
+
+        links: list[Json] = []
+        for raw_case, raw_targets in cases.items():
+            try:
+                case_value = int(raw_case)
+            except (TypeError, ValueError) as exc:
+                raise ConversionError(
+                    f"{self._sheet}: {path}.condition.cases: "
+                    f"case key {raw_case!r} is not an integer"
+                ) from exc
+
+            targets = normalize_targets(
+                raw_targets,
+                self._sheet,
+                f"{path}.condition.cases[{raw_case!r}]",
+            )
+
+            link: Json
+            if len(targets) == 1:
+                link = {"sheet": targets[0]}
+            else:
+                link = {"sheets": targets}
+
+            link["when"] = {
+                "key": resolved_switch,
+                "value": case_value,
+            }
+            links.append(link)
+
+        return {"type": "complexlink", "links": links}
+
+    def resolve_condition_switch(
+        self,
+        *,
+        switch: str,
+        current_leaf: ExpandedLeaf,
+        all_leaves: list[ExpandedLeaf],
+    ) -> str:
+        """
+        Resolve an EXDSchema condition key to the exact flattened SaintCoinach name.
+
+        For a link repeated inside an array, a sibling switch field must refer to
+        that same array element, for example `Type[3]`. Search from the deepest
+        matching array scope outward until a unique switch field is found.
+        """
+        candidates = [leaf for leaf in all_leaves if leaf.base_name == switch]
+
+        current_depth = len(current_leaf.scope_paths)
+        for depth in range(current_depth, -1, -1):
+            wanted_paths = current_leaf.scope_paths[:depth]
+            wanted_indices = current_leaf.scope_indices[:depth]
+
+            scoped = [
+                leaf
+                for leaf in candidates
+                if leaf.scope_paths == wanted_paths
+                and leaf.scope_indices == wanted_indices
+            ]
+            if len(scoped) == 1:
+                return scoped[0].final_name
+            if len(scoped) > 1:
+                raise ConversionError(
+                    f"{self._sheet}: {current_leaf.path}.condition.switch: "
+                    f"switch field {switch!r} is ambiguous in array scope"
+                )
+
+        raise ConversionError(
+            f"{self._sheet}: {current_leaf.path}.condition.switch: "
+            f"cannot resolve switch field {switch!r} to a generated SaintCoinach column"
+        )
 
     def output_name(self, path: str, base_name: str) -> str:
         return self._name_overrides.get(path, base_name)
 
     def build_name_overrides(self, fields: list[Json]) -> dict[str, str]:
         """
-        SaintCoinach RepeatDataDefinition only appends [index] to the repeated
-        leaf name. It does not preserve the EXDSchema array/container name.
+        Prevent final SaintCoinach column-name collisions.
 
-        Two different arrays containing the same member name therefore collide,
-        e.g. Stages.Name and Types.Name both become Name[0]. SheetDefinition.Compile
-        stores names in a Dictionary and throws on the second occurrence.
-
-        Find leaf fields that would have the same SaintCoinach name shape and
-        qualify only those ambiguous leaves with their EXDSchema array path:
-
-            Name under Stages -> Name{Stages}
-            Name under Types  -> Name{Types}
-
-        RepeatDataDefinition then produces Name{Stages}[0] and Name{Types}[0].
-        Unambiguous names are left unchanged for compatibility with existing
-        SaintCoinach definitions.
+        RepeatDataDefinition historically appended only [index] and did not retain
+        the outer EXDSchema container name. If two arrays contain a member with the
+        same name, both could become e.g. Name[0]. Qualify only ambiguous leaves.
         """
         leaves: list[LeafNaming] = []
         for i, field in enumerate(fields):
@@ -313,15 +615,16 @@ class Converter:
                 if leaf.array_scopes:
                     qualifier = ".".join(leaf.array_scopes)
                 else:
-                    # A repeated-name collision at top level should not normally
-                    # exist in EXDSchema. Keep conversion deterministic if it does.
-                    qualifier = leaf.path.removeprefix("$.fields[").replace("]", "")
-                    qualifier = f"Field{qualifier}"
+                    stable = (
+                        leaf.path.replace("$.fields", "F")
+                        .replace(".fields", "F")
+                        .replace("[", "")
+                        .replace("]", "")
+                    )
+                    qualifier = stable
 
                 candidate = f"{base_name}{{{qualifier}}}"
                 if candidate in used:
-                    # Full array scopes are normally unique. Include a stable path
-                    # fallback for malformed or unusual schemas.
                     stable = (
                         leaf.path.replace("$.fields", "F")
                         .replace(".fields", "F")
@@ -336,7 +639,7 @@ class Converter:
                     leaf.path,
                     "column-name-disambiguated",
                     f"SaintCoinach would generate a duplicate column name from "
-                    f"'{base_name}'. Emitting '{candidate}' to keep column names unique.",
+                    f"'{base_name}'. Emitting '{candidate}' to keep names unique.",
                     lossy=False,
                 )
 
@@ -383,6 +686,7 @@ class Converter:
 
         scopes = (*array_scopes, effective_name)
         children = field.get("fields")
+
         if children is None:
             out.append(
                 LeafNaming(
@@ -395,7 +699,9 @@ class Converter:
             return
 
         if not isinstance(children, list) or not children:
-            raise ConversionError(f"{self._sheet}: {path}.fields: must be a non-empty list")
+            raise ConversionError(
+                f"{self._sheet}: {path}.fields: must be a non-empty list"
+            )
 
         if len(children) == 1:
             self.collect_leaf_namings(
@@ -416,156 +722,11 @@ class Converter:
                 out=out,
             )
 
-    def convert_value_converter(self, field: Json, *, path: str) -> Json | None:
-        field_type = field.get("type", "scalar")
-
-        if field_type == "scalar":
-            return None
-
-        if field_type == "icon":
-            return {"type": "icon"}
-
-        if field_type == "color":
-            return {"type": "color"}
-
-        if field_type == "modelId":
-            self.warn(
-                path,
-                "modelid-downgraded",
-                "EXDSchema 'modelId' has no corresponding SaintCoinach value converter; "
-                "it is emitted as a plain scalar field.",
-            )
-            return None
-
-        if field_type != "link":
-            raise ConversionError(
-                f"{self._sheet}: {path}: unsupported EXDSchema field type {field_type!r}"
-            )
-
-        if "targets" in field:
-            targets = normalize_targets(field["targets"], self._sheet, path)
-            if len(targets) == 1:
-                return {"type": "link", "target": targets[0]}
-            return {"type": "multiref", "targets": targets}
-
-        condition = field.get("condition")
-        if not isinstance(condition, dict):
-            raise ConversionError(
-                f"{self._sheet}: {path}: link requires 'targets' or 'condition'"
-            )
-
-        switch = condition.get("switch")
-        cases = condition.get("cases")
-        if not isinstance(switch, str) or not switch:
-            raise ConversionError(
-                f"{self._sheet}: {path}.condition.switch: invalid switch field"
-            )
-        if not isinstance(cases, dict) or not cases:
-            raise ConversionError(
-                f"{self._sheet}: {path}.condition.cases: must be a non-empty object"
-            )
-
-        links: list[Json] = []
-        for raw_case, raw_targets in cases.items():
-            try:
-                case_value = int(raw_case)
-            except (TypeError, ValueError) as exc:
-                raise ConversionError(
-                    f"{self._sheet}: {path}.condition.cases: "
-                    f"case key {raw_case!r} is not an integer"
-                ) from exc
-
-            # EXDSchema's live `latest` definitions may use 0 as a
-            # conditional discriminator (for example MKDRelicGrowth2ContentList).
-            # SaintCoinach's ComplexLinkConverter compares when.value directly
-            # and imposes no positive-integer restriction, so preserve any
-            # integer case value verbatim.
-
-            targets = normalize_targets(
-                raw_targets,
-                self._sheet,
-                f"{path}.condition.cases[{raw_case!r}]",
-            )
-
-            link: Json
-            if len(targets) == 1:
-                link = {"sheet": targets[0]}
-            else:
-                link = {"sheets": targets}
-
-            link["when"] = {"key": switch, "value": case_value}
-            links.append(link)
-
-        self._conditional_switches.append(
-            (switch, f"{path}.condition.switch")
-        )
-
-        return {"type": "complexlink", "links": links}
-
-
-def definition_column_names(definition: Json) -> list[str]:
-    """Emulate SaintCoinach IDataDefinition.GetName for every inner column."""
-    kind = definition.get("type")
-
-    if kind == "repeat":
-        count = definition.get("count")
-        child = definition.get("definition")
-        if not isinstance(count, int) or not isinstance(child, dict):
-            raise ConversionError("invalid generated repeat definition")
-        child_names = definition_column_names(child)
-        names: list[str] = []
-        for repeat_nr in range(count):
-            names.extend(f"{name}[{repeat_nr}]" for name in child_names)
-        return names
-
-    if kind == "group":
-        members = definition.get("members")
-        if not isinstance(members, list):
-            raise ConversionError("invalid generated group definition")
-        names: list[str] = []
-        for member in members:
-            if not isinstance(member, dict):
-                raise ConversionError("invalid generated group member")
-            names.extend(definition_column_names(member))
-        return names
-
-    name = definition.get("name")
-    if not isinstance(name, str) or not name:
-        raise ConversionError(f"invalid generated single definition: {definition!r}")
-    return [name]
-
-
-def validate_unique_column_names(sheet: Json) -> None:
-    """
-    Fail during conversion instead of letting SaintCoinach SheetDefinition.Compile
-    fail later with Dictionary.Add duplicate-key exceptions.
-    """
-    sheet_name = sheet.get("sheet", "<unknown>")
-    definitions = sheet.get("definitions")
-    if not isinstance(definitions, list):
-        raise ConversionError(f"{sheet_name}: invalid generated definitions")
-
-    seen: dict[str, int] = {}
-    for definition in definitions:
-        if not isinstance(definition, dict):
-            raise ConversionError(f"{sheet_name}: invalid generated definition")
-        start = definition.get("index", 0)
-        if not isinstance(start, int):
-            raise ConversionError(f"{sheet_name}: invalid generated definition index")
-        for relative, name in enumerate(definition_column_names(definition)):
-            offset = start + relative
-            previous = seen.get(name)
-            if previous is not None:
-                raise ConversionError(
-                    f"{sheet_name}: generated duplicate SaintCoinach column name {name!r} "
-                    f"at offsets {previous} and {offset}"
-                )
-            seen[name] = offset
-
 
 def normalize_targets(value: Any, sheet: str, path: str) -> list[str]:
     if not isinstance(value, list) or not value:
         raise ConversionError(f"{sheet}: {path}: targets must be a non-empty list")
+
     targets: list[str] = []
     for target in value:
         if not isinstance(target, str) or not target:
@@ -574,29 +735,60 @@ def normalize_targets(value: Any, sheet: str, path: str) -> list[str]:
     return targets
 
 
-def definition_length(definition: Json) -> int:
-    """
-    Return the number of physical EXH columns consumed by a SaintCoinach IDataDefinition.
-    """
-    kind = definition.get("type")
+def validate_generated_sheet(sheet: Json, *, expected_count: int) -> None:
+    sheet_name = sheet.get("sheet", "<unknown>")
+    definitions = sheet.get("definitions")
+    if not isinstance(definitions, list):
+        raise ConversionError(f"{sheet_name}: invalid generated definitions")
 
-    if kind == "repeat":
-        count = definition.get("count")
-        child = definition.get("definition")
-        if not isinstance(count, int) or not isinstance(child, dict):
-            raise ConversionError("invalid generated repeat definition")
-        return count * definition_length(child)
+    if len(definitions) != expected_count:
+        raise ConversionError(
+            f"{sheet_name}: generated {len(definitions)} definitions, "
+            f"expected {expected_count}"
+        )
 
-    if kind == "group":
-        members = definition.get("members")
-        if not isinstance(members, list):
-            raise ConversionError("invalid generated group definition")
-        return sum(definition_length(member) for member in members)
+    seen_names: dict[str, int] = {}
+    seen_indices: dict[int, str] = {}
 
-    # SingleDataDefinition
-    if "name" not in definition:
-        raise ConversionError(f"invalid generated single definition: {definition!r}")
-    return 1
+    for definition in definitions:
+        if not isinstance(definition, dict):
+            raise ConversionError(f"{sheet_name}: invalid generated definition")
+
+        index = definition.get("index", 0)
+        name = definition.get("name")
+
+        if isinstance(index, bool) or not isinstance(index, int) or index < 0:
+            raise ConversionError(
+                f"{sheet_name}: invalid generated definition index {index!r}"
+            )
+        if not isinstance(name, str) or not name:
+            raise ConversionError(
+                f"{sheet_name}: invalid generated definition name {name!r}"
+            )
+
+        previous_name = seen_indices.get(index)
+        if previous_name is not None:
+            raise ConversionError(
+                f"{sheet_name}: generated duplicate EXH column index {index}: "
+                f"{previous_name!r} and {name!r}"
+            )
+        seen_indices[index] = name
+
+        previous_index = seen_names.get(name)
+        if previous_index is not None:
+            raise ConversionError(
+                f"{sheet_name}: generated duplicate SaintCoinach column name "
+                f"{name!r} at indices {previous_index} and {index}"
+            )
+        seen_names[name] = index
+
+    if sorted(seen_indices) != list(range(expected_count)):
+        missing = sorted(set(range(expected_count)) - set(seen_indices))
+        extra = sorted(set(seen_indices) - set(range(expected_count)))
+        raise ConversionError(
+            f"{sheet_name}: generated column-index coverage is invalid; "
+            f"missing={missing[:20]}, extra={extra[:20]}"
+        )
 
 
 def load_yaml(path: Path) -> Json:
@@ -620,33 +812,78 @@ def discover_yaml_files(input_path: Path) -> list[Path]:
     if not input_path.is_dir():
         raise ConversionError(f"input path does not exist: {input_path}")
 
-    # On the EXDSchema "latest" branch, definitions are in the repository root.
+    # On EXDSchema's `latest` branch the sheet YAMLs are repository-root files.
     direct = sorted(
-        p for pattern in ("*.yml", "*.yaml") for p in input_path.glob(pattern)
+        p
+        for pattern in ("*.yml", "*.yaml")
+        for p in input_path.glob(pattern)
     )
     if direct:
         return direct
 
-    # On EXDSchema main, "schemas/latest" is the preferred submodule.
+    # On EXDSchema `main`, schemas/latest is a submodule.
     latest = input_path / "schemas" / "latest"
     if latest.is_dir():
         latest_direct = sorted(
-            p for pattern in ("*.yml", "*.yaml") for p in latest.glob(pattern)
+            p
+            for pattern in ("*.yml", "*.yaml")
+            for p in latest.glob(pattern)
         )
         if latest_direct:
             return latest_direct
 
-    # Fallback for a custom checkout layout.
     recursive = sorted(
         {
             p
             for pattern in ("*.yml", "*.yaml")
             for p in input_path.rglob(pattern)
+            if ".github" not in p.parts
         }
     )
     if not recursive:
-        raise ConversionError(f"no .yml/.yaml definitions found under {input_path}")
+        raise ConversionError(
+            f"no EXDSchema .yml/.yaml definitions found under {input_path}"
+        )
     return recursive
+
+
+def discover_columns_file(
+    input_path: Path,
+    explicit: Path | None,
+) -> Path:
+    if explicit is not None:
+        if not explicit.is_file():
+            raise ConversionError(f"columns file does not exist: {explicit}")
+        return explicit
+
+    start = input_path if input_path.is_dir() else input_path.parent
+    candidates: list[Path] = []
+
+    # Most common case: checkout of the `latest` branch.
+    candidates.append(start / ".github" / "columns.yml")
+
+    # If caller points at schemas/latest from a main checkout.
+    candidates.append(start / "schemas" / "latest" / ".github" / "columns.yml")
+
+    # Also search a few parents for single-file invocation.
+    for parent in [start, *list(start.parents)[:4]]:
+        candidates.append(parent / ".github" / "columns.yml")
+
+    seen: set[Path] = set()
+    for candidate in candidates:
+        candidate = candidate.resolve()
+        if candidate in seen:
+            continue
+        seen.add(candidate)
+        if candidate.is_file():
+            return candidate
+
+    raise ConversionError(
+        "Could not find EXDSchema .github/columns.yml. "
+        "Use an EXDSchema `latest` checkout as input or pass "
+        "--columns-file /path/to/EXDSchema/.github/columns.yml. "
+        "Accurate SaintCoinach indices cannot be generated from sheet YAML alone."
+    )
 
 
 def write_json(path: Path, value: Any) -> None:
@@ -660,11 +897,14 @@ def convert_paths(
     input_path: Path,
     output_dir: Path,
     *,
+    columns_file: Path,
     generic_targets: set[str],
     strict: bool,
 ) -> tuple[int, list[ConversionWarning]]:
     files = discover_yaml_files(input_path)
+    resolver = ColumnIndexResolver(columns_file)
     converter = Converter(
+        column_resolver=resolver,
         generic_targets=generic_targets,
         strict=strict,
     )
@@ -680,12 +920,11 @@ def convert_paths(
         if sheet in output_names:
             raise ConversionError(
                 f"duplicate sheet name {sheet!r}; input discovery found multiple versions. "
-                "Point the script at one EXDSchema version, preferably schemas/latest."
+                "Point the script at one EXDSchema version, preferably the `latest` checkout."
             )
         output_names.add(sheet)
 
-        output_path = output_dir / f"{sheet}.json"
-        write_json(output_path, result)
+        write_json(output_dir / f"{sheet}.json", result)
         converted += 1
 
     return converted, converter.warnings
@@ -693,17 +932,31 @@ def convert_paths(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Convert xivdev/EXDSchema YAML to SaintCoinach Definitions JSON."
+        description=(
+            "Convert xivdev/EXDSchema YAML to SaintCoinach Definitions JSON "
+            "using EXDSchema EXH column metadata."
+        )
     )
     parser.add_argument(
         "input",
         type=Path,
-        help="An EXDSchema YAML file, the latest branch directory, or the EXDSchema repo root.",
+        help=(
+            "An EXDSchema YAML file, a checkout of the `latest` branch, "
+            "or a repo containing schemas/latest."
+        ),
     )
     parser.add_argument(
         "output",
         type=Path,
         help="Output directory for SaintCoinach .json definitions.",
+    )
+    parser.add_argument(
+        "--columns-file",
+        type=Path,
+        help=(
+            "Path to EXDSchema .github/columns.yml. Auto-detected when input "
+            "is an EXDSchema checkout."
+        ),
     )
     parser.add_argument(
         "--generic-target",
@@ -718,7 +971,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--warning-report",
         type=Path,
-        help="Write lossy-conversion warnings to this JSON file.",
+        help="Write conversion warnings to this JSON file.",
     )
     parser.add_argument(
         "--strict",
@@ -732,9 +985,11 @@ def main(argv: Iterable[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
 
     try:
+        columns_file = discover_columns_file(args.input, args.columns_file)
         count, warnings = convert_paths(
             args.input,
             args.output,
+            columns_file=columns_file,
             generic_targets=set(args.generic_target),
             strict=args.strict,
         )
@@ -752,6 +1007,7 @@ def main(argv: Iterable[str] | None = None) -> int:
             file=sys.stderr,
         )
 
+    print(f"columns metadata: {columns_file}")
     print(
         f"converted {count} sheet(s) to {args.output} "
         f"with {len(warnings)} warning(s)"
